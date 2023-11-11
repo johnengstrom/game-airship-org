@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Aether: Pangolin Rescue Mission",
+  "gameDescription": "In a world pushed to the brink of an environmental crisis, two futuristic airship crews, loaded with mission-specific cargo and equipment, are tasked with rescuing and relocating the critically endangered pangolins. The teams must make strategic decisions to not only complete the mission successfully, but also to minimize environmental impact, reflecting the hard reality of wildlife conservation efforts. With each turn presenting a set of challenging scenarios, the collective decision of both teams impacts the narrative of the game and the fate of the pangolins.",
+  "setting": {
+    "location": "African Skyways to Safe Sanctuaries",
+    "missionStart": "Poaching Hotspots in Africa",
+    "missionEnd": "Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aether Wings",
+      "description": "Specializes in stealth and wildlife handling."
+    },
+    "redTeam": {
+      "name": "Aegis Carriers",
+      "description": "Renowned for their strategic planning and logistical efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are confronted with a labyrinth of illegal traps laying in their route, threatening not just the pangolins but also the hydrogen-fueled airships.",
+      "options": {
+        "A": "Head straight, relying on advanced guidance systems to navigate through the hazardous traps.",
+        "B": "Take a detour, which consumes more hydrogen but ensures safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams proceed straight, trusting their guidance systems. The risky course saves hydrogen but exposes them to dangerous close calls, fraying nerves but keeping the mission on track.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the traps, while the other plays safe. The careful team spends extra hydrogen but guarantees the safety of the rescued pangolins, while the daring team's brinkmanship saves fuel but increases risk.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A swiftly splitting decision leads one airship into the labyrinth while the other steers clear. The daring team's successful maneuver saves hydrogen but increases stress, while the cautious team's detour ensures a smooth, albeit longer journey.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for safety over speed, using up additional hydrogen to avoid the risky maze of traps. Extra radiation from the detour does strain the hydrogen fuel cells but the pangolins are oblivious to the hazards avoided.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress call is received from ground operatives caught in a firefight with illegal poachers.",
+      "options": {
+        "A": "Divert to drop off emergency supplies (risking delay and increased hydrogen consumption).",
+        "B": "Wire the situation to the local law enforcement and continue on current path."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to assist. Dropping emergency supplies potentially saves lives, but consumes more hydrogen and slows their journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts while the other notifies the law enforcement. The hauler team receives a commendation, but the other caught in crosshairs of morality as they press on towards the sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Both teams split the duty. While one helps the ground team, the other keeps law enforcement posted. They manage to balance morality and mission, even as the sudden need for speed strains the engines.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to inform the local law enforcement and continue on their course. The sudden call to action highlights the harsh reality of on-ground operations, even as our airships float towards the target sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the sanctuary in Vietnam, the teams find the airspace filled with drones, documenting the arrival live for an eager global audience.",
+      "options": {
+        "A": "Speed up to beat the drone swarm and secure optimal landing slots but use more hydrogen.",
+        "B": "Maintain current speed and negotiate the drone traffic in real-time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accelerate into the swarm, securing prime slots but using more hydrogen. The spectacle is inspiring to watch but leaves an energy footprint behind.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Determined, one team charges ahead while the other maintains calm. The rushing team gets a hint of turbulence but wins favorable slots, while the careful navigator earns admiration for its subtlety.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team hurries while the other remains patient; both reach their slots gracefully, teaching a lesson about the various paths to success - be it the race of the excited or the dance of the calm.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams refuse to rush, maintaining their speed and navigating through the drones in real-time. Their patience and skill garner praise from the global viewership, casting them as the heroes of the rescue mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

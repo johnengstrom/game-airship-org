@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Tourism and Conservation",
+  "gameDescription": "In the pristine wilderness of the Antarctica, the surge in tourism brings forth a new challenge. As captains of the Red and Blue futuristic airships, players must navigate through this delicate landscape and achieve a fine balance between facilitating scientific research, sustainable exploration and making sure the unique ecosystem of Antarctica is protected. All decisions made will directly impact the environment and the future of tourism in Antarctica.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Research Station in Antarctica",
+    "missionEnd": "Tourist Landing Site"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Explorers",
+      "description": "Specializing in tourist management and conservation efforts"
+    },
+    "redTeam": {
+      "name": "Polaris Pathfinders",
+      "description": "Experts in site selection and implementation of sustainable practices"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both teams need to choose a landing site for the tourists. Should they select the popular, but already impacted site, or should they choose a pristine and untouched location.",
+      "options": {
+        "A": "Choose a popular, already impacted area.",
+        "B": "Select a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the popular area. Though the impact is minimized due to the area already being affected, the continual use contributes to its gradual degradation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chose the impacted area, while the other chose the untouched location. The pristine site's introduction to tourism begins cautiously, but the popular site continues to degrade.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A contrast in decisions leads to the popular area receiving a break from tourism, while the untouched location faces its first exposure. The outcome remains an uncertainty, requiring careful observance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the pristine site. Its virgin charm attracts tourists, but can this new site handle the influx without untoward environmental implications? Only time will tell.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Both teams need to decide on the tourist capacity. Should they allow a large number of tourists, potentially causing greater impact on the environment, or limit the number of tourists prioritizing conservation over revenue?",
+      "options": {
+        "A": "Allow a higher number of tourists with potential higher impact.",
+        "B": "Limit tourist numbers prioritizing conservation, but with less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to let in a larger number of tourists. Though revenue increases, the impact on the environment is noticeably high, sparking debates on sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team deprioritizes revenue for conservation, while the other team allows more tourists. The heavy influx in one area intensifies the impact, but limited access elsewhere encourages mindful tourism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing strategies result in one area being overcrowded and another serenely quiet. The need for balancing revenues with conservation becomes glaringly obvious.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for conservation-friendly tourism. The reduced numbers lead to a lesser impact on the environment, but the drop in revenue is a poignant reminder of the trade-offs involved in sustainable tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally, the teams need to implement a conservation initiative. Should they actively engage tourists in conservation efforts or emphasize on strict regulations and area closures?",
+      "options": {
+        "A": "Engage tourists in conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to engage the tourists in the conservation efforts. The tourists, having personally contributed to conservation, leave with a greater appreciation for the environment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team successfully engages the tourists in conservation efforts while the other team strictly implements regulations. The balance between active participation and enforced discipline results in a significant positive impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team imposing strict regulations and the other engaging tourists directly, an intricate combination of rules and involvement result in a dynamic and potentially sustainable model.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for imposing strict limits and closure of certain areas. While the environment sees a respite from tourism, the lack of tourist participation leaves a gap in the conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

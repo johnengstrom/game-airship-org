@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Protectors",
+  "gameDescription": "Two futuristic airship teams, the 'Lupus Guardians' and the 'Aquila Angels', set off on a mission to airlift and safely transport rescued pangolins from Africa to a new sanctuary in Vietnam, crafted meticulously by Greater Good Charities and Wildlife At Risk. Every strategic decision aboard their crafts will impact the successful relocation and rehabilitation of these vulnerable creatures, while also taking into account the environmental implications of their actions.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Lupus Guardians",
+      "description": "Experts in wildlife handling and risk management during transport."
+    },
+    "redTeam": {
+      "name": "Aquila Angels",
+      "description": "Specialists in efficient flight and sustainable practices."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the team prepares for lift off on African soil, they are aware of potential poachers in the region. They must make a pivotal decision on how to handle this threat.",
+      "options": {
+        "A": "Maintain the scheduled take-off time and rely on onboard defense systems.",
+        "B": "Delay take-off until confirmation of a clear path, which might risk the pangolins' stress levels."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to continue with the scheduled take-off. The onboard defense systems deter the poachers successfully, maintaining the safety of the pangolins. Their focus on mission efficiency showcases admirable bravery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Lupus Guardians take off as planned while the Aquila Angels delay. The delay stresses the pangolins but ensures absolute safety. In contrast, the Guardians’ efficient courage impresses the on-ground teams.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aquila Angels carry on with the take-off while the Lupus Guardians delay. The Angels' swift action secures a safe path, whereas the Guardians' caution heightens pangolin stress but ensures safety from poachers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait until the path is completely clear from poachers. While this increases the pangolins' stress levels slightly, the guarantee of safety reassures the teams, demonstrating their shared commitment to rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Aboard the airships, the pangolins show signs of anxiety. The team is faced with a difficult decision to ensure the wellbeing of their vulnerable cargo.",
+      "options": {
+        "A": "Shift the environmental controls to a more natural setting which might consume more power.",
+        "B": "Continue with the current conditions and try to soothe them with soft music and ambient noise."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to adjust the settings. The power consumption increases but the pangolins seem calmer. The teams’ prioritization of passenger wellbeing reflects their dedication to the cause.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Lupus Guardians adjust the environmental settings while the Aquila Angels opt for soothing music. The latter's unique approach impresses observers, proving that innovation can coexist with conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aquila Angels change the environmental settings as the Lupus Guardians play calming music. The Guardians' approach, though unorthodox, seems to work best, highlighting the importance of unconventional solutions in conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams play soothing music for the pangolins while keeping the current settings. They successfully calm the pangolins without unnecessary energy usage, reflecting their ingenuity in resource management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships prepare to land in Vietnam, the teams face heavy air traffic and must make suitable landing plans.",
+      "options": {
+        "A": "Choose to land at a small, closer base then use ground transport for the rest of the journey.",
+        "B": "Wait for the opportunity to land directly in the fully-equipped sanctuary, ensuring more safety and less stress for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to land at the closer base, complementing safety with efficient time management. Though the journey on ground is a bit stressful, the pangolin’s successful relocation is worth the small sacrifice.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Lupus Guardians decide to land earlier while the Aquila Angels choose to wait. The Guardians’ decisions ensure a quick recovery inspite of a slightly stressful journey, while the Angels‘ patience ensures a seamless transition for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aquila Angels decide to land earlier while the Lupus Guardians choose to wait. Compared to the Angels’ slight mishap during transition, the Guardians exemplify strategy and patience, ensuring a perfect settling-in for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait for a direct landing chance at the sanctuary. This decision ensures comfort and less stress for the pangolins, demonstrating the teams’ joint commitment to prioritize wildlife welfare above all.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

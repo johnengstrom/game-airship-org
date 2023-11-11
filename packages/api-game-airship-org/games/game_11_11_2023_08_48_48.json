@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Echoes of Ice",
+  "gameDescription": "As the captains of futuristic airships, players are faced with the task of navigating the pristine wilderness of Antarctica, balancing the soaring demand for tourism with the dire need to preserve the unique ecosystem. With tourism at a surge, the onus is on the players to choose between popular and potentially impacted areas, untouched and pristine locations for landing sites. Each decision contributes to a myriad of environmental outcomes, affecting Antarctica's biodiversity and the overall sustainability of our Antarctic exploration. The challenge here is to integrate strategic gameplay with real-world issues, and educate players on the complexities of tourism in Antarctica.",
+  "setting": {
+    "location": "Over the ice fields of Antarctica",
+    "missionStart": "McMurdo Station, Antarctica",
+    "missionEnd": "Tourist selected Exploration Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Pioneers",
+      "description": "Specialising in tourist management and sustainable tourism operations."
+    },
+    "redTeam": {
+      "name": "Ice Guardians",
+      "description": "Experts in site selection and implementation of conservation initiatives."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams must select an optimal landing site for tourists. Balancing demand and environmental impact is key.",
+      "options": {
+        "A": "Choose a popular but already impacted site.",
+        "B": "Select a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the already impacted sites. While less harm is done, tourists complain about overcrowding.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ice Guardians decide to go for the untouched location while Polar Pioneers opted for the impacted sites. Disagreements hamper the trip's coordination.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Polar Pioneers went for the untouched site while Ice Guardians picked the impacted sites. Tension rises as tourists' satisfaction divides.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select untouched locations, resulting in negative impact on the pristine wilderness. But tourists' high satisfaction compensates for some of the ecosystem disruption.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams must determine the optimal tourist capacity for the chosen locations.",
+      "options": {
+        "A": "Allow a higher number of tourists with potential higher impact, more revenue.",
+        "B": "Limit tourist numbers for conservation with less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to let in more tourists for higher revenue. This results in severe strain on the ecosystem and infrastructure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Pioneers cap the tourist numbers while Ice Guardians let in more tourists. It protects some parts of Antarctica but causes strain on the areas where more tourists were allowed.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Ice guardians limit the tourist numbers while Polar Pioneers opt for higher revenue. But the pristine wilderness remains partly preserved.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit the number of tourists. This wields less revenue but significantly reduces the strain on the ecosystem.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams must decide on a preservation strategy to implement for their chosen sites.",
+      "options": {
+        "A": "Engage tourists in active conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams manage to engage tourists in conservation efforts. This boosts tourists' appreciation for the environment, inspiring more sustainable practices.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Pioneers engaged tourists with conservation efforts while Ice Guardians implemented strict regulations. This resulted in an even-covered protection strategy, pleasing both tourists and conservationists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Ice guardians decided to engage tourists while Polar Pioneers go for regulations. There's now a balance between tourists' involvement with nature and preservation of it.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enacted strict regulations, placing conservation first. While it upset some tourists, it effectively minimized impact on Antarctica's precious biodiversity.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

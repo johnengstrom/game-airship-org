@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Endeavour: Rescue of the Pangolins",
+  "gameDescription": "In a world afflicted by reckless wildlife exploitation, two futuristic airships unite on a crucial mission. Controlled by the Red Team as 'Shield Havens' and the Blue Team as 'Wildlife Saviors', these intelligent airships are tasked with transporting rescued pangolins from poaching areas in Africa to a newly built enclosure in Vietnam. Their cargo is precious and sensitive; hence their decisions significantly influence the pangolins' survival rates and the overall success of the mission.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "A Poaching Area in Africa",
+    "missionEnd": "The New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wildlife Saviors",
+      "description": "Specialising in wildlife transport and post-trauma animal care."
+    },
+    "redTeam": {
+      "name": "Shield Havens",
+      "description": "Experts in swift and secure navigation of dangerous territories."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships depart Africa with the rescued pangolins, they encounter a critical situation. Their radar has detected a poacher tracking system.",
+      "options": {
+        "A": "Deploy counter-measures and continue on the planned route.",
+        "B": "Alter the considering route unpredictability could deter the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to confront the tracking system. Their countermeasures work brilliantly, shaking off any potential pursuit without disturbing the already stressed pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one airship confronts the trackers, the other goes off-route. This confuses the poachers but slightly stresses the pangolins due to the increased travel time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship diverting, and the other staying on course, they disorient the trackers. The diversion causes some minor distress to the pangolins aboard the altering ship.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews change route. Their unpredictability throws off the trackers, but the detour stresses the pangolins more due to the unexpected change and prolonged journey.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Crossing the ocean, the airships receive a severe weather alert.",
+      "options": {
+        "A": "Fly above the storm, which may cause turbulence and stress the pangolins.",
+        "B": "Take a longer route around the storm, which will consume more resources and time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to brave the storm. The turbulence is minimal, ensuring only minor distress to the pangolins, but the harsh weather conditions take their toll on the ships' hydrogen resources.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One airship chooses to go around the storm, while the other flies over it. Both pangolins and hydrogen resources suffer a bit, but each team judiciously prioritizes safety over speed or resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team opts to fly over while the other circumnavigates the storm. The pangolins aboard the storm-braving airship face some distress, whereas the detour consumes more resources but keeps the pangolins at ease.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to take the longer route, ensuring minimal distress for the pangolins. However, the additional travel time consumes more resources and slows their progress towards the sanctuary.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, the airships receive an urgent update - a group of baby pangolins needs immediate rescue.",
+      "options": {
+        "A": "Divert course to rescue the babies which will delay delivery of the current passengers.",
+        "B": "Continue as planned, ensuring minimal distress and timely arrival for the current passengers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert their course. The baby pangolins are rescued, although this decision causes some stress to the older pangolins due to postponed arrival.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts to save the babies, whereas the other stays on course. The diversifying team manages to rescue the babies but at the expense of distress to the current passengers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team rescues the babies delaying their arrival, the other team prioritises the well-being of their current pangolin passengers and swiftly delivers them to the sanctuary.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to continue with their mission, ensuring the least possible distress for their fragile pangolin passengers. They coordinate emergency help for the baby pangolins, underlining the importance of collective action and the inevitability of hard choices.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

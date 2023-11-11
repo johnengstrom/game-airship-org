@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balance of Wilderness",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As the captains of futuristic intelligent airships, players are tasked with maintaining the delicacy and uniqueness of the Antarctic landscape while balancing the overwhelming demand for exploration. Each decision made will either enable or compromise sustainable exploration and scientific research, and will have consequences to the Antarctic's unique ecosystem. A wrong choice could be catastrophic.",
+  "setting": {
+    "location": "Above the icy terrains of Antarctica",
+    "missionStart": "Global Green Airship Launch Pad",
+    "missionEnd": "Selected Antarctic Site"
+  },
+  "teams": {
+    "redTeam": {
+      "name": "Polar Explorers",
+      "description": "Expert navigators with a passion for scientific discovery."
+    },
+    "blueTeam": {
+      "name": "Earth Guardians",
+      "description": "Conservation specialists dedicated to safe and sustainable exploration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships must select a landing site for their onboard tourist passengers. This decision is critical as the chosen site will be influenced by the influx of human activities.",
+      "options": {
+        "A": "Select a well-known location, already impacted by human activities.",
+        "B": "Choose a remote and pristine location, untouched by human interference."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the popular site. The influx of tourists brings increased revenue but exacerbates existing environmental damage. The teams must work extra hard to mitigate their impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Red Team heads for the familiar, the Blue Team veers off to a pristine region. Local wildlife is disturbed, and the area's untouched beauty is threatened.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Blue Team heads for the popular site, while Red Team chooses the untouched region, sending shockwaves through the ecosystem. Both teams face challenges in balancing scientific interests with conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the pristine location. The increased human presence shocks the ecosystem. However, the consequences of this decision are not yet fully known.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams must decide on the tourist capacity of their airships to balance potential revenue with environmental impact.",
+      "options": {
+        "A": "Accommodate a larger number of tourists; higher potential revenue but higher environmental impact.",
+        "B": "Limit the number of tourists for conservation; Less potential revenue but greater preservation of environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Maxing out their airships, both teams risk significant impact on Antarctica's ecosystem. However, they gain significantly in the form of ticket sales.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Team fills their airship, causing notable environmental strain. Blue Team, however, restricts their numbers, preserving the environment but earning less revenue.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Team opts for a full tourist roster, potentially straining the environment. Red Team restricts their numbers, prioritizing the environment over revenue.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By limiting tourists, both teams prioritize conservation over profit. Their actions preserve the Antarctic wilderness for future generations to enjoy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams implement conservation initiatives to mitigate the impact of tourism.",
+      "options": {
+        "A": "Engage tourists directly in conservation efforts, creating a sense of responsibility.",
+        "B": "Implement strict regulations and temporarily close off areas for regeneration."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve their tourists in conservation efforts. This hands-on approach effectively raises awareness but may risk further disturbance to the environment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Team's tourists get hands-on conservation experience, while Blue Team opts for strict regulations. The balance of experiences offers tourists a rich understanding of environmental preservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Team engages their tourists with conservation efforts, while Red Team applies strict rules and closures. Both strategies show promise, with new areas being regenerated and an increased environmental awareness among tourists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams implement stringent regulations, closing off areas for regeneration. The Antarctic wilderness breathes a sigh of relief as it gets a chance to heal and recover.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

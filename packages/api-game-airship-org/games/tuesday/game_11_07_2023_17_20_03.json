@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Conservation: The Pangolin Plight",
+  "gameDescription": "Two specialized airships embark on a critical mission to transport pangolins from the clutches of poachers in Africa to a newly built pangolin enclosure in Vietnam. Guided by the noble cause, the actions of the airship crews will define the fate of these heavily-trafficked mammals.",
+  "setting": {
+    "location": "Above the African Savannah to Vietnam",
+    "missionStart": "Poaching hotspots in Africa",
+    "missionEnd": "Newly Built Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sanctuary Saviours",
+      "description": "Experts in wildlife rescue and onboard animal care."
+    },
+    "redTeam": {
+      "name": "Conservation Couriers",
+      "description": "Specialists in surveillance, security and cargo handling."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are preparing to rescue pangolins from poacher camps. They must decide the best strategy.",
+      "options": {
+        "A": "Conduct a stealthy night-time mission, risking alerting the poachers but minimizing stress for the pangolins.",
+        "B": "Perform a daytime raid with local law enforcement, ensuring safety but potentially distressing the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the stealth operation. The risk pays off as they rescue pangolins undetected, ensuring their safety with minimal distress.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team's stealthy approach contrasts with the other's daylight raid. The stealthy team saves more pangolins but raises security concerns; the day raid reassures authorities of ongoing partnerships.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing strategies pinpoint the complexities of conservational work. The day raid validates stringent security but faces criticism over animal distress; the stealthy team successfully rescues pangolins facing logistical difficulties.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With coordinated day raids, both teams rescue a significant number of pangolins. However, the stressful conditions compel the teams to reconsider their approach.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "En route to Vietnam, the airships must decide how to provide the best care for the rescued pangolins.",
+      "options": {
+        "A": "Create a natural on-board environment for the pangolins to recover during travel.",
+        "B": "Keep pangolins in secure, standard crates for safety and monitor them rigorously."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engineer onboard 'mini-habitats', allowing the pangolins to recover naturally. The innovation is commendable, but resources are stretched thin.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team's natural habitat contrasts with the other's rigorous monitoring. The habitats accelerate pangolin recovery while the other team's vigilance minimizes transit risks.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team monitoring closely and the other providing natural habitat, the teams achieve a blend of biological care and logistical control, setting a standard for future rescue missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing secure crates and rigorous monitoring, both teams prioritize safety. The pangolins' health stabilizes, demonstrating the effectiveness of standardized wildlife transit procedures.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Arriving in Vietnam, the airships must decide how to best introduce the pangolins to their new sanctuary.",
+      "options": {
+        "A": "Gradually introduce pangolins to the new environment to limit potential stress.",
+        "B": "Rapidly introduce pangolins to new environment to maximise acclimation time before breeding season."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing gradual introduction, both teams demonstrate a deep understanding of animal psychology. However, as the breeding season nears, time pressure grows.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team's cautious approach contrasts with the other's urgency. Both methods see success, sparking discussions about optimal rehabilitation processes.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team speeds up acclimation while the other takes a gradual approach. The swift team's results inspire but face scrutiny over pangolin stress levels.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams fast-track the pangolins into their new home. The gamble pays off as the pangolins adapt well and breeders express optimism.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

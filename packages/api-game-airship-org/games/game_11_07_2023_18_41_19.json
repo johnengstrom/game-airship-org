@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: The Flight for Survival",
+  "gameDescription": "Two futuristic airships, provided by Greater Good Charities and Wildlife At Risk, are on a mission to transport rescued pangolins from high-risk poaching regions in Africa to safety in the new enclosure in Vietnam. As the captains of the airships, teams of players need to make decisions that affect the success of the mission and the welfare of endangered pangolins, while minimizing environmental impact. All the while, they're in a race against time as the relentless illegal wildlife trade continues to threaten the pangolins.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Pangolin Habitats",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Goods",
+      "description": "Specializing in quick responses and direct action."
+    },
+    "redTeam": {
+      "name": "At Risk Rescuers",
+      "description": "Experts in pacifying traumatized animals and maintaining safe flight conditions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a dense cloud of locusts that could potentially slow them down. They must decide how to navigate.",
+      "options": {
+        "A": "Navigate through the swarm using advanced guidance systems.",
+        "B": "Detour around the swarm, which uses more energy but ensures safety for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to brave the locusts. The advanced systems handled it well, and they maintained speed without extra energy usage. Their timely arrival gives them a lead in the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braved the locusts while the other detoured. The detouring team is delayed but consumes more energy, potentially affecting the rest of their journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team detoured while the other pushed through the locusts. The locust-facing team makes good time, while the other uses extra fuel, putting their efficiency at risk.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to detour. They consume more energy but avoid any risk from the locusts. They share insights over the radio, learning from each other's experiences.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A call for help is received from a local African village being raided by poachers.",
+      "options": {
+        "A": "Attempt a risky maneuver to quickly intervene and scare off the poachers.",
+        "B": "Coordinate with local law enforcement for a collective rescue effort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams attempt to intervene. The risky maneuver is successful, but it strains their energy reserves. They've shown great bravery, but at what cost?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship takes the risk alone, while the other coordinates help. The intervening airship gains goodwill but loses time and energy, while the other is hailed for its strategic thinking.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship coordinating and the other attempting to intervene, efforts are doubled, leading to success with minimal energy loss. Both teams are praised for their collaboration.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate for a collective effort. The intervention is slow but without extra energy usage. Their joint effort is a testament to the power of teamwork.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships are approaching Vietnam but face heavy air traffic, requiring precise timing.",
+      "options": {
+        "A": "Speed up to ensure an early arrival for easier traffic management.",
+        "B": "Maintain current speed and negotiate the traffic in real-time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up and arrive early, avoiding the traffic complexities but using additional energy. They face a delicate balance between rescue speed and energy sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds up, while the other negotiates. The faster team faces a fine for early arrival, while the negotiator maneuvers successfully and is recognized for its precise planning.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team arriving early and the other negotiating, the air traffic is managed efficiently. The early team faces a minor delay due to regulations, but it's a small price for being proactive.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for real-time negotiation. It’s a challenging end to the mission, but their adept handling of the regulations showcases their expertise in sustainable transport management.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Tourism Puzzle",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As captains of futuristic airships, you transport explorer-science teams to the white continent. Every decision you make affects both the success of Antarctic exploration and the preservation of its unique ecosystem.",
+  "setting": {
+    "location": "Above the Antarctic",
+    "missionStart": "Chilean Antarctic Research Station",
+    "missionEnd": "Selected Antarctic Landing Locations"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "IceGuard Voyagers",
+      "description": "Specializing in landing site selection and adhering to strict environmental standards."
+    },
+    "redTeam": {
+      "name": "SnowRider Rangers",
+      "description": "Experts in managing tourist capacities and implementing innovative conservation efforts."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both teams must choose a landing site for the tourists they carry.",
+      "options": {
+        "A": "Choose a popular, already impacted site.",
+        "B": "Select a pristine, untouched site."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the popular site. It increases footfalls at an already damaged area but keeps the pristine region untouched. Their mutual understanding lays the framework for coordinated environmental responsibility.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Team chooses the popular site while Red Team lands at the untouched region, bringing in tourism impact. The land untouched by humans now faces new environmental challenges.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Team selects the impacted site, while Blue Team explores the untouched region, risking its pristine nature. The contrasting choices highlight the complex issues surrounding Antarctic conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the untouched part of Antarctica. It might be a hit amongst the tourists for its novelty, but it threatens the untouched ecosystems, requiring higher vigilance for sustainable practices.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams must now decide on how many tourists they will allow on this journey.",
+      "options": {
+        "A": "Allow a higher number of tourists for more revenue but with a potential higher impact.",
+        "B": "Limit the number of tourists to ensure less damage to the environment but with less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow more tourists. While this increased influx stimulates research funding, the environmental challenges mount, highlighting the cost of unchecked tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Blue Team hosts a larger number of tourists, the Red Team chooses to restrict numbers, balancing environmental care with tourism activities. This contrast leads to a spirited debate about the future of Antarctic tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red Team goes with more tourists, while Blue Team opts for a smaller group. The repercussions of these decisions on the respective lands create a learning curve in sustainable tourism management.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose conservation over profit by limiting the number of tourists. These actions pose economic challenges but earn praise for their commitment to sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams now need to decide on a conservation initiative to implement.",
+      "options": {
+        "A": "Engage tourists in conservation efforts.",
+        "B": "Implement strict regulations and closures to certain areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation. This hands-on approach educates the visitors and fosters a sense of shared responsibility, proving that conscious tourism is a viable way forward.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue Team involves tourists directly in conservation, while Red Team opts for strict regulations. Their contrasting approaches contribute to the ongoing discussion around the best ways to protect Antarctica.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team engages tourists in their conservation initiatives, whereas Blue Team imposes strict access regulations. This dual approach optimizes both tourism enjoyment and environmental protection.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce strict regulations, limiting human impact on the environment. This shared commitment to preservation over profit earns them respect from the global environmental community.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

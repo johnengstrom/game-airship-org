@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Airship Game",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships in a near future where the survival of bees and the global ecosystem is at stake. The game combines strategic decision-making with environmental conservation, focusing on the crucial role bees play in our world.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airship Command Center",
+    "missionEnd": "Various locations across the globe"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Focused on sustainable growth and education in conservation practices."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specializes in quick recovery strategies and advanced ecological technology."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams are tasked with restoring bee populations and habitats affected by a recent hurricane.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas.",
+        "B": "Establish new bee colonies in safe zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The simultaneous planting of native flowers and establishing new bee colonies increases bee populations. However, they use a larger share of their resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Planting flowers and establishing colonies in safe zones helps to increase the bee population. Teams learn climate resiliency techniques that will serve them well in the next round.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Introducing new colonies in safe zones while also replanting devastated areas provides a balanced recovery. This combination saves resources for future issues.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to prioritize the direct recovery of bee colonies. The immediate impact is substantial, but neglecting habitat restoration may prove challenging later.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams must respond to areas damaged by wildfires and aim to restore local bee populations.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation.",
+        "B": "Create artificial bee habitats in unaffected regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Revegetating fire-ravaged areas provides a promising future for the bees. Yet, the lack of immediate safe habitats leaves bees vulnerable for some time.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The strategic combination of reviving fire-ravaged areas and creating new habitats ensures safety and food supply for the bees, shaping a promising recovery scenario.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "This dual strategy ensures the bees' immediate survival while future-proofing them against similar incidents. The well-planned actions gain praise from conservationists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing artificial safe habitats guarantees the bees' survival but misses an opportunity to heal the natural environment. Future measures will need to address the situation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "For the final mission, teams aim to secure ongoing growth and sustainability for the global bee population.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology.",
+        "B": "Launch educational campaigns to promote bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The sanctuary development showcases leading-edge technology but marginalizes the role of local communities. Players must work to engage more support from the populace in future missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Developing sanctuaries while educating the public results in a strong, wide-reaching impact. The bees thrive, and a conservation ethic is sown in communities across the globe.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "By combining education initiatives with the establishment of tech-equipped sanctuaries, the teams maximize both the bee recovery and public awareness. This inspires many, signaling a brighter future.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing education mobilizes a global conservation movement. Although technological advances are put aside, the spirit of grassroots conservation promises long-lasting impact for bee populations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

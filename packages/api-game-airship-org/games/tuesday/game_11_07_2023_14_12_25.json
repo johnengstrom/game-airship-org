@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Salvation: The Last Pangolin",
+  "gameDescription": "Two intelligent airships, pioneers of Earth's most vital eco-missions, are entrusted with a precious cargo. A rescued Pangolin, from a poaching hub in Africa, must be swiftly and safely transported to a newly built sanctuary in Vietnam. In an era where advanced airships are the backbone of critical environmental endeavors, players guide their teams - steering strategic decision-making pivotal to the mission's success and the future of this endangered species.",
+  "setting": {
+    "location": "Over Africa, Asia, and the Indian Ocean",
+    "missionStart": "A wildlife recovery center in Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Shepherds",
+      "description": "Versatile airship operators with prowess in wildlife rescue operations."
+    },
+    "redTeam": {
+      "name": "Aero-Conservators",
+      "description": "Trained in animal conservation and efficient green technology operationalists."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Amidst flying, a serious dust storm looms ahead, which could potentially damage the airship and indirectly affect the rescued Pangolin. The teams must decide.",
+      "options": {
+        "A": "Charge ahead through the storm, using advanced onboard radar and shielding systems.",
+        "B": "Take a detour around the storm, consuming more green hydrogen but ensuring safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships charge through the storm with their shielding systems. They reach the other side with no damage but at the cost of high stress for the Pangolin. Their unwavering dedication is commended but the animal's wellbeing is paramount.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One braves the storm while the other detours. The detouring airship's animal remains calm but at the cost of higher hydrogen consumption. The other ship reaches the destination quicker, but the Pangolin is highly stressed.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The roles reverse with one team choosing to circle around while the other forges forward through the storm. The Pangolin's wellbeing and mission efficiency balance precariously between the teams' decisions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to circumnavigate the storm. The detour requires more hydrogen, but the Pangolin's safety takes precedence. This shared decision results in a collective sigh of relief from the wildlife conservation world.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Panic strikes when an unknown disease breakout occurs among the on-board wildlife. The teams now have a hard choice.",
+      "options": {
+        "A": "Quarantine the sick animals and treat them onboard with constrained medical facilities.",
+        "B": "Make an emergency landing at the closest platform for professional medical assistance."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to treat the animals on-board. Despite the risks and challenges, they successfully contain the outbreak, but the unexpected ordeal places a tremendous strain on their hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship undertakes the risky treatment while the other chooses to land for professional help. While the landing team ensures better treatment for the sick, the other one saves time but with a substantial stress on the animals.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Divergence in thought leads to different strategies, with one airship managing the outbreak on-board while the other lands. Striking a balance between creature care and mission objectives turns out to be taxing for both teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams unite in their decision to land the airships. The professional medical help ensures the disease is contained without undue stress on the animals. Their resolve to prioritize the welfare of the vulnerable passengers is lauded.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they receive an updated report of a burgeoning wildfire in their current route. Time is of the essence in deciding their next course of action.",
+      "options": {
+        "A": "Reroute around the wildfire, increasing the travel distance and hydrogen consumption.",
+        "B": "Use thermal resistant shields to navigate through the residual smoke and heat of the wildfire."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to reroute. The extra distance traveled puts a strain on their hydrogen reserves, but they prevent any risk to the animals from smoke and heat. The teams receive widespread accolades for their conscious decision.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship reroutes, while the other proceeds through the wildfire's remnants. While both teams reach the destination safely, the one navigating through the smoke stirs up a conversation about balancing safety with environmental impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team rerouting, and the other navigating through the residual smoke, both airships eventually reach the destination. The unfolding dynamics between efficiency and conservation spark a compelling dialogue amidst the teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to navigate through the wildfire's remnants, utilizing the thermal resistant shields. While rewarding in terms of time and energy conservation, the decision is hotly debated in terms of animal safety scenarios.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

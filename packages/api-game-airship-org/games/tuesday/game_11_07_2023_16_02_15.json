@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation SkyPangolin: The Aerial Rescue",
+  "gameDescription": "Futuristic airships from both red and blue team, called 'Phoenix Fliers' and 'Gaia Guardians' respectively, embark on a mission of hope. Their task is to transport rescued pangolins from the poaching hotspots in Africa to the new safe haven enclosure in Vietnam. Decision made will affect not only the mission success, but also the overall survival chances of these vulnerable species.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Illegal Wildlife trading hotspots in Africa",
+    "missionEnd": "Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Fliers",
+      "description": "Experts in rapid response and delicate cargo handling."
+    },
+    "redTeam": {
+      "name": "Gaia Guardians",
+      "description": "Specializes in efficient route planning and low-stress transportation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the teams prepare to embark, they receive Intel about a large batch of pangolins spotted in a remote location. They must decide their course.",
+      "options": {
+        "A": "Reroute and rescue the batch, which may lead to delays and stressful conditions.",
+        "B": "Stick to the original plan, prioritizing the already rescued pangolins’ safe and timely arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams reroute and save more lives. However, the pangolins experience stress due to longer travel time, potentially affecting their recovery process.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Fliers venture off to rescue more pangolins while Gaia Guardians stick to the plan. Fliers are hailed for their courage but they lag behind, giving Guardians an edge in the race.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Gaia Guardians choose to rescue, while Phoenix Fliers stick to their route. Guardians face a delay, giving Fliers an advantage – showcasing the delicate balance in rescuing versus efficiency.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stick to their plan. They keep their focus on ensuring the safe and timely delivery of their delicate cargo, demonstrating the necessity of prioritizing the creatures that have already been rescued.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Midway through the journey, the teams spot illegal poaching camps. Do they act?",
+      "options": {
+        "A": "Report the camps to local authorities, slowing their own journey.",
+        "B": "Continue on their route to avoid undue attention and ensure their pangolins' safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take the extra time to report the camps, contributing to wildlife protection but potentially endangering their onboard pangolins by prolonging their journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Fliers report the camps, slowing their journey, while Gaia Guardians press onward. Guardians' unwavering focus boosts their lead, while Fliers contribute to the broader fight against poaching.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Gaia Guardians report the camps, taking the time impact, while Phoenix Fliers prioritize their mission. Fliers take the lead, but Guardians' sacrifice adds to saving future pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, prioritizing their own mission, press on, keeping the safety of their onboard pangolins top priority. Their focus is rewarded with a smooth, uninterrupted journey closer to the sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams face two possible paths, one being through rainfall, another being an uncharted, longer route.",
+      "options": {
+        "A": "Navigate through the rain, potentially stressing the pangolins.",
+        "B": "Take the uncharted route, extending journey duration."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the rain, shortening their journey but stressing their cargo. They reach the enclosure efficiently, but the repercussions on the pangolins' recovery remain to be seen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Fliers navigate through the rain while Gaia Guardians opt for the longer route. Fliers arrive earlier but with stressed pangolins, giving Guardians a chance to take the lead.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While Gaia Guardians push through the rain, Phoenix Fliers take the longer route. Guardians' quick arrival is mitigated by stressed pangolins, but Fliers' journey is extended yet stress-free.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the longer, safer route. They extend their journey to ensure the wellbeing of their precious cargo, culminating in an eventful but safe arrival at the sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

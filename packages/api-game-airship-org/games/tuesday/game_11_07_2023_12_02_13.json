@@ -1,0 +1,99 @@
+{
+  "gameTitle": "AIrship Adventure: Project Peril's Voyage",
+  "gameDescription": "The Red and Blue airship teams embark on a strategic conservation mission. They must navigate the treacherous terrains of Africa and Asia, transporting precious cargo of rescued pangolins to a new sanctuary in Vietnam. Each strategy and decision made will directly affect the success of the mission and the fate of the endangered pangolins. This narrative draws on the dire condition of wildlife trafficking and the commendable conservation efforts by the Greater Good Charities and Wildlife At Risk.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Illegal Wildlife Markets",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Skies",
+      "description": "Masters of smooth navigation through hostile territories."
+    },
+    "redTeam": {
+      "name": "Phoenix Ascendant",
+      "description": "Experts at wildlife rescue operations and transporting endangered species."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are located at illegal wildlife markets in Africa and Asia, poised to rescue pangolins. Their first challenge is the extraction of the pangolins amidst heavy surveillance.",
+      "options": {
+        "A": "Carry out a covert operation, minimizing confrontation but risking incomplete rescue.",
+        "B": "Lead a direct operation, ensuring full rescue but risking alerting traffickers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose covert operations. They rescued a significant number of pangolins secretly, leaving many behind. They've saved lives, but many pangolins are still left in captivity.",
+          "bonusCard": "blueTeam"
+        },
+        "AB": {
+          "narrative": "One team led a covert operation, while the other launched a direct operation. The traffickers were alerted, impeding the covert team's escape route. Their contrasting strategies created an unexpected difficulty.",
+          "bonusCard": "none"
+        },
+        "BA": {
+          "narrative": "While one team covertly rescued the pangolins, the other drew attention with their direct operation, giving the covert team an unhindered rescue passage. Their diverging tactics were mutually beneficial.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launched direct operations, rescuing all the pangolins but alerting the traffickers. Their actions will inevitably have consequences, but they've ensured the immediate safety of the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal is received from another team in the Congo Basin who has stumbled upon an undisclosed poaching camp.",
+      "options": {
+        "A": "Divert to provide aid, risking pangolins well-being and delay.",
+        "B": "Continue to the sanctuary, ensuring the pangolins' safety but abandoning the other team."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams diverted their course to aid the entrapped team, risking the rescued pangolins' well-being. Their camaraderie is commendable, but will it cost them their mission?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team continued with its mission while the other diverted to help. The helping team's delays made their mission harder, but their heroic acts will be remembered.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team prioritized the pangolins while the other provided aid. Their contradictory actions led to an unpredictable situation, testing their ability to adapt.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to continue to the sanctuary, leaving the ensnared team to their fate. Their decision might ensure the success of their mission, but at what cost?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams face stringent regulations due to the COVID-19 pandemic and a lack of legal paperwork for the pangolins.",
+      "options": {
+        "A": "Negotiate entry with the authorities, risking delay and interception.",
+        "B": "Employ illegal networks to slip in, risking legality but ensuring prompt arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to negotiate, leading to bureaucratic delays but maintaining the integrity of the mission. Their commitment to legality is tested as time ticks away.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team negotiated while the other slipped through. The negotiating team was delayed, while the other arrived promptly but flouted the law to do so.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team negotiating and the other sidestepping the law, the sanctuary received a steady stream of pangolins, showcasing a questionable, yet successful mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams employed illegal means to achieve their goal. The mission succeeded, but at the expense of their principles. Will this haunts them in the future?",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

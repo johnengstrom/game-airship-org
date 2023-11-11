@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Bee Brigade",
+  "gameDescription": "In 'Operation Pollination', Red and Blue teams, dubbed The Apis Aviators and The Bombus Navigators respectively, pilot intelligent airships on a life-saving mission of utmost ecological importance. In a world gravely affected by human activity and natural disasters, it's up to the player's strategic decision-making to restore the habitats and populations of bees, our most essential pollinators.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Intelligence Hub - Bee Brigade Headquarters",
+    "missionEnd": "Zones of Ecological Crisis"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in efficient air-navigation and botanical processes."
+    },
+    "redTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Specialists in dealing with disaster aftermath and restoring natural habitats."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "In the aftermath of a catastrophic hurricane, bee populations and their habitats have been severely affected. Teams must decide the best route to recovery.",
+      "options": {
+        "A": "Opt for planting native flowers in hurricane-hit areas to restore habitats.",
+        "B": "Establish fresh bee colonies in safe zones post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With both teams opting for native flower planting, habitats are rapidly restored. Though surprised by the human intervention, bees begin to adjust and flourish. However, the peril of further natural disasters remains a threat.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Unified in purpose yet divided in approach, teams choose different paths leading to uncertain outcomes. The Red Team's arrival with new bee colonies offers quick relief in safe zones, while the Blue Team's restorative plantations bring long-term hope to disaster-struck areas.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "An unexpected strategy divergence surprises observing ecologists. The Blue Team's decision to create safe zones reveals advanced colony management skills, while the Red Team's dedication to habitat restoration marks a significant stride towards revival.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide that safety trumps all else. By establishing new bee colonies in secure zones away from the recent disaster, they ensure the survival of these essential pollinators. It's a quick defensive play, however, the question of habitat restoration remains unanswered.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Fire has ravaged the region, affecting both flora and fauna. Teams must devise a recovery plan.",
+      "options": {
+        "A": "Redeploy to the affected region and seed the land with bee-friendly vegetation.",
+        "B": "Establish artificial habitats for displaced bee populations in undamaged regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Working around the clock, the teams blanket fire ravaged terrains with seeds of hope. Flowering plants slowly cover charred landscapes, and patient bees return. The teams achieved more than ecological recovery - they've nurtured life from destruction.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Red Team, focusing on restoring the natural scenic beauty, labors to seed the fired zones while the Blue Team constructs artificial hives for displaced bees. It's tiresome yet rewarding work, and the sight of so many bees thriving keeps them going.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Blue Team sets about restoring the charred landscapes with bee-friendly seeds while the Red Team constructs artificial hives. Each team takes on half the burden, a victory in sync marked only by the rising buzz.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "In an unusual strategy, both teams opt for artificial habitats. This prudent approach secures a safe haven for the bees, providing immediate relief but leaving the scorched earth unattended.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Focus now shifts to sustainable and long-term solutions for the bee population.",
+      "options": {
+        "A": "Develop advanced ecological technology to aid in the creation of optimal bee sanctuaries.",
+        "B": "Focus on public awareness, launching an educational campaign about bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "In a landmark decision, both teams opt for technological interventions. Cutting edge technology now aids in the creation of perfectly calibrated sanctuaries. However, the public remains largely unaware of why such steps are so essential.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue team invests in advanced tech to create perfect sanctuaries while the Red team launches a widespread educational campaign. Complementary tactics ensure both immediate help for bees and a sustainable future under a more informed humanity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Each team, inspired by another's strategy, takes a different path. The Red team’s technological ambitions are complimented by the Blue team's outreach program resulting in an exceptional boost to bee conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Spreading the word far and wide, both teams launch wide-scale educational campaigns, transforming ordinary citizens into bee protectors. As garden spaces flourish citywide with bee-friendly blooms, humankind steps up for their little winged companions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

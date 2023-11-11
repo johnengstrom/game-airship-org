@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Crusade",
+  "gameDescription": "In this near future scenario, players operate intelligent airships as part of an eco-mission to balance the demand for Antarctic exploration with sustainable tourism practices. The teams must make strategic decisions to minimize the environmental impact while facilitating scientific research.",
+  "setting": {
+    "location": "Above the Antarctic wilderness",
+    "missionStart": "International Antarctic Research Base",
+    "missionEnd": "Antarctic Landing Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacial Guardians",
+      "description": "Experts in sustainable expedition planning and conservation initiatives."
+    },
+    "redTeam": {
+      "name": "Ice Navigators",
+      "description": "Specializing in site selection and tourist management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Selecting a landing site. A choice must be made between a popular, already impacted location or a pristine, untouched area.",
+      "options": {
+        "A": "Choose an already impacted location to protect the pristine areas.",
+        "B": "Choose an untouched location to spread the impact and generate unique experiences."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the impacted sites. This decision protects the pristine areas but increases the degradation of the already impacted areas.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses an impacted site while the other opts for a pristine location. This leaves the impacted areas vulnerable to overuse but conserves untouched landscapes.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A split decision sees one team choosing an untouched location while the other opts for a known impacted site. This balances the impact but could lead to undetected damage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide for untouched locations. This spreads the tourist impact, but the consequences on these pristine areas are unpredictable.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The next challenge is determining the tourist capacity. Do you allow a higher number with potential increased impact, or limit tourism for conservation yet reduce revenue?",
+      "options": {
+        "A": "Allow a higher number of tourists for maximized revenue.",
+        "B": "Limit tourist numbers for effective conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for higher tourist capacity. This boosts revenue but exacerbates the environmental impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for higher tourist capacity while the other limits tourist numbers. The revenue-driven team may face backlash for environmental impact while the conservation-minded team earns goodwill.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A mixed decision leads to balanced revenue and conservation. However, this contrast might lead to conflicts and competitive scenarios.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers prioritizing conservation. This significantly reduces potential revenue, but they gain fame for their conservation ethos.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Implementing a conservation initiative is the final challenge. Should tourists be actively engaged in conservation efforts, or do you emphasize strict regulations and area closures?",
+      "options": {
+        "A": "Engage tourists in active conservation efforts.",
+        "B": "Emphasize strict regulations and closure of certain areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in active conservation. This humanizes the issue and increases awareness but potentially complicates management.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses tourist involvement while the other enforces strict regulations. The first approach earns commendation for inclusivity, while the second safeguards sensitive areas but could deter potential tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team enforces regulations while the other involves tourists in conservation initiatives. This balanced approach covers both regulation and education, contributing to overall conservation efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce strict regulations and closures. This minimizes the environmental impact but restricts the areas tourists can visit and may impact tourists' overall experience.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

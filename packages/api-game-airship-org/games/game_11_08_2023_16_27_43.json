@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Conservation Crusade",
+  "gameDescription": "The untouched landscapes of Antarctica are suddenly facing the surge of tourism. As captains of the highly advanced airships, players have the responsibility of navigating this pristine wilderness. The task is to manage the growing demand for exploration while protecting the unique ecosystem of Antarctica. Each decision made impacts the environment and the ability to conduct vital scientific research.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Current Antarctic Bases",
+    "missionEnd": "Proposed Tourism Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Guardians",
+      "description": "Highly trained in eco-navigation and sustainable practices."
+    },
+    "redTeam": {
+      "name": "Ice Navigators",
+      "description": "Experts in tourist management and environmental conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are to select a landing site for their tourist passengers. The choice impacts the pristine nature of Antarctica.",
+      "options": {
+        "A": "Select a popular, already impacted area for landing.",
+        "B": "Choose a pristine, untouched location for landing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land in already impacted areas, minimizing further harm to untouched regions. However, the existing sites are burdened further.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands in an untouched area, creating a new impact zone, while the other chooses the already impacted site, limiting additional harm.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team chooses an unharmed area, raising concerns about new impact zones, while the other sticks to the existing sites, limiting additional harm.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams land in an untouched area, causing concern about new environmental impact zones. They must utilize the best practices to minimize harm.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams are to select their tourist capacity. The decision directly affects the revenue and the environmental impact.",
+      "options": {
+        "A": "Allow a higher number of tourists with potential higher impact.",
+        "B": "Limit the number of tourists to conserve the ecosystem at the expense of lower revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to bring more tourists. The increased human presence raises revenues but also multiplies the environmental impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses more tourists while the other restricts the number. The conservation efforts of the restricting team are appreciated while the revenue-generating capacity of the other is noted.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With one team allowing more tourists and the other restricting, the impact is balanced, creating a harmony between revenue generation and conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit the number of tourists, sacrificing revenue for conservation. The decision emphasizes the commitment to preserving Antarctica's unique ecosystem.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams must choose a conservation initiative. Active involvement of tourists or strict regulations can be applied.",
+      "options": {
+        "A": "Engage tourists in conservation efforts.",
+        "B": "Impose strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage their tourists in conservation. This active participation increases tourist awareness and involvement, contributing positively to the ecosystem.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists while the other imposes strict rules. Tourist involvement contrasts with stringent laws, highlighting the diversity in approaches to conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team strictly regulates activities, while the other opts for tourist participation. The blend of regulation and involvement provides a balanced approach to conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both team opts for stringent regulations. The tough stance results in stricter conservation efforts, but potentially hampers the tourists' exploration experience.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

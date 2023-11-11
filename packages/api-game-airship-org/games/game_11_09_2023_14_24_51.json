@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Mission of Hope",
+  "gameDescription": "Pangolins, the most trafficked wild mammals, face extinction due to illegal wildlife trade. In this mission, players aboard intelligent airships are working with Greater Good Charities and Wildlife At Risk to deliver essential supplies for a newly built pangolin enclosure in Vietnam. Both airships embark on a mission of urgent species rescue, navigating unforeseen challenges.",
+  "setting": {
+    "location": "From Global Supply Centers to Vietnam",
+    "missionStart": "Global Supply Centers",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wildlife Protectors",
+      "description": "Known for their strategic decisions and quick response in times of crisis."
+    },
+    "redTeam": {
+      "name": "Species Saviours",
+      "description": "Experts in resource management and effective execution of rescue tasks."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are loading the necessary supplies and encounter a shortage of medical kits. They need to decide how to navigate this issue.",
+      "options": {
+        "A": "Leave immediately without the missing kits to avoid delay.",
+        "B": "Wait for the kits, risking delay but ensuring a fully equipped mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to leave immediately. Though they reach the sanctuary early, they struggle to deal with medical issues due to a lack of kits. The pangolins are now at risk.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team leaves early while the other waits for the kits. The waiting team, though late, is better prepared to handle medical emergencies. Their preparedness gives them an advantage in the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While one team decides to wait for the kits, the other team leaves early. The early team faces challenges, but the delay of the other team gives them time to plan better.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wait for the kits. The delays are considerable, but all the necessary supplies are on board when they finally leave. The pangolins receive the best possible care.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Enroute, the teams receive a distress signal from a vessel carrying poached pangolins.",
+      "options": {
+        "A": "Take a detour to rescue the pangolins, risking delay but saving lives.",
+        "B": "Continue on course, prioritizing on-time delivery of the supplies."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships take the detour. They successfully rescue the pangolins but the missions take longer, straining the airships' energy resources. The commitment to pangolin rescue wins admiration.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one airship continues on mission, the other detours to rescue the pangolins. The poached pangolins are saved, and the on-mission airship reaches the facility on time, managing a well-rounded effort.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship rescues the poached pangolins while the other forges ahead. This coordination results in saved pangolins and on-time supply delivery, reflecting the team's foresight and strategic planning.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships stay on course, delivering the supplies on time. They ensure the sanctuary is well-equipped, but the opportunity to save the poached pangolins is lost, raising difficult questions.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the enclosure, teams discover many rescues are very weak. They must choose how to allocate their resources.",
+      "options": {
+        "A": "Prioritize the weak pangolins, potentially slowing the setup of the new enclosure.",
+        "B": "Maintain focus on setting up the enclosure, depending on the facility's existing resources to care for the weak pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize the weak pangolins. While the new enclosure setup is delayed, intensive care for the weak pangolins ensures their survival. This showcases the teams' commitment to immediate rescue efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focuses on the weak pangolins while the other continues setting up the enclosure. The combination of direct care and rapid progress on setup leads to an effective mission execution.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team gets to work on the enclosure, the other attends to the weak pangolins. The strategy ensures quick setup and well-taken care of pangolins, reflecting good team synergy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on setting up the enclosure promptly. Though the weak pangolins are solely dependent on the facility's existing resources, the new enclosure is ready sooner providing a safe haven.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

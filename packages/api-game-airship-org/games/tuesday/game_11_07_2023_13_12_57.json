@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Flight for Nectar",
+  "gameDescription": "The Flight for Nectar challenges players to commandeer intelligent airships on a vital eco-mission. They are given the responsibility to restore bee populations and habitats disrupted by human intervention and natural disasters. Each decision the airship crews make will not only impact the success of the mission but also reflect their commitment to the environment and bee conservation efforts.",
+  "setting": {
+    "location": "Globally Affected Pollination Zones",
+    "missionStart": "Global Ecological Command",
+    "missionEnd": "Various Affected Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in seeking out pollination hot zones and creating new habitats."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Masters in logistical efficiency and ecological rehabilitation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Navigating the aftermath of a severe hurricane, teams need to decide the best approach to aid bee populations.",
+      "options": {
+        "A": "Plant native flowers in the hurricane-affected areas.",
+        "B": "Establish new bee colonies in safer and less affected zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Dedicated to restoration, both teams plant native flowers providing an immediate resource for the surviving bees. However, the lack of secure habitats for sustained growth pull into question the long-term success of this choice.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team prioritizes restoration while the other focuses on safety. Although the new colonies establish quickly, the lack of enough flowers may strain the bee populations at the initial phase.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team creating new colonies and the other planting florae, this balanced approach paves the way for an immediate food source for bees and security for future growth.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams play it safe by establishing new colonies in less affected areas. With limited available resources, will this decision lead to a survival competition among the colonies?",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Bound by a mission against severe wildfire aftermath, the teams need to decide their approach.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation.",
+        "B": "Create artificial bee habitats in unaffected regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for rehabilitation, seeding affected areas with pollinator-friendly plants. However, the scorched earth will take time to regain fertility, resulting in a delayed but hopeful recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team opting to seed the burnt areas while the other creates new habitats, this combination leads to an early resettlement for some bee populations and eventual habitat expansion.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A combination of new habitats and rehabilitation measures ensures survival and growth, leading to an immediate increase in bee population while waiting for the rehabilitation of the fire-affected areas.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Opting for immediate resettlement, both teams create artificial habitats. While quick, this strategy has its drawbacks, with these habitats needing diligent maintenance.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "For their final mission, teams need to decide a sustaining approach for bee conservation.",
+      "options": {
+        "A": "Develop advanced ecological technology for bee sanctuaries.",
+        "B": "Launch vast educational campaigns to promote bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to invest in technology for the creation of bee sanctuaries. While expensive and time-consuming, the result is a technological marvel that ensures the safety and growth of bees in the long run.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team going high-tech and the other educating, this combination ensures that while we have the best sanctuaries, we also have informed civilians who can contribute to conservation efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Alternating responsibilities, the Apis Aviators manage to launch an immense educational campaign while the Navigators build cutting-edge sanctuaries. This balance of actions leads to remarkable outcomes on both fronts, securing a promising future for the bees.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on raising awareness, initiating extensive campaigns that push for bee conservation on a global level. The increased awareness and actions from the public led to a boost in bee-friendly activities, but the absence of new sanctuaries may prove problematic.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

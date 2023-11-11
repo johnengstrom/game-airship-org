@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: A Mission for Survival",
+  "gameDescription": "With pangolins threatened by relentless illegal wildlife trade, urgent action is needed to safeguard their future. The Airship Game sends two enlightened teams, Floating Guardians and Sky Wardens, on a mission to deliver critical supplies to the newly built Pangolin Enclosure in Vietnam. Through a series of pivotal decisions and strategized moves, the teams must ensure the effective delivery of the supplies, all the while securing the fragile existence of the earth's most trafficked wild mammal.",
+  "setting": {
+    "location": "In the skies across Africa and Asia",
+    "missionStart": "Greater Good Charities Supply Base, Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Floating Guardians",
+      "description": "Skilled in stealthy navigation across geo-political boundaries and wildlife surveillance."
+    },
+    "redTeam": {
+      "name": "Sky Wardens",
+      "description": "Expert in efficiently delivering sensitive cargo and handling challenging weather conditions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams detect potential poachers in the vicinity of the airlift route. They must decide on the best course of action.",
+      "options": {
+        "A": "Share the poachers' coordinates with local authorities, risking the delay of a response.",
+        "B": "Divert from the original route, consuming more hydrogen but maintaining mission safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams alert the authorities. Their pivotal actions lead to the apprehension of the poachers, but the mission's efficiency is compromised due to the delay.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardians decide to alert the authorities, while the Wardens take a diversion. The subsequent slowdown of the Guardians gives the Wardens a lead, despite the extra hydrogen consumed.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Wardens notify the authorities while Guardians alter the route. The Wardens now trail, as the Guardians balance course safety and resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to divert, ensuring minimal interaction with the poachers. More hydrogen is consumed, but the pangolins' safety remains paramount in this tactical evasion.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive an urgent call from a village affected by a sudden forest fire. The village is on their route and resources are scarce.",
+      "options": {
+        "A": "Divert some of the supplies to aid the village, reducing resources for the pangolins but helping the villagers.",
+        "B": "Fly over the village, dropping water to extinguish the fire but increasing the risk and hydrogen consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to aid the village using their own supplies. The pangolins' reserves are compromised, but a vital link with the local communities is established.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardians offer supplies while the Wardens focus on the fire. The synergy works out stunningly, with both villagers and pangolins catering to despite serious hydrogen consumption by the Wardens.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Wardens provide supplies and the Guardians work on the fire. The community is saved and the pangolins get needed care, but the Guardians consume extra hydrogen.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams courageously attempt to control the fire from above. The village is saved at the expense of significant hydrogen. As their feat goes viral, global support pours in, leading to additional helium supplies for both.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, they are warned of a forthcoming typhoon. They must make the last crucial decision.",
+      "options": {
+        "A": "Maneuver through the typhoon using advanced navigation, risking potential damage but saving vital hydrogen.",
+        "B": "Wait for the storm to pass, consuming more hydrogen while waiting, but ensuring the safe delivery of the supplies."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the typhoon and manage to navigate through, utilizing their advanced systems. They arrive in Vietnam with their supplies, having saved crucial hydrogen but facing major repair costs.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardians face the storm while the Wardens wait it out. The Guardians barely sustain damage, but their stockpile is well-preserved. The Wardens, despite higher hydrogen consumption, ensure undamaged delivery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Wardens fly into the typhoon, testing their technology, while the Guardians wait. The Wardens bear damage but conserve hydrogen, and the Guardians ensure a safe supply transfer at additional cost.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to ride out the storm. The extra hydrogen consumption while waiting is considerable, but the supplies are delivered safely. They land at the new enclosure to a warm welcome by the relieved staff.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

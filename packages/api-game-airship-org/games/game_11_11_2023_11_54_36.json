@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "In Operation Pollination, players commandeer futuristc airships in a critical mission to save the world's bees. These intelligent crafts are equipped with state-of-the-art pollination technology and environmental mapping capabilities which will be pushed to their limits to restore the bee populations and habitats affected by natural disasters and human activities. The correct strategic decisions not only impact the success of your mission but also the wellbeing of the global ecosystem.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Bee Conservation Command Centre",
+    "missionEnd": "Various bee-affected habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in efficient navigation through complex environments for bee habitat restoration."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specialists in implementing cutting-edge environmental solutions for bee conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery. A recent hurricane has devastated a once vibrant bee habitat. The teams must decide on their primary focus to aid recovery.",
+      "options": {
+        "A": "Plant native flowers in the hurricane-affected areas to restore the bee habitats.",
+        "B": "Establish new bee colonies in safer zones, ensuring their survival and procreation post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on rehabilitating the natural flora. The local bees slowly return as their preferred flowers bloom again, fostering the beginnings of a fresh bee population.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team plants native flowers, the other swiftly transports new bee colonies to safer areas. Their combined efforts give the devastated bee population a fighting chance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators establish new bee colonies in safe zones, while the Bombus Navigators work tirelessly to restore the local flora. Their collaborative efforts positively shift the bee population numbers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on establishing new colonies in safer zones. The bee population stabilizes as their survival is ensured post-disaster.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration. Wildfires have scorched major bee-friendly vegetation areas. The teams’ actions in this phase could determine the recovery of the local bee population.",
+      "options": {
+        "A": "Deploy seed bombs filled with bee-friendly vegetation over the ravished areas to encourage ecological revival.",
+        "B": "Create artificial bee habitats in regions untouched by the fire to provide immediate shelter for displaced bees."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "As both teams deploy seed bombs, the charred landscape gradually transforms into a canvas of greenery. The sight of bees buzzing around the new vegetation is a hopeful sign for the area's recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team seeds the burned areas, while the other creates artificial habitats. Their joint efforts breathe life back into the area, offering displaced bees much-needed support.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team creates new habitats, the other seeds the area with bee-friendly vegetation. Their integrated approach promises a better future for the bee population in the fire-ravaged area.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams work to create artificial habitats, transforming untouched regions into temporary sanctuaries for bees. Although the wildfire's scars remain, the preservation of bee lives brings a glimmer of hope.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion. Human activities have caused local bee populations to dwindle. Teams must decide their approach to tackling this ongoing issue.",
+      "options": {
+        "A": "Invest in technologically advanced bee sanctuaries to provide optimal habitat conditions for the pollinators.",
+        "B": "Launch an extensive educational campaign to raise community awareness on bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on creating advanced bee sanctuaries. While this significantly enhances local bee populations, the lack of public awareness about bee conservation continues to pose challenges.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focuses on building advanced habitats, while the other concentrates on community education. This multi-faceted approach raises the hope for a balance between modernization and nature preservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators work on creating technologically advanced habitats, while the Bombus Navigators conduct community awareness sessions. Their combined efforts promise a more sustainable future for bees.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launch an extensive education campaign and succeed in fostering a sense of responsibility for bee conservation within the community, a vital step for the sustainable coexistence of humans and nature.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

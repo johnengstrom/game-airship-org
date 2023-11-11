@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Airship: Conservation Challenge",
+  "gameDescription": "Two state-of-the-art airship teams, Olympus Monarchs (Blue Team) and Terra Guardians (Red Team), embark on a critical mission. They transport precious cargo that could determine the future of pangolins, the world's most trafficked animals. Operating in a world on the brink of ecological collapse, these teams must navigate complex scenarios to safely deliver the pangolins to a new sanctuary while reducing the environmental impact on their journey.",
+  "setting": {
+    "location": "Trans-continental flight, Africa to Vietnam",
+    "missionStart": "A protected wildlife reserve in Africa",
+    "missionEnd": "A dedicated pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Olympus Monarchs",
+      "description": "Known for strategic navigation and excellent wildlife care practices."
+    },
+    "redTeam": {
+      "name": "Terra Guardians",
+      "description": "Praised for their fuel-efficiency measures and skilled handling of wildlife cargo."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive a piracy alert in an upcoming region. They need to decide on the safest, most efficient routing strategy.",
+      "options": {
+        "A": "Take the risk and continue on the current path, using close-to-ground fog cover for protection.",
+        "B": "Alter the route to evade the piracy zone at the cost of extra hydrogen consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely, albeit riskily, continue in the piracy zone using fog for cover. They manage to avoid detection, saving hydrogen but raising the stakes of their mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team took the risky path while the other diverted. The detouring airship consumes more hydrogen but reduces risk, putting them at an advantage for the ongoing journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team diverted their route while the other risked the piracy zone. The navigating airship saves fuel but puts their cargo at risk. Who made the right choice remains to be seen.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to detour from the piracy region, consuming more hydrogen but ensuring safety. This decision underscores their commitment to the mission and the precious life onboard.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships detect a commercial animal trafficker below. Do they intervene and further risk their own mission?",
+      "options": {
+        "A": "Engage the traffickers with the airship's non-lethal anti-trafficking technology.",
+        "B": "Ignore and proceed as the primary mission carries more weight."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to engage and successfully thwart the traffickers, but the diversion consumes precious hydrogen. Their integrity is applauded but at the potential cost to their main mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages the traffickers while the other proceeds as per mission. The engaging team delays their trip but assists local entities in wildlife protection, earning them immense global support.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team ignoring the traffickers, the RESCUE-focused team quells the trafficking operation, buying time for the first team but straining their own resources. Their collaborative decision-making is praised.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to ignore the traffickers, focusing on their primary mission. The difficult decision sparks international debate on wildlife preservation priorities but ensures their primary mission's continuity.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, they detect a severe storm over the sanctuary. They must decide how best to navigate this final hurdle.",
+      "options": {
+        "A": "Wait out the storm, risking delay and additional hydrogen consumption.",
+        "B": "Navigate through the storm using advanced weather management systems."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait out the storm. The hydrogen expenditure rises but ensures the survival of the pangolins within. Their cautionary approach is lauded, emphasizing life over deadlines.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team waits out the storm while the other braves it. The navigating team delivers their pangolin cargo successfully but not without significant strain on the team and airship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team waiting and the other braving the storm, their choices reflect the diversity of conservation strategies. This decision will inevitably alter their final standing in the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams navigate the storm, relying heavily on their advanced systems. The precision and trust in technology save them time but underscore the necessity of robust systems in future missions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

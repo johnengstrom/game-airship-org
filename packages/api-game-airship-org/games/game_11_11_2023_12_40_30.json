@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Paradox: The Flight to Freedom",
+  "gameDescription": "Two advanced airships, 'Gaia Guardians' and 'Phoenix Paladins', are embarking on an urgent rescue mission in Africa. Tasked with the transport of critically endangered pangolins seized from illegal wildlife trade to a new sanctuary in Vietnam, their decisions will impact the lives of these precious creatures, as well as the environment. This game combines the harsh reality of wildlife trafficking, and the hopeful narrative of empathy provoked recovery and conservation efforts, aiming to engage players in a narrative that is as real as it is compelling. The airship crews must strategize to safely and sustainably transport these delicate beings to their new home.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Anti-Wildlife Poaching Unit, Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Gaia Guardians",
+      "description": "Focused on environmental stewardship and humanitarian aid."
+    },
+    "redTeam": {
+      "name": "Phoenix Paladins",
+      "description": "Specialists in emergency wildlife rescue and sustainable transport."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While loading the pangolins, both airship crews discover an unanticipated extra number of rescued pangolins. They must decide how to accommodate these extra passengers.",
+      "options": {
+        "A": "Utilize additional cargo space, increasing the load and potentially reducing the hydrogen efficiency of the airship.",
+        "B": "Coordinate with local facilities for temporary housing until another mission can be arranged."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to load the extra pangolins. While their deeds are commendable, their fuel efficiency is impacted. It's a precarious start to an important mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gaia Guardians take the extra pangolins onboard, with Phoenix Paladins coordinating local housing. The Guardians face a potential hydrogen shortage, while the Paladins balance mission timing and conservation efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Paladins expand their cargo, while Gaia Guardians liaise with local conservationists. Paladins face additional fuel usage, whereas Guardians enforce a balance between rescue logistics and environmental impact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams collaborate with local facilities to arrange temporary housing for extra pangolins. Their cautious approach maximizes hydrogen efficiency and the welfare of their existing pangolin cargo.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships pick up a distress signal from a stranded conservation patrol boat in international waters. Do they help or prioritize their delicate cargo?",
+      "options": {
+        "A": "Divert course to provide aid, risking delay and increased hydrogen consumption.",
+        "B": "Coordinate a global SOS for the patrol, keeping on with their original flight plan."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships detour to aid the stranded patrol. The teams' altruism shines but at the expense of hydrogen. The pangolins' stress levels are kept in check, but the mission's success hangs in the balance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Gaia Guardians divert their course to provide aid, Phoenix Paladins signal an SOS and continue their journey. The Paladins achieve efficiency, but the Guardians' heroism will be remembered.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Paladins race to the rescue as Gaia Guardians ensure a swift response via an SOS alert. Paladins' gest shows great bravery, while the Guardians ensure minimal disruption to the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate a global SOS for the patrol whilst steadfastly sticking to their flight plan. Their decision ensures the pangolins have a smooth journey, bolstering their chances of a successful recovery and acclimatization.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the Vietnamese coast, both airships face two potential landing sites: a temporary pad closer to the sanctuary, but amidst a local festival, or a distant airship station, requiring transport by land.",
+      "options": {
+        "A": "Land at the temporary site, risking exposure to noise and crowds.",
+        "B": "Opt for the distant station, securing a calm environment but requiring ground transport."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the temporary site. Their expedited delivery comes with the hitch of stress for the pangolins. The rescue arrives in record time, but the animals require extensive recovery care.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gaia Guardians head for the festival, while Phoenix Paladins opt for the distant site, minimizing distress to their cargo. Guardians face a laborious recovery process, while Paladins manage to balance delivery speed and pangolin care flawlessly.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Paladins dive into the fray of the festival, with Gaia Guardians taking a cautious approach. The Paladins win on delivery timing, but the Guardians shine at mitigating stress on their invaluable cargo.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the distant site, prioritizing the well-being of the pangolins over speedy delivery. Additional ground transport is secured, ensuring the pangolins arrive at the sanctuary with minimum distress. Their exceptional decision making underscores a successful mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

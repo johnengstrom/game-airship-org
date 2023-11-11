@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Bee Brigade",
+  "gameDescription": "In Operation Pollination, players command futuristic airships on a mission to restore bee populations and habitats affected by natural disasters and human activities. Balancing the immediate needs against long-term sustainability, it combines strategic decision making with environmental conservation.",
+  "setting": {
+    "location": "Global Bee Habitats",
+    "missionStart": "Airship Mother Base",
+    "missionEnd": "Global Expansion for Bee Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Experts in habitat restoration and ecological interventions."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Specialists in bee colony safety and population growth."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams find themselves in a post-hurricane area. The bee population is devastated and needs quick action.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to quickly restore bee food sources.",
+        "B": "Establish new bee colonies in safe zones to provide shelter and facilitate population growth."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize food sources. The native flowers bloom, and the bees slowly return. However, the lack of safe zones could impact the long-term sustainability of these colonies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focused on food sources, while the other established safe bee colonies. The collaboration created a thriving habitat. Both food and shelter are accounted for, and the bee populations begin to stabilize.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team creating safe zones and the other cultivating food sources, the bee colonies prosper. The synergy of shelter and food is a triumph for the bee population.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams operate synchronously to create safe zones. However, the lack of food sources may hinder the recovery of the bee population.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams are faced with regions devastated by wildfires.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to rejuvenate the natural habitat.",
+        "B": "Create artificial bee habitats in unaffected regions to secure the bee population."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to seed the fire-ravaged areas. The flora recovers beautifully, attracting bees and other pollinators. However, harsh conditions may harm the bees in the long run.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "While one team seeds the burnt land, the other creates artificial habitats. The bees enjoy the artificial habitats, but the lack of balanced restoration in the fire-ravaged areas could pose long-term risks.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The division of work between the teams offers promising results. As new vegetation grows in the burned area, the bee communities thrive in the artificial habitats.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on creating artificial habitats, which secures the bee population. The affected areas are still barren, though, and might pose problems in the future.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams have a unique opportunity to expand sustainably.",
+      "options": {
+        "A": "Develop bee sanctuaries using advanced ecological technology.",
+        "B": "Launch educational campaigns to promote awareness and conservation of bees."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in high-tech bee sanctuaries. As these sanctuaries start fostering healthy bee communities, they lack wide-scale awareness on bee conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focuses on technology while the other spreads knowledge. The result is a robust, future-ready initiative that both protects bees and educates the public.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "With one team building sanctuaries and the other promoting education, a balance is achieved. Bee populations are safeguarded, and human communities are engaged with conservation.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams launch major educational campaigns, profoundly impacting public perception. Yet, the lack of direct, physical interventions can delay the recovery of bee populations.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

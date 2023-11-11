@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Green Ice Voyage",
+  "gameDescription": "In an era of intensified tourism, Antarctica's unspoiled wilderness faces a crucial threat. Controlling advanced, eco-friendly airships known as 'Polar Navigators', players are tasked with the dual challenge of facilitating science-led exploration and sustainable tourism, whilst shielding Antarctica's unique biodiversity. Each team's decisions could tip the balance, influencing the trajectory of Antarctic tourism and the survival of this pristine ecosystem.",
+  "setting": {
+    "location": "Antarctica's skies",
+    "missionStart": "Argentinian port of Ushuaia",
+    "missionEnd": "Various sites in Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Stewards",
+      "description": "Specialists in sustainable tourism and eco-innovation."
+    },
+    "redTeam": {
+      "name": "Frontier Scientists",
+      "description": "Experienced in facilitating scientific endeavors and nature preservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Select an ideal landing spot for your tourists. Option A is a frequently visited region, already showing signs of human impact. Option B directs you to an untouched area, rich with Antarctica's captivating wildlife but more vulnerable to damage.",
+      "options": {
+        "A": "Land in the popular, already impacted area.",
+        "B": "Venture to the pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing the familiar ground, both teams manage to minimize additional harm to vulnerable regions, but the already impacted site bears the brunt of increased tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Splitting the tourist influx, one team's exploration to untouched lands delights their tourists but creates new stress on wildlife. The other team, sticking to familiar grounds, manages to control further impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team's decision to explore virgin lands gains them immense popularity among tourists but adds stress on the pristine ecosystem. The blue team's decision to use the familiar site helps mitigate additional environmental harm.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into pristine areas, spreading their tourists in an attempt to mitigate impact. This works to a degree, but the virgin Antarctic wilderness feels the strain of human presence.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Address the capacity of tourists. Option A caters to a bigger crowd, promising increased revenue at the potential cost of greater impact. Option B limits the tourist number, benefiting the environment, but with less profit.",
+      "options": {
+        "A": "Raise the tourist capacity for greater income at the potential cost of higher impact.",
+        "B": "Limit the number of tourists, reducing the profit but ensuring less damage to the environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bring in a larger tourist crowd. This yields monetary gain, but the heightened human activity starts to wear visibly on Antarctica's untouched beauty.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team rakes in profit by hosting an increased number of tourists, signs of strain start to show on the ecosystem. The other team's decision to limit tourist numbers, though less profitable, helps preserve the environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team's decision to increase tourist numbers results in a noticeable impact on the environment. The blue team's limited capacity approach, though not as profitable, sets an example of sustainable tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit tourist numbers. The reduction in inflow and subsequent decrease in profit is balanced by a noticeable reprieve for the environment.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Implement a conservation initiative. Option A encourages active tourist participation in conservation; Option B emphasizes stringent rules and area closures.",
+      "options": {
+        "A": "Engage tourists in active conservation efforts.",
+        "B": "Implement strict regulations and periodic area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Through involving tourists in conservation work, both teams foster a sense of stewardship over the environment. The initiative proves effective, despite occasional rule breaches.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team engages tourists in conservation, the other imposes strict regulations, leading to a harmonious balance of education, participation, and preservation across Antarctica.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team's regulations coupled with the blue team's hands-on conservation program provide an effective approach to sustainable tourism, balancing environmental concerns with human curiosity.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Strict regulations and closures are enforced by both teams, providing the Antarctic wilderness much-needed respite from human activity. However, this restricts tourist experience and sparks debates over the trade-offs of sustainable tourist practices.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

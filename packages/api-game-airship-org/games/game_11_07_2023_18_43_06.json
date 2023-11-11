@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Passage: A Voyage for Survival",
+  "gameDescription": "Two advanced airship teams, calling on the precision of their navigation and the efficiency of their resource management, collaborate with Greater Good Charities and Wildlife At Risk in a crucial effort to combat wildlife trafficking. The mission: safely and swiftly transport rescued pangolins from dangerous poaching territories to a newly constructed safe haven in Vietnam. The unique ecology and behavioral dynamics of pangolins present additional measures for the teams to account for. Each decision they make not only affects the success of the mission, but also the livelihood of this endangered species and the vitality of the ecosystems they inhabit.",
+  "setting": {
+    "location": "Above Africa and Southeast Asia",
+    "missionStart": "Confidential Poaching Territories",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Leviathan Sky",
+      "description": "Specialists in delicate cargo handling and in-flight animal care."
+    },
+    "redTeam": {
+      "name": "Borealis Voyages",
+      "description": "Masters in rapid, efficient transport without compromising safety."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams arrive at a covert location in Africa, where poachers' hideout have been discovered that hold numerous pangolins. The clock is ticking and the operation is risky. Teams have options to consider.",
+      "options": {
+        "A": "Coordinate with local wildlife rangers for a large-scale, but possibly time-consuming rescue operation.",
+        "B": "Conduct quick, stealthy rescue missions to minimize the chance of detection and confrontation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to conduct expansive operations with local rangers. The mission is comprehensive, yet delays arise due to the extensive coordination required. Pangolins are rescued, but the time to the next destination is compromised.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Leviathan Sky aligns with local rangers, while Borealis Voyages opts for rapid stealth missions. The teams' contrasting strategies cause slight confusion initially but ultimately lead to a successful operation and contribute to improving future collaborations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Borealis Voyages collaborates with rangers on a large-scale operation, while Leviathan Sky executes quick missions. The diversified efforts cover all bases, ensuring maximum rescue success. The teams commend each other for their flexible strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams rapidly conduct quick operations, minimizing confrontation with poachers and ensuring a swift rescue mission. However, the efficiency may also mean that some pangolins in the broader area remain undiscovered and saved.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "En-route to Vietnam, the aircrafts are intercepted by sky pirates who traffic wildlife. Teams have to make decisions quickly.",
+      "options": {
+        "A": "Engage automated defense systems to deter pirates.",
+        "B": "Execute evasive maneuvers while sending out a distress signal to international authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use their defense systems, effectively warding off the pirates. Their swift action reinforces the importance of advanced security measures in anti-poaching operations, even though their fuel usage takes a hit during the encounter.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Leviathan Sky deploys defense systems, drawing pirates away, allowing Borealis Voyages to signal for international aid. The teams' decisions depict the brutality faced in preserving wildlife and the necessity of diversified tactics.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Borealis Voyages confronts the pirates with its defenses, allowing Leviathan Sky to summon international help. The combination of offense and distress calls effectively deters the pirates, highlighting teamwork's potential.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams dodge the pirates, sending out distress signals. International forces react promptly, clearing the airspace for the mission to proceed. The drama sheds light on the underworld of illegal wildlife trade, emphasizing international collaboration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Close to the Vietnamese enclosure, the health monitors of some pangolins show signs of high stress levels. The teams have a final decision to make.",
+      "options": {
+        "A": "Slow down to minimize noise and vibrations, consoling the stressed pangolins but delaying arrival.",
+        "B": "Maintain current speed, applying calming protocols in-flight, ensuring prompt arrival at the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to slow down, placing the wellbeing of the pangolins over their schedule. They eventually arrive later than expected, but with far calmer pangolins, affirming the mission's success.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Leviathan Sky slows down while Borealis Voyages maintains speed with calming protocols. Leviathan's pangolins arrive extremely calm, while Borealis Voyages manages to calm theirs well before reaching the sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Borealis Voyages choose a slow pace, while Leviathan Sky proceeds at normal speed with calming protocols. Both strategies work well, ensuring smooth continuity of care for the pangolins and successful mission completion.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams maintain speed and apply effective calming protocols. Even though the situation is challenging, the teams handle it efficiently. They promptly deliver the pangolins to their new sanctuary, marking the mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

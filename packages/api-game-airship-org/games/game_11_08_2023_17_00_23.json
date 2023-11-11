@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Odyssey: Aerial Rescue",
+  "gameDescription": "Equipped with state-of-the-art airships, two teams, 'Sapphire Saviours' and 'Ruby Rescuers', take to the skies on a daring mission to save the endangered pangolins. Their destination: the newly erected enclosure in Vietnam--a haven for recovery and growth. Their obstacles: illegal traders, harsh weather, and logistics issues. This multidimensional game calls for strategic thinking, efficient resource usage, and upmost caution with the fragile cargo.",
+  "setting": {
+    "location": "Across Asia and Africa",
+    "missionStart": "Various Wildlife Havens",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sapphire Saviours",
+      "description": "Masters in swift, precise navigation and evasion tactics."
+    },
+    "redTeam": {
+      "name": "Ruby Rescuers",
+      "description": "Specializing in pangolin handling, care, and cargo management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Illegal traders are en route towards your mission start location. Quickly, the teams must make a decision: attempt an unacquainted night flight or wait for daylight while formulating an alternate route.",
+      "options": {
+        "A": "Undertake an unprecedented night flight to ensure immediate departure.",
+        "B": "Delay departure to daylight, navigating through an alternate, potentially arduous, route."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the daring night flight, successfully evading the traders but consuming additional hydrogen due to unfamiliar routes. Their daring maneuver keeps their charge out of the traders' evil clutches.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team braved the darkness, the other plotted an alternative route. The waiting team bought precious planning time but at a cost of confronting the traders en route.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team who chose the night flight made it to the safe zone swiftly, while the one who delayed encountered a roadblock of traders. The delay may prove costly.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Shared delay led to a coordinated evasion strategy against the traders. Although they consumed more hydrogen, their calculated decisions led to safe passage and camaraderie.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the pangolins start showing signs of distress and need immediate attention.",
+      "options": {
+        "A": "Land the ship for immediate intervention--a delay but ensuring well-being of the pangolins.",
+        "B": "Continue flying while providing in-flight emergency care--riskier but saving time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to land their aircraft, prioritizing the well-being of the pangolins over the mission time-frames. These pangolins, while delayed, are in capable hands.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The landed team successfully calmed the distressed pangolins while the in-flight team faced some challenges due to turbulence. However, their actions demonstrated their commitment to their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team provided in-flight care, the other surfaced additional issues with their landing. Their efforts showcased their readiness to adapt and resiliency.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Providing in-flight care was risky but both teams managed professionally. It was a testament to their training, helping reinforce their reputation as the protectors of pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Just before the final approach to the sanctuary, a severe storm rolls in, possibly endangering the cargo.",
+      "options": {
+        "A": "Navigate through dense clouds, relying on tech-assisted visibility.",
+        "B": "Detour around the storm, extending travel time but ensuring pangolin safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams took on the storm head-on, weathering the turbulence while ensuring the pangolins' safety. Their expert navigation saved critical time, at the expense of additional hydrogen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braved the storm whilst the other took a safer detour. The risk-taking team, although successful, faced criticism for potential endangerment, while the detouring team is praised for their caution.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team risked the stormy journey while the other took the safer, longer route. Although delayed, the detouring team ensured a smooth ride for the pangolins, earning respect.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose the long way around, putting the well-being of their charges first. Despite the extra time, their dedication towards the mission’s success speaks volumes to their passion.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

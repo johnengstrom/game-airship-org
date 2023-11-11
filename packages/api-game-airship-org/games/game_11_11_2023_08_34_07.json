@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Protectors: The Aerial Sanctuary",
+  "gameDescription": "Two intelligent airships known as 'Biosphere Pioneers' and 'EcoShields,' part of a larger initiative by Greater Good Charities and Wildlife At Risk, are partnered on an mission. Their task is transport essential resources required to establish further safe haven enclosures for pangolins across Vietnam, and rescue pangolins from illegal trafficking. The strategic decisions made by both airships would not only affect the success of this crucial mission, but also have an impact on the global fight for pangolin survival.",
+  "setting": {
+    "location": "Above Vietnam",
+    "missionStart": "Greater Good Charity Headquarters",
+    "missionEnd": "Designated Enclosure Hub"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Biosphere Pioneers",
+      "description": "Experts in advanced navigating systems that minimize environmental impact."
+    },
+    "redTeam": {
+      "name": "EcoShields",
+      "description": "Equipped with state-of-the-art technology for efficient rescue operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "An alert of illegal pangolin trafficking activities comes through. Teams must decide how to respond while maintaining their mission progress.",
+      "options": {
+        "A": "Divert off mission path to intervene immediately and rescue the pangolins.",
+        "B": "Report the activities to the local authorities, trusting the enforcement agencies to handle the situation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to rescue the pangolins. The efforts strained their fuel reserves and delayed mission progress, but some pangolins were saved, facing a new hope instead of becoming part of the illegal trade statistics.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Biosphere Pioneers decide to intervene while EcoShields trusts local authorities. While the Pioneers are off-course, both policymakers and the local enforcement agencies appreciate their call. EcoShields maintains mission progress. ",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "EcoShields diverts to execute the rescue, while Biosphere Pioneers report to local authorities. The swift intervention from EcoShields and police coordination sees smugglers apprehended, saving precious pangolin lives.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams trust the local authorities, reporting the trafficking activities. Law enforcement swiftly makes several arrests, successfully saving the pangolins. The teams' trust in the system leads to a smooth continuation of their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A powerful thunderstorm idles over the intended flight path. The weather poses both the challenge of safety and efficient resource management.",
+      "options": {
+        "A": "Forge through and trust in the airships' advanced weather shielding systems.",
+        "B": "Alter the course to avoid the storm entirely, consuming more fuel but ensuring their cargoes' safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams faced the storm head on. They successfully pierced through safely due to their superior defensive systems, but had some energy drain on their advance shielding systems. Their bravery is lauded back at mission control.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Biosphere Pioneers braved the storm while EcoShields chose safety and circumvented the storm. Pioneers saved time, but EcoShields, albeit delayed, had better energy management.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "EcoShields braved the storm while Biosphere Pioneers chose to navigate around it. While EcoShields scored time, Pioneers managed to conserve more energy, optimizing their resource management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to avoid the storm. The decision cost some extra energy expenditure but the safety of their mission-critical cargo was ensured. Their cautious approach demonstrated exceptional team synergy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the final approach for the mission end point is in sight, a rare window of opportunity presents itself. A heavy market zone with numerous potential pangolin traffickers is unusually quiet.",
+      "options": {
+        "A": "Continue to the mission end point, they’re already carrying crucial resources and rescued pangolins.",
+        "B": "Take advantage of this unique opportunity and conduct a flyby scan of the market for possible illegal activity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to continue to the mission end point. They deliver the crucial resources and rescued pangolins safely, prioritizing their original mission. The future of the pangolins begins to look a little brighter.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Biosphere Pioneers continue to the mission end point, while EcoShields conducts a scan of the market. Their efforts lead to valuable intelligence, forming basis for future operations. Both teams contribute in their unique ways.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "EcoShields prioritize reaching the mission end point, while Biosphere Pioneers decide to perform the flyby scan. The intel they gather becomes crucial for future anti-trafficking operations. Despite different paths, the efforts forms a comprehensive strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to conduct flyby scans, dedicating temporary hold in their mission for a much-needed surveillance of the market. The intelligence gathered by both teams prove to be incredibly valuable for future anti-poaching operations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

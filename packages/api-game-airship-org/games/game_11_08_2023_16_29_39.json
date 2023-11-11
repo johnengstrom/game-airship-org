@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Wings: A Survival Mission",
+  "gameDescription": "Two futuristic airships, deployed by Greater Good Charities and Wildlife At Risk, undertake a mission to rescue endangered pangolins from regions overrun by poachers in Africa. They must safely transport these pangolins to a newly built sanctuary in Vietnam. Each choice made by the airship crews affects the success of the mission, the lives of these precious creatures, and gives a crucial message about global wildlife conservation.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Jungles",
+    "missionEnd": "Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Wings",
+      "description": "Experts in rescue operations and wildlife care."
+    },
+    "redTeam": {
+      "name": "Hope Flights",
+      "description": "Specializing in safe transportation and security measures."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face a crucial decision in Congo basin – the hotbed of illegal pangolin trade. The choice lies between launching a daring night-time operation (more risk and potential for a larger payoff) or multiple smaller rescue attempts during the day (safer but potentially less impactful).",
+      "options": {
+        "A": "Launch a risky direct night-time operation in the heart of the basin.",
+        "B": "Plan multiple, smaller scale rescue operations during the day."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to undertake the risky night-time operation. They manage to rescue a large number of pangolins from immediate danger, though the high-risk maneuver results in minor damage to the airships and raises tension in the area. They now face more vigilant poachers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team goes for the night operation, while the other strategically plans multiple daylight missions. The night shift rescues a substantial number of pangolins but alerts the poachers, leading to increased surveillance. Daylight rescues proceed cautiously, saving a moderate number.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "This time, the other team chooses the nighttime operation while the first opts for daylight interventions. The night shift faces a increase in local tensions, while daylight operations are more successful thanks to strategic planning and a stealth approach.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide on multiple, safer rescue missions. Although no individual operation saves a huge number of pangolins, the cumulative result of these missions yields a significant rescue count without unduly alarming the poachers. The near-constant airship presence also discourages some poaching activity.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships have to ensure the rescued pangolins are rehabilitated and ready for the journey to Vietnam. They have to decide between quickly conditioning the animals for the flight or taking the time to rehabilitate them fully before taking off.",
+      "options": {
+        "A": "Condition the pangolins quickly and commence the journey immediately.",
+        "B": "Take the time to fully rehabilitate the pangolins before commencing the journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to condition the pangolins quickly and start the journey. The vulnerable animals are stressed by the swift transition. This approach saves time but results in high-stress levels in the rescued pangolins, affecting their recovery rate.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team decides to leave swiftly, causing stress to the pangolins, while the other team takes the time to facilitate rehabilitation. The latter’s rescued pangolins fare better during the journey, demonstrating a slower approach's value.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team leaves early, while the other takes the time for full rehabilitation. The patient approach benefits the pangolins in recovery, underscoring the need for thoughtfulness over haste.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to invest time in the full rehabilitation of rescued pangolins, ensuring their readiness for the flight to Vietnam. This patient approach pays off in flight, as the pangolins bear the journey far better, reinforcing the case for careful preparation over haste.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams must decide how to reintroduce the rescued pangolins to the sanctuary. A hasty introduction would ensure a quick end to the mission; a cautious approach could help the pangolins’ long-term adaptation but might require resources for an extended stay of the teams.",
+      "options": {
+        "A": "Release the pangolins immediately to the new enclosure.",
+        "B": "Slowly acclimatize the pangolins to their new environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams release the pangolins immediately into the new enclosure. The sudden transition brings distress to the animals, which could potentially delay their recovery. The success of the mission is slightly marred by the hasty reintroduction, placing a focus on mission speed over pangolin well-being.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team releases the pangolins immediately, confronting distress, while the other takes the time to acclimatize them slowly. The latter’s pangolins display a smoother adaptation to the sanctuary, demonstrating the worth of a mindful and patient approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team takes the rushed approach and the other acclimatizes the pangolins slowly. The slow and steady approach proves more beneficial, with the pangolins showing a healthier adjustment to their new home. Once again, patience and care triumph over haste.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams acclimatize the pangolins to their new environment in a measured pace. The animals adjust better to their new home, and in this final leg of the mission, mindfulness over speed is rewarded, contributing to the fight for pangolin conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

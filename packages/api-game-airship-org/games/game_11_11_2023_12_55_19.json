@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Rescue Wings: Pangolin Protection Mission",
+  "gameDescription": "Two state-of-the-art airships, lent by the philanthropic organisations, Greater Good Charities and Wildlife At Risk, embark on a critical mission to rescue pangolins from rampant poaching in Africa, and transport them to a newly constructed sanctuary in Vietnam. They must navigate strategically through difficult conditions and threats to ensure the safety and well-being of this nearly extinct species. Every decision carries a massive impact not only on the success of their mission but also on biodiversity preservation.",
+  "setting": {
+    "location": "Above Africa and en-route to Vietnam",
+    "missionStart": "African Jungle",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aegis Airlift",
+      "description": "Pioneers in wildlife rescue and relocation, showcasing unmatched adaptability and crisis management."
+    },
+    "redTeam": {
+      "name": "Guardian Galleons",
+      "description": "Heralded for their stealth capabilities and intrusion prevention expertise in wildlife conservation efforts."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airlift operations are under way, but the teams receive intelligence that poachers are converging to their location. They must decide on an immediate action plan.",
+      "options": {
+        "A": "Enhance defences and continue with the operation, risking potential confrontation.",
+        "B": "Pause the operation, camouflage the airships and wait for poachers to leave."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to fortify and continue. There's tension in the air. With advanced stealth technology and safety measures, they manage to avoid detection without slowing down the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team fortifies while the other camouflages. These simultaneous actions confuse the poachers, buying the team that paused more time to safely resume operations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team camouflages while the other fortifies. The persistent team extracts more pangolins but also attracts attention, leading to a heated pursuit that costs them fuel and time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams pause operations and camouflage. The airships blend seamlessly into the sky, and the poachers leave without noticing them, preserving the safety of the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the airships face severe sandstorms that could impact their navigational systems and energy reserves.",
+      "options": {
+        "A": "Activate advanced weather resistant shields and hold the course.",
+        "B": "Take a detour to avoid the worst part of the storm, which can result in more travel time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams activate shields and proceed. The airships battle against the roaring winds, but the shield technology holds, preserving their precious cargo at the cost of energy reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship activates shields while the other detours. The detouring ship takes more time but conserves energy, while the shielded ship plows ahead much faster but at a higher energy cost.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team detours while the other holds the course. The team holding the course reaches the destination faster but at a substantial hydrogen cost, while the detouring team conserves energy but is delayed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to detour. The detour adds to their travel time but with a significant advantage of minimal energy consumption, contributing to the mission's sustainability objective.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, the airships receive news of a sudden increase in air traffic due to an international air-show. To ensure safe arrival, choices have to be made.",
+      "options": {
+        "A": "Contact the authorities for a safe passage, running the risk of attracting attention back home.",
+        "B": "Land at a remote location and transport the pangolins to the enclosure via ground transport, which could stress the pangolins and delay their recovery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take the bold step to contact the authorities. Recognising their noble mission, the authorities clear a path and even provide an escort! The pangolins are safely delivered to the sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team contacts the authorities and the other lands remotely. The air-show attendees are moved by the rescue mission and pledge support, while the ground team successfully transports the animals with minimum delay.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team lands remotely, resulting in a delayed but safe final leg of the journey, whilst the other team secures a safe passage causing a ripple effect of global support for pangolin protection.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to land at a remote location. The pangolins, though stressed, are safely transported to the enclosure, thus concluding a successful, albeit challenging, rescue mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Plight: The Rescue Mission",
+  "gameDescription": "In the year 2054, airships are the primary mode of cargo transport. The red and blue teams, known as The Earth Guardians, take on a high-stakes mission. Their aim is to safely carry pangolin specimens and transport them along with their man-made habitat across the globe from Africa to a new sanctuary in Vietnam. This secure haven was jointly built by Greater Good Charities and Wildlife At Risk. The airship teams are tasked with outmaneuvering poachers and traffickers while maintaining the critical health of the pangolins and integrity of their habitat structure. Each decision will impact the pangolins, their habitat, and the mission's success, shifting the balance between human thriving and the continued existence of the earth's most trafficked mammal.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wilderness",
+    "missionEnd": "New Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sapphire Saviors",
+      "description": "Eventualists known for their adept pre-planning and strategy enforcement."
+    },
+    "redTeam": {
+      "name": "Ruby Rescuers",
+      "description": "Known for their tactical in-the-moment decisions and quick adjustments."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams confront a potential poaching raid en route. They must decide on their course.",
+      "options": {
+        "A": "Stage a false route to distract the poachers.",
+        "B": "Counteract with the international anti-poaching taskforce."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams plot a false route. With the poachers distracted, they successfully escape any conflicts but have to adapt their original plan, reshuffling resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team stages a false route, while the other counteracts. The poachers are scrambled, allowing a smooth escape. The counteracting team is applauded for its timely coordination.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Intensive cooperation has led to ongoing operations against poachers. However, the decision of one team to take a different course has slightly disrupted the established plans.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with the anti-poaching taskforce. Poachers are successfully apprehended. The teams are praised for their brave confrontation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A mechanical issue arises affecting the habitat module. Quick decisions are critical.",
+      "options": {
+        "A": "Make a quick fix to continue the voyage.",
+        "B": "Perform a thorough repair, potentially delaying the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams enact a quick fix and continue the voyage. The temporary solution holds, but whether it will last is uncertain. They've shown resourcefulness, but the rest of the journey is risky.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team enacts a quick fix, while the other performs a thorough repair. The repairing team is delayed but ensures a risk-free habitat, while the other faces potential future issues.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team's thorough repair attracts applause while the quick-fix approach may pose challenges down the line. They've both shown their capabilities in different aspects.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to undertake a thorough repair. Their dedication to ensuring the best for the pangolins is applauded, even if it causes a delay.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, strict wildlife transport regulations and inspections await.",
+      "options": {
+        "A": "Provide online documentation for a possibly quick check and go.",
+        "B": "Opt for detailed on-site inspection respecting Vietnam's thorough regulations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams provide online documentation for a quicker check. This speeds it up but risks oversight. They've shown trust in digital systems, but is it misplaced?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team provides online checking, while the other respects on-site regulations. The on-site team's respect for regulations is hailed, while the other is questioned for losing sight of safety.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team providing online checks and the other adhering strictly to regulations, they strike a balance between agility and safety precautions. Their mission's success is a lesson in complementary strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for detailed on-site checks. It’s an assurance to Vietnam's authorities and the global community. Their unflinching commitment to safety is appreciated.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

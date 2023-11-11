@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Lifeline: The Khareef Journey",
+  "gameDescription": "Two avant-garde airships embark on an epic wildlife conservation mission to transport pangolins from their threatened habitat in Africa to a new sanctuary in Vietnam. Each decision made by the airship crews will affect the success of the mission, the wellbeing of the pangolins, and shape the narrative of global wildlife conservation.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Threatened African Pangolin Habitat",
+    "missionEnd": "New Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aegis Excelsior",
+      "description": "Renowned for precision navigation and optimal wildlife care during transport."
+    },
+    "redTeam": {
+      "name": "Eco Pulse",
+      "description": "Experts in fuel efficiency and maintaining a calm environment during critical wildlife transfers."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must cross the hostile Sahara region, where fluctuating temperatures could potentially compromise the pangolin’s health. They must decide how to manage.",
+      "options": {
+        "A": "Adjust the onboard climate systems to mimic night-time temperatures.",
+        "B": "Fly at higher altitudes where temperatures are naturally cooler but consumes more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams adjust the climate systems. The pangolins' comfort is ensured, but the precision required for such adaptability puts onboard systems to the test. Their dedication to the pangolin’s wellbeing is commendable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team mimics night-time temperature while the other flies higher. The pangolins on both airships are stable, but the high-flying team expends more fuel, affecting the subsequent legs of their journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team chooses to ascend to cooler heights while the other carefully calibrates their climate systems. Both methods succeed, but additional fuel consumption raises pressing questions about sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams climb to higher altitudes to find cooler temperatures. The pangolins are comfortable but at the cost of precious fuel, instigating discussions about balancing animal welfare with eco-friendly operations.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon crossing the Indian Ocean, both airships are alerted about a looming cyclone. They need to decide promptly.",
+      "options": {
+        "A": "Take a detour, adding to the journey time but avoiding turbulent weather.",
+        "B": "Weather the storm using advanced cyclone mitigation systems on board."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams detour around the cyclone. The swift decision saves the pangolins from potential distress but extends the journey, heightening the need to sustain the onboard eco-system without compromising on safety.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Whilst one team decides to face the cyclone head-on, the other circumnavigates it. The detouring team's pangolins are calm and safe, but they now face the challenge of longer travel time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team veers off course to avoid the cyclone while the other courageously journeys through it. The direct passage team saves time but reflects on the importance of preparedness in the face of untamed elements.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams brace the cyclone with their advanced systems. The pangolins are undisturbed amid the turbulence, but gastronomic respite from the storm makes the crews question whether it was the optimal choice.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, the airships face a dilemma: strict airspace control for wildlife transit mandates a precise landing slot.",
+      "options": {
+        "A": "Speed up to ensure the allocated landing slot, at the cost of more fuel.",
+        "B": "Negotiate a secondary landing slot and maintain current speed."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rev up their engines to meet the original landing slot. The pangolins reach their destination on time but the additional burn of fuel leaves a carbon footprint to ponder upon.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds up, making it to the allocated slot in time. The other negotiates a secondary slot, maintaining the fuel balance. The importance of precaution and proactive planning amidst such missions is highlighted.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team adheres to the original landing slot by speeding up while the other negotiates a slightly later landing time. Both strategies work, focusing attnetion on the necessity of flexible planning in wildlife conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships negotiate their landing time and stick to their pace, saving fuel. Their adaptability in an uncertain situation is a testament to innovation in the field of conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

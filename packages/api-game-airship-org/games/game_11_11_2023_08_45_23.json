@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Exploration and Conservation",
+  "gameDescription": "Antarctica, one of the last untouched wildernesses on the planet, is increasingly attracting tourists. Being captains of futuristic airships in this exciting yet potentially damaging scenario, the players are tasked with the delicate challenge of balancing tourism demands with the necessity to protect the unique ecosystem of the icy wonderland.",
+  "setting": {
+    "location": "Above the Antarctic wilderness",
+    "missionStart": "Global Ecotourism Headquarters",
+    "missionEnd": "Various Unique Antarctic Locations"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ice Guardians",
+      "description": "Expert in navigating icy landscapes while ensuring the minimal environmental impact."
+    },
+    "redTeam": {
+      "name": "Winter Explorers",
+      "description": "Well-versed in managing a large number of tourists in harsh environments while ensuring safety and satisfaction."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both teams must decide where to land their airship of tourists. The decision will shape the rest of the mission significantly.",
+      "options": {
+        "A": "Choose a popular, already impacted area to minimize further impact.",
+        "B": "Select a pristine, untouched location, which could potentially disrupt the local ecosystem."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose already impacted areas, reducing additional disturbances to the Antarctic wilderness. However, overcrowding threatens to exacerbate the damage in these areas.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Ice Guardians choose an impacted area, while the Winter Explorers take a risk with a pristine location. The pristine location attracts rave reviews, but reports of disturbance to wildlife are troubling.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Winter Explorers stick to the impacted region while the Ice Guardians venture into unspoiled lands. Fascinating discoveries are made, but the environmental impact raises concerns.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for untouched locations, giving their tourists unique experiences. While this increases the popularity of Antarctica tourism, the disturbance to untouched ecosystems is unprecedented and worrying.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Tourist capacity must be decided. This decision will impact the economy of Antarctic tourism as well as conservation efforts.",
+      "options": {
+        "A": "Allow a higher number of tourists, potentially leading to a higher impact but more revenue.",
+        "B": "Limit the number of tourists for conservation purposes, potentially leading to less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow more tourists, leading to an economic boom in Antarctic tourism. However, conservation efforts face a major hurdle as the disturbed landscapes testify.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "While the Ice Guardians limit tourists, the Winter Explorers welcome more. The Explorers' earnings soar, but so does their environmental impact. The Guardians earn their reputation as true conservation champions, albeit with lesser earnings.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Winter Explorers limit the influx, the Ice Guardians allow more tourists. The Guardians benefit economically, but face criticism for environmental impact; the Explorers are commended for their conservation commitment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit their tourists, opting for a conservative approach. While this decision is hailed by conservationists, the limited income raises questions about the economic viability of sustainable Antarctic tourism.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Now, a conservation initiative must be chosen. The decision will reflect how teams engage tourists in the mission of Antarctic preservation.",
+      "options": {
+        "A": "Engage tourists actively in conservation efforts, potentially providing education but limiting their leisure time.",
+        "B": "Implement strict regulations and area closures, ensuring the ecosystem is protected but potentially stifling the touristic experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to engage tourists actively in conservation. The tourists become ambassadors for Antarctica's cause. They return home enlightened and engaged, despite having limited sightseeing time.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The Ice Guardians actively engage tourists in conservation, but the Winter Explorers opt for strict regulations. The Explorers secure laudable protection for Antarctica, yet some tourists are left unsatisfied by the restrictions.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Winter Explorers engage tourists while the Ice Guardians impose strict regulations. The Guardians' areas witness remarkable biodiversity, but the tourists lament lost opportunities. The Explorers' tourists are happier but at the cost of light environmental disturbances.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to implement strict regulations and area closures. This decision protects the ecosystem effectively, but tourist satisfaction takes a hit due to restrictive experiences. The question of balance still lingers.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

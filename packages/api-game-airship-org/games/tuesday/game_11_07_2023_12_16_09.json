@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Bee Revival",
+  "gameDescription": "In \"Operation Pollination,\" players commandeer advanced airships in a near future where the survival of bees and the global ecosystem is at stake. The game combines strategic decision-making with environmental conservation, focusing on the crucial role bees play in our world.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airship Headquarters",
+    "missionEnd": "Various Bee Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Apis Aviators",
+      "description": "Expert in deploying advanced ecological techonologies."
+    },
+    "redTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Pioneers in maximizing operational efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams must focus on post-hurricane recovery. The affected areas have left bee colonies homeless.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas.",
+        "B": "Establish new bee colonies in safe zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on replanting, and the rapid flower bloom helps the bees recover. However, with no new safe-zone colonies, some bees still lack homes.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team plants flowers while the other forms new colonies. The synergy preserves the displaced bees and helps colonies thrive anew.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team establishing colonies and the other replanting, their balanced strategy results in restored habitats and saved bees.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams establish new colonies, ensuring safe homes for the bees. But failing to restore the natural flora risks nutritional deficiencies.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As devastated lands heal from wildfires, the teams must decide how to rehabilitate the bee populations.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation.",
+        "B": "Create artificial bee habitats in unaffected regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With both airships seeding vegetation, the affected areas regain their vibrant ecosystem, benefiting bees and other wildlife.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "As one team seeds the burned areas, the other creates new habitats. The rapid restoration of nature and secure homes is a winning combination.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Splitting their efforts between seeding fire-damaged areas and creating new homes proves successful, striking an admirable balance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The airships construct artificial habitats while the torched lands remain barren. Though bees have housing, the lack of natural flora remains a concern.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "For the final turn, teams need to focus on sustainable expansion for the growing bee population.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology.",
+        "B": "Launch educational campaigns to promote bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on creating technologically advanced sanctuaries. Bees now have state-of-the-art homes, but public awareness of their plight remains low.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team develops high-tech sanctuaries. Simultaneously, the other champions education, leading to public support for their cause.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team educating the public while the other focuses on sanctuary development, they strike a balance between innovation and public involvement.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "As both teams concentrate on educating the public, awareness grows and bee-friendly legislation is passed. Yet, this strategy neglects the immediate need for new habitats.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

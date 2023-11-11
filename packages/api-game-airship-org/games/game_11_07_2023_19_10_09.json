@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Flight for Pangolins: A Green Hope",
+  "gameDescription": "In a world fraught with risks to wildlife species, teams must pilot futuristic airships to transport sensitive cargo - rescued pangolins from Africa to a sanctuary in Vietnam. The sanctuary is a beacon of hope, built by Greater Good Charities and Wildlife At Risk, offering a safe haven and a recovery environment for these most trafficked mammals. As airship crews, your strategic decisions will determine the success of this vital mission and the environmental impact it will make.",
+  "setting": {
+    "location": "Route from Africa to Vietnam",
+    "missionStart": "African Wild",
+    "missionEnd": "Vietnam’s Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pangolin Pioneers",
+      "description": "Endangered species’ welfare specialists and masters at handling delicate cargo."
+    },
+    "redTeam": {
+      "name": "Skyward Saviours",
+      "description": "Known for their resourceful navigation and high-tech conservation equipment."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "In trying to safeguard the rescued pangolins, teams face a dilemma as poachers are tracking the airships using hacked digital signals, willing to intercept for the valuable cargo.",
+      "options": {
+        "A": "Use full force to jam the signals and go off the radar; this consumes additional energy but ensures safety.",
+        "B": "Disguise the signal as a commercial cargo plane but risk poachers’ detection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams jam their signals, dropping off the radar. This forceful action consumes extra energy but throws poachers off, ensuring the pangolins' safety. The teams' courage is admirable albeit costly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team jams the signal while the other disguises as a commercial plane. The jamming team ensures their cargo's safety, but incurring high energy consumption is a worry. For the disguised team, it's a suspenseful strategy with an unclear outcome.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With Skyward Saviours jamming the signal while Pangolin Pioneers opt to disguise, there's a divergence in strategies. Although nervously watched, the ploy keeps the poachers confused. Saviours, on the other hand, take the high-cost high-impact route.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both choose disguise. The risky strategy consumes less energy, leaving more resources for the push towards the shelter. If the deception holds, they can slip undetected under the poachers' radar; if it doesn't, it's an endangered twosome on the run.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the airships reach Vietnam's coast, the teams notice a faster, albeit a fuel-inefficient shortcut that would minimize stress for the transported pangolins. Alternatively, they could take the planned route, longer but energy-lean.",
+      "options": {
+        "A": "Steer the airship via the shortcut at the cost of increased fuel usage.",
+        "B": "Stick to the original path, conserving fuel but requiring careful management of the animals' stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the shortcut, cutting the travel time significantly. However, this choice leads to a considerable increase in fuel usage. Their swift action demonstrates care for pangolin welfare; but is it sustainable?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team takes the shortcut, while the other adheres to the original path. The fast-traveling team's fuel consumption goes up significantly, while the planned-route team is hailed for their commitment to sustainability amid rising stress.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In contrast to Skyward Saviours' decision to quicken their journey, Pangolin Pioneers stick to the set pathway. While the saviours reach the sanctuary earlier but at a high energy cost, the pioneers persist on the planned course, managing pangolin distress efficiently.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams dutifully follow the original path, prioritizing sustainable transport over quicker arrival. Together, they successfully manage the pangolins' stress while conserving fuel. Their collective decision reflects thoughtful strategy and prioritization of sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "While landing the airships at the sanctuary, teams find the pangolins exhibiting high stress levels, potentially harmful to their health. The sanctuary staff need time to prepare for this, during which the teams can try different potentially distressing approaches.",
+      "options": {
+        "A": "Land straightaway, causing immediate distress to pangolins, but allowing sanctuary staff more time.",
+        "B": "Circle the sanctuary, keeping the pangolins airborne but providing staff added time to prepare."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land straightaway, causing immediate distress to the already anxious pangolins. The sanctuary staff gain extra time to prepare for care but at the cost of the pangolins' immediate comfort. Brisk handoff - a mixed bag.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands instantly, while the other encircles, allowing the sanctuary staff extended time yet, a scaenario of varying animal welfare tactics presents itself as both set their foot at the pangolin sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Skyward Saviours decide to land immediately, causing pangolin distress, while Pangolin Pioneers circle the sanctuary, buying staff added time for pangolin care. Their approaches, though contrasting, serve the same purpose - ensuring the best possible outcome for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams circle the sanctuary, maintaining the pangolins airborne for longer but buying essential preparation time for the staff. Their choice reflects a shared dedication to optimal animal welfare, successfully bringing this mission to a hopeful conclusion.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

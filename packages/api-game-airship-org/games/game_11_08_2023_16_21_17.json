@@ -1,0 +1,94 @@
+{
+  "gameTitle": "Operation Pollination",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships in a near future where the survival of bees and the global ecosystem is at stake. The game combines strategic decision-making with environmental conservation, focusing on the crucial role bees play in our world.",
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Equipped with state-of-the-art airships and a team of ecological experts passionate about the conservation of bee populations."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Skilled in handling advanced flights and renowned for their strategic approach towards environmental restoration. Committed to the preservation of bee life."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery. The teams' mission is to restore the bee habitats affected by the recent Hurricanes, which devastated the bee populations.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize the reforestation of the habitats. The bee population begins to flourish in the new environment. Future challenges await, however, as the teams must ensure the survival of these populations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators dedicate resources towards planting, the Bombus Navigators decide to establish new bee colonies. The joint effort results in a swifter recovery of the bee population amidst the newly blooming flowers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators focus on new colonies as the Bombus Navigators plant native flowers. The combination of efforts effectively stabilizes the bee populations, but the new colonies require further attention to ensure long-term success.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, focusing on establishing new bee colonies, find success in the recovered populations. Although the absence of native flowers in affected areas will require future attention, it is a hopeful first step to recovery.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration. This mission concentrates on returning life to areas ravaged by recent wildfires. The fires have destroyed major bee habitats, severely affecting their populations.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Sowing the seeds of recovery, both teams work tirelessly to reintroduce vibrant vegetation in the regions devastated by the wildfires. The new habitats are slowly colonized by the returning bees in search of food and shelter. It's a big win for ecological recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators construct artificial habitats, while the Apis Aviators bring life back to the charred land with bee-friendly plants. The displaced bees find solace in the artificial habitats, and the recovery of the ravaged lands progresses at a promising pace.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators build artificial habitats as the Bombus Navigators restore vegetation. The combined effort yields a significant recovery, with bees joyously buzzing in and around their newfound homes.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prefer to create artificial habitats for the beleaguered bees. The buzzing of bees in these new homes is a testament to the teams' efforts. The restoration of devastated land, however, lingers as an unmet need.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion. This final mission looks beyond recovery, focusing on creating sustainable solutions for the coexistence of bees and humans.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "In creating technologically advanced sanctuaries, both teams set milestones in bee conservation. The ensuing buzz heralds a victory for the bee population, and consequently for global ecosystems. A testament to the power of technology paired with intent.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators' educational campaign perfectly aligns with the advanced bee sanctuaries developed by the Apis Aviators. The heightened public awareness complements the technologically advanced havens, marking a profound victory for bee conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Apis Aviators enlighten communities, the Bombus Navigators' sanctuaries prove to be safe havens for bees. The dual approach marks a successful end to the mission, striking an essential balance between ecological progress and human participation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to launch awareness campaigns, and a new wave of bee conservation enthusiast is born. The effort blends action with education, as the teams sow the seeds of change for a sustainable future for both bees and humanity.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

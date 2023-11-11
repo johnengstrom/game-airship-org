@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Shelter: The Aerial Assisters",
+  "gameDescription": "Futuristic airships, Blue Aurora and Red Dusk, embark on a mission to aid in the construction and maintenance of a sanctuary for the endangered Pangolins. The teams are entrusted with ensuring the safe delivery of essential supplies and the survival of the Pangolins. Decisions made during this mission determine the fate of both the rescue mission and the dwindling Pangolin population.",
+  "setting": {
+    "location": "Skies over Vietnam",
+    "missionStart": "Worldwide Conservation Bases",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Blue Aurora",
+      "description": "Proficient in efficient flight routes and animal safety protocols."
+    },
+    "redTeam": {
+      "name": "Red Dusk",
+      "description": "Experts in cargo delivery and emergency response mechanisms."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "During the delivery, both airships detect a potential storm. With essential supplies and Pangolins onboard, they must decide.",
+      "options": {
+        "A": "Navigate through the storm using advanced guidance systems.",
+        "B": "Detour around the storm, consuming more fuel but ensuring safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the storm by depending on their advanced systems. The slick maneuver ensures rapid delivery along with safety precautions for the pangolins. Their commitment to the mission is commendable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Aurora opts for storm navigation, whereas Red Dusk takes a detour. Although the former's delivery is quicker, the latter's decision for safety wins appreciation from the conservationists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Diverging from Red Dusk's storm navigation, Blue Aurora takes a safety detour. Red Dusk's shipment arrives earlier, but Blue Aurora's careful approach protects the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to detour for the sake of safety, consuming more fuel but ensuring the welfare of their onboard pangolins. Their joint dedication to animal safety is an inspiration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal is received from a ground team capturing illegally traded pangolins. The teams must decide.",
+      "options": {
+        "A": "Assist the ground team by rapidly deploying reinforcements.",
+        "B": "Stay on mission course, prioritizing the safe delivery of currently onboard pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams dispatch reinforcements. While successful, this hasty action expends additional fuel. Despite the substantial challenge, they manage to secure safety for both shipments and rescued pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Aurora assists while Red Dusk stays its course. Blue Aurora's decision expands the rescue mission scope, but Red Dusk's continued journey ensures timely supply delivery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Dusk diverts aid while Blue Aurora maintains course. Although Red Dusk's swift reaction earns praise, Blue Aurora's steady progress highlights the importance of focusing on the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to continue their current mission, ensuring that their primary goal isn't compromised. Their decision, greatly appreciated by the operational staff, further solidifies the mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival in Vietnam, strict regulations challenge the efficiency of the mission. The teams can either abide by the codes or negotiate.",
+      "options": {
+        "A": "Follow routines meticulously, consuming additional time but ensuring protocol adherence.",
+        "B": "Negotiate with authorities for faster, yet regulated operations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams meticulously adhere to the procedures, consuming extra time but ensuring comprehensive compliance. Their dedication to detail underscores the commitment to both mission and regulations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Aurora follows routines while Red Dusk negotiates. While Red Dusk gains much needed time, Blue Aurora's strict compliance ensures zero hiccups in the protocol.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Contrary to Blue Aurora's negotiation, Red Dusk follows strict routines. The smooth negotiation by Blue Aurora speeds up the process, but Red Dusk's ideal adherence to rules is highly appreciated.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams negotiate for faster operations, demonstrating their quick-thinking and diplomatic skills. Their adept handling of the situation ensures a smooth mission end.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Vanguard Airboats",
+  "gameDescription": "Two futuristic airships, operated by Greater Good Charities and Wildlife At Risk, are undertaking a mission to rescue pangolins from illegal trafficking and transport them to a newly built enclosure in Vietnam. This is no ordinary mission but a race against time to save this highly trafficked mammal. Each decision made by the airship crews affects not only the mission's success but also the survival and recovery of the pangolins.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Various Poaching Hotspots",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Hope Vanguards",
+      "description": "Operating under the Greater Good Charities, they are expert at rapid response extraction and wildlife care."
+    },
+    "redTeam": {
+      "name": "Wildlife Guardians",
+      "description": "Representing Wildlife at Risk, they are specialized in covert operations and disruption of illegal trafficking."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive information about two major poaching hotspots. However, time and resources only allow for the teams to address one each.",
+      "options": {
+        "A": "Go to the larger hotspot with more pangolins but facing higher risks due to the abundance of armed poachers.",
+        "B": "Opt for the smaller hotspot, safer but with fewer pangolins to rescue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the larger hotspots. Their daring action leads to a successful large-scale rescue but at the cost of higher risks and strained resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team ventures into the larger hotspot, while the other tackles the smaller one. Balanced actions lead to an effective, even-handed rescue.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With differing tactics, both hotspots are addressed. While the larger rescue is riskier, the smaller operation is executed more safely and efficiently.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the safer, smaller hotspots. They carry out a methodical and more secure rescue but potentially leave many pangolins in peril.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon rescuing the pangolins, the teams face a dilemma about the safest and quickest route to Vietnam for their vulnerable cargo.",
+      "options": {
+        "A": "Take a direct, shorter route over highly monitored airspace, risking detection and interception.",
+        "B": "Choose a longer, safer route avoiding monitored airspaces, but this requires more time and resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the direct route, risking detection. They manage to evade troubles but tension rises and resources are stretched thin.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team takes the direct path, drawing attention away from the other on the safer route, aiding in a smooth transportation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With divergent paths, the teams cleverly defuse the attention of any pursuers. Their ability to adapt to challenging situations is praised.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the safer, longer route. While this ensures the utmost safety for the pangolins, the added time and resource consumption is a cause for concern.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival in Vietnam, the airships need to decide about the integration of the rescued pangolins into their new sanctuary home.",
+      "options": {
+        "A": "Rapidly acclimate the pangolins to the enclosure to begin the recovery ASAP.",
+        "B": "Gradually introduce the pangolins into the environment to reduce stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With rapid acclimation, the pangolins begin healing quicker. However, the abrupt change of surroundings can be stressful and needs careful monitoring.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team acts quickly, the other team takes a gentler approach. The results offer a spectrum of recovery responses providing invaluable data.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team prioritizes speed while the other stresses caution. However, the mixed approach benefits the pangolins' overall wellbeing and recovery journey.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams take a gradual approach, easing the pangolins into their new home gently. This results in a seamless transition, underlining a momentous victory for pangolin conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

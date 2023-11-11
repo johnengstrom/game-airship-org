@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airways: Operation Lifeline",
+  "gameDescription": "In Pangolin Airways: Operation Lifeline, players control advanced airships responsible for the transportation of endangered pangolins to their newly completed sanctuary in Vietnam. Operating under the banner of Greater Good Charities and Wildlife At Risk, these futuristic airship crews have to make complex strategic decisions, ensuring the safe and efficient delivery of the rescued pangolins while minimizing the negative environmental impact.",
+  "setting": {
+    "location": "Over Africa and South Eastern Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wildlife Saviors",
+      "description": "Pioneers in precision navigation and wildlife management."
+    },
+    "redTeam": {
+      "name": "Pangolin Guardians",
+      "description": "Experts in security and sustainable energy transportation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A sudden starvation situation arises in the pangolin holding facility. Players must decide on how to tackle this predicament.",
+      "options": {
+        "A": "Make a stop to gather ants en route, risking a delay.",
+        "B": "Ration the already available food, which may stress the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to make a stop and gather ants. This slows them down owing to the unexpected stop. But, the pangolins are well fed and stress-free, attributing to the success of the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Wildlife Saviors make a stop to gather ants while the Pangolin Guardians decide to ration food. As a result, the latter arrive earlier but the pangolins suffer from stress, slightly hampering the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Pangolin Guardians make an unexpected stop while Wildlife Saviors choose to ration the food. Guardians' pangolins are stress-free upon arrival while the others are mildly stressed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to ration food. This puts the pangolins under mild stress but the teams arrive on time.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships pick up an SOS transmission from an illegal wildlife trafficking vessel apprehended by Interpol.",
+      "options": {
+        "A": "Deviate from the route to directly aid the Interpol.",
+        "B": "Continue with the mission and provide guidance from aboard."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to directly aid the Interpol. Their delay is compensated by rescuing additional pangolins from the traffickers.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "Wildlife Saviors assist Interpol directly while Pangolin Guardians provide guidance. Saviors encounter minor delays but rescue more pangolins, adding to the impact of their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Pangolin Guardians decide to aid Interpol directly, while Wildlife Saviors do the same from aboard. Guardians manage to rescue more pangolins, strengthening their mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to continue with their mission while aiding Interpol from aboard. This way, they ensure they remain on course, while still aiding in the rescue of additional pangolins.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams approach Vietnamese airspace, which is known for erratic weather. They need to choose their arrival strategy.",
+      "options": {
+        "A": "Decide to fly in high-wind areas to save on energy.",
+        "B": "Choose a safer but energy-intensive low-wind route."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams challenge the high-wind areas. Their gamble pays off as they manage to save energy and safely deliver the pangolins to their new sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Wildlife Saviors take the high-wind route, Pangolin Guardians opt for the low-wind route. Both teams arrive safely, but Guardians have a higher energy usage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Pangolin Guardians decide to risk the high-wind areas while Wildlife Saviors take the safer route. Despite higher energy usage, all pangolins are safely ushered into their new home.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the safer low-wind route. Despite higher hydrogen usage, the teams manage to safely transport the rescued pangolins to their new sanctuary in Vietnam.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

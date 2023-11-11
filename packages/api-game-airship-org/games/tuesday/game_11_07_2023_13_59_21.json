@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Eco-Rush: Project Peril",
+  "gameDescription": "Against a backdrop of heightened global concern for endangered species, two pioneering airships navigate on a mission to transport urgently required resources to Greater Good Charities' Project Peril. The mission objective centers on the construction of a sanctuary for pangolins, the world's most heavily trafficked mammal teetering on the brink of extinction. Every decision the teams make affects their mission's success, the survival of the pangolins, and the environment. Teams must make challenging decisions over three strategic turns, with no clear indication of the best choice. The nature of the teams' decisions and their strategic interaction will determine the narrative outcome and the potential bonus cards in play. Players can prepare to confront stark realities of wildlife conservation woven into deep narrative insights.",
+  "setting": {
+    "location": "Cross-continental Air Route",
+    "missionStart": "Airborne Resources Dispatch Center",
+    "missionEnd": "Proposed Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pangolin Protectors",
+      "description": "Specialized in Humanitarian and Ecological Missions"
+    },
+    "redTeam": {
+      "name": "Eco Guardians",
+      "description": "Experts in Resilient Supply Chain and Green Energy"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face an abrupt tropical storm en route, posing a threat to their schedules and fuel efficiency.",
+      "options": {
+        "A": "Soar above the storm, escalating fuel use but ensuring punctuality.",
+        "B": "Navigate cautiously through the storm, potentially delaying delivery but conserving fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With both teams opting to rise above, the pangolins receive their resources on time, but the environment pays the price of increased hydrogen use. They grapple the difficult balance between urgency and sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team ascending above the storm, and other going through, resources land in time but at unbalanced fuel costs. This manifests the complex equation of cost versus time versus the environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Choosing disparate paths, teams manage to deliver resources, one punctually and the other slightly delayed. The juxtaposition of varying routes underscores our planet’s deeply interconnected ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to endure the storm, reaching the sanctuary slightly delayed but consuming less hydrogen. Their decision weighs heavily on the urgent need for conservation against the dangers of hastiness.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An environmental protesters' drone swarm is causing substantial air traffic disruptions.",
+      "options": {
+        "A": "Employ experimental drone repellent, risking impact on surrounding fauna.",
+        "B": "Negotiate a brief window to pass through, risking delay to mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to use the experimental repellent. Mission progress is unhindered, but further study reveals non-dire yet noticeable impact on local fauna.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team uses the repellent, the other negotiates. The birds in the area suffer no ill effects, allowing safe passage and raising concerns over the environmental toxicity of new technologies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team negotiates the passage, avoiding any harm to local fauna. The other team’s use of repellent sparks debates about the moral implications of reactionary environmentalism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to negotiate, delaying the mission but ensuring integrity to their ecological commitments. They model peaceful resolutions, demonstrating the power of conversation over confrontation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Just as the end is in sight, the airships' path is obstructed by a nascent forest fire.",
+      "options": {
+        "A": "Use on-board water reserves meant for sanctuary construction lessen the fire's impact.",
+        "B": "Adjust course significantly to avoid the fire, requiring extra fuel and time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "By electing to use their water reserves, both teams controlled the fire from spreading, but delayed the completion of the sanctuary. A demonstration of audience to the broader picture of environmental welfare.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team forges forward, while the other diverts around the fire. While the diverted ship has fewer water reserves upon arrival, together the teams highlight the dichotomy of needs in crisis management.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Choosing different courses, the teams manage to deliver their resources with varying timeliness. Resolving crises need a nuanced approach, is the lesson teams learn amidst smoky skies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a change in course, consuming more fuel but maintaining their water resources for the sanctuary. Their synergy speaks to the need for adaptability in the face of unexpected challenges.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

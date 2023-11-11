@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Peril: The Pangolin Pioneers",
+  "gameDescription": "Bearing the global call for wildlife conservation, two futuristic airships are entrusted with a crucial mission - transporting endangered Pangolins from high-risk terrain to a safe enclosure in Vietnam, designed by Greater Good Charities. Each strategic decision by the airship's crew of Pangolin Pioneers not only affects the survival of this fragile species but also has vital environmental implications. Venture with us on a voyage to save this species from the brink of extinction.",
+  "setting": {
+    "location": "Above the Wildlife Sanctuaries of Africa and Asia",
+    "missionStart": "High-Risk Terrain",
+    "missionEnd": "Safe Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "Masters of skilful navigation and survival techniques in the wild"
+    },
+    "redTeam": {
+      "name": "Airborne Heroes",
+      "description": "Experts in cautious transportation and implementing effective rescue strategies"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a heavily poached forest with the last surviving Pangolins. They must decide how to intervene.",
+      "options": {
+        "A": "Land the airship and carry out a risky rescue operation.",
+        "B": "Stay airborne and coordinate with local authorities, taking more time but avoiding potential threats."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to land and carry out immediate rescue operations. They succeed, but it strains resources and reveals their presence, potentially attracting unwanted attention. Their bravery is commendable, but they are left in a precarious situation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands for the rescue while the other coordinates with local authorities. The landed team faces risks, attracts undue attention but saves precious time. Simultaneously, the coordinating team offers essential local assistance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Skyward Saviors chose to land for immediate action, while Airborne Heroes coordinated with authorities. Skyward Saviors capture extra Pangolins but alert potential poachers. At the same time, Airborne Heroes navigate potential pitfalls with local insights",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to stay airborne and coordinate with local authorities, a slower approach but one that mitigates risk. Their cooperation with ground forces helps them navigate more efficiently, a victory for caution and strategy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While transferring the Pangolins to the safe cages, one escapes into the wild, jeopardizing its safety.",
+      "options": {
+        "A": "Chase after the runaway Pangolin, risking detection and delayed journey.",
+        "B": "Stay on the current task with remaining Pangolins and plan a recapture later."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chased the runaway Pangolin. They managed to recapture it promptly, but the delay and visibility attracted potential threats. They saved an innocent life, but will they be able to keep everyone safe?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors pursued the solitary Pangolin, while Airborne Heroes stayed focused on their task. The escapade of the Saviors meant a delay, but also a life reclaimed, while the Heroes did their part by securing the remaining Pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "When faced with a runaway Pangolin, Airborne Heroes responded quickly, while Skyward Saviors kept on track. Airborne Heroes' decision means a delay, but the recaptured Pangolin is another life saved. Skyward Saviors maintain protocol, ensuring their cargo's safety.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams decided to stay with their tasks and plan the rescue of the runaway later. The escape of one Pangolin was unfortunate, yet it allowed a continued focus on mass safety and ensured no major disruption in transport.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the teams approach Vietnam, the climate change-driven severe weather conditions pose a challenge.",
+      "options": {
+        "A": "Accelerate and try to reach the safe enclosure before the weather worsens.",
+        "B": "Hold back and wait for the weather to improve while ensuring the Pangolins are comfortable."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams pushed forward, tackling the harsh weather and reached the safe enclosure in time. While they avoided the worsening weather and potential predators, the exertion stressed the Pangolins, putting them in a weakened state.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors chose to push through the weather while Airborne Heroes decided to wait it out. Despite the rough journey, Skyward Saviors delivered their cargo quickly. Airborne Heroes ensured their Pangolin’s comfort but arrived later.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Airborne Heroes braved the storm, while Skyward Saviors held back. The Heroes' Pangolins were more stressed but safe in the enclosure before weather worsened. The Saviors arrived later but with healthier, stress-free Pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to wait for the weather to improve. The journey to the enclosure was delayed, but they ensured the rescued Pangolins didn't have to endure more stress. This demonstrated their commitment to the well-being of their endangered passengers over the mission timetable.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

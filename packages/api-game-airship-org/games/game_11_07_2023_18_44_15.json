@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Hope: The Pangolin Rescuers",
+  "gameDescription": "Two modern airships embark on a critical mission to transport rescued pangolins from Africa to their new sanctuary in Vietnam. The skippers have to make strategic decisions that would influence not just the success of the mission, but the protection of these endangered creatures' lives and the environment.",
+  "setting": {
+    "location": "Above the Indian Ocean",
+    "missionStart": "Poached Pangolin Rescue Center, Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Skies",
+      "description": "Experts in wildlife relocation and navigation in challenging terrains."
+    },
+    "redTeam": {
+      "name": "Wildlife Guardians",
+      "description": "Known for efficient cargo handling and minimal environmental footprint."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships take off, loaded with scared pangolins. The pangolins are sensitive and require careful handling, but an unexpected storm looms ahead.",
+      "options": {
+        "A": "Fly through the storm, using advanced climate control systems to soothe the pangolins.",
+        "B": "Detour to avoid causing distress to the pangolins, consuming more hydrogen but ensuring their comfort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to fly through the storm, both teams trust in their technology to soothe the pangolins. The journey is tense, but quick and efficient, showing a relentless determination to stick to the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Greater Good Skies decides to weather the storm, while Wildlife Guardians take a detour. The slower but peaceful journey proves beneficial for the pangolins' wellbeing.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Guardians brave the storm, while Greater Good Skies bypass it. The detour takes longer, consuming more hydrogen, but the pangolins seem calmer and more relaxed.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to prioritize the wellbeing of the pangolins, deviating around the storm. Their choices, while not the most efficient, portray their commitment to the cause.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A signal for assistance is received from a ship carrying cages suspected of being filled with illegal wildlife. Helping might force the teams to reveal their confidential mission.",
+      "options": {
+        "A": "Send out a small team to investigate, potentially risking discovery.",
+        "B": "Ignore it and continue with the mission to ensure the safe delivery of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to investigate, risking their secret mission. They manage to save more wildlife, but their actions attract attention, threatening their clandestine operation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Greater Good Skies investigates the suspicious ship, Wildlife Guardians focus on their mission. The investigative team attracts attention, compromising their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Guardians breaks away to investigate, passing on information to marine authorities. Meanwhile, Greater Good Skies quietly continues its mission, keeping the operation covert.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide not to get involved and stick to their mission protecting the pangolins. Their prudent decision keeps their mission clandestine, ensuring the safe transfer.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships near Vietnam, the pangolins start showing signs of distress due to the long journey. The pandemonium in the cargo hold is risking the safety of the animals.",
+      "options": {
+        "A": "Accelerate to reach the destination faster, consuming more hydrogen but reducing the pangolins' stress.",
+        "B": "Maintain speed and try to soothe the anxious pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, arriving sooner at the sanctuary. The pangolins' distress is minimized but at a cost of higher hydrogen consumption, testing the balance between mission success and sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Skies accelerates, while Wildlife Guardians maintain speed and soothe the pangolins. Despite consuming more hydrogen, the first team brings their charges home quicker.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Guardians rush to the sanctuary, while Greater Good Skies continue at the same speed. The swift arrival reduces pangolin stress, indicating an aggressive yet caring approach.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships stick to their pace, focusing on calming the anxious pangolins. This patient approach is a remarkable testament to their compassionate and wildlife-centric orientation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

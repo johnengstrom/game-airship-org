@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Protector: The Aerial Crusade",
+  "gameDescription": "Two advanced airships, known as 'Heaven's Shield' and 'Earth's Spear', are tasked with a vital mission: transporting essential supplies and personnel to a new pangolin enclosure in Vietnam. Key decisions will determine the success of their mission, affect global wildlife conservation efforts, and impact environmental sustainability.",
+  "setting": {
+    "location": "Above the Pacific Ocean",
+    "missionStart": "Wildlife Rescue Centre in Africa",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Heaven's Shield",
+      "description": "Known for strategic navigation and panda-friendly operations."
+    },
+    "redTeam": {
+      "name": "Earth's Spear",
+      "description": "Specialists in handling delicate cargo and energy conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships journey over the Pacific, they encounter a turbulent weather front. They need to decide on a course of action.",
+      "options": {
+        "A": "Face the storm headfirst, making use of advanced tech and precision flying.",
+        "B": "Adjust the route to avoid stormy skies, potentially consuming more hydrogen but ensuring the safety of the cargo."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships boldy venture through the storm. Their advanced systems handle it successfully, maintaining speed and not expending extra fuel. This successful navigation gives them a crucial edge in the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Heaven's Shield braves the storm, while Earth's Spear steers clear. This diversion delays Earth's Spear but ensures the safety and integrity of the precious cargo, adding to the suspense of the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Earth's Spear challenges the weather, whereas Heaven's Shield opts for the safer route. This split strategy consumes extra hydrogen but maintains a healthy competition in the mission's progress.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wisely choose to avoid the storm, consuming extra fuel, but protecting their valuable cargo. A demonstration of solidarity for the shared mission even while racing against each other.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An urgent request is broadcasted from a nearby island suffering from a natural disaster; they urgently need humanitarian aid.",
+      "options": {
+        "A": "Divert the course to deliver some supplies, which would affect the original mission.",
+        "B": "Communicate the distress signal to nearby aid organizations but stick to the original mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to deliver aid, risking delays and detracting from their primary mission. Their choice resonates the message that humanity comes before competition.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Heaven's Shield rushes to help, Earth's Spear focuses on their main mission. This divergence of priorities adds a layer of complexity and uncertainty to the mission's outcome.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Earth's Spear diverts to aid the island, Heaven's Shield maintains its course. Both teams uphold the spirit of help, but in different ways, making this a critical turning point for the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Neither team deviates from their path. They coordinate assistance from regional aid organizations, showing that it’s possible to help without jeopardizing their main mission. A crucial lesson in crisis management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, the teams find strict air-traffic regulations due to a massive local event, posing a challenge to the timely delivery of cargo.",
+      "options": {
+        "A": "Accelerate to try and beat the traffic, possibly consuming extra hydrogen.",
+        "B": "Maintain current speed and work with the local authorities to manage the situation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, managing to deliver ahead of time but using extra hydrogen in the process. This move raises questions about the delicate balance between urgency and sustainability in wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Heaven's Shield makes an early landing, Earth's Spear coordinates efficiently with ground control. Their different approaches to problem-solving make for an exciting final phase of the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Earth's Spear opts for early landing, while Heaven's Shield keeps its pace, leading to an interesting traffic management scenario. A test of their strategies and capabilities in the face of the unexpected.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to tackle the situation without disrupting their initial fuel plans. This display of team synergy and effective coordination is a testament to their commitment to the environment and the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

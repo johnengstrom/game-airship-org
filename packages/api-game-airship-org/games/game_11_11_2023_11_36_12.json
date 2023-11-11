@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Crisis",
+  "gameDescription": "Command advanced airships in a noble mission to transport at-risk pangolins from African poaching grounds to a new sanctuary in Vietnam, built by Wildlife At Risk and the Greater Good Charities. Each decision you make affects the survival of these heavily trafficked mammals and the state of the environment. Are you ready to make a difference?",
+  "setting": {
+    "location": "Africa & Vietnam",
+    "missionStart": "Africa's Poaching Grounds",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Saviors",
+      "description": "Experts in efficient navigation and responsive maneuvers."
+    },
+    "redTeam": {
+      "name": "Cloudborne Guardians",
+      "description": "Specialists in cargo stability and environmental understanding."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Airships arrive in Africa and are tasked with ensuring the safe and efficient collection of distressed pangolins. The procedures are careful to avoid furthering the animals' anxiety, and the scramble poses significant logistic challenges.",
+      "options": {
+        "A": "Choose a slow, gentle collection procedure, minimizing stress for the pangolins but using more hydrogen.",
+        "B": "Opt for a faster, more efficient procedure, saving hydrogen but potentially increasing the pangolins' stress levels."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams adopt a slow, gentle approach. While the operation consumes more hydrogen, the pangolins' welfare is preserved, brightening the prospects of their recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses a gentler procedure, while the other speeds up the process. Though more efficient, the faster method incurs stress on the pangolins, complicating their expected recovery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A team prioritizes efficiency over the pangolins' stress levels, while the other maintains a slow, careful procedure. The strain on the animals might pose issues in the future.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams go for faster procedures, saving significant amounts of hydrogen. However, the pangolins' increased stress could affect their recovery in the Vietnamese sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Enroute to Vietnam, teams detect an unexpected storm formation. Navigating this weather system has the potential to disturb the delicate cargo.",
+      "options": {
+        "A": "Fly through the storm with careful engaging of dynamic stabilizers.",
+        "B": "Detour around the storm, which uses more hydrogen but ensures smooth journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to navigate through the storm. The pangolins are shaken, but advanced stabilizers negate any major upsets. Hydrogen reserves are intact, but such decisions could impact the pangolins' wellbeing.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team embarks through the storm while the other detours. While the detouring team consumes more hydrogen, the smooth journey aids in preserving the pangolin's health.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team decides to detour around the storm, consuming extra hydrogen but ensuring the pangolins' peace. The other team decides to brave the storm, causing some fret among the secluded passengers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to detour around the storm. Though more hydrogen is consumed, the stress-free voyage greatly benefits the recovery conditions of the transported pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Close to the sanctuary, the airships have an option to descend faster using airbrakes or gradually, simulating hiking conditions suitable for pangolins.",
+      "options": {
+        "A": "Descend quickly using air-brakes, saving time but possibly distressing the pangolins.",
+        "B": "Make a slow descent, simulating a more natural environment for the pangolins, but consuming more hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a speedy descent, reaching the sanctuary swiftly but at the expense of the pangolins' comfort. The quick approach has ramifications on their subsequent acclimatization.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team descends quickly while the other takes a more gentle approach. The rapid descend jostles the pangolins, contrasting with the paced landing of the other airship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team opts for quick landing, while the other decelerates slowly. The slow descent offers the pangolins a calm landing, while their kinetics on the other airship forces efforts for immediate stabilization.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams slowly descend, creating a manageable environment for the pangolins, even though more hydrogen is consumed. Despite the delay, their recovery is given priority in the mission's final stretch.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

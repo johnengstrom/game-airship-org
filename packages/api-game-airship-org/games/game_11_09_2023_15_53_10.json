@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Protectors: The Airship Mission",
+  "gameDescription": "Two futuristic airships from Greater Good Charities and Wildlife At Risk embark on a crucial mission for pangolin conservation. Their task is to transport rescued pangolins from Africa to their newly built sanctuary in Vietnam. Decisions along the journey determine the success of the mission, the pangolins' survival, and the impact on the environment.",
+  "setting": {
+    "location": "Above Africa and Southeast Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Vanguard",
+      "description": "Experts at wildlife rescue with a focus on sustainable operations."
+    },
+    "redTeam": {
+      "name": "Wildlife Risk Defenders",
+      "description": "Specializes in preserving endangered species and resource-efficient journey management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships have safely loaded the pangolins, but the temperature regulations for the pangolin quarters is malfunctioning.",
+      "options": {
+        "A": "Keep the pangolins in the warmer main body of the ship, stressing the pangolins but maintaining fuel efficiency.",
+        "B": "Move the pangolins to a smaller insulated hold that needs additional energy to maintain temperature."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to keep the pangolins in the warm interior. While this caused slight stress to the pangolins, it conserved fuel for the long journey ahead. Their dedication to efficiency in adversity is commendable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opted to keep the pangolins in the main body, while the other moved them to the insulated hold. The latter uses extra energy but ensures pangolin comfort, showing the importance of prioritizing wildlife well-being.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team moved the pangolins, while the other kept them in the main body. Both methods had pros and cons, showcasing the complexities of wildlife transportation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to move the pangolins to the insulated hold. This used extra energy but ensured pangolin safety. Their dedication to wildlife conservation is touching.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships encounter a powerful tropical storm over the Indian Ocean.",
+      "options": {
+        "A": "Ride out the storm with minimal course adjustment, maintaining speed but risking the pangolins' health.",
+        "B": "Navigate around the storm, ensuring safety but consuming additional fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to brave the storm. While they maintained speed, the tumultuous journey stressed the pangolins. The resolve of these pilots, however, is undeniable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team braved the storm, the other navigated around it, consuming more fuel but ensuring the pangolins' safety. The contrasting approaches highlight the diversity in problem-solving when it comes to wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team navigated the storm, while the other braved through it. Both teams faced unique challenges, affirming the complexity of wildlife rescue missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to navigate around the storm, sacrificing fuel efficiency for the pangolins' wellbeing. Their shared commitment to wildlife protection is heartening.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival in Vietnam, the airships are informed that a hostile group has been spotted near the facility.",
+      "options": {
+        "A": "Land at the closest secure location and transport the pangolins via ground vehicles.",
+        "B": "Circle in the vicinity until authorities confirm the area is secure."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to land at the secure location. While this solution ensured safety, it added an unforeseen challenge - stressful ground transport. The teams' unfaltering adaptability, however, affirms their commitment to the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team opted for immediate landing, the other decided to circle in the air; both methods ensured safety of the pangolins. Their steadfast resolve under pressure underscores the heroic nature of such wildlife conservation missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team chose to circle, the other decided to land immediately. The different choices reflect the realities of missions requiring quick decision-making on the fly - a testament to the airman's resilience.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted to circle until the area was secure. This decision, although consuming more fuel, paid off in ensuring the pangolins arrived comfortably and safely at their new home, underscoring the importance of safety in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Peril: The Cloudborne Voyage",
+  "gameDescription": "Two technologically sophisticated airships, directed by the future architects of the Greater Good Charities and Wildlife At Risk, embark on a high-stakes mission to Africa to collect and safely transport pangolins, the most illegally trafficked mammal worldwide, to their new sanctuary in Vietnam. Each choice made by these airship crews affects not only the survival of the rescued pangolins but also influences the environmental, animal welfare and anti-poaching landscapes.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Poaching Hotspot",
+    "missionEnd": "Newly Constructed Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Gliders",
+      "description": "Specialists in animal welfare and sustainable strategies."
+    },
+    "redTeam": {
+      "name": "Wildlife Warriors",
+      "description": "Masters in anti-poaching efforts and secure pangolin transport."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships arrive at the poaching hotspot, amidst a tense scene. They must decide how to collect the pangolins without triggering a violent poacher response.",
+      "options": {
+        "A": "Deploy stealth drones to gather the pangolins quickly and quietly.",
+        "B": "Cooperate with local rangers to stage a synchronized, ground-and-air rescue operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy stealth drones, minimizing disturbance and efficiently gathering pangolins. However, reliance on technology risks malfunction, and several drones falter under the harsh conditions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses drones, while the other collaborates with rangers. Despite a few mishaps, this combined approach ensures a comprehensive rescue operation, balancing efficiency with impeccable ground knowledge.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team utilizing drones and the other coordinating with local rangers, the synchronized effort allows for a well-rounded rescue, showcasing the blend of modern technology with local expertise.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to coordinate with local rangers. The human touch ensures each pangolin is carefully attended to, fostering a bond of trust and reinforcing local anti-poaching initiatives.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-journey, the pangolins show signs of stress and restlessness. The teams must decide how to calm and care for these delicate creatures while sustaining their fuel reserves.",
+      "options": {
+        "A": "Activate onboard tranquilizers to calmly sedate the pangolins, consuming extra energy.",
+        "B": "Alter the airship's temperature and lighting to mimic nighttime, stimulating the pangolins' natural sleep cycle."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams sedate the pangolins, instantly calming them. However, the use of tranquilizers consumes considerable energy, straining fuel reserves. Their well-being now ebbs with the dwindling fuel supply.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team sedates the pangolins while the other manipulates the environment. The second ship conserves energy while mimicking natural conditions, ensuring a stress-free journey for each pangolin.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team opting for sedation and the other altering conditions, the pangolins remain calm, and energy consumption is balanced. The teams learn from each other's inventive protocols.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams adjust the environment, soothing the pangolins naturally. This approach conserves energy and encourages the pangolins to fall into a restful sleep with dreams of a new home.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Nearing the enclosure in Vietnam, the airships need to decide on the best approach for their precious cargo's safe release manoeuvre.",
+      "options": {
+        "A": "Engage the airship's lowered platform, opening the cargo and releasing the pangolins from a minimal height.",
+        "B": "Land completely and open the cargo doors for a ground release, consuming additional fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships slowly lower platforms, safely releasing the pangolins from minimal height. This tactic uses less fuel but slightly distresses the pangolins, accustomed to keeping their feet on the ground.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for platform release while the other lands completely. The ground release team consumes more fuel but provides the pangolins with a less distressing, natural exit to their new home.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship implementing platform release and the other landing, the pangolins are released in a staggered manner, mitigating any potential panic. The careful planning is commended by the experts on the ground.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide on complete landing. The increased fuel consumption is a compromise willingly made for the gentle introduction of the pangolins to their new, safe environment, a symbol of renewed hope.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

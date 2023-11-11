@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game Card: Antarctic Challenge",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. Players, as captains of futuristic airships, must balance the demand for exploration and science with the need to protect Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Above Antarctica",
+    "missionStart": "South America",
+    "missionEnd": "Decided landing site in Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ice Eagles",
+      "description": "Experts in safe and eco-friendly tourist transporation."
+    },
+    "redTeam": {
+      "name": "Polar Specters",
+      "description": "Specialize in supporting scientific research and exploration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Choosing the best landing site for tourists requires careful consideration. The teams must decide between a popular, already impacted area or a pristine, untouched location.",
+      "options": {
+        "A": "Select a highly popular site that has already been impacted by human activity.",
+        "B": "Choose an untouched, pristine location showcasing raw Antarctic beauty."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the popular site. Eco-system disruption is minimal, but visitor satisfaction declines due to overcrowding. The shared knowledge of existing damage control methods benefits both.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The Ice Eagles choose the popular site, while the Polar Specters venture towards untamed landscapes. The varied experience leads to broader knowledge, but increased environmental risk.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Polar Specters stay with the beaten path while the Ice Eagles flirt with untouched territories. The emergent narrative of exploration versus conservation challenges both teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the pristine location. The untamed Antarctic allure enhances tourist satisfaction, but the untouched ecosystem may suffer long-term consequences.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Striking a balance between tourist numbers and environmental conservation is paramount. Teams must now decide on the tourist capacity.",
+      "options": {
+        "A": "Increase the number of tourists to boost revenue at the risk of higher environmental impact.",
+        "B": "Limit tourist numbers, prioritizing conservation even if it means less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to increase the number of tourists, resulting in booming revenue but escalating environmental strain with potential backlash from eco-conscious groups.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Ice Eagles increase their intake, while the Polar Specters choose conservation. The Ice Eagles' strategy results in more income, but the Specters receive praise for their eco-friendly approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Polar Specters increase tourists inflow while the Ice Eagles limit numbers. Specters get financial gains, but the Ice Eagles win applauds for their thoughtful strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers, prioritizing preservation over profit. They face financial constrains but enhance their reputation as sustainable tourism leaders.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams must now implement a meaningful conservation initiative. Tangible action is needed to protect the fragile Antarctic wilderness.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, spreading awareness and responsibility.",
+        "B": "Implement strict regulations and occasional area closures to protect sensitive areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation, fostering appreciation for the pristine environment and spreading much-needed awareness but face challenges managing the untrained crowd.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Ice Eagles seek tourist involvement, the Polar Specters impose regulations. Both approaches show merit but create strain on the teams' resources and capacities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Polar Specters rally tourists while the Ice Eagles enforce strict rules. These contrasting styles lead to unique experiences and challenges for both teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams utilize stringent rules and area closures. This bold approach ensures minimal disturbance to local ecology, but could lead to potential friction with visitors and tour operators.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

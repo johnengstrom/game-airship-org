@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Plight: Operation Echo",
+  "gameDescription": "In a world where illegal wildlife trade wreaks havoc, Greater Good Charities and Wildlife At Risk come together to save the world's most heavily poached and trafficked mammal - the pangolin. Cast as intelligent airships from two elite squadrons, players are tasked with a trailblazing eco-mission: to safely and efficiently transport rescued pangolins over a vast expanse from Africa to a newly constructed enclosure in Vietnam. Every strategic decision players make during this rescue odyssey encapsulates weighty dilemmas - priorities of time, mission safety, resource conservation, and impacts on environment and wildlife.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Preservation Pioneers",
+      "description": "Known for their strategic navigation and adept crisis management."
+    },
+    "redTeam": {
+      "name": "Conservation Crusaders",
+      "description": "Renowned for their resilience, high-speed transportation, and efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Having rescued the pangolins from poachers, the airships face immediate challenges. Local authorities are delayed in issuing the necessary transportation approvals. The precious time lost can stress the pangolins.",
+      "options": {
+        "A": "Wait for the official approval risking the pangolins' health.",
+        "B": "Initiate the journey without official approval, risking penalties."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait. The pangolins are stressed, delaying their recovery, but no international laws are compromised in the process.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Preservation Pioneers wait while Conservation Crusaders start the journey. The latter save time but are fined heavily, straining the next phase in rescuing these endangered species.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Conservation Crusaders wait while Preservation Pioneers take to the skies. This move saves the latter time but their hasty decision ends up violating international wildlife transportation laws.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams forgo the approval. They do save time and reduce stress on the pangolins, but both face hefty fines and international scrutiny.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships are in distress due to violent thunderstorms. Prolonged exposure to the storm may distress the pangolins and harm the airships.",
+      "options": {
+        "A": "Attempt to fly through the storm using advanced guidance systems.",
+        "B": "Detour around the storm, consuming more fuel but ensuring the pangolins' safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to brave the storm. Their advanced systems help navigate safely but the jostling does distress the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Preservation Pioneers take on the storm while the Conservation Crusaders take a safer route. The clever detour means higher fuel consumption, but their pangolins are calmer.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The brave Conservation Crusaders face the storm, while the Preservation Pioneers opt for a safer detour. Despite severe jostling,the Crusaders manage a faster trip.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams take the safer, albeit longer route, trading extra fuel consumption for pangolin comfort and safety. Their mutual decision exemplifies their commitment to the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships near Vietnam, they encounter a massive human protest. Flying over these crowds is a faster route but may spark public outcry and endanger the mission.",
+      "options": {
+        "A": "Negotiate a peaceful flyover with protesters.",
+        "B": "Choose an alternate route, with increased flight time and fuel use, to avoid any potential conflict."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams attempt negotiation. Successfully convincing the crowd, the airships pass smoothly with the protesters cheering them on, a proud moment for pangolin conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Preservation Pioneers negotiate successfully while the Conservation Crusaders choose to avoid confrontation. The former arrive slightly ahead, becoming heroes amidst the crowd.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Conservation Crusaders negotiate a flyover while the Preservation Pioneers stick to an alternate route. The Crusaders manage to speed through, catalyzing public support for the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for an alternate route. Despite using extra fuel, their tactical decision mitigates potential altercations, focusing on the well-being of the pangolins and the overall mission success.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

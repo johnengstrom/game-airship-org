@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Hydrogen Skies: The Pangolin Protection Protocol",
+  "gameDescription": "Two advanced airships are dispatched on a mission critical for species survival. Their task: Safely and efficiently transport rescued pangolins from Africa to a new sanctuary enclosure in Vietnam. Each strategic decision made by the team affects the success of the mission, the wellbeing of the pangolins, and the environmental impact. The choice isn't just about winning; it's about ensuring the safety of the world's most trafficked wild mammal.",
+  "setting": {
+    "location": "Journey from African Savannah to Vietnamese Sanctuary",
+    "missionStart": "African Pangolin Rescue Station",
+    "missionEnd": "New Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Typhon Tacticians",
+      "description": "Experts in wildlife transport and crisis management."
+    },
+    "redTeam": {
+      "name": "Python Protectors",
+      "description": "Skilled in pangolin care and conservation strategies."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the journey begins, the pangolins' stress levels are escalating. Immediate decisions must be made to soothe them.",
+      "options": {
+        "A": "Increase the cabin temperature mimicking their natural habitat.",
+        "B": "Play audio recordings of the African savannah to create a calm environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams increase the temperature. The pangolins seem to relax slightly, and vital signs improve. But extra energy is consumed, challenging the airships' hydrogen supplies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team adjusts the temperature while another play the savannah audio. The combined effort leads to pangolins displaying decreased stress levels, setting an encouraging start to the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One crew chooses the sounds of Africa while the other raises the temperature. The resilience of each strategy is tested, and ultimately, a balanced environment is formed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams fill cabins with the sounds of Africa. The pangolins, calmed by the familiar noises, settle down, saving energy by avoiding the need to increase the temperature.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Midway across the Indian Ocean, the airships receive a distress signal from a cargo ship with suspected pangolin trafficking activity.",
+      "options": {
+        "A": "Ignore the distress signal to avoid delaying the current mission.",
+        "B": "Investigate the cargo ship, which could cause a delay and increase hydrogen consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams resolve not to deviate from the mission. This decision saves valuable time and hydrogen, but leaves troubling questions about the fate of the cargo ship.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One crew makes the difficult decision to investigate, while the other keeps on course. The investigation busts an illegal wildlife trafficking operation, but at the cost of delay and higher hydrogen usage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team continues on course, the other diverts to check the distress call. The diverted team intercepts illicit wildlife trading and is praised for their intervention, despite the added delay and hydrogen expenditure.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews decide to divert and assist. Their collective effort uncovers and stops an illegal trafficking ring. Their altruistic detour helps save many lives, but strains the airships' hydrogen reserves.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing Vietnam, the teams receive a request to transport additional pangolin-support machinery to the facility, impacting both the payload and fuel efficiency.",
+      "options": {
+        "A": "Accept the equipment despite higher hydrogen consumption.",
+        "B": "Decline the request to ensure a smooth, efficient, and timely arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accept the equipment. The increased weight impacts hydrogen consumption, but upon arrival, the machines significantly improve the facility's rehabilitation capabilities.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team accepts the equipment, while the other declines. The facility gains new resources and the mission is completed on time, striking a commendable balance between time and sustainability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team declines, the other agrees to carry additional machinery. This compromise between efficient transport and resource delivery proves the effectiveness of diverse strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decline to take the equipment. They arrive on time with optimal hydrogen efficiency. The facility, although functional without the additional machinery, missed an opportunity to upgrade its capabilities faster.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

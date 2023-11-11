@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Allies: The Pangolin Rescue",
+  "gameDescription": "Two advanced airships are on an epic mission: to transport rescued pangolins from Africa to a new enclosure in Vietnam. The mission is critical and holds the key to the survival of the world's most heavily trafficked wild mammal - the pangolin. Each decision made by the airship crews will determine the success of the mission and their overall impact on the environment and wildlife trafficking crisis.",
+  "setting": {
+    "location": "Transcontinental from Africa to Vietnam",
+    "missionStart": "Pangolin Rescue Centers in Africa",
+    "missionEnd": "Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Garuda Guardians",
+      "description": "Experts in animal protection and speedy transport."
+    },
+    "redTeam": {
+      "name": "Phoenix Protectors",
+      "description": "Specializing in safe journey planning and ecological conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a massive desert sandstorm over the Sahara. The visibility and navigation are hampered, and there's a risk of impacting the stress levels of the pangolins aboard.",
+      "options": {
+        "A": "Go through the sandstorm, relying on advanced evade technology to minimize navigation issues.",
+        "B": "Reroute the journey, causing more fuel consumption but ensures the pangolins' safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take their chances with the sandstorm. The navigation is tough, but they manage to ride it out without inducing stress to the pangolins. However, the evade technology drains their energy reserves, potentially affecting the rest of the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Garuda Guardians brave the sandstorm while Phoenix Protectors reroute their journey. The reroute ensures safety for the pangolins, but at the cost of additional fuel consumption. The decision matrix tilts slightly toward Phoenix Protectors.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Protectors navigate through the storm while Garuda Guardians take a safer route. The rerouting takes more time and consumes more fuel, giving the Phoenix Protectors a potential edge.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the safer option and reroute their journey. The pangolins remain safe and calm, but the additional fuel consumption might be a disadvantage in the later stage of the journey.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal from a stricken conservation vessel carrying a rescue team and a pangolin caught in mid-rescue is received. Teams must decide on how to respond.",
+      "options": {
+        "A": "Divert course to provide immediate assistance.",
+        "B": "Coordinate with regional help while staying on course."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert their course to lend a hand. Their joint quick response saves the rescue team and the pangolin. However, the diversion means extra fuel consumption and some delay in reaching Vietnam.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "Garuda Guardians stage a daring pan-airship rescue while Phoenix Protectors coordinate regional help. The Guardians' action-packed rescue earns them public adoration, but the cost in fuel and time is significant.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Protectors dive into the rescue operation while Garuda Guardians coordinate local assistance. This daring operation by the Phoenix airship is successful but at the expense of time and fuel reserves.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a coordination approach, ensuring local assistance is deployed whilst they remain on course. A wise choice, saving valuable resources and time while ensuring help is provided.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, airships encounter heavy monsoon weather. The decision lies with the teams on how to proceed through this weather phenomenon.",
+      "options": {
+        "A": "Push through the monsoon using sophisticated weather prediction models.",
+        "B": "Delay the journey till the monsoon passes, ensuring lesser stress on the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to push through the monsoon. Using their weather prediction models, they're able to navigate safely but with increased fuel usage due to erratic conditions. Their swift decision-making ensures the pangolins arrive at the sanctuary with minimal delay.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Garuda Guardians brace the monsoon while Phoenix Protectors decide to wait it out. The Guardians’ bold decision means an earlier delivery but at potentially higher stress levels for the pangolins in their care.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Protectors brave the weather while Garuda Guardians wait for safer conditions. The Protectors' decision is risky but ensures earlier arrival, while Guardians’ pangolins might enjoy a less stressful journey.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to shelter from the storm, reducing stress levels for their precious pangolin cargo. This proves they prioritize safety over speed, steadily managing the environmental challenges.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

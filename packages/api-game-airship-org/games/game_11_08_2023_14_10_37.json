@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Exploration and Conservation",
+  "gameDescription": "In a not so distant future, the untouched wilderness of our last frontier, Antarctica, is under threat due to booming tourism. As captains of sophisticated airships, players must navigate the pristine landscapes of this fragile habitat. Balancing between facilitating scientific research, sustainable exploration and minimizing environmental impact due to human intrusion becomes pivotal.",
+  "setting": {
+    "location": "Skies above Antarctica",
+    "missionStart": "Tierra Del Fuego, Argentina",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Guardians",
+      "description": "Specializing in executing eco-missions with extensive experience in environmentally sensitive terrains."
+    },
+    "redTeam": {
+      "name": "Glacial Navigators",
+      "description": "Experts in strategic planning, dedicated to sustainable exploration and research."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams have to decide on a landing site for tourists. A delicate balance needs to be maintained between meeting tourist expectations and preserving Antarctica's fragile ecosystem.",
+      "options": {
+        "A": "Choose a popular, already impacted site to contain potential further damage to a limited footprint.",
+        "B": "Opt for a pristine, untouched site to distribute the environmental impact, but risk exposing untouched areas to human activity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams select the same impacted area, causing crowding but limiting overall environmental impact. Land erosion is observed but contained within the zone.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team selects an already impacted area while the other ventures to a pristine territory. The untouched site is marred, but ecological harm is distributed, straining the ecosystem less.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With a division of areas, the ecosystem strain is lessened. However, the pristine site starts showing initial signs of human impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select pristine sites, leaving the already impacted site time to recover. However, the exposure to human activity may threaten previously untouched habitats.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The carrying capacity of tourists to be allowed on-site. This decision affects how much revenue can be made from tourism and how much footprint is left behind.",
+      "options": {
+        "A": "Allow a higher number of tourists to generate more revenue, potentially leading to more environmental impact.",
+        "B": "Limit the number of tourists to preserve the ecosystem, accepting lesser revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow more tourists. This increases environmental stress and revenue but strains biodiversity. Public image suffers due to perceived over-tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team allows more excursionists while the other restrict their number, creating a contrast of sights. Some tourists are unhappy with the restricted access, making future tourism a dicey prospect.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team playing safe with restricted numbers and the other taking a gamble with more tourists, the overall ecological impact is manageable, but handling the multitude becomes a challenge.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By limiting tourists, the environmental impact is reduced; however, lower revenue is generated. Both teams earn praises for their committed conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams must decide on their conservation initiatives, which will bring about significant differences in both the environmental and public relations outcomes.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, providing them an enriching experience but presenting risky variables.",
+        "B": "Enforce strict regulations and area closures to protect the environment, potentially limiting the tourism experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams encourage tourist participation in conservation. Tourists happily share their experiences, cultivating global awareness. But, poorly managed participation can cause unintended harm.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team implements strict rules while the other involves tourists in conservation efforts. The dichotomy leads to mixed global opinion and presents interesting lessons for future Antarctic tourism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team enforces regulations and the other fields tourists for conservation, a balanced output is achieved. Some tourists are unhappy with the restrictions, but overall, the ecosystem fares well.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce strict regulations. Tourist numbers may dip, but the message of conservation over commercial gain boosts public image. Antarctica's ecological sanctity remains undisturbed.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

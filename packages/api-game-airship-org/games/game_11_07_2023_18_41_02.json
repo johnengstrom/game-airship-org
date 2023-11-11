@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Saving the Pangolins",
+  "gameDescription": "Two intelligent airships, Hercules Haven and Atlas Ark, are tasked with a crucial mission to transport pangolins from poaching hot spots in Africa to the new sanctuary in Vietnam. Along their journey, each decision made will affect the pangolins' safety, their navigational efficiency, and their environmental impact.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Poaching Hot Spots in Africa",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Hercules Haven",
+      "description": "Masters of preemptive action and specialists in animal care on board."
+    },
+    "redTeam": {
+      "name": "Atlas Ark",
+      "description": "Experts in adaptive navigation and strategic resource conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive news of a large-scale poaching incident. They must decide whether to intervene or continue their journey.",
+      "options": {
+        "A": "Divert course to rescue pangolins directly from the poachers, a risky action that may cause confrontation.",
+        "B": "Continue the course and coordinate a rescue with local authorities, a safer but slower approach."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to intervene. They manage to rescue the pangolins, but face unexpected hostility, consuming more fuel during the escape. The pangolins are safe, but the mission's efficiency is compromised.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Hercules Haven intervenes while Atlas Ark coordinates the rescue. Hercules Haven is delayed but saves more lives, while Atlas Ark shares strategic coordinates, ensuring a successful rescue.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Atlas Ark intervenes while Hercules Haven coordinates. Atlas Ark’s confrontational approach saves lives but risks the mission's sustainability, while Hercules Haven's strategic involvement ensures more rescues.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a coordinated rescue. Their combination of efficiency and avoidance of direct confrontation minimizes fuel consumption and maximizes pangolin safe rescues.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive a distress signal from a fellow wildlife rescue airship nearby.",
+      "options": {
+        "A": "Change course to help, potentially delaying their own mission.",
+        "B": "Maintain current course, sharing only their knowledge and resources remotely."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to assist. Through unity and collaboration, they manage to aid the distressed airship at the cost of delays to their respective missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Hercules Haven diverges to help while Atlas Ark shares resources remotely. Hercules Haven's aid is essential, while Atlas Ark helps from afar, showcasing the importance of strategic alliances.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Atlas Ark diverges while Hercules Haven supports remotely. Atlas Ark's hands-on help is invaluable, while Hercules Haven leverages their knowledge for remote assistance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue their course, focusing on their essential conservation mission. However, they extend remote support, reflecting their capacity to balance responsibility with empathy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships approach their destination but face severe weather conditions that could hinder landing efforts.",
+      "options": {
+        "A": "Wade through the weather, risking possible delays and additional fuel consumption.",
+        "B": "Reroute to a temporary safe space until weather conditions improve."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose to wade through the storm. They successfully land these precious cargo despite the risks and the increase in fuel consumption. Their determination is commendable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Hercules Haven charges through the storm while Atlas Ark reroutes. Hercules's success supports Atlas's strategic reroute which eventually secures a safer pathway for other aircraft.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Atlas Ark navigates through the storm while Hercules Haven reroutes. Atlas Ark's pathfinding abilities enable Hercules Haven to optimize their rerouting strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships opt for rerouting, prioritizing safety. While it results in delay, it reflects their commitment to prevent undue stress on the rescued pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

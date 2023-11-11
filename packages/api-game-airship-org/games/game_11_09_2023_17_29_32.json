@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Cruise Dilemma",
+  "gameDescription": "As environmental stewards and captains of the futuristic airships Aurora and Polaris, players must venture into the icy wilderness of Antarctica. Amidst the surge in eco-tourism, you're tasked with managing tourist desires for unforgettable experiences without compromising the fragile Antarctic ecosystem. Each decision made by the red and blue teams will affect the balance between tourism growth and environmental conservation.",
+  "setting": {
+    "location": "Above the Antarctic Circle",
+    "missionStart": "McMurdo Station, Antarctica",
+    "missionEnd": "Research Base, Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Explorers",
+      "description": "Experts in sustainable tourism and environmental science."
+    },
+    "redTeam": {
+      "name": "Polaris Pioneers",
+      "description": "Specializing in tourist management with emphasis on safety and experience."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the Antarctic summer begins, both teams must select a landing site for the tourists to explore.",
+      "options": {
+        "A": "Choose a popular but already impacted area near an emperor penguin colony.",
+        "B": "Select a pristine, untouched location on the edge of the Weddell Sea ice shelf."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to visit the penguin colony. The tourists are thrilled, but the increased footprint stresses the already impacted area and penguin population.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aurora team leads its tourists to the already impacted site, while Polaris heads to the pristine location. Despite the unique experiences, the pristine site faces the threat of becoming the next tourist hotspot.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Aurora heads towards the untouched Weddell Sea, Polaris concentrates on the familiar penguin colony. Tourism pressure is divided, but the colony continues to face disturbance and the untouched area edges towards potential impact. ",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for untouched locations. The tourists get a unique experience, but the human imprint widens on the wilderness. Teams share knowledge about these new areas, contributing to research but escalating future tourism pressure.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams have to handle the demand for Antarctic tourism. The question arises: How many tourists should be allowed for a cause of research, conservation, and controlled exploration?",
+      "options": {
+        "A": "Increase tourist capacity. Offer life-changing experiences to more people while channeling profits into research and conservation.",
+        "B": "Maintain existing limits. Prioritize ecosystem preservation by limiting the number of tourists even if it means less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams embrace increased tourism. The surge in visitors brings financial boost but also an increase in the pollution levels and general disruption to wildlife.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Aurora decides to allow more tourists, Polaris sticks to existing limits. Balancing financial growth with conservation, Aurora's decision attracts scrutiny but also funds for conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polaris increases its tourist capacity, while Aurora stays with the current numbers. Polaris’s move puts strains on infrastructure and disrupts wildlife but provides vital funding for conservation and research.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to maintain the existing tourist limits, sacrificing potential revenue for the sake of Antarctica's future. This shared commitment contributes to the conservation goals and reduces further disturbance to wildlife.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Conservation is crucial, and each team must decide their separate approaches.",
+      "options": {
+        "A": "Engage tourists in active conservation efforts, including beach clean-ups and educational programs.",
+        "B": "Implement strict eco-regulations, limit landing sites, insist on waste recycling, and control tourist behavior."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on engaging tourists in conservation. While this results in improved awareness among visitors, the human impact on the ecosystem continues to be a concern.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aurora's tourists actively contribute to conservation, while Polaris employs strict eco-regulations. Although Polaris's measures reduce immediate impacts, Aurora's approach fosters long-term eco-consciousness.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polaris's tourists demonstrate conservation principles in action, while Aurora enforces new eco-regulations. Polaris's approach creates more immediate local impact, while Aurora secures a gradual reduction in the human footprint.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams implement strict eco-regulations, limiting the overall human impact on the environment. This joint commitment highlights the necessity of maintaining the fragile balance between exploration and preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skies of Protection: Pangolins' Salvation",
+  "gameDescription": "Two futuristic airships, custodians of the skies, embark on a rescue mission to transport endangered pangolins from the African savannah to a new safety enclosure in Vietnam. The airships are equipped with state-of-the-art containment facilities for the pangolins, ensuring their safety and comfort during the journey. Every choice made by the airship crews significantly affects the mission's success, the pangolins' welfare, and the teams' carbon footprint, introducing the element of environmental responsibility.",
+  "setting": {
+    "location": "Above the African Savannah, towards Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "Regarded for their wildlife handling and safe transportation skills."
+    },
+    "redTeam": {
+      "name": "Airborne Guardians",
+      "description": "Renowned for their resource management and empathic decision-making."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships encounter a dense cloud of volcanic ash. Though their advanced filtration systems can handle it, the teams are concerned about additional energy consumption and potential distress to the pangolins.",
+      "options": {
+        "A": "Navigate through the cloud with filters at full power.",
+        "B": "Detour around the cloud, extending the travel time but ensuring a smoother ride."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to brave the cloud. Thanks to their filters, the airships manage to maintain both speed and air quality inside the pangolin containers, ensuring the creatures' welfare.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors push through the cloud while the Airborne Guardians take a detour. The detouring Guardians secure a smoother ride for their pangolins, but the journey takes longer.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Airborne Guardians push through the cloud while Skyward Saviors detour around it. With more time to acclimate, the Saviors' pangolins fare better, giving them the lead in compassionate conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the detour, ensuring a smooth ride for their cargo. Though it takes more time, their shared commitment to the pangolins' welfare reinforces their shared mission in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Both airships receive a distress signal from a grounded wildlife transport's balloon with a cargo of endangered parrots.",
+      "options": {
+        "A": "Divert course to assist, which will require additional power and time.",
+        "B": "Share the location with ground-based rescuers, maintaining the pangolins' schedule."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to assist, risking delay and extra power consumption. The parrots are saved, but the pangolins' welfare and mission's energy efficiency is affected.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors divert to assist while the Airborne Guardians share the location with ground rescuers. The Saviors are hailed for their selfless care, but it puts the Guardians in the lead time-wise.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Guardians divert to assist, while the Skyward Saviors share the location. The swift action by both teams delivers a successful rescue, and the pangolins remain on course.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain their course but contact ground teams for rescue. The parrots are saved, and the pangolins' journey remains undisturbed. Teamwork triumphs in the face of adversity.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the Vietnamese coast, the teams receive news of a local festival with fireworks planned for the night, which can stress the pangolins.",
+      "options": {
+        "A": "Speed up to deliver the pangolins before the event.",
+        "B": "Linger offshore till the celebration ends, ensuring a peaceful arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, delivering the pangolins before the celebration, but the hurried mission consumes extra hydrogen. Their commitment towards animal welfare is commendable but raises sustainability questions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors arrive before the celebration, but the Airborne Guardians wait off the coast. The Guardians' pangolins arrive in a peaceful environment, highlighting their consideration for pangolin comfort.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Airborne Guardians arrive before the celebrations while the Skyward Saviors wait offshore. The Saviors ensure a tranquil arrival for their pangolins, showing their empathetic approach.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both the Guardians and Saviors delay their arrival, ensuring a calm environment for the pangolins. Despite a longer mission time, their unerring commitment to animal welfare remains unshakeable.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

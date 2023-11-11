@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Great Ice Voyage",
+  "gameDescription": "As captains of advanced airships, players face the task of managing a new surge in Antarctic tourism. Each decision made could be a step towards successful sustainable tourism or a slip towards damaging one of  Earth's last great wildernesses.",
+  "setting": {
+    "location": "Above the Antarctic Ocean",
+    "missionStart": "South America",
+    "missionEnd": "Antarctic Research Base"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Frost Phoenix",
+      "description": "Pioneers in sustainable tourism and ecological preservation."
+    },
+    "redTeam": {
+      "name": "Crystal Penguins",
+      "description": "Experts in balancing human excitement with environmental care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are faced with the choice of selecting their landing sites for tourists. An already impacted area or a pristine untouched one?",
+      "options": {
+        "A": "Choose a popular, already impacted area.",
+        "B": "Select a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to land in the already impacted area, minimizing further harm to untouched wilderness. However, the concentrated impact on one area could lead to notable environmental stress...",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands in the popular area while the other chooses a pristine location. This spreads out the human impact but risks disturbing new areas of wilderness.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams choose different landing sites, one impacting an already used area while the other dares upon untouched wilderness. This decision lessens concentrated harm but raises new challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select pristine locations. The untouched areas under their care experience an influx of humans for the first time. The decisions made going forward will determine if this choice was a leap of faith or a reckless step.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Airships now face the decision of managing tourist capacity. Balancing the tourist demand with the urgent need to conserve Antarctica's unique ecosystem is a tightrope walk.",
+      "options": {
+        "A": "Allow higher number of tourists with potential higher impact",
+        "B": "Limit tourist numbers for conservation, at the cost of revenue"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Embracing the demand, both airships allow a high number of tourists. Increased interactions lead to significant environmental stress, but also to spiked profits, which could be utilized for further conservation efforts.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "While one airship goes for the maximum capacity, the other limits the numbers. Both see rewards and repercussions: one in the form of increased profits, the other in lesser environmental impact and positive publicity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team allows a higher number of tourists, while the other maintains a smaller crowd. The effects are twofold, causing increased profits but also a larger ecological footprint.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Opting for a more careful approach, both airships decide to limit tourist numbers. Revenue drops, but the reduction in environmental pressure is considerable, and the response from ecological groups is overwhelmingly positive.",
+          "bonusCard": "both"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally, airships must implement a conservation initiative. Will they actively engage tourists in conservation efforts or will they endorse strict regulations and area closures to protect the Antarctic wilderness?",
+      "options": {
+        "A": "Engage tourists in proactive conservation efforts",
+        "B": "Enforce strict regulations and area closures"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships opt to engage tourists in conservation efforts. This active participation not only helps conserve the environment but also educates visitors about the importance of preserving Antarctica's unique ecosystem.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One airship goes ahead with engaging tourists, while the other imposes strict regulations. This duality gives rise to interesting outcomes: higher visitor satisfaction on one side and undeniable environmental benefits on the other.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams opt for different initiatives. The airship with engaged tourists educates a new group of conservation advocates, while the strictly regulated approach results in significantly mitigated environmental impact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships enforce strict regulations and area closures. Although this might pose some inconvenience to the tourists, the visible positive effects on the environment instills a silent awe in everyone.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

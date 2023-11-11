@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Airship Odyssey",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships to facilitate the restoration of bee populations and their habitats that have been adversely affected by natural disasters and human activities. The survival of bees and the global ecosystem is in the player's hands. Red Team (Apis Aviators) and Blue Team (Bombus Navigators) compete in strategic missions with an objective to aid environmental conservation.",
+  "setting": {
+    "location": "Planet Earth, Various Ecosystems",
+    "missionStart": "International Conservation Headquarters",
+    "missionEnd": "Global Bee Sanctuaries"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Apis Aviators",
+      "description": "Specializing in habitat restoration and bee population management."
+    },
+    "redTeam": {
+      "name": "Bombus Navigators",
+      "description": "Experts in environmental conservation and ecological recovery."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: The teams must prioritize actions to mitigate hurricane damage to bee habitats.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas, providing essential food sources for bee populations.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on offensive action. The affected area blossoms, but the bee colonies are still unstable due to lack of safe shelters.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aviators' flowers feed the Navigators' new colonies. The combined strategy leads to a more balanced recovery but may face challenges long-term.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "The Navigators' colonies find refuge amongst Apis' native flowers. Synergistic action enhances restoration, but upfront bio-resources investment is high.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams ensuring bee survival in new safe colonies. However, the long-term survival may be uncertain without sufficient food sources from native flora.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: Teams discuss strategies to aid ecological recovery post-wildfire.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on recovering affected areas. They manage to re-green the area, but the bee population is slow to return due to displacement.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aviators plant seeds amidst the Navigators' artificial habitats. A balanced strategy that promotes both habitat and population recovery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Navigators' habitats among Apis-seeded fields enhance return of displaced bee populations. Collaboration strengthens recovery, but feasibility remains challenging.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams create artificial bee habitats focusing on immediate population survival but neglecting long-term vegetation restoration.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: The teams aim to expand ecologically sustainable practices, ensuring healthy bee populations.",
+      "options": {
+        "A": "Develop bee sanctuaries using advanced ecological technology.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in technological solutions. They create safe havens for bees, but public awareness of the bee crisis remains low.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aviators' sanctuaries provide real-life examples for Navigators' campaigns. Successful integration results in a significant boost in bee conservation efforts.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Amidst the Navigators' sanctuaries, Aviators' messages resonate widely. They see an increase in public participation in bee conservation.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams focus on public education. Although awareness increases, there's a lack of immediate solutions for bee habitat and population recovery.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

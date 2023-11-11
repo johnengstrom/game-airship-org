@@ -1,0 +1,99 @@
+{
+  "gameTitle": "SkyGuardians: The Pangolin Rescue Mission",
+  "gameDescription": "In an era where intelligent airships dominate the Earth's ecosystems for most critical missions, two rival airship teams embark on a vital ecological crusade. They must navigate obstacles and make strategic choices to rescue pangolins from illegal wildlife trade in Africa and transport them to their newly-built safe haven in Vietnam. Their decisions along their journey have significant impacts, shaping the survival of these innocent creatures and the delicate balance of Earth's biodiversity.",
+  "setting": {
+    "location": "Above the African Savannah and Asian Rainforests",
+    "missionStart": "African Poaching Locations",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "SkyShepherds",
+      "description": "Specializes in wildlife navigation and biodiversity preservation."
+    },
+    "redTeam": {
+      "name": "CloudWarriors",
+      "description": "Masters in swift rescues and safe cargo transfer."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships spot a pangolin seeing threat from a poacher. They must decide their course of action.",
+      "options": {
+        "A": "Intervene immediately with high-speed descend, running the risk of alarming other nearby poachers.",
+        "B": "Coordinate with on-ground anti-poaching units for a well-planned rescue action."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose swift intervention. The immediate fright caused a slight chaos but lead to a successful resuce. Quick but chaotic.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship descends quickly, while the other coordinates with ground forces. The situation is handled effectively showcasing the power of tactical thinking in such sensitive missions.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While one airship engages with on-ground forces, the other descends swiftly. The poacher is caught red-handed. The balance of quick thinking and strategy serves well.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with ground forces. The situation is handled with utmost care and minimal disruption, demonstrating the power of teamwork in wildlife preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "En route to Vietnam, airships receive a distress call from a marine vessel carrying rescued pangolins that is sinking.",
+      "options": {
+        "A": "Engage in direct rescue, risking the mission timeline.",
+        "B": "Alert nearby coastguard and wildlife teams to rescue while maintaining the mission schedule."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage in direct rescue. The mission schedule is disrupted, but the pangolins are saved showcasing a high priority for life over mission's efficiency.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverges for the rescue while the other alerts the coastguard. A balanced approach but will it sway the mission schedule and add to the energy requirements?",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team calls the coastguard while the other engages in direct rescue. The situation is handled effectively with minimal disruption to the mission timeline.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams alert the coastguard and wildlife rescue teams to intervene, exhibiting strategic time and resources management while ensuring the well-being of the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the new pangolin safe haven in Vietnam, the airships need to decide on an animal-friendly and sustainable landing strategy.",
+      "options": {
+        "A": "Perform a soft vertical landing by expending extra hydrogen for thrust control.",
+        "B": "Proceed with a standard landing sequence, causing minimal disruption to the enclosure's environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams perform a soft vertical landing. Though this expends more hydrogen, it ensures minimal stress and disruption to the pangolins, bringing the mission to a successful close.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team executes a soft landing while the other proceeds with the standard sequence. This divergence of methods sparks vital discussions on balancing environmental consciousness and resource allocation in future missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Opting for a soft landing, one team secures a serene ambiance for the pangolins. The other, sticking with the standard approach, manages better energy efficiency, rounding off the mission with equally important considerations.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the standard landing sequence. They ensure an efficient completion of the mission and open up potential discussions on eco-friendly landing alternatives for future operations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

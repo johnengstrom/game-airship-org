@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Skies: The Balance of Wilderness",
+  "gameDescription": "As the captains of futuristic airships, navigate the delicate terrain of Antarctica. Balancing tourism demand with the urgent need to safeguard its unique ecosystem, you must perform missions of sustainable exploration and scientific research, whilst minimizing the environmental impact.",
+  "setting": {
+    "location": "Above the Antarctica",
+    "missionStart": "Argentina",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Pioneers",
+      "description": "Skilled in precision landings and tourist management."
+    },
+    "redTeam": {
+      "name": "Ice Guardians",
+      "description": "Experts in environmental protection and sustainable practices."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must select a landing site for the eager tourists. The choice will invariably impact the fragile Antarctic ecosystem.",
+      "options": {
+        "A": "Land at a popular, already impacted area.",
+        "B": "Choose a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted area. The concentrated footfall further stresses the ecosystem, but protects untouched sites. Their cautious choice sets a precedent for future landings.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands at an impacted area while the other explores the untouched landscape. Despite their best efforts for minimal impact, traces of the visit remain at the fledgling site.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team lands at a new location, the other opts for the damaged site. Their contrasting choices reveal a complex conundrum: repeat or spread the impact?",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select pristine sites, leaving indelible marks on the untouched wilderness. Their decisions stir debate on humanity's impact on untouched environments.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the tourist influx increases, the teams must decide a sustainable tourist capacity for their respective sites.",
+      "options": {
+        "A": "Allow more tourists with a potential of a higher impact.",
+        "B": "Limit tourist numbers for conservation but earn less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to cater to more tourists. The bustling sites buzz with excitement, but the footfall leaves tell-tale signs of human presence, a bleak reminder of consumption vs conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team allows more tourists while the other curtails numbers. The financial impacts vary, but more concerning are the contrasting imprints on the Antarctic landscape.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team preferring numbers and the other opting for conservation, the Antarctic bears the brunt of their choices. Conservation becomes a topic of intense debate amongst the tourists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers. Visitor experiences are unparalleled, but the reduced revenue affects their potential for expansion. The value of experience over profit becomes clear.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "In response to concerns about environmental impact, the teams need to implement a conservation initiative.",
+      "options": {
+        "A": "Engage tourists in conservation efforts to foster environmental stewardship.",
+        "B": "Impose strict regulations and area closures to protect the ecosystem."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation efforts. The visitors, now invested, leave with a newfound respect for the Antarctic, taking home unforgettable memories and essential lessons of preservation.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One team turns tourists into conservation advocates, while the other enforces limits and closures. The mixed response raises questions about the optimal model for Antarctic tourism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The juxtaposition of active engagement against controlled access leads to new understanding about human-nature interactions, prompting a reevaluation of tourism practices on a global scale.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose strict regulations and closures. The harsh steps cause a decline in tourist sentiment but give the Antarctic the chance to recover, painting an austere picture of sustainability.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

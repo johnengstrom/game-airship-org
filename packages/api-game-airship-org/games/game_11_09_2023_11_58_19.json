@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Mission Pangolin: The Airship Rescue",
+  "gameDescription": "In a bold compassionate effort, two teams, Athena Navigators and Glaucus Guardians, control intelligent airships on a vital mission - rescuing pangolins, the most heavily trafficked wildlife mammals, and transporting them to a new sanctuary in Vietnam designed for their survival and recovery. The teams have to ensure that they minimise the environmental impact and maintain the physical and mental health of the pangolins during transport.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Athena Navigators",
+      "description": "Excel in strategic planning and crisis management."
+    },
+    "redTeam": {
+      "name": "Glaucus Guardians",
+      "description": "Proficient in wildlife handling and onboard animal care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams approach a known poacher’s territory. They need to decide whether to avoid the region, which could consume more time and fuel, or directly navigate through, with a potential risk of detection.",
+      "options": {
+        "A": "Avoid the territory, risking additional fuel consumption but ensuring safety.",
+        "B": "Directly navigate through, using regular fuel reserves but potentially alerting the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to play safe. The detour means they consume more fuel but avoid any risk of detection or conflict. They share their potentially life-saving path with global wildlife rescue teams.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Athena Navigators avoid while Glaucus Guardians navigate directly. The latter makes it through undetected due to unexpected fog but the scenario could have had different outcomes.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Glaucus Guardians reroute while Athena Navigators head directly. The direct route takes them through a heavy storm which makes them invisible to radars on ground proving a boon in disguise.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams navigate directly through the mafia region. They give out a misleading signal which confuses the poachers and they slip by unnoticed. This becomes a preferred route for future missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Due to a sudden change in weather, there is a spike in temperature inside the airships causing discomfort to the pangolins.",
+      "options": {
+        "A": "Cool down the airship interiors quickly by using higher energy refrigeration units.",
+        "B": "Gradually decrease the temperature with normal cooling, maintaining pangolins' comfort and saving energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams quickly bring down the temperature. The pangolins are comforted faster but with a substantial energy cost raising sustainability concerns.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Athena Navigators cool the airship quickly while Glaucus Guardians opt for a slower, more energy-efficient process. The pangolins in the latter airship show less signs of stress reflecting better overall health.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Glaucus Guardians instantly initiate heavy cooling while Athena Navigators go for energy conservation and gradual cooling. The pangolins in the latter airship show better adaptation to the new temperature.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "With both teams choosing slow cooling, they consume less energy and the pangolins adapt more smoothly to the drop in temperature. This approach plays a crucial role in improving mission's sustainability overall.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they discover an unexpected military drill causing air traffic congestion.",
+      "options": {
+        "A": "Seek government clearance and try navigating through the traffic.",
+        "B": "Wait for the drill to end, ensuring safer navigation but consuming additional resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships secure fast-tracked clearance. They manage to navigate the traffic but end up consuming additional fuel. The pangolins however reach the sanctuary on time mitigating further stress.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Athena Navigators decide to navigate amidst the drill while Glaucus Guardians wait. The Navigators face some initial turbulence but manage to reach the sanctuary earlier.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Glaucus Guardians venture into the crowded air space while Athena Navigators wait. Guardians pass through smoothly due to a sudden dispersion of clouds which helps them navigate safely and quickly.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships wait for the drill to end. They conserve their energy and navigate safely to the sanctuary. Their decision to prioritize safety over speed sets a standard for future missions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

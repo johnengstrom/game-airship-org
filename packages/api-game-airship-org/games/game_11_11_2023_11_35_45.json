@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: The Green Guardian",
+  "gameDescription": "Two state-of-the-art airships known as Green Guardians embark on a critical mission to airlift rescued pangolins from Africa to a new, innovative enclosure in Vietnam. The decisions made by the airship crews in managing their resources and navigating various challenges will determine not only the success of the mission but also its impact on the environment.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wildlife Conservation Centre",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Biosphere Hawks",
+      "description": "Specializing in live cargo handling and eco-friendly navigation."
+    },
+    "redTeam": {
+      "name": "Preservation Falcons",
+      "description": "Experts in climate risk management and sustainable energy utilisation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships receive intel regarding a network of pangolin poachers. They must decide how to intervene.",
+      "options": {
+        "A": "Share the information anonymously with local law enforcement.",
+        "B": "Use the airships' advanced surveillance to monitor the network and gather stronger evidence."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to share the information. The local law enforcement pounces on the tip, arresting a few poachers but many escape. The mission must carry on with eyes wide open, knowing dangers still lurk.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team shares the information, and the other conducts surveillance. The law enforcement action flushes out poachers from hiding, making them easier targets for surveillance. The teams' collaboration leads to a major takedown of the illicit network.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team conducts surveillance while the other shares the information. A cat-and-mouse game ensues, leading to a few key arrests. Though operations were compromised due to conflict of interest, the mission remains intact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use their airships for surveillance. The acquired data unravels the entire network, culminating in a massive law enforcement operation. Poaching activities are significantly disrupted, easing the pangolin risk for a while.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Unanticipated storms rise from the Indian Ocean, creating risky flight conditions.",
+      "options": {
+        "A": "Fly through the storm, saving hydrogen and time, but putting the crew and pangolins at risk.",
+        "B": "Alter the route to avoid the storms, increasing travel time and hydrogen consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to risk the storm. The advanced systems handle the turbulence, but the stress affects the pangolins. The creatures’ recovery in the new facility will now be more challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship braves the storm while the other reroutes. The storm-facing team delivers their pangolins earlier, but with visible stress. In contrast, the detouring team takes longer, using more fuel, but delivers healthier pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship reroutes while the other braves the storm. Despite using extra hydrogen, the rerouting team ensures healthier pangolins. The storm-battling team's pangolins will need extensive care but arrive earlier to receive it.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to reroute. Despite consuming more hydrogen and time, they ensure optimum health for rescued pangolins. The mutual support during challenging storms bolsters their resolve in this noble mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships reach Vietnam but face local unrest due to recent poaching occurrences. The teams have to decide how to manage public sentiment.",
+      "options": {
+        "A": "Engage with the local community, explaining the mission and educating them about pangolin preservation.",
+        "B": "Ensure swift delivery of the pangolins to the facility, avoiding interaction with the local unrest."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage with the community. It is a time-consuming process but the public sentiment begins to change. Though it adds to the hydrogen consumption, it ensures a safer environment for pangolin conservation in the long run.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages with locals while the other focuses on the delivery. The efforts tone down the unrest, and safe transit is ensured. Both the actions combine to leave a lasting positive impact on the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team ensures quicker delivery, while the other interacts with the locals. The swift action limits exposure to potential threats, while the community outreach mollifies the unrest. The combination allows for maximum impact with minimum risk.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on delivering the pangolins safely. The airships turn into a beacon of hope amidst unrest, inspiring awe and changing public sentiment. Their commitment to the mission ensures a safer future for the rescued pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

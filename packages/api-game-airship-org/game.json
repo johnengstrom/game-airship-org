@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Wingbeats for Wildlife: The Pangolin Preservation",
+  "gameDescription": "In 'Wingbeats for Wildlife', two intelligent airships, known as The Guardians of Scales, are launched into the skies on an urgent mission. These vessels are equipped with state-of-the-art conservation technology tasked with locating and rescuing endangered pangolins. Each decision the airship crews make will not only shape the fate of the pangolins but also impact the local ecosystems and the global effort for wildlife conservation.",
+  "setting": {
+    "location": "Central African Rainforest",
+    "missionStart": "Global Wildlife Conservation Headquarters",
+    "missionEnd": "Safe Haven Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Azure Protector",
+      "description": "Specializing in pangolin detection and low-impact environmental navigation."
+    },
+    "redTeam": {
+      "name": "Ruby Rescuer",
+      "description": "Experts in rapid response and precision wildlife retrieval."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships encounter a region rampant with illegal traders. They can choose to engage directly or stealthily track to uncover trafficking routes.",
+      "options": {
+        "A": "Engage directly and attempt to rescue pangolins on the spot.",
+        "B": "Use stealth technology to track their routes for larger intervention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Boldly, both teams opt for a direct approach. The confrontation is messy, some pangolins are saved, but it alarms traders across the region, diminishing future rescue chances.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team engaging and the other tracking, actionable intelligence is paired with immediate pangolin rescue. However, the mission's secrecy is compromised.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Ruby Rescuer engages while Azure Protector collects data. Valuable intelligence streams in as pangolins are liberated, setting up for future crackdowns.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing stealth, both teams gather comprehensive trafficking data, setting the stage for a significant blow against illegal traders in the future.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships come across a local community affected by the illegal trade. They can support through education or by employing locals to aid conservation.",
+      "options": {
+        "A": "Initiate educational programs on wildlife protection.",
+        "B": "Empower locals with jobs in research and conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Focused on long-term goals, both airships establish educational workshops. The seeds of conservation are sown, but tangible results will take time to manifest.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Azure Protector teaches, while Ruby Rescuer employs. The mix of immediate provision and future awareness creates a robust conservation synergy in the community.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Ruby Rescuer educates, Azure Protector offers jobs. Earning through pangolin protection, locals start viewing the creatures as treasures rather than commodities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize economic empowerment, turning the tide against poaching by providing alternative income. Slowly, the community becomes a protector of pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the mission draws to a close, both airships must decide how to finalize the transfer of rescued pangolins to the Vietnamese sanctuary.",
+      "options": {
+        "A": "Fly directly to the sanctuary, risking energy reserves.",
+        "B": "Coordinate with ground transport for a relay strategy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose air transport. The pangolins arrive swiftly, but the airships’ fuel reserves are heavily taxed, questioning the sustainability of direct flights.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Azure Protector flies direct, while Ruby Rescuer coordinates with ground teams. The combined approach balances speed and energy efficiency, offering a model for future rescues.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Ruby Rescuer opts for speed, and Azure Protector goes for collaboration. Ground teams are inspired by the airships' trust, leading to increased local engagement.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With a focus on teamwork, both teams successfully relay the pangolins to their new home. The efficient use of resources underscores the importance of multilayered conservation strategies.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

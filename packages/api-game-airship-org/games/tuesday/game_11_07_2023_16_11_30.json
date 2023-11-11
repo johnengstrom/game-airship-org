@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Icy Balance",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a surge in tourism. Players take control of futuristic airships, tasked with balancing the growing demand for exploration and scientific research against the need to conserve Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Global Airship Port",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Frozen Pioneers",
+      "description": "Experts in wilderness navigation and sustainable practices."
+    },
+    "redTeam": {
+      "name": "Icy Guardians",
+      "description": "Specialize in managing research operations and eco-tourism."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are approaching Antarctica, with tourists eager to land. Choosing a landing site is critical.",
+      "options": {
+        "A": "Landing in a popular but already impacted area.",
+        "B": "Choosing a pristine, untouched area to prevent the same fate."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the already impacted area. The site's popularity increases, but existing degradation is exacerbated, causing concern among environmentalists.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands on the impacted site, while the other braves a pristine area. Their choices reflect contrasting tourism models, pitting revenue generation vs ecological integrity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team focuses on the ‘already-damaged’ area, the other opens a new frontier, causing potential disturbance in an untouched ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the untouched site. While they maintain the integrity of the already impacted site, the new area risks become another 'convenient' tourist spot.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With the landing site determined, the teams must decide on the tourist capacity. The challenge is to balance revenue potential with environmental conservation.",
+      "options": {
+        "A": "Allow a higher number of tourists, confronting potential higher environmental impact.",
+        "B": "Limit tourist numbers for conservation purposes, recognizing the impact on revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Betting on tourism revenue, both teams influx the site with tourists. The bustling activity triggers a public debate on the sustainability of Antarctic tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team prioritizes conservation over profit, while the other aims to capitalize on the ‘Antarctic Experience’. Their choices present the quintessential paradox of tourism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team favours financial returns, the other seeks long-term sustainability. The stark contrast focuses public attention on the teams’ differing approaches.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers, prioritising conservation. While the revenue shrinks, public opinion shifts in favour of sustainable tourism practices in Antarctica.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "To enhance conservation, teams are to implement an initiative. The options are engaging tourists in mindful practices or imposing stricter regulations.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, promoting responsible behaviour.",
+        "B": "Implement strict regulations, closing off certain areas from human reach."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to engage tourists in conservation efforts, impressing upon them the fragility of Antarctica. The tourists return as agents of change, advocating for eco-conscious travels.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team choses tourist education, while the other imposes strict regulations. The dichotomy of leniency and rigidity sparks a global discussion on Antarctic tourism's future.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Contrasting in their approaches, one team’s regulatory measures play off against the other’s educative attempt.  The ripple effect is a more informed and respectful tourist market.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams impose strict regulations, causing initial backlash from potential tourists. However, with time, it sets a benchmark for sustainability and responsible travel.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

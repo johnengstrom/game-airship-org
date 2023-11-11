@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Plight",
+  "gameDescription": "Hope is on the horizon for the world's most trafficked mammal, the pangolin. Greater Good Charities and Wildlife At Risk have united to build a new enclosure for these vulnerable creatures in Vietnam. Two advanced airships are designated for ensuring the safe transportation of pangolins from poaching hotspots to this sanctuary. Navigating perilous weather, encountering agreements for airspace access, and responding to unforeseen challenges demand strategic choices that impact the mission's outcome and the pangolins' fate.",
+  "setting": {
+    "location": "Vietnam and surrounding territories",
+    "missionStart": "Rescue locations across Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Guardians",
+      "description": "Masters in implementing advanced wildlife handling systems."
+    },
+    "redTeam": {
+      "name": "Saviors of Scale",
+      "description": "Experts in maneuvering treacherous skies with precious cargo."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Reliable intelligence pinpoints a poaching hotspot. Teams can either rush in and intimidate the poachers or approach stealthily preserving the element of surprise.",
+      "options": {
+        "A": "Rush in with full force.",
+        "B": "Approach stealthily."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush in and manage to rescue some pangolins but alerting the poachers prematurely has ensured that others evade capture with pangolins in tow.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the 'Phoenix Guardians' rush in to create a distraction, the 'Saviors of Scale' stealthily infiltrate the poachers' camp, rescuing more pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The 'Saviors of Scale' rush in, creating a perfect distraction for 'Phoenix Guardians' to infiltrate stealthily and orchestrate a successful rescue mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams approach stealthily. They take their time, rescuing pangolins while minimizing confrontation with poachers. Their collective patience is a testament to their commitment.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, a sudden weight shift in the holds puts the airships off-balance. The teams must decide whether to stabilize the pangolins or the airship first.",
+      "options": {
+        "A": "Stabilize the pangolins first.",
+        "B": "Stabilize the airship first."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush to stabilize the pangolins, but the unstable airships face turbulence risking the delicate cargo's safety. The focus on animal welfare is admirable but poses risks.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While 'Phoenix Guardians' rush to stabilize the pangolins, 'Saviors of Scale' prioritize the airship's stability. Their combined choices ensure an overall stable environment.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "'Saviors of Scale' stabilize the pangolins first while 'Phoenix Guardians' focus on the airship. By complimenting each other's actions, they manage both concerns effectively.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams focus first on stabilizing the airship, which minimizes risk to the pangolins. Their swift actions ensure a smooth continuation of the rescue mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the Vietnamese coast, the teams face a choice: fly over a highly populated city, risking potential attention, or take a longer, safer route over the open ocean.",
+      "options": {
+        "A": "Fly over the city.",
+        "B": "Opt for the longer, safer ocean route."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to fly over the city. They encounter adverse air traffic and curious eyes, but they seize the chance to enlighten the populace about pangolin conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "'Phoenix Guardians' fly over the city, drawing attention and education opportunities while 'Saviors of Scale' take the longer ocean route, ensuring safety but risking delay.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "'Saviors of Scale' fly over the city, using the attention for educational outreach while 'Phoenix Guardians' ensure the secure, albeit longer, ocean route.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the longer ocean route, prioritizing safety over speed. The pangolins arrive at the sanctuary, their arrival laden with promise and hope.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

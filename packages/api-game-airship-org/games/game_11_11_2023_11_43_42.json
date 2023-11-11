@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: The Aerial Guardians",
+  "gameDescription": "Two futuristic airships, under the banner of Greater Good Charities and Wildlife At Risk, embark on a challenging mission to rescue pangolins being poached in Africa and safely transport them to a new sanctuary in Vietnam. This journey not only tests their logistical capabilities but also poses ethical conundrums revolving around wildlife conservation and challenges of illegal trafficking.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Feline Feathers",
+      "description": "Renowned for stealth operations and quick response times."
+    },
+    "redTeam": {
+      "name": "Rhino Shells",
+      "description": "Well-recognized experts in wildlife rescue and rehabilitation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Reconnaissance identifies a suspected poaching hotspot in a densely forested region. The airships must decide how to approach.",
+      "options": {
+        "A": "Launch a stealth operation under the cover of night.",
+        "B": "Coordinate with local authorities for a joint daytime intervention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The airships' synchronized stealth operation catches the poachers off-guard. Despite low visibility and increased energy consumption, they successfully secure a batch of pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The nighttime stealth operation by one airship takes the poachers by surprise, while the other's daytime coordinated intervention swoops up the remainders. Each team's choice leads to a partial success with different strategies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Unexpectedly, the teams' decisions complement each other. The stealth operation weakens the poachers' vigilance, and the daytime intervention capitalizes on this vulnerability. Together, they save numerous pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The coordinated approach with local authorities overwhelms the poachers, resulting in many saved pangolins. It's a clear victory for collaborative effort, with modest hydrogen expenditure.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the pangolins demonstrate signs of stress possibly due to altitude and confinement.",
+      "options": {
+        "A": "Lower the altitude and slow the journey to minimize stress.",
+        "B": "Retain altitude but administer sedatives to calm the pangolins, affecting the team's medical supplies."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships lower their altitude, extending the journey but soothing the pangolins. The enduring stress on hydrogen supplies raises concerns, but the teams prioritize pangolin wellbeing.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The altitude drop by one team aids in natural stress-reduction, while the other team's sedatives achieve similar results quicker but at cost to their medical supplies. Both these decisions showcase the value of adaptability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team administering sedatives and the other lowering altitude, the pangolins are kept calm and transport efficiency isn't overly compromised. It's an effective if unexpected collaboration.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Administering sedatives to calm the pangolins proves effective, although it depletes the teams' medical supplies. However, their proactive handling underlines their commitment to animal welfare.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Reaching Vietnam, the airships encounter a severe tropical storm, posing navigation and safety risks.",
+      "options": {
+        "A": "Fly through the storm, testing the structural strength of the airships and their hydrogen supplies.",
+        "B": "Land safely away from the storm and complete the journey overground, leading to a longer rescue time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Daring to fly through the storm, both airships avoid prolonging the distress of their respective pangolin passengers. Their timely decision reflects balanced judgement, even if it pressures their hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The team that faced the storm reaches the shelter on time, while the grounded team arrives later. However, both teams manage to ensure pangolin safety, echoing the paramount objective.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team braving the storm and the other continuing on land, the pangolins are transported in a balanced manner with minimized stress, showcasing the strength of diverse strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "While both teams land safely and journey overland, the pangolin transfer indeed gets extended. But the teams insist on the priority of safety, proving their dedication to their fragile passengers.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

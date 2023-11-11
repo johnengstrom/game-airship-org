@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Charities: Pangolin Pursuit",
+  "gameDescription": "In a daring adventure of compassion and stewardship, two futuristic airships from the global teams Aeolus Wings and Poseidon Carriers embark on a mission to transport resources for the construction and upkeep of a new pangolin enclosure in Vietnam. Each decision made by the valiant airship crews affects both the success of their mission and also the fate of endangered pangolins worldwide. Navigating through challenges, the teams strive to support Greater Good Charities in their quest to save the most heavily trafficked wild mammal worldwide.",
+  "setting": {
+    "location": "Various global locations",
+    "missionStart": "Airship Home Bases",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Experts in flying in challenging conditions and rescue operations."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Specialists in risk management and cargo transportation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While collecting supplies vital for the enclosure, both airships come across a black market selling pangolin scales. They have to decide on their subsequent action.",
+      "options": {
+        "A": "Try to dismantle this illegal market using onboard security systems.",
+        "B": "Immediately report the event to local authorities and continue with the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely confront the illegal market, successfully freeing pangolins and disrupting the traffickers. Their unexpected engagement delayed their missions and reduced supply storage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages the traffickers while the other reports the event. The engaging team faces complications but saves more pangolins, while the other team successfully collects more supplies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team reports the illegal market while the other team confronts the traffickers. The confrontation results in an increase in rescued pangolins but delays mission progression.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to quickly report the illegal market and continue collecting supplies. Pangolins are rescued by authorities, and both teams successfully collect more resources for the enclosure.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While flying over an African landscape, the airships detect unusual wildlife activity. With the pangolin poaching threat in mind, the teams must decide how to respond.",
+      "options": {
+        "A": "Launch drones to investigate the unusual activity.",
+        "B": "Inform local wildlife authorities of the suspected poaching activity and continue towards Vietnam."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use drones, discovering and disrupting multiple poaching operations. Although slowing their progress, they've made a significant blow to illegal pangolin trafficking.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses a drone while the other informs authorities. The drone detected poaching activity, halting it but straining energy resources, while the other team progresses further towards the enclosure.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team informs authorities while the other investigates with drones. The drone-flying team manages to halt poaching activity but at the cost of mission progression.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams notify authorities of the suspicious activity and keep pushing towards Vietnam. Their timely information leads to successful anti-poaching operations, while their mission stays on track.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival in Vietnam, the airships face two challenges: disturbed local weather and landing restrictions due to an ongoing festival. It is a crucial decision to ensure smooth delivery of the supplies.",
+      "options": {
+        "A": "Wait for the festival to end before making an attempt to land.",
+        "B": "Negotiate for quicker landing permissions, risking mistiming with the unstable weather."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams wait for the festival to end, avoiding weather complications but pushing the construction timeline. The delay is a small compromise for the crucial mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands quickly after negotiation, facing weather difficulties but delivering supplies sooner. The waiting team has a slower delivery but faces no weather risks.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team waits, the other negotiates and lands early despite weather challenges. The swift delivery slightly speeds up construction, making their risky decision worthwhile.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wait for the festival to end and make a safe landing in calm weather, delivering the supplies for the awaited enclosure. Their patience ensures a successful mission end.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

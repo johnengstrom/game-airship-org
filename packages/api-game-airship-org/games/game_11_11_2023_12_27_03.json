@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Voyage: Pangolin's Plight",
+  "gameDescription": "Two futuristic airships, the Sanctuary Sailer and Fauna Carrier, are tasked to perform a special rescue mission to save pangolins from the vicious cycle of illegal trafficking. The mission begins deep in the heartlands of Africa, where poaching runs rampant, and ends in a newly built enclosure in Vietnam. The survival and recovery of the pangolins rely on the strategic decisions made by the airship crews, which also impact the environmental footprint of their journey.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Poaching Grounds, Africa",
+    "missionEnd": "New Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sanctuary Sailer",
+      "description": "Specializes in safe transport of wildlife and stealth missions."
+    },
+    "redTeam": {
+      "name": "Fauna Carrier",
+      "description": "Known for efficient navigation and timely wildlife delivery."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face a sudden sandstorm in the African desert. They must decide how to navigate for the safety of their valuable cargo: the pangolins.",
+      "options": {
+        "A": "Fly higher above the storm, using more hydrogen but ensuring more safety.",
+        "B": "Fly low and use advanced radar systems to navigate through the storm which may put pangolins at risk."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to ascend, consuming more hydrogen but securing the safety of their priceless cargo – the pangolins. This choice reflects their shared priority: the welfare of these threatened creatures.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sanctuary Sailer ascended to safer heights, while Fauna Carrier took a more risky route. Sanctuary Sailer consumed extra hydrogen but ensured the pangolins' safety, gaining praise from the wildlife charities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fauna Carrier rose to higher altitudes, using extra fuel but protecting its cargo. In contrast, Sanctuary Sailer braved the storm at lower altitudes, leading to a frightening but thrilling ride for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to fly low and navigate through the storm using their advanced systems. Although their decision saved some hydrogen, it led to an unexpected adventure for the pangolins aboard.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight over the Indian Ocean, an SOS distress signal is received from a ship carrying medical supplies.",
+      "options": {
+        "A": "Divert the flight to assist the distressed ship at the cost of additional hydrogen usage.",
+        "B": "Ignore the SOS call and continue with the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to assist the distress call, exhibiting a great act of humanitarianism. However, the unanticipated detour stressed their onboard pangolins and drained their hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sanctuary Sailer responded to the SOS, while Fauna Carrier continued the mission. Despite the uncertainty of the situation, the Sailer's decision to save the medical ship was hailed as an act of altruism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Contrasting decisions led to different outcomes. Fauna Carrier bravely ventured to save the distressed ship, while Sanctuary Sailer's maintained course. This scenario begins a thoughtful debate on survival priorities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to ignore the SOS plea for the sake of their precious cargo. Their commitment to their mission was remarkable, but it raised questions about the value of other life-saving missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "On the final leg of their journey, both airships are making approach to the enclosure. The fluctuating wind patterns could make landing difficult.",
+      "options": {
+        "A": "Landing immediately, challenging the difficult weather patterns and potentially causing distress to the pangolins.",
+        "B": "Hover above the enclosure until winds stabilize, using more hydrogen but ensuring a gentle landing for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to land immediately, facing the unpredictable winds. They safely managed to navigate the airships to land, demonstrating their adept handling skills. But this ordeal was likely stressful for their pangolin passengers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sanctuary Sailer decided to wait, demonstrating great patience and concern for the pangolins' wellbeing. Meanwhile, the immediate landing by Fauna Carrier was a showcase of their captivating skills.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fauna Carrier chose to hover, using more hydrogen but ensuring a gentle descent. Sanctuary Sailer, meanwhile, triumphed over the turbulent winds, landing their airship in one daring maneuver.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to hover until conditions were right for a safe landing. Their shared dedication to the welfare of their special cargo reaffirms the importance of this conservation mission in their hearts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

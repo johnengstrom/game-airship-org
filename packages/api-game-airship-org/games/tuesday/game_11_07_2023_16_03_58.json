@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Protector",
+  "gameDescription": "Join the mission of Greater Good Charities and Wildlife At Risk as two futuristic airships, champions of animal conservation, embark on a mission to transport endangered pangolins from the grasp of poachers in Africa to a new sanctuary enclosure in Vietnam. Each decision made by the airship crews not only impacts the safety and care of their precious cargo but also represents a bigger step in pangolin conservation and the global fight against illicit wildlife trafficking.",
+  "setting": {
+    "location": "Airspace from Africa to Vietnam",
+    "missionStart": "Poacher's hideout in Africa",
+    "missionEnd": "Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Skywardens",
+      "description": "Veterans in wildlife rescue operations and adept in challenging maneuvers."
+    },
+    "redTeam": {
+      "name": "Wildlife At Risk Skycarriers",
+      "description": "Experts in handling fragile ecosystems and ensuring safety and comfort to the precious cargo."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face a sudden sandstorm while crossing the Sahara desert. Navigating the weather could risk stress to the cargo.",
+      "options": {
+        "A": "Fly low and use advanced navigation systems to get through the sandstorm.",
+        "B": "Fly higher to avoid the sandstorm, consuming more fuel but reducing potential stress to the cargo."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the sandstorm, their efficient navigation ensures the journey continues but the pangolins show signs of stress, highlighting the challenge of their task.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team braving the storm and the other ascending, the decision led to a relative balance. The pangolins from the higher flying airship show less stress, drawing attention to the importance of careful handling.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship ascends while the other braves the storm. The stress on the pangolins in the lower flying airship is noted, leading to considerations for future missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to ascend, consuming more fuel but ensuring the pangolins remain calm. Their shared experiences stress the importance of animal welfare in extreme situations.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships receive an urgent message. Poachers are spotted at a nearby location with more pangolins.",
+      "options": {
+        "A": "Immediately respond hoping to catch the poachers and rescue more pangolins.",
+        "B": "Maintain the flight path focusing on the safe delivery of the current cargo."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships deviate from their path, leading to the successful capture of poachers and additional pangolin rescues. The resources are strained but the successful operation brings hope for the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The impromptu rescue operation by one team leads to more lives saved, while the continuous care from the other ensures calm amongst the cargo. The events stress the need for swift decision-making in conservation missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With the split decision, more pangolins were saved while the welfare of those onboard was ensured. The decision illustrates the challenges faced in such missions and the importance of balanced responses.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize their current cargo, ensuring their well-being over the uncertain operation. The decision highlights the complexity of resource allocation in conservation missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the airships need to decide on the release process for the pangolins.",
+      "options": {
+        "A": "Perform a direct, quick release in the new sanctuary.",
+        "B": "Choose a slow, phased release allowing pangolins to acclimatize gradually."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing a direct release process, the pangolins are quickly introduced to their new home, saving fuel but potentially risking stress for the animals. It symbolizes the need for balancing efficiency and care.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship opts for a direct release while the other chooses a phased approach. The pangolins from the phased release respond better to their new environment underlining the importance of patience in wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship doing a phased release and the other a direct release, the pangolins face different transition experiences. The differences highlight the need for a carefully planned approach in return-to-wild schemes.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide on a slow, phased release. It’s a slow process but eases the pangolins' adaptation, reaffirming the primary purpose of the mission - ensuring the pangolins' well-being.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

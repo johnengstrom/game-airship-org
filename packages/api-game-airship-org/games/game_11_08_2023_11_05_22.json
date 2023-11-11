@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Hive of the Future",
+  "gameDescription": "Players commandeer advanced airships in the guise of the Apis Aviators of the Red Team, and the Bombus Navigators of the Blue Team in 'Operation Pollination'. The world is teetering on the brink, with the bee population dwindling and ecosystems under threat. Your mission is to strategize and create safe havens for this industrious insect in the face of natural disasters and human activities.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Storm-Ravaged Floral Plains",
+    "missionEnd": "Thriving Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Innovators in creating sustainable runways for beneficial bugs."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Adept in manoeuvring airships whilst ensuring the safety of the diverse species."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery looms. Floral habitats have been decimated, leaving native bees homeless. How do you restore balance?",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas restoring bee habitats organically.",
+        "B": "Establish new bee colonies in safe zones creating an instant and secure sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to plant native flowers in the affected areas. The ecosystem is slowly returning to its original state, and the bees now have suitable home ground.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team sowed fresh vegetation while the other laid foundations for new colonies. This balanced approach supported immediate needs and ensured future sustainability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team focused on creating new colonies, the other enriched the degraded soil with native plants. This tactic offered redundancy and promoted a resilient environment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams swiftly established safe colonies for the bees. Rapid response to the crisis ensured the survival of bee populations in the aftermath of the hurricane.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A wildfire has ravaged vast tracts of bee-friendly habitats. How do you restore and prevent?",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation and launch a fire-resistant vegetation program.",
+        "B": "Create artificial bee habitats in unaffected regions and partner with local communities for sustainable land management practices."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focused on replanting bee-friendly vegetation. Although the ground proved difficult to work, their dedication led to visible signs of recovery, sparking hope for a brighter future.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team planted seeds in fire-damaged areas, the other created artificial habitats. This differentiated approach allowed for manifold paths to recover and flourish.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team devised artificial dwellings, the other sowed the ashes with plant seeds. Their diverse strategies diversified risk and secured progress towards revival.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams constructed artificial habitats and partnered with local communities. This communal collaboration led to strengthened defenses against future wildfires, painting a promising horizon.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion is now the goal. But how to best achieve this whilst promoting awareness?",
+      "options": {
+        "A": "Develop bee sanctuaries with ecological technology and form a global network for bee protection.",
+        "B": "Launch educational campaigns to promote conservation and introduce legislation for bee protection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams poured resources into developing bee sanctuaries around the world. Though slow to take off, the sanctuaries are now buzzing with activity, a refuge for bees across the planet.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team developed sanctuaries, whilst the other focused on education and legislation. The combination of ecological sanctuaries and informed awareness successfully ensured a balance between man-made protection and legislation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Educational campaigns from one team coupled with the global bee protection network from the other resulted in a mix of grassroots knowledge spread and large scale refuge creation— a successful combination for bee protection.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focused on spreading awareness and creating legislative safeguards. These actions resulted in a global shift in attitudes towards bees, protecting them for future generations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

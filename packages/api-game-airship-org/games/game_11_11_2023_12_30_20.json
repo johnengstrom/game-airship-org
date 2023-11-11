@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Plight: The Skyward Rescue",
+  "gameDescription": "Two futuristic airship crews, the red team, 'Pangolin Protectors,' specialists in wildlife rescue and the blue team, 'Skyward Saviours,' experts in rapid response, embark on a critical mission to rescue illegally captured pangolins in Africa and transport them to a new sanctuary in Vietnam. Each decision made by the airship crews affects the success of the mission and the survival of the endangered pangolins.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "African Savannas",
+    "missionEnd": "Greater Good Charities Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviours",
+      "description": "Experts in rapid response and strategic planning."
+    },
+    "redTeam": {
+      "name": "Pangolin Protectors",
+      "description": "Specialists in wildlife rescue and animal care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are trying to locate a group of poached pangolins in the vast African Savannas. They must choose their approach.",
+      "options": {
+        "A": "Scan the area using infrared thermal imaging to cover more ground quickly.",
+        "B": "Fly lower and slower for a closer inspection, potentially risking safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Using their infrared technology, both teams are able to locate the pangolins quickly without alarming the poachers. However, the speed causes some stress to the pangolins, but they are rescued in time.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviours' swift strategy locates the pangolins, whilst the Pangolin Protectors' chosen slower approach allows for a smoother rescue operation. They complement each other unexpectedly.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Pangolin Protectors find the pangolins first with their rapid strategy but struggle with the rescue, whereas Skyward Saviours use their slower approach to ensure a successful rescue, delaying their overall progress.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams fly low and slow, taking a patient approach. The pangolins are safely located and secured, but the slow pace gives poachers extra time to flee the area.",
+          "bonusCard": "redTeam"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While heading towards Vietnam, the airships receive an emergency distress signal from another animal conservation organization in need of immediate help.",
+      "options": {
+        "A": "Respond to the distress signal, risking delay and additional resources.",
+        "B": "Continue with the original mission, focusing on the pangolins' safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams respond to the distress and manage to help another group of endangered animals. However, this unplanned event strains their resources and delays their mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Pangolin Protectors respond to the distress signal, Skyward Saviours focus on the original mission. It demonstrates their commitment but risks falling short in resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Skyward Saviours divert to help the distress call, while Pangolin Protectors stay the course. This unexpected division of roles showcases their adaptable operation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to continue their course, prioritizing the pangolins. Their concerted efforts propel the mission forward, exhibiting a strong focus on the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the airships face strict air traffic regulations and potential delays.",
+      "options": {
+        "A": "Negotiate for a critical mission landing priority to land quicker.",
+        "B": "Follow the regulations and scheduled landing times to avoid any conflict."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams negotiate for landing priority. Authorities appreciate the urgency, granting them priority but admonishing them to adhere to regulations in future.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Pangolin Protectors negotiate for an early landing, while Skyward Saviours wait for their scheduled time, allowing both airships to unload carefully without overcrowding the sanctuary.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Skyward Saviours negotiate to land early, allowing them to unload faster. Pangolin Protectors follow the schedule, avoiding potential conflict with airport authorities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams adhere strictly to the scheduled landing time. The pangolins are unloaded carefully into the sanctuary, concluding a successful rescue mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

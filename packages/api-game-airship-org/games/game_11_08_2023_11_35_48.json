@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Bee Concord",
+  "gameDescription": "In 'Operation Pollination', players take charge of advanced airships in a not-too-distant future where the survival of bees and, by extension, the global ecosystem hangs in the balance. Orchestrating a series of strategic missions, teams are tasked with restoring bee populations affected by natural disasters and unethical human activity. This high stakes environmental venture combines careful decision-making with concerns of global bee conservation, highlighting the invaluable role bees play in sustaining our planet.",
+  "setting": {
+    "location": "Globally affected regions",
+    "missionStart": "Bee Conservation HQ",
+    "missionEnd": "Revitalized Globes"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Specialists in ecological recovery and effective contingency planning"
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in bee conservation and resilient habitat construction. "
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-hurricane recovery initiatives are underway in major bee habitats. Choices must be made for optimal recovery.",
+      "options": {
+        "A": "Option A: Opt to plant native flowers in the hurricane-touched zones to provide an immediate solution for the bees.",
+        "B": "Option B: Establish new bee colonies in safe zones, ensuring their survival post-disaster, although this would demand substantial resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both the Apis Aviators and Bombus Navigators chose the direct approach of native flower planting. The immediate results were promising: Bee activity soars, boosting the local flora, but hummingbirds start encroaching into bee territory, causing unexpected conflicts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators engross themselves in the reintroduction of indigenous flora, Bombus Navigators work diligently establishing safe habitats. Even though bees in the Bombus zone are safe and flourishing, they express concerns over dwindling resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apis Aviators commit resources to create a haven for the bees while Bombus Navigators hospitably rehouse them amidst native flora. Despite the good results, Apis Aviators face a slow decrease in their stored resources.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The decision to invest heavily in new colonies by both teams pays off as a thriving population of bees reemerges. The strain on resources, though, has been enormous, and teams face the challenge of managing the upcoming missions with greater fiscal prudence.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfires have decimated major bee habitats. Strategic decisions must be made to restore these critical zones.",
+      "options": {
+        "A": "Option A: Seed the fire-ridden regions with bee-friendly crops to reboot ecological balance.",
+        "B": "Option B: Forge new artificial habitats in unaffected regions to prevent displaced bee populations from perishing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Unified in their approach, both the Apis Aviators and Bombus Navigators choose to resuscitate the scarred land with a plethora of vegetation. The beauty of blooming flowers attracts not only bees but also butterflies, encouraging a peaceful symphony of diverse lifeforms.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apis Aviators sow seeds of hope amidst the burnt land while Bombus Navigators construct bee oases in safe havens. Aviator's areas witness the return of bees faster, but Navigator's new colonies show promising growth.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators replenish the fire-ravaged area while Apis Aviators meticulously build artificial habitats. Navigator's action initiates faster bee return, although Aviators see their colonies thrive steadily.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams decide to protect the bee communities by creating new habitats. Despite the initial success, both teams soon realise the need for longer-term solutions as the artificial habitats are more maintenance-intensive than natural ones.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams face the challenge to propagate their successful bee conservation efforts to a larger scale.",
+      "options": {
+        "A": "Option A: Establish vast sanctuaries utilizing state-of-the-art ecological technology for optimal bee health.",
+        "B": "Option B: Initiate mass-scale educational campaigns to educate the public and inspire a global bee conservation movement."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Apis Aviators and Bombus Navigators converge on the decision to establish technologically advanced bee sanctuaries. The end result is nothing short of a bee utopia, although their reliance on technology draws scrutiny from pro-natural environmental groups.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apis Aviators construct sophisticated bee sanctuaries, while Bombus Navigators churn out an influential and inspiring conservation message. The Aviators' initiative boasts a thriving bee community, while the Navigators' efforts spark a worldwide movement towards bee conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators create the sanctuary while Apis Aviators take to the world stage. The Navigators' sanctuaries become buzzing bee heavens, and the Aviators' passionate campaign successfully ignites a global commitment to bee conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The Navigators and Aviators together decide to bring about a worldwide understanding and acceptance of the need for bee conservation through influential education campaigns. Their efforts bring about an unprecedented global change in attitude towards bees and other pollinators.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

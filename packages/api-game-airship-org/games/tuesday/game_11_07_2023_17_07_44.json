@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Tourism and Conservation",
+  "gameDescription": "In the pristine wilderness of Antarctica, a surge in tourism poses a new challenge. As captains of technologically advanced airships, players must navigate this delicate terrain, balancing the increasing demand for exploration with the critical need to preserve Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctic",
+    "missionStart": "Southern Hemisphere Ozone Station",
+    "missionEnd": "Antarctic Tourism and Exploration Station"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Penguin Pioneers",
+      "description": "Experts in sustainable tourism and wildlife conservation."
+    },
+    "redTeam": {
+      "name": "Iceberg Navigators",
+      "description": "Specialists in navigation under extreme weather conditions and eco-friendly operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams must choose a landing site for tourists. The decision can significantly impact the local ecosystem.",
+      "options": {
+        "A": "Settle at a popular but already stressed area.",
+        "B": "Select a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the popular location. The decision prevents further intrusion into untouched parts of the wilderness but strains the existing location, leading to unavoidable environmental damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team landing in the untouched land while the other heads to the popular area, the pristine territory is exposed to the impact of tourists, but the burden on the impacted area is eased.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Opting for different locations creates a fragile balance. The team headed for the untouched land introduces the wilderness to human activity, while reducing pressure on the popular site.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing the pristine areas, both teams open untouched parts of the wilderness to tourism. This decision uncovers new sites for exploration but potentially disrupts the delicate environment.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams must decide on the tourist capacity allowing either a larger tourist flow with a higher environmental impact or limiting numbers for conservation, but with less revenue.",
+      "options": {
+        "A": "Allow a high number of tourists for more revenue.",
+        "B": "Limit tourist numbers for conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose a larger flow of tourists. The revenue enables funding for more conservation efforts, but the increased human activity intensifies the environmental impact.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The decisions strike a balance between conservation and revenue. The increased capacity brings a financial boost at the cost of intensified pressure on the ecosystem.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "By opting for different capacities, the teams create a balance. A significant number of visitors boost revenue, but conservation efforts draw praise from environmentalists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choice of limited capacity by both teams exhibits a commitment to conservation over profit. Lower visitor numbers limit the damage, but revenues to fund scientific research decrease.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Both teams have the opportunity to implement a conservation initiative, choosing between active tourist engagement or strict regulations.",
+      "options": {
+        "A": "Engage tourists in conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to engage tourists in conservation. The activation encourages better behavior among visitors, fostering a culture of respect for the Antarctic wilderness.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "With one team encouraging tourist engagement and the other enforcing strict regulations, the balance creates a holistic approach to conservation, fostering both respect and discipline.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Split decisions lead to thorough conservation efforts. Engaging tourists and implementing regulations moderates visitor impact, creating a sustainable tourism model.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By implementing stringent regulations, both teams prioritize the environment over tourism. This approach minimizes human impact but may reduce visitor numbers.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

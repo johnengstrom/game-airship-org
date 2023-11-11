@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Sky Guardians: The Pangolin Voyage",
+  "gameDescription": "With the support of Greater Good Charities, a significant milestone for pangolin conservation has been reached with the completion of a new enclosure in Vietnam. It's now the crucial task for the airship crews, who control the advanced carriers 'Phoenix Feathers' and 'Herald Sails' to transport the rescued pangolins safely to this new sanctuary. Each decision made affects the welfare of the pangolins and the success of their rescue mission.",
+  "setting": {
+    "location": "Vietnam",
+    "missionStart": "Various Pangolin Rescue Centers",
+    "missionEnd": "New Pangolin Enclosure Facility"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Feathers",
+      "description": "Well-versed in animal transport care and aerodynamic efficiency."
+    },
+    "redTeam": {
+      "name": "Herald Sails",
+      "description": "Known for their precision navigation and expert handling of sensitive cargo."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Multiple pangolin rescue locations have signaled availability of pangolins for transport. However, distances and local factors vary.",
+      "options": {
+        "A": "Retrieve pangolins from farther rescue locations that hold more pangolins.",
+        "B": "Opt for closer rescue locations that hold fewer pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to retrieve from farther locations, rescuing more pangolins in a single trip. But the extra travel increases fuel consumption.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Feathers braved the longer distance while Herald Sails prioritized closer locations. This strategy saved fuel for Herald Sails but led to fewer rescues.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Herald Sails undertook the long journey while Phoenix Feathers focused on closer locations. Despite rescuing more pangolins, Herald Sails consumed more fuel.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to focus on closer, smaller rescue points. They save fuel but manage to rescue fewer pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An urgent message from Wildlife At Risk requests assistance in relocating an oversized pangolin who needs special care.",
+      "options": {
+        "A": "Alter course to rescue the oversized pangolin, potentially delaying other deliveries.",
+        "B": "Continue with the current mission, allowing another team to assist the oversized pangolin."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deviate from their courses to assist the special pangolin, delaying their current mission but showcasing their commitment to each individual pangolin.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Feathers alter course for the urgent rescue while Herald Sails maintains their route. Phoenix Feathers' action marks a substantial effort but may affect their mission timeline.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Herald Sails answers the urgent call while Phoenix Feathers maintain their course. Although the rescue is noble, it might take a toll on Herald Sails' timeline.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stick to their planned routes allowing the other rescue teams to assist the special case. They ensure a timely transport of their current cargo thus, maintaining the flow.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach the new enclosure, teams must decide how to sequence the offloading of their precious cargo.",
+      "options": {
+        "A": "Offload pangolins based on their health status, bringing the healthier ones out first.",
+        "B": "Offload pangolins based on their size, releasing the smaller ones first."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the health-first approach. The healthier pangolins adapt quickly to their new environment, setting a positive tone for the others.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Feathers prioritize health while Herald Sails play the size game. Feathers' healthier pangolins adapt quicker, paving the way for less healthy ones.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Herald Sails prioritizes health status while Phoenix Feathers release based on size. The initial positive adaptation of healthier pangolins aids the morale of the rescue teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to offload based on size. Smaller pangolins explore their new home first, acting as scouts for the larger ones.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

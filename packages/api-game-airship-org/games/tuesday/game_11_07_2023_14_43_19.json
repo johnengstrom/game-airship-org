@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Airship Aid",
+  "gameDescription": "Two advanced airship crews, embarking on a mission to defend endangered species, need to transport rescued pangolins from poaching hotspots in Africa to a newly completed sanctuary in Vietnam. Each decision made by the airship crews influences the precious cargo aboard and how this mission affects the delicate balance of wildlife conservation and resource management.",
+  "setting": {
+    "location": "Above the African Savannah",
+    "missionStart": "African Poaching Hotspots",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Zephyr Protectors",
+      "description": "Experts in wildlife care and equipped with low-stress handling techniques."
+    },
+    "redTeam": {
+      "name": "Gale Saviors",
+      "description": "Pioneers in sustainable transportation and eco-friendly airship technology."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are en route when a heat wave is detected, potentially jeopardizing the cooling systems and causing discomfort for the pangolins.",
+      "options": {
+        "A": "Navigate higher to avoid the heat and ensure comfort, increasing hydrogen usage.",
+        "B": "Venture through the heat wave, relying heavily on airship cooling systems."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams ascend to avoid the heat wave, consuming more hydrogen but maintaining the pangolins’ comfort. Both nearing their destination, they are better able to understand the needs of their precious cargo.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Zephyr Protectors escalate while Gale Saviors trust their cooling systems, which buckle under high temperatures. While Zephyr ensures safety, Gale may have deprived the sanctuary of rescuing more pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Gale Saviors ascend, consuming more hydrogen, while Zephyr Protectors bank on their cooling systems, which struggle in the intense heat. A crucial reminder that risking wildlife comfort can compromise the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews tread through the heat, stretching their cooling systems to their limits. Although the pangolins are restless, no major incidents occur, showing the capability of their systems to withstand extreme climates.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Navigation systems identify a tree falling in a nearby rainforest, which could potentially harm a local monkey troop.",
+      "options": {
+        "A": "Engage in a detour to assist, directing local authorities to the site - a delay but saves the troop.",
+        "B": "Stay the course, prioritizing the pangolin mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams detour, calling local aid. The intervention saves the monkey troop but consumes precious fuel. A hard choice between conservation and mission objectives.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Zephyr detours while Gale stays the course. While Zephyr is lauded for protecting biodiversity, Gale arrives earlier at the sanctuary. A reminder of the contest between immediate and long-term conservation goals.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Gale Saviors detour, disrupting their fuel-efficient course. Meanwhile, Zephyr makes significant headway, but the public lauds Gale’s humanitarian considerations.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the pangolin mission, ignoring the distress call. Despite the controversy, the efficient transport of pangolins takes precedence, raising questions on the weightage of conservation priorities.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The sanctuary is in sight, but a sudden change in wind direction could make landing difficult and stress the pangolins.",
+      "options": {
+        "A": "Burn more hydrogen to push against the wind and ensure a smooth landing.",
+        "B": "Rely on advanced vector control systems for landing, saving fuel but risking a rough landing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships use extra hydrogen for a smooth sanctuary landing, minimizing stress for the pangolins. Despite the additional resource use, the wellbeing of the animals is prioritized.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Zephyr burns extra hydrogen for a smooth landing, Gale decides to tackle the wind. Gale's landing is a bit rough, causing minor stress to the pangolins and stirring some debate.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As Gale prioritizes a smooth descent, Zephyr tackles the wind head on. Discomfort among Zephyr’s pangolins augments the debate on the acceptance of wildlife stress for conservation objectives.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to tackle the wind, causing uneasy landings yet saving fuel. It’s a tough call, but conservation is often about making hard choices that can lead to better futures.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

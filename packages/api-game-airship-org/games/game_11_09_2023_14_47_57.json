@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aegis: Pangolin Protector",
+  "gameDescription": "In the near future, two advanced airships are tasked to collaborate with wildlife conservation organizations, Greater Good Charities, and Wildlife At Risk. They are on a mission to deliver much-needed supplies and resources to a new pangolin sanctuary in Vietnam. Navigating tricky weather, negotiating with authorities, and ensuring the safe, efficient delivery of their valuable cargo, the teams must make strategic decisions that will impact not only the mission's success but the future of the pangolins and their environment.",
+  "setting": {
+    "location": "On route to Vietnam",
+    "missionStart": "Resource Centre",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Enviro Gliders",
+      "description": "Skilled in managing logistical challenges and prioritizing environmental responsibility."
+    },
+    "redTeam": {
+      "name": "Wildlife Wardens",
+      "description": "Equipped with advanced technology and knowledge to ensure safety and efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams receive an urgent request to collect and transport a group of rescued pangolins. Captured for illegal trade, these starved, stressed creatures have to be relocated to the sanctuary without delay.",
+      "options": {
+        "A": "Increase speed and fuel usage schedule to ensure the fastest rescue.",
+        "B": "Coordinate with ground teams for immediate medical intervention and proceed at regular speed."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams, prioritizing immediate intervention, burn through a substantial amount of hydrogen fuel. Despite their swift rescue, the pangolins' health is compromised due to the hurried transport.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Enviro Gliders push through at high speed, while the Wildlife Wardens secure medical help first. The pangolins are quickly rescued, but some medical assistance is delayed due to the Gliders rushed approach.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Wildlife Wardens rush, while the Enviro Gliders ensure medical aid first. The pangolins are saved, but the Wardens' hurry results in overstressed animals undergoing rushed treatment.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide on immediate medical aid before transport. Whilst their journey takes a bit longer, the pangolins receive crucial treatment before boarding, remarkably improving their chances of recovery.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the airships cross borders, they face restrictive regulations concerning wildlife transport. These guidelines could potentially delay the delivery and cause stress to the pangolins.",
+      "options": {
+        "A": "Negotiate diplomatically for prompt clearance without disturbing regulatory parameters.",
+        "B": "Use the airships' advanced cloaking to stealthily bypass patrol, saving time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both team's diplomatic prowess shines. They secure swift clearance, ensuring minimal stress for the pangolins, but the time spent on negotiations slightly delays their voyage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Gliders negotiate for clearance, the Wardens go stealth, reaching the sanctuary ahead of time. The Gliders' diplomatic approach earns them praise and opens doors for future missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Wardens smoothly negotiate permissions, but the Gliders bypass patrols and reach first. However, the Wardens' adherence to international wildlife transport regulations earns them accolades.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, choosing to stealthily bypass patrols, ensure an efficient journey without delays or issues. Their decision ensures minimal stress for the pangolins but could potentially strain future relations with authorities.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the sanctuary, the teams encounter a last-minute snag - a region-wide power outage. They must quickly decide the best course of action to safely transport their fragile cargo.",
+      "options": {
+        "A": "Deploy airship's onboard drones to transport the pangolins in smaller batches, ensuring careful handling.",
+        "B": "Coordinate with local ground teams to restore power and ensure a smooth landing and transfer for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Deploying drones, both teams ensure careful handling of the pangolins. However, the divided focus affects the timely unloading of other sanctuary supplies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Gliders coordinate power restoration, the Wardens use drones for transport. Their combined efforts ensure a smooth transition for the pangolins and a seamless resource delivery.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "The Wardens work with locals on power restoration as the Gliders use their drones. Proving that versatile adaptability pays off, the teams celebrate a successful mission.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate for power restoration, causing a delay but ensuring smooth and safe transition for the pangolins upon arrival, showcasing their commitment to the mission and the creatures.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

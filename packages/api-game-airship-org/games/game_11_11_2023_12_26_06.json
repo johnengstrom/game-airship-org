@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Pangolin: Operation Rescue",
+  "gameDescription": "Brave the unforgiving African skies as two brave airship teams, the Scaled Guardians and the Shell Seekers, strive to rescue the world's most trafficked mammal, the pangolin. The teams must navigate harsh landscapes, illegal wildlife trade activities, and their own resource limits to airlift the pangolins to a new sanctuary in Vietnam. The success of the mission and the future of the pangolins is in your hands, as each decision made will affect not only the mission but also the environment.",
+  "setting": {
+    "location": "African continent, crossing South East Asia to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Scaled Guardians",
+      "description": "Specializing in search and rescue operations and meticulous cargo security."
+    },
+    "redTeam": {
+      "name": "Shell Seekers",
+      "description": "Experts in long-range navigation and stealth approaches."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Navigating across Africa, the airships come across potential sites of illegal poaching activities. Should they engage or stick to the mission?",
+      "options": {
+        "A": "Investigate the poaching activities, risking exposure and retaliation.",
+        "B": "Stay on course, prioritizing the safety of already rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to confront the illegal activities, impeding the trade but attracting attention. Their successful exposure of the poachers becomes an international headline, causing both joy and concern.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team confronts the poachers while the other presses on. The confronting team obtains crucial trafficking routes for authorities, while the other ensures the safety of their already rescued pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team moves ahead while the other challenges the poachers. The moving team safely navigates further towards the sanctuary, while the confronters stir up a hornet’s nest, causing future problems.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the safety of their rescued pangolins, allowing the poachers to escape. This decision, while hard, ensures their journey continues without repercussions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Crossing the Indian Ocean, a massive cyclone approaches. The teams must decide how to navigate this peril.",
+      "options": {
+        "A": "Brave the storm using their advanced tech, risking their precious cargo.",
+        "B": "Detour around the storm, consuming more fuel but ensuring safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams tackle the cyclone head on, their ships battered but holding. They survive the ordeal but their pangolins are shaken, making further journey difficult.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardians fight through the storm while the Seekers skilfully navigate around. The Seekers’ course proves more efficient, conserving fuel and keeping their pangolins calm.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Seekers charge through the cyclone while the Guardians opt for a detour. Both teams end up exhausted, with their resource and resilience stretched to their limit.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams detour the storm. It's a detour that expends more fuel but spares the pangolins the trauma of the storm, proving to be a wise move in the long run.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the Sanctuary is not ready to receive the pangolins due to an unforeseen delay. Teams need to decide how they approach this situation.",
+      "options": {
+        "A": "Accelerate to the sanctuary, using more fuel but allowing for immediate transfer.",
+        "B": "Hold at a safe distance, to care for the pangolins while maintaining fuel efficiency."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams make haste and arrive early only to wait. Their decision, though well-intentioned, leads to fuel waste and puts the pangolins under unnecessary stress.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardians dash ahead while the Seekers stay back. The Seekers’ decision proves more prudent and sustainable, leaving them with more resources to care for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Seekers rush to the sanctuary while the Guardians remain at a safe distance. The patience of the Guardians provides a more comfortable environment for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to wait. The pangolins are well cared for and the teams converse over the radio, their camaraderie offering a sweet end to an intense journey.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

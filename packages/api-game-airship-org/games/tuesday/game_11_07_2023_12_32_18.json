@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Mission Hope",
+  "gameDescription": "As part of the Greater Good Charities Project Peril, two advanced airships embark on an urgent mission to rescue pangolins from illegal trafficking and transport them to a newly built haven in Vietnam. Each decision made by the airship teams affects not just the creature's survival, but also the efficiency of hydrogen use and the environmental impact of their actions. This game seeks to create awareness about the dire situation of the world's most trafficked mammal, the pangolin, and provoke strategic discussions around wildlife conservation.",
+  "setting": {
+    "location": "Above the Wild Routes of Africa and Asia",
+    "missionStart": "Pangolin Trafficking Hotspots",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Scales of Hope",
+      "description": "Specializing in stealthy operations and swift rescues."
+    },
+    "redTeam": {
+      "name": "Shielded Wings",
+      "description": "Experts in terrain reading and animal comfort."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships have identified a potential trafficking hotspot but it's in a difficult mountainous region with tricky weather conditions.",
+      "options": {
+        "A": "Choose the quickest route, regardless of weather risks.",
+        "B": "Opt for a safer route, potentially costing more time and hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose speed over safety. Through a tumultuous sky, they successfully perform the rescue, but the risky weather strains their hydrogen reserves. Has their audacity paid off?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Scales of Hope plunged ahead while Shielded Wings took a safer route. The quicker team performed the rescue in good time, but the detouring team has reserved more hydrogen for future operations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Shielded Wings barged ahead while Scales of Hope chose safety. Despite the risk, the fast-reacting team has gained a headstart, but the slower team has preserved fuel and protected their airship from potential damage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose safety over speed, ensuring the airships and their precious cargo remain in optimal condition but using more hydrogen. Their collective priority for safety sets a promising precedent for the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the teams are presented with an unexpected opportunity to intercept another illegal trade in progress nearby.",
+      "options": {
+        "A": "Divert the course to intercept the illegally traded pangolins.",
+        "B": "Stick to the original mission, ensuring safety of the current cargo and conservation of hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams diverted their course, grabbing the unique chance. The detour was successful, rescuing more pangolins, but their hydrogen reserves are notably reduced. Was the double rescue worth the risk?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Scales of Hope veered off the course, while Shielded Wings continued with the mission. The former's detour rescued additional pangolins but cost precious hydrogen, while the latter kept their focus on the primary mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Shielded Wings took the detour, while Scales of Hope stayed their course. The daring team gained an advantage with more rescues, but its airship's fuel reserves and balance have been compromised.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided against the risky detour, sustaining their focus on the initial mission. Their conservative approach has secured the safety of their current cargo and helped conserve hydrogen for future operations.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they face the dilemma of choosing a suitable time to arrive due to tight monitoring around the facility.",
+      "options": {
+        "A": "Choose to land in daylight, attracting possible attention but ensuring safer handling of the pangolins.",
+        "B": "Opt for a stealthy nighttime landing, preserving secrecy but risking the welfare of the animals due to low visibility."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose a daylight landing. This allows for a safer cargo transfer but draws attention. Their transparent approach is lauded, adding public pressure for more robust wildlife protection efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Scales of Hope went for daylight, while Shielded Wings opted for nighttime. The day team navigates the unloading easily but draws unnecessary attention. The night team conducts operations stealthily but faces logistical challenges.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Shielded Wings landed during the day, while Scales of Hope chose the night. The daylight landing ensured the safe handling of the animals, although people's curiosity was piqued. The night landers, while maintaining secrecy, struggled with the transfer in low light.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for a stealthy night landing. Despite challenges in the low light, they ensure the safe transfer of the pangolins. The teams have not only saved pangolins but also demonstrated how secrecy can be crucial in such sensitive missions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

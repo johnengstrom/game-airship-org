@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Sanctuary: The Pangolin Rescue",
+  "gameDescription": "Guided by the plight of the pangolin, the most heavily trafficked wild mammal worldwide, two airship teams embark on a mission in Africa to rescue these creatures and transport them safely to a newly built enclosure in Vietnam. The teams must make strategic decisions to navigate the dangerous skies stealthily, carefully handling the fragile creatures on board all while limiting their environmental impact.",
+  "setting": {
+    "location": "Above African jungles and the South China Sea",
+    "missionStart": "Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Guardians",
+      "description": "Specialists in stealth and wild animal retrieval."
+    },
+    "redTeam": {
+      "name": "Cloud Caretakers",
+      "description": "Experts in eco-efficient navigations and animal care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams detect illegal poaching activities near their path. Choosing to intervene can put the mission at risk, but save more pangolins. ",
+      "options": {
+        "A": "Alter the course to avoid poachers, ensuring the cargos safety but possibly missing the chance to rescue more pangolins.",
+        "B": "Interfere discretely, jeopardizing the mission but potentially saving trapped pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to avoid the poachers, ensuring the mission goes as planned. However, the pangolins they left behind weigh heavily on their hearts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Split actions by the teams lead to an efficient yet risky rescue. The Cloud Caretakers manage to avoid danger while the Skyward Guardians plunge into it, increasing their cargo but also the mission's threat level.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Guardians avert the poachers while the Caretakers brave into the danger. This leads to additional pangolins being rescued, but also invites danger for the teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams risk their mission to rescue trapped pangolins. The daring action saves more lives but brings greater risks to the ongoing mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon crossing the Indian Ocean, both ships encounter a vicious storm that could throw the airships off their path.",
+      "options": {
+        "A": "Navigate through the storm using advanced weather management systems, increasing the mission’s risk.",
+        "B": "Detour around the storm, using more hydrogen but ensuring a smoother ride for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The brave teams trust in their advanced systems and manage the storm surprisingly well. However, the turbulent ride stresses the fragile pangolins, revealing the frailty of their choices.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Guardians guide their ship through the storm, while the Cloud Caretakers detour. Although both teams reach safely, the pangolins on the Guardians’ ship suffer from the stressful journey.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Caretakers brave the storm while the Guardians opt for a detour. The pangolins aboard the Caretakers’ ship show signs of stress while those with the Guardians seem more at ease.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to take a detour, consuming more hydrogen but avoiding any potential stress for the pangolins. Their decision is a testament to their commitment to the creatures' well-being, rather than just the mission timeline.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the airships face local traffic restrictions. Any delay will increase the pangolins' time in captivity aboard the airships.",
+      "options": {
+        "A": "Increase speed for an early arrival but consume more hydrogen, potentially violating rules.",
+        "B": "Keep the current pace and try to negotiate the air traffic in real time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams hasten, reaching early but consuming more hydrogen. They face fines over carbon emissions but the pangolins' wellbeing affirms their choices.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds up while the other maintains the pace. The Skyward Guardians' early arrival helps in comfortably settling the pangolins but the increased carbon emissions dampen their victory. The slow yet steady pace of the Cloud Caretakers proves their prowess in sustainable rescue.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With the Caretakers arriving earlier and the Guardians negotiating real-time traffic, the pangolins are relocated successfully. However, the higher emissions from the Caretakers' ship mark a point of self-reflection for their team.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain their speed, keenly managing the air traffic. They successfully deliver the pangolins to their new home without any unnecessary carbon emissions, truly embodying the spirit of eco-conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

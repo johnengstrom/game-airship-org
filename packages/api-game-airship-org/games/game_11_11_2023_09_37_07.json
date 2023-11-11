@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Voyage",
+  "gameDescription": "In a near future where the majestic wilderness of Antarctica is feeling the pressure of escalating tourism, players control the helm of advanced airships. Striving to balance human curiosity for exploring this final frontier with the imperative need to safeguard Antarctica's unique ecosystem forms the crux of this green mission.",
+  "setting": {
+    "location": "South Pole - Antarctica",
+    "missionStart": "Scientific Research Station",
+    "missionEnd": "Tourist Landing Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Navigators",
+      "description": "Expert navigators known for sustainable site selection and minimal environmental impact."
+    },
+    "redTeam": {
+      "name": "Penguin Protectors",
+      "description": "Specializing in sustainable tourism management and engagement with the public."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airship crews confront a crucial choice in selecting a distinct landing site for the keen tourists. The impact of this decision resonates beyond the perimeters of their passengers; the entire ecosystem of Antarctica awaits the outcome.",
+      "options": {
+        "A": "Land at a well-known, previously disturbed site, attracting larger crowds yet risking more damage.",
+        "B": "Venture to a pristine, untouched location, encouraging a sense of exclusive exploration."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land at the popular site. The high influx of tourists exacerbates existing damage, but public engagement and awareness of Antarctica's delicate ecosystem increases.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands at a popular site, absorbing the brunt of tourists, while the other ventures to an untouched location. Both sites experience the impacts and benefits of their choices.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A balance emerges as one airship breaks the trail to an untouched site, while the other mitigates further damage to the popular site. The tourists revel in the two unique Antarctic experiences.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams dare the uncharted path to pristine sites. While the untouched landscapes captivate the travellers, concerns rise about the potential consequences of unaffected areas being exposed to human interference.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An influx of enthusiastic tourists demand to experience Antarctica's frozen wonderland. The teams must decide on the visitor capacity, considering the financial advantages but also the potential environmental impact.",
+      "options": {
+        "A": "Cater to the demand and allow a higher number of tourists, risking higher impact.",
+        "B": "Limit the number of tourists, which decreases revenue but increases conservation efforts."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams make a risky bet and take on more tourists. Revenue increases, but so does the strain on the environment. The teams must draft comprehensive ways to mitigate the damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship hosts a large group, absorbing the environmental impact and financial gain, while the other opts for a reduced number, focusing on conservation. Their contrasting strategies draw attention from global environmental and economic forums.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship dealing with larger crowds and the other emphasizing sustainable tourism, their contrasting approaches create a broad range of experiences and impacts. It's a delicate balancing act between revenue, exploration, and environmental preservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to limit tourist numbers. Although revenues dip, the Antarctic's fragile ecosystem breathes a sigh of relief. Moreover, the tourists who do visit appreciate the privilege and the teams' firm stance on preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Antarctica's environment is showing signs of stress from tourism. The teams must decide on a conservation initiative. Their actions will signify a substantial step towards eco-tourism or stringent environmental regulation.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, creating positivity but risking amateur accidents.",
+        "B": "Implement strict regulations and closures; direct yet may cause resentment among tourists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in eco-actions, raising awareness and responsibility. Despite a few rookie mistakes, the human footprint is effectively reduced. This approach marks a potentially revolutionary shift in the perception of nature tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists in eco-efforts while the other imposes strict regulations. The interactive approach fosters an alliance between tourism and preservation, while the the latter guarantees minimum impact at the expense of potential visitor dissatisfaction.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The combination of environmental engagement and rigorous regulations proves to be effective. Tourists gain hands-on education from one airship, while areas under stress find respite under direct intervention from the other.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams apply strict rules, and some areas are locked down for restoration. While some tourists grumble, Antarctica's ecosystem appreciates the respite. The teams' decisions spark important, worldwide conversations on responsible tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

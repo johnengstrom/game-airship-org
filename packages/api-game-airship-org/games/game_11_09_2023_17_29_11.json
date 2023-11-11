@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue Skies",
+  "gameDescription": "Two future airships, part of the Greater Good Charities and Wildlife At Risk stewardship, launch upon a humanitarian mission to transport endangered pangolins from Africa to a new, nurturing enclosure in Vietnam. Each decision made by the airship crews not only affects the success of the mission but also holds high stakes for these heavily trafficked mammals and for environmentally mindful transportation.",
+  "setting": {
+    "location": "African Savannahs to Vietnamese Hills",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Wings",
+      "description": "Specialized in time-sensitive missions and guided by efficiency."
+    },
+    "redTeam": {
+      "name": "Harmony Haulers",
+      "description": "Dedicated to cargo safety and conservation-friendly operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Security personnel discover an illegal pangolin trade route. Both airships have a chance to intercept the smugglers but will risk being spotted.",
+      "options": {
+        "A": "Attempt a daring low altitude swoop to surprise and capture the smugglers.",
+        "B": "Coordinate with local law enforcement and guide them from a safe height."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams risk it and successfully disrupt the smuggling operation. The daring move gets noticed by the enforcement agencies and the public, bringing needed awareness to the situation, but delays their departure slightly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Wings swoops into action while Harmony Haulers guides law enforcement. The joint operation is successful, though Guardian Wings faces a slight need for mechanical troubleshooting after.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Harmony Haulers swoops while Guardian Wings coordinates enforcement. The quick disruption and arrest of the smugglers sparks media coverage, aiding the cause of wildlife protection at the cost of some delays.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to guide local law enforcement from above. The operation is successful and media channels highlight these new heroes, creating much-needed awareness regarding wildlife trade.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A technical issue in the bio-safe cargo hold threatens the safety of the pangolins' voyage. Both airships must decide how to tackle the situation.",
+      "options": {
+        "A": "Land at the closest friendly base to fix the problem, risking a delay in the mission.",
+        "B": "Attempt to repair the issue mid-flight, risking the stability of the cargo hold environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to land at a nearby friendly base. Although this delays the mission, it ensures the safety of the pangolins, showcasing the teams’ commitment to the welfare of the cargo above all.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Wings lands for repairs while Harmony Haulers attempts an airborne fix. Each decision causes different challenges, but both teams manage to safely proceed with their missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Guardian Wings performs the in-flight repair, Harmony Haulers lands for a proper fix up. This shows different facets of dedication towards the mission and the cargo's welfare.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to fix the problem in flight. They manage to stabilize the environment in the cargo hold while showing their exceptional skills under pressure, saving time in the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon entering the Asian airspace, the teams are faced with the dilemma of bypassing high air traffic and possible discovery or following the designated air traffic course to maintain secrecy.",
+      "options": {
+        "A": "Use the busy airspace to camouflage their operation but risk pangolin agitation from the bustle.",
+        "B": "Follow the less busy, designated air traffic course, safer for the cargo but with a higher chance of discovery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the bustling air lanes, effectively camouflaging their mission but facing the challenge of keeping the pangolins calm. Their ability to handle high stress situations is commendable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Wings follows the high traffic while Harmony Haulers takes the designated route. The combined strategy confusingly splits the tracking efforts of any potential pursuers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Harmony Haulers plunges into high traffic while Guardian Wings prefers the less busy route, creating a diversion that leaves potential trackers scrambling to figure out the actual path.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the designated course, maintaining the calm in the cargo and reducing the chances of being tracked. Their careful navigation showcases the teams’ mastery over covert operations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

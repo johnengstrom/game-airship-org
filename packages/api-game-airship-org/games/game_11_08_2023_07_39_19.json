@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco Voyage",
+  "gameDescription": "In the not-so-distant future, Antarctica's pristine wilderness faces a new challenge - the surge in tourism. As captains of cutting-edge airships, Red Team and Blue Team are tasked with managing this delicate landscape. Balancing the insatiable demands for exploration and the urgent need to protect Antarctica's unique and fragile ecosystem will test the strategic decision-making abilities of the team while facilitating scientific research and sustainable tourism.",
+  "setting": {
+    "location": "Above the Antarctic Continent",
+    "missionStart": "Eco Tourism airbase, Argentina",
+    "missionEnd": "Selected site in Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Penguine guardians",
+      "description": "Adept at conservation strategies and pioneering eco-friendly tourism."
+    },
+    "redTeam": {
+      "name": "Whale's Watchers",
+      "description": "Experts in sustainable tourism and engaging visitors in eco-conscious decisions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams need to decide on a landing spot for tourists - a decision balancing Antarctic ecosystem impact and tourist interest.",
+      "options": {
+        "A": "Select a widely popular but already impacted site that draws tourists.",
+        "B": "Choose an unspoiled, pristine site, upholding a primary principle of conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams select the popular, impacted site. The ecosystem faces further stress, but the concentrated human footprint can lead to focused conservation efforts in one area.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the popular site, concentrating tourist traffic, while the other ventures into the pristine wilderness. The differing strategies incite a debate on priorities - concentrated impact vs. spread.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Choosing divergent sites, the teams reflect a dichotomy in eco-tourism - protecting more vulnerable areas or spreading the human footprint. This decision stirs a global conversation on eco-management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for pristine sites, sparking debates about the sanctity of unspoiled wilderness. This brave decision highlights the urgent need for thorough planning in eco-tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With the site selected, tourist capacity must be decided. High numbers mean higher impact but also generate more revenue to support conservation.",
+      "options": {
+        "A": "Allow increased tourist numbers, recognizing the potential wildlife disturbances and environmental degradation.",
+        "B": "Adopt a policy of limiting tourist numbers to conserve the fragile Antarctic environment, accepting lower revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With both teams allowing higher tourist numbers, the ecosystem strain surges. However, usage of the resultant revenue to minimize harm through conservation work becomes a focal point.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Contrasting approaches arise as one team accepts more tourists, while the other adopts a conservative number policy. Their strategies ignite a debate on sustainable tourism's definition and execution.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Faced with differing tourist management strategies, the world confronts the revenue vs. conservation conundrum. The decisions underline the importance of sustainable practices for future tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to restrict tourist numbers, amplifying global discourse on responsible eco-tourism and resilient conservation models over short-term financial gains.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The final challenge is about strengthening conservation efforts: a combination of involving tourists or implementing firm regulations.",
+      "options": {
+        "A": "Engage tourists in active conservation efforts, transforming them into allies for preservation.",
+        "B": "Implement strict regulations and area closures, minimizing human disturbances but potentially affecting the tourist experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to involve tourists actively, focusing on transforming the visiting public into conservation ambassadors. Despite potential difficulties, this method shows promising results.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team turns tourists into eco-champions while the other bank on strict regulations. This divergence values either international awareness or space protection, prompting global discourse.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team chooses regulations, and the other focuses on tourist involvement, global observers weigh in on the best approach. Interestingly, a balance of both strategies proves most effective.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for strict regulations, causing a stir in the tourism industry. The effective protection of the Antarctic ecosystem challenges traditional approaches to tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

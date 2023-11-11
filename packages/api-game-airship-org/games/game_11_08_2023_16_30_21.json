@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescues: The Plight of the Pangolin",
+  "gameDescription": "In a world ravaged by illegal wildlife trade, airship teams combine efforts to rescue endangered pangolins in Africa and transport them to a sanctuary in Vietnam. Each choice made by the teams influences the success of the mission and affects the survival of the pangolins.",
+  "setting": {
+    "location": "Africa and Vietnam",
+    "missionStart": "Various poaching zones in Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wings of Freedom",
+      "description": "Experts in covert operations and quick extraction of wildlife from poaching zones."
+    },
+    "redTeam": {
+      "name": "Guardian Carriers",
+      "description": "Specializing in safe animal transport and prepping sanctuaries for new arrivals."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both teams receive intel on pangolin poaching sites. They must decide their extraction strategy.",
+      "options": {
+        "A": "Perform a stealthy nighttime extraction to avoid confrontation.",
+        "B": "Coordinate with local law enforcement and perform daylight extraction."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams select the stealthy night extraction, rescuing pangolins effectively but straining their airship resources. This risky but successful operation exemplifies the grave risks undertaken for wildlife rescue.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team performs a nighttime extraction while the other coordinates with local law enforcement. The night team rescues more pangolins, but the day team garners local support for the cause.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team operates in stealth while the other seeks local law enforcement support. This combination gains rescued pangolins and local awareness, contributing to the conservation cause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams partner with local law enforcement. They rescue fewer pangolins but make a significant impact in raising local resistance to poaching, sparking hope for a lasting change.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams must decide how to prepare the new enclosure for the rescued pangolins.",
+      "options": {
+        "A": "Rapid preparation using advanced technology to create an immediate haven.",
+        "B": "Detailed preparation that takes more time to ensure ideal living conditions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush to ready the enclosure using advanced tech. The pangolins settle quickly but face a less natural habitat, impacting their adjustment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team races to set up the enclosure while the other spends extra time on preparations. The carefully prepped enclosure promotes superior wildlife adaptation, proving patience can pay off.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team opts for a quick setup while the other meticulously prepares the environment. This blend of speed and care ensures a great habitat and a timely rescue mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams spend time to meticulously prepare the enclosures. It takes longer but results in a more natural and supportive environment, which helps the pangolins adjust brilliantly to their new home.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arriving in Vietnam, air traffic congestion poses a significant challenge for the teams. They must decide on their landing strategy.",
+      "options": {
+        "A": "Take an immediate landing slot, threatening to disturb the resting pangolins with a rough landing.",
+        "B": "Wait for a clear slot to ensure a smooth landing, risking late delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for immediate landing. The quick arrival secures safety but the abrupt landing agitates the pangolins, reminding the teams that every detail counts in such sensitive operations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team rushes to land, while the other waits for a clear slot. The patient team achieves a smooth landing with relaxed pangolins, highlighting the importance of animal welfare in rescue missions.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team forces an immediate landing while the other patiently waits. This blend of haste and patience leads to efficient mission completion, reminding the teams that balance is key to success.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wait for a clear slot ensuring smooth landings. The pangolins arrive late but unshaken, reflecting that in wildlife rescue, the animals' well-being is paramount.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

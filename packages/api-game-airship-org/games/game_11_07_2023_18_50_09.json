@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Guardians: Pangolin Rescue Mission",
+  "gameDescription": "With the pangolins under the scourge of merciless trafficking, their survival hangs in the balance. By assuming the role of futuristic airship pilots, players embark on a brave mission to transport rescued pangolins from risky regions of Africa to the relative safety of the new sanctuary in Vietnam. Decisions made by the participants not only affect the mission's success but also the lives of these critically endangered animals and the environment.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Pangolin Risk Zones in Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wildlife Wardens",
+      "description": "Experts in wildlife rescue and airship handling."
+    },
+    "redTeam": {
+      "name": "Sky Guardians",
+      "description": "Specializes in stealth and pangolin care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams stumble upon a hidden poacher camp with pangolins in distress. However, an early interference can alert and consolidate the poachers.",
+      "options": {
+        "A": "Stage an immediate rescue risking alerting more poachers.",
+        "B": "Plan a covert operation, delaying the rescue but ensuring its success."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams stage an immediate rescue. They save several pangolins but their actions alert nearby camps, placing future operations at risk.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team stages a daring rescue, the other plans a covert operation. The immediate rescue saves more pangolins initially, but the cautious approach uncovers more poacher networks.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team mounts a rescue while the other stays in the shadows. The covert team's strategic planning disables more poacher camps, saving countless pangolins in the long run.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for covert operations. The delay in launch helps in identifying larger networks of poachers, securing a brighter future for pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the airships are caught in a harsh sandstorm. The pangolins are safe but are getting stressed.",
+      "options": {
+        "A": "Divert the route, causing a delay but ensuring a smoother journey.",
+        "B": "Push through the storm, using advanced navigation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert their routes, placing the well-being of the pangolins above swift accomplishment of the mission. The devotion to their charges strengthens their resolve.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts away from the storm while the other pushes through. The diverted airship arrives late but with unstressed pangolins, while the other saves time at the cost of stressed cargo.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team diverting and the other taking the storm head-on, it's a test of endurance. The storm-pushing team manages to keep their course, but the pangolins seem agitated.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams confront the storm with their advanced navigation. They make it past the sandstorm with relatively low delay, but the pangolins have suffered much stress.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams receive a distress signal from a newly discovered poacher camp, putting them in a dilemma while they are very close to the sanctuary.",
+      "options": {
+        "A": "Deliver the rescued pangolins to the sanctuary first, before going to help.",
+        "B": "Divert to the poaching camp, risking the pangolins on board."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize delivering the pangolins to the sanctuary first, ensuring their safety. They then move to intercept the poacher camp, putting the mission before their individual glory.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship rushes to the sanctuary while the other heads to the distressed camp. The team that chose to divert gains critical information on new poacher routes but risks the safety of the pangolins aboard.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One of the aiships diverts to offer help, while the other stays its course. The safe delivery of their precious cargo reinforces the fact that the mission's success matters above all.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams divert their paths to help. They manage to rescue more pangolins and disturb the illegal poacher network but risk the well-being of the rescued pangolins already aboard.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

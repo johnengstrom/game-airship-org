@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Protection: Wings of Hope",
+  "gameDescription": "Set in the gnarly lanes of wildlife trafficking, Poseidon Carriers and Aeolus Wings, control advanced airships to thwart illegal practices and safeguard the shy and reclusive pangolins. With a combination of strategic decisions concerning safe transport, handling, anti-poaching interventions and effective management of resource usage, the players either ensure a ray of hope for vulnerable pangolins or succumb to the gruesome dynamics of the black market.",
+  "setting": {
+    "location": "Over the dark alleys of illegal trafficking routes extending from Africa to Asia",
+    "missionStart": "Pangolin habitats in Africa",
+    "missionEnd": "haven for pangolins in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "An epitome of swift action and remarkable navigation skills."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Renowned for their vigilant surveillance capabilities and expert cargo management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Alerts ring out of possible poacher activity in the area. Deciding upon the course of action requires immediate attention.",
+      "options": {
+        "A": "Track and engage the poachers before the crime is committed.",
+        "B": "Report the intel to local authorities and continue the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Swift, decisive action by both teams leads to caught poachers. The morale is high but the distraction has slightly delayed the mission, costing valuable hydrogen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings engage the poachers as Poseidon Carriers report to authorities. Despite slight delays and hydrogen usage, their collaboration successfully halts the illegal activity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers confront the poachers while Aeolus Wings share intel with authorities. The cost in time and fuel comes with the satisfaction of preventing harm to the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams share the information with local authorities, ensuring their concentration on the task ahead isn't impacted. They continue the search for pangolins that need protection.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A pangolin habitat is discovered, but proceeding with care is crucial to avoid causing distress to the timid creatures.",
+      "options": {
+        "A": "Quickly lift the pangolins into the airship, minimizing the time on the ground.",
+        "B": "Proceed slowly to ensure minimal distress to the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Selecting speed over caution, both teams performed a quick lift, causing noticeable distress amongst the pangolins. Time and hydrogen are saved, but at what stress cost to the animals?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings chose speed while Poseidon Carriers took their time, ensuring the pangolins suffered minimal distress.  Aeolus Wings saved time, but the pangolins' welfare might be compromised.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers opted for a fast extraction while Aeolus Wings took a slow, considerate approach. The trade-off between time and comfort played out differently for both teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams proceeded with immense care, ensuring minimal distress to these sensitive creatures. Although more time-consuming, this careful approach demonstrated respect for the well-being of the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams are faced with potential anti-eco protestors. Navigating this situation is pivotal.",
+      "options": {
+        "A": "Engage and pacify the protestors while ensuring a smooth transition of the pangolins to the sanctuary.",
+        "B": "Coordinate with local law enforcement to ensure a safe transfer while paying a fine for creating ruckus."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams handle the situation with depth and grace, and successfully deliver the pangolins. Despite the initial setback, they ensure the protestors' concerns are addressed, cementing their commitment towards holistic development.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings managed to pacify the protestors while Poseidon Carriers coordinated with the local law enforcement. While both deliveries were successful, Poseidon Carriers incurred a slight fine.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers diplomatically handled the on-ground situation as Aeolus Wings coordinated with law enforcement. Aeolus Wings, however, had to pay a small fine.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinated with local law enforcement, ensuring a safe and secure transfer of the pangolins into the enclosure. The pangolins' arrival brought relief and jubilation, despite the minor fines.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

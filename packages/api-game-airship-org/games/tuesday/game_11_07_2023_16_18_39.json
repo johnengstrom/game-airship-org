@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolins in Peril",
+  "gameDescription": "Command the airships as they embark on an unprecedented mission to rescue pangolins, the most poached mammals on the planet, and transport to them a newly constructed Pangolin Sanctuary in Vietnam for rehabilitation. Each decision could tilt the scales between a hopeful future for pangolins or continued exploitation. Revel in this intertwining dance of strategy and empathy, your choices paving the way to victory or daunting setbacks.",
+  "setting": {
+    "location": "Above the African and Asian Plains",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Guardians",
+      "description": "Specializing in wildlife rehabilitation and strategic rescue missions."
+    },
+    "redTeam": {
+      "name": "Wildlife Risk Watchers",
+      "description": "Experts in threat mitigation and safe handling of endangered species."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams are faced with a relentless poaching operation, putting countless pangolins at risk. How to approach this critical situation?",
+      "options": {
+        "A": "Launch a direct and immediate intervention, risking alerting the poachers.",
+        "B": "Notify authorities and provide logistical support while maintaining adequate distance."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to intervene directly. Although they managed to confiscate a large number of pangolins, the relentless pursuit by poachers follows them.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Guardians stormed the poachers as Wildlife Risk Watchers coordinated local resistance. The intervention has split poachers' focus though risks continue to loom.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Risk Watchers wrested pangolins from poachers while Greater Good Guardians mobilized authorities. It's a delicate balance of risk and reward.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focused on rallying local forces, pushing back poaching operations without direct confrontations, maintaining the safety of the precious cargo.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An urgent report comes in of a pangolin population trapped by wildfires. What's the best course of action?",
+      "options": {
+        "A": "Launch a risky rescue operation in the burning lands to save pangolins.",
+        "B": "Coordinate localized firefighting efforts from the air to create a safe pathway for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams braved the fires and emerged with numerous survivors. The airship's capabilities were strained heavily, weighing on the remaining journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardians stormed the fires as the Watchers coordinated firefighting efforts. Their combined efforts led to a successful rescue but their resources have taken a hit.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Watchers dove into danger as the Guardians orchestrated firefighting. Their calculated risks pay off in lives saved, albeit at a cost.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams masterfully coordinated firefighting operations, carving a safe pathway for the trapped pangolins. Their strategy minimized risk and maximized rescue efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams reach Vietnam but encounter strict restrictions on wildlife relocation. How to negotiate this final hurdle?",
+      "options": {
+        "A": "Expedite the relocation by fast-tracking legal requirements using diplomatic channels.",
+        "B": "Adhere strictly to procedures, even if it means a longer wait before the pangolins can be moved to their new home."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships accelerate legal processes and ensure the pangolins reach the sanctuary sooner. Their determination and clout turn the tide, but some critics argue the bypassing of protocol.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardians fasttracked the process while Watchers committed to the slower, foolproof method. Together, they ensure the road to recovery is on track, showcasing effective teamwork.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Watchers expedited the relocation as Guardians followed protocol, balancing between urgency and compliance. It’s a tough final descent, but worth the wait.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams faithfully adhered to procedures, thereby setting a strong precedent for future wildlife relocation missions, although critics argue it’s too time-consuming.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

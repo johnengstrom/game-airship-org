@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Sustainable Shadows",
+  "gameDescription": "In the wake of surging tourism to the pristine wilderness of Antarctica, two futuristic airship teams must navigate this unique landscape. Balancing popular demand for exploration and scientific research with the urgent need to protect Antarctica's unique ecosystem, players face a series of strategic decisions. Each choice made shapes not only the success of the mission, but the future of Antarctica.",
+  "setting": {
+    "location": "Above the Antarctic Circle",
+    "missionStart": "Puerto Chile Research Station",
+    "missionEnd": "Antarctic Landing Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacier Guardians",
+      "description": "Experts in precision navigation and cold-climate operations."
+    },
+    "redTeam": {
+      "name": "Polar Protectors",
+      "description": "Specialists in eco-tourism and minimal-impact travel."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams must select a landing site for the horde of eager tourists. While Option A offers a popular, already impacted location, Option B presents a pristine but untouched snowy expanse.",
+      "options": {
+        "A": "Use the already impacted site, concentrating the impact in one area.",
+        "B": "Introduce a new site, potentially spreading the impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted site, minimizing further environmental disturbances. However, they face the challenge of managing the escalating degradation in this region.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team consolidates tourists on the already impacted site, while the other introduces a new location. This diversification spreads the ecological footprint but might provide relief to the degraded area.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team introduces tourists to a pristine location while the other concentrates them. This leads to nuanced discussions about the costs of discovery and conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to open new locations, spreading the tourism footprint across the Antarctic landscape. This strategy poses potential risks to untapped ecosystems but embodies the spirit of exploration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Next, the team captains must decide on the capacity of tourists they'll permit on their respective areas. Option A carries potential for higher economic gains but a marked environmental impact, while Option B restricts numbers for environmental preservation but reduces potential income.",
+      "options": {
+        "A": "Allow higher number of tourists, generating more revenue but increasing environmental impact.",
+        "B": "Limit tourist numbers, conserving the environment but reducing income."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a higher tourist influx, leading to spurring local economies but sparking a fierce debate on ecological preservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team favors economic growth, whilst the other chooses to limit visitors. This balancing act avoids overwhelming the fragile ecosystem, while the other area quickly becomes overpopulated.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team opts for a low-impact, low-income approach, contrasting with the other's high-impact decision. This dichotomy showcases the delicate balance between income and sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams restrict tourists, adopting a low-impact, low-income strategy. This decision stands as a powerful statement on the importance of environmental conservation over economic gains.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The final major decision lies in conservation efforts. Option A engages tourists actively in conservation efforts, while Option B stresses on tight regulations and area closures.",
+      "options": {
+        "A": "Engage tourists in active conservation efforts.",
+        "B": "Enforce strict regulations and enforce area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams adopt active engagement strategies, transforming tourists into environmental stewards. This decision fosters a deep connect with nature but necessitates logistical arrangements.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses strict regulation while the other opts for active engagement. The contrasting strategies highlight the nuance in managing human impact in these fragile ecosystems.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The team advocating strict regulations balances against the active engagement policy of the other. The stark differences stimulate healthy debate around management perspectives.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams impose strict regulations, asserting the primacy of Antarctica's ecosystem over tourism. This firm stance ensures minimal disturbance, reinforcing the urgency of eco-friendly practices.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

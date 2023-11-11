@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: A Buzzing Voyage",
+  "gameDescription": "Players command advanced airships in a near future where the survival of bees and the global ecosystem is at stake. Each decision made by the airship crews affects the success of the mission and the environment.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Bee Conservation HQ",
+    "missionEnd": "Worldwide Restoration Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in efficient navigation and environmental rehabilitation."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specializing in bee colony relocation and habitat restoration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-hurricane recovery: The airships are assigned to areas devastated by recent hurricanes where bee populations have been drastically affected. They need to make a crucial decision.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focused on habitat restoration. The native flowers bloomed beautifully attracting diverse bee species. However, the limited number of safe zones for new colonies poses a challenge for the future.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focused on flora while the other on fauna. The flower fields are buzzing with activity, but the new colonies struggle to cope in the limited safe zones. Time will tell if balance is restored.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritized the establishment of safe zones for new colonies. The bees swiftly adopted their new homes and the population shows a promising upward trend. Cross-team collaboration played a vital role.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Prioritizing different actions, the teams find their efforts complementing each other. The newly planted flower fields offer ample resources for the bee colonies in the safe zones. A promising start to Operation Pollination.",
+          "bonusCard": "redTeam"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: The airships are faced with vast areas ravaged by wildfires where bee habitats have been annihilated. It's time for restoration action.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Opting for large-scale seeding of fire-ravaged areas, the teams effectively restored the destroyed habitats. The sight of returning bee populations is warming, but the looming threats of future wildfires remind everyone of the need for a more comprehensive solution.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team seeded the fire-ravaged areas, the other created safe havens for the displaced bee populations. The results are encouraging but highlight the importance of proactive measures to prevent such disasters.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focused on creating artificial habitats for displaced bee populations. Bees populated the new homes quickly, showing an encouraging upward trend. Cooperation between teams accelerated the recovery process.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Balancing recovery and precaution, the teams planted bee-friendly vegetation while also securing future habitats. The strategies combined effectively, showing that the path to ecological recovery requires both immediate action and future-proof planning.",
+          "bonusCard": "blueTeam"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: As the natural habitats recover, the airships are tasked with ensuring the expansion of the bee population while raising awareness about their vital importance.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focused on creating advanced sanctuaries for the bees, taking the protection of these vital pollinators to a new level. This high-tech approach promises a bright future but overlooks the need for community involvement.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focused on technological advancements while the other spearheaded an educational campaign. The combination of science and awareness proved effective, signaling a promising future for the global bee population.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Focusing on awareness, both teams coordinated global campaigns for bee conservation. People around the world responded positively, marking a remarkable turn in humanity's relationship with our buzzing friends. However, integrating technology and conservation remains to be explored.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Through a blend of sanctuary development and educational campaigns, the teams successfully restored habitats and raised awareness about bee conservation. Their combined efforts have set the global bee population on a promising path towards recovery.",
+          "bonusCard": "redTeam"
+        }
+      }
+    }
+  ]
+}

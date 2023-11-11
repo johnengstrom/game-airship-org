@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Hydrogen Skies: Antarctic Challenge",
+  "gameDescription": "The virgin wilderness of Antarctica is under a new threat with the rise of tourism. As captains of cutting-edge airships, you are tasked with navigating this delicate landscape, juggling the surging appetite for exploration with the compelling need to protect Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctic Wilderness",
+    "missionStart": "Tourist Base Camp",
+    "missionEnd": "Various Exploration Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Navigators",
+      "description": "The crew is well-versed in Antarctic terrain and ecological equilibrium."
+    },
+    "redTeam": {
+      "name": "Cryo Voyagers",
+      "description": "This team combines expertise in tourism management and sustainable practices."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships must choose a landing site for tourists. The available options are an already popular, impacted area, or an untouched, pristine location.",
+      "options": {
+        "A": "Choose the popular area which already faced human impact.",
+        "B": "Opt for the pristine location for an 'untouched' experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to go to the already impacted site. Though tourists are disappointed at the sight of previous human activity, these decisions help safeguard untouched ecosystems.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Navigators choose the impacted site, while Cryo Voyagers select the pristine location. This leads to tourists spreading across differently, balancing the impact but there are debates.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Cryo Voyagers go to the impacted site, while Polar Navigators select an untouched area. The impact on the pristine site causes concerns.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams land at the pristine location. The untouched wilderness is now marked but the happy tourists are generating a good business.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams need to decide the tourist capacity. Option A allows a larger number of tourists with potential higher impact; Option B limits tourist numbers for conservation, but with less revenue.",
+      "options": {
+        "A": "Allow a higher number of tourists.",
+        "B": "Limit tourist numbers for conservation, with a corresponding decrease in revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow more tourists. The high human traffic accelerates the impact on Antarctica, but the profits are booming—a complex ethical dilemma.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Navigators accommodate more tourists while Cryo Voyagers go for a lower number. The balance achieved here impresses global forums.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cryo Voyagers host more tourists while Polar Navigators opt for fewer. The actions of both teams generate discussions around sustainable tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers. Financial gains are lower but it is a win for conservation—a sacrifice that results in an overall victory for Antarctica.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The time has come for the teams to put forth a conservation initiative. Option A involves active engagement of tourists in conservation efforts; Option B emphasizes strict regulations and area closures.",
+      "options": {
+        "A": "Involve tourists in active conservation.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in active conservation. Although some rules are inadvertently breached, the tourists leave with deepened environmental awareness—a long-term win.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Navigators involve tourists in conservation while Cryo Voyagers enforce strict rules. A balanced approach emerges that sets a new precedent for Antarctic tourism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cryo Voyagers get tourists involved in conservation, and Polar Navigators implement strict rules. This combination results in a productive blend of awareness and regulation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose strict regulations. Tourism becomes tightly controlled, minimizing impact but also creating a standoffish atmosphere. Yet, the Antarctic wilderness breathes easier.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

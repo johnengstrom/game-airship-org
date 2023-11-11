@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Plight of the Pangolin: A Race Against Time",
+  "gameDescription": "The blue team and red team, commanding the advanced airships 'Celestial Guardian' and ' Terra Shield' respectively, embark on a mission to transport pangolins from Africa to their new home in Vietnam. The stakes are high in this game of strategy, as each decision impacts the success of the mission and the ultimate survival of the pangolins.",
+  "setting": {
+    "location": "Earth's Atmosphere",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Celestial Guardian",
+      "description": "Spearheading wildlife rescue missions around the globe."
+    },
+    "redTeam": {
+      "name": "Terra Shield",
+      "description": "Leading the charge to protect endangered species and their habitats."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "After loading the pangolins onto their airships, teams learn of a possible poacher's convoy moving in their direction. They can either change their flight path or stay the course.",
+      "options": {
+        "A": "Change flight path to avoid the poachers.",
+        "B": "Keep current path and risk confronting the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams strategically change their path, avoiding an encounter with the poachers. This preemptive action ensures the safety of the mission, though it'll require additional fuel.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As Celestial Guardian reroutes, Terra Shield stays on course. Their brave confrontation with the poachers inspires local authorities to take action, though delaying their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra Shield chooses a safer route while Celestial Guardian confronts the poachers, drawing attention to the plight of the pangolins. The confrontation adds an unexpected delay.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to stand their ground against the poachers, turning this mission into a statement against illegal wildlife trade. While noble, the confrontation affects their timeline and fuel reserves.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams now face a tough decision as they go through a zone of turbulent weather. They can either speed up to cross it quickly or slow down and conserve energy.",
+      "options": {
+        "A": "Speed up, utilizing more power but clearing the weather faster.",
+        "B": "Sync with the weather rhythm to conserve fuel but take more time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to power up their engines and clear the turbulent zone swiftly. They use more fuel, but keep the pangolins comfortable and maintain the mission timeline.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Celestial Guardian speeds up, while Terra Shield slows down. Guardian reaches calmer skies quicker but at the expense of more fuel. Terra Shield takes the slow but efficient route.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra Shield races forward as Celestial Guardian conserves fuel. The race expends extra energy, but Terra Shield has secured a time advantage, while Guardian still has plenty of fuel.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams opt to conserve energy and sync with the weather, it's a slow but steady progress. They save fuel, setting an example of endurance and sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, teams receive distress signals from another wildlife convoy suffering technical problems. They can either assist or continue on their own mission.",
+      "options": {
+        "A": "Alter the route to assist the distressed wildlife convoy.",
+        "B": "Continue towards the destination, prioritizing the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams make a detour to assist the convoy. This act of solidarity strengthens their resolve but uses additional energy and brings unplanned delay.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Celestial Guardian detours to help, while Terra Shield stays on course. Guardian's assistance is appreciated, but Terra Shield wins the advantage of delivering the pangolins on time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra Shield assists the troubled convoy while Celestial Guardian continues on course. Shield's support makes a difference, but Guardian's mission-focused approach ensures timely delivery.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to prioritize their fragile cargo and make directly for the new enclosure. The pangolins are delivered safely and timely, ensuring their survival is of utmost importance.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

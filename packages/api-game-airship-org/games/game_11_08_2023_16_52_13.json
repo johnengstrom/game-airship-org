@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: Pangolin Rescue",
+  "gameDescription": "An urgent call in a world where conservation battles against poaching. Two futuristic airships, operating under the Greater Good Charities and Wildlife At Risk, embark on a multi-step mission. Their goal: to rescue Pangolins from African poaching territories and transport them to a newly-built sanctuary in Vietnam. The intricacy of this mission requires high-level strategizing as each decision impacts the Pangolin rescue success, the lifespan of the airships, and the overall environmental footprint.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Poaching Territories",
+    "missionEnd": "Vietnam - A New Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Sky Guardians",
+      "description": "Specializing in wildlife rescue and in-flight pangolin safety."
+    },
+    "redTeam": {
+      "name": "Aerial Risk Defenders",
+      "description": "Experts in secure cargo handling and efficient fuel use."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Your respective airships approach the poaching territories, an uncharted and dangerous area. Excessive noise could not only tip off the poachers but also traumatize the already vulnerable pangolins. How do you proceed?",
+      "options": {
+        "A": "Utilize stealth mode, an operation which consumes extra fuel but ensures near silence.",
+        "B": "Preserve fuel by staying in regular mode and use engineered sound buffers to dampen noise."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams utilize stealth mode. They successfully manoeuvre undetected and secure the pangolins, although they risk running low on fuel for the rest of the journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Sky Guardians uses stealth mode while Aerial Risk Defenders use sound buffers. The noise from the buffers alerts the poachers, but both teams manage to rescue some pangolins and leave undetected.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aerial Risk Defenders go stealth while the Greater Sky Guardians rely on sound buffers. Poachers are alerted, but both teams manage to rescue a number of pangolins and escape unnoticed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to preserve fuel and use sound buffers. The poachers are alerted, making rescue more difficult and dangerous. However, both teams manage to secure a fair amount of pangolins and retreat swiftly.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The pangolins are on-board and anxious. Creating an atmosphere mimicking their natural habitat could help pacify the distressed pangolins. Your choices are:",
+      "options": {
+        "A": "Generate a holographic projection of a natural environment and play soothing sounds, which consumes more energy.",
+        "B": "Use synthetic foliage for a calming, natural environment, which requires manpower to set up."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams generate a comforting holographic environment. This decision stressed their energy reserves but positively influenced the pangolins' behavior and decreased their stress levels.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Sky Guardians generate a holographic habitat while Aerial Risk Defenders opt for synthetic foliage. Energy reserves on the blue team's ship drop, but the overall calmness level of the pangolins is significantly high.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Aerial Risk Defenders use the holographic projection while Greater Sky Guardians install synthetic foliage. The red team faces low energy reserves, but all pangolins are relatively pacified.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use synthetic foliage, exerting crew members but preserving energy. The pangolins are less agitated, helping ease the transportation process.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As you approach the Vietnam sanctuary, you are faced with two potential landing sites: one that is quick to access but causes destruction of nearby habitats, and another that is farther and consumes more fuel but spares the environment. What do you choose?",
+      "options": {
+        "A": "Fast landing at the risk of destroying nearby habitats.",
+        "B": "Extended landing in an environmentally safe zone, consuming more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the fast landing, causing some environmental damage. The pangolins are quickly moved to their sanctuary, but at a rather high ecological cost.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Sky Guardians choose fast landing while Aerial Risk Defenders opt for the extended landing. The blue team's pangolins are quickly settled, but the sanctuary recording shows footage of the disturbed habitats.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Aerial Risk Defenders land fast while Greater Sky Guardians go for the extended landing. The red team successfully resettles the pangolins, but they are criticized for the habitat damage in the LIVE Nest Cam.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the extended landing, consuming more fuel but sparing the environment. Their actions win praise on the LIVE Nest Cam, making all their efforts worthwhile.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

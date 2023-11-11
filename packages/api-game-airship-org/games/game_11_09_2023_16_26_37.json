@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "In a not too distant future, Airship Game - Operation Pollination, puts players at the helm of cutting-edge airships embarking upon a critical eco-mission. The survival of bees and, with it, the world’s ecosystems hang in the balance. Each strategic decision made impacts the overall success of the mission and has real environmental repercussions. This game underscores the importance of bees in our ecosystem.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airship Headquarters",
+    "missionEnd": "Restored Ecosystems"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Focused on navigation and risk mitigation, they use advanced tech to overcome obstacles."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in vital bee rehabilitation efforts and habitat reconstruction."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Following a devastating hurricane, bees' habitats have been destroyed. The teams must decide their plan of action. Scenario A: Plant native flowers in the hurricane-devastated areas to restore the critical bee environments. Scenario B: Create new bee colonies in safe zones to ensure their survival post-disaster.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams plant native flowers. The restored habitats are thriving and bee populations are rebounding. Yet, they face the challenge of potentially relocating these colonies if another hurricane hits.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aviators plant flowers while the Navigators create safe colonies. The colonies thrive, but the flower fields soothe local communities and attract a multitude of bee species. Both actions are celebrated in media.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Navigators plant flowers while the Aviators establish safe colonies. Although their actions benefit the bees, setting up colonies proves more challenging, requiring more time and resources.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams establish colonies in safe zones. These colonies are successful and animal groups hail their effort. But they ponder, could restoring native habitats have offered a wider impact?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: A raging wildfire has ravaged a bee-friendly region. The teams need to decide on their approach. Scenario A: Seed the fire-damaged areas with bee-friendly vegetation to help ecological recovery. Scenario B: Create artificial bee habitats in unaffected regions to support displaced bee populations.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation.",
+        "B": "Create artificial bee habitats in unaffected regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to seed the areas. The recovery is slow but steady. In time, the renewed vegetation buzzes with returning bees, signaling a triumphant return of hope to the devastated landscape.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aviators seed ravaged areas while the Navigators build artificial habitats. Both approaches have merit, but the implementation of artificial habitats is seen as a more proactive measure, winning the Navigators praise.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Navigators seed ravaged areas while the Aviators build artificial habitats. As the seeded areas slowly blossom, the temporary habitats provide immediate relief for displaced bees ensuring no population decline.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams create artificial habitats. The bees adapt well, and the teams' forward-thinking approach is hailed as a success. The artificial habitats provide an immediate solution, but questions remain about long-term sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: With bee populations recovering, it's time for expansion. Scenario A: Develop specialized bee sanctuaries incorporating advanced ecological technology. Scenario B: Launch campaigns to boost public awareness about bee conservation.",
+      "options": {
+        "A": "Develop advanced bee sanctuaries for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for sanctuaries. They're state-of-the-art, providing optimized conditions for various bee species. This is a significant step, yet they realize public support is essential in the global fight.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aviators set up sanctuaries while the Navigators launch educational campaigns. Both prove effective; however, the grassroots engagement effort by the Navigators has a profound societal impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Conversely, the Navigators establish sanctuaries, and the Aviators launch campaigns. While the sanctuaries are a hit among geek technologists, the campaign leads to greater community involvement, securing legislative protections for bees.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launch campaigns, resulting in a watershed moment for bee conservation globally. The widespread support influences legislature, securing national level protection for bees, and seed the foundation of a global bee protection network.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

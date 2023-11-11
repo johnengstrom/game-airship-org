@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin's Plight",
+  "gameDescription": "In a futuristic world where airships are at the forefront of eco-friendly transportation, two teams - the 'Wildlife Guardians' and the 'Eco Saviors' - are on a mission to help endangered pangolins. Assigned by the Greater Good Charities, the objective is to transport rescued pangolins to a newly built safe-haven facility in Vietnam with minimal environmental impact. Each decision made by these teams, from route navigation to cargo management, directly affects the mission's success and the well-being of these precious creatures.",
+  "setting": {
+    "location": "International RMS",
+    "missionStart": "Global Pangolin Poaching Hotspots",
+    "missionEnd": "Newly-Built Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wildlife Guardians",
+      "description": "Masters in animal welfare and safe transportation."
+    },
+    "redTeam": {
+      "name": "Eco Saviors",
+      "description": "Experts in resource management and sustainability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "After the successful rescue operation, both airships prepare for their journey. They must decide on their route, considering weather patterns, fuel usage and the length of the journey, which could stress the pangolins.",
+      "options": {
+        "A": "Opt for a shorter but potentially rougher route to save time and hydrogen.",
+        "B": "Choose a longer, smoother route to ensure comfort for the pangolins but at the cost of extra hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided for the shorter, rougher route. Their decision ensures quick transportation, but the pangolins show signs of distress. However, their swift delivery rewards them with an overall mission bonus.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Wildlife Guardians navigate through the short but harsh route while the Eco Saviors take the smoother, lengthier path. Both approaches meet success; the former arrives earlier with distressed pangolins, the latter later but with calm and relaxed pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Wildlife Guardians opt for the smoother path, while the Eco Saviors take the brunt of the harsher route. Upon arrival, the Eco Saviors' pangolins showcase mild distress but their prompt delivery earns them a slight advantage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams go for the longer route. Their decision promotes animal welfare over efficiency. The pangolins arrive at the sanctuary comfortably but the extra hydrogen consumption could impact future missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-journey, a distress call for medicinal supplies is transmitted from a remote location. This diversion would consume time and valuable energy resources.",
+      "options": {
+        "A": "Respond to the distress call for humanitarian reasons, compromising time and hydrogen resources.",
+        "B": "Ignore the call to maintain the original mission goal."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert their route to aid the distress call. The delay and extra hydrogen consumption puts them off their timetable. However, their humanitarian act garners respect and international praise.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Wildlife Guardians respond to the call, while Eco Saviors continue their route. The detour earns the Guardians global admiration despite the slight delay, but the Saviors' steadfast focus keeps them on schedule.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Eco Saviors detour to help while Wildlife Guardians stick to the mission. Both strategies bear fruits, with Saviors earning global goodwill and Guardians making headway in their journey.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to continue the mission uninterrupted. Their focus on the original mission ensures efficient resource management and timely delivery, but the ignored distress call raises eyebrows amongst humanitarian circles.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams encounter strict new wildlife transport regulations that require extra safety and comfort arrangements for the pangolins, potentially consuming more energy and time.",
+      "options": {
+        "A": "Adhere to the new regulations, sacrificing speed and energy for the pangolin's comfort.",
+        "B": "Negotiate for leniency based on their current containment arrangements to save time and resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Respecting the new guidelines, both teams ensure the pangolins' increased comfort, even at the expense of additional time and energy. Their actions set a new standard in animal transportation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Wildlife Guardians conform to the updated regulations, while Eco Saviors negotiate their way. The Guardians' actions earn them accolades for prioritising wildlife welfare, but the Saviors' negotiations expedite the journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Eco Saviors follow the stringent rules, while the Wildlife Guardians debate for leniency. While the Saviors' compliance is praised, the Guardians manage to deliver their cargo ahead of time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams argue about the current containment arrangements, saving time and resources. The officials agree, and their swift action enables a timely completion of the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

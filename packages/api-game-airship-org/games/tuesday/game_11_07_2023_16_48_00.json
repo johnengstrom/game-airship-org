@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Mission: Pangolin Rescue",
+  "gameDescription": "In a world plagued with illegal wildlife trade, teams of airships embark on a daring mission to rescue and preserve Pangolins in Africa. Transporting these endangered creatures to a new enclosure in Vietnam, their choices will not only affect the success of the mission, but the very survival of these precious animals. Each airship is tasked to make difficult strategic decisions that ripple through to affect future situations and the ultimate success of their mission.",
+  "setting": {
+    "location": "Above Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Atlas Avengers",
+      "description": "Masters of stealth operations and animal rescue protocols."
+    },
+    "redTeam": {
+      "name": "Pegasus Protectors",
+      "description": "Experts in international law enforcement, ensuring successful missions despite wildlife trafficking threats."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While transporting the pangolins, both teams catch wind of a poaching ring nearby. They must decide on what action to take.",
+      "options": {
+        "A": "Continue with the transport and report the poachers' location to local authorities.",
+        "B": "Risk a diversion to confront the poachers directly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to continue, reporting to the local authorities. Their choice leads to a secure transport for the pangolins, but the poachers' fate remains uncertain.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team continues on the path while the other deviates to confront the poachers. While the diversion proves successful, the poaching crisis deepens.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team confronting the poachers, the journey takes an unexpected turn. The confronters' efforts pay off, but the crisis continues, nonetheless.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams divert to confront the poachers. The pangolins' transport is delayed, but the poachers are apprehended. A tough battle ensues, shaping the future of wildlife conservatism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An abrupt change in the weather poses a considerable threat to the journey's progress.",
+      "options": {
+        "A": "Follow a longer route with more favorable weather conditions.",
+        "B": "Stay on the current path and weather the storm."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to take the longer route, delaying their arrival. However, they manage to keep the transporting conditions suitable for the sensitive pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship diverts off the storm's path, while the other decides to brave the storm. Both choices affect the conditions inside the airship and the well-being of the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team chooses to brave the storm, the other diverts, affecting the creatures' travel experience greatly. The transport remains a tightrope walk for both.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams press on, deciding to brave the storm. Although they experience turbulence, the pangolins are safe, and the transport's short timing aids in hastening the overall mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the Vietnamese coast, the teams find two different routes to the sanctuary. One is quicker but more challenging while the other is safer but considerably longer.",
+      "options": {
+        "A": "Opt for the quicker but more challenging route.",
+        "B": "Take the longer yet safer route."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both choose the quick, challenging route and manage to deliver the pangolins on time. However, the rough ride may have stressed the delicate animals.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Owing to differences in route choice, teams' timelines diverge significantly. While the quicker team arrives first, the health of the transported pangolins becomes a concern.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A difference in route choice leads to contrasting experiences and challenges for the teams. Despite the late arrival, the pangolins from the safer route adapt better to the new enclosure.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose safety over speed and take the safer route. A late arrival is a small price to pay for the increased assurance of the pangolins' safety and well-being.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

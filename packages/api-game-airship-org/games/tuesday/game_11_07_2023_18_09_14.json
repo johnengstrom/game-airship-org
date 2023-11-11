@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Delicate Balance",
+  "gameDescription": "Even amidst the harsh winds of the South Pole, the surge of sustainable tourism has arrived. As the commanders of state-of-the-art airships, players traverse the unspoiled wilderness of Antarctica, delicately negotiating between the call of exploration and the critical preservation of this unique environment. Your mission: Minimize your environmental impact while fostering scientific research and responsible exploration.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "McMurdo Research Station",
+    "missionEnd": "Penguin Observation Point"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Pioneers",
+      "description": "Experts in sustainable operations and Antarctic weather patterns."
+    },
+    "redTeam": {
+      "name": "Frost Guardians",
+      "description": "Specialists in mission execution and environmental preservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Selecting a landing site for tourists poses the first challenge. A popular, often-visited location is already somewhat impacted but offers clear navigation. A more secluded, pristine location promises untouched beauty but risks leaving a new footprint.",
+      "options": {
+        "A": "Opt for the familiar and already impacted landing site.",
+        "B": "Dare to venture to the untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The teams' airships land in the already impacted area, drawing a sigh of relief from the Antarctic wilderness. Minimal new disturbance is created, yet the area's recovery remains a concern. The trade-off between tourist satisfaction and environmental preservation begins.",
+          "bonusCard": "Shared"
+        },
+        "AB": {
+          "narrative": "While one team lands in an impacted site, the other takes a leap of faith venturing into virgin territory. Their courage draws awe from the tourists but potentially disrupts the serenity of the unspoiled landscape.",
+          "bonusCard": "Red Team"
+        },
+        "BA": {
+          "narrative": "The decision to split between known and unknown sites raises eyebrows. The team exploring the pristine site captures rare animal footages but also faces criticism for bringing disturbance to the untouched nature.",
+          "bonusCard": "Blue Team"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the uncharted course, their airships landing in untouched territories. The pristine landscapes bring gasps of admiration but the risk of disturbing the ecological balance looms large.",
+          "bonusCard": "None"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Determining the tourist capacity is the next task. A higher headcount means more potential impact but also more commercial revenue. Limited numbers ensure conservation, albeit at the expense of potential earnings.",
+      "options": {
+        "A": "Accept a larger number of tourists to boost revenues.",
+        "B": "Limit visitor count in favor of conservation, despite the financial impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to maximize their returns. The surge in tourist count leads to a financial boost, but the increased foot traffic strains the delicate ecosystem. Conservationists share concerns about the escalating human imprint.",
+          "bonusCard": "None"
+        },
+        "AB": {
+          "narrative": "Different strategies divide the teams. One airship buzzes with tourists while the other is an oasis of calm. The populous airship faces questions on environmental impact, while the other grapples with a lower profit margin.",
+          "bonusCard": "Red Team"
+        },
+        "BA": {
+          "narrative": "The airships reveal contrasting philosophies. The full airship draws flak from green activists, while the quieter one earns respect yet struggles to balance the books.",
+          "bonusCard": "Blue Team"
+        },
+        "BB": {
+          "narrative": "Both teams boldly accept a smaller visitor count. The Antarctic continues to breathe freely, but the pinging of the cash registers is less enthusiastic. In the quest for sustainable tourism, both teams have drawn a clear line in the snow.",
+          "bonusCard": "Shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the mission reaches its climax, a priority decision on conservation must be taken. Engaging tourists in conservation efforts could promote environmental awareness, whereas enforcing strict regulations could safeguard the ecosystem more effectively.",
+      "options": {
+        "A": "Engage tourists actively in conservation activities.",
+        "B": "Rely on stringent regulations and closures to ensure protection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to engage their passengers. The tourists participate enthusiastically, contributing to the preservation efforts. However, concerns still remain around the overall environmental impact of their visit. It's a tiny step, yet a step towards environmental awareness.",
+          "bonusCard": "Shared"
+        },
+        "AB": {
+          "narrative": "One team successfully involves tourists in conservation, while the other crosses t's and dots i's of the regulations. Both approaches demonstrate their unique benefits, offering insights into diverse ways of preservation.",
+          "bonusCard": "Red Team"
+        },
+        "BA": {
+          "narrative": "Tourist engagement and regulatory enforcement go hand in hand. The visible enthusiasm from the tourists in cleanup activities contrasts with the stern no-go zones. The success of this integrated approach is hailed by experts.",
+          "bonusCard": "Blue Team"
+        },
+        "BB": {
+          "narrative": "Both teams resort to strict regulation, minimising human impact. Their firm resolve to safeguard Antarctica against any harm is lauded. Yet, the question remains - is the atmosphere too restrictive for the tourists?",
+          "bonusCard": "None"
+        }
+      }
+    }
+  ]
+}

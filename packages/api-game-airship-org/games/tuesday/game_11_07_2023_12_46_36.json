@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Wings of Survival: The Pangolin Rescue",
+  "gameDescription": "In a world where bio-engineered airships respond swiftly to global initiatives, Project Peril has tasked two leading airship teams with a vital conservation mission. Tasked with transporting pangolins from areas of high-poaching to a newly built enclosure sanctuary in Vietnam, these airships will face numerous strategic decisions impacting the success of the mission, the survival of the endangered pangolins, and the environment.",
+  "setting": {
+    "location": "Across continents and ecosystems",
+    "missionStart": "Africa's Poaching Fields",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Sentinels",
+      "description": "Adept at wildlife handling and anti-poaching strategies."
+    },
+    "redTeam": {
+      "name": "BioBrigade",
+      "description": "Renowned for efficient navigation and environmental impact reduction."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are loaded with the fragile pangolins, but local poachers have noticed the rescue operation and are closing in to claim their bounty. The teams must decide how to respond.",
+      "options": {
+        "A": "Activate invisibility cloak and silently exit the area.",
+        "B": "Draw on local enforcement support to create a diversionary front."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing stealth, both teams successfully elude the poachers but the invisibility system's energy drain cuts into their green hydrogen reserves. The pangolins, meanwhile, remain undisturbed in transport.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one airship undetectable, and the other drawing local enforcement's attention, they manage to distract the poachers and safely leave. However, local enforcement's heavy involvement attracts some unwelcome media attention.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Coordinating a diversion while keeping undetectable, the teams secure an escape. However, the enforcement engaged by the BioBrigade ensures the poachers are held accountable, creating a safer environment for future conservation missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With both teams creating a diversion, the enforcement's display of power sends a strong anti-poaching message. Yet, the spectacle causes a minor delay in departure and further strains the pangolins already stressed from the ordeal.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Flying over international waters, the airships receive a distress signal from a commercial liner carrying essential wildlife conservation supplies that's taken on water.",
+      "options": {
+        "A": "Divert course to air-drop inflatable rafts and supplies.",
+        "B": "Use long-range communication to mobilize closer help and stay focused on your mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships divert course and succeed in the rescue but the maneuver costs precious time and hydrogen reserves, risking the mission and the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The decisive actions of both teams saved lives while maintaining their mission. The Skyward Sentinels, by diverting course, show commendable courage despite their setbacks, while the BioBrigade effectively mobilizes further aid.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The liner is saved without major deviation from the mission. The BioBrigade demonstrates care and courage for all life while the Skyward Sentinels' quick communication ensures complete rescue without hindering their mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to mobilize closer aid, succeeding in a coordinated rescue, while staying course for the critical pangolin mission. Their perfect balance between global responsibility and immediate mission focus pays off handsomely.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they receive word of a typhoon developing off the coast. They must decide the most efficient way to ensure the pangolins' safe delivery.",
+      "options": {
+        "A": "Use advanced weather systems to traverse the storm.",
+        "B": "Take a costly detour to avoid the storm completely."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to weather the storm, the airships' advanced systems ensure a successful passage but at the cost of greater hydrogen consumption. The pangolins, though a little shaken, arrive safely.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As the BioBrigade charts a safer path, the Skyward Sentinels dredge through the storm. The Sentinels make a timely delivery, but the detour taken by the Brigade ensures a more comfortable journey and reduces stress on the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Skyward Sentinels take a cautious detour, the BioBrigade braves the storm. The Sentinel’s careful approach guarantees relaxed pangolins while the BioBrigade’s timely arrival accelerates the resettling process.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing caution over speed, both teams make the costly detour. This ensures the comfort and health of the pangolins, prioritizing the mission objective over hydrogen efficiency.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

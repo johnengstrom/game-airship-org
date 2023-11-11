@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Odyssey: Airship Guardians",
+  "gameDescription": "In response to the pangolin population crisis, Greater Good Charities Project Peril launched a critical mission to transport rescued pangolins to a newly constructed safe enclosure facility in Vietnam. Two advanced airships, operated by elite air teams, have been tasked with this delicate mission. Every decision each team makes while maneuvering their respective airships impacts the survival chances of its precious cargo and the team's environmental footprint.",
+  "setting": {
+    "location": "Across Asia",
+    "missionStart": "Pangolin Rescue Centers",
+    "missionEnd": "New Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Rescue Skies",
+      "description": "A team that excels in safe cargo handling and crisis management."
+    },
+    "redTeam": {
+      "name": "Conservation Winds",
+      "description": "A team with proficiency in fuel-efficient navigation and wildlife interaction."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face a challenge when taking off with the laden pangolin cargo as a heavy thunderstorm approaches.",
+      "options": {
+        "A": "Stay grounded until the storm passes, risking stress for the already traumatized pangolins.",
+        "B": "Take off before the storm arrives, ensuring minimal stress for the pangolins, but risking potentially hazardous weather conditions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams await the storm. The delay causes stress for the pangolins, but their safety is ensured. As they finally take off into clear skies, their eco-friendly choices have preserved their initial hydrogen supplies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the storm while the other stays grounded. The flying team experiences turbulence but protects the pangolins from prolonged stress, while the grounded team’s occupants endure extended discomfort but remain safer.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team stages a tearful goodbye as they take off early. Their risky decision ensures a faster, yet more turbulent journey. The other team waits, launching in the aftermath of the storm, ensuring a smoother yet later departure. Thus begins one of the biggest pangolin rescue missions in history.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wait out the storm. This shared decision presents pros and cons - while the pangolins are kept safe, the delay also prolongs their stress. As the storm subsides, both airships take off into clear skies. The adventure begins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "En route, a distress call from a forest fire region requiring critical attention is received.",
+      "options": {
+        "A": "Alter the course to assist in wildlife rescue from the forest fire, potentially stressing the pangolins onboard but saving other endangered animals.",
+        "B": "Continue with the original path to the sanctuary, focusing on the mission at hand."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to assist in the forest fire rescue mission. Despite the pangolins' stress, they rescue numerous endangered species. Their compassion is unquestionable, but their deviation has cost them time and hydrogen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts to aid in the forest fire, while the other sticks to their mission. The diversions mean more stress for their pangolins and greater fuel use, but they also bring hope to the fire-ridden area. The other team’s focus ensures the safety of their cargo but at the cost of other lives.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team boldly diverts, taking on the challenge of fire rescue, while the other remains focused on their mission. Despite the increased stress and fuel usage, the daring move by the diversion team is praised. The resolute journey by the focused team has ensured the pangolins receive the quickest possible care.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams make the tough decision to stick to their missions, focusing on the wellbeing of their sensitive charges. The choice is a reminder that sometimes, in trying to do everything, one risks accomplishing nothing. Their dedication to their mission is a poignant reminder of the pangolins’ plight.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships are nearing the Vietnamese coast but discover a pirate drone swarm ahead. Engaging might deplete their remaining hydrogen.",
+      "options": {
+        "A": "Engage the pirate drones in a bid to clear the way.",
+        "B": "Maintain course and speed, hope for minimal interference."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a pre-emptive strike, draining their hydrogen reserves but dominating the swarm. It’s a pyrrhic victory, as the airships limp towards their destination with their precious cargo safe but their reserves on fumes.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages the pirate drones in a heated battle, while the other chooses caution, saving its hydrogen but risking the pirate drones' attention. It’s a delicate balance between protection and conservation playing out in the skies over Vietnam.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship takes on the pirate drones while the other plays it safe. The distraction draws fire away from the cautious airship, ensuring a safe passage at the cost of the brave airship's hydrogen reserves.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams fly quietly, saving their remaining hydrogen and praying for minimal disturbances. It’s a tense finale, but they arrive at the sanctuary with their mission successful and their valuable cargo safely delivered.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

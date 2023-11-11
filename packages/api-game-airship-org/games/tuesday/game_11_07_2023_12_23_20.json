@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation: Phantom Scales",
+  "gameDescription": "Against the backdrop of global wildlife conservation, two futuristic airship crews are tasked with a special operation – transporting rescued pangolins from Africa to a new enclosure in Vietnam. Each decision the crews make has grave implications on the success of the mission, the pangolins’ survival, and the teams’ environmental footprint.",
+  "setting": {
+    "location": "Above Africa and Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam's Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Conservation Wings",
+      "description": "An adept team skilled in emergency animal handling and veterinary care."
+    },
+    "redTeam": {
+      "name": "Eco Voyagers",
+      "description": "A hardened crew specializing in anti-poaching maneuvers and stealth transportation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A burst of poacher radio chatter raises alarm. Both airships must decide how to continue their rescue mission.",
+      "options": {
+        "A": "Launch a decoy drone to distract the poachers and carry on the mission.",
+        "B": "Alter the flight path to elude the poachers, which could extend the operation time and impact the pangolins' wellbeing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Using their decoy drones, both teams manage to distract the poachers while continuing their rescue operation. The decoy consumes extra power and draws poacher attention to the skies. However, the pangolins are now onboard, safe and sound, giving the crews the upper hand.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team distracts the poachers with their drone while the other slips away unscathed. The divergent strategies cost the drone-using team their power reserves, but the success of the rescue mission thus far is a boon for team morale.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Avoiding direct conflict, one team alters their flight path while the other deploys their drone. The resourcefulness of both teams has put them ahead of schedule, but the drone usage has left one team low on power.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Avoiding the conflict entirely, both teams adapt their routes and elude the poachers. The skilled navigation works to their advantage, leaving the airways clear for the rescue mission, despite the slight increase in journey time.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon reaching the sanctuary, the airships are faced with two options for landing due to dense jungle foliage and restricted space.",
+      "options": {
+        "A": "Perform a tactical low-hover drop of the cargo, saving fuel but risking potential injury to the pangolins.",
+        "B": "Clear a landing site using mechanical arms, spending more energy but allowing a safe and controlled descent."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Opting for a risky low-hover drop,  both teams manage to deliver their precious cargo. While they conserved fuel, the pangolins are visibly shaken by the abrupt landing. The teams proceed with their mission with caution.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team performs a low-hover drop, while the other clears a landing site. The clearing team consumes more power but their mindful decision provides the pangolins with a traumatic-free journey, gaining them praise.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Executing a balance of strategies, one team clears a landing site while the other opts for the low-hover drop. Both actions save time and minimize damage, although one crew consumed more energy. ",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews decide to clear a landing site, ensuring the pangolins' safety and comfort. While they consume more energy, their humanitarian decision wins them appreciation, strengthening their resolve.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the pangolins begin acclimatizing to their new home, the airships face a dilemma concerning how to dispose of the organic waste generated during the mission.",
+      "options": {
+        "A": "Use an onboard composter to turn the waste into fertilizer for the sanctuary, requiring extra energy.",
+        "B": "Eject the waste over the ocean on the return flight, which poses no energy cost but could impact marine ecosystems."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to compost the waste. The energy consumption is considerable, but the resulting fertilizer is a much-needed contribution to the sanctuary. The teams return home satisfied, aware of their positive impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team choosing to compost and the other ejecting the waste, the impact on their energy reserves varies. While the composting is energy-intensive, the resulting fertilizer contributes significantly to the sanctuary, making the decision worthwhile.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The decision is split with one team composting while the other opting for waste ejection. The ejected waste’s environmental impact is considered as the other team’s composting provides tangible aid to the sanctuary.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams dispose of the waste over the ocean, saving energy but potentially harming the marine ecosystem. However, they promise to invest in more sustainable waste management methodologies, turning a challenging situation into a learning experience.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

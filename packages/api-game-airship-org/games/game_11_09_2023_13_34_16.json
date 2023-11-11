@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Wings of Survival",
+  "gameDescription": "In Operation Pollination, players command futuristic airships in leu of bees' vital role being endangered by both natural disasters and human activities governing the global ecosystem. Players carry the duty of reviving bee populations and their habitats while carefully refining strategies to tackle environmental conservation issues.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Research Stations around the world",
+    "missionEnd": "Affected Regions"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Known for their proficiency in creating artificial habitats and makings of a strong colony."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Masters in restoring plantations and veteran navigators of post-disaster areas."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Following a brutal hurricane, the devastated bee habitats scream for attention. Focusing on immediate needs, how should the teams react?",
+      "options": {
+        "A": "Carry seeds of native flowers and orchestrate aerial seeding in affected areas, reviving the habitats.",
+        "B": "Establish towers to introduce new bee colonies in safe zones, ensuring the survival and growth of populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams pour in efforts to restore habitats. The cross-pollination from the wildlife flowers sees a fast revival in local bee populations, painting a promising start.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Bombus Navigators' Artificial Habitats hold strong, providing shelter and encourages growth while Apis Aviators are successful in speeding up the recovery of local ecosystems.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apis Aviators take the route of creating new colonies providing shelter while Bombus Navigators push for a speedier ecological recovery, a true symbiotic partnership.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Shifting the lines, the teams invest in the future by spawning multiple colonies across safe zones. A risky, yet a promising gamble for the survival of bees in the areas.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfires have left miles in ashes. Marking an environmental tragedy, teams must decide how to invest resources",
+      "options": {
+        "A": "Isolate and seed the ash-laden areas with flowering vegetation to encourage ecological recovery.",
+        "B": "Set up artificial bee-friendly spaces in secure areas to support populations that fled the fires."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Matching paths, both teams endeavor to nurture the devastated areas in hopes of reviving them. The seeds take root, and life springs from the ashes. Nature fights back.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Bombus Navigators prepare a refuge for displaced bees, Apis Aviators sow seeds of recovery. Both approaches usher hope amidst ashes.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apis Aviators provide spaces for displaced bees, while Bombus Navigators seed the fire-ravaged areas. Wildflowers bloom, and bees find solace.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the displaced bees, creating secure artificial habitats. Life buzzes once again in harmony as displaced bees find new homes.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams now face an opportunity to expand sustainably. The decisions here could set a course for the future.",
+      "options": {
+        "A": "Develop technology-enhanced bee sanctuaries promoting optimal habitat conditions.",
+        "B": "Spearhead educational campaigns to cultivate a wider understanding of bee conservation and ecological importance."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Embracing technology, both teams progress into advanced safe havens for bees. Sanctuaries bloom with life, and a new chapter begins for the world's busiest pollinators.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Bombus Navigators touch hearts with powerful conservation campaigns while Apis Aviators employ tech-enhanced sanctuaries. A balance of progress and awareness uplifts the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apis Aviators work on an outreach campaign, educating masses while Bombus Navigators set up tech-advanced sanctuaries. Progress, paired with global awareness, leads to victory for nature.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Emphasizing the importance of awareness, both teams undertake massive global campaigns. The world listens, learns, and changes its ways, revealing that the biggest sanctuary is in human hearts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

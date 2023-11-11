@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Flight for Pangolins",
+  "gameDescription": "Two futuristic eco-airships, under the directives of Greater Good Charities and Wildlife At Risk, embark on a crucial mission to rescue pangolins from poaching in Africa and transport them to a newly created sanctuary in Vietnam. Their journey takes them across continents, hostile terrains, and volatile weather. The teams not only face challenges in transporting these shy creatures but must also make strategic decisions that affect the success of their mission and the impact on the environment.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Skies",
+      "description": "Specializing in animal welfare and stealth navigation."
+    },
+    "redTeam": {
+      "name": "Vigilant Voyagers",
+      "description": "Experts in thwarting poaching and preserving biodiverse ecosystems."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships have successfully located and safely tranquilized wild pangolins for rescue. Now, they have to handle and transport these unique creatures to the safe haven in Vietnam. ",
+      "options": {
+        "A": "Transport pangolins in climate-controlled, individual compartments to replicate their natural isolation.",
+        "B": "Transport pangolins in a larger common space with smart monitoring systems, saving energy but risking potential agitation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to prioritize the pangolin's natural behavior, consuming more power for climate control. Their respect for animal welfare amidst challenging situations is admirable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Skies safeguard isolated compartments, while Vigilant Voyagers, ready with their experts, opt for a communal space for pangolins. This difference in strategies further enhances the mission's learning curve for future rescues.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Vigilant Voyagers maintain individual compartments, Guardian Skies save hydrogen by using a common space. This difference in caring for the wildlife's psychological well-being against energy conservation makes the mission intriguing.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, in a bid to conserve fuel, house pangolins together. With smart monitoring, they manage to ensure the welfare of these delicate creatures through collective care.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the airships are contacted by Wildlife At Risk with information on a new poaching endeavor.",
+      "options": {
+        "A": "Divert from the original route to intervene and stop the poachers, taking additional time and fuel.",
+        "B": "Stay on course to the sanctuary, ensuring the safe delivery of their precious cargo but leaving the fight against the poachers to ground teams."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams, determined to protect wildlife, bravely divert to confront the poachers. The diversion taxes their fuel reserves significantly, adding to the mission's uncertainty.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Skies diverts to confront the poachers, risking their timeline and fuel. Meanwhile, Vigilant Voyagers continue with their manifest, dedicated to their current mission at hand.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Vigilant Voyagers take a detour to victoriously ward off the poachers, while Guardian Skies relentlessly proceed towards the sanctuary. Their respective decisions represent a multifaceted approach to wildlife preservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, defiant in their sole dedication to the pangolins, continue on their preset routes. Their commitment towards minimizing risk to their sensitive passengers highlights their integrity.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams have the option to livestream their mission to a worldwide audience, bringing attention to the pangolin's plight.",
+      "options": {
+        "A": "Livestream the mission, risking revealing critical rescue and transportation strategies to potential poachers.",
+        "B": "Refrain from live streaming, keeping rescue strategies undisclosed but losing an opportunity to raise global awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams elect to livestream the mission. Their actions significantly boost global support for pangolin protection, albeit risking revealing key strategies to miscreants.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Skies chooses to livestream, gaining global applause, while Vigilant Voyagers remain undetected, preserving their stealthy strategies. Their joint actions strike a balance between awareness and tactical confidentiality.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Vigilant Voyagers capture public attention with live streaming, Guardian Skies retains their covert modus operandi. This duality of public engagement and strategic covert operation further enhances the mission's success.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to operate covertly, shielding their strategic operations from public eye. In doing so, they ensure the integrity and repeated success of similar future missions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

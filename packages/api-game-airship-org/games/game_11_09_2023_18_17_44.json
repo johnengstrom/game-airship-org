@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Paradox: The Battle for Survival",
+  "gameDescription": "Two futuristic airships, specially equipped for wildlife recovery and conservation missions, face the serious task of transporting rescued Pangolins from African poaching zones to a newly established sanctuary in Vietnam. Such missions are key to turn the tide in the battle for the Pangolin's survival, the most heavily trafficked wild mammal worldwide. Each game decision has a direct impact on the success of the mission and the plight of the Pangolin population.",
+  "setting": {
+    "location": "Across Africa and Southeast Asia",
+    "missionStart": "African Poaching Zones",
+    "missionEnd": "Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Guardian Gliders",
+      "description": "Known for their excellent wildlife handling skills and knowledge of black market trade routes."
+    },
+    "redTeam": {
+      "name": "The Conservation Cruisers",
+      "description": "Expert pilots with a strong understanding of the Pangolin's needs and behaviors."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter an opportunity to intercept illegal pangolin traffickers. They must decide how to engage.",
+      "options": {
+        "A": "Initiate direct engagement with illegal traffickers risking confrontation.",
+        "B": "Inform local law enforcement and offer support remotely."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage the traffickers directly, ensuring multiple pangolins are rescued but risking the safety of the teams. The world stands in awe of their bravery — but prudence must accompany courage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardian Gliders engage directly while the Conservation Cruisers call for backup. The direct confrontation leads to a successful rescue, but the Gliders suffer minor damage to their airship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Conservation Cruisers confront the traffickers while the Guardian Gliders provide remote support. The tactical move leads to the arrest of several traffickers and secure retrieval of pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate efforts with local law enforcement resulting in a skilled and secure operation. They rescue many pangolins and strike a blow to the trafficking network.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive news of a pangolin trapped in an abandoned mine. Time and resources are against them.",
+      "options": {
+        "A": "Set course immediately for the mine, considering the time sensitivity.",
+        "B": "Continue the automated pangolin tracking procedures while sending information to local agencies."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush to save the trapped pangolin. The rescue mission is successful, but the delay means more pangolins may have been trafficked in their absence.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As the Guardian Gliders rush to the mine, the Conservation Cruisers effectively direct local authorities to intercept additional traffickers. Both missions are successful, bolstering the teams' morale.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Crusiers fly to the rescue while the Gliders help the local agencies. The balanced approach offsets the extra time spent, and they rescue even more pangolins as the traffickers are apprehended.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams expertly manage their primary objective and assist with local efforts. Their multitasking leads to the rescue of not just the trapped pangolin, but many others intercepted across Africa.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Nearing the Vietnamese sanctuary, the teams face a choice that hinges around the delicate state of the rescued Pangolins’ health.",
+      "options": {
+        "A": "Speed up the journey to ensure quick medical attention for the pangolins.",
+        "B": "Maintain current speed to keep the pangolins' stress levels low."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams quicken the journey, bringing all the pangolins safe and sooner to the sanctuary. The pangolins face stress from the voyage, but timely medical attention ensures their recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Guardian Gliders push for speed while the Conservation Cruisers maintain a steady pace. The Gliders' pangolins face stress, but their gamble saves several critical cases, while the Cruisers' steady ride reduces overall stress levels.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Cruisers opt for speed while the Gliders maintain current speed. The Cruisers ensure timely medical attention, but the pangolins face stress during the fast-paced journey, whereas the Gliders ensure minimum stress for their pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to prioritize the wellbeing of the pangolins, resulting in the lowest possible stress levels during the journey. The medical teams are fully prepared by the time they arrive, ensuring all pangolins receive the attention they need.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

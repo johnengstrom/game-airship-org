@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Air: The Pangolin Mission",
+  "gameDescription": "Assume control of precisely engineered airships to take part in an urgent mission. The aim? Saving pangolins from the brink of extinction. These innocent creatures face continuous threats due to the relentless illegal wildlife trade. As the crews navigate vast distances to collect and deliver these endangered creatures to safe havens, environmental sustainability remains crucial. Intelligence and efficient hydrogen usage are your most potent tools in this race against time to rescue the world's most heavily trafficked mammal.",
+  "setting": {
+    "location": "Above African Savannah and Asian Rainforests",
+    "missionStart": "Poaching hotspots in Africa and Asia",
+    "missionEnd": "Animal Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Team PerilProtectors",
+      "description": "Specialists in precise navigation through rough weather conditions."
+    },
+    "redTeam": {
+      "name": "Wildlife Warriors",
+      "description": "Experts in animal handling and mission efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams face a rapidly intensifying bushfire in their path. The airships must safely navigate this unexpected threat.",
+      "options": {
+        "A": "Navigate the airships higher to avoid the smoke plumes, risking higher hydrogen consumption.",
+        "B": "Deviate from the route around the fire, which can lead to an increased mission time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely decide to ascend higher and succeed in traversing the smoke plumes. This quick thinking has helped them stay on schedule, though at the cost of extra hydrogen usage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team ascends higher, the other takes a detour to avoid the smoke. The detour leads to increased mission time, but at least they have kept the hydrogen consumption low by not climbing higher.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team opts for a detour, the other courageously ascends higher into the smoke. The team that ascends manages to stay on schedule, but their hydrogen reserves take a hit. Their courage, however, pays off as they gain time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to take a detour. This wise safety-first approach may lead to an increased mission time, but it could potentially save precious hydrogen for the rest of their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive a distress signal from another rescue attempt nearby. However, responding to it might jeopardize their own mission.",
+      "options": {
+        "A": "Radio the nearest ground station to coordinate a rescue mission.",
+        "B": "Engage airship's additional rescue gear to save lives, risking rising mission time and hydrogen consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to radio the nearest ground station. Although this decision doesn't directly impact their mission or hydrogen usage, it does show a valuable humility and understanding of their limitations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team reaches out to the ground station while the other takes a more direct action. The risks taken by the bravely intervening team lead to an increase in mission time as well as hydrogen usage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With the help of the ground station and direct intervention from the airships, the distressed mission is saved. While the direct intervention has used up valuable time and hydrogen, it has also resulted in many lives saved.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams suspend their mission in order to directly intervene in the ongoing crisis. While their brave actions have resulted in successful rescues, the delay and extra hydrogen usage could challenge their original mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the teams approach their sanctuary endpoint, they must decide between a risky mountain pass or a controlled descent to use as a landing zone.",
+      "options": {
+        "A": "Take the faster mountain pass route with increased risk.",
+        "B": "Choose the controlled descent, prioritizing safety over time-efficiency."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to take the risky mountain pass. Despite the perils, they make swift time conserving their remaining hydrogen. With their additional time, they are able to begin their pangolin resettlement efforts immediately.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team selects the risky passage, the other opts for a controlled descent. The team that chose safety lands later but in a better condition. Conversely, the risk-takers manage to start resettlement efforts sooner but at some peril.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams split, one taking the risky pass while the other opts for safe descent. This results in a gentle race to the finish, with the risk-taking team arriving sooner but a bit rattled due to the turbulent ride.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize safety, choosing a controlled descent. Their decision makes a homely welcome for the rescued pangolins and ensures no final rush in handling these delicate, endangered creatures.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

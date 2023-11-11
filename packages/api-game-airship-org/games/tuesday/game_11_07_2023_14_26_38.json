@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin: Airborne Aid",
+  "gameDescription": "Take command of the red and blue teams — the Alpha Aeronauts and Beta Balloonists — as they pilot their eco-friendly airships on an urgent mission. Transport precious cargo of pangolins from threatened habitats across Africa to a sanctuary in Vietnam, assigning resources for wildlife preservation as you navigate the skies. Make tough choices and strategic manoeuvres that impact not only the pangolins' future but also the overall environmental footprint of your mission.",
+  "setting": {
+    "location": "Across African Skies, the Arabian Sea and Asian Jungles",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Alpha Aeronauts",
+      "description": "Noted for their advanced navigation systems and passion for conservation."
+    },
+    "redTeam": {
+      "name": "Beta Balloonists",
+      "description": "Renowned for their cargo handling expertise and mission-critical decision-making."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Bound for Vietnam, the airships must traverse stormy skies over the Arabian Sea. Waste management concerns also weigh-in. Committed to saving pangolins and the planet, the teams debate their next move.",
+      "options": {
+        "A": "Fly through the storm, retaining all waste onboard for proper disposal later.",
+        "B": "Avoid storm by diverting course, release biodegradable waste to lighten ship."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams' daring venture into the storm impresses the world, highlighting climate change's extreme weather. Their unanimity to retain waste with them onboard stresses the importance of responsible waste management.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Alpha Aeronauts weather the storm, the Beta Balloonists divert and jettison their waste to improve lift. However, they face criticism for potential sea pollution, even with biodegradable waste.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Alpha Aeronauts divert and jettison their waste, while the Beta Balloonists fly through the storm. The public is divided: some praise quick-thinking, while others question the environmental costs.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wisely avoid the severe storm but their jettison of biodegradable waste into the sea sparks a global discussion on environmental compromises in crisis. The decision ripples beyond just their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Airships receive a distress call from an anti-poaching patrol facing a gang of traffickers. The teams must decide between risking their own mission to provide aerial support or continue on their critical conservation voyage.",
+      "options": {
+        "A": "Divert course to provide real-time aerial intelligence to local law enforcement.",
+        "B": "Maintain course and report the incident to the closest law enforcement agency."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Braving risks, the teams divert course for rescue. Their daring pivot highlights to the world the importance of collective action against illegal wildlife trade. It weights on time and resources, but reaps massive public support.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Alpha Aeronauts divert to assist in the anti-poaching effort, while the Beta Balloonists continue their course, contacting the authorities. Dual tactics serve to emphasize the multifaceted approach required in pangolin conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Alpha Aeronauts proceed unhindered while the Beta Balloonists divert to support rangers. The teams’ divergent but equally necessary tactics highlight that wildlife preservation and mission efficiency can coexist.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both ships make the tough choice to continue their course despite the distress call, demonstrating their unwavering commitment to saving pangolins. They broadcast the situation globally, rallying support and leading to the poachers' arrest.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach their destination, stringent Vietnamese air control regulations provide the final challenge. The teams must either speed up to achieve an early landing time or maintain current speeds to minimize hydrogen consumption.",
+      "options": {
+        "A": "Increase speed while consuming more hydrogen to make an early landing.",
+        "B": "Maintain current speed, coordinate with air traffic, and aim for punctual arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "By hastening arrival, both teams showcase the critical gravity of pangolin conservation, but also spark global rendezvous on the delicate balance between conservation urgency and environmental sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Alpha Aeronauts increase speed to arrive early while Beta Balloonists continue at the same speed. The divergence in decisions creates a real-time testament to the complexities of sustainable transformation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aeronauts maintain their speed while the Balloonists surge ahead. This variation displays the necessity of flexible strategies in the face of dynamic challenges, inspiring many around the globe.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By valuing environmental sustainability over speed, both teams highlight responsible decision-making. The final phase of their journey becomes a symbol for sustainable initiatives worldwide, creating ripples beyond just pangolins' rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

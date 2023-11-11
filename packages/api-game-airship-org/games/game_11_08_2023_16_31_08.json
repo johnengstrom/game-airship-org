@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Echowings: Pangolin Rescue Mission",
+  "gameDescription": "Two humanitarian airship fleets, bound for a unique mission, navigate through potential hurdles as they safeguard a pangolin colony from relentless poaching in Africa and transport it to a newly established safe haven in Vietnam. This mission is more than just a rescue; it's a fight for survival. Each team's decision matters, be it related to the route, management of fuel reserves, or handling unexpected circumstances, all of which considerably impact the mission's success and their carbon footprint.",
+  "setting": {
+    "location": "Trans-continental journey from Africa to Vietnam",
+    "missionStart": "Poaching hotzones across Africa",
+    "missionEnd": "New pangolin sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Harmony Voyagers",
+      "description": "Specializes in animal comfort and safety during transport."
+    },
+    "redTeam": {
+      "name": "Preservation Wings",
+      "description": "Excels in efficient route mapping and fuel management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Pangolins have been safely loaded onto the airships, but time is pressing due to their stress and the upcoming monsoon in Asia. The teams need to chart their routes.",
+      "options": {
+        "A": "Plot a direct route over the Indian Ocean, consuming more fuel but minimizing transit time.",
+        "B": "Choose a longer route along the coast, consuming less fuel but increasing stress on the pangolins due to increased transit time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize the health of the pangolins and race across the ocean. They reach Vietnam well before the monsoons but their consumption of hydrogen rises significantly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Harmony Voyagers reach the sanctuary ahead of time, Preservation Wings opts for a fuel-efficient route, arriving just in time to avoid the monsoon, but the prolonged transit has some impact on the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Preservation Wings brings their precious cargo safely ahead of monsoons, while Harmony Voyagers, although saving considerable hydrogen, reach just as the monsoon begins, causing a bit of stress on the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide on the longer route. While it's fuel-efficient, the prolonged transit has weakened a few pangolins. Together, they ensure these pangolins receive immediate medical attention on arrival.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon reaching near the sanctuary, teams realize that a local crew is struggling to prepare the enclosure for the anticipated monsoon.",
+      "options": {
+        "A": "Land immediately and start moving the pangolins into the enclosure, even as the local crew continues their work.",
+        "B": "Hover nearby until the local crew finishes, thus ensuring ideal conditions but consuming additional fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The teams land and begin unloading the pangolins. The hustle and bustle somewhat agitate the pangolins, but the teams work diligently to keep them calm. The swift actions of both teams prevent the pangolins from experiencing the effects of monsoon.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Preservation Wings unload their pangolins amidst the commotion, Harmony Voyagers patiently hover, consuming additional fuel but ensuring a calm environment for the transfer of their pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Harmony Voyagers create a bit of chaos by unloading their pangolins while the enclosure is still being prepped. Meanwhile, Preservation Wings hover nearby, securing a peaceful transition for their pangolins despite higher hydrogen usage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to hover until the enclosure was ready. While this decision meant consuming extra fuel, it ensured a seamless and stress-free transition for the pangolins into their new home.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Once settled, pangolins require assistance in adapting to the innovative features of the enclosure, like the artificial hunting tube.",
+      "options": {
+        "A": "Spend additional time and resources training the pangolins, which would delay their return journeys.",
+        "B": "Trust in the local team's ability to handle the adaptation process, allowing them to depart for refuelling."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams dedicate additional time helping the pangolins adapt. This not only reassures the pangolins but also builds a bond between them. However, teams face a delay in embarking on their return voyage, impacting their overall efficiency.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Harmony Voyagers spend additional days at the sanctuary while Preservation Wings trust the local team and depart for refuelling. While Harmony's attachment to the pangolins is notable, Preservation's trust in the local team is commendable.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Preservation Wings stay back to bond with the pangolins, as Harmony Voyagers trust the local team and make an early departure. Both approaches have their merit, showing that empathy and pragmatism can go hand in hand.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams trust the local team's abilities and make an early departure for refuelling, thereby saving resources. This decision also gives the pangolins some space to adapt to their new environment.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

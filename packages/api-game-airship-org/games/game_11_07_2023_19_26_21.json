@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Skies: The Recovery Voyage",
+  "gameDescription": "Two futuristic airships embark on a mission to deliver much-needed supplies to the newly constructed Pangolin enclosure in Vietnam. Their mission is not just a test of their efficiency and safety measures, but also a fight against time to ensure the survival and recovery of the endangered Pangolins. Every decision the teams make affects not only their mission success, but also the plight of the Pangolins and the environment.",
+  "setting": {
+    "location": "Transcontinental",
+    "missionStart": "Greater Good Charities HQ",
+    "missionEnd": "Pangolin facility in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Endangered Wings",
+      "description": "Focused on animal rescues and environmental conservation."
+    },
+    "redTeam": {
+      "name": "Sanctuary Carriers",
+      "description": "Specializes in safe and fast transport of wildlife supplies and resources."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive an urgent request to pick up additional animal care supplies en-route, but it will affect mission timings.",
+      "options": {
+        "A": "Reroute to pick up additional essential supplies, which delays the mission.",
+        "B": "Stick to the current route and make the best with existing supplies onboard."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams reroute and manage to collect the additional supplies. The delay is significant, but the additional supplies will enhance the care at the pangolin facility.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team reroutes to collect supplies while the other sticks to the initial route. The rerouting team provides additional support to the facility, while their journey endangers energy reserves.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team sticks to the route while the other reroutes for supplies. The team that managed to collect additional supplies creates positive impact on the pangolin care and raises hope for the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to stick to their initial route, improving mission timings but potentially limiting the capacity for care in the facility. The teams emphasise the value of careful resource allocation in missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon arriving at the facility, the teams are faced with the challenge of dealing with the delicate nature of pangolins in a disturbed state.",
+      "options": {
+        "A": "Carefully deploy a trained wildlife expert to slowly calm the animals.",
+        "B": "Utilize calming pheromone capsules that can be dropped in the enclosure."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy experts who, though they take time, manage to successfully soothe the agitated pangolins without distressing them further, maintaining a humane approach to animal conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team deploys an expert while the other uses calming capsules. The expert brings a gentle touch to the pangolins, putting them at ease, but the capsules slow down the team’s progress, causing an imbalance in mission status.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team using an expert and the other using capsules, the combination created a balanced approach to calming the pangolins. This dual approach had both immediate and lasting impact while ensuring a low-human interaction.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use calming capsules, providing a quick resolution but sacrificing the personal touch of a wildlife expert. Their choice demonstrates their adaptability in uncertain situations.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships prepare for their return journey, they are faced with selecting the most appropriate course avoiding congested airspace in Asia or taking a longer detour.",
+      "options": {
+        "A": "Navigate through the congested airspace using advanced guidance systems.",
+        "B": "Take the longer, less crowded route, which uses more energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to navigate through the congested airspace, saving time at the cost of excessive energy consumption. This decision underscores the challenge of balancing mission efficiency and environmental conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team navigates through the crowded airspace, while the other chooses the longer route, consuming more energy. The latter's decision speaks to the delicate balance of mission priorities, ultimately contributing to fewer emissions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team took the longer route, while the other braved the congested airspace. Despite using more energy, the team that opted for the longer route gained appreciation for its commitment to reducing emissions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to take the longer route to avoid congested airspace, demonstrating their commitment to reducing emissions at the cost of time and energy. This action is lauded as a step towards a more sustainable future.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

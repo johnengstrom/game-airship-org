@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Plight",
+  "gameDescription": "Deforestation and illegal hunting have driven pangolins, the world's most trafficked mammal, to the brink of extinction in Asia and Africa. Two futuristic airships, operated by Greater Good Charities and Wildlife At Risk, embark on an eco-mission to transport rescued pangolins from poaching hotspots to a newly completed sanctuary in Vietnam. The teams engage in strategic decision-making to ensure the safe transport of these vulnerable creatures, negotiate with air traffic control, and coordinate with local conservation agencies. The outcome of their actions affects the success of the mission and the future of the pangolin species.",
+  "setting": {
+    "location": "Above Asia and Africa",
+    "missionStart": "Poaching Hotspots",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Stewards of Sky",
+      "description": "An airship crew specializing in sensitive wildlife transport and navigation through hostile territories."
+    },
+    "redTeam": {
+      "name": "Guardians of the Wind",
+      "description": "An airship crew skilled in rapid response to wildlife emergencies and efficient energy use."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are laden with rescued pangolins and ready to head toward Vietnam. However, hostile forces that profit from the illegal pangolin trade are detected. The teams need to make a crucial decision.",
+      "options": {
+        "A": "Fly at a lower altitude to avoid detection by radar, putting pangolins at a risk due to fluctuating temperatures.",
+        "B": "Fly at a normal height with a potential risk of detection, drawing attention to the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships drop their altitude, being as discreet as possible. The move puts a strain on the pangolins due to temperature changes but it helps to avoid confrontation with poacher gangs. It shows the gravity of the underground trade and highlights the sacrifices made for the mission’s success.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the lower altitude while the other risks detection. The lowered team’s pangolins face stress but they pass undetected while the other team makes news headlines, highlighting the unethical wildlife trade.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Team Stewards dive low while the Guardians risk detection. The Guardians' gamble pays off as they manage to run into an unforeseen friendly UN patrol, who safeguard their path henceforth.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to fly at a normal height, risking exposure. Unfortunately, they are detected but luckily an international outcry on social media discourages any interference by the poacher gangs, turning the mission into a global pangolin rescue movement.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, several pangolins show signs of stress due to the journey. The teams must decide how to manage.",
+      "options": {
+        "A": "Allocate more crew members to constantly monitor and comfort the pangolins, causing the airships to expend extra energy.",
+        "B": "Continue the flight at current staff levels and hope that the pangolins adapt."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allocate extra crew to look after the pangolins. This increases energy usage but the comfort of the animals is seen as paramount. Animal welfare takes priority over conservation of resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Stewards assign extra crew to comfort pangolins while Guardians prefer not to disturb the creatures too much and conserve energy instead. Both methods hold their risks and benefits underlining the complexity of wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Guardians assign extra crew to help the pangolins while Stewards continue on as before. The guardians' additional care seems to aid the pangolins' adjustment, putting them in a favourable position.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to trust in the resilience of the pangolins and focus on energy conservation. Fortunately, nature proves to be resilient, and all the pangolins adjust remarkably well to their temporary home in the skies.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams receive reports of heavy rainfall around the sanctuary, which may cause distress to the pangolins during unloading. The teams must decide their approach.",
+      "options": {
+        "A": "Delay landing and wait for weather conditions to improve, increasing energy usage.",
+        "B": "Proceed with landing and unloading, but risk causing additional stress to the frail pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to hold off landing, waiting for better weather conditions. They use up extra energy but prioritize the health of the pangolins over the punctuality of the mission. The care for their living cargo shines bright in this gloomy weather.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Stewards wait out the rain, while Guardians decide to brave it. The former's decision leads to a calm and undisturbed unloading process, while the latter’s encounter a bit of a stress during unloading, incurring some undesired attention from critics.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Guardians delay their landing while Stewards descend. The waiting Guardians have a smoother operation once the weather clears up, while the Stewards get drenched for their haste but still manage to safely unload their precious cargo.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to land during the rain. The unloading is stressful for the pangolins, but the teams do their best to keep them comfortable. At the facility, the pangolins start adapting to their safe haven. The mission, wrapped in care and courage, inspires the world to protect these unique creatures.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

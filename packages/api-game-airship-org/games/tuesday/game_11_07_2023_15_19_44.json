@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Edition",
+  "gameDescription": "In an era where illegal trafficking threatens to wipe out the world's pangolin population, two advanced intelligent airships join forces with Greater Good Charities and Wildlife At Risk. Their mission, sponsored by donors around the globe, is to safely transport rescued pangolins from various danger zones to a newly established enclosure sanctuary in Vietnam. Each decision affects the survival of the pangolins, the ecological impact, and the overall success of the mission.",
+  "setting": {
+    "location": "Global, heading to Vietnam",
+    "missionStart": "Various Wildlife Danger Zones",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Biora Guardians",
+      "description": "Skilled in critical animal rescue operations and wildlife conservation."
+    },
+    "redTeam": {
+      "name": "Phoenix Protectors",
+      "description": "Renowned for their tranquilizing and safe transport of endangered species."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Various reports of pangolin trafficking have been received. The airships need to decide which area to prioritize first.",
+      "options": {
+        "A": "Head towards rural areas where illegal hunting is rampant.",
+        "B": "Redirect to urban zones, where pangolins are sold on the black market."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both ships storm the rural areas, seizing several illegal hunters. The rescued pangolins are distressed but safe. A significant hit to the illegal hunting rings has been dealt but the black market chains remain intact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one airship tackling rural poaching and the other taking on city traffickers, the mission covers more ground. However, coordination between teams is challenging, resulting in a few traffickers escaping.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The division of the teams' focus allows covering both areas, yet stretched resources lead to delayed rescues. Despite this, several pangolins are secured and the traffickers are put on high alert.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships focus on the urban marketplaces, managing to disrupt major trafficking networks. However, illegal hunting in rural areas remains unimpeded, a lingering threat for the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Following a successful rescue, the pangolins are distressed. The teams must decide on a method to calm them during the journey.",
+      "options": {
+        "A": "Use mild tranquilizers to ensure a calm journey for the stressed pangolins.",
+        "B": "Play Sounds of their natural habitat to soothe the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide on tranquilizers. The pangolins sleep through the journey, but some are slow to recover upon arrival, creating concern regarding their overall health.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses tranquilizers, while the other uses natural sounds. The sleeping pangolins arrive more relaxed, while the awake ones are more alert and active. Its a learning experience for both teams.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The combination of tranquilizers and natural sounds proves effective as the pangolins sleep but in a more comforted and natural way, preparing them for their new safe haven.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use sounds to soothe the pangolins. The quiet hum of the airships filled with the soft sounds of the wild significantly reduces their stress, laying the foundation for a new comfort protocol.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships are nearing Vietnam but are alerted to a nearby illegal shipment of pangolin scales. They must decide how to respond.",
+      "options": {
+        "A": "Pursue the traffickers immediately, risking the pangolins' safe journey.",
+        "B": "Continue to the sanctuary and report the shipment to local authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships disrupt the illegal shipment with a swift unexpected action, securing justice for the pangolins. The onward journey is delayed, but the impact on smuggling routes is considerable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship engages with the traffickers while the other ensures the pangolins' safe delivery. The operation is successful but stressful, highlighting the persistent threat posed by the illegal wildlife trade.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The split decisions result in a balanced response. The secure delivery of the rescued pangolins is ensured, while the intercepted shipment puts significant pressure on the trafficking network.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing the rescued pangolins, both airships reach the enclosure without detour. Law enforcement takes on the reported shipment, resulting in a joint victory for all involved in pangolin protection.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: the Bee's Lifeline",
+  "gameDescription": "Players commandeer vast airships in a near future that is teetering on the brink of an ecological disaster, the mysterious and potentially devastating loss of our pollinators, bees. Through three strategic missions, players vie for the benefit of these buzzing creatures and their habitats, affected by both natural catastrophes and manmade threats. Each decision made has a profound impact on this delicate balance between the needs of human society and environmental preservation.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airborne Airship Command Centre",
+    "missionEnd": "Global Bee Sanctuaries"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Strategists of bee relocation and environmental recovery."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Masters of sustainable ecosystems and bee preservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A hurricane has left vast regions devoid of native flowers, the primary food source for bees. Your airships hover over the devastated site, ready for your command.",
+      "options": {
+        "A": "Plant seeds of native flowers to transform the hurricane-ravaged area into a thriving habitat for bees.",
+        "B": "Establish new bee colonies in safe zones, protecting them from the aftermath of the storm."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With both teams feverishly working to plant native flowers, the devastated areas soon transform into blooming landscapes, with bees buzzing in delight. However, the initial strain on resources proves challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "In an excellent display of teamwork, one group focuses on flower cultivation while the other on maintaining the future of colonies. The result is a balanced restoration with the sights and sounds of a healthy, happy bee population.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team focuses on providing immediate shelter to the colonies, the other transforms the devastated area into a colourful haven. Despite the sudden task division, the bee population still thrives.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships tirelessly work to secure safe zones for new colonies. The buzzing community finds respite instantly; however, the lack of food diversity could still pose a future challenge.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A recent wildfire has left previously vibrant and buzzing landscapes scorched and barren. Immediate action is crucial to restore the once-thriving bee communities.",
+      "options": {
+        "A": "Bombard affected areas with seeds of bee-friendly vegetation to kickstart the ecosystem recovery.",
+        "B": "Create artificial habitats in unaffected regions and relocate bee populations there."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams join forces to heal the scorched earth, with airships raining life-giving seeds. Before long, green shoots poke through the blackened earth, a signal of life renewed. Though beautiful, it's a race against time as the bees' food stores deplete.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team focuses on re-greening efforts, the other constructs artificial habitats and begins the delicate process of relocation. Their combined actions create a ray of hope and a hum of life in a previously desolated space.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams take on roles that reflect their unique skillsets. As the artificial habitats team keeps the communities secure, the other sows the seeds to restore the verdant landscape. Their combined efforts yield promising results.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Relocation is underway as both teams build resilient artificial habitats for the bees. They hum with renewed vigour as they settle into their new sanctuaries. However, long-term sustainability remains a question.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "With nuggets of success under your belt, it’s time to focus on sustainable expansion. But the question remains, how can you make the most significant impact?",
+      "options": {
+        "A": "Invest in the development of advanced technological solutions like bee sanctuaries for optimal habitat conditions.",
+        "B": "Launch widespread educational campaigns to promote bee conservation and awareness among humanity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams break ground in developing high-tech solutions, each airship humming with activity. The bee sanctuaries prove to be successful, albeit affecting their natural adaptation and ecosystem resilience negatively.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The synergic combination of tech advances and education aids not only in habitat preservation but also in increasing humankind's awareness of bee conservation. This harmony could promise a sustainable future for bees!",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bridging the gap between humans and bees, the teams split their efforts. One focuses on the construction of high-tech sanctuaries, whilst the other highlights the importance of bees. The outcome is productive but a bit disjointed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "A global educational campaign about bee conservation reverberates powerfully, gaining human allies worldwide. However, it's a slow process and whether it uplifts the bee population's immediate dire straits remains unseen.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

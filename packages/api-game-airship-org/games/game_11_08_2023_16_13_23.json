@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Skyward Salvation",
+  "gameDescription": "The world’s most heavily trafficked wild mammal, the Pangolin, is at the brink of extinction due to relentless poaching. To combat this, two airship teams embark on a critical eco-mission. The teams are tasked with transporting essential resources for the development of a new pangolin enclosure in Vietnam. A combination of skilful navigation, strategic planning and efficient use of resources will ensure the successful completion of the mission in the most environmentally friendly manner.",
+  "setting": {
+    "location": "South-East Asia Aerial Zone",
+    "missionStart": "Resource Centre for Endangered Wildlife",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviours",
+      "description": "Proficient in eco-friendly transportation and skillful wildlife handling."
+    },
+    "redTeam": {
+      "name": "Wingbeats of Hope",
+      "description": "Experts in strategic planning and efficient resource management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Early into their voyage, both airships detect irregular weather patterns that could affect their course. They must adapt their navigation strategy to ensure safe transit of the fragile cargo.",
+      "options": {
+        "A": "Adjust altitude to fly above the weather disturbances, using more energy but reducing turbulence on the cargo.",
+        "B": "Manipulate the onboard climate control system to offset any negative effects on the cargo, using less energy but potentially risking cargo integrity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams navigate above the weather pattern, consuming extra energy but ensuring complete cargo safety. Their commitment to the mission is worthy of admiration.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team elevates, the other employs their climate control. The high-flying team arrives quickly but uses more resources, while the other reaches safely but with their cargo slightly distressed.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team soars above the weather whereas the other fiddles with their climate control. The team in the clouds uses up more fuel, yet assures cargo safety, while the controlling team arrives soundly with a mild toll on the cargo.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to manipulate their climate controls. It's an energy-efficient approach, but the slight agitation experienced by the cargo is a reminder of the delicate balance between mission success and resource management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An emergency rescue request is received from a makeshift animal shelter, ravaged by a forest fire, seeking immediate transportation of rescued pangolins.",
+      "options": {
+        "A": "Attempt a risky landing in the fire-affected area to rescue the pangolins.",
+        "B": "Coordinate with ground-level wildlife rescuers to safely transport the pangolins to a designated pick-up zone."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to take the risk and land in the affected area. Their audacious effort leads to successful rescue but the hazardous landing consumes a significant amount of resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team performed a daring landing while the other chose to coordinate from the skies. Though both saved the pangolins, the aerial coordination proved more resource-efficient, gaining them an advantage in the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team chose to descend into the fire-ridden area, the other coordinated the ground-based rescue. Both ultimately saved the pangolins, but the daring landing resulted in excessive resource consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinated with ground-level teams, successfully rescuing the pangolins with minimal resource usage. Their decisions set an example of strategic execution paired with the mission to save wildlife.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally, in the last leg of the journey, the teams encounter stringent air traffic. Navigating this will require both, strategic planning and efficient maneuvering.",
+      "options": {
+        "A": "Take a less crowded, longer route to avoid air traffic, ensuring easier but lengthier navigation.",
+        "B": "Negotiate the air traffic head-on with precise coordination and efficient maneuvers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the longer, less crowded route. They safely deliver their cargo, albeit a little late. However, their commitment to the mission's success is commendable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team went the distance, the other adeptly maneuvered through the traffic. The latter, showcasing superior strategic thinking, delivered the cargo swiftly without affecting its integrity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team went around the traffic while the other aced their way through it. Both delivered their cargo successfully, but the ones that took the longer route missed out on resource efficiency.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to tackle the air traffic head-on with their strategic moves. It was a complicated finish to the mission but their successful cargo delivery was a testament to their teamwork.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

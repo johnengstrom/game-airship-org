@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Flight for the Pangolins: Echoes of The Green Dream",
+  "gameDescription": "In the near future, two advanced airships - the Ambassadors of Terra and Protectors of Bios - embark on a critical mission for Greater Good Charities and Wildlife At Risk. Their mission is to transport pangolins from regions of intense poaching in Africa to a newly established state-of-the-art enclosure in Vietnam. Each decision made by the airship crews affects the success of this mission and has profound implications for pangolin conservation, drawing attention to the urgent need for wildlife protection worldwide.",
+  "setting": {
+    "location": "From the heart of Africa to Vietnam",
+    "missionStart": "Various Highly Threatened Regions in Africa",
+    "missionEnd": "State-of-the-art Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ambassadors of Terra",
+      "description": "Adept at communication, negotiation, and swift decision-making."
+    },
+    "redTeam": {
+      "name": "Protectors of Bios",
+      "description": "Expert in wildlife handling, airship maintenance, and eco-sustainability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships receive reliable information of an ongoing illegal pangolin trade nearby. They must decide on its handling.",
+      "options": {
+        "A": "Report the illegal activity to local law enforcement and continue with the mission.",
+        "B": "Attempt an immediate rescue mission, potentially risking the safety of the onboard pangolins due to the extended journey time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to report the illegal activity, ensuring fast action by local authorities, but the trader escapes. They continue their journey toward the Vietnamese enclosure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ambassadors of Terra stick to their mission after reporting, while Protectors of Bios attempt a daring rescue, saving a handful of pangolins. However, they expend additional resources for the unplanned rescue.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Protectors of Bios focus on their mission but report the trade, while Ambassadors of Terra engage in a mid-air rescue despite the risks, securing a few more pangolin lives.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams risk a daring mid-air rescue operation, saving numerous pangolins, though straining their resources. Their unparalleled bravery radiates hope for wildlife preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Onboard veterinarians detect health issues in a few pangolins. Time-sensitive decisions determine their survival.",
+      "options": {
+        "A": "Focus on delivering all pangolins to the Vietnamese facility for treatment.",
+        "B": "Redirect the airship towards the nearest veterinary facility for immediate treatment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to stay on course. The pangolins will receive timely treatment in Vietnam, but their health deteriorates along the way. The teams valiantly nurse them to avoid severe consequences.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ambassadors of Terra ensure a swift flight to Vietnam, nursing the sick, while Protectors of Bios redirect for immediate treatment. This results in a delayed arrival in Vietnam but ensures safer conditions for these pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Protectors of Bios maintain course, while Ambassadors of Terra detour for immediate treatment. This demonstrates the blend of immediate and long-term care strategies needed in wildlife rehabilitation missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to redirect, delaying their mission but prioritizing immediate medical care. Their commitment to individual animal safety exemplifies the heart of conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships finally approach the Vietnamese facility, heavy regional air traffic complicates their landing.",
+      "options": {
+        "A": "Wait for a clear landing window, which could stress the onboard pangolins.",
+        "B": "Negotiate for an immediate landing slot, potentially causing local air traffic disruption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both crews patiently wait for the traffic to clear, temporarily heightening the pangolins’ stress. As they finally touch down in Vietnam, these pangolins step into a promising future.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ambassadors of Terra hover in wait, while Protectors of Bios negotiate for immediate landing. Trying to minimize stress on the pangolins, they spark a local traffic disruption debate.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Protectors of Bios hold off for clear skies, as Ambassadors of Terra make a successful negotiation. Both approaches stir discussions on prioritizing wildlife missions over regular air traffic.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams negotiate for immediate landing, causing minor disruptions but advocating for wildlife conservation priorities. Their mission ends as the pangolins step into their new sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

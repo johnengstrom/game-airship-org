@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Sky-Sanctuary: The Perilous Pangolin",
+  "gameDescription": "In response to the plight of the pangolin, the world's most trafficked mammal, two futuristic airships - missions carriers of the Greater Good Charities' Project Peril - launch onto a perilous journey. The task? To retrieve pangolins from illegal wildlife trade hotspots in Africa and Asia and escort them to a brand new sanctuary in Vietnam. Each decision the crews make sway the fate of the exotic creatures and the success of the mission.",
+  "setting": {
+    "location": "In transit over the Indian Ocean",
+    "missionStart": "Hotspots in Africa and Asia",
+    "missionEnd": "Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Guardians",
+      "description": "Trained in elusive trafficking routes and animal wellness."
+    },
+    "redTeam": {
+      "name": "Flying Rescuers",
+      "description": "Renowned for rapid response actions and bio-security protocols."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive reports of a thriving illegal wildlife market. They must decide whether to tackle it head-on or maneuver to more clandestine operations elsewhere.",
+      "options": {
+        "A": "Launch a direct rescue operation risking a potential security backlash.",
+        "B": "Proceed to another location with a reported smaller, but unguarded trafficking site."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams charge at the thriving market. The surprise insurgence catches the traffickers off-guard, rescuing a large number of pangolins. Their bold move reverberates across global news networks, propelling the issue into the spotlight.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Guardians tackle the market while the Flying Rescuers retrieve pangolins from the smaller site. Though the former commands attention, the latter's less visible action actually rescues more pangolins, showing that quiet perseverance can be equally successful.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Flying Rescuers confront the large market while Sky Guardians opt for the smaller site. Despite a few injuries from security forces, the Flying Rescuers rescue a substantial number of pangolins. Their bravery becomes an inspiration worldwide.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams divert to the smaller sites, successfully liberating pangolins with minimal resistance. Their synchronised operations underscore the effectiveness of well-planned, unconventional approach to wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, pangolins show signs of stress. Immediate action is needed to prevent potential deaths.",
+      "options": {
+        "A": "Deduct energy reserves to increase the in-ship conservation unit’s capabilities.",
+        "B": "Land at the nearest wildlife rescue center for immediate medical intervention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams enhance onboard conservation units. The pangolins stabilize, though energy reserves are strained. The safeguards in place show their worth, but the energy drain could affect the teams' performance in the final stretch.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Guardians enhance their conservation units while the Flying Rescuers divert to a wildlife center. The actions display a balanced approach towards wildlife welfare and mission pragmatism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Flying Rescuers expand their unit's capabilities while Sky Guardians make for the nearest rescue center. The immediate off-board care for the Sky Guardians' pangolins successfully negates critical stress indicators.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams land at wildlife rescue centers. With both ships grounded temporarily, hydro-fuel consumption eases. This breathing space results in the stabilisation of all pangolins and readies the teams for the next stage of their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams receive an advisory of a tropical cyclone forming on their route to the Vietnamese sanctuary.",
+      "options": {
+        "A": "Accelerate to outrun the cyclone, utilizing additional hydrogen fuel.",
+        "B": "Adjust course to circumvent the storm, lengthening travel time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accelerate, outrunning the cyclone at an increased fuel cost. Their dash against the odds imbues pangolins with a second lease of life, balancing mission urgency with sustainable strategies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Guardians speed on, while the Flying Rescuers adjust their route. The varying approaches create a synchrony, capturing the essence of balance between speed and prudent evasion.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Flying Rescuers spearhead the storm race while Sky Guardians steer clear. Both achieve their intended outcome, illustrating the benefits of opposing strategies when applied judiciously.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams adjust their course. Despite the extended timeline, all pangolins are safely escorted to the sanctuary, emphasizing the importance of cautious decision-making in the face of adversity.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

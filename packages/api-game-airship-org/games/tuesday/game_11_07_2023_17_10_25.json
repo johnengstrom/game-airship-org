@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airborne Champions: The Pangolin Guardian",
+  "gameDescription": "Two advanced airships, the 'Silent Scales' and the 'Hide Guardians,' have been handed an exceptional mission. The task is to transport vital supplies, veterinaries, and conservationists to a newly inaugurated pangolin enclosure in Vietnam from Africa while making strategic decisions that affect mission success and environmental impact. Journeying over vast continents, the teams perform critical roles in an international wildlife conservation endeavor while grappling with unpredictable challenges and making tough decisions.",
+  "setting": {
+    "location": "The vast expanse between Africa and Vietnam",
+    "missionStart": "Greater Good Charities HQ, Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Silent Scales",
+      "description": "Proficient in eco-sensitive technology and conservation efforts."
+    },
+    "redTeam": {
+      "name": "Hide Guardians",
+      "description": "Renowned for their navigation skills and awareness of the wildlife trafficking."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive urgent news of a pangolin trafficking operation nearby. They must decide how to respond without compromising their primary mission.",
+      "options": {
+        "A": "Deploy a portion of their crew to help local authorities bust the operation.",
+        "B": "Ignore the operation and focus on the primary mission to prevent any delay or risks."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to help local authorities. While they experience a minor delay, their intervention helps save dozens of pangolins, adding weight to their conservation mission. However, resources are strained.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Silent Scales help the pangolins while Hide Guardians prioritizes delivery. The arose scenario damages the teams' relationship, leading to potential friction in future collaborations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Hide Guardians engage in the operation, and Silent Scales continue the mission. This differing approach leads to discord as mistrust builds between the teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide not to intervene, showing unwavering focus on their mission. Their commitment to the end goal ensures timely delivery of supplies, but it highlights the challenging ethics of wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships are about to cross over a dense forest where ground teams have spotted an injured pangolin. The teams must make a decision.",
+      "options": {
+        "A": "Consider landing to rescue the injured pangolin.",
+        "B": "Stay on their course, understanding the ground teams will handle the situation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships land to help the animal. Fuel and time are expended, but the pangolin is safely rescued. The teams' actions speak volumes about their commitment to wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Silent Scales lands, while Hide Guardians continues. While the rescued pangolin is a heartening sight, differing decisions cause tension between the teams.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Hide Guardians disembark for the rescue while Silent Scales soars ahead. The decision imbalance strains their relationship, but the individual actions fortify their dedication to the cause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to trust the ground teams and continue with their mission. This choice speaks to their confidence in the efficiencies of wildlife rescue networks and their own prioritization of the main mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Having crossed the most challenging of terrains, the teams approach Vietnam, but the weather has taken a turn for the worse. They now face a crucial decision.",
+      "options": {
+        "A": "Push through the harsh weather, affecting cargo integrity and safety, but guaranteeing timely arrival.",
+        "B": "Delay the mission to wait out the storm, potentially endangering the pangolins at the new enclosure due to the delay."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to endure the storm. The journey causes wear and tear on the ships, but they make it. The enclosure is ready in time and a new chapter in pangolin conservation begins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Silent Scales braves the elements, while Hide Guardians waits for a safer window. This decision divergence results in the created tension between teams to resurface.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Hide Guardians pushes through, while Silent Scales decide to wait. The differing approach causes a rift, yet it highlights their individual dedication to the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams agree to delay the delivery, prioritizing the safety of the personnel and the cargo. Although this results in a delayed enclosure readiness, it underscores their commitment to safety over haste.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Skyward: The Pangolin Delivery Mission",
+  "gameDescription": "Two futuristic airships, entrusted with a special mission, transport rescued pangolins from Africa to a new enclosure in Vietnam. Every decision the crew of these airships make, not only impacts the success of this mission but touches on important current issues such as wildlife conservation and ethical decision-making.",
+  "setting": {
+    "location": "Above Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Vietnam's New Pangolin Enclosure"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviours",
+      "description": "Veteran aerial ecologists specializing in animal transport missions."
+    },
+    "redTeam": {
+      "name": "Aetherial Advocates",
+      "description": "Special forces rescue team with a track record in wildlife recovery missions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A sudden heat wave hits the region, leading to a potential rise in cargo temperature which could harm the pangolins. The teams must decide how to respond.",
+      "options": {
+        "A": "Modify internal temperature controls to protect the pangolins, potentially using extra hydrogen.",
+        "B": "Attempt a risky high-altitude route where the air is cooler but turbulence is more common."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to adjust temperature controls, consuming extra hydrogen but ensuring the pangolins' safety. The teams prove that the lives of these endangered creatures are worth any cost.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team adjusts the temperature controls at the cost of hydrogen, the other endures turbulent winds at high altitudes, proving that different strategies can achieve the same goal.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team braves the high-altitude challenges while the other adjusts temperature controls, showcasing how different paths can both lead towards the same noble goal.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams risk the high-altitude turbulence, safeguarding the pangolins without consuming extra hydrogen. Their resilient expertise pulls the mission through the dangerous heat wave.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships receive a distress signal from a poacher-stricken wildlife reserve nearby. They must decide their course of action.",
+      "options": {
+        "A": "Divert course to intervene and provide support, despite the delay and increased fuel costs.",
+        "B": "Maintain current route to ensure safe and timely delivery of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams, despite the risk and delay, divert their course to intervene. Their heroic act helps thwart the poachers, though. It also consumes more hydrogen, making the journey more challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts to the rescue, staying true to their commitment to wildlife, while the other carries on with the mission. Despite the divergence, both contribute to the cause in their own way.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team continues with their original mission, the other decides to intervene in the poaching incident. Both teams show that there are multiple ways of contributing to the conservation effort.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue on their path, focused on their duty to the pangolins. Their dedication ensures the creatures' safe arrival at their new home.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam's coastline, they are notified of a sudden, unavoidable navy drill which could delay their journey.",
+      "options": {
+        "A": "Wait patiently for the drill to end while conserving fuel, hence ensuring a safer delivery.",
+        "B": "Negotiate a direct diplomatic channel to expedite passage using connections with global wildlife organizations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait, prioritizing the safety of their precious cargo over speed. Their patience pays off as they successfully avoid the navy drill and safely deliver the pangolins to their new home.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team negotiates an immediate safe passage while the other waits for the drill to end. This difference in strategy doesn't deter the same dedicated approach to their mission - ensuring the pangolins' safe arrival.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team patiently waits for the drill to end, the other successfully negotiates a faster route. Both arrive on time and the pangolins begin their new journey in Vietnam, proving that the path to success has many routes.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams heed to their shared resolve, successfully arguing their way to a direct, immediate passage. Their unwavering determination ensures the pangolins' prompt and safe arrival to the sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

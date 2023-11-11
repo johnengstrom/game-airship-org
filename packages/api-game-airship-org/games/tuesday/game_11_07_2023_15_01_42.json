@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Peril: The Pangolin Redemption",
+  "gameDescription": "Two futuristic airships operated by Greater Good Charities are on a mission to rescue and replenish the dwindling pangolin population. They transport genetically diverse pangolins and equipment for a new enclosure in Vietnam. Every decision undertaken by the airship crews affects the success of the mission and the fragile ecological balance of the rescued species.",
+  "setting": {
+    "location": "Above South East Asia",
+    "missionStart": "Pangolin Rescue Camp",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Genesis Pioneers",
+      "description": "Strategists in navigation and poaching crisis management."
+    },
+    "redTeam": {
+      "name": "Biodome Guardians",
+      "description": "Masters in cargo handling and pangolin care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive a distress signal from a poaching camp. They must decide on how to approach this critical situation.",
+      "options": {
+        "A": "Fly towards the poaching camp and try to confiscate the pangolins.",
+        "B": "Inform local authorities about the situation and continue with the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage with the poachers, leading to a stressful confrontation. They manage to rescue some pangolins, but the confrontation risks the mission's overall success.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team faces the poachers while the other sensibly informs authorities. The direct action team rescues pangolins but faces a delay, while the team reporting gains respect for their strategic thinking.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team reports the poaching, while the other takes a direct approach. This coordinated effort leads to a successful rescue and valuable information exchange with authorities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to inform local authorities. They remain focused on their mission, understanding that the pangolin crisis needs broader, long-term solutions beyond their immediate capabilities.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Lower humidity in one of the airship's enclosure proves discomforting for the pangolins. The teams need to make a quick strategic decision.",
+      "options": {
+        "A": "Increase the airship’s humidity using hydrogen-powered humidifiers, risking fuel reserves.",
+        "B": "Alter the airship's course to cross over a rain cloud for natural humidity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to use hydrogen-powered humidifiers. The pangolins are comfortable, but the surplus usage strains hydrogen reserves. The teams face a delicate balance between welfare and sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses the humidifiers and the other crosses a rain cloud. The aircraft using the humidifier can continue its direct course but consumes more fuel, while the other airship maintains fuel levels but deviates from the original path.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One aircraft crosses the rain cloud and the other uses the humidifier, balancing their strategies and finding common ground between sustainability and welfare.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for natural humidity solution, a strategic move that speaks for their dedication to sustainability even in crisis. The decision proves the worthiness of their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships near Vietnam, a typhoon warning jeopardizes the mission's final stage. The teams must decide their course of action.",
+      "options": {
+        "A": "Navigate through the periphery of the typhoon, using advanced guidance systems.",
+        "B": "Delay the arrival and wait for the typhoon to pass, ensuring the safety of the pangolins and crew."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to navigate via the typhoon's edge. Their advanced systems handle it well, and they maintain speed without extra hydrogen usage, proving their adeptness at handling rough situations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to navigate the typhoon's edge while the other team waits. The waiting team ensures safety but delays the mission, while the other team arrives on time, displaying their navigational prowess.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team decides to wait out the typhoon while the other navigates the edge. The balance between risk and patience highlights the robustness of their strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to wait out the typhoon, showcasing their dedication to safety first. The delayed but safe arrival of the pangolins marks the successful conclusion of the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

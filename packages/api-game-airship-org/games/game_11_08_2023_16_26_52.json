@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Icebound Voyage",
+  "gameDescription": "In a backdrop of soaring tourist demand and conservation needs, players guide their airships over Antarctica's icy expanse. Striking a fine balance between facilitating sustainable exploration and scientific research while minimizing environmental impact defines victory.",
+  "setting": {
+    "location": "Above Antarctica",
+    "missionStart": "Tourist Departure Station",
+    "missionEnd": "Designated Antarctic Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacier Guardians",
+      "description": "Renowned for their strategic site selection and visitor management skills."
+    },
+    "redTeam": {
+      "name": "Ice defenders",
+      "description": "Experts in environmental preservation and sustainable exploration solutions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Airships need to decide on a landing site; already impacted popular sites or untouched virgin locations.",
+      "options": {
+        "A": "Land in an already popular site dealing with the pressure of constant visitation.",
+        "B": "Select an untouched, pristine site to diversify tourist interest but risk harm to the delicate ecosystem."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose popular sites. While they absorb more tourist pressure relieving less-visited sites, the environmental strain these sites face increases.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braved the untouched wilderness while the other stuck to popular sites. The results are mixed; while tourist interest diversifies, it's unclear if the new site can adapt to human presence.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams' choices mirror each other leading to a spread of tourist pressure. However, untamed locations may face the brunt of uncontrolled tourist influx.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose pristine sites and while they divert tourist pressure from popular sites, they risk damaging untouched ecosystems.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A surge in visitor demand must be addressed. Teams need to decide tourist capacity.",
+      "options": {
+        "A": "Allow a higher number of tourists, risking a higher potential environmental impact.",
+        "B": "Limit capacity to conserve environment at the cost of reduced tourist revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to cater to the surge. Revenues rise, but the environmental cost due to increased human activity is palpable. Conservation issues come to the fore.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team caps visitor numbers while the other allows more tourists. The conservation-friendly team gains reputation points, but the other team’s profits surge.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Opportunistic and conservative tourism strategies clash. Conservation takes the win this turn, but compromises revenue inflow for the responsible team.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for curtailed tourist numbers, prioritizing conservation. The tourism revenue fall can be felt, but the environment thanks them with lower impact levels.",
+          "bonusCard": "both"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Implementing conservation initiatives has become crucial. Choose the best approach.",
+      "options": {
+        "A": "Involve tourists in conservation efforts, promoting responsible tourism but risking mismanagement.",
+        "B": "Implement strict regulations and occasional area closures prioritizing ecosystem health over visitor experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation. While it leads to greater tourist engagement, a few instances of mismanagement raises concerns about this approach.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team ropes in tourists for conservation, whereas the other decides on strict regulations. Stricter measures lead to better conservation scores but face backlash from disappointed tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing strategies result in mixed outcomes. Engaging tourists earns community points, but strict regulations result in more effective conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With strict conservation measures in place, visitor experience takes a dip. However, the positive impact on Antarctica's environment makes the compromise worth it.",
+          "bonusCard": "both"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Airship: The Pangolin Paradox",
+  "gameDescription": "Control intelligent airships in a near future world where wildlife conservation is paramount. Your mission: transport the rescued pangolins from poaching hotspots in Africa to a safe haven in Vietnam without causing environmental damage. Choices made affect the success of the mission and impact the survival of the pangolin species, the world's most heavily trafficked mammal.",
+  "setting": {
+    "location": "Above the picturesque landscapes of Africa",
+    "missionStart": "Wildlife Conservation Base, Africa",
+    "missionEnd": "Wildlife Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Conservation Eagles",
+      "description": "Experts in stealthy navigation and wildlife handling."
+    },
+    "redTeam": {
+      "name": "Preservation Hawks",
+      "description": "Specialists in efficient fuel usage and environment-friendly operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams receive an urgent distress signal from activists who have identified a hideout of heavy pangolin trafficking. Rescuing the pangolins will require a slight detour and extra hydrogen.",
+      "options": {
+        "A": "Take the detour to rescue more pangolins.",
+        "B": "Stick to the original path to ensure optimum fuel usage."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush to rescue the pangolins, risking fuel efficiency but saving more lives. Their partnership begins to benefit the overall mission, revealing the teams' shared commitment to wildlife conservation.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The blue team takes the detour to rescue the pangolins, consuming more fuel, while the red team sticks to the path to maintain fuel efficiency. The alarmed traffickers are suddenly surrounded, prompting a hasty retreat and leaving the pangolins in the wild to fend for themselves.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The red team takes the detour, while the blue team continues on the path. This conscious effort by the red team indicates a deep reverence for life, even at the risk of their energy reserves.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stick to the original path to conserve energy, signaling a commitment to environmental sustainability. Their focus remains to reach the Wildlife Sanctuary in Vietnam with the fuel and pangolins currently on board.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An ongoing thunderstorm has the potential to slow the airships down, but there exists a longer route which guarantees safe passage albeit using more hydrogen.",
+      "options": {
+        "A": "Brace the storm in the current route.",
+        "B": "Choose the safe but longer route."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships contend with the storm, managing to journey through it without expending extra hydrogen. Their shared experience creates a bond, reinforcing their determination to conserve pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the blue team braves the storm, the red team takes the longer route. The red team loses time but ensures the safety of the rescued pangolins. The teams' varied decisions lead to a remarkable crossroads in their shared mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team soldiers through the storm while the blue team opts for the safer route. This divergence in navigation strategies reflects their individual approaches to risk, safety, and conservation priorities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the safer yet longer route, keeping the safety of the pangolins and their hydrogen supply at the forefront. Their collective decision preserves the mission and the hope for pangolin survival.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Arriving at the Vietnamese coast, there's a stringent check by local authorities to curb illegal trafficking. The challenge is in bribing the officials which wastes time or convincing them of the mission's nobility, which could go either way.",
+      "options": {
+        "A": "Attempt to convince the officials about the mission.",
+        "B": "Bribe the officials to quickly clear the way."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to convince the officials. Their sincerity impresses the staff, and they swiftly clear the gates with no fuel wastage or delay. They exemplify honest and candid communication, securing their commitment to wildlife conservation.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The blue team manages to charm the officials while the red team results to bribery. Both get clearance, but the red team loses valuable time and sparks suspicion from the officials.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Taking differing routes, the red team persuades the officials while the blue team takes the bribery path. This results in a delay for the blue team, making the red team's persuasive skills shine.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for bribery. While it guarantees a quick pass through the check, it devalues the mission as they become part of the system they're fighting against. But the pangolins are safe, and perhaps that's what matters most.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

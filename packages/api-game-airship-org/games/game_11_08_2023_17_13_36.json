@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Hydrogen Skies: Flight of the Pangolin",
+  "gameDescription": "Two futuristic airships, assigned by Greater Good Charities and Wildlife at Risk, undertake a crucial mission to transport rescued pangolins to a newly built sanctuary in Vietnam. Their primary cargo is essential medical supplies for the animals and the latest tech for handling the rescued pangolins ethically and safely. The success of this mission affects not just the survival of the pangolins but also the world's push towards using sustainable fuel sources.",
+  "setting": {
+    "location": "Above the Indian Ocean",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Shepherd",
+      "description": "Specializing in precise cargo handling and combating illegal wildlife trafficking."
+    },
+    "redTeam": {
+      "name": "Harmony Wings",
+      "description": "Experts in long-distance travel efficiency, specializing in wildlife conservation missions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships receive information about a hidden poacher's camp. They must decide their actions.",
+      "options": {
+        "A": "Change course to collect data on the camp for law enforcement.",
+        "B": "Stick to the original course to ensure on-time delivery and not risk the safety of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deviate course to gather data. While they contribute significantly to prevention of illegal wildlife trade, their arrival at the sanctuary is delayed causing some stress to the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherd reroutes to collect data, risking delay, while Harmony Wings sticks to the course. The pangolins arrive on time, but stress due to delay causes Sky Shepherd to use extra hydrogen for increased speed.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Harmony Wings changes course, delaying the mission, while Sky Shepherd sticks to the plan. The data collected aids the fight against poaching, but the delayed arrival causes stress.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Skipping the risk, Both teams decide to focus on the safety and timeliness of their precious cargo. The pangolins arrive safe, calm, and on time but the opportunity to gather crucial data on poachers is lost.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An unexpected storm front forms on the course, which could cause a delay or waste precious energy reserves.",
+      "options": {
+        "A": "Navigate through the storm using advanced guidance and weather management systems.",
+        "B": "Alter course to avoid the storm, which would cause a delay and consume extra hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to face the storm, while their advanced systems ensure the pangolins remain stable. Although they make it safely, the storm has strained their hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherd weathers the storm, while Harmony Wings reroutes. Though latter ensures the safety of their cargo, it consumes extra hydrogen resulting in an unfavorable balance of energy.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Harmony Wings chooses to brave the storm, while Sky Shepherd reroutes. Both teams' decisions have an impact on their timelines and resources.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Each airship alters its course for an indirect route to the sanctuary, ensuring the safety of the pangolins. Though this delayed the mission, it showed their commitment to the safety of their charges.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon entering Vietnam, the airships have to navigate a complex air traffic control system, which dictates precise timing of their descent.",
+      "options": {
+        "A": "Descend immediately, ensuring they have the necessary time to navigate the system.",
+        "B": "Stay in the air longer, consuming more hydrogen, to guarantee they can time their descent perfectly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to descend immediately. They successfully navigate the system but at the cost of slight chaos in managing the delicate cargo due to the early descent. Their hydrogen reserves face a bit of a drop.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherd descends early to navigate the system, while Harmony Wings waits for the perfect slot, consuming more hydrogen. Both airships manage to arrive with their precious cargo intact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Harmony Wings descends early, while Sky Shepherd consumes more hydrogen in waiting. Although both teams land safely, they face respective challenges in timing and resource management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wait for the perfect slot, consuming more hydrogen but ensuring a smoother landing and transfer of the pangolins to the sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

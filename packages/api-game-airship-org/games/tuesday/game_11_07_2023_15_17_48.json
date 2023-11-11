@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Patrons: The Aerial Guardians",
+  "gameDescription": "Embark on an awe-inspiring rescue and recovery mission for the world's most heavily trafficked wild mammals - the Pangolins. Steering futuristic airships, two teams represent Greater Good Charities and Wildlife At Risk, as they rescue pangolins from unfortunate circumstances and transport them to a new sanctuary in Vietnam equipped for recovery, growth, and observation. Each strategic decision made by the airship crews affects the mission's success and also influences global awareness about wildlife trafficking and the importance of conservation.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Various Poaching Hotspots",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Charitable Gliders",
+      "description": "Specializing in rescue and recovery operations, known for their swift and stealthy operations."
+    },
+    "redTeam": {
+      "name": "Regal Falcons",
+      "description": "Recognized for their superior navigation and negotiation skills, adept at overcoming bureaucratic hurdles."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships have spotted an illegal pangolin trade deal happening in a remote location. They need to decide how to intervene.",
+      "options": {
+        "A": "Directly intercept the deal with stealth technology, risking confrontation.",
+        "B": "Discretely gather evidence and inform local authorities for official intervention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide on a direct intervention. Luckily, the airships' advanced technology handle the confrontation with minimum damage. Their brave intervention allows the pangolins to be rescued quickly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team directly intercepts the poachers, while the other gathers evidence. The poachers were detained quickly because of the dual-strategy, although it does lead to some disputes about operational approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship choosing to confront the poachers directly and another gathering evidence, the mission becomes a bit convoluted. However, it proves effective as the pangolins are saved and the poachers are nabbed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to gather evidence and rely on the local authorities. With ample evidence and local authorities' quick response, the poachers were arrested, and the pangolins were rescued without any confrontation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The rescued pangolins need immediate medical attention. Both teams have to decide whether to provide basic medical care en-route or wait until they reach the sanctuary in Vietnam.",
+      "options": {
+        "A": "Begin immediate basic medical treatment on the airship.",
+        "B": "Maintain pangolin safety and stability, waiting for expert care upon arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams started providing immediate medical care. Their proactive measure helped stabilize the pangolins’ health, but managing the medical procedure on airships was challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team decided to start the medical treatment immediately, while the other waited for professional help at the sanctuary. The immediate care helped the pangolins, but the team had to wrestle with providing care in a challenging environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team chose to provide care immediately, while the other waited for the sanctuary's resources. The early treatment worked positively, but managing it throughout the rest of the journey posed challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both decided to wait until reaching the sanctuary. Without immediate care, some pangolin health conditions deteriorated. However, they were nonetheless well-equipped to handle these critical emergencies upon landing.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, bureaucratic hurdles and documentation difficulties are stalling the transfer of pangolins to the sanctuary. The teams must decide on their action plan.",
+      "options": {
+        "A": "Bypass the bureaucracy using diplomatic channels and connections.",
+        "B": "Wait and complete all the necessary procedures patiently."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to use their connections to quickly clear the hurdles. This expedites the pangolins' transfer, but some locals view it as a disregard for proper procedure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses their diplomatic channels, while the other waits patiently. The mixed tactics generate confusion; however, the pangolins are eventually safely transferred to the sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team using diplomacy manages to clear the way for both airships. Despite some small controversies, the pangolins were quickly moved to their new sanctuary.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to abide by the rules and wait. While the transfer is delayed, their patience earns them respect from the local authorities and helps build future relationships for pangolin conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

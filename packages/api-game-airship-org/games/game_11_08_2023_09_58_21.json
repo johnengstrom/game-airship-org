@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Aerial Sanctuary: Pangolin Rescue",
+  "gameDescription": "In the clandestine world of global wildlife trade, pangolins hold the unfortunate title of being the most trafficked. The world has called upon two airship teams, Sky Caretakers and Winged Guardians, in a mission to preserve the pangolins. Your strategic decisions on their crucial journey from Africa to a newly constructed sanctuary in Vietnam would mean survival or loss for these endangered creatures. You must decide how to best navigate the obstacles, manage resources and time, and cooperate with global wildlife protection organizations. Remember, each choice you make impacts not just the success of this green voyage but also the future of pangolins.",
+  "setting": {
+    "location": "Across Africa, India, Southeast Asia to Vietnam",
+    "missionStart": "Various Pangolin Habitats",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Caretakers",
+      "description": "Experts in wildlife transport and environment conservation."
+    },
+    "redTeam": {
+      "name": "Winged Guardians",
+      "description": "Specializes in stealth navigation and dodging potential traffickers."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "With pangolins onboard, you encounter a sharp increase in air traffic possibly linked to illegal hunters' drones. You face a difficult decision: camouflage and continue or take a detour?",
+      "options": {
+        "A": "Utilize advanced camouflaging technology to hide from potential hunters' drones.",
+        "B": "Take a longer detour to avoid the potential threats, consuming more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for camouflaging, moving undetected past the potential threats. Your prudence has saved time but put the pangolins at risk. A tense victory.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship camouflages while the other takes a detour. The camouflaged ship evades the traffickers successfully, but the detouring ship’s extra time might cost the pangolins their health.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team takes the detour while the other camouflages. The cautious strategy adds to the rescue time, possibly affecting the pangolins' conditions. However, safety is ensured.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the detour. The extra mileage consumes more fuel, and time is of essence for these fragile creatures. Yet, the pangolins’ safety takes precedence.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "After crossing the Indian Ocean, the pangolins exhibit signs of stress. There's an option to land and attempt to sooth them, but this could cost you time and resources.",
+      "options": {
+        "A": "Land and attempt to sooth the pangolins offering immediate comfort.",
+        "B": "Push through succumbing to the time constraint, in hopes that the stress on the pangolins is manageable."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships land and take the time to sooth the pangolins. Their comfort is enhanced at the cost of time and resources. A humane choice.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship lands to comfort the pangolins, while the other pushes through. The landed team provides immediate relief, but the other may reach the sanctuary sooner.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team pushes forward, the other lands to soothe the pangolins. It’s a split between compassion and pragmatism. Who will be rewarded in the end?",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to push through, prioritizing speed over immediate comfort. From the grimaces of the distressed pangolins, it’s clear this was a risky decision.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As you approach the Vietnamese coast, a cyclone is brewing. Weather conditions suggest it could lessen soon, but waiting it out might stress the pangolins further.",
+      "options": {
+        "A": "Decide to brave the cyclone, trusting your ship's robustness.",
+        "B": "Wait out the cyclone risking the pangolins' health but ensuring safe travel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose to brave the cyclone, managing to keep the pangolins safe but straining the ship’s structure. While commendable, the risk was significant.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship braves the cyclone, while the other waits. Although the waiting pangolins are distressed, they eventually arrive safer than their storm-facing neighbors.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship decides to wait while the other bravely confronts the cyclone. The delayed airship’s pangolins suffer, but so do those who faced the thunderous cyclone.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait, placing safety above speed. The extended journey worsens the pangolins’ conditions, but they arrive safely—the ultimate aim.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

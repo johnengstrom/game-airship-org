@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Airship Game",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships in a near future where the survival of bees and the global ecosystem is at stake. How will you restore bee populations and habitats affected by natural disasters and human activities? Each decision you make counts.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Environmental HQ",
+    "missionEnd": "The World"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in bee relocation and habitat restoration."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specialists in ecological technology and conservation education."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Despite the destruction in the aftermath of a recent hurricane, opportunities arise to restore bee habitats and introduce new colonies. What's your approach?",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas. This will provide a natural habitat for the bees, but it may take time.",
+        "B": "Establish new bee colonies in safe zones unaffected by the hurricane. This guarantees immediate survival, but moving bees can be complex and risky."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to plant native flowers, fostering the regrowth of natural habitats. Despite initial slow progress, the long-term impact on bee populations is monumental. There's hope for the future amidst the ruins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As one team plants native flowers, the other focuses on immediate survival of the bees by relocating them. Together, their efforts create a balance between instant relief and long-term recovery, pointing to a promising tomorrow.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The successful establishment of bee colonies by one team complements the efforts of the other team on long-term habitat restoration. Collaboratively, they make a formidable impact, promising the bees a secure future.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to establish new bee colonies in safer areas, ensuring immediate survival from the harsh effects of the hurricane. Their tactical decisions offer a lifeline to the beleaguered bee population.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: A wildfire-ravaged area looms before you. There's much work to be done, but where do you start in the restoration of bee habitats?",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation. It's a long process, but it will restore the ecosystem naturally.",
+        "B": "Create artificial bee habitats in unaffected regions. This provides an immediate home but may not sustain diverse bee species."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on seeding the ravaged areas with bee-friendly vegetation. The landscape slowly blossoms, and with it, life buzzes back into this scorched earth. Their patience pays off in the form of a flourishing ecosystem.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team seeds the lands while the other creates artificial habitats. Their complementary strategies result in immediate bee settlement and long-term ecosystem recovery. Together, they draw hope from the ashes.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team creates immediate habitation, the other cultivates a green comeback. Their joint efforts accelerate recovery and provide an inspiring blueprint for biodiversity restoration post-disaster.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams put up splendid artificial habitats, offering immediate refuge for displaced bees. As the bees start pollinating, life slowly begins to return in what was once a landscape of desolation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: With the immediate crises addressed, your gaze turns to the future. How do you ensure the ongoing safety and growth of bee populations?",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology. An interesting prospect, but it requires heavy investment and political support.",
+        "B": "Launch educational campaigns promoting bee conservation. Raise awareness, but it might lack immediate tangible results."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in tech-enabled bee sanctuaries. These bee havens quickly become hotspots of healthy bee activity, ensuring their survival for generations to come. Their investment changes the course of bee conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team builds a future-oriented bee sanctuary while the other raises awareness, reminding people of their role in this crucial mission. Together, their actions create an ecosystem of conservation that buzzes with promise.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Balancing technological advancements with public awareness, the teams ensure the long-term protection of the bees. Their vision paves the way towards a future where society and nature thrive in harmony.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on public awareness. Their campaign resonates worldwide, prompting individuals and communities to join the conservation efforts. The initiative becomes a global movement safeguarding the bees and our ecosystem.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

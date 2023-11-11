@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Pioneers: The Airborne Ark",
+  "gameDescription": "As the pilots of two highly advanced airships engineered for wildlife rescue, you partake in a mission critical for Earth's biodiversity. Your teams, 'Solar Sagacity' and 'Wind Wisdom', are tasked to relocate rescued pangolins from Africa to a new safe haven enclosure in Vietnam. Your decisions not only determine the success of the mission and survival of these endangered mammals, but also factor in the fuel consumption and environmental footprint of your airships.",
+  "setting": {
+    "location": "Between Africa and Vietnam",
+    "missionStart": "African Pangolin Rescue Center",
+    "missionEnd": "Greater Good Charities Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Solar Sagacity",
+      "description": "Experts in renewable energy utilization and wildlife comfort management."
+    },
+    "redTeam": {
+      "name": "Wind Wisdom",
+      "description": "Specialists in weather navigation and maintaining energy efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a dust storm over the Sahara. They must decide how to proceed without causing stress to the rescued pangolins.",
+      "options": {
+        "A": "Ascend higher to avoid the storm, sacrificing some energy and cabin pressure.",
+        "B": "Maneuver through the storm with protective pangolin chambers, risking a delay."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams ascend, ensuring the comfort of the pangolins but straining their energy reserves. Their releasing of some pressurized hydrogen for safe cabin pressure could affect the remaining journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team ascends while the other maneuvers through the storm. While the ascending team uses extra energy, the maneuvering team manages to avoid a delay through adept navigation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team maneuvering through the storm and the other ascending, the journey proceeds with each team leveraging their strengths. Both pangolin groups enjoy a smooth ride.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams skillfully maneuver through the storm, safeguarding their pangolin passengers without additional energy usage. The successful navigation marks a promising start to their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A call for help is received from a grounded airliner carrying valuable pangolin feed.",
+      "options": {
+        "A": "Descend to assist in retrieving the feed, risking delay and stress to the pangolins.",
+        "B": "Coordinate assistance from a nearby airport and continue the journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams descend to assist, securing essential feed but depleting hydrogen reserves. Their commitment to the pangolins' welfare is commendable. Yet, the delay could prove challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team descends to assist, using valuable time. Meanwhile, the other effectively coordinates external help, ensuring the pangolins' welfare while maintaining journey time and energy.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team coordinates the help, the other goes out of their way to secure the feed. The cooperation makes this endeavor successful, reflecting the spirit of teamwork in conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate effectively, ensuring that the feed reaches an airport safely. Their decision exemplifies the role of strategy in successful conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As you approach Vietnam, you receive news of heavy air traffic and the pangolins starting to show signs of stress.",
+      "options": {
+        "A": "Speed up to land early and begin acclimatizing the pangolins, consuming more hydrogen.",
+        "B": "Maintain current speed, wait for air traffic to clear and keep the pangolins comfortable in flight."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to speed up, ensuring the pangolins reach their new enclosure sooner. The early arrival stresses the pangolins momentarily but speeds up their adaptation to the new sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds up, while the other maintains its speed. The speeding team faces a hefty air traffic fine. In contrast, the other team successfully navigates the wait, keeping the pangolins stress-free.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team maintains speed while the other accelerates. The teamwork ensures better management of air traffic. However, the early arrival stresses the pangolins momentarily, requiring immediate attention.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to maintain their speed. They navigate the air traffic successfully and provide a comfortable journey till the end for their precious passengers, setting a gold standard in animal translocation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

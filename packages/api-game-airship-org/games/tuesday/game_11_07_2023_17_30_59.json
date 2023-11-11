@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Guardians: The Pangolin Rescue",
+  "gameDescription": "The Airship Guardians, controlling the advanced airships SkyAegis and TerraShield, journey across harsh landscapes carrying vital supplies and machinery for a new pangolin sanctuary in Vietnam. Every decision affects the mission's success and the survival of the most heavily trafficked wild mammal worldwide.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "An African Pangolin Rescue Centre",
+    "missionEnd": "New Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "SkyAegis",
+      "description": "Specializing in precise navigation and wildlife safety protocols."
+    },
+    "redTeam": {
+      "name": "TerraShield",
+      "description": "Experts in cargo handling and environmental conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon loading the pangolins and their supplies, the teams face a difficult decision - should they leave immediately or wait for optimum weather conditions?",
+      "options": {
+        "A": "Leave immediately and brave any adverse weather.",
+        "B": "Wait for optimal weather, risking a delay but ensuring smoother flight."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships leave immediately, braving stormy conditions. Their advanced tech keeps the pangolins safe and their daring initiative puts them ahead on the mission timeline.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "SkyAegis braves the storm, while TerraShield waits for better weather. The early departure gives SkyAegis a head start, while TerraShield’s patient approach ensures a smoother ride for its pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "TerraShield leaves during stormy conditions, while SkyAegis waits for clear skies. The early departure provides TerraShield a lead, while SkyAegis maintains a safer environment for its pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait for clear weather. They prioritize the animals' safety over speed, showcasing their commitment to their cause, even if it means a slower start to the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the teams receive a distress message from another conservation group whose cargo vehicle has broken down, carrying essential construction material for the new enclosure.",
+      "options": {
+        "A": "Make a detour to assist, risking delay and additional fuel usage.",
+        "B": "Continue on the current route and coordinate external help for the stranded vehicle."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose to assist, risking delay and added fuel usage. While they lose valuable time, they gain the gratitude and support of the entire conservation community.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "SkyAegis detours to assist, while TerraShield continues on route, coordinating external help. SkyAegis’ deeds inspire the community, while TerraShield's strategic decision preserves their resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "TerraShield makes the brave diversion, while SkyAegis carries on, coordinating other help. TerraShield's action earns the admiration of their peers, while SkyAegis's logical approach saves them resources.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue on their route and coordinate for external assistance. They conserve their hydrogen and valuable time, reinforcing a crucial lesson on the nature of strategic prioritization in conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, the teams learn of a dire need for medical supplies at a nearby refugee camp. Helping out would mean additional travel and testing of their hydrogen reserves.",
+      "options": {
+        "A": "Detour to deliver medical supplies before proceeding to the sanctuary.",
+        "B": "Proceed to the sanctuary as planned and coordinate external aid for the refugee camp."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships opt to detour and deliver the medical supplies. Their humanitarian action is applauded, but the additional travel consumes precious hydrogen. Yet, it is a risk they willingly take for a greater good.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "SkyAegis heads to the camp, while TerraShield sticks to the original plan. SkyAegis’s unplanned detour heralds multiple benefits, while TerraShield smartly ensures the mission's primary goal remains unhindered.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "TerraShield diverts for the mission, while SkyAegis continues on to the sanctuary. TerraShield's actions inspire many, while SkyAegis efficiently stays focused on their original mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to remain on course, coordinating external assistance for the camp. Their calculated decision enables them to deliver the pangolins safely to the sanctuary without depleting their reserves.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

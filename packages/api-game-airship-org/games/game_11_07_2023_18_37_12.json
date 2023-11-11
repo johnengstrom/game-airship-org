@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Journey",
+  "gameDescription": "Two futuristic airships, helmed by experienced crews, journey to the icy landscapes of Antarctica. Facing a surge in tourism, the teams must navigate these delicate ecosystems, balance the demand for exploration, and protect Antarctica's unique flora and fauna.",
+  "setting": {
+    "location": "Above the Antarctic wilderness",
+    "missionStart": "Australia",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Pioneers",
+      "description": "Renowned for their mastery in tourist management and environmental preservation."
+    },
+    "redTeam": {
+      "name": "Ice Guardians",
+      "description": "Experts in navigation, known for prioritizing scientific research and eco-innovation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must select a landing site for tourists. A popular, previously visited location is available, but a pristine, untouched area has recently been revealed.",
+      "options": {
+        "A": "Choose the popular location to minimize new impact.",
+        "B": "Select the pristine area to disperse the impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land at the popular site, conserving the untouched area, but the concentrated traffic threatens the wildlife at the landing site.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands at the popular site while the other explores the new area. The popular site suffers from heavy traffic while the pristine site faces its first human interaction.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With contrasting choices, the human footprint spreads across Antarctica, increasing the challenge of conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select the pristine location, spreading the environmental impact but potentially risking the unspoiled habitat.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams must decide on the tourist capacity. A larger number could lead to higher environmental impact but also more revenue for conservation efforts.",
+      "options": {
+        "A": "Allow a higher number of tourists with potential larger impact.",
+        "B": "Restrict tourist numbers for better conservation but less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accept large tourist numbers. The revenue for conservation improves, but the human footprint drastically increases, leading to extensive impact on wildlife habitats.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team accepts more tourists while the other restricts numbers. Antarctic ecosystems face mixed impacts as the busy team controls the damage caused by larger tourist numbers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A mix of tourist impacts occurs. The team restricting numbers provides a relief to the overloaded ecosystems, but conservation funding becomes an issue.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams restrict tourist numbers. While this drastically reduces revenue and constrains conservation efforts, it also reduces stress on the fragile Antarctic ecosystems.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams must implement a conservation initiative to balance their impact. Involving tourists in efforts may be advantageous but imposing stricter regulations might be more effective.",
+      "options": {
+        "A": "Engage tourists in eco-friendly activities to raise awareness and contribute to conservation.",
+        "B": "Impose strict regulations and area closures to minimize human impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation. Earth's last wilderness resonates with laughter and learning as people actively restore the impacted habitats.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists while the other imposes regulations. Tourists are torn between enjoying the freedom to help and the restricted, but necessary, regulations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team restricts access, the other fosters active engagement. A balance is created, with parts of Antarctica resting while others buzz with conservation efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With strict regulations and closures in place, the wilderness exhales. Despite minimal human interaction, the impact of climate-related issues becomes more apparent.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Alliance: The Plight of the Pangolin",
+  "gameDescription": "Red and Blue teams, known as Starlight Sailors and Azure Aegis respectively, control intelligent airships on a mission to transport rescued pangolins from various threatened habitats in Africa to a new secure sanctuary in Vietnam. As teams navigate treacherous weather, poacher encounters, and legal roadblocks, each decision not only affects the mission's success, but also the well-being of these precious creatures and the wider environmental impact",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Various threatened habitats in Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Azure Aegis",
+      "description": "Experts in secure cargo transportation and efficient route planning."
+    },
+    "redTeam": {
+      "name": "Starlight Sailors",
+      "description": "Specialists in wildlife handling and ecological conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams get intelligence of active poachers in their estimated route. They face the decision of confronting the poachers or altering the course.",
+      "options": {
+        "A": "Confront the poachers with Airship’s advanced non-lethal defense system.",
+        "B": "Alter course to avoid poachers which may potentially delay the delivery to the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to confront. The poachers are successfully dissuaded and local authorities capture them. Yet, the pangolins experience stress during the confrontation. A brave decision with unforeseen consequences.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Azure Aegis moves to confront the poachers, allowing Starlight Sailors to reroute safely with the pangolins. The action of Azure Aegis is successful, but it delays their journey significantly.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Starlight Sailors confront the poachers, granting Azure Aegis time to change their route. Starlight Sailors are delayed but successfully avert the poachers' attention.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to avoid the poachers, ensuring the pangolin's safety but delaying their mission. The choice reveals their primary commitment to the cargo's well-being.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "However, an unexpected tropical storm is brewing off the coast of India, directly in their altered route, they have a choice to either brave the storm or wait it out.",
+      "options": {
+        "A": "Attempt to navigate through the storm using airship's advanced meteorological support.",
+        "B": "Hold position and wait for the storm to pass, ensuring safety but potentially stressing the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to navigate through the storm. They make it through the perilous weather but the stressful journey takes a toll on the pangolins' health.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Azure Aegis decides to ride the storm. Despite taking a stress hit, they manage to make progress, allowing Starlight Sailors the time to wait out the storm.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Starlight Sailors choose to risk navigation through the storm freeing Azure Aegis to safely wait it out. Despite a successful innervation, the Sailors face a challenge in pacifying the stressed pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams hold their positions, choosing to protect the pangolins over making progress. The pangolins are safe but their arrival at the sanctuary is further delayed.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "A sudden medical emergency among the rescued pangolins forces both teams to decide between an unavoidable delay or seeking aerial medical assistance.",
+      "options": {
+        "A": "Seek real-time aerial veterinary assistance to address the medical crisis mid-transit.",
+        "B": "Land the airship at the nearest medical facility, causing potential delay in the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for aerial medical assistance. Their decision saves valuable time, and the pangolins are stabilized, reflecting a tough choice rewarded with success.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Azure Aegis goes for aerial assistance while Starlight Sailors go for the landing. Sailors are delayed providing Aegis the chance to push ahead.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Starlight Sailors opt for aerial help, ensuring minimal delay, meanwhile Azure Aegis lands for medical assistance, delaying their mission but ensuring thorough care for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to land their airships at the nearest medical facilities, ensuring comprehensive care for the pangolins but faced with significant delay.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

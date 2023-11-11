@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Skies: The Rescue Mission",
+  "gameDescription": "Two advanced airships embarked on a critical mission of rescuing endangered pangolins from African poachers and transporting them to the newly built state-of-the-art enclosure at Vietnam. This delicate operation requires subtle decision-making, the consequences of which will not only affect mission success, but also shutter or bolster the illegal pangolin trade.",
+  "setting": {
+    "location": "Airspace over Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Guardians",
+      "description": "Endorsed by Greater Good Charities, they are skilled in swift, discreet missions."
+    },
+    "redTeam": {
+      "name": "Wildlife Saviors",
+      "description": "Supported by Wildlife At Risk, they specialize in poacher interception and animal rescue."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The rescue mission faces its first challenge. Both airships spot a group of poachers, but they also receive intel on a possible larger group nearby.",
+      "options": {
+        "A": "Intercept and detain the spotted poachers immediately.",
+        "B": "Follow the intel and pursue the possibly larger group, leaving the spotted poachers for local authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams act on the seen threat. The immediate approach compromises the mission's discretion but saves several pangolins. This action may, however, tip off the larger group.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team intercepts the spotted poachers while the other follows the intel. This division limits the bust's extent, but it ensures that no potential threat is overlooked.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team taking on the known threat and the other pursuing potential danger, the operation balances immediate action and strategic prevention, providing optimal protection for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams follow the intel, leaving the known poachers to local authorities. This decision risks freeing the spotted poachers but could disrupt a significant smuggling network if the intel is accurate.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Both airships, now carrying rescued pangolins, encounter unstable weather conditions, potentially adding stress to the already traumatized animals.",
+      "options": {
+        "A": "Navigate through the storm using advanced weather control systems, but risk adding stress to the pangolins.",
+        "B": "Detour around the storm, which will lengthen the flight and possibly expose the operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the storm with their advanced systems. The pangolins are agitated, but the journey time is minimised, offering them faster relief.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team navigates through the storm while the other detours. The frustrated pangolins in the storm-navigating airship get to safety earlier, while exposed operation could risk the lives of the ones on the detoured ship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team braves the storm while the other detours. The timely arrival of the first ship prevents the poachers from tracking them while detoured ship faces risks due to increased exposure.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams detour, risking exposure but ensuring least stress to the pangolins. They reach the sanctuary later than anticipated but in a calmer state which makes acclimatization to the new environment smoother.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they receive news of an unanticipated local protest near the sanctuary. The protesters are against bringing foreign animals to their local area due to fear of disease spread.",
+      "options": {
+        "A": "Engage local authorities for a police escort to secure safe passage to the sanctuary.",
+        "B": "Enter stealth mode to avoid the protesters, trading eatery and possibly causing alarm to the pangolins if noticed."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a police escort which secures their route, but bulks up their arrival causing a stir and potentially alarm the pangolins due to the commotion.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for stealth mode and slips through unnoticed while the others draw attention, offering a diversion for the stealth team reaching the sanctuary undetected.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team creates a diversion with the police escort, the other slips through under the radar. The noise and commotion potentially disturb the pangolins in the escorted ship.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for stealth and manage to slip through unnoticed. The pangolins are transported to their new home in quiet and peace, starting their new journey on a comforting note.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

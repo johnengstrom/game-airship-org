@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Operation Sky Ark",
+  "gameDescription": "Airship teams embark on a high-stakes mission through the African skies to transport rescued pangolins to a newly built sanctuary in Vietnam. The destiny of this endangered species lies in your hands, and every decision made impacts both their survival and the environment.",
+  "setting": {
+    "location": "Sky routes from Africa to Vietnam",
+    "missionStart": "African Wildlife Rescue Center",
+    "missionEnd": "Vietnam Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Astral Guardians",
+      "description": "Experts in wildlife crisis management and environment-friendly navigation."
+    },
+    "redTeam": {
+      "name": "Celestial Carriers",
+      "description": "Specializing in safe animal transport and efficient bio-energy sources."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon departure, the airships are alerted to a group of poachers nearby. With pangolins onboard, the teams must decide on a course of action.",
+      "options": {
+        "A": "Alter course to avoid any possible confrontation with the poachers.",
+        "B": "Stay the course, but alert local authorities to handle the poaching threat."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams alter their course, safely avoiding the potential threat. The detour uses additional bio-energy, but the safety of the pangolins remains uncompromised.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team stayed on course while the other changed direction. This leads to delay and increased fuel consumption for the detouring team. The other team's risk pays off as local authorities handle the poachers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one airship detours, the other maintains course and contacts local authorities. The authorities, warned in time, arrest the poachers. However, the detouring airship has used extra fuel.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams alert the authorities and maintain their course. The authorities manage to contain the poaching threat, and the mission proceeds without any fuel-overuse.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As they pass over the Indian Ocean, they receive a distress signal from a ship carrying vital conservation equipment, caught in a typhoon.",
+      "options": {
+        "A": "Attempt a daring descent to deliver additional flotation devices for the crew.",
+        "B": "Maintain current altitude and coordinate a rescue mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams descend, and the rescue turns successful. But the daring move uses significant bio-energy, straining the reserves needed for the pangolins' journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one airship descends for rescue, the other coordinates a rescue effort. The daring team saves the ship equipment but at a high energy cost. The coordinating ship ensures rescue without much energy loss.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team descends for the rescue, the other sets up a coordinated rescue. This joint venture proves successful without too much energy wastage. The rescued ship shows gratitude with a donation to the sanctuary.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate a joint rescue mission, maintaining a safe altitude. The distressed ship is saved, with the teams' energy reserves remaining unblemished.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "On reaching Vietnam, they face heavy aerial traffic, which could delay the pangolins' arrival at the sanctuary.",
+      "options": {
+        "A": "Increase speed for early arrival, using extra bio-energy.",
+        "B": "Keep the current pace, managing the traffic with on-board AI system."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships increase speed to get to the sanctuary earlier, consuming additional bio-energy. They deliver the pangolins timely but at the cost of extra fuel.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship increases speed while the other keeps the pace. The faster airship delivers the pangolins sooner but at a high energy cost. The steady airship manages the traffic with AI, conserving energy.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship increasing speed and the other maintaining it, the pangolins are delivered in good time. The faster airship faces a hefty fine for exceeding the speed limit, while the other is praised for its strategic planning.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships manage to navigate the heavy traffic using their on-board AI systems, conserving fuel. The pangolins are delivered without a hitch, marking a successful end to this critical mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

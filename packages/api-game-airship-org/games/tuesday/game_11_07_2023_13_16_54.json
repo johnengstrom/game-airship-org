@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Skies: Mission Conservation",
+  "gameDescription": "In a bid to support Greater Good Charities' Project Peril and their dedication to pangolin conservation, two futuristic airships are tasked with the safe and efficient transport of rescued pangolins from poaching meccas to a newly built sanctuary in Vietnam. Each strategic decision the airship captains of 'Aeolus Wings' and 'Poseidon Carriers' make, directly shapes the fate of these endangered creatures and the impact on our ecological footprint.",
+  "setting": {
+    "location": "Above the international rescue routes",
+    "missionStart": "Various Pangolin rescue centers",
+    "missionEnd": "Newly built sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Adept in mitigating weather challenges and unpredictable situations."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Skillful in resource management and comfort provision for onboard pangolins."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive distress signals from unattended pangolins in separate regions simultaneously. The teams must decide how to act.",
+      "options": {
+        "A": "Split resources and send a smaller rescue ship for the second location.",
+        "B": "Stay on course and inform local wildlife authorities of the distress signals."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams dispatch smaller vessels, stretching resources thin but saving additional pangolins. They face challenges managing resources but their bold actions increase overall rescue numbers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team sends a small vessel, the other relies on local wildlife authorities. The vessel-dispatching team has a successful secondary mission but faces a fuel shortage. The other team maintains course and resource balance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team dispatches a smaller vessel, the other stays on course. The smaller vessel garners additional appreciation, even as its team grapples with resource management. The other team faces criticism for its decision but keeps resource balance intact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ignore the second distress signal and entrust local wildlife authorities. They face backlash for their decisions but maintain resource balance and flight schedules.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships come across a raging forest fire threatening a pangolin habitat. The teams must make a difficult choice.",
+      "options": {
+        "A": "Drop their limited water reserves to help douse the fire.",
+        "B": "Continue on their mission and report to the local fire department."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to drop water reserves, helping to contain the fire but jeopardizing their own water supply. Their humanitarian actions earn praise but will require careful resource management henceforth.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team drops its water reserve while the other continues on its path. The water-dropping team gains respect but faces water shortage, while the other is considered by some as cold but pragmatic.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team drops water, the other continues its mission. The former receives praise but a water shortage, while the latter continues its journey unencumbered but facing critique for its choice.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to reserve their water and trust local firefighting. They receive disapproval from some quarters, but successfully maintain their vitals for the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing the sanctuary, the teams receive news of a possible poacher hideout nearby. They must decide on the course of action.",
+      "options": {
+        "A": "Take a detour to avoid any possible poacher encounters.",
+        "B": "Stick to the planned route and trust their security measures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take the detour to ensure safety, using extra fuel but avoiding potential threats. Their decision underlines their commitment to the pangolins' safety at all costs.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team takes the detour while the other trusts its security measures. The detouring team assures safety but faces fuel shortage, while the other team navigates the routes skillfully, reaffirming their confidence in their systems.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team detours while the other continues as planned. The detouring team receives appreciation despite their fuel shortage, while the other strengthens their reputation for steadfastness.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stick to their plan and manage to deliver their precious cargo safely. Their confidence in their security measures pays off, but does raise questions on risk-taking.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

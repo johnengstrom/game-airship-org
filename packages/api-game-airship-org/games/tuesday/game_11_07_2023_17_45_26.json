@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Hope Takes Flight",
+  "gameDescription": "Piloting futuristic airships, two teams embark on a daring mission to transport rescued pangolins from Africa to a newly built sanctuary in Vietnam. Each decision made by the airship crews impacts the survival of these endangered animals and resonates with wildlife conservation issues worldwide.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviours",
+      "description": "Known for their impressive animal handling skills and contingency readiness in demanding situations."
+    },
+    "redTeam": {
+      "name": "Flight of Freedom",
+      "description": "Renowned for their unparalleled navigational expertise and swift decision-making in high-pressure scenarios."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the teams set off from Africa, militant poachers are spotted nearby, threatening the mission's start.",
+      "options": {
+        "A": "Execute a stealth launch to avoid the poachers’ notice.",
+        "B": "Coordinate with local forces for a guarded take-off."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a stealthy departure. Their secrecy pays off as they launch undetected, ensuring mission kickoff without endangering any pangolin lives.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team slips away unnoticed, while the other engages local forces for protection. The guarded launch distract poachers, giving both teams a safer start.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Both approaches synchronizing flawlessly. The team going stealth paves the way for the escorted team, causing confusion among the poachers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launch under the protective guard of local forces. their unanimous decision signifies the importance of collective defence against poaching.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A tropical cyclone forms over the Indian Ocean, posing a risk to the route.",
+      "options": {
+        "A": "Divert course to avoid the cyclone, costing time and more fuel.",
+        "B": "Continue on planned route, leveraging airship’s cyclone-resistant tech."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert, costing extra time and fuel, but ensuring the safety of the pangolins. Their decision exemplifies the value of life over efficiency.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team diverts, the other braves the cyclone. The bold move saves fuel and time, impressing onlookers, but the pangolins’ safety is left to fate.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing decisions see one airship diverting while the other presses on. The solidity of the cyclone-resistant tech is tested as lives hang in the balance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing to brave the tempest, the airships’ advanced design stands unwavering. Their faith in technology is rewarded with a safe passage through nature's fury.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon approaching Vietnam, the teams receive intel about illegal wildlife traders waiting to intercept.",
+      "options": {
+        "A": "Perform an early critical ethereal descent to outwit the poachers.",
+        "B": "Connect with Vietnamese Wildlife Officers for a protected landing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships make an unanticipated ethereal descent, disorienting the poachers. The precise manoeuvre ensures a safe landing for the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team descends early while the other coordinates an official escort, causing disarray among the wildlife traders. The blend of unorthodox and strategic planning triumphs.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one airship arrives under official escort, the other makes an abrupt descent, throwing off the poachers. This coordinated tactic celebrates the harmony of audacity and diplomacy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams land safely under the protection of local wildlife enforcement. Their united front reinforces the need for regulation and collaboration in the struggle against wildlife trade.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

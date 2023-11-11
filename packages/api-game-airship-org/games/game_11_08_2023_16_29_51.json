@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Sky Guardians: The Pangolin Rescue Mission",
+  "gameDescription": "An urgent humanitarian mission in the near future requires the swift and strategic delivery of vital equipment to a new enclosure for the world's most trafficked wild mammal, the pangolin. As pilots of advanced airships, players must transport these mission-critical supplies from Greater Good Charities in the United States to the newly built enclosure in Vietnam, negotiating severe weather, limited resources and pressing time constraints. In doing so, they will play a pivotal role in ensuring the survival of this vulnerable species.",
+  "setting": {
+    "location": "Across the Atlantic and Indian Oceans",
+    "missionStart": "Greater Good Charities, United States",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Blazing Phoenixes",
+      "description": "Highly experienced in transport and expeditionary missions."
+    },
+    "redTeam": {
+      "name": "Silver Vanguards",
+      "description": "Renowned for precision navigation and crisis management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While crossing the Atlantic, both teams spot a whaling ship violating international laws. Balancing the urgency of stopping illegal activities and the pangolin mission, they must decide their next move.",
+      "options": {
+        "A": "Report the whaling ship to the authorities and continue with the mission.",
+        "B": "Attempt to delay the whaling ship while waiting for authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to report the whaling ship. By doing so, they ensure minimum deviation from the mission while acting responsibly toward marine life conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenixes report the ship, while Vanguards tactically delay it. The teams successfully balance their pangolin mission with the promotion of marine life protection. However, it costs the Vanguards some valuable time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Vanguards report the ship while Phoenixes attempt to delay it. This decision leads to a slight delay in Phoenixes' schedule, putting their timely arrival at risk. Vanguards gain a temporary lead.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams attempt to delay the whaling ship. Acknowledging the urgency of wildlife conservation, they manage to halt the illegal activity without severe disruptions to their main mission schedules.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Passing the Indian Ocean, teams anticipate an incoming cyclone which might impact their journey. With airships carrying the sensitive cargo, they must make a decision on how to approach this challenge.",
+      "options": {
+        "A": "Navigate through the cyclone using advanced weather prediction models.",
+        "B": "Take a longer path to avoid the cyclone, costing extra time and resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams, believing in their abilities, decide to navigate through the incoming cyclone. Their commitment to the mission is commendable, but does it risk the valuable cargo and overall mission?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenixes ride through the cyclone, while Vanguards take the safer, longer route. Phoenixes reach faster, but the adventure strains their resources, while Vanguards play safe conserving their resources.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Vanguards brave the cyclone, while Phoenixes opt for the longer path. The decisions balance risk, resources and time, creating a sense of suspense about the mission's turnout.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to take the longer but safer route, prioritizing the safe delivery of the valuable cargo. Their risk-averse approach saves them from a potential catastrophe.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As both teams approach Vietnam, they learn of an unexpected lockdown imposed by the local government due to a sudden health crisis. Finding a way to deliver the cargo becomes imperative.",
+      "options": {
+        "A": "Negotiate a special clearance with the authorities for immediate delivery.",
+        "B": "Coordinate with a local rescue team to transfer cargo for final delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Venturing straight into negotiation, both teams successfully secure an immediate clearance. Using additional resources for negotiation, however, leaves them with less to spare for future challenges.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenixes negotiate clearance while Vanguards coordinate with a local team. Both approaches work, but the negotiation option strains Phoenixes' resources, giving Vanguards a slight edge.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Vanguards negotiate the clearance, while Phoenixes opt for local coordination. Though both strategies work, Vanguards' resources are significantly strained.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local rescue teams, ensuring the successful delivery of the cargo without straining their resources. Their decision ensures the survival and wellbeing of the pangolin population.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

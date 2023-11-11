@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Sustainable Frontier",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As the captains of futuristic airships, players must navigate this delicate landscape. Every decision they make impacts the environmental health of the region, contrasted with the thirst for exploration and scientific discovery. Balancing these aspects is of paramount importance.",
+  "setting": {
+    "location": "Antarctic Peninsula",
+    "missionStart": "Tierra del Fuego, Southern Argentina",
+    "missionEnd": "Antarctic Landing Site"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Glacial Guardians",
+      "description": "They focus on environmental conservation over everything else."
+    },
+    "redTeam": {
+      "name": "The Pioneer Pioneers",
+      "description": "They believe in facilitating tourism and exploration without compromising on sustainability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Choosing a landing site is the first strategic decision. Popular, already impacted areas are an option, or risk venturing into untouched, yet potentially fragile areas.",
+      "options": {
+        "A": "Land in the popular, already impacted area.",
+        "B": "Venture into an untouched location, taking potential risks."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to stick with known-impacted areas. The predictable environment allows for smoother operations, but also amasses the human footprint in one region.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Differing in their decisions, one team tackles predictable challenges, while the other ventures into the unknown, potentially disturbing untouched wilderness.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team breaks into the untouched regions, risking potential damage, while the other adds to the human footprint in known areas. An uneasy balance is struck.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Choosing to venture into pristine areas, both teams face unpredictable challenges, potentially threatening the untouched wilderness. This daring move could have unforeseen consequences.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Tourist capacity is a dilemma - maximizing tourism could generate profit but the larger numbers may negatively affect the ecosystem.",
+      "options": {
+        "A": "Permit a large number of tourists, encouraging economic benefits but potentially increasing environmental impact.",
+        "B": "Opt for a conservative number of tourists, reducing potential earnings but safeguarding the environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams boost tourist numbers, generating profit but raising concerns about the escalating human footprint. A tightrope walk between economic growth and preservation unfolds.",
+          "bonusCard": "redTeam"
+        },
+        "AB": {
+          "narrative": "While one team increases tourism, the other achieves a balance between visitors and preservation, creating a contrast in how to manage environmental impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A contrast between profit and preservation occurs as one team increases its tourist intake and the other maintains conservative numbers to protect the ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for conservative tourist numbers, affecting potential profits but prioritizing ecosystem health. The decisions underline the importance of responsible tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Strategic decisions regarding conservation initiatives are necessary: Engaging tourists in the efforts could raise awareness, or imposing strict regulations could limit negative effects.",
+      "options": {
+        "A": "Engage tourists actively in conservation efforts.",
+        "B": "Place strict regulations and limit areas of visit."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation efforts. This raises awareness but challenges emerge as not all tourists adhere to guidelines. The balance between tourism and preservation becomes even more delicate.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team mobilizing tourists for conservation and the other imposing strict regulations, a contrast between flexible and rigid approaches to conservation becomes evident.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A contrast between engaging tourists and imposing strict limitations arises, highlighting differing approaches to conservation. Both approaches face their unique challenges.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams impose exhaustive regulations, controlling tourist activity to limit the impact on the ecosystem. This firm hand ensures the preservation of the delicate environment, but tourist satisfaction may take a hit.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

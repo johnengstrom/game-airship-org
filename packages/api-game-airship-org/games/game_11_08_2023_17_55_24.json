@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Eco-Tourism Expedition",
+  "gameDescription": "In the pristine wilderness of Antarctica, increased tourism brings a new set of challenges. As captains of advanced airships, players navigate this delicate balance between exploration and preservation. The goal is to facilitate scientific research and sustainable tourism while minimizing its environmental impact.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "The South Pole",
+    "missionEnd": "Various Scientific Bases"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Guardians",
+      "description": "Prioritize eco-conservation strategy and scientific progress."
+    },
+    "redTeam": {
+      "name": "Snow Pioneers",
+      "description": "Focus on sustainable exploration and touristic satisfaction."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Choosing a tourist landing site. Climate change has increased ice melting, opening new regions for exploration. However, these pristine sites are home to local fauna.",
+      "options": {
+        "A": "Choose a popular but already impacted site.",
+        "B": "Select a pristine, untouched site to offer a unique experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for an impacted site, minimizing damage to pristine locations. The increase in human presence stresses local fauna and alters their behavior.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Teams choose differently, providing a wider range of visits. The pristine site draws more tourists, disturbing habitats but generating more revenue for research and protection efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Teams choose differently. Visits to the untouched site create tension among environmental agencies, calling for stricter tourism regulations.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the pristine site, enabling a new breed of explorers. But the untouched region is now threatened, and teams are faced with the immediate need for conservation planning.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An influx of tourists is eager to explore Antarctica. More tourists mean more revenue for research but potentially higher environmental impact.",
+      "options": {
+        "A": "Allow a higher number of tourists, ensuring greater funding.",
+        "B": "Limit the number of tourists, maintaining a low ecological footprint."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams lean towards economic growth and scientific advancing, facilitating better funding for research. However, the environmental impact of mass tourism becomes a challenging issue.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team prioritizes scientific funding over ecological impact, while the other prefers conservation. Polar Guardians set an example for sustainable tourism, earning the 'Eco-Innovation' bonus card.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Snow Pioneers opt for higher funding despite higher risk, while Polar Guardians focus on maintaining a light footprint. The balance between protection and exploration is now a mainstream debate.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams set a lower limit on tourist numbers to protect the fragile ecosystem. But they face the challenge of seeking alternative funding for scientific research.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The need for conservation initiatives becomes critical. The teams must decide how to counteract tourist impact and preserve biodiversity.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, creating awareness.",
+        "B": "Implement strict regulations and temporary area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams turn tourists into stakeholders, leveraging their enthusiasm for conservation. This creative approach turns sightseers into caretakers, fostering an environmentally conscious culture.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "Implementing different strategies, the teams manage to cover a broader action spectrum. The 'Research Grant' bonus card is awarded to Snow Pioneers for their investment in visitor education.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Polar Guardians enforce strict rules, whereas Snow Pioneers choose a more participatory approach. The resulting gravity and personal touch unexpectedly work together to form a successful conservation program.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for strong regulations, helping to ensure the survival of Antarctic species. However, this move results in a substantial drop in tourists, threatening the funding of ongoing research.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Echoes of the Ice",
+  "gameDescription": "In the near future, Antarctica faces the surge of global tourism. As captains of technologically advanced airships, players control the delicate balance of this pristine wilderness. Each decision to facilitate scientific research, sustainable exploration, and manage tourism affects the unique Antarctic ecosystem.",
+  "setting": {
+    "location": "Above and around Antarctica",
+    "missionStart": "McMurdo Station, Antarctica",
+    "missionEnd": "Macquarie Island, Australia"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ice Whisperers",
+      "description": "Experts in sustainable tourism and wilderness preservation."
+    },
+    "redTeam": {
+      "name": "Antarctic Pioneers",
+      "description": "Proficient in scientific research and exploration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The influx of eager tourists is challenging. Your mission starts with deciding a landing site for the airships: a popular and already impacted area or a pristine, untouched location.",
+      "options": {
+        "A": "Choose a popular, already impacted site to minimize further degradation.",
+        "B": "Select the pristine, untouched location to spread the tourism impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide on the already impacted site. Development is streamlined but the location faces worrying levels of congestion and environmental damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The teams split their choices, diversifying tourism impact, but the untouched site begins to show signs of stress",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams vary their choices, aiding in spreading the impact, but the pristine site isn't spared from the pressures of tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams explore new, untouched locations, but the lack of preparation leads to unintended consequences on the pristine environment.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With your landing sites chosen, you must decide on the carrying capacity - the number of tourists allowed. Option A opts for higher profits at potential cost to the environment. Option B focuses on secures conservation goals but at a lower profit.",
+      "options": {
+        "A": "Allow a higher number of tourists for generating higher revenue.",
+        "B": "Limit the number of tourists for the preservation of Antarctica."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Shadows of airships clutter the skies as both teams opt for more tourists. Revenue is high, but the environment pays the price",
+          "bonusCard": "RedTeam Penalty: Environmental damage"
+        },
+        "AB": {
+          "narrative": "Balancing the demands, one team ensures higher profits while the other privileges the environment. Revenue and conservation targets are partially met.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team takes a conservationist approach, while the other relies on tourism for revenue. It's a delicate balance between economy and ecology.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams regulate the tourist numbers, effecting in a leaner but more sustainable experience. Yet, financial pressures begin to mount.",
+          "bonusCard": "BlueTeam Bonus: Eco-Innovation"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Your final decision centers around conservation efforts: actively engage tourists in conservation or implement strict regulations and area closures to limit access.",
+      "options": {
+        "A": "Engage tourists actively in conservation education.",
+        "B": "Implement strict regulations and limit access to certain areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to actively involve tourists in conservation. This unprecedented measure creates a holistic understanding and responsible behavior among the visitors.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One team opts for education while the other restricts access. With some freedoms limited, tourists develop a newfound respect for the environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team engages tourists, the other imposes limits and restrictions. The combination cultivates responsible tourism while protecting vulnerable areas.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide on limiting access. Unpopular amongst tourists but welcomed by scientists, this crucial step ensures the untouched beauty of Antarctica remains so.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

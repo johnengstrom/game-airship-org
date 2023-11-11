@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Rescuers: The Pan-golden Voyage",
+  "gameDescription": "Two state-of-the-art airships, Skyward Serpent and Cloud Atlas, embark on a mission of mercy. Their task is to safely transport valuable pangolins from poaching hotspots in Africa to their brand-new, large-scale enclosure in Vietnam. Each team's decision directly affects the lives of these shy creatures and the overall success of the mission. As team members, players will face difficult choices that will test their decision-making skills and, ultimately, demonstrate the power of collective action in combating wildlife trafficking.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Various Poaching Hotspots in Africa",
+    "missionEnd": "New Enclosure Facility in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Serpents",
+      "description": "Master navigators, adept at unpredictable environmental conditions."
+    },
+    "redTeam": {
+      "name": "Cloud Atlas",
+      "description": "Veterans of wildlife rescue and ecological conservation, known for agile crisis management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are loaded with pangolins and preparing to take off when local ground crews receive a tip about a live poaching operation nearby.",
+      "options": {
+        "A": "Launch immediately and ensure the rescued pangolins reach the sanctuary as per schedule.",
+        "B": "Delay the departure and coordinate with local authorities to intervene the live poaching operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams, prioritizing the lives onboard, take off immediately. As the airships fly over vast savannas, they report the poaching tip to local authorities. Their immediate reporting helps apprehending the poachers, but the pangolins aboard the airships pay the price with unexpected stress.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Serpents take off, while Cloud Atlas waits to assist with the poaching crisis, further delaying their mission. Atlas's daring effort helps apprehend the poachers, but the pangolins pay the cost with stress-induced sickness on-board the Serpent.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Atlas choose to take off while Serpents try to deal with the poaching crisis. Serpents' decision leads to immediate arrest of the poachers, but the delay caused pangolins stress disorders onboard Atlas.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both the teams decide to delay their departure, assisting local authorities. Their joint effort leads to the arrest of the poachers; however, the pangolins aboard the ships display signs of anxiety due to the delay, making the teams rethink future strategies.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the airships encounter a passing storm, causing turbulence. The pangolins, sensitive to noise and vibrations, become anxious.",
+      "options": {
+        "A": "Brace the storm with damping mechanisms for minimizing vibrations.",
+        "B": "Take an alternate route avoiding the storm, consuming more hydrogen but preserving the pangolins' tranquility."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brace the storm reducing the vibrations and noise inside the cargo. The damping mechanisms prove effective, and the pangolins show little distress. However, the high stratospheric winds reduce their hydrogen reserves, but the pangolins remain calm.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Serpents brace the storm, while Atlas takes a detour. The anticipated noise and vibrations onset short-term anxiety among the pangolins onboard Serpents, whereas Atlas's decision provides tranquility but at the cost of hydrogen.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Atlas opt to brave the storm, while Serpents decide to steer clear of it. The clever use of damping mechanism onboard Atlas prevents panic among pangolins whereas on Serpents, despite the fuel-glutton detour, pangolins remain calm and relaxed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose to avoid the storm, preserving the calmness of the pangolins. They consume more hydrogen but reduce the environmental stress on the pangolins. The joint radio chatter, filled with observational notes of the pangolins, enriches mutual learning.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships cross the sea to reach Vietnam, they pick up increasing anti-smuggling patrol activities, requiring careful navigation.",
+      "options": {
+        "A": "Conserve hydrogen and maintain current height, risking increased anti-smuggling radar exposure.",
+        "B": "Ascend to higher altitudes for evasion, consuming more hydrogen but reducing detection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to conserve hydrogen and maintain their current altitude, risking radar exposure. Prompt communication with patrol units about their mission ensures a smooth crossover. Their strategy promotes open communication but depletes some reserves dealing with regulatory procedures.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Serpents choose to navigate at their current height, Atlas ascends to avoid radar exposure. As a result, Serpents spend precious time communicating with anti-smuggling units, whereas Atlas, at a higher altitude, proceeds undisturbed but at a considerable hydrogen cost.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Atlas conserves hydrogen by staying at the same altitude, while Serpents use the rise in altitude to avoid detection, each airship facing their unique challenges. Atlas depletes time and resources in negotiations, while serpents reach the sanctuary early but with depleted hydrogen.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both Atlas and Serpents choose to ascend higher to avoid detection. Although this altitude change consumes more hydrogen, it enables the ship to cross the sea without interruptions. This joint decision not only allows the airships to reach the sanctuary quickly but also safely with minimum interruptions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

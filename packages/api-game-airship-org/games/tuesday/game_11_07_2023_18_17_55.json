@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Airship Rescue",
+  "gameDescription": "In Operation Pollination, commanding officers of the Apis Aviators and the Bombus Navigators teams manage intelligent airships to ensure the survival of bees and the global ecosystem. Their strategic missions aim to restore bee populations and habitats affected by natural disasters and human activities. Through careful decisions and strategic planning, they have the chance to turn the tide of this ecological crisis.",
+  "setting": {
+    "location": "Globally affeceted areas",
+    "missionStart": "Apis Headquarters",
+    "missionEnd": "Pollinator Safe Zones"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Masters of navigating through difficult conditions and establishing new habitats."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Experts in ecological restoration and bee conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-hurricane recovery is underway and areas that were once buzzing with pollinator activity are now desolate. What is your course of action?",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opted to restore habitats with native flowers. The devastated lands bloom once again, inviting the return of pollinators. But relocation still looms as a challenge.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apis Aviators plant flowers while Bombus Navigators establish colonies, leading to a speedy recovery of the ecosystem. Cross-team cooperation is imperative as they move forward.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With Bombus Navigators planting flowers and Apis Aviators establishing colonies, the ecosystem is quickly healing. Their actions serve as a model for eco-disaster recovery.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focused on establishing new colonies. It's a safe step, but more effort is needed to fully restore the habitats. Cooperation might be needed in the next phase.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfires have ravaged large sections of bee habitats. With the smoldering ruins casting a shadow over the recovery efforts, what do you decide to do?",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose reforestation. The signs of revival in the burned lands are encouraging, yet the lack of immediate shelter for displaced bees remains unaddressed.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Apis Aviators worked on reforestation, Bombus Navigators created artificial habitats, addressing immediate and long-term needs. A harmonious team effort is showing promise.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Bombus Navigators seeded the lands while Apis Aviators provided refugee for displaced bees. Their combined efforts strike a balance between healing and housing.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams created artificial habitats, providing immediate relief to the bees. However, the long-term recovery of the fire-ravaged lands still awaits their attention.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the world gradually heals, it’s essential to expand bee conservation efforts sustainably. What's your approach?",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams are developing bee sanctuaries, offering the bees safe, ideal conditions. However, public awareness about the importance of bee conservation still needs attention.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "Apis Aviators are setting up sanctuaries, while Bombus Navigators launch campaigns. Their efforts complement each other, covering both tangible and knowledge-based aspects of conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators are building sanctuaries and Apis Aviators are raising awareness. This blend of action and education is shaping a holistic approach to bee conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams deployed educational campaigns, spreading the message of bee conservation. The public is responsive, but tangible actions need to parallel these awareness initiatives.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

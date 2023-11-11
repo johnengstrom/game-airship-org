@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Air: The Pangolin Rescue",
+  "gameDescription": "In the face of a global wildlife crisis, two airships, controlled by players, embark on a critical mission to rescue and transport endangered pangolins from areas of conflict to a newly created safe haven in Vietnam. Throughout the journey, teams will be tasked with making crucial decisions that will influence not only the success of the operation and the lives of the pangolins, but also the environmental footprint left by their actions.",
+  "setting": {
+    "location": "Above the African and Asian Continents",
+    "missionStart": "Conflict areas in Africa",
+    "missionEnd": "Safe haven in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Wings",
+      "description": "Distinguished for advanced navigation and wildlife care."
+    },
+    "redTeam": {
+      "name": "Charity Carriers",
+      "description": "Recognized for cargo capacity and energy efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While trekking over the expansive African continent, both airships detect a massive forest fire. Nearby, a pangolin population in need of evacuation is detected.",
+      "options": {
+        "A": "Rush to the scene despite the approaching fire to evacuate the pangolins.",
+        "B": "Coordinate with land-based teams for a joint rescue when the fire subsides."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush in. Despite dense smoke and hazardous conditions, they manage to rescue several pangolins. However, the swift action uses extra hydrogen and exposes the airship to elemental damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Wings rushes in alone while Charity Carriers efficiently coordinates land teams. The solo action allows for speed but puts tremendous pressure on resources while the other team's more sustainable approach secures a slow but sure rescue.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Charity Carriers swoops into action while Greater Wings coordinates ground teams. The bold move saves more pangolins upfront at the expense of fuel and potential airship damage.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with ground teams. There is a delay in the rescue but greater resources mobilized on the ground allow for a safer mission execution and less hydrogen expended.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While crossing the Indian Ocean, a call comes in for emergency medical supplies in an isolated region hit by a natural disaster.",
+      "options": {
+        "A": "Divert from the main mission to deliver the supplies.",
+        "B": "Stay on course, but use onboard robotics to drop the supplies while passing over."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert their course causing a delay but ensuring a successful delivery. They expend more hydrogen but receive international praise for their humanitarian efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Wings diverts its course, while Charity Carriers makes an air drop. The diversion ensures a safe delivery but the air drop, while conserving hydrogen, isn’t as precise.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Charity Carriers diverts to make the drop, while Greater Wings conducts an air-drop. Both actions have their pros and cons, balancing humanitarian aid with mission focus and fuel conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the robotic air-drop saving time and fuel, but at the cost of accuracy. The drops land safely, albeit scattered, but the mission stays on schedule.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the enclosure in Vietnam, the teams are met with heavy rainfall. The release of the pangolins may endanger them if not done carefully.",
+      "options": {
+        "A": "Proceed swiftly to release the pangolins into the enclosure, risking distress due to the rain.",
+        "B": "Wait out the rain but risk overcrowded conditions and stress for the creatures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to take action immediately. The pangolins are distressed by the rain but quickly adapt to their new environment. The quick action saves hydrogen but experiences severe criticism for hasty wildlife handling.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Wings hastily releases their pangolins in the rain while Charity Carriers waits it out. The two contrasting choices are met with mixed reactions, and both strategies come with their unique challenges.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Charity Carriers releases the pangolins under the draining rain, while Greater Wings chooses to wait it out. Both teams face ecological critique, stressing the complexity of wildlife conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait, ensuring proper care for the pangolins but risking crowding and hydrogen resources. With dawn, the rain clears, providing perfect conditions for the release.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

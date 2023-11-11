@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Plight",
+  "gameDescription": "In this near-future world of intelligent airship navigation, players control advanced airships on a mission to recover and transport pangolins, victims of illegal wildlife trading, from Africa to a new high-tech enclosure in Vietnam. Their strategic decisions impact the success of the mission and the overall survival of the rescued pangolins without causing harm to the environment.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "An experienced fleet known for their optimal route planning and wildlife rescue capabilities."
+    },
+    "redTeam": {
+      "name": "Aerial Guardians",
+      "description": "A team recognized for their fuel-efficiency strategies and care in handling wildlife."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Locating and safely tranquilizing the highly trafficked pangolins in the vast African forest is the first challenge. Teams need to make a strategic decision.",
+      "options": {
+        "A": "Use wildlife tracking drones for precise location.",
+        "B": "Coordinate with local rangers who have more knowledge about the pangolin's habitats."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use drones to locate pangolins. It's an efficient option that minimizes the disruption to the forest but it uses extra energy from the airships. The rescued pangolins are however slightly stressed due to the drone activities.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors send out drones while the Aerial Guardians coordinate with local rangers. Both methods are successful, but the Aerial Guardians learn more about pangolins from the rangers, proving invaluable for their future journey.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While the Aerial Guardians chose drone technology, Skyward Saviors partnered with local rangers for the rescue. The rangers' knowledge reduces the pangolins' stress levels during the rescue.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local rangers. This takes more time than using drones but ensures less stress for the pangolins and save more energy on their airships. They exchange helpful info about the pangolins over the radio.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "After the rescue, pangolins need a stress-free ambiance. Turning off the airship's artificial intelligence (AI) can provide this, but manual control will be required.",
+      "options": {
+        "A": "Switch off AI and navigate manually to provide a tranquil environment.",
+        "B": "Keep AI functioning and use compensating mechanisms to reduce pangolin stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams turn off AI for the pangolins' comfort, undertaking the challenging task of manual navigation. Energy efficiency takes a hit, but the pangolins remain calm and healthy.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors choose to manually navigate while Aerial Guardians keep AI functioning using stress compensators. The recuperating pangolins on Skyward Saviors' airship reveal their contentment through a bio-monitor.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aerial Guardians go for manual navigation as Skyward Saviors allocate energy to the stress compensators. However, the bio-monitor reveals less stress among the pangolins aboard the Aerial Guardians.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams keep their AIs running and efficiently manage the minimal stress on the pangolins. They share experiences and fine-tune their onboard systems, further ensuring the rescued pangolins' comfort.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, teams are faced with the challenge of securely introducing the pangolins into the new enclosure.",
+      "options": {
+        "A": "Handover to local wildlife handlers who are familiar with the enclosure.",
+        "B": "Carefully introduce the pangolins into the enclosure using onboard staff."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams hand over the pangolins to local handlers. While this ensures the pangolins are familiarized with their new home effectively, the abrupt change from airship staff to local handlers causes minor stress.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors handover to locals while Aerial Guardians introduce pangolins using onboard staff. The seamless introduction by the onboard staff receives positive feedback from the LIVE Nest Cam.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Aerial Guardians handover to the locals and Skyward Saviors introduce the pangolins with their onboard staff. The onboard staff’s personalized approach significantly decreases the pangolins' stress levels.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use their onboard staff to introduce the pangolins to the enclosure. Their personalized approach is highly successful, giving viewers of the LIVE Nest Cam a heartwarming spectacle and a glimpse into these supremely shy creatures' lives.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

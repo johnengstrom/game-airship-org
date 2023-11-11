@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Flight to Pangolium: An Airborne Wildlife Rescue",
+  "gameDescription": "In a futuristic world where intelligent airships are commonplace, two cutting-edge airships belonging to Greater Good Charities and Wildlife At Risk, embark on a crucial mission. The objective is to rescue pangolins from Africa and transport them safely to a new enclosure in Vietnam. These pangolins, shy and elusive, are victims of relentless illegal hunting. Poaching claims the lives of up to 2.7 million pangolins annually, pushing these unique mammals towards the brink of extinction. The challenge before the airship crews is not merely transportation; each decision they make affects the wellbeing of the pangolins and the environmental impact of the mission.",
+  "setting": {
+    "location": "Across Africa, above the Indian Ocean and Asia",
+    "missionStart": "Africa",
+    "missionEnd": "New enclosed sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pangium Protectors",
+      "description": "Equipped with advanced animal healthcare and rescue technology."
+    },
+    "redTeam": {
+      "name": "Skyward Saviors",
+      "description": "Expert navigators with unrivaled hydroponic farming systems for fresh food during transport."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams have successfully rescued several pangolins and are preparing for takeoff. But they face a pressing decision, as there's a thunderstorm brewing.",
+      "options": {
+        "A": "Wait for the storm to pass, delaying the mission but ensuring safety for the cargo.",
+        "B": "Take off immediately, utilizing the airships advanced weather management systems to navigate the storm."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait out the storm, ensuring the utmost safety for the rescued pangolins. The delay might potentially affect further operations, but the wellbeing of the vulnerable creatures takes precedence.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the storm, while the other patiently awaits clearer skies. The daring team makes good headway but at the cost of stressing the animals onboard, while the waiting team ensures the creatures comfort, albeit at a slower pace.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A split decision sees one team heading off into the storm and the other choosing to wait. The storm navigators make good time, but the risk factor is elevated. The assured safety of the other team's pangolins reaffirms their commitment to the cause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the pangolin's safety over timing and wait for the storm to pass. The unity of decision strengthens their mission's purpose, underpinning wildlife conservation as the key principle.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Crossing the vast expanses of the Indian Ocean, the teams receive a distress signal from a nearby landmass. It's another wildlife rescue mission, struggling without sufficient resources",
+      "options": {
+        "A": "Detour to deliver supplies, straining time and fuel but potentially saving other endangered animals.",
+        "B": "Stay on course, needing to prioritize the already endangered cargo onboard and mission's timeline."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deviate from their route to aid the distressed rescue mission. The detour consumes valuable time and fuel but their collective effort saves countless endangered species. They symbolize the true spirit of wildlife rescue.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship diverges to assist, while the other remains on track, ensuring the least disturbance to their cargo. It's a testament to their individual commitment to addressing wildlife distress, in the best ways they can afford to.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team remains on track while the other goes to aid the desperate rescue mission. The latter returns with a few more rescued animals, stretching their resources, but also showcasing their profound commitment to the cause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stay their course, understanding the topmost priority is the safety of their current cargo - the rescued pangolins. Their decision underscores the fact that success in wildlife conservation is often reliant on focused, dedicated actions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the Vietnamese coast nears, the teams face a crucial decision. The new enclosure isn't completely ready to house the pangolins, and yet an unexpected heatwave is forecasted.",
+      "options": {
+        "A": "Accelerate to reach before the heatwave but risk the premature release of the pangolins into an unfinished enclosure",
+        "B": "Maintain course and speed, taking the heatwave head on but ensuring the enclosure is fully ready"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to accelerate, outpacing the dreaded heatwave. With the pangolins safely in the enclosure ahead of schedule, the teams work tirelessly to accelerate completion of the enclosure. Their adaptable approach speaks volumes about their commitment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team accelerates the journey, against the challenges of the unfinished enclosure, while the other bravely decides to face the threatening heatwave. The differing strategies spotlight the flexible nature of wildlife conservation and the unique challenges it presents.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship pushing to reach before the heatwave and the other stubbornly sticking to the original pace, they bear testament to the spirit of doing everything possible for the protection of wildlife. Their individual decisions embody adaptability and determination.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams press on, weather-beaten but resolute. They arrive just in time, as the enclosure gets its finishing touches. The pangolins are safely housed, and the teams celebrate a victory forged from patience, resilience, and unwavering commitment to their cause.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

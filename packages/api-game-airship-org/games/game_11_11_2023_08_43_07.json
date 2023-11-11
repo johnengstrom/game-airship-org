@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: The Pangolins' Plight",
+  "gameDescription": "In a dystopian future where wildlife trafficking has surged, pangolins, the most heavily trafficked wild mammal, are on the brink of extinction. Two intelligent airship teams, sponsored by Greater Good Charities and Wildlife At Risk, embark on a critical mission to deliver essential supplies and equipment for a new pangolin sanctuary in Vietnam. Each decision made by the airship crews will not only affect the successful completion of their vital mission but also the environmental impact of their journey.",
+  "setting": {
+    "location": "Hovering over Southeast Asia",
+    "missionStart": "Global Wildlife Preservation Center",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardians of Good",
+      "description": "Specializing in strategic decision-making and wildlife preservation."
+    },
+    "redTeam": {
+      "name": "Wildlife Warriors",
+      "description": "Experts in risky maneuvers and sustainable practices."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face a challenging situation. An alert warns of an illegal wildlife trade hotspot nearby. Quick intervention could disrupt operations, but it may delay the airship's mission.",
+      "options": {
+        "A": "Intervene immediately, potentially delaying the delivery of pangolin sanctuary supplies.",
+        "B": "Report to local authorities and proceed with the mission, prioritizing timely delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to intervene, managing to disrupt the illegal operation. However, their actions delay the delivery to the sanctuary, posing potential challenges for the pangolins’ care.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship intervenes while the other makes a cautious decision to continue with the mission. The actions impact the delivery time, and the complexity of managing the wildlife trade intensifies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship pushes on with the mission while the other intervenes. The detour disrupts the wildlife trafficking operation but causes the delivery to the sanctuary to fall behind schedule.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to report the illegal operation and proceed with the mission. Making sure the delivery is on schedule is their primary objective. However, the unchecked trafficking operation grows.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A rival charity organization offers to provide additional funding for the pangolin sanctuary if one of the airships diverts to meet them. This may risk delay or energy consumption.",
+      "options": {
+        "A": "Divert to secure the additional funding, risking delay and extra fuel use.",
+        "B": "Refuse the offer and continue with the mission, ensuring on-schedule delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose to divert and secure the additional funding. This results in valuable resources for the sanctuary but reduces their hydrogen reserves, increasing the journey's carbon footprint.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship diverts to secure the funds, while the other forges ahead. The airship securing the funding risks delay and higher energy consumption, while the other airship prioritizes the mission's success.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship continues with the mission while the other diverts to meet the rival charity. The airship securing the funding enriches the sanctuary's resources, but its delay compromises the mission timeline.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose not to divert, continuing their mission. Although forfeiting additional funds, they ensure timely delivery of supplies to the sanctuary, a critical factor in its operational success.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they receive an alert: a severe storm will hit the sanctuary area. The teams must decide how to coordinate their efforts for the safety of the pangolins and their team onboard.",
+      "options": {
+        "A": "Ride out the storm, making use of advanced in-built storm navigating systems.",
+        "B": "Detour to avoid the storm, risking delay but ensuring safe delivery of the supplies."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely ride out the storm. They manage to deliver on time with the help of their advanced navigation systems, but it's a risky decision that could affect their mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship rides out the storm, while the other detours, consuming more fuel but ensuring a safer delivery. Both teams' strategies highlight their commitment to both the mission and sustainability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship decides to detour, consuming more fuel but ensuring safer delivery. The other rides out the storm, delivering on time despite the risks. Collaboration between the teams highlights their balanced approach.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose to detour avoiding the storm. Although this decision uses more fuel and risks delay, it ensures the safest possible delivery of the vital supplies to the pangolin sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

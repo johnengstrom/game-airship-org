@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Air Rescue: Pangolin Plight",
+  "gameDescription": "Two futuristic airships, part of Greater Good Charities and Wildlife At Risk, aim to intervene in the rampant poaching operations in Africa to rescue caged pangolins and transport them to the safety of a newly built enclosure in Vietnam. Every decision players make impacts not just the mission's success, but also the well-being of these endangered creatures and the overall ecological balance.",
+  "setting": {
+    "location": "Over Africa's Hunting Grounds",
+    "missionStart": "Confidential Meeting Point in Africa",
+    "missionEnd": "Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "GGC Phoenix",
+      "description": "Equipped with infrared sensors for locating cage traps and trained in safe animal handling."
+    },
+    "redTeam": {
+      "name": "WAR Sky Guardians",
+      "description": "Specializing in stealth operations, equipped to navigate with minimum disturbance to wildlife."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships detect a large poaching operation. Each must decide the best approach to rescue pangolins without alerting the poachers.",
+      "options": {
+        "A": "Launch a quick surgical operation to seize the cages and neutralize immediate threats.",
+        "B": "Coordinate with local authorities for a collaborative, but potentially slow, rescue operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams initiate surgical operations. They swiftly retrieve pangolins, but the rushed operation distresses the animals and leaves root cause of poaching untouched. Immediate results, long term uncertainty.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team performs a quick surgical while the other alerts local authorities. The surgical operation is successful and serves as a decoy, aiding local authorities’ crackdown on poachers effectively.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team joins hands with local authorities while the other dispatches a swift raid. This causes minimal stress to pangolins and a broader impact against the poaching operations in the region.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships engage local enforcements in a collaborated crackdown. This slower approach addresses the root problem effectively, but some poachers escape in the chaos, potentially to regroup later.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the pangolins show signs of severe stress. The teams must decide what actions to take.",
+      "options": {
+        "A": "Change to a slower, but more comfortable, airspeed for the pangolins, consuming more fuel.",
+        "B": "Maintain the current pace and have onboard animal wellness experts manage the pangolins' stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams slow down. The slower speeds alleviate the pangolins' stress but strain the hydrogen reserves and impact mission timeline.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team slows the speed while the other proceeds at current pace with gathering medical attention. Varied response notably affect pangolins' recovery and mission's time frame.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship slows down to ease the pangolins' stress, while the other maintains speed by ramping up medical assistance. These collective efforts ensure the mission's success without hindering the pangolins' recovery.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to press on while giving maximum medical attention. The pangolins make a promising recovery due to the teams' diligent care without losing mission timeline.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Nearing Vietnam, the airships face stringent air traffic rules. Besides, a media frenzy has sprung up around the mission, adding further constraints.",
+      "options": {
+        "A": "Maintain low profile, avoiding popular air corridors to prevent detection from media and poachers.",
+        "B": "Use the media attention to raise awareness about pangolin poaching, but risk revealing the mission to potential poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams maintain a low profile, ensuring a stealthy and safe arrival. However, they miss a unique opportunity to ignite a global debate on pangolin conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team keeps low profile while the other uses the media spotlight. This offers a balance of covert operation and raising awareness, creating a lasting impact in conservation efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team negotiates the media and possible threats while the other keeps a low profile. This calculated approach successfully transports the pangolins to safety and brings wildlife conservation to the forefront.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use the media attention to their advantage. Even though some threats surface, they successfully steer global focus on pangolin welfare and conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

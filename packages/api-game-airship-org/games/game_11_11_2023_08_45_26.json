@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Last Wilderness",
+  "gameDescription": "The untouched wilderness of Antarctica stands at the brink of a new era as the surge in tourism threatens its delicate balance. The Red and Blue Teams, as captains of state-of-the-art airships, are given the responsibility to usher in this new era without compromising the integrity of this frozen haven. Each micro-decision will influence the delicate balance between boosting the Antarctic tourism and protecting the unique native ecosystem.",
+  "setting": {
+    "location": "Above the Antarctic Continent",
+    "missionStart": "McMurdo Station ",
+    "missionEnd": "Antarctic Peninsula"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Orion Cruisers",
+      "description": "Masters in flight technology and strategic snow navigation."
+    },
+    "redTeam": {
+      "name": "Polarius Voyagers",
+      "description": "Experts in eco-tourism and environmental conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face the task of choosing a perfect landing site for tourists. They have to carefully plan to minimize the environment disturbance.",
+      "options": {
+        "A": "Choose an already popular site, which is significantly impacted but preferable to tourists.",
+        "B": "Choose a pristine uninhabited area teeming with wildlife, risking moderate disturbance for the sake of equity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams select the populated area causing minimal additional impact, simultaneously allowing tourists to witness Antarctica's mesmerizing sights without significantly disrupting pristine areas.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One team chose to land at an already impacted location, while the other dares for an untouched pristine site. The pristine area sees slight unrest but draws attention to untouched spots worth conserving.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Opting for different landing sites, the teams collectively spread out tourists, thus managing the pressure on one site. This balance brings out the dilemma of exploration and conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose pristine spots, leading to a slight disturbance but also sparking a worldwide call for stricter tourism regulations in untouched areas.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing the swarm of eager tourists efficiently is the next challenge on the teams' plate. The decision to allow every enthusiastic traveller or cap for the environment's sake is not easy.",
+      "options": {
+        "A": "Allow a larger number of tourists, risking a potential higher environmental impact for economic gain.",
+        "B": "Limit the number of tourists, prioritizing conservation and reduced revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow larger tourist numbers, bringing significant economic influx, but also increased pressure on the environment. The balance seems shaking.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The team allowing more tourists attracts a host of eager travellers, while the other stands firm on its limit. The limited number results in a high demand, raising awareness on the need for sustainable exploration efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Balanced between a team allowing higher numbers and the other advocating for a cap, the differing strategies spark debate among tourist operators about the importance of sustainable practices in this pristine wilderness.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limiting numbers exhibit a strong stand for the environment, resulting in increased demand. The polar beauty remains largely unscathed, fueling the arguments for sustainable tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The final decision, enforcing a conservation initiative, tips the scales in favor of the environment.",
+      "options": {
+        "A": "Actively engage tourists in conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both parties opting to involve tourists in conservation efforts results in a newfound respect for the continent's fragility among the tourists and highlights the necessity of personal accountability.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "With one team advocating hands-on experience and the other stressing on strict regulations, a multi-pronged approach towards conservation stokes discussions for a sustainable Antarctic tourism model.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Balancing active conservation with firm regulations, the teams collectively advocate for a new form of tourism, balancing humanity's exploratory spirit and Earth's enduring preservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "The decision to firmly regulate tourist intervention allows for minimal disruption, and the Antarctic continues to mystify both locals and the occasional tourist. The precedence for preservation has been set.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

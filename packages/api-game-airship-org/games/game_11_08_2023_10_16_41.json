@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Plight: Aerial Odyssey",
+  "gameDescription": "Join the Red Falcon and Blue Condor airship teams as they embark on a daring mission to transport newly rescued pangolins from challenging environments to the safe haven of the new pangolin enclosure in Vietnam. Each team will make strategic decisions affecting not only the success of their mission but also the future of these criticially endangered creatures.",
+  "setting": {
+    "location": "Global Wildlife Hotspots",
+    "missionStart": "Poaching Threat Zones",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Blue Condor",
+      "description": "Highly skilled in delicate wildlife rescue operations and airship stealth."
+    },
+    "redTeam": {
+      "name": "Red Falcon",
+      "description": "Expertise in swift but safe air navigation and wild-life first aid."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While en-route to Africa, the teams receive intelligence about a poaching operation.",
+      "options": {
+        "A": "Report to local authorities and continue on the original route.",
+        "B": "Divert course and attempt to intervene directly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to report the poachers. The African authorities are able to intervene, and the mission stays on course. However, a pangolin is lost in the process, emphasizing the real-time stakes.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Falcon chooses to report, while Blue Condor intervenes, rescuing several pangolins. The direct intervention costs more fuel, and Blue Condor now trails but garners valuable support.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Condor reports while Red Falcon intervenes. Despite losing fuel, Red Falcon's daring rescue is lauded, creating a public momentum shift towards pangolin conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for direct intervention. A difficult choice, but the number of rescued pangolins increases significantly - a tangible victory in the fight against wildlife trafficking!",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the airships navigate to Asia, they must decide the best way to provide care for the rescued pangolins.",
+      "options": {
+        "A": "Create a small, mobile makeshift setup within the airship.",
+        "B": "Stopover at the nearest wildlife care station."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide for a mobile setup. The rescue mission is not delayed, and their innovative solutions are applauded, but the pangolins are stressed due to the confined setup.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Condor continues in-flight care while Red Falcon opts for a care station stopover. Red Falcon returns with healthier pangolins while Blue Condor maintains a speed advantage, setting the stage for an exciting finale.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Falcon maintains flight, while Blue Condor lands. On rejoining the journey, Blue Condor's pangolins show remarkable improvement, leaving Red Falcon with a challenging late-stage decision to make.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to stopover, providing the pangolins with a much-needed respite. They may have added hours to their journey, but the visibly healthier pangolins boost morale and public support.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach the enclosure, air traffic congestion signals potential delays.",
+      "options": {
+        "A": "Navigate to a secondary lower traffic airspace, which is more fuel and time consuming.",
+        "B": "Determine a precise landing schedule, negotiating with air authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for lower traffic airspaces. Delayed but successful, the pangolins are finally brought to sanctuary. The teams' commitment to avoid risk evidences their commitment to the mission's success over competitive advantage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Falcon chooses the slower route, while Blue Condor successfully negotiates a landing slot. Blue Condor's decisive action gets applauded, upon a swift and safe pangolin delivery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Condor takes the longer path while Red Falcon secures a landing slot. Red Falcon's assertive negotiation ensures the pangolins' swift delivery and secures them the mission advantage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships negotiate landing slots. They arrive simultaneously, displaying an inspirational show of collaboration for the world. The pangolins thrive in their new home, a beacon of hope for their species.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

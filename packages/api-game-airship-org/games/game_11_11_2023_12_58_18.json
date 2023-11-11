@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco Odyssey",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. Navigating this delicate landscape, players as the captains of futuristic airships must balance the demand for exploration with the urgent need to protect Antarctica's unique ecosystem. How will your strategic decisions impact tourism in Antarctica while facilitating scientific research and sustainable exploration?",
+  "setting": {
+    "location": "Antarctic Wilderness",
+    "missionStart": "Airship Launch Site",
+    "missionEnd": "Antarctic Tourism Hotspot"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Antarctic Protectors",
+      "description": "Focused on scientific research and promoting sustainable tourism."
+    },
+    "redTeam": {
+      "name": "Polar Progressives",
+      "description": "Driven to facilitate exploration without disrupting the environment."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Tourism Season kick starts and Airships must choose a landing site. The decision carries risk and potential reward.",
+      "options": {
+        "A": "Set course for a well-known, already impacted tourism area.",
+        "B": "Explore a pristine, untouched location for a new tourism site."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted area. Their decision minimises further environmental spread of human activity but they also confront high pollution levels.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Antarctic Protectors charted a course to the untouched location, while Polar Progressives selected the impacted area. Coincidentally, the scientists applaud the untouched site's revelation of new research possibilities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polar Progressives ventured into the untouched location while Antarctic Protectors chose the frequented site. The pristine location draws attention from eco-conscious tourists, boosting Polar Progressives' influence.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews ventured into the untouched wilderness. It stirred new possibilities but also raised alarms about disturbing the delicate balance of this unspoiled ecosystem.",
+          "bonusCard": "Eco-Innovation"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams must now decide on their respective airship's capacity. It's a delicate balance between accommodating enthusiastic explorers and preserving the cold continent.",
+      "options": {
+        "A": "Maximise the tourist intake, leading to potential high returns but also greater environmental footprint.",
+        "B": "Limit the tourist numbers, minimising environmental impact but reducing income from tourism."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships swarmed with eager tourists. Although the returns are high, the environmental footprint has been considerably heightened, leading to criticism from environmentalists.",
+          "bonusCard": "Research Grant"
+        },
+        "AB": {
+          "narrative": "Antarctic Protectors limited their tourist intake, while the Polar Progressives invited more tourists. Both choices were received with mixed reactions, striking a contrasting balance between financial gain and environmental responsibility.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Polar Progressives chose to limit the number while the Antarctic Protectors maximised intake. This led to a contrasting image, earning Polar Progressives positive approval from eco-conscious critics and scientists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limited their airships' intake. It was clear that environmental conservation takes precedence for both. However, the reduced income put a strain on their budget for further missions.",
+          "bonusCard": "Environmental Damage"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "With the season in full swing, the teams are offered the chance to implement a conservation initiative. Each choice can improve their standing among tourists and conservationists alike.",
+      "options": {
+        "A": "Involve tourists in active conservation efforts, thus raising awareness and accountability.",
+        "B": "Emphasize on imposing strict regulations and area closures, ensuring preservation of the environment at the cost of exploratory freedom."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deployed active tourist involvement in conservation. The commitment to create responsible explorers was appreciated worldwide, leading to the rise of a new wave of conscientious touism.",
+          "bonusCard": "Eco-Innovation"
+        },
+        "AB": {
+          "narrative": "While Antarctic Protectors entertained tourist involvement in conservation, Polar Progressives emphasized strict regulations. It led to a balanced approach, pleasing both responsible tourists and strict environmentalists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polar Progressives rolled out an active conservation program for tourists, while Antarctic Protectors stressed strict regulations. This resulted in a harmonious blend of involvement and regulation, fostering a new trend in sustainable tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for strict regulations and area closures. While exploration was compromised, the Antarctic wilderness sighed in relief as the environment remained relatively unspoiled.",
+          "bonusCard": "Research Grant"
+        }
+      }
+    }
+  ]
+}

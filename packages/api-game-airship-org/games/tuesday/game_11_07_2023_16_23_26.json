@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin's Journey: A Race Against Time",
+  "gameDescription": "Operating two state-of-the-art airships, the Red and Blue Teams, tasked by Greater Good Charities and Wildlife at Risk, embark on a mission to safely transport rescued pangolins from Africa to their new enclosure in Vietnam, aiming to protect these endangered creatures from poaching while navigating through complex challenges in wildlife conservation and transportation.",
+  "setting": {
+    "location": "A journey from Africa to Vietnam",
+    "missionStart": "African Pangolin Rescue Centre",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Equinox Explorers",
+      "description": "Experts in safe and humane transportation of wildlife."
+    },
+    "redTeam": {
+      "name": "Vespertide Voyagers",
+      "description": "Specialists in energy optimization and environmental laws."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon the teams' departure, they receive news of ongoing wildfires in a region along their designated flight path to Vietnam. Deciding on a safe route is crucial for the wellbeing of the pangolins.",
+      "options": {
+        "A": "Maintain the original route using advanced fire-resistance measures in the airship.",
+        "B": "Deviate from the original path to bypass the wildfire-affected areas at the cost of extra time and fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams elect to remain on the original path. The airships hold up well, but the stress experienced by the pangolins raises concerns about their wellbeing.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts course while the other remains steadfast. The diverging team arrives late but with relaxed pangolins, gaining the appreciation of the waiting veterinary team in Vietnam.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Diverging from the path, the Red Team arrives with calm and restful pangolins, while the Blue Team's passengers emerge somewhat shaken from the ordeal.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams deem safety as the top priority and choose an alternate path, ensuring the tranquility of their pangolin passengers despite the delay.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive a distress signal indicating illegal wildlife traffickers nearby. While pursuit could potentially apprehend the culprits, it is not without risks.",
+      "options": {
+        "A": "Continue with the mission while sharing the intelligence with local enforcement.",
+        "B": "Divert from the mission to apprehend the traffickers with the airship's advanced stealth abilities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing not to endanger the pangolins, both teams leave the situation in the capable hands of law enforcement. While the culprits escape, the pangolins' safety remains uncompromised.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue Team stays on course, while the Red Team intervenes and successfully apprehends the traffickers, gaining commendation from wildlife agencies.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team protects their precious cargo, while the Blue Team's daring strike apprehends the traffickers and elicits praise from the global community.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Choosing not to risk the pangolins, both teams coordinate with law enforcement. Their collective decision reflects the primary mandate of wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Both teams approach Vietnam amidst a seasonal storm that poses significant risks but can be avoided with expert navigation and increased fuel consumption.",
+      "options": {
+        "A": "Use advanced beacon navigators to maneuver through the storm and arrive on time.",
+        "B": "Detour around the storm, delaying arrival but ensuring safety and comfort for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Facing the storm, both teams arrive on schedule, but the ordeal has visibly stressed the pangolins, highlighting the balance between mission success and cargo wellbeing.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue Team detours for the pangolins' comfort, while the Red Team arrives early, drawing a comparison between time-efficiency and the fragile creatures' comfort.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team opts for a comfortable detour, while the Blue Team tackles the storm head-on, leading to contrasting consequences upon arrival in Vietnam.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the pangolins' comfort over timeliness, confirming their dedication to wildlife preservation despite the necessary sacrifices.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

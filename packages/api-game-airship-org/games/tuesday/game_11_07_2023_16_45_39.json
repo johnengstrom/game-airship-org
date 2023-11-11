@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Echo: The Pangolin Rescue",
+  "gameDescription": "Two advanced airships, working with Greater Good Charities and Wildlife At Risk, embark on a daring mission to rescue pangolins from illegal poaching sites in Africa and transport them to a newly-built enclosure in Vietnam. Each decision made by the airship crews affects the success of the mission and the well-being of the endangered pangolins.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Illegal Poaching Sites in Africa",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Orion Protectors",
+      "description": "Skilled in stealthy and calm navigation, ensuring minimal stress to the pangolins during transport."
+    },
+    "redTeam": {
+      "name": "Pegasus Guardians",
+      "description": "Experts in onboard animal care and medical interventions during transport."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships identify a poached pangolin group but it’s a heavily guarded site. They must decide what approach to take.",
+      "options": {
+        "A": "Launch a quick-lighting smoke bomb to confuse the poachers and quickly swoop in for rescue.",
+        "B": "Coordinate with local law enforcement for a joint rescue plan."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams swiftly confuse and stun the poachers, successfully rescuing the pangolins but drawing attention from nearby poachers, making future operations riskier.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team distracts the poachers whilst the other aids law enforcement. The smoke distracts the poachers long enough for the pangolins to be safely retrieved.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team aids law enforcement whilst the other distracts the poachers. The joint rescue plan works smoothly, allowing for a safer approach in future missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local law enforcement, ensuring a well-planned and stealthy rescue, although it takes more time. This develops a good rapport with local authorities for future missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During transportation, some pangolins show signs of health complications due to stress.",
+      "options": {
+        "A": "Reduce airship speed, increasing travel time but minimizing the stress-causing turbulence, and continue onboard medical treatment.",
+        "B": "Keep current speed and intensify onboard medical treatment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to reduce speed and focus on treatment. It causes delay, however the pangolins recover, ensuring safe arrival at the sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team slows down whilst the other maintains speed. Slow and steady wins the race as their pangolins show better recovery due to less turbulence.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team keeps speed, while the other slows down, combining efforts allow for well-managed stress. The fast airship's roast has better equipment for handling medical emergencies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams keep speed and increase medical treatment. A risky choice, but their expertise keeps most pangolins in stable conditions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, teams face strict air traffic regulations, and a disruption caused by a typhoon warning.",
+      "options": {
+        "A": "Divert the route to evade the typhoon, causing delay but ensuring safety.",
+        "B": "Keep current route, maintain communication with air traffic control, and rely on advanced anti-typhoon technology."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert the route, causing delay but ensuring the pangolins arrive safely. They showed understanding of natural forces and commitment to their mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts, while the other continues and relies on their anti-typhoon mechanisms. The divers had a smoother journey, while the others faced some difficulties but managed to handle it.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team continues while the other diverts. The continued troop face minor difficulties but the advanced technology pay off, giving them lead.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams brave the weather and continue on their path. Their state of the art airships were able to endure the weather, showing their resilience and dedication.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

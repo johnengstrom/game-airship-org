@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Conservation: The Pangolin's Plight",
+  "gameDescription": "Two airships from Greater Good Charities and Wildlife At Risk are tasked with an urgent eco-mission. In alarming numbers, the shy Pangolins are being poached, rendering them the most heavily trafficked wild mammal worldwide. It becomes the teams' responsibility to safely transport young pangolins from dangerous poaching territories in Africa to a recently built, state-of-the-art enclosure in Vietnam. Decisions made during this critical journey impact the survival of these endangered pangolins and the environment.",
+  "setting": {
+    "location": "Africa on the move to Vietnam",
+    "missionStart": "Africa poaching territory",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Guardians",
+      "description": "Focused on efficient mobilization and humane animal care."
+    },
+    "redTeam": {
+      "name": "Wildlife Rescue Rangers",
+      "description": "Specializes in navigating high-risk zones and conservation strategy."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships embark on the mission but face surveillance from suspected poachers. They must decide how to respond.",
+      "options": {
+        "A": "Use stealth technology to avoid detection, risking the stealth systems' high energy consumption.",
+        "B": "Engage authorities, which may delay the departure but ensure safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use stealth technology, avoiding detection but straining their energy reserves. Their use of advanced technology is promising for the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses stealth while the other engages authorities. The stealth team is undetected but depletes energy, while the other faces a delay but guarantees safe departure.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team engages authorities while the other uses stealth. Both strategies are successful, but both encounter their own challenges, balancing out the stakes.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams engage authorities. Their departure is delayed, but security ensues, strengthening their morale for the journey ahead.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The pangolins show signs of stress during travel. The airships must decide how to relieve this stress to ensure the Pangolins' health.",
+      "options": {
+        "A": "Administer a mild sedative to ease the pangolins' anxiety.",
+        "B": "Alter course to a more scenic and calming route, potentially increasing travel time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships administer a mild sedative. The pangolins calm down quickly, allowing the mission to proceed smoothly but caution must be maintained over their health.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship administers sedatives while the other chooses a scenic route. The route proves to be calming, and the sight of other airships creates a sense of safety.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one airship chooses a scenic route, the other administers sedatives. Both strategies work well, proving the teams capable of responding to unexpected challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose a scenic route. The journey is longer, but the calming visuals help soothe the pangolins, make it worth the delay.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the airships encounter stringent conservation laws, requiring careful coordination to avoid penalties.",
+      "options": {
+        "A": "Allow the pangolins to acclimate to local climate conditions gradually, extending their journey time.",
+        "B": "Secure early clearances, expediting the process but possibly stressing the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose to acclimate the pangolins gradually. The journey time lengthens, but the strategy benefits the pangolins' overall health and well-being.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship secures early clearances while the other acclimates the pangolins. Both strategies bear fruit, showcasing their commitment to the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship securing clearances and the other acclimating the pangolins, the mission succeeds with optimal time management and minimal stress for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships secure early clearances, hurrying the process. It’s a challenging end but proves their adeptness in conservation strategies and pangolin care.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

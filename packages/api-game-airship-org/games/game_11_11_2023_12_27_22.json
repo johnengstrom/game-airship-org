@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "Operation Pollination has players command advanced airships in a near future where the survival of bees and the global ecosystem is at stake. The game combines strategic decision-making with environmental conservation, focusing on the crucial role bees play in our world.",
+  "setting": {
+    "location": "Global Ecosystem",
+    "missionStart": "Airship Central Command",
+    "missionEnd": "Sustainable Bee Habitat"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Pioneers in sophisticated ecological technology and bee conservation awareness campaigns."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Experts in disaster recovery and sustainable expansion strategies benefiting bee populations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: An area devastated by hurricane is struggling to sustain its bee population.",
+      "options": {
+        "A": "Plant native flowers in the hurricane-affected area to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to both plant native flowers and reestablish bee colonies, the teams have increased the chances of recovery for the bee population. However, this approach required significant labor and resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focused on habitat restoration, while the other introduced new bee colonies. The diversification of strategies resulted in a well-balanced recovery plan.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams took different approaches: One planted flowers, while the other established new colonies. This resulted in a multi-pronged recovery strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritized the establishment of new colonies in safe zones. This resulted in a significant boost for the bee population, but leaves a need for increased habitat restoration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: A once vibrant bee habitat was recently ravaged by wildfires.",
+      "options": {
+        "A": "Seed the fire-ravaged area with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to plant bee-friendly vegetation in the wildfire area. The restoration is in progress, but the success of these actions will depend on the upcoming weather conditions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team restored the natural habitat, while the other created artificial ones. This combination of strategies maximizes the bee populations' chances of survival.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team worked on creating new habitats, the other restored the natural habitats with bee-friendly vegetation. The diversified strategy offers the best hope for the bee populations.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focused on creating artificial habitats for the bees. The displaced bee population has welcomed the new habitats with buzzes of approval. However, there's still a need for restoring the natural habitats.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: Both teams have made significant strides in recovery efforts, but there is need for sustained conservation actions.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams dedicated resources to develop technologically advanced bee sanctuaries. The bee population is booming in these sanctuaries, but public awareness of the bees' plight remains low.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focused on creating advanced sanctuaries, while the other worked to increase public awareness. Their collaborative effort has led to a greater public interest in bee conservation, and the bees are thriving in their new sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams employed different strategies: awareness campaigns and the creation of bee sanctuaries. Their combined efforts resulted in a comprehensive approach to bee conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launched effective awareness campaigns, leading to an increased public interest in bee conservation. While the campaigns are successful, there remains a pressing need for more bee sanctuaries.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

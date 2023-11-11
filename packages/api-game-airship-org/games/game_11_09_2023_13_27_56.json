@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Exploration and Conservation",
+  "gameDescription": "In the near future, Antarctica's pristine wilderness faces a surge in tourism, posing unique challenges. Players control futuristic airships, making strategic decisions to balance the demands of exploration with protecting Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctic Skyways",
+    "missionStart": "Global SCi-Tech Conference",
+    "missionEnd": "Antarctic Research Base"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Frost Falcons",
+      "description": "Experts in sustainable logistics and tourist management."
+    },
+    "redTeam": {
+      "name": "Polar Pioneers",
+      "description": "Specializing in innovative conservation efforts and research facilitation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships need to select a landing site for the tourists. The choice could impact the environment drastically.",
+      "options": {
+        "A": "Choose an impacted area that already attracts many tourists.",
+        "B": "Select a pristine, untouched location for a unique experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land at the impacted area, creating a buzz but also raising concerns about over-tourism. Their decision has increased awareness, but also the need for dedicated conservation efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The pristine site offers the Red Team's tourists an extraordinary experience, but it suffers light damage. The Blue Team wisely avoids major tourist areas, commanding positive public opinion.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Blue Team disturbs the untouched area, leading to public criticism. Meanwhile, the Red Team's choice of an impacted area is seen as a deliberate effort to protect untouched regions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams' choice of a pristine site offers an awe-inspiring experience, but damage from the sudden influx of tourists sparks global debate on the fine balance between conservation and meaningful exploration.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "To manage visitors, both airships must make decisions about the number of tourists they allow. This choice will impact revenue and conservation efforts.",
+      "options": {
+        "A": "Allow a higher number of tourists, potentially causing more environmental impact for more revenue.",
+        "B": "Limit tourist numbers for conservation purposes, risking lower revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow a higher number of tourists. Their choice boosts revenue but strains the delicate ecosystem. Their decision sparks larger conversations on sustainable tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue Team allows a higher number of tourists, causing further impact. The Red Team is praised for limiting numbers for conservation, regardless of the revenue loss.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team's decision to allow more tourists is met with mixed reviews. Meanwhile, the Blue Team's decision to limit tourist numbers garners praise for their focus on conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers, intentionally incurring lower revenue for conservation. Their joint stand sets a precedent in the tourism sector, underlining the importance of preservation over profit.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams can implement a conservation initiative for their tourists. This will directly impact the future of Antarctic tourism.",
+      "options": {
+        "A": "Actively engage tourists in conservation efforts.",
+        "B": "Enforce strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in ongoing conservation efforts. The tourists become champions of preservation, amplifying the importance of sustainable practices to combat increased tourism impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue Team's active engagement programs inspire tourists, while the Red Team's firm regulations face resistance. However, both methods highlight the need for environmental responsibility.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Team's interactive programs are successful, overshadowing Blue Team's restrictive approach. Yet, both teams manage to demonstrate the importance of conservation in tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce strict regulations and closures, inviting criticism but undeniably protecting vulnerable areas. This increases dialogue about sustainable exploration and its place in global tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

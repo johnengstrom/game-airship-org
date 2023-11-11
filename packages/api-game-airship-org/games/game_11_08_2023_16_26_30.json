@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Navigating the Ice-Capped Frontier",
+  "gameDescription": "In an era of increased polar tourism, players command state-of-the-art airships, shuttling between the untouched wilderness of Antarctica and bustling hubs of civilization. As airship captains servicing this emerging exploration market, strategic decisions will dictate the environmental impact of their operations and the validity of their business model.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Global Metropolis",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Icarus Voyage",
+      "description": "Known for their fastidious mission planning and relentless pursuit of eco-friendly yet profitable operations."
+    },
+    "redTeam": {
+      "name": "Polaris Skyline",
+      "description": "Renowned for their precision in navigation and advocacy for sustainable Antarctic tourism."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "With the booming demand for Antarctic tours, you must choose a landing site. Each decision will affect Antarctica's ecosystem and your business model's viability.",
+      "options": {
+        "A": "Select a popular, already impacted area for landing.",
+        "B": "Opt for a pristine, untouched location for a unique tourist experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the impacted area, concentrating tourist activities and minimizing further ecosystem disturbance. However, overcrowding could potentially tarnish the Antarctic experience.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "In spite of shared routes, the teams diverged. While one adhered to the impacted zones, limiting further disturbances, the other ventured into pristine territories, promising exclusive experiences but raising environmental concerns.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Again, discord marked the teams' choices. Maintaining the exclusive appeal of untouched lands but risking environmental degradation was one approach, while the other opted for more sustainable operations in already impacted areas.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Eager to offer unparalleled experiences, both teams chose untouched territories, compromising the ecosystem's integrity. Their tactics sparked discussions on tourism's sustainable boundaries.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With your landing site chosen, you now have to decide on your guest capacity. Your choice will impact the environment as well as your revenue stream.",
+      "options": {
+        "A": "Accommodate a higher number of tourists for potential higher revenue at the risk of increased environmental impact.",
+        "B": "Limit the number of tourists to minimize environmental impact but at the cost of reduced revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams elected to accommodate more tourists. While this resulted in higher earnings, it also led to an increased environmental footprint – a precarious situation that drew global attention.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chose profit over preservation. The environment suffered while revenue soared. The other team retained a minimalist approach, easing pressure on the fragile ecosystem. The contrast was stark, and public opinion began to sway.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team's policy of limited tourists was a relief to the ecosystem but dented their balance sheets. The other team, however, chose revenue and attracted a flood of tourists, causing significant environmental strain.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Conservation reigned supreme as both teams chose to restrict their tourist numbers, reducing stress on the environment but inhibiting revenue. The move was hailed as a significant step in eco-tourism, affecting global policies on Antarctic travel.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Linking tourism with conservation, you're tasked with implementing a new initiative. Your success will be measured by the initiative's influence on balancing sustainable tourism with environmental preservation.",
+      "options": {
+        "A": "Promote active engagement of tourists in conservation efforts.",
+        "B": "Implement strict regulations and area closures to minimize impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Driven by conviction, both teams engaged tourists in conservation efforts, simultaneously educating the public and enhancing their engagement. These actions didn't go unnoticed, prompting other tour operators to follow suit.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team made a push for stricter regulation, enforcing area closures. The other team politically maneuvered to involve tourists directly in their conservation efforts. The competing initiatives captured media headlines, leading to heated debates about the best path forward.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team chose to enforce strict regulations, while the other promoted active tourist involvement in conservation. The differences in approach provoked a comprehensive dialogue on the best way to manage Antarctic tourism sustainably.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for stringent rules and closures, showing a firm commitment to conservation. This uncompromising stance reshaped Antarctic tourism norms, making sustainability the driving force behind operations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

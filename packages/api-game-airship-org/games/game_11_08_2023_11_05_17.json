@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Skyhealer: Operation Pangolin Rescue",
+  "gameDescription": "The Red and Blue teams of intelligent airships have a vital mission - to navigate the dangerous landscapes of poaching territories, support and transport rescued pangolins safely to their new sanctuary, an innovative enclosure in Vietnam, built by Greater Good Charities and Wildlife At Risk. With pangolins being the most heavily trafficked mammal globally, this mission is crucial to their survival, shining a beacon of hope on their dark narrative.",
+  "setting": {
+    "location": "Above Southeast Asia",
+    "missionStart": "Various Danger Zones",
+    "missionEnd": "New Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Protectors",
+      "description": "Experts in rescue operations and dealing with critical situations."
+    },
+    "redTeam": {
+      "name": "Airborne Guardians",
+      "description": "Specialists in stealth navigation and wildlife care during transit."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon identifying a group of pangolins in danger, teams must decide how to safely extract them without alerting poachers.",
+      "options": {
+        "A": "Create a diversion to distract the poachers while extracting pangolins.",
+        "B": "Wait for the night and extract pangolins using stealth navigation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams created diversions, safely extracting the pangolins. This move has alerted the poachers but importantly the pangolins are safe for now.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The daytime diversion of one team allowed the other to perform a night extraction with minimum risk. Both teams successfully safeguard the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With the Red team causing a diversion, the Blue team waits until dark to perform the rescue. The pangolins are saved with collaborative effort.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for a night extraction. Although the operation took more time, no pangolin was left behind and the mission continues undetected.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive conflicting reports; one about a group of baby pangolins left behind, other about an imminent storm.",
+      "options": {
+        "A": "Dispatch a drone to find and rescue the babies, risking a battle with the storm.",
+        "B": "Avoid the storm and continue transporting the rescued pangolins to the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams risk the storm to save baby pangolins using drones. Their joint effort pays off and all pangolins are safely aboard, but the storm proves challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue team braves the storm to rescue the babies while the Red team continues moving rescued pangolins towards the sanctuary. Both teams accomplish their tasks, albeit with adversity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red team responds to the report, while Blue team navigates through safe skies. Both missions are successful, showcasing the value of prioritizing different aspects of the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to continue transport, not risking the additional response to the storm. While the pangolin babies are rescued later by ground teams, the airships ensure the safety of their current passengers.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams approach the sanctuary but there’s a missile alert from poachers. The choice has to be made: use defense mechanisms or accelerate to outrun the threat.",
+      "options": {
+        "A": "Deploy smoke screen and chaffs to neutralize the threat.",
+        "B": "Boost engine output risking sensitive pangolin cargo to outrun the missile."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy defenses and halt the missile, ensuring secure entry into the sanctuary. This daring act saves the day but alerts the authorities to the existence of the poaching ring.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship uses a smoke screen, while the other accelerates. The combined effort confuses the missile, saving the pangolins and teams, bound for the sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With Red team deploying defenses and Blue team accelerating, the missile fails to find its target. The pangolins are safely delivered to the sanctuary, awaiting their new life.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams accelerate, exhausting their fuel reserves but outrunning the missile. This timeline disrupts the arrival and implicates the involved poaching ring, all while safely delivering the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

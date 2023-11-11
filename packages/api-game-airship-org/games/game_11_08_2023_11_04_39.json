@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Expedition: Airships of Hope",
+  "gameDescription": "As commanders of intelligent airships, navigate intense missions to transport vital supplies and equipment to a new pangolin enclosure in Vietnam. Faced with complex scenarios, each decision you make will not only influence the survival of this endangered species, but also impact Earth’s natural ecosystem. Choose wisely, delicate lives are at stake.",
+  "setting": {
+    "location": "Global travel ending in Vietnam",
+    "missionStart": "Global Wildlife Rescue Headquarters",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Shields",
+      "description": "Masters of rapid cargo deployment and advanced navigation."
+    },
+    "redTeam": {
+      "name": "Windborne Wardens",
+      "description": "Experts in wildlife protection, with superior fuel efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face the predicament of losing communications with the ground. They must decide how to navigate through this issue without loss of the mission’s mandate.",
+      "options": {
+        "A": "Deploy a sophisticated AI navigation system, ensuring precision but increasing energy.",
+        "B": "Opt for flying at a lower altitude, reducing energy usage despite slower evacuation process."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rely on AI navigation, speeding up the process but consuming extra energy. They arrive on time, demonstrating their strategic capabilities and dedication to the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses AI navigation while the other lowers altitude, resulting in an efficient blend of speed and energy consumption. Both approaches underscore the teams' adaptability amid challenging circumstances.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team decides on a lower altitude, the other uses AI navigation. Their combinative efforts lead to a balanced result in terms of energy consumption and mission speed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a lower altitude, saving energy but sacrificing speed. Their similar strategies create a synchronized rhythm, both airships efficiently navigating uncharted skies.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships receive a distress signal from an illegal wildlife trade ship. How do they handle this grave situation?",
+      "options": {
+        "A": "Choose to inform the international wildlife authorities, possibly slowing down the mission.",
+        "B": "Decide to intervene directly, risking a confrontation but potentially saving more pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams inform the authorities, ensuring the law takes its course. This decision slows down their mission, but they know the enforced delay serves a greater cause.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team proceeds to inform the authorities while the other bravely intervenes. The intervening team faces unforeseen challenges but manages to save numerous pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team courageously intervenes, the other informs authorities. Their joint actions lead to a significant crackdown on illegal trading, demonstrating the power of diverse strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to confront the illegal traders directly. Their bold actions lead to the rescue of a multitude of pangolins, though they face perilous encounters.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they near their destination, the teams come across an unexpected airship carrying medical supplies in distress. The decision they make can change the course of their mission.",
+      "options": {
+        "A": "Decide to divert to aid the distressed airship, risking a delay in the mission.",
+        "B": "Choose to continue with the mission, prioritizing the immediate needs of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to aid the distressed airship. Their kindness interrupts the mission but potentially saves numerous lives. Their efforts are commended globally.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team aids the distressed airship, while the other continues. The diverted team saves lives, but the undeterred team ensures a timely delivery for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team aiding the other airship while the other proceeds, the tasks balance out. Both life-saving missions continue simultaneously, showcasing remarkable teamwork under pressure.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to continue with the pangolin mission. The pangolins reach their sanctuary on time, but the teams face criticism for ignoring the distress signal.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

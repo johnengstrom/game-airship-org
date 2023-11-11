@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Flight: A Call to Arms",
+  "gameDescription": "In this eco-venturous game, two futuristic airships are entrusted with a precious cargo: a group of rescued pangolins meant for a new sanctuary in Vietnam. Each move made by the airship crews impacts the pangolins' journey, their safe arrival at the sanctuary, and the global fight against wildlife trafficking.",
+  "setting": {
+    "location": "Global route to Vietnam",
+    "missionStart": "Wildlife Rescue Center, Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Arcadian Freighters",
+      "description": "Masters of wildlife transport and operational efficiency."
+    },
+    "redTeam": {
+      "name": "Celestial Carriers",
+      "description": "Experts in strategic navigation and sustainable fuel consumption."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are entering a high-altitude jet stream that could expedite their journey, but may stress the pangolins due to lower temperature.",
+      "options": {
+        "A": "Utilize the jet stream, using heat shields to protect the pangolins from cold.",
+        "B": "Maintain current altitude, assuring optimal conditions for the pangolins but potentially delaying the journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use the jet stream. Heat shields effectively protect the pangolins, but the system's use could potentially strain other resources, challenging the remainder of the voyage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the jet stream while the other focuses on animal comfort. This divergence leads to an early lead for the jet stream team but possibly better health for the pangolins on the lower altitude ship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team prioritizing the pangolins’ comfort and the other speed, the time advantage skews towards the jet stream team. However, maintaining comfort could mean healthier pangolins on arrival.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the wellbeing of the pangolins. Their journey is slower but the pangolins remain in optimal conditions, setting a great example of compassionate wildlife transportation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal is received from a ship containing confiscated pangolin scales, needing escort to a disposal facility.",
+      "options": {
+        "A": "Divert resources to escort the ship, preventing illegal reclamation of scales.",
+        "B": "Continue the current mission, relying on local authorities to handle the distress call."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams respond to the call, reinforcing the stance against illegal wildlife trade. This noble act delays their arrival but they've faired well in a broader fight for pangolin survival.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship diverts to escort, affecting time & fuel, whilst the other continues the direct route. The diversion causes a lag, but sends a strong message of commitment to tackling wildlife trafficking.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team assisting the distressed ship, their pangolin journey is delayed but they contribute significantly to the broader fight against illegal trade, bringing balance in the overall mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to continue their direct journey, trusting the local authorities to manage the situation. They remain focused on the immediate mission, ensuring the pangolins' journey remains uncompromised.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, the teams have the chance to announce their arrival, potentially raising awareness for the plight of the pangolins but risking unwanted attention.",
+      "options": {
+        "A": "Broadcast arrival, enhancing global awareness of the mission.",
+        "B": "Maintain stealth and make a discreet landing at the new sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams broadcast their arrival, attracting worldwide attention, and enhancing awareness about pangolins. They face some diplomatic hurdles but their message reaches millions, boosting global consciousness.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team broadcasts while the other chooses stealth. The broadcasting team attracts attention for their cause, but the quiet team ensures a stress-free transition for the pangolins into their new home.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team discreetly landing and the other broadcasting, a balance is struck between raising awareness and ensuring the safety of the pangolins, effectively accomplishing both objectives.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose stealth, ensuring the pangolins transition seamlessly into their new sanctuary. Their quiet dedication speaks volumes in the ongoing battle for wildlife protection.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

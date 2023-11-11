@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airships Ascend: The Pangolin Rescue Mission",
+  "gameDescription": "In a near future where airships safeguard humanity's best hopes, two teams, the 'Biodome Falcons' and the 'Aegis Albatross', navigate treacherous terrains and unprecedented challenges as they embark on a ground-breaking mission to rescue and relocate endangered pangolins. Operating on advanced AI controls, these airships transport these fragile creatures from poaching-prone areas in Africa to a newly minted sanctuary in Vietnam. Decisions made throughout this high-stakes mission will influence not only the success of the operation, but also the teams' enviromental footprint and potential to cultivate much-needed empathy for our planet's endangered species.",
+  "setting": {
+    "location": "From the African Savannah to Vietnamese Jungles",
+    "missionStart": "Poaching-prone Areas in Africa",
+    "missionEnd": "New Conservation Facility in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Biodome Falcons",
+      "description": "Specializing in wildlife welfare and biodome maintenance."
+    },
+    "redTeam": {
+      "name": "Aegis Albatross",
+      "description": "Expert navigators with superb defensive capabilities."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Collecting pangolins in an area with heavy human activity is risky and intimidating for the pangolins. Teams must decide on an optimal extraction strategy.",
+      "options": {
+        "A": "Deploy stealth drones that can covertly extract pangolins to diminish stress.",
+        "B": "Initiate a short-term diversion to attract human attention while quickly extracting the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy stealth drones. This high-tech operation proves effective, but it consumes considerable energy resources, slightly straining the mission sustainability focus.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team deploys drones while the other causes a diversion. Thanks to successful teamwork, pangolins are rescued without detection. Both operations' sustainability values remain uncompromised.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team causes a diversion while the other uses stealth drones. The joint operation results in efficient extraction, but the high energy consumption from drone usage poses a concern.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams create a diversion. Though no high-tech expenditure is required, this approach escalates tension in the area, potentially complicating future conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While crossing the Indian Ocean, the teams spot a group of poachers illegally fishing on international waters.",
+      "options": {
+        "A": "Contact local law enforcement and provide real-time intelligence while maintaining course.",
+        "B": "Short-term diversion to confront the poachers directly, putting the mission and airships at slight risk."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams contact local law enforcement, providing critical support without deterring their mission. The successful outcome showcases their commitment to broader wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team contacts law enforcement while the other directly confronts the poachers. The varying approaches yield positive results, but the confrontational team's mission suffers slightly from the diversion.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team confronting the poachers and the other providing law enforcement support, the poachers are optimally thwarted. However, the direct confronters face challenges getting back on track.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose direct confrontation, risking their mission's timeline. While their bravery leads to the poachers' swift apprehension, this deviation devotes extra resources, straining mission sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival in Vietnam, teams face a highly complex maneuver around the enclosure's maze-like design build to mimic the pangolins' natural habitats.",
+      "options": {
+        "A": "Use advanced AI to calculate the optimal path, consuming additional energy.",
+        "B": "Manually navigate the maze while risking a likely delay in the mission completion."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use advanced AI. The expert navigation succeeds but at a significant energy expense, raising questions about mission sustainability moving forward.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses AI while the other manually navigates. The AI-navigated team completes the mission faster but with higher energy consumption. Conversely, the manual team takes longer but maintains sustainability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team manually navigates while the other uses AI. Despite facing challenges, both teams successfully settle the pangolins in the new environment, bringing the mission to a successful close.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams manually navigate the enclosure. This decision underscores the mission's sustainability focus and serves as an example of exceptional stewardship, despite the slightly delayed mission completion.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

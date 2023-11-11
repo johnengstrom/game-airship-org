@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skybound Saviors: The Pangolin Paradox",
+  "gameDescription": "Set amidst a backdrop of global wildlife conservation where Earth's valuable species teeter on the brink of extinction, two intelligent airship teams - red and blue, embark on strategic missions to save the pangolins, the most heavily trafficked wild mammal. The game involves the players in the transport of pangolins from the dangerous poaching zones to specific safe zones namely sanctuaries or reserves, wielding strategic options that will decide the fate of these creatures and that impact the environment.",
+  "setting": {
+    "location": "Above African Savanna & Asian Rainforest",
+    "missionStart": "High Risk Poaching Zone",
+    "missionEnd": "Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Guardians",
+      "description": "Masters in strategic and dynamic wildlife rescue and transport operations."
+    },
+    "redTeam": {
+      "name": "Air Rangers",
+      "description": "Specializing in stealth maneuvering and tactical extraction of wildlife."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships spot a group of pangolins - a perilous target for poachers. The teams must decide how to proceed.",
+      "options": {
+        "A": "Launch a quick extraction, risking detection by poachers.",
+        "B": "Conduct a stealth extraction, which is slower but minimizes detection risk."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams go in for a quick extraction, successfully rescuing the pangolins but alerting nearby poachers. Their actions shine a light on the inhumane hunting practices, causing global uproar and tightening wildlife protection laws.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship goes for a risky quick extraction while the other opts for stealth. The risky strategy pays off with the pangolins rescued and poachers alerted. Meanwhile, the stealth ship, although slower, extracts additional pangolins from another location undetected.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship opts for a stealth extraction while the other rushes in. The stealth team rescues the pangolins without alerting the poachers. The quick extraction team, despite causing a distraction, ensures a larger rescue operation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a stealth extraction. The operation is slower but successful, and the poachers remain unaware -- a testament to the teams' expertise.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While relocating the pangolins, the airships receive a signal from a sanctuary under attack.",
+      "options": {
+        "A": "Rush to the sanctuary, leaving the main mission for later.",
+        "B": "Continue the pangolin mission and alert local authorities about the attack on the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships rush to the sanctuary, successfully fending off the attackers, but delaying the main mission. Their dedication inspires public support and more donations towards wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship rushes to the sanctuary, fighting off attackers, while the other continues with the pangolin mission. The dual strategy works - the sanctuary is saved, and the pangolins are relocated, underlining the importance of teamwork and quick decision-making.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship going to the sanctuary and the other relocating pangolins, both missions are accomplished. The eclectic strategy undermines the poachers' plans and showcases the teams' ability to handle multiple situations simultaneously.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose to continue with the pangolin mission while alerting local authorities about the attack. The authorities manage to fend off the attack while the pangolins reach safety, proving the power of collaboration and resource management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships approach a strict air zone crossing the border, where they face a choice regarding their timing and fuel efficiency.",
+      "options": {
+        "A": "Speed up to cross the border quickly, using more fuel.",
+        "B": "Use stealth technology to cross slower with less fuel usage."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, using extra fuel but ensuring the pangolins reach the sanctuary in time. This sacrifice for wildlife safety pushes environmental agencies to develop fuel-efficient engines for future rescue missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds up, trading fuel for time, while the other uses stealth to cross slower but save fuel. The successful operations and contrasting decisions underline the need for a balance between efficient rescue operations and ecological impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one airship crosses quickly using extra fuel, the other saves fuel with a slower stealth crossing. The different strategies highlight the flexibility required in wildlife conservation and the necessity of adaptable solutions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the slower, fuel-efficient stealth crossing. Their success, despite the slower time, emphasizes the importance of patience and sustainability in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

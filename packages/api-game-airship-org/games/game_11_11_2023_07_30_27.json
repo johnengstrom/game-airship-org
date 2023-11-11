@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Buzzing Skies",
+  "gameDescription": "In Operation Pollination, players command advanced airships, taking on the great responsibility of restoring bee populations and their habitats affected by natural disasters and human activities. The Apis Aviators and the Bombus Navigators, adept airship crews, face a challenge that intertwines strategic decision-making with environmental conservation, all in the name of the buzzing creatures that are indispensable to our global ecosystem.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Airship Base",
+    "missionEnd": "Various ecological hotspots"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Apis Aviators",
+      "description": "Specialize in technological implementation and post-disaster recovery."
+    },
+    "redTeam": {
+      "name": "Bombus Navigators",
+      "description": "Excel in ecological knowledge and sustainable expansion."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "In the wake of a devastating hurricane, the teams set their sights on restoring bee habitats and populations.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on planting native flowers. The habitats bloom beautifully, attracting a variety of bee species. However, the singularity of their efforts leaves some bee colonies vulnerable to future natural disasters.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators cultivate the devastated land with native flowers, the Bombus Navigators work on establishing new colonies in safe zones. This diverged approach leads to a balanced recovery, but it consumes a significant amount of time and resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Focusing on nurturing new bee colonies in safe zones, the Bombus Navigators efficiently ensure survival post-disaster. The Apis Aviators, planting native flowers, watch as their hard work bears fruit in vibrant, buzzing habitats.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams dedicate their efforts to building new bee colonies in safe zones. Their work secures the survival of multiple bee species post-disaster, but the one-sided approach neglects the restoration of native habitats.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "After a series of wildfires, the environment is severely damaged. The teams are tasked with supporting the recovery of bee-friendly ecosystems.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Using airships, both teams relentlessly seed the fire-ravaged landscapes. The areas begin to recover, attracting bees back to their native habitats. Still, the solution might be too slow for some bee species threatened with immediate extinction.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators shower seeds over the scorched earth, the Bombus Navigators construct artificial habitats in safe areas. This strategy succeeds in buying valuable time for more long-term ecological recovery measures.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators build artificial habitats while the Bombus Navigators engage in significant seeding operations. The freshly sown landscapes and safe bulwarks fight back against the devastation, showing the way forward for the bees and their habitat.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to build artificial bee habitats in safe areas. As displaced bees find new homes, the destroyed ecosystems remain a barren reminder of the work that's yet to be done.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "With the post-disaster recovery in progress, the teams plan for sustainable expansion to protect bee populations in the long run.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Investing in advanced ecological technology, both teams build state-of-the-art bee sanctuaries. Their efforts result in a network of protected habitats. However, the lack of public awareness about the importance of their work is a problem yet unsolved.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators concentrate on developing bee sanctuaries, the Bombus Navigators engage the public and policymakers through their educational campaigns. It's a beautifully matched approach that balances advanced sciences with grassroots awareness.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Bombus Navigators pour resources into technologically enhanced bee sanctuaries as the Apis Aviators invest in raising public awareness about bee conservation. This two-pronged strategy ensures sustainable expansion and increased protection at a societal level.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams collectively decide to focus their efforts on educational campaigns. As the public and policymakers start to participate in conservation efforts, the sanctuaries await a technological revolution.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

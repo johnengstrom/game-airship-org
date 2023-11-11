@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Crusade: Operation Rescue",
+  "gameDescription": "Two futuristic airship teams, the Shield Wings and the Terra Carriers, face the ambitious task of rescuing pangolins from illegal trafficking operations in Asia and Africa, and bringing them to a new sanctuary enclosure in Vietnam. Along their journey, they'll make choices to complete their mission most efficiently and ethically, minimizing environmental footprint while maximizing the welfare of the pangolins.",
+  "setting": {
+    "location": "Across Asia and Africa to Vietnam",
+    "missionStart": "Various trafficking locations",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Shield Wings",
+      "description": "Experts in speed and evasion tactics. Their quick thinking has made them the first choice for such risky operations."
+    },
+    "redTeam": {
+      "name": "Terra Carriers",
+      "description": "Best known for their endurance and highly efficient fuel usage, perfect for potentially extended operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive information on two locations actively poaching pangolins. The teams must decide how to split their resources.",
+      "options": {
+        "A": "Invest all resources into rescuing as many pangolins as possible from one location.",
+        "B": "Split resources evenly between both locations to potentially help a wider geographic area."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on one location each, allowing for a successful large-scale rescue, but leave the other locations unchecked, potentially missing some opportunities. However, their swift actions save many pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Shield Wings focus their efforts while Terra Carriers spread out. Rescue operations are successful, but the targeting approach of the Shield Wings yields a higher, concentrated rescue rate.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra Carriers rescue a large number from a single area, while Shield Wings cover more ground. Though broader coverage is achieved, Terra Carriers' concentration allows for a slightly higher total rescue.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams split resources, achieving broad coverage and freedom for pangolins over a larger area. This approach requires more coordination but reduces the poaching effect over a larger region.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Corporate behemoths have taken notice of the teams' operation and are offering free clean hydrogen fuel as a PR move. However, they have a history of environmental neglect.",
+      "options": {
+        "A": "Accept the free hydrogen, utilizing it for the mission and potentially influencing the corporations towards better practices.",
+        "B": "Refuse the offer and continue using their own, ethically sourced hydrogen, maintaining their moral high ground."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accept the fuel. The corporations' environmental practices remain questionable, but the move sparks public pressure for further improvements. The free fuel allows the operation to expand.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Shield Wings take the fuel, while Terra Carriers decline. The decision divides public opinion about the correct action, but the net effect is an intensified focus on environmental responsibility by corporations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra Carriers accept the free fuel, while Shield Wings refuse. The controversial move increases public attention on the issue, perhaps pushing corporations toward more sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams refuse the fuel, standing by their ethical principles. Their defiant act inspires others, pressuring corporations into reflecting on their practices, but the teams struggle to meet their own high standards.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "On the final leg to Vietnam, the teams must decide on the safest and least traumatic method to transport the rescued pangolins into the new enclosure.",
+      "options": {
+        "A": "Directly fly over and dispense the pangolins into the sanctuary from the airships, limiting their exposure to humans.",
+        "B": "Land the airships and carefully take the pangolins into the new enclosure on ground vehicles for a more controlled release."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing a quick, aerial approach, both teams managed to transfer all pangolins swiftly, minimizing the animals' stress. However, this method requires more precise flying and burns additional hydrogen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Shield Wings opt for the aerial method while Terra Carriers adopt the ground approach. Although both are successful, Terra Carriers' method is more fuel efficient, leaving them with plentiful reserves.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra Carriers go airborne while Shield Wings proceed by ground. Both methods succeed, but Shield Wings are applauded for their empathetic, energy-conserving method.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to land and transport the pangolins gently. Though time-consuming, this method ensures the overall well-being of the pangolins and exemplary resource management.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

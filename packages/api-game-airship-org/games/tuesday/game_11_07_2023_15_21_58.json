@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Bee's Revival",
+  "gameDescription": "In Operation Pollination, two groups of dedicated airship navigators, the Apis Aviators and the Bombus Navigators, embark on a global mission to restore the world's bee populations. Their decisions significantly impact the mission's success and the global environment, testifying to the crucial role bees play in our world.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Bee Conservation Centre",
+    "missionEnd": "Various bee habitats around the world"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in ecological rehabilitation and post-disaster recovery."
+    },
+    "redTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Pioneers in sustainable ecological expansion and education."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships land in hurricane-affected areas, where the local bee population is at risk. What is their move?",
+      "options": {
+        "A": "Plant native flowers to provide necessary resources for surviving bees.",
+        "B": "Establish new bee colonies in safer, hurricane-protected zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams plant flowers, providing a lifeline for local bees. However, it's a race against time as the renewed resources might not reach all bees in these extensive areas.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team plants flowers, while the other establishes safe colonies. Their combined efforts offer a balanced approach to bee conservation. However, the relocating team faces the larger task of moving bee colonies safely.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With one team relocating bees and the other replenishing flora, efforts are well divided. The on-ground conditions, however, remain unpredictable.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on creating safe new colonies. The task is monumental, and they must ensure adequate resources for both relocated and native bees.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Next, the airships arrive at areas ravaged by wildfires. A crucial decision needs to be made.",
+      "options": {
+        "A": "Reseed the areas with the indigenous vegetation that bees thrive on.",
+        "B": "Create advanced artificial bee habitats in nearby unaffected regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams reseed the areas with native vegetation. The effort is laborious, and results will take time to show, but the region holds promise for a natural recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "A combination strategy has been adopted: one grounds the rehabilitation on nature's regrowth, while the other takes an innovative approach. Problems encountered are as unique as their solutions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The varied approaches balance the conservation efforts. The team establishing artificial habitats faces technical challenges, but if successful, presents a replicable model for future disasters.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for creating artificial habitats. Their experiment will be a historic intervention in bee conservation. However, success is uncertain, and time is running out.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The final task requires a long-term commitment to the conservation efforts.",
+      "options": {
+        "A": "Develop large-scale bee sanctuaries using advanced ecological technology.",
+        "B": "Launch comprehensive educational campaigns for global awareness and local bee-friendly practices."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in developing technologically advanced bee sanctuaries. The initiative is capital intensive and demands high maintenance, but it promises considerable control over bee survival metrics.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focuses on building sanctuaries, while the other initiates an educational campaign. Their complementary strategies generate a model for effective bee conservation moving forward.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Investing in sanctuaries on one hand, and education on the other, the team efforts form a comprehensive strategy. However, both tasks are significant undertakings.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing to educate the world, both teams successfully increase public awareness and engagement. A cooperative global community can be a powerful deterrent against the harsh impacts of climate change on bee populations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

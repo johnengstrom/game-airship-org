@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: Operation Wild Protection",
+  "gameDescription": "A pivotal moment in wildlife conservation is at hand as two advanced airship teams embark on a critical mission - the transport of rescued pangolins from Africa to a new, innovative enclosure in Vietnam. With stories of relentless poaching weighing heavily on their hearts, the voyageiers' decisions will influence the future of the most heavily trafficked mammal worldwide. Their task is perilous but with utmost dedication, they find determination. Their sacred cargo – pangolins, shy creatures whose survival balances on the brink.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Skies",
+      "description": "A team dedicated to efficient route navigation under strict regulations from Wildlife At Risk."
+    },
+    "redTeam": {
+      "name": "Good Carriers",
+      "description": "Specialists in safe and secure transportation of fragile wildlife, backed by Greater Good Charities."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon departure, both airships receive reports of an approaching sandstorm over the Sahara. A shrewd decision is needed to protect the pangolins.",
+      "options": {
+        "A": "Fly through the storm, trusting the rigorous shielding systems on the airship.",
+        "B": "Divert the path to skirt around the storm, trading hydrogen fuel for safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decided to trust in their shielding, weathering the storm. It was a strenuous journey, but their faith in technology prevailed, ensuring the pangolins remained safe.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Skies faced the storm head-on whilst Good Carriers chose to divert. Despite the extra expenditure of hydrogen fuel, Good Carriers was able to ensure the welfare of its precious cargo, whilst the Greater Skies' resilience paid off.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Good Carriers braved the storm, trusting their shields while Greater Skies took the safer route around. By the end, Good Carriers' courageous decision saved valuable time despite the rough encounter.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to circumvent the storm for a smoother journey, which resulted in additional use of hydrogen fuel but ensured the safety of their delicate passengers. Sometimes, the longest route is the one that saves lives.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, an urgent message is received from Wildlife At Risk. Poachers have been spotted near a herd of wild pangolins, and backup is desperately needed.",
+      "options": {
+        "A": "Divert the course, armed with tranquilizer darts and high-tech airship surveillance.",
+        "B": "Stay on course to Vietnam, trusting the rapid response provided by the local rangers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both crews chose to provide aerial support, incorporating tranquilizer darts and surveillance in a successful anti-poaching operation. It cost them a hefty amount of their hydrogen fuel, but rescued additional pangolins from imminent danger.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Skies swerved to provide air-support, while Good Carriers trusted the ground rangers. Both contributed in their own ways–one by saving more pangolins, the other by ensuring necessary rest for their delicate cargo.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In a diversion from conventional wisdom, it was Good Carriers taking a vanguard role while Greater Skies trusted ground forces. Good Carriers' swift assistance prevented additional illegal hunting, reinforcing their commitment to the cause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to trust the local rangers for poaching intervention and continued their journey towards Vietnam. This decision ensured the pangolins aboard had a smooth, uninterrupted journey, but it revealed the importance of international cooperation in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, both teams are notified about the country's stringent airspace regulations. The timing of their arrival will critically impact their landing and the transfer of the pangolins.",
+      "options": {
+        "A": "Increase airspeed for an early morning arrival, ensuring easier national airspace navigation and a controlled landing.",
+        "B": "Stick to the regular speed, which could lead to a mid-day arrival and congested airspace, but would save substantially on hydrogen fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to arrive early, dodging the hectic mid-day airspace. Though costly in terms of hydrogen fuel, the pangolins' smooth transition to their sanctuary marked a pivotal conservation victory.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Skies accelerated for an early arrival, while Good Carriers adhered to the original plan. Although Good Carriers saved fuel, Greater Skies' early arrival expedited procedures at the wildlife care center, setting a benchmark in animal transportation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Good Carriers chose to push for an early arrival while Greater Skies remained steadfast on the regular pace. Amidst fuel conservation and swift action, both teams express the spirit of stewardship and responsibility in this mission, shaping the narrative of pangolin conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stayed their course, reflecting on the balance between fuel conservation and traffics mitigation. Despite the mid-day would have paced the landing, the jointly coordinated effort resulted in successful landing and pangolin transfer.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

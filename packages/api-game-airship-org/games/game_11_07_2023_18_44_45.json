@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game: Operation Pollination",
+  "gameDescription": "Take command of advanced futuristic airships on a crucial eco-mission in Operation Pollination. In the near future, the survival of bees and the overall health of global ecosystems depends on the strategic decisions you make. The game blends strategy and environmental conservation, focusing on the vital work of bees around our planet.",
+  "setting": {
+    "location": "Bee habitats worldwide",
+    "missionStart": "Global Airship Command",
+    "missionEnd": "Restored bee populations and habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "With a focus on careful navigation and risk management, they ensure the safe delivery of essentials to restore the habitats."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in ecological planning and species conservation, making them uniquely equipped for Operation Pollination."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Hurricane aftermath has devastated bee habitats. Players must decide the best way to help the affected bee populations rebound.",
+      "options": {
+        "A": "Plant native flowers in the areas affected by the hurricane to restore crucial bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on habitat restoration. The new flowers bloom and become buzzing centres of bee activity, but the absence of fresh colonies raises concerns about long-term sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "An interesting divide in strategy. While the Apis Aviators focus on habitat restoration, the Bombus Navigators establish new colonies. The joint effort leads to a balanced recovery for the bee populations in the hurricane-stricken areas.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "An interesting divide in strategy. While the Bombus Navigators focus on habitat restoration, the Apis Aviators establish new colonies. The joint effort leads to a balanced recovery for the bee populations in the hurricane-stricken areas.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "An all-out effort to create new hives in safe zones sees a surge in bee populations. However, without native flowers, the teams worry if they have done enough for long-term success.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfires have wreaked havoc on local ecosystems, posing new challenges. The teams need to decide on their recovery strategy.",
+      "options": {
+        "A": "Seed the wildfire-affected areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in regions unaffected by the fire to support the displaced bee populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to replant and restore. The recovery is slow as vegetation slowly claims back the fire-ravaged land. It's a long-term solution preparing for the bees' return.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "In a show of harmony, the Apis Aviators focus on planting seeds in fire-ravaged areas, while the Bombus Navigators build havens for displaced bees. Together their actions speed up the return of the winged pollinators to their natural habitats.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "In a show of harmony, the Bombus Navigators focus on planting seeds in fire-ravaged areas, while the Apis Aviators build havens for displaced bees. Together their actions speed up the return of the winged pollinators to their natural habitats.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Bee sanctuaries establish quickly as both teams work to create artificial habitats. But the teams wonder if excluding wildflowers from the fire-ravaged areas was the best choice for overall ecosystem recovery.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Successful recovery efforts now lead to the ambitious goal of expanding and securing bee-friendly habitats worldwide.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch widespread educational campaigns to increase public support for bee conservation and habitat protection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With a focus on creating technologically advanced sanctuaries, the world sees the advent of a new age in sustaining bee populations. However, without public support, sustaining these sanctuaries over the next years may become a challenge.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators concentrate on technological advancements in bee sanctuaries, the Bombus Navigators successfully spread awareness about the importance of bees. This balanced effort ensures a promising future for the bees and their habitats.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "While the Bombus Navigators concentrate on technological advancements in bee sanctuaries, the Apis Aviators successfully spread awareness about the importance of bees. This balanced effort ensures a promising future for the bees and their habitats.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "A wave of awareness sweeps the globe as both teams focus on education. Public participation in bee conservation increases exponentially, but without new sanctuaries, the teams worry if they've missed an opportunity.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

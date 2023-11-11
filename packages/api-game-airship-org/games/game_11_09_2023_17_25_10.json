@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Dance",
+  "gameDescription": "In an era of burgeoning tourism, two visionary airship crews navigate the pristine expanses of Antarctica. Balancing the persistent demand for unscathed exploration and the compelling need to protect Antarctica's unique ecosystem, they're tasked with facilitating scientific research and sustainable tourism, with each decision casting a long shadow on this resplendent wilderness.",
+  "setting": {
+    "location": "Across the Antarctic Wilderness",
+    "missionStart": "Climate Control Tower, New Zealand",
+    "missionEnd": "Designated Site, Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Vostok Voyagers",
+      "description": "Experts in dealing with frozen environments, known for their careful strategies."
+    },
+    "redTeam": {
+      "name": "Pegasus Pioneers",
+      "description": "Specialists in sustainable tourism, highly respected for their conservation initiatives."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As captains, you must decide on a landing site for the tourists. While Option A centers around utilizing an already-impacted popular location, Option B advocates the exploration of a pristine, untouched location.",
+      "options": {
+        "A": "Select an impacted but popular site to conserve the untouched areas.",
+        "B": "Venture into an undiscovered site, offering new experiences."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Conservation triumphs as both teams choose the impacted site, prioritizing the untouched areas. The familiar location doesn't dampen the tourists' spirits, but the heavy tread marks a visible scar in the wilderness.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The divide in choice leads to an unusual situation. While one team happily occupies the popular site, the other leaps into the unknown. Their exciting discovery comes at the cost of a virginal landscape being exposed to human intrusion.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Their choices mirror each other, splitting the tourists evenly. Striking a balance between conservation and exploration, they've successfully managed to disperse the tourism impact, although they've stirred the untouched land.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "In a daring move, both teams venture into the undiscovered. Sparking unparalleled excitement among tourists, the ensuing enthusiasm leaves a permanent imprint on the once pristine area. It's a new chapter for Antarctic tourism, albeit one accompanied by unintended ecological consequences.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Standing on the frontier of Antarctic tourism, you face the delicate issue of tourist capacity. Option A allows for a higher influx of tourists, promising more revenue but probably a higher impact. Option B suggests limiting the number, sacrificing income for the sake of preservation.",
+      "options": {
+        "A": "Accommodate a higher number of tourists for greater revenue.",
+        "B": "Limit the tourist flow, prioritising conservation over profits."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Embracing the lucrative benefits of tourism, both teams decide to increase the influx. The resulting boom brings a fleeting bout of prosperity but also takes a swift toll on the fragile Antarctic ecosystem.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team becomes a beacon of sustainable tourism, restricting numbers, while the high-capacity model of the other team draws ire from conservationists. However, the contrasting approaches lead to a marked difference in revenues.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team favoring restricted numbers and conservation and the other focusing on benefits from more tourists, the landscape faces a mixed impact. While one area feels the strain, others breathe easier, pointing to the intricacies of sustainable tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews unanimously decide to limit tourist numbers, drawing applause from environmentalists worldwide. While revenues dip, the preservation of the fragile ecosystem is seen as priceless by the larger public.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Further into your expedition, you face the challenge of implementing a conservation initiative. Option A pushes for the active engagement of tourists in conservation efforts, while Option B imposes strict regulations and area closures.",
+      "options": {
+        "A": "Engage tourists in active conservation and awareness programs.",
+        "B": "Imposed strict regulations with area closures to protect the ecosystem."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to engage tourists in conservation, both teams open an opportunity for tourists to become part of the solution. The interactive approach empowers tourists and sparks a wider interest in the conservation of this delicate wilderness.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists in conservation, fostering additional support for the environment. In contrast, the other team's strict approach, though effective in protecting areas, receives mixed reactions from the tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team opts for strict environment protection, the other draws tourists into conservation. Although both initiatives succeed on their fronts, they reveal the complex relationship between exploration and conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for stringent regulations, limiting human interference with the ecosystem. Their unanimous decision to put environment over exploration is a testament to Antarctica's worth in the world's ecological balance.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

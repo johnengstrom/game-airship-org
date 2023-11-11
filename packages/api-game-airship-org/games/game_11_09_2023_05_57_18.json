@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Sky: Operation Rescue",
+  "gameDescription": "Two futuristic airships, 'Serpica Naro' and 'Manis Max', are on a noble mission. Many shy pangolins have faced the relentless threat of illegal wildlife trade, making them the most trafficked wild mammal worldwide. Poaching claims the lives of up to 2.7 million annually. Now, new hope arises as Greater Good Charities and Wildlife At Risk act as harbingers of rescue - a pangolin enclosure, a safe haven and cornerstone in their survival, has been completed in Vietnam. The mission of the airships is to safely transport pangolins and necessary supplies to this new enclosure, ensuring their revival.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Various Animal Rescue Locations",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Serpica Naro",
+      "description": "Specializing in stealth and camouflage, ensuring safe and unnoticed transport of the delicate cargo."
+    },
+    "redTeam": {
+      "name": "Manis Max",
+      "description": "Experienced in delicate cargo management and optimized flight paths for safety and efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are carrying pangolins and the supplies. However, they detect incoming unauthorized aircrafts which may be poachers.",
+      "options": {
+        "A": "Use stealth technology to remain undetected and bypass the aircrafts.",
+        "B": "Change course to a longer route, increasing the flight duration and hydrogen consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to use their stealth technology to bypass the aircrafts. They managed to remain undetected, preserving their valuable hydrogen reserves while ensuring the safety of their delicate cargo.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Serpica Naro utilised its stealth tech while Manis Max altered its route. This caused Manis Max some delay but also ensured the threat was thoroughly avoided. Stealth wins this round.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Manis Max disappeared from radars while Serpica Naro opted for a safer but longer route. Despite the additional hydrogen consumption, Serpica Naro ensured maximum safety for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams switched their paths for the longer, safer route. They consumed a little more hydrogen, but successfully avoided any potential threats. A well-judged decision ensuring utmost safety.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An emergency message comes in from another rescue team. Their airship has broken down, leaving many pangolins at risk of poaching.",
+      "options": {
+        "A": "Divert to pick up the extra pangolins, consuming more hydrogen and risking overloading the airships.",
+        "B": "Provide remote technical support to the broken down airship, potentially saving time and resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams ventured to the rescue. The extra weight of the pangolins increased fuel consumption but they managed to save all the animals, highlighting humanity's commitment to pangolin preservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Serpica Naro went for the physical rescue, while Manis Max provided remote support. This strategy allowed for an effective and efficient solution, really showing off the teams' strategic thinking.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Manis Max went in for the direct rescue and Serpica Naro provided technical support. With this approach, all animals were saved without overloading any single airship.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams provided remote technical support. This methodical approach helped get the broken down airship back to operation with minor time loss, proving that collective problem-solving can work miracles.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the teams approach the sanctuary, they face a choice - either to land right outside, or a few miles away to allow the rescued pangolins to adapt gradually.",
+      "options": {
+        "A": "Land right outside the sanctuary for quick unloading but risk shocking the pangolins.",
+        "B": "Land a few miles away and transport the pangolins gradually, ensuring their comfortable adaptation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams landed directly outside the sanctuary, hoping to complete the mission quickly. The pangolins were a bit shocked initially but soon started to adapt to their new home, marking the end of a successful mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Serpica Naro chooses to land outside, while Manis Max lands further away. The gradual approach allows for a more controlled unloading of the pangolins, showing a level of care that got noticed.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Manis Max lands directly and Serpica Naro further. The pangolins handled by Serpica Naro show less signs of stress, proving the company's focus on animal welfare.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to land a few miles away. The pangolins were unloaded slowly and comfortably, showing utmost commitment to their wellbeing. The mission was a resounding success, signifying a bright hope for the endangered species.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

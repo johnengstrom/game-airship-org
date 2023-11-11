@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Exploration and Conservation",
+  "gameDescription": "As captains of the red and blue teams, players navigate their futuristic airships across the pristine expanse of Antarctica. Tourism is surging and the ecosystem is at risk. The objective: minimize the environmental impact while facilitating sustainable exploration and scientific research. Every decision taken will affect not only the success of these tourist expeditions but also the delicate balance of Antarctica's unique biodiversity.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Ushuaia, Argentina",
+    "missionEnd": "Antarctic Peninsula"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Terra Saviours",
+      "description": "Focused on sustainability and sound environmental practices."
+    },
+    "redTeam": {
+      "name": "Antarctic Pioneers",
+      "description": "Expert at safe tourist management and scientific exploration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams must decide on the landing site for tourists. This first decision will have a substantial impact on the local eco-system.",
+      "options": {
+        "A": "Choose a popular, previously impacted site to limit spread of human influence.",
+        "B": "Explore a pristine, untouched area to diversify tourist experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the already impacted site, serving to concentrate tourist activities and limit the spread of potential human-induced damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The red team decides to follow the by-the-book route and pick the already impacted site, while the blue team ventures into untrodden territory. Arising conflicts and impacts need mitigation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With the red team opting for a new site and the blue team settling for the impacted area, The diversity of experiences might draw more tourists but could also lead to more widespread impacts.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into previously untouched territories. A sense of achievement envelopes all, even as ominous signs of new impacts begin to surface.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing tourist capacity will be the next big challenge. More people bring more revenue - and more potential disruption of the fragile ecosystem.",
+      "options": {
+        "A": "Allow a larger number of tourists for increased revenue but potential higher environmental impact.",
+        "B": "Limit the number of tourists to manage conservation efforts better."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow a larger number of tourists. The economic advantage is immediately apparent, but signs of strain on the environment start to show.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses economy over environment while the other does the opposite. Increased tourism dollars strengthens the first team while the latter is praised for its restraint and focus on sustainability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Opposite choices result in unique challenges for both teams. The one letting in more tourists has immediate economic gain while the other curbs numbers and maintains a fresher environment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit the number of tourists. This results in an excellent control over environmental degradation but questions over economic viability surface.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Conservation initiatives need to be implemented. How to engage with the tourists is the final challenge.",
+      "options": {
+        "A": "Involve tourists actively in carrying out conservation efforts.",
+        "B": "Implement strict conservation regulations, limiting tourist activities in vulnerable areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams actively involve tourists in conservation. As the visitors become stakeholders, the enthusiasm spreads but so do the confusions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team goes for active tourist participation while the other enforces strict regulations. The interactive approach wins hearts, and the regulatory one maintains a tight-lipped discipline. A fine balance is struck.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team opts for regulations and the other for active participation. The strict restrictions keep the area well-preserved, while enthusiastic tourists on the other end build a reputation for commitment.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Strict regulations implemented by both teams create a disciplined tourist space but incite chagrin among some visitors. However, the minimal impact on the environment is lauded by all.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

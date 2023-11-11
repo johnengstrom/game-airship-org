@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Conquest",
+  "gameDescription": "In this age of exploration and tourism, the untouched wilderness of Antarctica becomes opportunity and responsibility for the players. As captains of advanced airships, you must plan your voyage in this fragile ecosystem, balancing the surge of tourism with the urgent need to protect Antarctica's unique biodiversity. Each decision made has a potential impact on the environment and the success of your mission, so navigate wisely.",
+  "setting": {
+    "location": "Above Antarctica",
+    "missionStart": "Antarctica Base",
+    "missionEnd": "Designated Research/Exploration Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacier Guardians",
+      "description": "Experts in eco-sensitive tourism and habitat preservation."
+    },
+    "redTeam": {
+      "name": "Polar Protectors",
+      "description": "Specializes in scientific expeditions and renewable energy use."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Your teams must identify a landing site for tourists. The increasing footfall has a potential impact on the local habitat.",
+      "options": {
+        "A": "Choose an already popular area, reducing additional environmental impact but potentially contributing to overcrowding and further degradation.",
+        "B": "Opt for a pristine, untouched location to spread the footfall but potentially introducing humans to an untainted ecosystem."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to direct the tourism to already popular areas. The crowded area experiences increased degradation, but no fresh habitats are disturbed. The question of sustainable tourism v/s excessive footfall becomes apparent.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team deters the rush to popular sites while the other introduces tourism to a new location. The new site experiences its first human impacts, while the popular site faces sustained pressure. It's a lesson on balance and forecasting.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams diverged, creating a mixture of experiences for tourists, but potentially complicating conservation efforts. Antarctica's management becomes as complex as its ecosystem, a test for future sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams send the tourists to unexplored areas. This decision spreads out the footfall, but puts untouched ecosystems at risk. It’s an ambivalent victory: tourism is less concentrated, but at what cost?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams need to decide upon the tourist capacity. More tourists mean more revenue but a potentially higher impact on the environment.",
+      "options": {
+        "A": "Allow a higher number of tourists to boost revenue, risking more significant impact.",
+        "B": "Limit tourist numbers for conservation, facing potential complaints and reduced revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams let in more tourists. Revenue surges, but so does pressure on the environment. It's a stark reminder of the high cost of profit, with Antarctica paying the price.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team allows more tourists while the other tempers influx. The high-capacity team faces strong business but also criticism for environmental impact; the low-capacity team bears fewer impacts but also thinner profits. Achieving balance remains a slippery slope.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Tourist numbers diverge. The low-capacity team faces criticism for limited access, but its lower impact is lauded. In contrast, the high-capacity team struggles with managing impact despite booming business. The tension between access and preservation becomes tangible.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit tourists. While this decision favours conservation, revenue falls and complaints rise. It’s a challenging choice, but one that may safeguard Antarctica's future.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams design a conservation initiative to mitigate the effects of tourism.",
+      "options": {
+        "A": "Implement a programme engaging tourists in conservation operations, potentially slowing down the tour itinerary.",
+        "B": "Impose strict regulations and area closures to protect vulnerable habitats, which might limit the tourist experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation. This hands-on experience transforms tourists from potential impacts into active stewards of the environment. Guidebooks are replaced by real action, building a blueprint for conservation-oriented tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One unit implements a direct action program, while the other enforces strict protective regulations. The balance of immersive education and proactive regulation presents a comprehensive approach to environmental protection.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Combining tourist participation and regulation creates a unique approach towards conservation. Tourists learn firsthand why protections are necessary, turning a potential drawback into an educational strength.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams set up strict regulatory measures. While less interactive, these stringent regulations effectively keep delicate ecosystems safe from human impact. It’s a hard line, but one that might ensure future generations can also witness Antarctica’s majesty in its full glory.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

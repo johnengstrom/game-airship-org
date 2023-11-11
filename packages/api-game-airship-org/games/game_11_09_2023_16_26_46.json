@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game: Antarctic Challenge",
+  "gameDescription": "In the pristine wilderness of future Antarctica, teams control slick airships navigating the delicate balance between facilitating human exploration and preserving the unique ecosystem. As airship captains, you must manage sites, tourists, and conservation initiatives, cleverly intertwining present environmental issues with the complex challenges of Antarctic tourism.",
+  "setting": {
+    "location": "Antarctica's Airspace",
+    "missionStart": "Research Base, McMurdo Station",
+    "missionEnd": "Selected Landing Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Snowflake Pioneers",
+      "description": "Experts in sustainable tourism management and eco-friendly infrastructural design."
+    },
+    "redTeam": {
+      "name": "Iceberg Explorers",
+      "description": "Renowned for implementing innovative solutions to reduce tourism-induced environmental impacts."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Identify a landing site for the tourists. A prominent choice is between a previously visited, impacted location or an unblemished, untouched area that could potentially disrupt the ecosystem.",
+      "options": {
+        "A": "Choose the already impacted site to limit further intrusion into pristine areas.",
+        "B": "Select the untouched site to diversify tourist experience and spread impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the previously impacted location. Tourism continues harmoniously, with all efforts focused on one area's repair, but the site's appeal diminishes quickly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team selecting the impacted site and the other the pristine site, tourist traffic distributes between two locations, somewhat alleviating the pressure on the impacted site. This, however, has introduced human presence into a hitherto untouched ecosystem.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The selection of both sites by different teams slightly reduces the burden on the impacted area. Yet the introduction of tourism to the untouched site sparks debates about possible ecological implications.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into the untouched area, allowing the impacted site to recover, but possibly triggering fresh challenges in the virgin territory.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The selected sites are operational. Now, teams need to decide the tourist capacity. A delicate balance between high influx resulting in potentially higher impact and revenue, or limited tourists for better conservation, albeit with lower earnings.",
+      "options": {
+        "A": "Allow a higher number of tourists, bringing increased revenue but potential higher environmental impact.",
+        "B": "Limit tourist numbers, supporting conservation efforts but with reduced income."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose to accommodate more tourists. The increased revenue could fund future conservation initiatives, yet the environmental impact is noticeably escalating.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Balancing visitor cap between teams has a dual effect: the earning potential is used for conservation, and fewer tourists mean lower impact, but customer satisfaction plummets with difficult bookings.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The varied cap strategy gives the best of both worlds with increased revenue and controlled impact. But managing customer expectations with the harder bookings proves challenging.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourists, significantly reducing environmental impact. The resultant enhanced customer satisfaction through uncrowded experiences and the positive reviews offset the financial deficit.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The next strategic move is to implement a conservation initiative. Choice stands between engaging tourists in conservation efforts or enforcing strict regulations and closures.",
+      "options": {
+        "A": "Engage tourists in conservation activities, fostering their relationship with the environment.",
+        "B": "Enforce strict regulations, limiting access to particularly sensitive areas to protect them from human disturbance."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships go for tourist engagement. The tourists develop a personal bond with the wilderness and become advocates of Antarctic conservation. However, some criticize this approach as eco-tourism theater.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one airship involves tourists, the other enforces restrictions. Some tourists appreciate the active participation, but they bemoan the inadequate exploration due to certain area closures.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The combined approach of engagement and regulations ensures limited human imprint whilst maintaining consumer satisfaction. But the discrepancies in approach cause confusion and debate among tourists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for strict regulations. While conservationists applaud this, it attracts critique from tourists feel their experience is compromised, impacting future bookings.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

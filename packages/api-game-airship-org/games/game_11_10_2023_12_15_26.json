@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination",
+  "gameDescription": "In Operation Pollination, players commandeer advanced intelligent airships to implement strategic missions aimed at restoring bee populations and habitats affected by natural disasters and human activities. Teams, the Apis Aviators (Red Team) and the Bombus Navigators (Blue Team), make critical decision that affect both the success of their mission and the impact on the ecosystems they intervene in. In this game, the players are not just on a mission to help the bees survive, but they are tasked with the survival of the global ecosystem.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Environmental Protection Headquarters",
+    "missionEnd": "Global Ecosystem Recovery"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in habitat navigation and bee conservation."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specializing in disaster recovery and bee colonization."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Both airships are mobilized to restore bee habitats affected by recent hurricanes. The teams must choose between planting native flowers in these areas, or establishing new colonies in safe zones.",
+      "options": {
+        "A": "Plant native flowers for habitat restoration.",
+        "B": "Establish new bee colonies in safe zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on habitat restoration. The native flowers bloom offering ample resources for bees to thrive. However, with their initial colonies still dealing with the hurricane aftermath, bees take time to populate these habitats.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Apis Aviators plant native flowers while the Bombus Navigators establish new colonies. This combination speeds up bee population recovery as bees quickly settle in the new colonies with abundant floral resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Bombus Navigators plant native flowers while the Apis Aviators establish new colonies. Bees quickly populate the new colonies and start foraging in the restored habitats, showing promising signs of recovery.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams establish new colonies in safe zones. The bee populations show fast recovery, but the lack of abundant native floral resources is a concern for sustainable growth.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: The airships are tasked with restoring bee habitats affected by wildfires. One strategy is to regulate the affected areas with bee-friendly vegetation, and the other is to create artificial habitats in unaffected regions.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation.",
+        "B": "Create artificial bee habitats in unaffected regions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on reseeding. These bee-friendly vegetations ignite a rapid recovery of local ecology. But the bees, still wary of the area, take their time to return.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apis Aviators seed fire-ravaged areas while Bombus Navigators create artificial habitats. The combination ensures the survival of displaced bees and the recovery of fire-ravaged areas, striking a balance in recovery efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators seed fire-ravaged areas while Apis Aviators create artificial habitats. This tactic proves effective as recovering bee populations in the new habitats start venturing into the reseeded areas.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for creating artificial habitats. Bee populations flourish in their new homes. But the fire-ravaged areas, although untouched, are slow to recover, missing the keystone species.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: Approaching the final stage of the mission, the airships plan for the sustainable future of bee populations. They have to decide between developing advanced bee sanctuaries or launching eductional campaigns to increase bee conservation awareness.",
+      "options": {
+        "A": "Develop advanced bee sanctuaries.",
+        "B": "Launch educational campaigns for bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in advanced bee sanctuaries. These sanctuaries, equipped with optimal habitat conditions, play a crucial role in stabilizing bee populations. But public awareness about bee conservation still lacks, affecting long-term sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apis Aviators develop advanced sanctuaries, while Bombus Navigators launch educational campaigns. As a result, people are emboldened to take part in bee conservation, and the sanctuaries secure sustainable living conditions for the bees.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators develop advanced sanctuaries, while Apis Aviators launch educational campaigns. Bee populations have safe homes and a growing public awareness campaign secures future conservation efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launch educational campaigns for conservation. As the public becomes more involved in bee conservation, the global community sees a renewed sense of stewardship over nature, transforming the world into one big sanctuary for bees.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

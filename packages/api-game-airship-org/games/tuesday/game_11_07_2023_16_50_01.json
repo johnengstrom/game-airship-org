@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game: Antarctic Challenge",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As the captains of futuristic airships, players navigate this delicate landscape, balancing the demand for exploration with the urgent need to protect Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Cape Town, South Africa",
+    "missionEnd": "Selected Antarctic Landsite"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Crusaders",
+      "description": "Focused on facilitating scientific research while promoting sustainable tourism."
+    },
+    "redTeam": {
+      "name": "Ice Guardians",
+      "description": "Centred on conservation and promoting responsible tourist behaviors."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Choose a landing site for tourists. The choice must balance between tourist impact and their experience.",
+      "options": {
+        "A": "Choose a popular, already impacted area that provides a greater experience for tourists.",
+        "B": "Select a pristine, untouched location to spread the impact and minimize the stress on one specific area."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams selected popular areas, concentrating the impact but providing a richness of experience. Popular areas get busier but their sacrifice preserves the untouched.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The teams chose different approaches, one crowded but rich in experience, the other pristine but less frequented. This creates a balance in touristic pressure and conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team choosing a busy spot and the other an untouched location, tourists get a broad range of experiences. This compromises the untouched, but other areas rest.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for untouched areas, spreading the impact. While tourists enjoy new experiences, previously untouched areas face the impact of tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Decide on the tourist capacity. The choice can have a significant impact on the local environment and the teams’ revenue.",
+      "options": {
+        "A": "Allow a higher number of tourists which might have a higher impact but could generate more revenue.",
+        "B": "Limit the number of tourists for conservation, but with fewer tourists, the revenue decreases."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opted for more tourists, inviting stress on the environment but boosting revenue. The decision renders fragile ecosystems more vulnerable.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team allowed more tourists, while the other limited numbers. Variation in crowd sizes may cause unequal distribution of environmental impact but generates diverse income streams.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams' contradictory decisions lead to diversified tourist management. One area bears the brunt of larger crowds, while the other, with few visitors, becomes an eco-haven.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limited tourists, prioritizing preservation over profit. The low numbers lessen the burden on the environment but offer a limited economic return.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Implement a conservation initiative. The choice made at this stage has the potential to significantly mitigate or exacerbate the impact of tourism on wildlife.",
+      "options": {
+        "A": "Engage tourists actively in conservation efforts, making them part of the solution.",
+        "B": "Put strict regulations in place and close off certain areas deemed crucial to local wildlife."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation, fostering a sense of environmental responsibility. Tourists become stewards, reducing reckless behaviors but increasing reliance on voluntary compliance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists, while the other creates strong protections. Awareness and access management blend into an effective conservation approach respecting tourist experiences and ecosystem health.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team fostering involvement and the other reinforcing regulations, tourists gain different experiences amidst contrasting conservation strategies. Engagement and restriction coexist, fostering a balanced ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize heavy regulations. Antarctica becomes a though place for tourists but an Eden for wildlife. Although strict, the ecosystem reaps the benefits.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

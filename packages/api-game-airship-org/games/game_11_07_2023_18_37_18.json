@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Ice Navigation",
+  "gameDescription": "As the captains of futuristic airships, the Red Team and Blue Team must navigate the unspoiled wilderness of Antarctica. Facing a surge in tourism, players must carefully handle this balance between exploration and protection of Antarctica's unique ecosystem. Following through three critical decisions, they must facilitate scientific research, manage tourism sustainably, and actively engage in environmental protection.",
+  "setting": {
+    "location": "Antarctic Sky",
+    "missionStart": "Tourist Embarkation Point",
+    "missionEnd": "Selected Antarctic Site"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ice Navigators",
+      "description": "Specializing in efficient route planning and tourist management."
+    },
+    "redTeam": {
+      "name": "Polar Guardians",
+      "description": "Experts in ecosystem conservation and sustainable exploration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams need to choose a landing site for tourists. The decision will have a considerable impact on the local ecosystem.",
+      "options": {
+        "A": "Choose a popular, already impacted area",
+        "B": "Select an unexplored, pristine location"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to land in currently affected areas, limiting additional impact on the unexplored regions. While minimizing the damage, they face the challenge of managing tourist disappointment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chose the popular area while the other risked exploring new territories. The untraveled area excited tourists but also increased the environmental risk.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams’ choices diverged, with the Blue team exploring new territories while the Red team opted for the familiar. This dynamic resulted in unique experiences for tourists but questioned the balance between enjoyment and preservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams selected pristine locations. The untouched landscapes provided experiences of a lifetime for the tourists, but the environmental impact of their visits is yet to be seen.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With the landing site defined, it’s time to determine the number of tourists allowed on-site.",
+      "options": {
+        "A": "Allow a larger number of tourists, leading to higher impacts but hefty revenue",
+        "B": "Limit the tourist count to minimize the impact, but earn less"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing immediate revenue over conservation, the landscapes become quickly overcrowded. Despite the financial boom, the teams face sharp criticism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Team flooded the site with visitors while the Red team maintained a strict cap. The income disparity is significant, but so is the environmental impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team allowed more tourists, negatively impacting the environment more than the Blue team's restricted area. The fiscal rewards for the Red Team are immense, yet the flak they face is considerable.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit the number of tourists, prioritizing conservation over revenue. Critics admired this rare show of restraint in the industry.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Faced with the inevitable impact of their operations, teams decide on a conservation initiative to off-set their environmental footprint.",
+      "options": {
+        "A": "Involve tourists directly in conservation efforts",
+        "B": "Emphasize on strict regulations and area closures"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Engaging tourists in conservation uplifted their experiences and achieved some restoration. The balancing act between tourism and environmentalism resulted in some progress, albeit slow.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Blue Team involved tourists in conservation, Red Team fortified regulations, creating a blend of hands-on restoration and powerful preservation. A result that satisfied most, despite partial disgruntlement among tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Team engaged tourists while Blue Team tightened control, making for an engaging experience countered by rigorous restraint. The combination, while initially counterintuitive, stimulated positive change.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams went down the strict regulation route. Their stern approach is keeping pristinity preserved, earning admiration from environmentalists, and setting a new standard for sustainable tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

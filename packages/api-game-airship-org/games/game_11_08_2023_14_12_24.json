@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Saviors: The Pangolin Rescue",
+  "gameDescription": "Control advanced airships of two critical teams, the 'Guardians of Sky' and the 'Winged Saviors', in a race against time to save pangolins, the most heavily trafficked wild mammal worldwide. Both teams take on the daunting task of transporting rescued pangolins from various risky locations to the new pangolin enclosure in Vietnam, a haven constructed by Greater Good Charities and Wildlife at Risk. This eco-mission weighs heavy on each strategic decision, as it affects both the successful relocation of these endangered creatures and your fuel consumption, ultimately impacting environmental sustainability.",
+  "setting": {
+    "location": "Transcontinental Adventure",
+    "missionStart": "Various Locations, Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardians of Sky",
+      "description": "Experts in wildlife emergency response and maneuvering in diverse terrain."
+    },
+    "redTeam": {
+      "name": "Winged Saviors",
+      "description": "Specialists in swift transport and fuel-efficient flight management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are in Africa, ready for their first pangolin rescue. Suddenly, they receive simultaneous distress signals from two locations: A poacher's camp and a traditional medicine market.",
+      "options": {
+        "A": "Head to the poacher's camp, potentially facing aggressive resistance but rescuing plenty of pangolins.",
+        "B": "Rush to the market, an easier mission yet with fewer pangolins to save."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships courageously assault the poacher's camp, rescuing a large number of pangolins, but expending extra hydrogen due to the high-risk situation. The mission was a success, yet the environmental toll has been paid with high fuel consumption.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team faces the poacher's camp, the other swiftly clears the market. The different choices lead to a balanced result, rescuing pangolins from both locations and managing the energy usage reasonably.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team chooses the market while the other confronts the poachers. This strategic division allowed for a broad rescue scope but with an imbalance in energy use.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the medicine market, ensuring a safer mission with lower hydrogen use, yet rescuing fewer pangolins. They bolster the necessity of smart, efficient decision-making amidst dire circumstances.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The rescued pangolins need to be fed. Both teams have a surplus of traditional ant-based feed, but they were offered a new, sustainable synthetic feed that requires less space but is untested on pangolins.",
+      "options": {
+        "A": "Rely on the traditional ant-based feed, requiring more space on the airship but ensuring the pangolin's comfort.",
+        "B": "Take a risk and use the new synthetic feed, saving space for more pangolins but potentially stressing the animals."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships stick to the traditional feed, guaranteeing the pangolins' natural diet but leaving less space for rescue operations. The mission success is intertwined with animal welfare, but the capacity for future rescues might be compromised.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the traditional feed, maintaining the wellbeing of the pangolins, while the other opts for the innovative synthetic feed, creating more space for rescues. The actions result in a mix of priority but can potentially lead to more rescued pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A team risks the synthetic feed, causing a minor pangolin upset, while the other keeps their charges comfortable with the ant-based feed. This unique approach reveals the importance of balance between innovation and animal comfort.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams gamble with the synthetic feed. Despite initial stress among the pangolins, they adjust, and extra space allows for more rescue operations. A risky yet rewarding decision.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships approach Vietnam, yet a heavy thunderstorm lies in their path. Navigating it could stress the pangolins and consume more hydrogen, while a longer detour and late arrival would delay the pangolins' placement into the sanctuary.",
+      "options": {
+        "A": "Brave the storm using advanced navigation systems, getting the pangolins to the sanctuary earlier but potentially causing stress.",
+        "B": "Go around the storm, ensuring a smoother journey for the pangolins, but delaying their arrival at the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships face the storm and rally through with extra fuel usage. The pangolins are stressed but soon find comfort as they're placed into the new sanctuary earlier than expected. A tough call between urgency and animal welfare.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship decides to penetrate the storm while the other detours, ensuring a smooth ride for the pangolins. Each choice presents its unique challenges and triumphs, emphasizing the balance of time management and animal care.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one failing to bypass the storm, and another choosing safety, they arrive at different times, ensuring that the placement of pangolins in their new home is gradual and smooth. Each choice has an impact and in this joint effort, the mission succeeds.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both act conservatively, prioritizing the pangolins' comfort and conservation of fuel over an early arrival. Their optimal handling of a tough scenario highlights the teamwork and commitment needed for successful conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

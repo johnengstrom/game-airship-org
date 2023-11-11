@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: The Aerial Lifeline",
+  "gameDescription": "In a world reeling from wildlife trafficking, two futuristic airship teams, partnering with Greater Good Charities and Wildlife At Risk, embark on a humanitarian mission to transport rescued pangolins to a newly-established sanctuary in Vietnam. Each decision reflects not just the success of this rescue mission but also resonates with implications on the battle against wildlife trafficking.",
+  "setting": {
+    "location": "From various African locations to Vietnam",
+    "missionStart": "African Wildlife Rescue Centers",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Skies",
+      "description": "Experts in high-stakes cargo transport and conflict zone navigation."
+    },
+    "redTeam": {
+      "name": "Conservation Cruisers",
+      "description": "Specialists in wildlife management during transit and dealing with unforeseen circumstances."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While collecting pangolins from various African wildlife centers, both airships face logistical challenges and potential delays. How they respond could impact the success of their mission.",
+      "options": {
+        "A": "Spend extra time ensuring each pangolin's stability before departure.",
+        "B": "Proceed with minimal delay, trusting in the in-flight veterinary team."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to ensure pangolin stability. While this causes a delay, it minimizes stress and ensures the wellbeing of the pangolins. The additional time acts as an investment in the mission's success.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Skies ensures the stability of the pangolins while Conservation Cruisers trusts their in-flight team, gaining time but taking a risk. Both strategies have merits, yet bear consequences.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Conservation Cruisers spends extra time while Guardian Skies proceeds promptly. While the latter takes off sooner, the former ensures a safer journey for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships proceed promptly, trusting in their in-flight veterinary teams. This choice could expedite their mission, but also pose a risk to pangolins' health.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Halfway through the journey, severe turbulence disturbs the pangolins, stressing them. Decisions here could impact not only the pangolins but also mission progression.",
+      "options": {
+        "A": "Navigate around the turbulence, extending travel time but reducing stress.",
+        "B": "Continue through turbulence relying on the onboard veterinarians to manage the stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams detour to navigate around the turbulence. This decision enhances the comfort of the pangolins, preserving their health, but significantly extends travel time.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Skies flies around the turbulence while Conservation Cruisers braves through it. The latter manages to save time, but at the cost of the pangolins' stress.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Conservation Cruisers detours to avoid turbulence while Guardian Skies goes through it. The former's humane decision ensures the pangolins' comfort but delays the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose to brave the turbulence, relying heavily on their onboard veterinarians. It’s a risky gambit that could either save time or compound the pangolins' stress.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, both airships encounter stringent post-flight checks that might delay the pangolins' transfer to their new home.",
+      "options": {
+        "A": "Process the checks slowly and thoroughly, ensuring no complications arise in the future.",
+        "B": "Exploit the mission's humanitarian grounds to bypass some checks and hasten the transfer."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to process the checks thoroughly. Though it delays the transfer, it effectively eliminates potential complications, ensuring the pangolins have the best start at their new home.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardian Skies proceeds slowly with the checks while Conservation Cruisers exploits humanitarian grounds to accelerate the procedure. This leads to an efficient transfer but potentially overlooks crucial checks.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Conservation Cruisers opts for a thorough procedure, Guardian Skies hastens it. This leads to a quicker transfer, but future complications might arise due to bypassed checks.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to hasten the checks and transfer process. While it ensures a quick transition into the new enclosure, potential issues may be overlooked.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

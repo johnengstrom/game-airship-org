@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Aerial Guardians: The Pangolin Project",
+  "gameDescription": "Two advanced airships, controlled by humane humans vested with the mission of wildlife conservation, embark on a strategic quest. Their objective is to transport rescued pangolins from areas of severe poaching to a new sanctuary in Vietnam, contributing to Greater Good Charities Project Peril. This eco-mission is laced with decision making that directly impacts the survival of these endangered species and the overall natural environment.",
+  "setting": {
+    "location": "High above Africa and Vietnam",
+    "missionStart": "Pangolin poaching hotspots",
+    "missionEnd": "A new pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Guardians",
+      "description": "Specializing in swift cargo retrieval and direct engagement."
+    },
+    "redTeam": {
+      "name": "Eco Voyagers",
+      "description": "Proficient in diplomatic yet firm negotiation with illegal traders."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Open ground markets are spotted with ample pangolin trade. The airships have to decide how to intervene.",
+      "options": {
+        "A": "Directly engage in confiscating the pangolins.",
+        "B": "Leverage connections with local law enforcement to intervene."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage directly in rescuing the pangolins. While they are successful, the attention they attract might lead to increased elusive trade behaviors.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team confiscates the pangolins directly while the other inspires law enforcement to act. The confiscated pangolins are quickly secured, but the subsequent interference might heighten smuggling activities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team reaches out to law enforcement, the other swoops down to rescue. The combined efforts succeed in closing down a major trade hub, but caution must be employed in future rescues.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with law enforcement agencies. Though a slower process, the subsequent crackdown gains significant media coverage, creating awareness and potentially discouraging future illegal trade.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During transport, the pangolins show signs of distress and one ship falls behind schedule.",
+      "options": {
+        "A": "Speed up to make up for lost time, potentially causing more distress to the pangolins.",
+        "B": "Maintain the speed to ensure the pangolins comfort, even if it means a delayed arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to speed up. While they reach their destination on time, the pangolins take longer to adapt to their new enclosure due to the stressful journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship speeds up while the other maintains its pace. The stressed pangolins from the faster ship require more care which the slower ship can offer upon arrival.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship prioritizing pangolin comfort and one speeding up, the balanced approach minimizes stress on the pangolins and ensures on-time delivery of care resources.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose to prioritize the pangolins' comfort over arrival time. This decision, while delaying their mission, ensures the pangolins arrive in a more stable state, ready to adapt to their new sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival in Vietnam, the airships have to decide how to introduce the pangolins to their new enclosure.",
+      "options": {
+        "A": "Release all pangolins at once to encourage group cohesion.",
+        "B": "Release pangolins individually to allow each to adapt at its own pace."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships release the pangolins together. Panic ensues, but it quickly subsides and a tangible sense of community amongst the pangolins is observed.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship releases the pangolins collectively, while the other does so individually. The collective release grounds the individual ones, resulting in a protective environment for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship chooses a collective release, while the other goes for individual releases. The individually released pangolins provide a calming influence, easing the transition for the others.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships release the pangolins individually. While time-consuming, this allows each pangolin the space to adjust at their own pace, enabling a more efficient adaptation to their new environment.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

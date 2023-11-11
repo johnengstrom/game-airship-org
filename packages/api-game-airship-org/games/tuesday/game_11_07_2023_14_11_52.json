@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Peril: The Pangolin Passage",
+  "gameDescription": "Two futuristic airships embark on an eco-mission to transport pangolin conservation equipment, responding to the urgent need posed by Greater Good Charities Project Peril. Each decision made by the airship teams affects the mission's success and ultimately, the possibility of pangolin survival. Your cargo is precious and time sensitive; navigate your path wisely.",
+  "setting": {
+    "location": "Over the Rainforests of Africa",
+    "missionStart": "Resource Collection Base",
+    "missionEnd": "Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Conservation Wings",
+      "description": "Famed for their strategic navigation and crisis management skills."
+    },
+    "redTeam": {
+      "name": "Guardian Carriers",
+      "description": "Trusted for their expertise in handling sensitive cargo and maintaining energy sustainability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships need to navigate a densely covered rainforest. They have two options: fly at a higher altitude adding to fuel consumption but increasing safety, or hover lower, which may risk sensitive equipment but conserve fuel.",
+      "options": {
+        "A": "Fly at a higher altitude to guarantee safety at the cost of more fuel.",
+        "B": "Hover lower to conserve fuel but risk potential damage."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to fly higher, investing more in energy but ensuring safety. They arrive on time, laying a robust foundation for the rescue efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team flies high while the red team stays lower. The blue team's safety gamble helps them glide smoothly while the red team faces an unexpected equipment malfunction, causing a slight delay.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team opts to fly high, investing in safety, while the blue team hovers lower. The blue team's equipment weathers the flight well, and they manage to conserve energy, providing them an early advantage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to fly bring their airships lower. Though this conserves fuel, unexpected turbulence causes a delay for both teams, turning the challenge of protection into a group effort.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An urgent distress signal is received from a ground team needing immediate medical attention. Both teams must decide to either stop and deploy a small medical team, risking the schedule, or continue their journey while coordinating with a nearby medical base.",
+      "options": {
+        "A": "Deploy a small medical team risking the schedule.",
+        "B": "Continue the journey while coordinating with a nearby medical base."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams stop and deploy a medical team. Their display of humanity results in a delay, but the teams' dedication to conservation is clearer than ever. The schedule is tight, but the mission continues.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team stops to send help, while the red team manages to coordinate with a nearby base. Though the red team ensures timeliness, the blue team wins admiration for their direct action.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the red team stops to send medical aid, the blue team coordinates with a nearby base. The blue team stays on schedule while the red team is praised for their direct action.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to coordinate with a nearby medical base. They balance their empathy with their mission's urgency, showcasing effective resource management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, there are two possible routes: a quicker path over populated areas, requiring public relation efforts to handle noise complaints, or a longer route over unpopulated areas, consuming more fuel but avoiding PR complications.",
+      "options": {
+        "A": "Use the quicker path and handle PR complications.",
+        "B": "Use the longer route to avoid disruption and save PR resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for speed over discretion. While they manage the PR fallout effectively, they must weigh the cost of such decisions on the public's perception of their cause.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team handles the PR fallout of the quicker path, while the red team takes the scenic route. Both arrive safely but at different times, leaving the red team to handle final details, giving the blue team a chance to regroup.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team lands first, managing PR, while the blue team arrives later. The blue team's careful route selection reflects their commitment to minimal disruption. Despite arriving later, they make an impression.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the longer route, prioritizing public sentiment over time. They arrive later than expected, but their undisturbed transit successfully projects a positive image of their efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

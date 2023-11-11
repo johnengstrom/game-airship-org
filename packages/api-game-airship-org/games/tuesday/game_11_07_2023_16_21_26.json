@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game: 'Mission Pangolin - Saving the Scaly Underdogs'",
+  "gameDescription": "Two futuristic airships with recovery teams embark on a vital mission to rescue endangered pangolins from the clutches of poachers in Africa and transport them to a newly built sanctuary in Vietnam. Decisions taken during the mission not only determines the success of the mission but also the survival and recovery of these captivating creatures.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Poaching hotspots in Africa",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pango Protectors",
+      "description": "Specialising in silent and stealthy poacher interception."
+    },
+    "redTeam": {
+      "name": "Claw Rescuers",
+      "description": "Renowned for pangolin care and cargo handling."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive information on new poaching activity but the source is uncertain. Quick decision needs to be made to investigate or to stay on track.",
+      "options": {
+        "A": "Investigate the tip immediately trusting the source.",
+        "B": "Continue on planned route, reevaluating the tip along the journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams dive straight in and investigate. Luckily, it turns out to be accurate, they intercept a major poaching ring and save scores of pangolins. This swift action has cost them some fuel but saved lives promptly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Pango Protectors choose to investigate while Claw Rescuers stick to the plan. The Protectors success in disrupting the poachers leaves the Rescuers slightly behind but well in fuel.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Claw Rescuers diverge from the plan while Pango Protectors stick to their original route. The Rescuers get appreciated for the courageous detour saving extra pangolins, leaving Protectors trailing.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to stay on course, and along the way, they successfully reevaluate the tip. Navigating cautiously, they manage to covertly intercept the poachers while conserving fuel.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships encounter an unexpected swarm of migratory bees, which could potentially cause disruption in the pangolins' already stress-filled state.",
+      "options": {
+        "A": "Navigate calmly through the swarm leaving nature undisturbed.",
+        "B": "Reroute to avoid the swarm potentially causing additional stress for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams carefully navigate through the swarm, showing respect for the natural course of nature. The reassurance from the teams keeps the pangolins calm, portraying a lesson of peaceful coexistence.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship holds their path while the other reroutes. The calm navigation by the Context Of programmers is beneficial for the pangolins' mindset while on the rerouting ship, the stress levels rise slightly.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship reroutes while the other maintains course through the swarm. The pangolins in the rerouting vessel are slightly stressed while those in the steady vessel remain undisturbed, depicting the balance of control in environmental management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to reroute. The extra manoeuvring might cause a little disruption in the quiet atmosphere required for the pangolins, but the possibility of an accidental bee-sting is avoided.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally reaching Vietnam, both airships have to decide how to execute their landing without disturbing the peaceful sanctuary.",
+      "options": {
+        "A": "Perform a slow, stealthy landing, taking more time and energy.",
+        "B": "Perform a rapid landing to deliver the pangolins quickly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airship teams employ a slow and considerate landing, ensuring minimal disturbance. This gentle approach does consume more energy but prioritises a tranquil welcome for the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship performs the slow landing while the other goes for a fast approach. Speed wins time, but a calm entry ensures that the pangolins' new start begins in the best possible way.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team making the rapid landing and the other maintaining a stealthy descent, the Pangolin delivery is done in staggered timings, allowing better management of the new inhabitants. It's a balance between quickness and quietness.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams opt for quick landings. This results in quick delivery but a slight disruption in the peace of the sanctuary. However, they also demonstrate their efficiency and effective handling of the situation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

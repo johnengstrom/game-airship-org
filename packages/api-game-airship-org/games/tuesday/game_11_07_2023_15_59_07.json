@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Conservation: Operation Pangolin",
+  "gameDescription": "Revolutionary airships of the Red and Blue teams race against time to rapidly deliver essential supplies to a newly developed pangolin enclosure - a beacon of hope in conservation in Vietnam. The stakes are high: smooth transportation of the delicate pangolin feed and material for the LIVE Nest Cam, showcasing the inspiring resilience and recovery of these heavily trafficked mammals. But they must also ensure minimal environmental impact during the mission.",
+  "setting": {
+    "location": "Above South East Asia",
+    "missionStart": "Supply Hub in Thailand",
+    "missionEnd": "Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Azure Guardians",
+      "description": "Pioneers in cautious navigation and green-energy propulsion."
+    },
+    "redTeam": {
+      "name": "Crimson Saviors",
+      "description": "Masters in fast transportation and delicate cargo handling."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While crossing the Thai mountains, the airships face a thick fog, concealing the jagged peaks. They must choose the suitable path.",
+      "options": {
+        "A": "Increase altitude to avoid the mountains and fog, using extra hydrogen.",
+        "B": "Use advanced radar systems to navigate through the fog at the current altitude."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams ascend, using additional hydrogen but ensuring the cargo's safe passage. Their cautious decision sets the tone for the rest of the journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Azure Guardians ascend, while the Crimson Saviors courageously push through the fog. Despite the risks, both successfully navigate the dangerous terrain, highlighting their complementary strategies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Crimson Saviors ascend, while the Azure Guardians nimbly chart a path through the fog. The teams demonstrate remarkable synergy, portraying their dedication towards the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for radars. Their boldness pays off as they navigate with deft precision, commending each other's bravery and solidifying their collaborative spirit.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams learn of forest fires in northern Laos, endangering local wildlife. They must decide how to effectively react.",
+      "options": {
+        "A": "Reroute and drop water balloons to assist in the firefighting effort.",
+        "B": "Maintain course and release echo-locating devices to guide the wildlife away from danger."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams courageously divert to drop water balloons. Their actions momentarily halt their primary mission but save numerous lives, showing humanitarianism isn't just limited to humans.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Azure Guardians choose firefighting while the Crimson Saviors guide wildlife. Juggling dual missions, they lessen the forest fires' impact, defining true teamwork.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Crimson Saviors fight the flames while the Azure Guardians guide wildlife. Their coordinated efforts relieve the crisis, shining as beacons of hope for the endangered.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams release devices guiding wildlife to safety. Their inventive solution allows them to stay on mission  and affects life on the ground positively, displaying exceptional crisis management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the destinations approach, optimal landing sites become scarce due the vast forest canopy in Vietnam. The teams need to decide on landing strategy.",
+      "options": {
+        "A": "Drop the cargo via parachutes to a designated spot and maintain altitude.",
+        "B": "Maneuver through the forest canopy and land at a suitable spot for unloading."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide on air-drops, ensuring minimum disturbance to the local flora. Their careful planning secures the cargo delivery and sets a benchmark for future environmental missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Azure Guardians opt for air-drops, while the Crimson Saviors perform a precise landing. Both deliveries are successful, marking a significant milestone in pangolin conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Crimson Saviors perform an air-drop, while the Azure Guardians cautiously land. The varying strategies underscore their common commitment towards the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships land deftly minimising impact. Their successful delivery sparks celebrations, marking a pivotal moment in pangolin conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}
