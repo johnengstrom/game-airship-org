@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Saviors: The Pangolin Mission",
+  "gameDescription": "Two teams of airship pilots board their futuristic vessels to embark on a unique, crucial eco-mission. Their task is to safely transport rescued pangolins from Africa to a recently constructed sanctuary in Vietnam, all while navigating various challenges and making strategic decisions. Each team's actions will not only affect their chances of mission success but also the plight of the world's most trafficked mammal - the pangolins.",
+  "setting": {
+    "location": "Above Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "EcoHawk Flyers",
+      "description": "Specializing in wildlife protection and efficient navigation."
+    },
+    "redTeam": {
+      "name": "Guardian Skywhales",
+      "description": "Experts in handling sensitive cargos and energy management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "On route to Vietnam, both airships encounter a dense cloud formation laden with electrical disturbances. Deciding how to proceed could potentially impact both their energy reserves and the comfort of their precious cargo.",
+      "options": {
+        "A": "Navigate through the storm using advanced guidance systems and weather-proof shields.",
+        "B": "Alter course to avoid the storm entirely, potentially using up time and extra fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely navigate through the storm, saving time but expending heavy energy reserves. Their prompt arrival is beneficial for the stressed pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With the blue team navigating the storm and the red team altering course, the pangolins arrive with varied stress levels. While the time difference creates a logistical challenge, both teams manage it efficiently in the best interest of the animals.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the blue team alters course to avoid the storm, the red team crosses it with caution. The resourceful handling of different challenges gives both the teams valuable insights and develops a mutual respect.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide prudence is the better part of valor and alter their courses to keep the pangolins safe. The extra fuel consumed and the time taken are worthwhile investments for the precious cargo's well-being.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the teams approach the sanctuary, they receive an urgent message from a ranger network in Cambodia. A group of poachers was thwarted while attempting to smuggle more pangolins.",
+      "options": {
+        "A": "Reroute to Cambodia to rescue the additional pangolins, costing time and fuel.",
+        "B": "Continue to the sanctuary to ensure the safe delivery of onboard pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Rerouting to Cambodia, both teams manage to rescue the additional pangolins and ensure their safety. Time and fuel resources take a hit, but saving more pangolins is a triumphant achievement.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Team reroutes to Cambodia, while Red Team continues to the sanctuary. The Blue Team's detour is heroic, but it puts additional strain on their resources. Meanwhile, the Red Team reaches the sanctuary, helping the onboard pangolins adapt to their new home.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Blue Team continues towards the sanctuary, the Red Team takes the bold call to reroute to Cambodia and rescue more pangolins. This decision makes a significant difference, yet adds another layer of strategic complexity.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to continue to the sanctuary, prioritizing the secure transport of the rescue pangolins in their care. Their decision underscores the balance between responding to immediate crisis and ensuring planned conservation agendas.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon arrival at the sanctuary, teams face another crucial decision. The pangolins, stressed from transportation, need to be released into the enclosure.",
+      "options": {
+        "A": "Hold off the release until the animals' stress levels decrease significantly.",
+        "B": "Release the pangolins immediately to let them adapt to their new home."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait, focusing intensely on monitoring the pangolins' stress levels. Eventually, once calm, the pangolins are released and they begin to adapt well to the sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Team waits, while Red Team releases their pangolins immediately, the decision exposes differences in wildlife handling protocols amongst the teams. However, the pangolins, regardless of their initial stress levels, start adapting to their new environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Team releases its pangolins early, while Red Team waits, leading to a staggered adaptation process for the pangolins. This diversified approach adds to the richness of observation data for future rescues and releases.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams release their pangolins immediately, ensuring their quick adaption into their new habitats. Despite initial stress, the pangolins soon show positive signs of acclimatization and recovery.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

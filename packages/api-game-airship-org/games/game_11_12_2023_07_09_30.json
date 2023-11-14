@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: Safeguarding the Scaly Innocent",
+  "gameDescription": "In a grim near-future, pangolins, the world's most heavily trafficked wild mammal, are under relentless threat due to poaching. Two airship teams, spurred by Greater Good Charities and Wildlife At Risk, embark on a noble mission. They aim to transport rescued pangolins from poaching hotspots in Africa to a newly built enclosure in Vietnam. Each decision made not only affects the success of this life-saving mission but also highlights the poignant interplay between technology, humanity, and wildlife.",
+  "setting": {
+    "location": "The African Skies",
+    "missionStart": "African Poaching Hotspots",
+    "missionEnd": "New Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pangolin Protectors",
+      "description": "Skilled in wildlife emergency response and delicate transport."
+    },
+    "redTeam": {
+      "name": "Sky Shepherds",
+      "description": "Experts in international navigation with a passion for conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Rescuing pangolins from poachers, the teams face a choice with aggressive poachers approaching swiftly.",
+      "options": {
+        "A": "Launch smoke grenades to provide cover for escape.",
+        "B": "Engage the auto defense system to scare off the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use smoke grenades and successfully escape, but the extra time attracts local enforcement, forcing them to take off hastily without checking pangolin conditions. The mission continues with an unexpected haste.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Team A uses smoke grenades while Team B engages the defense system. The defense system startles nearby pangolins, making handling them more challenging, while team A smoothly carries out its escape.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Team A deploys the defense system, while team B executes a smoke screen. The defense system causes accidental damage to the surroundings, drawing attention from local authorities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams engage the automatic defense system. This direct approach forces poachers to retreat, creating a safer environment for this rescue mission, with minor environmental distress.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the teams receive a transmission about illegal trafficking of pangolin fetuses.",
+      "options": {
+        "A": "Change course to rescue those pangolins, risking delay.",
+        "B": "Maintain course, ensuring the current rescued pangolins reach safety promptly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to rescue more pangolins. They manage to save additional lives, but heavy cargo strains the airships' resources. Their honorable actions have ripple effects.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Team A diverges to rescue more pangolins, but Team B continues, ensuring that their current charges reach safety promptly. Both teams practice sound judgment in their unique ways.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Team A remains on course, prioritizing security for their existing cargo. Team B splits away, making a daring gamble to save more. Their efforts yield success, although more challenging, it breathes hope.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, gritted in determination, stick to their trail, ensuring the rescued pangolins on board reach their sanctuary. Their methodical decision marks a crucial step in this lifesaving mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the Vietnamese coast, the airships must negotiate a labyrinth of bustling air traffic and unpredictable climate.",
+      "options": {
+        "A": "Use fuel reserves to speed up, ensuring a swift descent.",
+        "B": "Communicate with local ATC for real-time guidance."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, ensuring early landing but consuming valuable fuel reserves. Their powerful statement of purpose resonates as they valiantly put mission success above resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team hits the throttle, and the other uses ATC, creating a whirl of maneuvers that confuses local air traffic, causing brief chaos but ultimately leading to success on both counts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team weaves around with ATC, and the other speeds up, risking unplanned delays due to abrupt climate changes. Their contrasting approaches blend into a harmonious conclusion.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, despite the uneasy atmosphere, stick with ATC support for their navigation, ultimately ensuring a slower but safe descent. Their joint commitment to maintaining caution symbolizes their dedication towards conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

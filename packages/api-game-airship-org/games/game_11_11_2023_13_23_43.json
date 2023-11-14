@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescuer: The Skybound Hope",
+  "gameDescription": "The red and blue teams control futuristic airships 'Argos Guardians' and 'Silhouette Saviours' respectively, delivering mission-specific cargo and equipment for a vital conservation effort. As part of Greater Good Charities and Wildlife At Risk, their goal is to safely transport precious cargo of pangolins from Africa to a newly constructed sanctuary in Vietnam. Each decision made by the airship crews affects the success of the mission and the environmental impact, while every turn has direct consequences on the mission's outcome and the pangolins' safe journey.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Argos Guardians",
+      "description": "Renowned for their precise air navigation and wildlife crisis management."
+    },
+    "redTeam": {
+      "name": "Silhouette Saviours",
+      "description": "Skilled in wildlife transportation and energy conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "With a cargo of rescued pangolins onboard, the airships encounter variable air currents. Stable transit is vital for the scared pangolins.",
+      "options": {
+        "A": "Adjust the airship for a turbulent yet faster route.",
+        "B": "Navigate along a slower, smoother path."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships experience some turbulence en route, causing stress among the pangolins. Their swift arrival, however, allows for earlier acclimatization in their new enclosure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One turbulent path and one smooth path. The faster arrival of the first team ensures early setup while the other ensures less stress to the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team prioritizes speed, the other pangolin comfort. The arrivals are staggered, yet both teams contribute to the safe delivery and comfort of the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the smooth path, minimising stress to the pangolins. Arrival is slightly delayed, but the pangolins' well-being is preserved.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the team receives two messages; one, a shipment of specialized foods for the pangolins awaits pickup; two, illegal poachers suspected nearby.",
+      "options": {
+        "A": "Divert to pick up the specialized foods while alerting local officials about poachers.",
+        "B": "Confront the suspected poachers and report their location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to pick up the specialized foods. The pangolin's well-being improves, but the delay allows poachers to escape.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team picks up food supplies while the other confronts the poachers. Both demonstrate the balance of conservation priorities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Both teams take different actions, which results in the capture of poachers and improved pangolin diet.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams divert to confront poachers. The delay in food delivery is a downside, but the bold move inhibits poaching activities.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams learn of a surge in human activity near landing zone due to a local festival, potentially scaring the pangolins.",
+      "options": {
+        "A": "Land swiftly before the festival climax, scaring the pangolins but ensuring early arrival.",
+        "B": "Delay landing till late night, ensuring a soothing transition but delaying the pangolins' transfer."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land swiftly, mildly stressing the pangolins. They, however, get adequate rest and an early start to their new lives in the enclosure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses a swift landing, while the other waits till nightfall. The result is a balance of specific needs, timely delivery and a soothing transition for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A mixed strategy leads to an optimal solution. Swift landing provides the pangolins more time to adapt, while the later arrival ensures fewer disturbances.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams delay for late-night landing. This decision ensures a peaceful transition for pangolins, emphasizing the importance of their comfort over timely delivery.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Rescue Mission: The Pangolin Airlift",
+  "gameDescription": "Two cutting-edge airships are tasked with a critically important eco-mission: to safely transport rescued pangolins, victims of illegal wildlife trade, to a new sanctuary enclosure in Vietnam. Each decision made by the teams can significantly impact the pangolins' survival, setting a precedent for future wildlife rescue missions.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "African Wildlife Protection Area",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Wildlife Guardians",
+      "description": "Pioneers in applying AI navigation for animal rescue and wildlife protection."
+    },
+    "redTeam": {
+      "name": "SkyShepherds",
+      "description": "Experts in long-distance air transport of endangered species with top-notch survival equipment."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon reaching the African Wildlife protection area, teams confront illegal poachers who obstruct their mission.",
+      "options": {
+        "A": "Engage local enforcement authorities to expel the poachers.",
+        "B": "Covertly airlift the pangolins without confronting the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage local authorities. The confrontation ends successfully, but delays the airlift, causing stress to the pangolins. Despite this, they manage to attain local support for their mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team rallies local authorities, distracting poachers, while the other airlifts the pangolins covertly. Their coordinated approach is successful, safeguarding the pangolins, and strengthens their synergy.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Working independently, one team distracts the poachers with local authorities while the other proceeds with the airlift. This uncoordinated approach causes confusion and minor delays but ultimately succeeds.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose stealth over confrontation, successfully airlifting the pangolins. Despite a peaceful extraction, the poachers remain, threatening future rescue missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the pangolins show signs of distress due to unfamiliar environments.",
+      "options": {
+        "A": "Adjust the cabin atmosphere to mimic the pangolins' natural habitat.",
+        "B": "Initiate the on-board sedation protocol to mitigate stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams adjust the cabin atmosphere, easing the pangolins' distress. Despite increased hydrogen consumption, this move ensures the travellers' comfort, depicting their commitment towards the animals' well-being.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team adjusts the cabin environment while the other sedates the pangolins. Both methods prove beneficial, as sedation aids those unresponsive to the cabin changes, ensuring the pangolins' safe transit.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With varied approaches, one team creates a familiar atmosphere while the other sedates the pangolins. The combination ensures maximum comfort, exhibiting their adaptable methodology.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for sedation. The pangolins travel undisturbed, promoting health but risking dependency. They apply their expertise judiciously, ensuring the animals' safety despite potential risks.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, a tropical storm presents a major obstacle, jeopardizing the pangolins' safe arrival.",
+      "options": {
+        "A": "Brave the storm, using advanced guidance systems.",
+        "B": "Detour around the storm, costing more hydrogen and time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams face the storm head-on. With their advanced systems, they navigate safely, minimizing the journey time while jarring the pangolins slightly—owing to the storm's turbulence.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team confronts the storm, while the other detours. The detouring team loses time and hydrogen, but the pangolins are calm. The storm-braving team saves time but stresses the pangolins mildly.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team ambitiously faces the storm, the other safely detours. Their decisions effectively balance time, hydrogen use, and the pangolins' stress levels, resulting in moderate success.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to detour, ensuring the pangolins' comfort despite the extended travel time and increased hydrogen usage. The safety and well-being of their precious cargo take precedence, reflecting their commitment to the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Skies: The Wilderness Voyage",
+  "gameDescription": "In the pristine wilderness of Antarctica, two futuristic airships navigate a delicate landscape, balancing the demands of tourism and scientific research while minimizing the environmental impact. Each airship's decision carries potential consequences for Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Above the South Pole (Antarctica)",
+    "missionStart": "Ushuaia, Argentina",
+    "missionEnd": "Antarctic"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pioneer Wings",
+      "description": "Expert navigators and conservationists known for innovative approaches to sustainable tourism."
+    },
+    "redTeam": {
+      "name": "Borealis Pathfinders",
+      "description": "Veteran mariners committed to facilitating critical research while protecting Antarctica's ecosystems."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must choose a landing site for their tourists. This decision will impact the local ecosystem, and the satisfaction and safety of the tourists.",
+      "options": {
+        "A": "Choose a popular site already impacted by tourism. More foot traffic could further degrade the area, but it alleviates the stress on unspoiled lands.",
+        "B": "Choose a pristine, untouched location. Introducing foot traffic will change the area forever, but could help spread out the overall impact of tourism."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted site. The concentrated foot traffic damages the site further, but the rest of the untouched wilderness is preserved from tourist encroachment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chose the pristine site, while the other concentrated on the impacted area. Impact is spread across a wider area, but no single area suffers extensively.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams' choices effectively spread out the impact. Yet, introducing tourism to untouched areas changes them forever.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose untouched areas. The pristine wilderness has now been touched by human presence, spreading the impact of tourism.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing the number of tourists is delicate balance. More tourists mean more revenue and more potential harm to the environment.",
+      "options": {
+        "A": "Allow a large number of tourists. It's a boon for the local economy but might lead to accelerated environmental degradation.",
+        "B": "Limit tourist numbers for the sake of conservation, but this will also limit revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opted for maximum capacity, introducing a large number of humans into the fragile ecosystem. The local economic benefit disguises a growing environmental cost.",
+          "bonusCard": "blueTeam"
+        },
+        "AB": {
+          "narrative": "Red team chose conservation over commerce, limiting their number of tourists while Blue team opted for maximum capacity. The wilderness battles against the influx, even as the local economy booms.",
+          "bonusCard": "none"
+        },
+        "BA": {
+          "narrative": "The Blue team limits their tourists, choosing conservancy over commerce. Meanwhile, the Red team's airship is buzzing with tourists. The middle ground may offer the best of both.",
+          "bonusCard": "none"
+        },
+        "BB": {
+          "narrative": "Both teams chose to limit their tourists, valuing preservation over profit. The environment thanks them, but the lost revenue proves a taxing sacrifice.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams have an opportunity to implement a conservation initiative",
+      "options": {
+        "A": "Actively engage tourists in conservation efforts, turning them from potential threats to allies. But it requires resources.",
+        "B": "Implement strict regulations and closures that protect critical areas, but limit the tourist experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage their tourists in conservation efforts, transforming them into allies in the fight for sustainability. But the strain on resources casts a shadow over their efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue team invests in tourist-driven conservation, while Red team protects critical areas with strict regulations. It's a combination of diplomacy and authority, but the balance is delicate.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team involves tourists in conservation, translating empathy into action, while Blue team enforces regulations and closures. The results vary, but each approach has its merits.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for strict conservation measures, providing vital protection for critical areas. However, the strict regulations might result in a less-than-ideal tourist experience.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

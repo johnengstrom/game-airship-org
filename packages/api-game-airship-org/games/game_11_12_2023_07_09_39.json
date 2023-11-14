@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescuers: Airship Aid",
+  "gameDescription": "In an era where pangolins, earth's most heavily poached creatures, are on the brink of extinction, two airship teams, 'Aegis Antaeus' and 'Titan Gaia' have been mandated to conduct a rescue mission. Transporting these vulnerable creatures from Africa to a new sanctuary in Vietnam, these teams aim to make a significant impact on their survival. Each action taken on this mission will ultimately influence not just the survival of the pangolins but the overall balance in the ecosystem.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Safari",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aegis Antaeus",
+      "description": "Providing vigilant protection and employing compassionate environmental solutions."
+    },
+    "redTeam": {
+      "name": "Titan Gaia",
+      "description": "Specialising in delicate wildlife transport and stabilised ecological integration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships encounter a flock of migratory birds. Navigating through could cause harm to the birds; however, circumventing would result in delay and higher hydrogen consumption.",
+      "options": {
+        "A": "Navigate cautiously amidst the flock.",
+        "B": "Detour around the flock, consuming additional hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams carefully cross the flying spectacle. Despite their vigilance, a few birds are disturbed, imposing a moral predicament but saving fuel for the distant journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aegis Antaeus delicately flies through crowed skies while Titan Gaia opts for a detour. Gaia's decision delays them, but their respect for wildlife integrity garners much appreciation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Titan Gaia traverses through the avian marvel while Aegis Antaeus detours. Antaeus' decision to safeguard the birds' migratory pattern elevates their status in wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to reroute, disrupting their schedule but maintaining the harmonious progression of the avian migration. They earn praise for prioritizing ecological balance.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The pangolins onboard display signs of stress. Implementing calming measures would consume essential reserves, while ignoring could risk the pangolin's health.",
+      "options": {
+        "A": "Implement calming measures, utilizing resources.",
+        "B": "Reveal a live nest cam, a non-invasive means of monitoring."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use resources to calm the pangolins. Their welfare is ensured, but the teams' reserves are strained. The heartfelt decision provided comfort, but survival hangs by a thread.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aegis Antaeus deploys resources while Titan Gaia activates the nest cam. Antaeus' empathetic choice may deplete reserves while Gaia gains valuable insights, balancing care and conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Titan Gaia mobilizes their resources while Aegis Antaeus employs the nest cam. Though Gaia's pangolins benefit immediately, Antaeus' decision might prove to be more efficient.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use the nest cam, allowing them to track their pangolins delicately. This decision ensures the pangolin's comfort and the ship's resources, setting an example of mindful conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approach to Vietnam witnesses strict air traffic. Arriving early could negotiate lesser traffic but would require additional fuel, while negotiating real-time could delay the mission.",
+      "options": {
+        "A": "Surge ahead to beat the traffic, consuming extra hydrogen.",
+        "B": "Maintain current speed, negotiating real-time traffic."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, arriving before heavy traffic, at the expense of extra hydrogen. Despite the ecological impact, the pangolins are offloaded safely, relieving mission pressure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aegis Antaeus speeds up while Titan Gaia seamlessly negotiates traffic. Antaeus' gambit expedites offload, yet Gaia's patience and precision conservation leaves a lasting impact.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Titan Gaia accelerates while Aegis Antaeus maintains speed. Gaia's approach prompts quicker unloading, but Antaeus' strategic usage of resources leaves a positive environmental footprint.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams negotiate real-time traffic. Their balanced approach to natural resource management in vital wildlife conservation stirs hope for a brighter, more balanced future.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

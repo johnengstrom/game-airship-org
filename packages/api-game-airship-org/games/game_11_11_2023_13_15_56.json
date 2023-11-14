@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Guardians: Aerial Safeguard",
+  "gameDescription": "In this heartrending narrative about the world's most trafficked animal, players control intelligent airships, drafted into service by Greater Good Charities and Wildlife At Risk. Their mission is to securely transport precious pangolin cargo from African poaching hotspots to a freshly-finished enclosure in Vietnam. The decisions of the teams influence the welfare of the pangolins, the success of their journey, and the broader impacts of human actions on the natural world.",
+  "setting": {
+    "location": "African Skies to Vietnam",
+    "missionStart": "African Poaching Hotspots",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Wings",
+      "description": "Skilled in handling delicate cargo and wildlife protection."
+    },
+    "redTeam": {
+      "name": "Risk Avengers",
+      "description": "Specialists in countering environmental and human threats."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are en route to the pickup location when they receive intel regarding more pangolins at a remote site. They must consider their fuel, time, and cargo stability.",
+      "options": {
+        "A": "Stick to the original location, ensuring safety and fuel conservation.",
+        "B": "Reroute to the remote site to save more pangolins, risking excess hydrogen usage and time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize safety and fuel conservation. They make a successful pickup but wonder about the pangolins left behind.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Wings conserves fuel while the Risk Avengers reroute. The Avengers find the pangolins but pay the price in fuel, harboring a resolved feeling about their action.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Greater Wings bravely reroutes, rescuing additional pangolins at the cost of extra fuel and time. The Risk Avengers stick to the plan, conserving fuel but internally conflicted about their choice.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships reroute, rescuing more pangolins, but at a substantial cost of fuel. Their compassion is tested as they must now conserve fuel for the lengthy journey ahead.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While crossing the Indian Ocean, the airships receive a distress call from a sinking ship carrying other endangered wildlife.",
+      "options": {
+        "A": "Divert course to assist, risking a delay and unnecessary fuel expenditure.",
+        "B": "Extend communication help but remain on course prioritizing the pangolin mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships show a broader commitment to wildlife protection, but at the cost of time and resources. The success of the pangolin mission hangs in the balance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Wings diverts to the mission while the Risk Avengers stay on course. They collectively make a difference, albeit at contrasting costs to their individual missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Risk Avengers veer off to assist while Greater Wings continues the mission. The Avengers' benevolent risk may affect their success, but their commitment to wildlife protection is commendable.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships extend communication but stay on course. Their focus on the pangolin mission is singular, but in the back of their minds a nagging wonder remains about the fate of the other endangered wildlife.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, airships must maneuver through a gauntlet of illegal traffickers' drones seeking to intercept their precious cargo.",
+      "options": {
+        "A": "Deploy countermeasures, which may damage drones and impact relations with local communities.",
+        "B": "Rely on stealth and evasion, which conserves fuel but increases the risk of interception."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams resort to force, protecting their cargo but at the cost of local diplomatic relations. As they deliver the pangolins, they watch out for potential retaliations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Wings deploys countermeasures while the Risk Avengers uses stealth. Both strategies pay off, but not without their unique costs and impacts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Risk Avengers eliminates the threat with countermeasures while Greater Wings relies on stealth. Their different approaches yield success but also pose different challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for stealth and evasion. The operation is tense, requiring finesse, but their patience pays off. The pangolins are safely delivered to their new home, marking a significant victory for conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

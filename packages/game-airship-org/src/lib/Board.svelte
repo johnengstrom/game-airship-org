@@ -135,7 +135,7 @@
 					{/each}
 				</div>
 				<!-- hand row -->
-				<div class="flex justify-center mt-8 mb-4 px-2">
+				<div class="flex justify-center mb-4 px-2">
 					{#each playerRed.hand as card, i}
 						<div>
 							<Hand cardno={i + 1} value={card.value} suit={card.suit} />
@@ -204,7 +204,7 @@
 					{/each}
 				</div>
 				<!-- hand row -->
-				<div class="flex justify-center mt-8 mb-4 px-2">
+				<div class="flex justify-center mb-4 px-2">
 					{#each playerBlue.hand as card, i}
 						<div>
 							<Hand cardno={i + 1} value={card.value} suit={card.suit} />

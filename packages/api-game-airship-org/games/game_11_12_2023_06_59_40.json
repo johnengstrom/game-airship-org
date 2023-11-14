@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Exploration and Conservation",
+  "gameDescription": "In this near future scenario, the pristine wilderness of Antarctica stands on a precarious balance. As the captains of intelligent airships, players are tasked with the dual role of promoting sustainable tourism and facilitating scientific research, navigating through three challenging decisions that gravitate around modern-day environmental issues.",
+  "setting": {
+    "location": "Antarctic Wilderness",
+    "missionStart": "Argentine Research Station",
+    "missionEnd": "Selected Landing Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacier Guardians",
+      "description": "Specializes in sustainable practices and eco-conservation."
+    },
+    "redTeam": {
+      "name": "Ice Pioneers",
+      "description": "Experts in Antarctic exploration and scientific research."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams must decide on a landing site for tourists: a popular, already impacted area or a pristine, untouched location.",
+      "options": {
+        "A": "Choose a popular area that bears the brunt of tourism impact.",
+        "B": "Opt for a pristine site to spread the impact but risk damaging untouched wilderness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted area, concentrating the tourist footprint but putting immense pressure on the fragile site. This decision leads to potential degradation of the area but prevents further expansion of the impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team draws tourists to the common area, while the other introduces visitors to a pristine site. This balance potentially mitigates overall environment impact, but the pristine site begins to show signs of stress.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing choices lead to incremental environmental impact, but the untouched site undergoes a harsh transition. The team selecting the pristine site faces criticism for their choice, but the impact on the common area is marginally reduced.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the untouched area. This decision distributes the environmental load, but begins the erosion of another pristine site. The teams face backlash from environmental groups, adding public relations to their challenges.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Balancing conservation and revenue, the teams must now decide on the tourist capacity.",
+      "options": {
+        "A": "Allow high tourist traffic for increased revenue but at a higher environmental cost.",
+        "B": "Limit tourist numbers for minimal environmental impact but decreased earnings."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing revenue over conservation, both teams allow high tourist traffic. The increased revenue promotes their missions, but the toll on the environment is rapid and widespread, sparking international concern.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Balancing their choices, the teams maintain a moderate tourist flow. The limited group respects the environment, creating a sustainable model, while the crowded site faces accelerating degradation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With differing approaches, the environment pays the price at the crowded site, while sustainable practices earn praise at the limited site. The teams now need time for recovery and remediation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing preservation, both teams limit tourists. Revenue falls, but the environment breathes a sigh of relief. They face financial challenges but earn approval for their proactive conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Final decision revolves around conservation initiatives.",
+      "options": {
+        "A": "Involve tourists in conservation efforts like 'Adopt a Penguin' program.",
+        "B": "Imposer stricter regulations, including area closures and rules."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams actively engage tourists in conservation initiatives, leading to increased awareness but with differing effects on wildlife behaviour. The adopted penguin program becomes a worrying new spectacle disrupting natural behaviour.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team invites tourists’ cooperation in conservation, while the other imposes severe regulations. The balanced approach garners international attention, praising the teams for cooperative and regulatory conservation strategies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team imposes strict rules while another opts for cooperative conservation. The strict regulations raise eyebrows but prove effective. While the cooperative approach is appreciated for its sentiment, questions arise about its long term effectiveness.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By imposing strict regulations, both teams prioritize conservation over tourism. Huffed at first, the tourists gradually adapt and appreciate the rules, respecting their opportunity to visit an ecosystem where they are the aliens.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

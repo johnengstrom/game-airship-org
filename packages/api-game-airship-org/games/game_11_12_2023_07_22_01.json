@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships in a near future where the survival of bees and the global ecosystem is at stake. Not only making strategic decisions for each mission, but players will also contribute to environmental conservation, focusing on the crucial role bees having in our world. Each team's actions will reflect real-world efforts in bee conservation to strengthen the connection between gaming and real-world environmental actions.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Global Command Airbase",
+    "missionEnd": "Various locations worldwide"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in habitat restoration and ecological recovery."
+    },
+    "redTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Specialized in creating sustainable environments for pollination."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Both teams are tasked with restoring bee habitats in regions devastated by recent hurricanes.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opted to restore the original habitat, extensively planting native flowers. Their joint efforts have created an inviting environment for returning bee populations, fostering hope for a speedy ecological recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Apis Aviators are planting native flowers, Bombus Navigators are creating safe zones for new bee colonies. This two-pronged approach ensures both immediate relief and long-term stability for the devastated bee habitat.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators focus on habitat restoration while Apis Aviators take charge of forming new bee colonies. The efforts see increased bee activity in the affected areas, and new colonies add a layer of security for the bee population.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to invest their time and resources in establishing new bee colonies. They harvest local bees and utilize modern equipment to facilitate the formation of new colonies, ensuring survival despite the post-disaster challenges.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: Teams face the aftermath of wildfires that have destroyed bee habitats.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage wildlife to return.",
+        "B": "Create artificial bee habitats in areas untouched by the fires to support displaced bee populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to restore the burnt areas using bee-friendly vegetation. It will take time for the vegetation to mature, but the investment is a crucial step towards ecological recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Apis Aviators focus on seeding bee-friendly vegetation, Bombus Navigators constructs artificial bee habitats in unaffected regions, creating a network of safe havens for displaced bees. A spirit of camaraderie and shared purpose pervades the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Bombus Navigators seed the land with bee-supporting vegetation, as Apis Aviators initiate the construction of artificial habitats. This joint venture provides hope for an ecosystem on the brink.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus their efforts on building artificial bee habitats. Using innovative materials and designs, they create micro-ecosystems that support pollinators, paving the path for a brighter future for the displaced bees.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: The teams have an opportunity to expand the project scope, ensuring a sustainable future for the bees.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote greater public support for bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Simultaneously developing bee sanctuaries, both teams create a global network of high-tech havens for bees. The springing up of these sanctuaries signals a resolute, committed stance towards the restoration of bee populations and habitats.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apes Aviators spearhead the creation of advanced bee sanctuaries, while Bombus Navigators focus on public outreach and education. The blend of technical innovation and awareness building bolsters the bee conservation movement.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators take the lead in building bee sanctuaries, as Apis Aviators invest in public education. The synergy of these efforts creates a ripple effect of positive change in the world of bee conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launched extensive educational campaigns, touching every corner of society. Worldwide, people are learning about the importance of bees to the ecosystem, laying the foundation for sustainable action across generations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

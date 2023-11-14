@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Fliers of the future",
+  "gameDescription": "Command advanced airships in a mission to restore the world's bee populations. Operation Pollination combines strategic decision-making with environmental conservation, engaging players in the crucial task of restoring bee habitats devastated by human activities and natural disasters.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airship Base Alpha",
+    "missionEnd": "Various Global Locations"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in ecological technology and sustainable conservation measures."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specialized in habitat restoration and bee population management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "In the aftermath of a hurricane, the local ecosystem and bee habitats have been obliterated. The decision lies in effective resource utilization.",
+      "options": {
+        "A": "Engage in an extensive planting initiative, sowing native flowers to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, resilient to post-disaster impacts."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams devoted resources to restore the habitats. While this benefitted the surviving bees, the lack of sufficient bee populations to pollinate the new habitats resulted in lesser than expected recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Apis Aviators' focus on habitat restoration complemented the Bombus Navigators' establishment of new colonies. The resulting synergy led to a rapid recovery of the affected area.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Perfectly in sync, the Bombus Navigators rebuilt destroyed habitats while the Apis Aviators worked on the establishment of new colonies. This strategy significantly accelerated the recovery process.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams prioritized establishing new colonies, leading to a quick increase in bee population. However, lack of adequate habitats means a slower-than-expected recovery of the environment.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A wildfire has caused widespread damage to bee habitats. The decision on rehabilitation needs to be strategic for effective recovery.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams went with seeding the devastated area with bee-friendly vegetation. While this move will ensure healthier habitats in the long term, the displaced bee populations continue struggling.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators built artificial habitats, while the Apis Aviators seeded the wildfire affected area. The biodiversity of bee-friendly flowers mixed with stable habitats led to a quicker recovery.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Balancing seeding the damaged zone with the creation of artificial habitats, the teams together produced an exceedingly effective solution for reestablishing a healthy environment for the bee populations.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "The teams focused on creating new habitats, which led to immediate relief for the bees. However, the fire-ravaged lands remain desolate, potentially leading to future ecological issues.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Expanding conservation efforts is critical for the perpetuity of bees and the ecosystem. Strategic decision-making is key in this phase.",
+      "options": {
+        "A": "Develop bee sanctuaries equipped with advanced ecological technologies.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams took a technocratic approach, creating state-of-the-art bee sanctuaries. The bee populations certainly prospered, but lack of widespread public awareness led to persistent risks in non-protected areas.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Pairing advanced sanctuaries by the Apis Aviators with comprehensive educational campaigns of the Bombus Navigators, the teams ensured both immediate protection and long-term security for global bee populations.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "Balancing the creation of new, technologically advanced bee sanctuaries with global outreach, both teams ensured rapid recovery and widespread awareness. It was a win for both teams and global bee populations.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "The teams focused on education, empowering communities to participate in bee conservation. Although this approach will pay off in the long run, immediate bee protection measures are lacking.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

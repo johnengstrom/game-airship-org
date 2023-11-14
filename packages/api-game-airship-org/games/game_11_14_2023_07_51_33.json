@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Airship Mission",
+  "gameDescription": "The shy pangolins are under severe threat due to illegal poaching activities. Hence, the airship teams embark on a major mission to transport these vulnerable creatures from high-risk areas in Africa to a new secure enclosure in Vietnam. The teams need to make crucial decisions during this mission that will impact the survival of the pangolins and the environmental sustainability of the airship journey.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "High-Risk Poaching Sites in Africa",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Shy Shelter",
+      "description": "Specializing in careful handling of threatened wildlife and environmental welfare."
+    },
+    "redTeam": {
+      "name": "Rescue Wings",
+      "description": "Experts in efficient transportation and creating a conducive environment for the pangolins."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The pangolins are in a distressed state due to sudden environmental changes, the teams must decide on their treatment.",
+      "options": {
+        "A": "Administer sedatives to calm the pangolins during transportation.",
+        "B": "Create a naturalistic environment within the airship to help pangolins adapt."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to administer sedatives. The pangolins traveled comfortably, but the long-term effects of drugs on their health are uncertain.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team sedates the pangolins, the other creates a natural environment. The latter team's effort shows remarkable results with less effect on the pangolins' health, making them the standouts of this turn.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team induced a natural environment while the other relied on sedatives. The former's innovative decision yielded positive results, earning them the upper hand in this turn.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams created a naturalistic environment within their airships. This joint decision reflected their dedication towards the well-being of the pangolins and the mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships are faced with turbulent weather conditions en-route to Vietnam.",
+      "options": {
+        "A": "Navigate through the rough weather using advanced guidance.",
+        "B": "Opt for a safer but lengthier route to ensure the pangolins' comfort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to brave the storm. The expertise of the crew and robust airship technology make a successful journey, yet the agitation caused to the pangolins raises concern for their welfare.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship takes the storm head-on, while the other opts for a longer, safer route. The slower team earns praise for prioritizing the pangolins' comfort over the mission's runtime.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team navigates through the storm, the other takes an alternate route. The latter's humane decision garners appreciation and aids in their stand in this mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the longer, safer route, ensuring the least disturbance to the pangolins. Their collective effort and kindness are lauded and favor the mission's purpose.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the team must decide how to acclimatize the pangolins to their new habitat.",
+      "options": {
+        "A": "Release the pangolins into their new habitat directly from the airship.",
+        "B": "Gradually introduce the pangolins to the new environment over a few days."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams directly introduce the pangolins to their new habitat. While this shows immediate results, the pangolins might take a while to adapt to the sudden change.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team releases the pangolins into the enclosure immediately, while the other gradually acclimatizes them. The slowed introduction proves successful, with pangolins adapting smoothly.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team opting for immediate release and the other for a gradual approach, the slow and steady method proves more effective in helping the pangolins adjust to their new home.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to gradually acclimatize the pangolins. This methodical approach yields positive results, ensuring the pangolins' healthy adjustment to their new sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

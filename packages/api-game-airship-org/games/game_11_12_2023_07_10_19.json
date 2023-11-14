@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airborn Ark: The Pangolin's Pilgrimage",
+  "gameDescription": "In the throbbing heart of the wild, pangolins face a brutal reality, their numbers dwindling relentlessly due to illegal trafficking. Two powerful entities, Greater Good Charities and Wildlife At Risk, have kindled a flare of hope, building a new enclosure providing a sanctuary for recovery and growth in Vietnam. As the commanders of two futuristic airships, Arcadia Whisper and Gaian's Grace, your mission is to ferry precious pangolins from perilous landscapes to this newfound haven. Navigate three strategic turns whilst managing fuel, and the life you transport and the ecological implications of every decision.",
+  "setting": {
+    "location": "Above the forests and jungles in Africa",
+    "missionStart": "Distressed Pangolin Habitats",
+    "missionEnd": "The new sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Arcadia Whisper",
+      "description": "Proficient in stealthy navigation and swift extraction."
+    },
+    "redTeam": {
+      "name": "Gaian's Grace",
+      "description": "Specializes in gentle transport of live cargo and efficient energy use."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Each airship is now at the heart of the African jungles where pangolins are endangered. The choice lies in either swiftly moving in to rescue before poachers arrive or set up a trap to lure the poachers into getting arrested.",
+      "options": {
+        "A": "Rescue the pangolins quickly and escape before the poachers arrive.",
+        "B": "Coordinate with local authorities and set a trap for the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams move towards swift rescue, whisking the pangolins to safety. Quick extraction uses more fuel but ensures immediate rescue.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team rescues the pangolins, the other assists authorities in capturing poachers. The arrest helps long-term protection, but they lose time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team assists in capturing poachers while the other rescues the pangolins, combining immediate action with long-term solutions. Both teams are praised for their synergy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams help in trapping the poachers. Pangolins are saved, and illegal trade is curtailed. However, energy and time spent on coordination may affect the success of the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Halfway, both airships receive SOS signals from another location with higher risk but more pangolins needing immediate help. They need to decide if they detour to this location or stick to their original path.",
+      "options": {
+        "A": "Detour to the new location, risking the mission's schedule and additional energy use.",
+        "B": "Stay on course, ensuring efficiency but possibly leaving more pangolins in danger."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams detour. While risks elevate and fuel consumes rapidly, many more pangolins are saved. Their audacious effort scores a blow against illicit trade.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team detours while other sticks to the path. This diversification leads to more pangolins being saved, illustrating the power of distributed responsibility.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team diverting and the other staying on course, the pangolin rescue operation expands its range. The teams' flexible response becomes a symbol of adaptive conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stay their original course, balancing the saving of pangolins with mission constraints. Their steady perseverance strikes a careful harmony between urgency and sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach the Vietnamese coast, they face a harsh decision. They can either choose a faster but energy-hungry route through thunderstorms or navigate slowly around them saving energy but causing delay.",
+      "options": {
+        "A": "Take the direct route and brave the storm, risking higher energy consumption.",
+        "B": "Take a slow and safe detour around the storm, possibly causing delay."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the storm using their superior technology, arriving punctually but burning excessive energy. They have put the cargo safety first, illustrating their commitment to saving pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team battles the storm, arriving sooner but at greater energy cost. The other team takes the detour, arriving later but with energy to spare. They show different, but equally dedicated paths to conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team risks the storm while the other takes the detour - both proving their determination to their cause. Their opposite choices reflect the nuanced nature of complex wildlife conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams skirt around the storm, conserving energy at the expense of time. Demonstrating great care for their charges and a respect for nature's power, they epitomize the delicate balance conservation entails.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

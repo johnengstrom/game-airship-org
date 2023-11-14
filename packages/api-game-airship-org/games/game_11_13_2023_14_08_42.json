@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco Voyage",
+  "gameDescription": "As part of a global strategy to introduce sustainable eco-tourism in Antarctica, players control intelligent airships tasked to minimize the environmental impact while facilitating scientific research and exploration. Their decision-making capabilities will shape the trajectory of Antarctic tourism, influence scientific progress, and help preserve the fragile Antarctic ecosystem in the face of increasing tourist demand.",
+  "setting": {
+    "location": "Across the Antarctic Continent",
+    "missionStart": "Antarctic Gateway Port",
+    "missionEnd": "Antarctic Scientific Research Base"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Icewind Navigators",
+      "description": "Pioneers of Antarctic tourism with a reputed expertise in deep south navigation."
+    },
+    "redTeam": {
+      "name": "Glacier Guardians",
+      "description": "Renowned for their work on conservation initiatives and eco-focused tourism in fragile environments."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Selecting the landing site for your tourist venture is crucial. This decision will have a significant impact on the local environment and wildlife.",
+      "options": {
+        "A": "Choose a widely popular site, already impacted by previous exploration activities.",
+        "B": "Select an untouched but attractive location, opening it for the first time to tourists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the popular site. This decision reduces disturbance to new areas but significantly amplifies the strain on an already overloaded ecosystem. Increased revenue means more funding for conservation, but is it too late?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The teams split their choices, minimizing overuse of a single site but exposing a previously untouched area to fresh impact. This dilemma illustrates the delicate balance necessary in nature tourism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team choosing the popular site and the other venturing into pristine territory, the spread of environmental impact widens. It’s a vexing puzzle that demands innovative solutions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into untouched areas. The novelty heightens the tourist experience, but pristine environments now face human impact. The question of 'nature versus exposure' seems more urgent than ever.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing tourist capacity is a delicate task, balancing revenue, tourist satifaction, and environmental safety.",
+      "options": {
+        "A": "Allow a larger number of tourists to generate higher revenue, while possibly straining the environment.",
+        "B": "Limit the number of tourists for better conservation, potentially sacrificing some revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to accommodate a larger number of tourists, the teams amplify the revenue but sadly the conservation suffers. The future hangs in balance: can the profit support the environment it endangers?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team favors conservation, while the other ventures for profit. This contrast sets a stage for heated debates on the benefits of revenue versus the rebound potential of nature under stress.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The conservative approach of one team provides a stark contrast to the other's diverting stance, thus, creating a dialogue around when commercial gain outweighs environmental conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize conservation over profit. This shared commitment reduces the impact on the ecosystem and inspires respect among the global community despite the loss in potential revenue.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Planning effective conservation initiatives is a vital part of ensuring the long-term sustainability of Antarctic tourism.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, making them part of the solution but perhaps diluting the effectiveness of professional interventions.",
+        "B": "Implement strict regulations and closures, potentially limiting the tourist experience but enhancing protection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to include the tourists in conservation efforts. While this approach heightens public awareness, they grapple with the fact that wildlife disturbance occurred despite their best intentions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team draws tourists into conservation, the other steers towards regulating and limiting access. This comparison underlines the tension between inclusivity and effective protection.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team's strict regulations and closures juxtaposes with the other's participative approach. This reveals how different strategies can each bear fruit, yet spark a debate on which tactics best serve the environment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce strict regulations, prioritizing Antarctic biodiversity over a broader tourism experience. It’s a brave choice, and it challenges the global community to consider: What are we willing to give up in order to preserve our planet?",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

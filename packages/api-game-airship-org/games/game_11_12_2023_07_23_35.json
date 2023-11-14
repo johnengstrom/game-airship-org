@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Crisis",
+  "gameDescription": "In a world where the pristine wilderness of Antarctica has become the latest hotspot for tourism surge, players command intelligent airships tasked to balance between facilitating scientific research, sustainable exploration, and minimizing the environmental impact whilst navigating Antarctic landscapes.",
+  "setting": {
+    "location": "Above the Antarctic Continent",
+    "missionStart": "Ushuaia, Argentina",
+    "missionEnd": "Antarctic Research Station"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ice Navigators",
+      "description": "Experts in Antarctic exploration with a focus on scientific research and sustainable tourism."
+    },
+    "redTeam": {
+      "name": "Frost Guardians",
+      "description": "Specializing in eco-tourism and conservation in extreme environments like Antarctica."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Somewhere over the frozen expanse, it's time to decide on the landing site for the eager tourists. The choice you make could very much determine the impact on the fragile Antarctic ecosystem.",
+      "options": {
+        "A": "Choose to direct tourists to an already impacted site, containing the further influence to a relatively small area.",
+        "B": "Decide to land in an untouched pristine location, spreading the impact but potentially damaging unspoilt habitats in the process."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the impacted area. This choice contains human influence but intensifies the impact on the location. The existing infrastructure makes the landing easier, but the ecosystem sustains further damages.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the impacted area whilst the other spreads the impact by picking the untouched region. The pristine site is more demanding, risks damaging untouched habitat, but offers a spectacular sight.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team picks the untouched location while the other chooses the impacted area. The contrast in visiting areas creates a diverse experience for the tourists, but the untouched location may never be the same.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the untouched location. The untouched site is undeniably charming for tourists, but human presence leaves a significant impact on the pristine ecosystems, marking the beginning of a long-term challenge.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Now, a decision must be made about the tourist capacity allowed on each trip. The choice made here can create valuable tourism revenue for future conservation efforts, but at the risk of increased environmental impact.",
+      "options": {
+        "A": "Allow a higher number of tourists, inciting a higher impact, but generating more revenue.",
+        "B": "Limit the number of tourists to reduce the environmental impact, but with less generated revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to allow more tourists. The revenue generated is substantial, allowing for future conservation efforts, but the volume of tourists significantly disturbs the local wildlife and habitat.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to limit tourists, while the other invites more. The more populated team creates considerable disturbance to the habitat, while the less populated team creates an intimate and less invasive experience for its tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team allows more tourists while the other chooses limitation. The team with smaller tourist numbers offers a personalized experience with minimal impact, while the other faces criticism over potential habitat disturbance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit the tourists. The teams are hailed back home for their pro-environment stance. Revenue is less but both teams manage to create an environment-friendly tourism model for the Antarctic wilderness.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally, you must decide on inaugurating a conservation programme for the Antarctica wilderness. The choices could make a difference in preserving the ecosystem for generations to follow",
+      "options": {
+        "A": "Engage the tourists actively in the conservation efforts through interactive sessions and hands on activities.",
+        "B": "Emphasize on strict regulations, area closures and monitored tours to minimize the environmental impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams initiate tourist engagement programs. These sessions enlighten the tourists, making them more conscious about the impact of their actions. This strategy turns tourists into advocates of Antarctica's protection.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses active tourist engagement, while the other advocates strict regulations. Tourists become conscious in one scenario, while in the other, they follow stringent rules, both leading to responsible hosting in hostlie environments.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team strictly regulates tourist behaviour, while the other provides interactive conservation sessions. This variation maintains an equilibrium; stringent rules contain environmental impact while the educative programs inspire the tourists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams establish stringent regulations mandating responsible behaviour. The tourists are strictly monitored, minimizing the overall environmental impact. Contribution to the local economy struggles, but the ecosystem thanks you.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

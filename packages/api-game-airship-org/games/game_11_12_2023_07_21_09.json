@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Guardians: Pangolin Rescue",
+  "gameDescription": "Two futuristic airships, the 'Ardent Altruist' and the 'Winged Savior', embark on a global mission of wildlife conservation, focused on rescuing endangered pangolins threatened by illegal trafficking. Each decision made by the airship crews affects not only the survival of these precious creatures, but also reflects important environmental and societal impacts.",
+  "setting": {
+    "location": "Across the continents of Africa and Asia",
+    "missionStart": "Greater Good Charity Headquarters",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ardent Altruist",
+      "description": "Specializing in resource management and wildlife rescue."
+    },
+    "redTeam": {
+      "name": "Winged Savior",
+      "description": "Experts in stealth operations and wildlife care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a group of poachers threatening a pangolin colony. They must decide on their course of action.",
+      "options": {
+        "A": "Engage the poachers directly using drone technology to scare them away.",
+        "B": "Inform local authorities anonymously and deliver crucial evidence for immediate action."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to engage, successfully scaring the poachers away. The pangolins are safe for now, but the confrontation depleted some of the airship’s fuel reserve.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages while the other notifies the authorities. The combined effort saves the pangolins effectively, but the direct interference alerts other poaching groups in the area.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams split their approach. Unexpected delays from authorities cause some distress, but the vigilant engagement of the other team manages to protect the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to inform local authorities. Though the intervention takes time, they manage to ensure the safety of the pangolins without drawing attention to their presence.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon rescuing the pangolins, the teams face a dilemma regarding their initial care.",
+      "options": {
+        "A": "Apply basic first aid to the pangolins and continue the journey to Vietnam.",
+        "B": "Take a detour to a nearby wildlife care center to ensure professional medical care."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for basic first aid, saving time but posing potential risks for the pangolins' health. They proceed directly to Vietnam, hoping their care was sufficient.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One ship continues the journey while the other seeks professional help. The delay affects the schedule, but the pangolins receive much-needed care, strengthening their survival chances.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team chooses first aid while the other detours, culminating in a more balanced approach. The pangolins' health is prioritized without entirely compromising the mission timelines.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the wildlife center detour. The pangolins receive excellent care, but the added journey time strains their resources. The shared act validates their mutual mission of compassion.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams encounter strict customs regulations for wildlife entry.",
+      "options": {
+        "A": "Negotiate with the customs authority using your wildlife conservation credentials.",
+        "B": "Take a discreet route to the enclosure to avoid unnecessary delays and bureaucratic entanglements."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams negotiate with the customs authority. There are lengthy procedures, but the teams’ ethic responsibility is appreciated, building stronger relationships with local authorities for future missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for negotiation while the other takes the discreet route. The direct team faces a delay but strengthens relations with the authorities, while the other team ensures a quick transfer of the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The decision to mix tactics results in an efficient operation. Both the connection with authorities and the safe transfer of the pangolins are achieved.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams follow the discreet route. The pangolins are moved smoothly to their new home, but the bypass of customs draws a future risk, casting a cloud over the mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

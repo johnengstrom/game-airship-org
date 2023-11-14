@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Resurgence: The Airship Aid",
+  "gameDescription": "Human beings have driven shy and reclusive pangolins to the brink of extinction, poaching an estimated 2.7 million annually for their meat and scales. However, Greater Good Charities and Wildlife At Risk are fighting against this grim narrative, having recently completed a new pangolin enclosure in Vietnam. In this game, two teams of futuristic airships, dubbed the 'Life Bringers' and the 'Eco Angels', are tasked with airlifting rescued pangolins to this sanctuary. Their time-sensitive missions involve strategic decision-making that impacts the pangolins' survival and their airships' environmental footprint.",
+  "setting": {
+    "location": "Above the jungles of Vietnam",
+    "missionStart": "Various secret pangolin rescue points",
+    "missionEnd": "The enclosure sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Life Bringers",
+      "description": "Specializing in rapid recovery and minimal stress transport."
+    },
+    "redTeam": {
+      "name": "Eco Angels",
+      "description": "Experts in environmental navigation and low-fuel consumption."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships locate poachers' hideouts simultaneously, but retrieving the pangolins risks alerting the poachers.",
+      "options": {
+        "A": "Undertake high-risk, rapid retrieval to save as many pangolins as possible.",
+        "B": "Coordinate with local enforcement and stage a clandestine rescue to ensure safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams perform high-risk retrievals, successfully saving many pangolins. However, the poachers are alerted, making future missions more dangerous.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team's rapid action saves several pangolins, while the other's coordinated efforts lead to arrests. Their contrasting approaches become a case study in rescue missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team works with local enforcement, aiding arrests and pangolin rescue, while the other's immediate action results in a higher rescue count. The differing strategies stir debate.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local enforcement. This slower, safer route leads to fewer immediate pangolin rescues, but poachers are arrested preventing future poaching.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Each airship receives distress signals from two different pangolin poaching hotspots.",
+      "options": {
+        "A": "Divert to the closer hotspot, potentially saving more pangolins.",
+        "B": "Head to the further hotspot, where poaching is more rampant but fuel usage will be higher."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams reach the nearer hotspots quickly and save numerous pangolins. However, high levels of poaching continue unchecked at the remote locations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to save immediate lives, while the other one risks higher fuel usage for a chance to save more pangolins. Collaborative efforts maximize the rescue count.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team rushes to the nearer hotspot, the other uses more fuel to reach the remote hotspot. Their decisions help the teams cover more ground and save more pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the highly impacted distant hotspots, risking significant fuel usage to potentially rescue more pangolins. Their brave decision raises awareness about the severity of the situation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The sanctuary sends an urgent request for half the airships' pangolins for an immediate live broadcast to raise global awareness.",
+      "options": {
+        "A": "Divert half of the pangolins immediately to support the broadcast, but disrupt pangolin rest and stress management schedules.",
+        "B": "Maintain current course and schedules, minimizing environmental and pangolin stress factors."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to support the live broadcast, causing some stress to the pangolins. Nevertheless, the public's response is overwhelming, with a surge in donations supporting the sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team transports the pangolins to support the broadcast. The show is a success, but some pangolins are stressed. The other team prioritizes their charges' welfare.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team prioritizes pangolin welfare, maintaining their course, the other team supports the broadcast. The actions of both teams spark a global debate on balance between awareness and welfare.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams honor their commitment to minimal stress for the pangolins, declining to support the broadcast. The sanctuary understands their decision, generating positive public discourse about pangolin care.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

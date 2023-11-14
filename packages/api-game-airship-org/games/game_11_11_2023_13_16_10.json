@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Sanctuary: Pangolin Preservation",
+  "gameDescription": "Pilots of two advanced airships, Aeolus Wings and Poseidon Carriers, embark on a mission to transport pangolins from several threatened locations in Africa to a newly constructed safe haven in Vietnam. Bearing the responsibility of this unique cargo, they must make strategic decisions that will affect not only the mission's success, but also the conservation efforts of these endangered creatures.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Various Threatened Locations in Africa",
+    "missionEnd": "New Pangolin Safe Haven in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Renowned for their animal-friendly modifications and flight stabilisation techniques."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Specialists in long-distance travels and power efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Operating under the cover of night to escape attention, the teams must navigate a dense, stormy cloud cover obscuring the way.",
+      "options": {
+        "A": "Rely on infrared and radar technology to navigate through the storm.",
+        "B": "Climb higher above the storm, burning more fuel but ensuring a smoother journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams push through the storm skilfully with technology. The journey is rough, but pangolins are well-secured, and the cover of the storm provides extra security against poachers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings pioneers through the storm while Poseidon Carriers diverts higher. Poseidon's climb expends more fuel, but the smooth flight leaves the pangolins unrested.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team braves the lower altitudes, trusting their tech, as the blue team ascends to clearer skies. The shaking from Aeolus's journey give a pangolin enough excitement to birth a baby en-route.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ascend above the storm, providing a smooth ride for the sensitive cargo. Extra fuel consumption is a concern, but the decision emphasizes safety and comfort.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the teams discover some pangolins displaying signs of sickness. Immediate medical help could save them.",
+      "options": {
+        "A": "Divert to a nearby wildlife hospital, delaying the overall mission.",
+        "B": "Continue the mission while providing in-flight first aid."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land at the hospital. The detour leads to successful treatment and recovery of sick pangolins, though the delay attracts the attention of local poachers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Aeolus Wings head for the hospital, Poseidon Carriers tend to the sick onboard. Both sets of pangolins recover, but the Aeolus’s detour increases the chances of poaching.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon takes a detour for treatment as Aeolus provides in-flight care. While all pangolins survive, the detour puts Poseidon at risk from traffickers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to provide in-flight care, gaining valuable time but stressing their medical resources. Fortunately, the sick pangolins recover, showcasing the teams' dedicated care.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, local authorities impose sudden restrictions due to heightened poaching alerts.",
+      "options": {
+        "A": "Lobby for clearance through direct diplomatic channels, possibly prompting delays.",
+        "B": "Opt for an alternative but longer route free of regulatory hurdles."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to pursue diplomacy and manage to obtain immediate clearances after some delay. Their actions also highlight the illegal wildlife trade issue on a global platform.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus navigates through bureaucracy as Poseidon takes the longer route. While Aeolus’s delay is notable, their pleas reach many ears, opening discussions about wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon talks to the officials while Aeolus moves along the alternative route. The delay doesn't hinder Poseidon's spirits as they spread awareness about the pangolin crisis.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the long route, avoiding bureaucracy and ensuring the cargo reaches safely. Their decision, though time-consuming, aids in evading potential poaching threats.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

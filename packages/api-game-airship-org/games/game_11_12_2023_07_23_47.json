@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Cloud Rescue",
+  "gameDescription": "In a world where wildlife trafficking poses a major threat to species like pangolins, advanced airships use intelligent technology to transport rescued animals to safe facilities and participate in missions that directly combat against wildlife poaching. Representing tech-enabled conservation organizations, two teams, the Red Team and the Blue Team, embark on a series of challenges where their strategic decisions directly impact the success of their mission to transport and protect pangolins, as well as the overall environmental impact. Their actions will decide the fate of the world's most heavily trafficked wild mammal.",
+  "setting": {
+    "location": "Starting from Africa and heading towards a new sanctuary in Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aero Guardians",
+      "description": "Specializing in rapid response and animal care."
+    },
+    "redTeam": {
+      "name": "Skyward Shields",
+      "description": "Known for their covert operations and technical knowledge."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Intercepting radio signals, both teams relay a distress call from natural park rangers regarding illegal poaching activity. Confronted with time-sensitive decisions, they need to take immediate action.",
+      "options": {
+        "A": "Rush to the location with turbo-engines, risking higher fuel consumption.",
+        "B": "Connect with nearby ranger stations to collaborate and delay poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush to the scene, managing to ward off poachers but causing excess emissions. This daring move saves numerous pangolins but demands higher fuel replenishment for both.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Red Team rushes to the scene, the Blue Team collaborates with rangers. The diverse strategies divide the poachers focus and maximizes the mission's success with balanced environmental impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As the Blue Team zooms towards the park, the Red Team unites ranger stations. This strategic diversity restricts poaching activities while managing fuel usage, thus boosting the overall mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams bring local rangers together, leading to a large-scale anti-poaching operation that secures the park borders while preserving fuel reserves. This encourages a collective effort in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Having rescued numerous pangolins, both teams now face two options for their care while en route to the new sanctuary.",
+      "options": {
+        "A": "Provide immediate medical treatment onboard risking navigational distraction.",
+        "B": "Maintain current speed and provide basic care to stabilize pangolins until arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for intensive onboard care. Pangolins health drastically improves, but it diverts navigation focus causing slight delays. The dilemma between animal care and optimized navigation continues.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Blue Team provides extensive medical treatment, the Red Team balances basic care and navigation. Collective efforts ensure pangolins optimal health and a more efficient transport.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With Red Team undertaking intensive medical care, Blue Team maintains balance. This result in a combination of excellent healthcare and efficient transport, ensuring timely arrival.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for balanced care and navigation, ensuring the pangolins are stable while maintaining a good pace. This joint effort models perfect balance in conservation efforts with minimal disruptions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, both teams receive intelligence about possible traffickers spies at the sanctuary's location.",
+      "options": {
+        "A": "Take a stealthy approach, potentially missing the sanctuary's inauguration ceremony.",
+        "B": "Follow the original plan with precautions and high alert."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose stealth, effectively dodging the traffickers. Yet, they miss the sanctuary’s opening ceremony, causing minor public relations setbacks to their organizations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Red Team opts for stealth, the Blue Team arrives as planned, attracting trafficker's attention but also inspiring countless conservationists worldwide with their determined stance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Blue Team goes stealth, while Red Team shows defiance by carrying on the planned route. They both overcome the obstacles, becoming a beacon of hope for pangolin’s survival.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue their mission as planned while remaining vigilant. The public ceremony gives a powerful message of hope for pangolin conservation, amplified with the world watching.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

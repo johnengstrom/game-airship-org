@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balance of the Ice",
+  "gameDescription": "In a near future, captains of futuristic airships are entrusted with navigating the delicate landscape of Antarctica, facilitating scientific research and sustainable exploration amidst a surge in tourism. Balancing conservation and exploration, players must make strategic decisions that impact the unique ecosystem and their mission's success.",
+  "setting": {
+    "location": "Over the icy wilderness of Antarctica",
+    "missionStart": "McMurdo Station, Antarctica",
+    "missionEnd": "Selected Landing Site"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ice Navigators",
+      "description": "Experts in site selection and tourist management."
+    },
+    "redTeam": {
+      "name": "Polar Guardians",
+      "description": "Specialists in conservation and sustainable tourism."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Selecting a landing site for the scientific expedition and tourists. The choice will affect Antarctica’s ecology and the popularity of the mission.",
+      "options": {
+        "A": "Choose a popular but already impacted site for landing.",
+        "B": "Select a pristine, untouched site for a new experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the popular site, reducing the environmental impact by not disturbing new areas, but the site’s popularity suffers from overexpansion.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team picks the popular site while the other ventures into the pristine land. The pristine site's untouched nature attracts more tourists, but also risks disturbing new ecosystems.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team selects the untouched land while the other sticks with the popular site. The untouched site's pristine nature is majorly impacted by the influx of new visitors.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the pristine site, drastically changing an untouched ecosystem. Its popularity grows, but at a high environmental cost.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Deciding on the tourist capacity. The decision will shape not only Antarctica's ecosystem but also the economic prosperity of the mission.",
+      "options": {
+        "A": "Allow a higher number of tourists, resulting in higher impact but more revenue.",
+        "B": "Limit the number of tourists for conservation, decreasing the environmental impact but also the revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow a high number of tourists, drastically impacting the ecosystem but bolstering the mission's economic prosperity.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One team limits the tourist numbers while the other opts for a larger influx. The site with fewer tourists sees fewer disturbances but fails to generate as much revenue.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team allows higher tourists influx, while the other team restricts the number. The site with more tourists faces heavier environmental impacts but generates more profit.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit the number of tourists. Antarctica’s ecology breathes easier with fewer disturbances, but the mission's financial prosperity could have been higher.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "To navigate the delicate balance between tourism and conservation, the teams must adopt a conservation initiative.",
+      "options": {
+        "A": "Active engagement of tourists in conservation efforts.",
+        "B": "Strict regulations and area closures to limit the tourist impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists actively in conservation. The environmental awareness among tourists grows, but the challenges in managing an untrained workforce mount.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists in conservation while the other enacts strict regulations. The tourist-involved team creates environmental stewards but faces management issues, while the regulated area sees less human impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team enforces strict regulations while the other engages tourists in conservation. The regulated area limits human impact but faces criticism for a lesser interactive experience.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams impose strict regulations and closures. These limitations protect the environment effectively, but the lack of interactive participation results in backlash from tourists.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Aerial Guardians: Pangolin Mission",
+  "gameDescription": "In the not-so-distant future, two teams of airship operators, 'Sky Shepherds' and 'AeroSentinels', find themselves on a mission to transport essential supplies, veterinary experts, and groundbreaking habitat modeling technology to a newly established pangolin sanctuary in Vietnam. As they traverse across nations and oceans from their Africa-based wildlife workstation, they must strategize their choices to ensure the safety and well-being of the cargo, all while maintaining their stringent eco-protocols.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Africa-based Wildlife Workstation",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Shepherds",
+      "description": "Adept in long-haul logistics and wildlife conservation strategies"
+    },
+    "redTeam": {
+      "name": "AeroSentinels",
+      "description": "Advanced in eco-efficient technologies and ideal bio-transport protocols"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A sudden mountain mist poses a dilemma. Taking the safer, conventional route leads to more hydrogen usage. An alternate, shorter route exists but requires precise navigation through narrow valleys and uneven terrains.",
+      "options": {
+        "A": "Choose the safer, conventional path, consuming extra hydrogen.",
+        "B": "Take the riskier, energy-efficient path requiring meticulous navigation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams stick to safety, consuming valuable hydrogen but ensuring safe passage. Their strategic planning is a testament to their priority on mission-critical cargo safety.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherds go the safe route while AeroSentinels venture through the mist. Both achieve efficient travel - one through fuel, the other through skillful navigation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "AeroSentinels take the conventional route, while Sky Shepherds bravely navigate through the mist, demonstrating a skillful blend of ecological responsibility and mission adherence.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams traverse through the perilous mist. Their success not only saves fuel but also demonstrates a prime example of skilled, eco-efficient navigation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "En-route, the teams intercept a distress signal from a poached pangolin convoy. The mission to rescue these animals may delay their schedule while consuming extra hydrogen for the rescue transfer.",
+      "options": {
+        "A": "Delay the mission to undertake the rescue, risking hydrogen and timeliness.",
+        "B": "Stay on course and coordinate a local rescue team to handle the situation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to launch a daring mid-air rescue operation. Their commitment to every pangolin tells a tale of true compassion, regardless of the delay and fuel sacrifice.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Shepherds undertake the stalling rescue while the AeroSentinels coordinate local teams. Both approaches save pangolins, redefining the meaning of true commitment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "AeroSentinels veer from their course to the rescue, while the Sky Shepherds stay on task, coordinating support. Their division of labor showcases the need for multifaceted efforts in wildlife conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams ignore the time risk, informing local rescue groups en-route. Their coordination shows that time sensitivity and rescue missions can coexist efficiently.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Close to the sanctuary, they face a critical hydrogen state. Both could choose to refuel at an upcoming station, impacting their on-time arrival, or risk continuing with limited supplies.",
+      "options": {
+        "A": "Stop to refuel hydrogen, ensuring a smoother final leg but risking timeliness.",
+        "B": "Continue to the sanctuary on limited fuel, keeping the schedule but risking fuel shortage."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both stop for refueling, delaying the mission but guaranteeing a safer final leg. Their choice symbolizes cautious optimism in the complex realm of wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherds refuel while AeroSentinels opt for an on-time arrival. Their contrasting approaches epitomize how different paths can still lead to a common objective.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "AeroSentinels stop for a quick hydrogen top-off while Sky Shepherds push ahead, highlighting the coexistence of daring and cautious approaches in the face of conservation challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, running on minimal hydrogen, arrive together, on time - a triumph of synergy and conviction, despite resource constraints. The pangolins have arrived at their new safe haven.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Sky Saviors: The Pangolin Plight",
+  "gameDescription": "In a world facing the grim narrative of relentless damage to biodiversity, two futuristic airship teams embark on an eco-mission to swiftly deliver vital resources and conduct crucial operations for an endangered animal rescue project. Their mission: To navigate the international borders and reach a new pangolin enclosure in Vietnam, transporting essential supplies, equipment and rescued pangolins.",
+  "setting": {
+    "location": "International Airspace",
+    "missionStart": "Natural Habitats Around the World",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Beacon Skylords",
+      "description": "Specialists in careful cargo handling and creating nurturing environments."
+    },
+    "redTeam": {
+      "name": "Conservation Crusaders",
+      "description": "Accomplished in efficient navigation and minimizing environmental impact."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are confronted with an intense squall that threatens to disrupt their mission or cause damage to their delicate cargo.",
+      "options": {
+        "A": "Navigate through the storm by leveraging the airships' advanced weather-mitigation technologies, risking potential distress to the rescued pangolins.",
+        "B": "Navigate around the storm which involves added flight time and higher resource consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to navigate through the storm. The state of the art airship technology handled it well, ensuring safety of the pangolins onboard. However, the stressful experience may affect the pangolins' adaptation to their new homes.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As one team valiantly braves the storm, the other chooses to detour. Beacon Skylords, having endured the storm, manages to maintain adequate speeds at higher resource consumption. Meanwhile, the Conservation Crusaders ensures absolute safety and comfort for their pangolins but face additional travel time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With Beacon Skylords deciding to detour around the storm and Conservation Crusaders braving it, the result is a contrast of approaches. The team navigating the storm manages to maintain course but might face unforeseen consequences, while the detouring team ensures comfort at the expense of resources.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choosing to circumvent the storm shows unflinching dedication to their respective missions. While this decision leads to an increased journey time and higher resource consumption, it underscores their commitment to the safe relocation of the rescued pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A leaked news report of the mission has triggered black market interest and possible threats",
+      "options": {
+        "A": "Adopt a stealth approach and modify flight path to evade possible threats, which would require additional resources.",
+        "B": "Continue on current path and prepare for possible interferences, risking safety of the crew and pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide in favor of stealth, increasing their journey time and resource consumption. Safety of the pangolins has been ensured, but the extended trip has strained their resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With Beacon Skylords adopting stealth operations while the Conservation Crusaders stick to the original path, a strategic balance is achieved. While the stealth airship ensures absolute security at a higher cost, the other ship continues with the journey as planned, trusting in their defense systems.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team takes the stealth rout to avoid danger, Conservation Crusaders decide to continue on the planned path. Their defense systems manage to keep threats at bay, maintaining the balance between safety and resource consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stay steadfast on their course, dealing pragmatically with threats as they come. Their defense mechanisms hold off any interference, ensuring the safety of the pangolins onboard.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Both airships are approaching Vietnam but strict air traffic control requires precise timing and coordination.",
+      "options": {
+        "A": "Speed up to ensure an early arrival for easier traffic management.",
+        "B": "Maintain current speed while coordinating with air traffic control, risking possible delays."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to speed up, successfully avoiding traffic complexities but using additional fuel. The pangolins arrive to their new enclosure in good time but funds now need to be redirected to refuel the airships.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Beacon Skylords choose to arrive early, skirting the complications of regulated airspace, while the Conservation Crusaders showcase exceptional coordination skills with traffic control. In spite of the varied approaches, both airships manage to deliver their precious cargo safely and within time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Conservation Crusaders’ decision to arrive early pays off as they manage to avoid airspace traffic. Beacon Skylords, maintaining their current speed, elegantly navigate through the airspace guided by air traffic control, marking a perfect landing in Vietnam.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide not to speed up, successfully coordinating with air traffic control and demonstrating the effectiveness of patience and communication. The rescued pangolins are safely delivered to their new home, with the promise of contributing to their species’ recovery.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

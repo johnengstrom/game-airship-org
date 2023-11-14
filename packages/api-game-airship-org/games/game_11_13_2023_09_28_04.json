@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin Rescue",
+  "gameDescription": "In the midst of an ecological crisis, two advanced airships, the Arcadia's Trust and Zahara's Shield, are embarking on a mission to transport rescued pangolins from Africa to a newly built safe haven in Vietnam. The cargo is precious – a group of pangolins saved from poachers, to be introduced into a special enclosure built by Greater Good Charities and Wildlife At Risk. Every decision made by the airship crews, from dealing with unexpected obstacles to conserving fuel made from eco-friendly biohydrogen, affects the survival of their priceless cargo and the environment.",
+  "setting": {
+    "location": "Above the Indian Ocean",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Arcadia's Trust",
+      "description": "Equipped with state-of-the-art navigational systems and specialized for optimal wildlife transport."
+    },
+    "redTeam": {
+      "name": "Zahara's Shield",
+      "description": "Renowned for their resource management and adaptability in challenging environments."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships, en route to Vietnam, receive an updated weather forecast predicting an oncoming monsoon. They must decide how best to proceed.",
+      "options": {
+        "A": "Accelerate to outpace the monsoon, using more biohydrogen but avoiding unfavorable weather.",
+        "B": "Alter the course, adding extra travel time but saving fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accelerate, banking on their speed to beat the monsoon. The pangolins are secure, but the extra biohydrogen usage will make the rest of the journey challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Arcadia's Trust hastens ahead while Zahara's Shield alters course. The shield's route ends up being less stressful for the pangolins, earning them appreciation from the Charities.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Zahara's Shield charges ahead while Arcadia's Trust opts for the safer route. The trust arrives a bit later but uses less fuel, gaining the commendation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Choosing a secure path, both teams divert course and save fuel. Their shared commitment to the welfare of the pangolins deepens their partnership in this journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal comes from a ship loaded with anti-poaching rangers under attack in the pirate-infested waters.",
+      "options": {
+        "A": "Dispatch a drone to provide aerial support in tracking the pirates.",
+        "B": "Continue on course maintaining a low profile, prioritizing the safety of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships dispatch drones, locating and diverting the pirates but expending extra energy. The rangers are saved, but the pangolins' comfort is mildly disrupted.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Arcadia's Trust sends a drone while Zahara's Shield stays on course. The rescue mission succeeds and the shield is praised for its considerate approach towards the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While Zahara's Shield employs a drone, Arcadia's Trust proceeds undistracted. The Trust's commitment to the mission sets a remarkable example, earning it increased support.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Choosing safety first, both teams stay on track. While they are unable to assist the rangers directly, their dedication to the mission and the pangolins is commended.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach the Vietnamese coast, they receive two potential landing zones. One is closer but populated, possibly disturbing the pangolins; the other is remote but harder to reach.",
+      "options": {
+        "A": "Land at the closer site, causing minimal delay but potentially stressing the pangolins.",
+        "B": "Land at the remote site, ensuring a tranquil arrival but consuming extra fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both choose the closer site to minimize delay. The pangolins arrive slightly stressed from the noise, but the mission's success is largely celebrated.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Arcadia's Trust chooses the closer site while Zahara's Shield opts for the remote site. The shield's pangolins arrive calm and collected, leading to greater appreciation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Zahara's Shield lands at the populated site, while Arcadia's Trust chooses tranquility. The trust's pangolins arrive comfortable and unworried, gaining extra praise.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the remote site, ensuring a peaceful arrival for the pangolins at the cost of extra fuel. Their shared dedication to the creatures' wellbeing strengthens the mission's bond.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

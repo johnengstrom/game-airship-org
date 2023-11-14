@@ -1,29 +1,30 @@
 <script>
-	import { onMount, afterUpdate } from 'svelte';
-	import Board from '$lib/Board.svelte';
-	import Cards from '$lib/Cards.svelte';
-	import Turns from '$lib/Turns.svelte';
-	import { game } from '$lib/stores/game.store';
 	import Backdrop from '$lib/Backdrop.svelte';
-
-	let _game;
-
-	onMount(() => {
-		game.subscribe((data) => {
-			_game = data;
-		});
-	});
 </script>
 
-<div class="fixed top-0 z-20 game flex flex-row h-screen">
-	<div class="grow">
-		<Board />
-		{#if _game?.gameDescription}
-			<Cards />
-		{/if}
-	</div>
-	<div class="shrink">
-		<Turns />
+<div class="modal modal-open">
+	<div class="modal-box">
+		<form class="form-control">
+			<!-- Username Field -->
+			<label for="username" class="label">
+				<span class="label-text">Username</span>
+			</label>
+			<input type="text" id="username" placeholder="Username" class="input input-bordered" />
+
+			<!-- Password Field -->
+			<label for="password" class="label">
+				<span class="label-text">Password</span>
+			</label>
+			<input type="password" id="password" placeholder="Password" class="input input-bordered" />
+
+			<!-- Submit Button -->
+			<button type="submit" class="btn btn-primary mt-4">Login</button>
+		</form>
+
+		<!-- Sign Up Link -->
+		<div class="modal-action">
+			<a href="/signup" class="link link-secondary">Create Account</a>
+		</div>
 	</div>
 </div>
 

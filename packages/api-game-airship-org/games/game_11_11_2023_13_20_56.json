@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Pursuit: The Last Haven",
+  "gameDescription": "Two futuristic airships, Red Sphinx and Blue Heron under Red and Blue team respectively, embark on an eco-mission to transport rescued pangolins from Africa to a newly created sanctuary in Vietnam. Strategic decisions by the teams affect the survival of the pangolins as well as the environment. The competition is not against each other, but against illegal wildlife trafficking that threatens the existence of the most trafficked mammal - the pangolin.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Multiple Sites in Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Blue Heron",
+      "description": "Practicing best practices in animal care and transportation."
+    },
+    "redTeam": {
+      "name": "Red Sphinx",
+      "description": "Specialized in stealth operations and quick response."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive information about a hidden poaching camp. Quick action is necessary to save the pangolins but any mistake can alert the poachers.",
+      "options": {
+        "A": "Launch a swift but risky operation to rescuing pangolins, potentially alarming the poachers.",
+        "B": "Gather more intelligence and plan a safer approach, which could delay the rescue operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams launched a swift operation. Despite alarming the poachers, their quick response led to the rescue of many pangolins. Their bold action also resulted in the gang's arrest, prompting changes in law enforcement practices.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Heron took a swift action while Red Sphinx gathered more intelligence. Blue Heron managed to rescue some pangolins but also alerted the poachers. Red Sphinx's information led to successful operations in future, leading to the capture of a major poaching network.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Sphinx launched a swift rescue operation while Blue Heron gathered more data. Red Sphinx's quick action managed to save some pangolins, but inadvertently alerted the poachers. Blue Heron's intelligence led to further effective operations and strengthened defenses against poaching.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to gather more intelligence. Although it delayed immediate action, the valuable information assisted in planning effectively and resulted in the rescue of more pangolins in the long run, hitting a major blow to illegal trafficking.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During the journey, the pangolins show signs of distress due to unfamiliar environment.",
+      "options": {
+        "A": "Alter the environment within the ship to mimic the pangolins' natural habitat, risking damage to the airship's interior",
+        "B": "Administer a calming sedative to the pangolins, saving the ship's interior but potentially affecting the pangolins' health."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to alter their airship's interiors. Although it extracted a toll on the ships' conditions, the comfort provided to the pangolins improved their health, showcasing the teams' dedication to preservation over convenience.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Sphinx altered their airship's interior while Blue Heron sedated their pangolins. Although the Red Sphinx's airship was damaged, their pangolins showed noticeable improvement, earning Red Sphinx the admiration of conservationists. Blue Heron was questioned for their decision but maintained that it was the lesser evil.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Blue Heron altered their ship's interior while Red Sphinx sedated their pangolins. Despite initial flutters, both methods proved effective, launching a research into adaptable environmental control for wildlife transportation.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to sedate the pangolins. The gamble paid off, as they successfully managed the stress levels of the pangolins. This illustrated a cautious approach, prioritizing the mission's success over potential risks.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the sanctuary, teams had to decide how best to introduce the pangolins to their new environment.",
+      "options": {
+        "A": "Introduce the pangolins immediately upon arrival to minimize stress from transportation.",
+        "B": "Slowly acclimatize the pangolins to their enclosure to ensure a smoother transition."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose immediate introduction. The pangolins exhibited initial anxiety but soon started exploring their new environment. The teams' actions are recognized as pioneering efforts in wildlife reintroduction strategies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Sphinx introduced the pangolins immediately while Blue Heron acclimatized them gradually. Although the immediate introduction showed initial stress, the pangolins settled well, whereas the gradual introduction proved less stressful, offering valuable data for future reintroduction strategies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Heron chose immediate introduction, while Red Sphinx opted for gradual acclimatization. Pangolins of both teams settled into the new habitat well, exhibiting less stress than anticipated, affirming the effectiveness of both methods.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams acclimatized the pangolins gradually to their new environment. This approach proved extremely effective and less stressful for the pangolins. Their measured action is later incorporated into animal resettlement guidelines worldwide.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

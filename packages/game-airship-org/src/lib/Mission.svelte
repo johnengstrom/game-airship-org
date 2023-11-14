@@ -144,7 +144,7 @@
 
 	{#if !flipped}
 		<div
-			class="relative cardfront card opacity-80 backdrop-blur-2xl backdrop-brightness-50 overflow-clip w-48 h-48"
+			class="relative cardfront card opacity-80 backdrop-blur-2xl backdrop-brightness-50 overflow-clip w-48 h-32"
 		>
 			<div
 				class="w-full h-full bg-cover"
@@ -153,11 +153,11 @@
 				)}.png); background-size: cover; background-position: center; opacity: 50%;"
 			></div>
 
-			<div class="fixed bottom-[10%]">
-				<div class="font-bold text-white text-xl mb-5 text-center">MISSION</div>
+			<div class="fixed bottom-[15%]">
+				<div class="font-bold text-white text-2xl p-2 mb-0 text-center">MISSION</div>
 
 				<div>
-					<div class="flex flex-row mt-2">
+					<div class="flex flex-row mt-0">
 						<div class="font-bold text-xs text-white w-20 p-1">CREW:</div>
 						<div class="square" style="background-color: var(--{color1});" />
 						<div class="square" style="background-color: var(--{color2});" />
@@ -166,17 +166,6 @@
 						<div class="font-bold text-xs text-white w-20 p-1">TURN:</div>
 						<div class="square" style="background-color: var(--{color3});" />
 						<div class="square" style="background-color: var(--{color4});" />
-					</div>
-					<div class="flex flex-row">
-						<div class="font-bold text-xs text-white w-20 p-1">BONUS:</div>
-						<div class="square" style="background-color: var(--{color5});" />
-						<div class="square" style="background-color: var(--{color6});" />
-					</div>
-
-					<div class="flex flex-row">
-						<div class="font-bold text-xs text-white w-20 p-1">UPGRADE:</div>
-						<div class="square" style="background-color: var(--{color7});" />
-						<div class="square" style="background-color: var(--{color8});" />
 					</div>
 				</div>
 			</div>
@@ -194,8 +183,10 @@
 				)}.png); background-size: cover; background-position: center; opacity: 50%;"
 			></div>
 
-			<div class="fixed bottom-[10%]">
-				<div class="value bg-white rounded-lg px-2 pt-2 pb-4 w-12 mx-auto">{value}{suits[suit]}</div>
+			<div class="fixed bottom-[15%]">
+				<div class="value bg-white rounded-lg px-2 pt-2 pb-4 w-12 mx-auto">
+					{value}{suits[suit]}
+				</div>
 
 				<div>
 					<div class="flex flex-row mt-2">
@@ -207,17 +198,6 @@
 						<div class="font-bold text-xs text-white w-20 p-1">TURN:</div>
 						<div class="square" style="background-color: var(--{color3});" />
 						<div class="square" style="background-color: var(--{color4});" />
-					</div>
-					<div class="flex flex-row">
-						<div class="font-bold text-xs text-white w-20 p-1">BONUS:</div>
-						<div class="square" style="background-color: var(--{color5});" />
-						<div class="square" style="background-color: var(--{color6});" />
-					</div>
-
-					<div class="flex flex-row">
-						<div class="font-bold text-xs text-white w-20 p-1">UPGRADE:</div>
-						<div class="square" style="background-color: var(--{color7});" />
-						<div class="square" style="background-color: var(--{color8});" />
 					</div>
 				</div>
 			</div>
