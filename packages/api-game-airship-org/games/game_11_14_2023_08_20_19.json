@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: Skyward Salvation",
+  "gameDescription": "As part of an unprecedented eco-mission, two advanced airship teams embark on separate journeys to relocate endangered pangolins from Africa to a new sanctuary in Vietnam. Each strategic decision has the potential to influence the pangolins' survival, the environmental footprint, and the perception of global wildlife conservation.",
+  "setting": {
+    "location": "From the savannahs of Africa to the forests of Vietnam",
+    "missionStart": "Africa - Pangolin Poaching Hotspots",
+    "missionEnd": "Vietnam - The New Enclosure"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "Specializes in precise and gentle cargo handling, ensuring pangolin safety and comfort."
+    },
+    "redTeam": {
+      "name": "Eco Guardians",
+      "description": "Champions in navigating extreme weather and mitigating environmental impacts."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "After loading the pangolins, the airships receive a warning of an incoming sandstorm effectively blocking their flight path from Africa.",
+      "options": {
+        "A": "Attempt to outfly the sandstorm, risking stress for the pangolins.",
+        "B": "Wait out the storm, delaying the mission but ensuring the pangolins' well-being."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams attempt to outrun the storm. The pangolins cope relatively well, though the shaky journey stresses some. Their early departure gives both teams a lead.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors push past the storm whilst the Eco Guardians choose to ride it out. This activity results in a stressed but quick departure for the Saviors, while Guardians ensure pangolin comfort at the cost of time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Eco Guardians brave the storm, while Skyward Saviors wait it out. The decision leads to the Guardians getting an early lead at the cost of potential pangolin distress, while Saviors prioritize their cargo's well-being.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to wait out the storm. This ensures the welfare of the pangolins at the expense of time. Their shared experience strengthens their commitment to wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Over the Indian Ocean, the teams receive a distress call from a ship caught in a cyclone carrying medication for a vulnerable community.",
+      "options": {
+        "A": "Divert to assist, increasing the mission duration and stressing the pangolins.",
+        "B": "Call for other nearby ships to assist and remain on course."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to assist the ship. Although successful, the route diversion delays their mission and causes potential stress to the pangolins. Their altruistic act wins global praise though potentially compromises the pangolins' safety.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors decide to aid the distressed ship while the Eco Guardians stay their course. Saviors use more resources and time, adding stress to the pangolins, while the Guardians' journey proceeds unblemished.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Eco Guardians break off to assist the ship, while Skyward Saviors carry on. Despite considerable praise, the unexpected diversion adds to the Guardians' mission time and stresses the pangolins, while Saviors experience a smooth flight.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams signal for nearby ships to assist and continue on their course. Despite not partaking in the rescue, their pangolin mission remains unhindered, stressing the need for specialized roles in rescue missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, they learn of a rival NGO contesting the new enclosure's readiness, threatening to delay the pangolins' release.",
+      "options": {
+        "A": "Attempt to negotiate with the NGO en route, requiring devoted time but ensuring immediate release.",
+        "B": "Ignore the NGO, proceed to the facility, and deal with the issue upon arrival."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams manage to convince the NGO while en route. The successful negotiations ensure an immediate pangolin release, but the added responsibility could take a toll on the teams' focused performance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors negotiate with the NGO, while Eco Guardians decide to deal with it later. This diverts the Guardians' focus on the journey's immediate demands, potentially delaying pangolin release.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Eco Guardians manage to negotiate a solution, while Skyward Saviors forge ahead. The Saviors now face potential delays, while the Guardians ensure immediate pangolin release.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stay their course, deciding to resolve the conflict upon arrival. This potentially stalls the pangolins' release, highlighting the delicate balance of field operations and external factors in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

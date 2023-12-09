@@ -21,9 +21,13 @@
 		moving = false;
 		zIndex = 98; // Reset z-index to 98 on mouseup
 	}
+
+	$: console.log(moving);
 </script>
 
 <section
+	role="button"
+	tabindex="0"
 	on:mousedown={onMouseDown}
 	style="left: {left}px; top: {top}px; z-index: {zIndex};"
 	class="draggable bg-red-300 rounded-lg"

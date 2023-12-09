@@ -23,13 +23,13 @@
 	<h2>Option A: <em>{_game.turns[turn].options.A}</em></h2>
 	<button
 		class="btn mt-2 bg-red-900"
-		on:click={() => {
+		onclick={() => {
 			choose('player1', 'choice1', 'A');
 		}}>Choose A</button
 	>
 	<button
 		class="btn mt-2 bg-blue-900"
-		on:click={() => {
+		onclick={() => {
 			choose('player2', 'choice1', 'A');
 		}}>Choose A</button
 	>
@@ -39,13 +39,13 @@
 	<h2>Option B: <em>{_game.turns[turn].options.B}</em></h2>
 	<button
 		class="mt-2 btn bg-red-900"
-		on:click={() => {
+		onclick={() => {
 			choose('player1', 'choice1', 'B');
 		}}>Choose B</button
 	>
 	<button
 		class="mt-2 btn bg-blue-900"
-		on:click={() => {
+		onclick={() => {
 			choose('player2', 'choice1', 'B');
 		}}>Choose B</button
 	>

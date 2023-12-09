@@ -1,7 +1,7 @@
 <script>
 	import { onMount, tick } from 'svelte';
 	import { besthand } from './stores/besthand.store';
-	
+	import C2 from './cards/C2.svelte';
 
 	export let cardno;
 	export let action;
@@ -144,10 +144,10 @@
 
 <div
 	class="card-container {flipped ? 'flipped' : ''}"
-	on:dblclick={() => {
+	ondblclick={() => {
 		flipCard(cardno);
 	}}
-	on:keydown={handleKeydown}
+	onkeydown={handleKeydown}
 	tabindex="0"
 	role="button"
 >
@@ -155,13 +155,13 @@
 		<!-- Add Bubble -->
 		<div class="absolute -top-2 -right-2">
 			<div
-				on:keydown={handleKeydown}
+				onkeydown={handleKeydown}
 				tabindex="0"
 				role="button"
 				class="flex items-center justify-center w-4 h-4 rounded {color === 'red'
 					? ' bg-red-500'
 					: ' bg-blue-500'} text-white cursor-pointer"
-				on:click={() => updateBesthand(value, suit, cardno, action)}
+				onclick={() => updateBesthand(value, suit, cardno, action)}
 				style="margin-top: -2px; margin-right: -2px;"
 			>
 				<!-- The plus icon. If you're using a graphic, replace the content with an <img> or <svg> -->
@@ -200,26 +200,11 @@
 	{/if}
 
 	{#if flipped}
-		<div class="card h-full rounded-xl" style="background: url({makeImagePath(imagePath)}); background-size: cover;">
-			<div
-				class="relative card opacity-80 {isRedSuit
-					? 'text-red-500'
-					: 'text-black'} backdrop-blur-xl backdrop-brightness-50 py-1"
-			>
-				<!-- Card Content -->
-
-				<div class="text-xs font-bold mb-2 text-white uppercase">
-					<small>{imagePath}</small>
-				</div>
-
-				<div class="value bg-white rounded-lg p-1">
-					{value}{suits[suit]}
-				</div>
-				<div class="flex flex-row">
-					<div class="square" style="background-color: var(--{color1});" />
-					<div class="square" style="background-color: var(--{color2});" />
-				</div>
-			</div>
+		<div
+			class="card h-full rounded-xl"
+			style="background: url({makeImagePath(imagePath)}); background-size: cover;"
+		>
+			<C2 width="100%" />
 		</div>
 	{/if}
 </div>
@@ -236,7 +221,7 @@
 	.card {
 		/* Apply aspect ratio for the card */
 		width: 80px;
-		height: 112px;
+		height: 120px;
 		/* Add padding, border, rounded corners, and background */
 
 		border-radius: 0.5rem;
@@ -257,7 +242,6 @@
 	}
 
 	.square2 {
-
 		border: 1px solid white;
 		width: 8px;
 		height: 8px;

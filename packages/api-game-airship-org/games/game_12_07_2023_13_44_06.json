@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Air Guardians: The Pangolin Rescue",
+  "gameDescription": "In a world grappling with alarming wildlife trafficking, two advanced airship teams embark on a rescue mission to transport endangered pangolins from Africa to a new sanctuary in Vietnam. Each decision they make affects not just the success of this life-or-death mission but the narrative on global wildlife conservation. There's more than just wildlife at stake here; can they navigate geo-political challenges, unpredictable weather and risky humanitarian encounters?",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Poaching hotspots in Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Shepherds",
+      "description": "Dedicated wildlife rescuers specializing in logistical challenges."
+    },
+    "redTeam": {
+      "name": "Winged Sentinels",
+      "description": "Veteran airship pilots with acute navigation skills."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While soaring above Africa, both airships receive information about an illegal poaching operation in process. They must decide their course of action.",
+      "options": {
+        "A": "Confront the poachers, potentially leveraging superior technology and element of surprise.",
+        "B": "Inform local authorities and wait to ensure their response."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams swoop in unexpectedly and manage to disrupt the poaching operation. The poachers scatter, but the confrontation has consumed precious time and fuel.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Shepherds dash into the fray disrupting the poachers, while the Winged Sentinels ensure that local authorities respond. The split action guarantees the pangolins are safe but the mission's timeline is affected.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Winged Sentinels charge at the poachers, disrupting the illegal activity as the Sky Shepherds coordinate with local authorities. Though effective, the swoop's audacity attracts some unwanted attention.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams confidently report the illegal operation to local authorities and provide aerial support. While the action may not have been as quick, it strengthens bonds with local authorities and saves fuel.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A violent storm brews over the Indian Ocean just when the pangolins are showing signs of stress, the teams must make a decision for the pangolin's welfare and safety of the mission.",
+      "options": {
+        "A": "Push through the storm, trusting in their airship's design and resilience.",
+        "B": "Take a detour around the storm, which might take more time but assures no added stress for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Pushing through, both airships emerge successful but rattled. The storm takes a toll on fuel and startles the already stressed pangolins, making the team question their brash decision.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Shepherds push through the storm, handling the stresses of the climate while the Winged Sentinels, taking the detour, keeps calm pangolins. It's a thrilling show of efficiency and empathy in action.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Winged Sentinels risk the storm while the Sky Shepherds detour for the safety of their charges. The time saved through the storm and the pangolins health might just influence who is ahead.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide against taking on the storm, the detour adds to their journey but the pangolins remain calm and stress-free. This decision might ultimately work in their favor.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the journey nears its end, both teams receive a distress call from a grounded animal aid helicopter in need of immediate evacuation.",
+      "options": {
+        "A": "Redirect course to assist the helicopter, adding extra weight and consuming more hydrogen.",
+        "B": "Continue towards the mission end, Vietnam, while alerting nearby aid organizations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships divert to answer the distress call. The rescue operation is successful but adds an extra burden on their already limited resources. Their humanitarian spirit shines through this ordeal.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Shepherds divert their course for the aid helicopter while the Winged Sentinels alert nearby organizations continuing the course. The divide in decision brings into light the complex nature of such operations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Winged Sentinels move to assist the helicopter as the Sky Shepherds continue onto the mission end. With one team arriving early and the other delayed, it highlights the unpredictable nature of their mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize their main mission, alerting relevant organizations for help. The pangolins reach the enclosure in good health, marking a successful conclusion to their harrowing journey.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

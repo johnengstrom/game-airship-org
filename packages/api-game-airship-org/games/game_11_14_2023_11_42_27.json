@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balancing Tourism with Conservation",
+  "gameDescription": "In the pristine wilderness of Antarctica, Red Team and Blue Team command advanced airships catering to rising tourist demand. Balancing exploration, scientific research, and ecological preservation, these captains navigate three strategic decisions that will not only shape the landscape of the frozen continent but the future of global conservation efforts.",
+  "setting": {
+    "location": "Above the Antarctic Wilderness",
+    "missionStart": "Tierra del Fuego, Argentina",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Voyagers",
+      "description": "Specialized in scientific research and exploration."
+    },
+    "redTeam": {
+      "name": "Penguin Pioneers",
+      "description": "Focused on sustainable tourism and conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Choosing a landing spot is crucial, the two options have contrasting impacts. Option A builds on an already impacted area, with infrastructure in place but carrying risk of further degradation. Option B braves the untouched areas, pristine and inviting, but with the potential for new deleterious impacts on untouched ecosystems.",
+      "options": {
+        "A": "Select the already impacted area for landing.",
+        "B": "Venture into the pristine, untouched area."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the impacted site. Conservationists acknowledge this choice, but repeated landings exacerbate area degradation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The teams diverge. One persists with the impacted area while the other ventures into pristine territory. The untouched site captures stunning photos, but the fragile ecosystem begins to exhibit signs of stress.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The teams split ways. The beauty of the untouched site captivates tourists, while the other team reduces damage by choosing the impacted area. Labels of conservation hero and exploration pioneer begin to emerge.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams pioneer new sites. Despite stringent protocols, signs of wildlife disturbance surface at the new sites. Conservationists brace for increased monitoring challenges.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Tourism capacity determination is next. Option A raises capacity, boosting revenue but risking greater ecological disturbance. Option B scales down numbers, supporting conservation but limiting tourists' Antarctica experience and reducing potential revenue.",
+      "options": {
+        "A": "Increase tourist capacity.",
+        "B": "Limit tourist numbers for conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams increase capacity. Despite higher revenue, footfall causes visible wear and tear on pathways and wildlife zone incursions are alarming.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team boosts numbers while the other respects conservation limits. The crowded team generates high revenue but faces criticism from environmental groups, while the second team wins appreciation for their eco-conscious stance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing approaches emerge again. Increasing visitor numbers brings the first team financial resources for environmental programs. The other team highlights limited, sustainable tourism, earning conservationist support.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit numbers. Revenue dips, but environmental impact is notably less. They share experiences over the radio, creating synergy in their joint conservation approach.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The implementation of conservation strategies lies ahead. Option A increases tourist engagement in conservation initiatives. Option B places strict controls and limits on tourist activity.",
+      "options": {
+        "A": "Engage tourists in conservation programs.",
+        "B": "Implement strict controls and limit tourist activities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to engage tourists in conservation. The visitors' hands-on participation in initiatives like 'Adopt a Penguin' program vastly improves tourist conduct, though interference risks make scientists anxious.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team engages tourists in conservation, while the other restricts activities. Stricter controls discipline tourism, while including tourists in efforts makes them active players in conservation, presenting two sides of the same coin.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team implements strict controls, while the other opts for tourist engagement in conservation. The strict team faces tourist grumbles but obtains fewer wildlife disturbances, while the other team faces interference risks, but earns appreciation from many about conscious travel.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to impose strict controls. Visitor activities get streamlined and violations reduce, setting a positive precedent for future travel in the icy wilderness.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

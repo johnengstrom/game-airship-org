@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: Operation Wildlife Saviour",
+  "gameDescription": "Teams aboard intelligent airships join forces with Greater Good Charities and Wildlife At Risk, adopting a crucial mission to transport threatened pangolins to a newly constructed enclosure sanctuary in Vietnam. With strategic choices in navigation, weather management, fuel conservation and rescue operations affecting the success of the mission and survival of the pangolins, the teams must ensure their cargo arrives safely.",
+  "setting": {
+    "location": "Above Africa and en route to Vietnam",
+    "missionStart": "African Wildlife Rescue Centers",
+    "missionEnd": "Pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Endangered Evacuators",
+      "description": "Adept at transport and life-saving operations under extreme conditions."
+    },
+    "redTeam": {
+      "name": "Fauna Fliers",
+      "description": "Specializing in handling and transporting sensitive cargo over long distances."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon collecting the pangolins from multiple rescue centers, the teams must choose their travel route. One offers favorable wind assistance but passes over human settlements increasing the risk of illegal tracking; the other, though wind-resistant, is a less populated path.",
+      "options": {
+        "A": "Choose the wind-assisted route passing over human settlements.",
+        "B": "Opt for the wind-resistant path with fewer populated areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the wind-assisted route. Despite the tracking risk, the airship's advanced stealth systems provide safe passage. The teams save on fuel, contributing to sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Endangered Evacuators chart the populated route while the Fauna Fliers opt for the safer route. Both teams successfully bypass their potential issues but the varied choices lead to unexpected timing arrivals.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Fauna Fliers brave the winds while the Endangered Evacuators rely on stealth systems. The latter faces some tracking attempts, but their advanced-technology secures the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the wind-resistant route. Battling the elements, they implement energy-efficient modes and optimize their paths, demonstrating the importance of safety over ease.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Midway, the teams receive a distress call from a trapped animal convoy below. Directly intervening could consume precious time and resources, but they can also coordinate a ground rescue mission.",
+      "options": {
+        "A": "Descend and conduct a rescue, risking delay and fuel consumption.",
+        "B": "Coordinate a ground rescue, preserving resources but adding stress on ground crew."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams descend and conduct rescues. Time and fuel are spent, but more animals are saved, echoing the mission's spirit.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Endangered Evacuators descend, while Fauna Fliers mobilize a ground rescue. The Evacuators delay, but win praise for their hands-on effort. The Fliers, on the other hand, display remarkable coordination skills.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fauna Fliers descend to rescue, while Endangered Evacuators arrange ground assistance. Both missions succeed, generating respect for each team's unique approach.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate ground rescues. The ground teams act swiftly, and the airships maintain their schedule, reinforcing the power of collective cross-team effort.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, air traffic is heavy, and a timely landing requires careful maneuvering or enhanced speed adjustments to slip through small windows.",
+      "options": {
+        "A": "Ramp up speed, ensuring an early landing but consuming more fuel.",
+        "B": "Maintain current speed and negotiate the traffic, risking potential delays."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, arriving early but at a cost of higher fuel consumption. However, the pangolins are unloaded with much fanfare on schedule.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Evacuators speed up, and land early while Fliers skilfully negotiate the traffic, both ensuring safe and efficient operations. Resource management becomes key in this final phase.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fliers speed up while Evacuators navigate carefully through the traffic. Both approaches result in a safe landing, their different strategies showing the diversity in their operational expertise.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams negotiate traffic meticulously, showcasing their commitment to both the mission and sustainability. It’s a challenging end but their adept handling of the situation showcases their expertise.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

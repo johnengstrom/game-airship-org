@@ -155,9 +155,7 @@ async function generateGame(game) {
     const filePath = `games/game${timestamp}.json`;
 
     await writeFile(filePath, JSON.stringify(parsed, null, 2));
-    console.log(`The game data has been saved to ${filePath}!`);
-
-
+    console.log(`The game data has been saved to ${filePath}!`, parsed);
     return parsed;
 }
 

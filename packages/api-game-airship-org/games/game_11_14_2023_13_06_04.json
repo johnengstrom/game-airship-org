@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: The Airborne Sanctuary",
+  "gameDescription": "Two advanced airships, responsible for fragile pangolins, are on a mission to transport these heavily trafficked wild mammals from Africa to their new enclosure in Vietnam. Players must ensure the well-being of the pangolins during transit, while making strategic decisions impacting the overall mission success and the environmental footprint of their journey.",
+  "setting": {
+    "location": "Transcontinental Journey – Africa to Vietnam",
+    "missionStart": "African Wildlife Sanctuary",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "Specializing in pangolin care and handling, ensuring the comfort of these shy creatures."
+    },
+    "redTeam": {
+      "name": "Aerial Guardians",
+      "description": "Experts in efficient and eco-friendly travel, they excel in mitigating environmental impacts."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Airships depart Africa amid a heatwave. Pangolins, requiring a cooler environment, are at risk. Teams must decide how to manage the temperature onboard their airships.",
+      "options": {
+        "A": "Use advanced cooling systems, which increase hydrogen consumption.",
+        "B": "Navigate towards cooler altitude, changing the initial route, consuming more time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use their cooling systems, keeping the pangolins comfortable, but lowering their hydrogen reserves. The pangolins' welfare is ensured yet concerns about fuel arise.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "BlueTeam opts for the cooling system while RedTeam rises to a cooler altitude. RedTeam's decision delays them but spares hydrogen, leading to questions about the balance of resources.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "RedTeam uses cooling system while BlueTeam rises altitude. BlueTeam's delayed arrival may impact the sensitive transition of pangolins to their new home.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a cooler altitude. The journey takes longer but conserves hydrogen, raising questions about how this delay will affect the pangolins' acclimatization.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A cargo ship spills oil in the ocean, directly beneath the airship’s path, threatening marine species. Aerial intervention might help.",
+      "options": {
+        "A": "Continue the journey, ensuring the timely delivery of pangolins.",
+        "B": "Detour and drop biodegradable oil-absorbing sponges, potentially aiding marine life but consuming additional resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide that pangolin safety is their priority. While this decision ensures their mission's success, they reflect on the trade-offs involved in wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "RedTeam continues on course while BlueTeam deviates to aid marine life. While RedTeam ensures a smooth journey for the pangolins, BlueTeam's actions spark a discussion on holistic ecology protection.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "BlueTeam advances while RedTeam detours. RedTeam's intervention translates into a longer journey for the pangolins, pushing the limits of their adaptability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams intervene, deploying sponges, which consume resources but mitigate sea pollution. The pangolin's journey is prolonged, symbolizing the interconnected challenges of wildlife rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, local authorities warn of illegal wildlife traffickers in the area. Teams need to decide on their landing strategy.",
+      "options": {
+        "A": "Speed up to outmaneuver potential threats, using more hydrogen.",
+        "B": "Continue at normal speed and rely on local authorities for traffic controls and safety measures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use additional hydrogen to outrun potential threats. They safely deliver the pangolins on time but at the expense of their eco-mission, sparking dialogue on resource priorities during conservation operations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "RedTeam selects speed while BlueTeam trusts local authorities. BlueTeam's lower fuel expenditure and successful collaboration with locals set a benchmark for integrated wildlife protection.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "BlueTeam speeds up, while RedTeam works with local authorities. The pangolins arrive at their sanctuary safely, but the variance in tactics highlights different ideologies in formulating wildlife rescue strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams trust local authorities. Arrival is slowed due to increased vigilance, but the successful collaboration leads to safe delivery of pangolins, signifying a win for teamwork in wildlife preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

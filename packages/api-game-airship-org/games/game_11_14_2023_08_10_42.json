@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Operation Airship",
+  "gameDescription": "In the green corridors of Africa, Asia, and Vietnam, the Red and Blue teams deploy intelligent airships on a mission to protect the most trafficked mammal worldwide - the Pangolin. These airships are tasked with transporting rescued pangolins and building materials for new enclosures. Each strategic decision not only determines the mission's success but also has a profound impact on the environment and the future of pangolin conservation.",
+  "setting": {
+    "location": "Over Africa, Asia, and Vietnam",
+    "missionStart": "Wildlife At Risk Zones",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Floats",
+      "description": "Specializing in quick and safe animal transportation and logistics."
+    },
+    "redTeam": {
+      "name": "Skyward Saviors",
+      "description": "Experts in ecology preservation and end-to-end mission effectiveness."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships need to collect pangolins from high-risk poaching areas. However, time is of the essence as poachers are closing in.",
+      "options": {
+        "A": "A rapid and stealthy mission to collect as many pangolins as possible.",
+        "B": "A slower, discreet mission to collect pangolins without alerting poachers, but potentially leaving some pangolins behind."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams make a dash for the rescue. They manage to save many pangolins but alert the poachers, risking future rescue attempts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds whilst the other takes it slow. The rapid team saves more pangolins but has now put the slower team at risk of being discovered.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team conducts a slow rescue, leaving some pangolins, while the other rescues numerous pangolins but alerts poachers. Overall, more pangolins are rescued, but future missions are jeopardized.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a cautious and slower mission, successfully rescuing a number of pangolins without alerting the poachers, setting the pace for future rescue missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While transporting rescued pangolins, both airships receive urgent orders to procure enclosure building materials to continue sanctuary development in Vietnam.",
+      "options": {
+        "A": "Divert to collect the materials, risking the wellbeing of the stressed pangolins onboard.",
+        "B": "Continue the course to the sanctuary, possibly delaying construction."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert and procure supplies, causing distress to the pangolins onboard. However, they ensure that sanctuary construction remains on schedule.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship diverts for supplies while the other proceeds. The diversion team mildly distresses their pangolins but keeps construction on track, while the other prioritizes pangolin well-being.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team proceeds to the sanctuary while the other diverts. Pangolins are well-cared for, but delays in construction occur. It's a balance of immediate needs versus future needs.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the health and safety of their pangolins and continue to the sanctuary. They've demonstrated a great commitment to animal welfare, but the enclosure's completion is delayed.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships approach Vietnam amidst heavy monsoon activity, challenging navigation and potential distress for the pangolins. They must determine their course.",
+      "options": {
+        "A": "Brave the storm directly for a quicker arrival, endangering the airships.",
+        "B": "Detour around the storm, adding time to the journey but providing a smoother ride for the rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to brave the storm for a swift delivery of the pangolins and building supplies. They run risks but succeed in making a timely arrival.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship braves the storm, while the other circumvents it. By doing so, they balance risk and ensure all pangolins arrive safely albeit at different times.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team takes a longer route to protect their cargo, while the other team endures the storm and risks potential damage to the airship. Their choices embody the complex nature of such rescue missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the detour, prioritizing the wellbeing of the pangolins. The journey is longer, but all creatures arrive at the sanctuary in good health.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

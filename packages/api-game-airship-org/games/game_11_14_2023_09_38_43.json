@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airborne Guardians: The Pangolin Rescue",
+  "gameDescription": "Two advanced airship teams, Aeolus Wings and Poseidon Carriers, are tasked with a unique eco-mission: transporting pangolins from dangerous poaching regions in Africa to a newly built sanctuary in Vietnam by Greater Good Charities and Wildlife At Risk. The goal is not just to transport, but also to promote pangolin conservation on a large scale, showcasing how advanced air travel can facilitate wildlife protection and rehabilitation. Each team's decisions will impact the mission's success, the wellbeing of the pangolins, and the public opinion of this approach.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Threatened regions in Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Champions of efficient navigation and wildlife security."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Pioneers in cargo safety and conservation efforts."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the teams traverse the African continent, they face adversarial poachers obstructing their path. They must make a decision: confront or circumnavigate.",
+      "options": {
+        "A": "Confront the poachers directly, making a stand against illegal wildlife trade.",
+        "B": "Circumnavigate the poachers preserving energy and maintaining safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to confront the poachers. The show of force dissuades future attempts, but the conflict consumes energy and time. The world watches, admiring their bravery.",
+          "bonusCard": "blueTeam"
+        },
+        "AB": {
+          "narrative": "While Aeolus Wings engage the poachers, Poseidon Carriers take a lacking risk route to ensure safety. The direct confrontation gets attention but also criticism for instigation, while Poseidon Carriers are hailed for their focus on the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers stand up to the poachers as Aeolus Wings continue on their path. The mix of direct action and prudence results in heightened global attention on poaching.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams navigate around the obstructions, opting for non-confrontation. Although they save energy, there's criticism from the public for avoidance. Their unity, however, portrays a clear stance for peaceful resolution.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams must decide when to shift the pangolins from their temporary travel containers to the customised enclosures on the airships for reprieve.",
+      "options": {
+        "A": "Shift them as soon as possible to help them acclimatize.",
+        "B": "Delay their shift to reduce possible stress from repeated movement."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to shift the pangolins early. Though they deplete some resources to maintain the enclosure, the pangolins cope better with the journey. The caring gesture sways public support in their favor.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings shift their pangolins early, while Poseidon Carriers delay. The latter's careful approach wins them praise from conservationists for being mindful of the pangolins’ stress.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers move their pangolins early while Aeolus Wings wait. Poseidon's decision strikes a public chord, emphasizing their cognizance of the emotional needs of their cargo.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to delay the shift, constructing a narrative of pangolin welfare. Their decisions, backed by animal psychologists, highlights their respect for nature and their cargo's wellbeing.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they must choose their path: a shorter route over urban areas or a longer route over the sea.",
+      "options": {
+        "A": "Take the shorter urban route for quick delivery but risk disturbing the pangolins with noise pollution.",
+        "B": "Opt for the longer sea route ensuring a peaceful journey for the pangolins, but consuming more energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships take the urban route. Swift delivery is ensured but the disturbance unsettles the pangolins, causing public debate on the best approach to such missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings takes the urban route while Poseidon Carriers opt for the sea route. The contrasting choices spark public discussion over prioritizing time over welfare in wildlife conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers flies over the urban areas, while Aeolus Wings cruises over the sea. Their choices have wide-ranging implications, igniting discourse over balancing efficiency with eco-conscious decision-making.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing the wellbeing of the pangolins, both airships decide to take the ocean route. They redefine 'success,' emphasizing care for their cargo. The longer journey brings in wider support for their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

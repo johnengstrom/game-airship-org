@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Guardians: Pangolin Crusade",
+  "gameDescription": "In a bold mission to combat wildlife trafficking, two advanced airships, aided by Greater Good Charities, embark on a daring task to transport rescued Pangolins to a newly established sanctuary in Vietnam. Player teams must make strategic decisions affecting the mission's success and environmental footprint, staking the safety and future of the world's most trafficked mammal on their efficient hydrogen-fueled airships.",
+  "setting": {
+    "location": "Above the continents of Asia and Africa",
+    "missionStart": "Various African Wildlife Conservation Centers",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Jade Paws",
+      "description": "Known, above all, for superior navigation skills and wildlife rescue expertise."
+    },
+    "redTeam": {
+      "name": "Ruby Claws",
+      "description": "Praised for handling delicate cargo with utmost care and their conservation-centered ethos."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Early on, both airships must decide their course. Flying over the Sahara desert is faster but can lead to higher hydrogen consumption due to hotter temperatures. Alternatively, they can detour around, causing a delay but promoting hydrogen efficiency.",
+      "options": {
+        "A": "Travel straight over the Sahara, optimizing time.",
+        "B": "Detour around the desert, enhancing hydrogen efficiency."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams flew over the Sahara — swift yet somewhat risky. They are ahead of schedule but have consumed a substantial amount of hydrogen, casting a shadow on the rest of the journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Jade Paws travel straight, while Ruby Claws navigation detours. Jade Paws gains time, while Ruby Claws’ prudence leads to safer, more sustainable hydrogen consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Ruby Claws flies straight, while Jade Paws detours. The time gained by Ruby Claws puts the team ahead, but Jade Paws effectively maintains its hydrogen reserve.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams skilfully pilot their vessels around the desert, prioritizing sustainability over speed, setting an example of mindful navigation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As both airships approach the Indian Ocean, they receive a distress call from a ship witnessing illegal pangolin trading. Time and energy invested in the intervention could disrupt their original mission",
+      "options": {
+        "A": "Divert to engage with the illicit trade ship, potentially delaying the mission.",
+        "B": "Redirect the information to local authorities, maintaining the mission's course."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships gamble their original mission to intervene directly, underlining their commitment to the cause. The time and energy cost is significant but they've helped authorities apprehend the smugglers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Jade Paws diverts to engage directly, potentially saving many pangolins but straying from their path, while Ruby Claws smartly alerts local authorities without losing their course.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While Ruby Claws juggles both missions, Jade Paws coordinates with the local authorities, everything falling into place without straying from their mission. This strategic move earns them the advantage.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams unite to alert the local authorities. Mission objective remains undeterred with minimal hydrogen expenditure. High stakes teamwork at its best!",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Now in Vietnam, they receive the news of an incoming typhoon. Direct route takes them through the region of the typhoon churning up efficient flight conditions, or they can take a roundabout path, dodging the environmental crisis but causing a delay",
+      "options": {
+        "A": "Tackle the typhoon straight on using advanced navigation systems to exploit the wind conditions.",
+        "B": "Bypass the typhoon areas altogether, ensuring the pangolin's and crew's safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams face the storm. Advanced systems pull them through conserving hydrogen by using the winds, demonstrating efficiency and bravery in the face of adversity.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Jade Paws decides to exploit the winds while Ruby Claws steers clear of the storm. Jade Paws make efficient time, while Ruby Claws consume slightly more hydrogen, but places safety first.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Ruby Claws braves the storm, while Jade Paws takes the safer route. Ruby Claw's efficient handling of the storm vs Jade Paw's conservative approach makes for an exciting round.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for a safer itinerary, circumventing the storm. It’s a delay, but the safety of the pangolins and the lasting resonance of their decisions makes immense environmental sense.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

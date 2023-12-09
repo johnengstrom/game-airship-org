@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Protectors: A Flight for Life",
+  "gameDescription": "Two futuristic airships embark on a mission of utmost importance as they attempt to secure pangolins, tragically titled as the world's most trafficked mammal, and transport them to a constructed safe haven in Vietnam. Every decision the airship crews make influences the mission's success and potential impact on this endangered species.",
+  "setting": {
+    "location": "From various African regions to Vietnam",
+    "missionStart": "Various poaching-prone locations in Africa",
+    "missionEnd": "Newly constructed enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Greater Good Guardians",
+      "description": "Specialists in wildlife rescue and protection."
+    },
+    "redTeam": {
+      "name": "Wildlife Risk Defenders",
+      "description": "Experts in combating illegal animal trafficking and promoting conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships manage to locate a group of pangolins in a renowned poaching zone. The team must decide how to safely collect the animals.",
+      "options": {
+        "A": "Wait till nightfall and quietly gather the pangolins under the veil of darkness.",
+        "B": "Reach out to local residents and recruit their help in gathering pangolins, fostering an environment of trust."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the cover of night to carry out their mission. The lower visibility complicates their task, but the darkness confuses poachers, allowing the teams to collect pangolins without interference. The operation is a success, but it comes with heightened stress and unknowns.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for the night's cover, while the other involves locals. The community-involved team builds lasting relationships and conveys the importance of conservation, while the night-time team safely gathers more pangolins. A balance of immediate rescue and long-term education is achieved.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "When one team strategizes with local residents, the other makes use of darkness. The diversified approach allows for an efficient pangolin rescue and community education about conservation, laying a foundation for future collaborations.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams engage with local communities. Though it may not fetch immediate results, this longer-term approach helps cultivate a local culture of wildlife protection, ensuring more pangolins remain safe in the future.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During the voyage, a medical check reveals some pangolins suffer from malnourishment and stress-related issues.",
+      "options": {
+        "A": "Adjust the on-board environment to emulate the pangolins' natural habitat to alleviate their stress.",
+        "B": "Speed up the journey to deliver the pangolins to the Vietnamese facility faster where they can receive specialized care."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams move to modify the ship's environment to soothe the distressed pangolins. It's a complicated task but the crew's unwavering determination pays off as the pangolins gradually relax and start to recuperate.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team quickly adapts to create a replica of the natural pangolin habitat, while the other team hastens their journey. The resulting balance between immediate relief and swift delivery ensures optimal care for the endangered creatures.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team enhancing conditions on board and the other decreasing travel time, the pangolins' health sincerely benefits. Both strategies prove effective, showcasing the importance of adaptable strategies in animal rescue efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to push their ships' limits and hasten their journey. Upon arrival, the pangolins are immediately handed to experienced caregivers, accelerating their recovery process.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Close to their destination, the teams get a distress call from another conservation mission requesting emergency supplies. They must decide whether to assist them or continue on with their own mission.",
+      "options": {
+        "A": "Detour and supply the required emergency assistance to the other mission.",
+        "B": "Stay on course and ensure the pangolins reach the sanctuary swiftly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to support their fellow conservationists. While the detour presents a slight delay, it underscores the strong bond and sense of unity within the wildlife conservation community, setting a gallant example of cooperative effort.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one airship rushes to assist, the other stays on a steady course. The display of teamwork serves to strengthen the global conservation community and ensures uninterrupted care for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team responds to the emergency while the other prioritizes the pangolins' immediate well-being. The actions of both teams admirably reflect the flexibility needed in conservation work. ",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to prioritize their primary duty, ensuring the pangolins arrive at the sanctuary as swiftly as possible. It's a tough call, but it highlights the importance of commitment and focus in such delicate operations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

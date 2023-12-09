@@ -1,0 +1,99 @@
+{
+  "gameTitle": "AirLift: The Pangolin Plight",
+  "gameDescription": "Red and Blue teams control futuristic airships tasked with the eco-mission of transporting rescued pangolins and essential conservation equipment from Africa to a new sanctuary in Vietnam. The choices made by the teams affect not only the mission's success but also the survival chances of this vulnerable species and the ecosystem they inhabit.",
+  "setting": {
+    "location": "Airspace between Africa and Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Gaia Guardians",
+      "description": "Known for their swift adaptability to ever changing scenarios."
+    },
+    "redTeam": {
+      "name": "Terra Defenders",
+      "description": "Experts in cargo preservation and eco-friendly flight path planning."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the teams lift-off from Africa, they receive news of severe turbulence along their planned route caused by escalating sandstorms. An alternate route is available but it passes over areas known for illegal wildlife activities.",
+      "options": {
+        "A": "Risk flying through the sands storms relying on airship's advanced systems.",
+        "B": "Take the alternate route aware of the risk of attracting poachers' attention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the sandstorms. The journey is rough but quicker and they manage to keep the pangolins safe. They have shown effective risk management capabilities.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team takes the sandstorm route while the other risks the illegal poaching areas. Both teams reach their destination successfully, although those in the sandstorm saved more fuel.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team choosing the poaching route and the other taking on the sandstorm, the dynamic decision making saves the day. While there were challenges, resilience and fast thinking ensured their missions' success.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams risk the poaching route. While flying low to avoid detection and using stealth mode, they save fuel but add substantial anxiety and time to their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the airships cross the Indian ocean, they receive an SOS signal from a sinking ship carrying an endangered turtle and its caretaker. The sea is notoriously rough and infested with sharks.",
+      "options": {
+        "A": "Dive low and deploy the rescue pod risking your balance and composure.",
+        "B": "Coordinate with nearby ships for a combined and slower rescue attempt."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams attempt the daunting task of diving low and deploying the rescue pod. They manage to save the turtle and its caretaker but experience a bit of a rough journey afterwards. Despite the minor setback, their heroic efforts are applauded worldwide.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship dives for the rescue while the other coordinates with nearby ships, and both manage to affect the rescue. The diver is later hailed as a hero, and receives an environmental award for daring conservation effort.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue team dives for the rescue as Red team coordinates with nearby ships diversifying rescue efforts. This results in a successful rescue mission with minimal disturbance to the pangolins on board.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with other ships to gradually and safely rescue the turtle and passenger. The Pangolins' journey is unhindered, and the team spirit of global conservation is greatly celebrated.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the Vietnamese coast, an unforeseen bureaucratic hurdle regarding permits arises. However, a high-placed political sympathizer is available to expedite the process for a substantial donation.",
+      "options": {
+        "A": "Negotiate and work through the legal channels that may delay the pangolins' release.",
+        "B": "Make a quick donation to expedite the process and ensure the pangolins get to their new home quickly."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams altruistically choose to navigate the bureaucratic maze. Eventually, the pangolins are released into their sanctuary a bit later but without paying off any officials - a small victory against corruption.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team negotiates while the other makes a donation. The donating team gets their pangolins another step closer to recovery. Nevertheless, both teams succeed, showing two ways to resolve a conflict.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The team that donates speeds up the process while the other team eventually gets through the official maze. Both teams succeed in their lush mission of conservation in their own unique ways.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to make a donation. Despite controversy around this choice, the pangolins are quickly and safely released into their new sanctuary. This quick decision making is commended.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

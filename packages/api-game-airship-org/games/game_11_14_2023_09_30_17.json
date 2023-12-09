@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Plight of the Pangolin",
+  "gameDescription": "Control advanced airship teams on a mission across the globe; aid in rescuing endangered pangolins from poachers, delivering them safely to a newly constructed rescue facility in Vietnam. Each decision affects the survival of the pangolins, the efficiency of the mission and the environment; success offers a beacon of hope for the survival of this heavily trafficked creature.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Pangolin Poaching Zones Africa",
+    "missionEnd": "Vietnam Pangolin Protection Facility"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Heights Guardians",
+      "description": "Specializing in wildlife rescue and transportation."
+    },
+    "redTeam": {
+      "name": "Skies of Safety",
+      "description": "Experts in combating wildlife trafficking and negotiation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Team locates a group of pangolins in the possession of poachers. They must decide what to do.",
+      "options": {
+        "A": "Try to negotiate with the poachers for the safe release of the pangolins.",
+        "B": "Wait for nightfall and attempt a stealth rescue operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to negotiate. Some poachers surrender, others become hostile. This unleashes a clash delaying the mission but resulting in a few pangolins recovered.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue team negotiates while Red team waits till darkness for a stealth rescue. This combined effort confuses the poachers, leading to a significant pangolin rescue.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team engages in negotiations while Blue carefully plans a stealth rescue. The distraction aids in liberating many pangolins unscathed.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both units decide to conduct a stealth operation. Despite the risks, they manage a successful large-scale rescue of the pangolins under the cover of darkness.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The rescued pangolins are stressed and in dire need of care. The teams must decide on their approach.",
+      "options": {
+        "A": "Attempt to provide immediate on-board medical care despite the restrictive conditions in the airship.",
+        "B": "Maintain minimum contact to reduce stress and directly head towards the facility for professional medical care."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams try to provide immediate care. They manage to stabilize some pangolins but risk lethal stress in others due to the restrictive conditions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Blue team provides immediate care, Red team strives to reach the facility. The combined efforts result in the well-being of many pangolins. Red team’s approach proves less stressful.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team provides immediate aid, while Blue team focuses on reaching the facility quickly. Despite a few panics, many pangolins remain stable thanks to Blue team’s less stressful approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for minimal contact and expedite their flight. This decision proves fruitful as they arrive at the shelter promptly and the pangolins endure less stress.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams receive news of more endangered pangolins en-route to the facility. They must decide whether to detour or stay on course.",
+      "options": {
+        "A": "Detour to rescue more pangolins, risking the well-being of those already onboard.",
+        "B": "Stay on course to the facility, ensuring the safety of the current passengers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams detour. They rescue more pangolins but deplete their resources and endanger the health of those onboard. Their decision strains the mission but results in more rescued pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue team detours, while Red team remains on track. The decisions benefit them all: Red arrives at the shelter with healthy pangolins while Blue rescues more, though stresses their resources.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team detours, Blue stays the course. This results in a successful balance as some pangolins are sheltered, and Blue rescues additional ones, though at the expense of overstressing the airship’s capacity.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships remain on course, ensuring the well-being of their pangolin passengers and promptly delivering them to the sanctuary. Other regional wildlife units respond to the additional pangolin distress calls.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

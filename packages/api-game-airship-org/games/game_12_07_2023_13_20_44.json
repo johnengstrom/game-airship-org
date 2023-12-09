@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin: The Skyward Sanctuary",
+  "gameDescription": "In this crucial mission, two intelligent airship operators (teams) have been tasked to transport resources and machinery for construction of a new pangolin enclosure in Vietnam. The environment and the pangolins' survival hang in the balance, where strategic decisions left to the Red Team 'Phoenix Spark' and Blue Team 'Draco Pioneers' dictate the fate of this noble cause.",
+  "setting": {
+    "location": "Above the Pacific Ocean, en route Vietnam",
+    "missionStart": "San Francisco, USA",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Draco Pioneers",
+      "description": "Known for their careful planning and biodiversity preservation expertise."
+    },
+    "redTeam": {
+      "name": "Phoenix Spark",
+      "description": "Praised for their quick decision-making and commitment to animal welfare."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are traversing the Pacific, carrying fragile cargo like the pangolin feeding and rest equipment. They come across a forecasted typhoon.",
+      "options": {
+        "A": "Brace the typhoon with advanced damping technology for reducing cargo damage.",
+        "B": "Avoid the typhoon, adding to flight duration and energy consumption, but ensuring cargo safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the typhoon. The damping tech works well, but the teams face turbulence. Although the flight remains on schedule, cargo safety is uncertain until they land.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Spark decides to weather the typhoon, while Draco Pioneers deviate their path. Phoenix makes it through, while Draco accomplishes a safe but delayed journey, preserving their cargo.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Draco Pioneers brave the typhoon while Phoenix takes a detour. Despite the turbulence, Draco maintains their schedule while Phoenix ensures the safety of their load at the expense of delay.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams avoid the typhoon. The detour adds to flight time and energy consumption, but it ensures the complete safety of the cargo – a critical decision for the mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As they enter South China Sea, they receive an SOS from illegal pangolin traffickers stranded at sea.",
+      "options": {
+        "A": "Perform a risky maneuver to quickly apprehend the traffickers and confiscate their pangolin cargo.",
+        "B": "Coordinate with local authorities and provide them location details to handle the situation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Boldly, both crews decide to handle traffickers themselves. The operation is successful--the pangolins are saved and the offenders caught. However, the airships' energy reserves are greatly reduced.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix apprehends the traffickers while Draco coordinates with authorities. Phoenix secures the pangolins, yet at significant energy loss, while Draco's approach urges local authorities to step up their efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Draco embarks on a risky maneuver while Phoenix coordinates with authorities. Despite the toll the operation took on Draco's reserves, they save the captive pangolins and apprehend the offenders.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to inform local authorities. The traffickers are apprehended, and the captive pangolins are saved, highlighting the importance of international cooperation in wildlife protection.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Both airships are approaching Vietnam, but receive information about a high-altitude interceptor drone patrolling Vietnamese airspace.",
+      "options": {
+        "A": "Ascend to the high altitude route, risking drone encounter but ensuring timely arrival.",
+        "B": "Opt for the low altitude sea route, delaying arrival but avoiding the interceptor drone."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships choose the high-altitude route. They manage to dodge the interceptor drone and arrive on time, yet the risky maneuver consumes extra energy.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix ascends while Draco descends. Phoenix's risky maneuver pays off they make on time, while Draco's cautious approach ensures they evade the interceptor but at a cost of added travel time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Draco goes high risk, Phoenix plays it safe. Draco manages to dodge the interceptor, while Phoenix's delay allows them to save on energy costs.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams lower their altitude, circumventing the drone but adding to their mission time. It's a small delay in the larger scheme of things, ensuring undamaged delivery of the critical cargo.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

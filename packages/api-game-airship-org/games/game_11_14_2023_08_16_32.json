@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: A Bee's Life",
+  "gameDescription": "In Operation Pollination, each strategic decision made by Apis Aviators and Bombus Navigators affects the recovery and survival of bees. The teams command advanced airships in a near future where environmental conservation intertwines with strategic gameplay. All actions revolve around the restoration of bee habitats affected by natural disasters and human activities, underlining the critical role bees play in our world.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airship Station",
+    "missionEnd": "Restored Bee Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Pioneers in implementing technologically advanced solutions for ecological restoration."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Experts in traditional, nature-friendly practices to build sustainable habitats."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships journey to hurricane-struck areas to aid ecological recovery and survival of bees.",
+      "options": {
+        "A": "Plant native flower species to restore bee habitats.",
+        "B": "Establish new bee colonies in areas chosen as safe zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to restore habitats. This collaborative approach enhances the rate of bee recovery. However, are these efforts sufficient for long-term stability?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red team sticks to ecological restoration while Blue team shifts bees to safer areas. As the landscapes bloom again, bees in safe zones flourish, proving a blend of approaches vital to progress.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apis Aviators shift bees to safe zones, while Bombus Navigators focus on reviving local flora. The decision balance ensures immediate survival and future sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The choice of relocating bees to safer territories by both teams ensures immediate survival but risks the adaptation challenges in new environments.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfires have scorched considerable habitats. The teams delve into restoration efforts.",
+      "options": {
+        "A": "Seed fire-stricken areas with bee-friendly vegetation to spur recovery.",
+        "B": "Create artificial bee habitats in safe regions to accommodate displaced bees."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams working to restore vegetation make slow but steady progress. As the green returns, so do the bees, but will it be soon enough to counter the losses?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Red Team restores the scorched earth, Blue Team successfully harbors displaced bees. As artificial habitats come alive, the natural restoration continues its healing pace.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apis Aviators harbor displaced populations as Bombus Navigators restore the land. This holistic approach brings back hope, balancing immediate needs and long-term recovery.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "All efforts are focused on creating new homes for bees. This quick solution gives the bees a lifeline, but can artificial habitats replace the harmony of natural ones?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams aim for a broader impact to ensure a sustainable future for bees.",
+      "options": {
+        "A": "Develop advanced ecological technology to create optimal bee sanctuaries.",
+        "B": "Launch educational campaigns to raise bee conservation awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams merge science with nature, creating advanced sanctuaries. Technology fuels ecological harmony, but will this be enough to counter the effects of humanity's pace?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apis Aviators build sanctuaries while Bombus Navigators spread awareness. This combination of action and enlightenment form a successful strategy for sustaining bee populations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Bombus Navigators lean towards technological solutions while Apis Aviators involve the public through education. A fine balance of these approaches leads to a resilient and aware ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Education becomes the tool of both teams, manifesting a grassroots movement for bee conservation. The bees now have countless human allies, creating a hopeful world buzzing with co-existence.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

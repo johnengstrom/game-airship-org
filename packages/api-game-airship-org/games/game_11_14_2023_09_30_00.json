@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "In the game of Operation Pollination, players commandeer advanced airships in a world where bees' survival, and thereby the global ecosystem, hangs in the balance. Combining strategic decision-making with environmental conservation issues, the game underscores the indispensability of these small creatures to our planet. Participants are tasked with deriving and implementing strategies that restore bee populations and habitats affected by natural disasters and human activities.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Airship Station",
+    "missionEnd": "Various global regions"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Bombus Navigators",
+      "description": "Experts in crucial eco-navigation and rapid response."
+    },
+    "redTeam": {
+      "name": "Apis Aviators",
+      "description": "Specialists in sustainable resource management and recovery missions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The area recently hit by a hurricane requires immediate attention for restoring bee habitats. The devastated lands hold a choice between rapid recovery and proactive planning for future security.",
+      "options": {
+        "A": "Plant native flowers across the affected areas to quickly restore the bee habitats.",
+        "B": "Establish new, secure bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams implement immediate bee-habitat restoration. The swift action helps restore the displaced colonies. Still, they fail to account for future risks, creating an uncertainty of sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators rush into restoring habitats, whereas the Apis Aviators cautiously establish secure colonies. It's a race against time to see which approach ensures long-term sustainable conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators initiate immediate restoration, while the Bombus Navigators prioritize future safety. The contrast in strategies could either result in early recovery or better preparedness for future calamities.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize future security over immediate recovery. The focus on proactive measures ensures better preparedness for potential disasters, but the recovery of devastated habitats is delayed.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A large-scale wildfire has ravaged a vital bee habitat in a key ecological zone. The teams must decide whether to concentrate on immediate recovery or long-term sustainability.",
+      "options": {
+        "A": "Seed the fire-ravaged areas with bee-friendly vegetation to encourage immediate ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for immediate reseeding, aiming for rapid recovery. Their efforts help revive the devastated areas, but the approach might not be sustainable, considering the increasing wildfires due to climate change.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team seeds the fire-ravaged areas, while the other builds artificial habitats. Despite their contrasting strategies, both teams manage to conserve the bee population. Their combined efforts reduce strain on the recovering ecosystem.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Apis Aviators focus on immediate recovery, the Bombus Navigators build artificial habitats. The combination of restorative and proactive measures could ensure both quick recovery and long-term sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to create artificial habitats. The strategy supports the displaced bee populations and ensures their survival, even if the restoration of the fire-ravaged areas takes longer than expected.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "With multiple successful missions behind them, the teams are ready for a broader, more sustainable approach to bee conservation. It's time to think big and consider global impact.",
+      "options": {
+        "A": "Develop advanced, ecologically efficient bee sanctuaries with state-of-the-art technologies. This allows for controlled and optimal habitat conditions.",
+        "B": "Launch widespread educational campaigns to promote bee conservation and foster public awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on building technologically advanced bee sanctuaries. Their efforts create optimal habitats that contribute to bee conservation. Yet, the impact could have been larger with public involvement.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators create sanctuaries, while the Apis Aviators concentrate on raising public awareness. The synergy of their efforts results in a perfect blend of technology and public participation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators build bee sanctuaries, and the Bombus Navigators focus on public outreach. The tandem strategy ensures sustainable bee conservation, backed by strong public awareness and support.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams launch public awareness campaigns. Their efforts spark a global conversation about bee conservation, but there's a missed opportunity to use advanced technology for immediate habitat restoration.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

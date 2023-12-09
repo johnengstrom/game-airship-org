@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: The Wings of Hope",
+  "gameDescription": "In a challenging mission of compassion, two futuristic airships - Aeolus Wings and Poseidon Carriers - are tasked with delivering life-saving supplies to boost pangolin conservation efforts in Vietnam. Heralds in the sky, they stand against illegal wildlife trade, poaching, and gnawing threats of extinction that pangolins face. Each decision made by the airship crews affects not only the success of the mission but also paves the way for future wildlife conservation endeavors. Success isn't just about delivery but how it is executed - efficiently, sustainably, and without disturbance to the ecosystem.",
+  "setting": {
+    "location": "Above the treacherous forests of Asia",
+    "missionStart": "Wildlife At Risk Headquarters, South Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Specializing in swift deliveries and precise navigation."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Renowned for careful cargo handling and sustainable flight methods."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships embark on their mission, they receive conflicting reports of ideal flight routes - one suggesting a shorter route across active poaching zones and another suggesting a longer detour around national parks.",
+      "options": {
+        "A": "Risk a shorter flight over the poaching zones hoping to evade detection.",
+        "B": "Opt for a longer route around national parks to avoid potential confrontations with poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams risk the shorter route, inadvertently alerting poachers to the presence of authorities. The mission becomes a catalyst for local enforcement agencies to crack down on illegal activities.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the poaching zones while the other takes the longer route. The detouring team experiences a serene journey, spotting diverse wildlife and raising awareness about national parks on their international broadcast.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team takes the longer route while the other navigates through the poaching zones. The bolder team’s presence alarms poachers, leading to subsequent raids, while the other increases awareness about conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Recognizing the perils they could potentially forewarn, both teams choose the longer route. Their conscious decision results in a peaceful mission, raising substantial awareness about the region's rich biodiversity.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon nearing their destination, the teams encounter a recently deserted local village that had been battling illegal wildlife poaching. The village would greatly benefit from the supplies on board the airships.",
+      "options": {
+        "A": "Descend and deliver some much needed supplies to the village.",
+        "B": "Maintain course and ensure the full consignment reaches the intended pangolin sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to share their supplies with the village. While the sanctuary receives slightly fewer supplies, the grateful villagers join the fight against wildlife poaching, proving that often, the detours on the mission can create the most potent change.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team descends to aid the village, while the other remains course-bound. Both actions inspire onlookers and stakeholders to invest in these vital causes – creating a surge in contributions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team remains focused on the original mission, while the other stops to aid the village. Subsequent news about the teams' endeavors triggers widespread admiration and drives further investment in conservation initiatives.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue towards the sanctuary without deviation. Their commitment to the pangolins inspires many around the globe, leading to burgeoning support for wildlife protection drives.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "On final approach to the enclosure, the teams must decide how to make their delivery – by air drop or a ground landing. Both options carry risks and benefits.",
+      "options": {
+        "A": "Perform an air drop to deliver the supplies quicker but with some risk to the cargo.",
+        "B": "Choose a ground landing for a secure delivery but expose the pangolins to noise and temporary disturbance."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams execute a synchronized air drop, but a few supplies are damaged on impact. Still, the quick delivery minimizes disruption to the pangolins, making this a worthy compromise.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team performs a daring air drop while the other lands. The combination balances speed with safety and minimizes impact on wildlife, leading to a successful mission completion.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team lands smoothly while the other executes an air drop. The diversity of strategies showcases adaptability and dedication, inspiring legions of conservation supporters in their wake.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to land calmly and securely. Though the noise is a necessary disturbance, it puts the wellbeing of the pangolins at the forefront, and they successfully deliver the entire consignment.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

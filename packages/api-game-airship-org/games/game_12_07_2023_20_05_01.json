@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Odyssey: Pangolin Preservation",
+  "gameDescription": "Illicit wildlife trade threatens the pangolin, a shy and reclusive mammal and the most heavily trafficked species worldwide. Two competing airship teams are tasked with transporting much-needed aid, supplies, and experts to a newly built pangolin sanctuary in Vietnam. Each decision they make will impact both the success of their mission and wildlife conservation efforts at large.",
+  "setting": {
+    "location": "Crossing the Pacific Ocean",
+    "missionStart": "USA",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Viento Guardians",
+      "description": "Experts in wildlife preservation logistics and long-range travel."
+    },
+    "redTeam": {
+      "name": "Skyward Saviors",
+      "description": "Master navigators with extensive experience in conservation missions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Unpredictable weather ahead! Sudden turbulence can potentially lead to a critical delay in the mission. What should be the course of action?",
+      "options": {
+        "A": "Plow through the turbulence using state-of-the-art stability controls, save time but consume more energy.",
+        "B": "Maneuver around the turbulence, ensuring safety and fuel efficiency, but potentially delaying the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships brave the turbulence using superior controls, consuming more fuel but maintaining schedule. Their dedication to preserving pangolins is evident from this risky decision.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Viento Guardians decided to brave the turbulence, while the Skyward Saviors chose to circumvent it. The Guardians kept up with time but spent extra fuel, while the Saviors conserved fuel, albeit with some delay.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Skyward Saviors chose to face the turbulence while the Viento Guardians opted to bypass it. The Saviors' decision allowed them to uphold the timeline at the cost of extra fuel, while the Guardians ensured safety and fuel conservation, at the expense of some delay.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to maneuver around the turbulence, ensuring the safety of crew and cargo, even if it means a delay. The safety of the mission's valuable cargo takes priority over time, marking the teams' commitment to the cause.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An opportunity arises to document the mission live, potentially raising global awareness and securing more donations for the cause. However, this would require sharing limited onboard resources and potentially risking mission efficiency.",
+      "options": {
+        "A": "Accept the live documentation, using up valuable resources but increasing awareness and potential support.",
+        "B": "Decline the live coverage, focusing on mission efficiency and optimal use of resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams embrace the opportunity to raise awareness, agreeing to live documentation. Resources are strained, but the promise of increased donations and support might compensate for momentarily reduced operational efficiency.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Viento Guardians welcome the live documentation, while the Skyward Saviors opt to maintain operation efficiency. The world watches as the Guardians adapt their mission, potentially inspiring more aid for the cause. The Saviors, on the other hand, focus on executing the mission optimally.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Skyward Saviors agree to live documentation, while the Viento Guardians prioritize operation efficiency. The Saviors' decision increases mission visibility, but challenges arise in balancing mission efficiency and raising awareness. The Guardians, conversely, concentrate on executing the mission's primary objective.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to keep a tight leash on their resources and reject live documentation. The decision protects operational efficiency but loses a chance to raise global awareness about the mission and the plight of the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they encounter significant air traffic. Early arrival guarantees an easier path but uses considerable energy.",
+      "options": {
+        "A": "Increase speed to arrive early, foregoing fuel efficiency to ensure easier pathing.",
+        "B": "Maintain current speed for fuel efficiency and brave air traffic, showcasing adept resource management."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships speed up, dodging the heavy air traffic but consuming substantial energy. Their early arrival expedites aid delivery to the sanctuary, a critical win for the mission despite the energy cost.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Viento Guardians leap ahead while the Skyward Saviors choose to maintain their speed. The Guardians' advance facilitates smoother navigation, but places strain on their resources. The Saviors, maintaining fuel efficiency, brave through the traffic.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Skyward Saviors forge ahead while the Viento Guardians opt to preserve fuel efficiency. The Saviors' decision facilitates a clearer path, while the Guardians exhibit exceptional resource management amid bustling air traffic.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams show remarkable resilience and resource management by maintaining their speed amid dense air traffic. Their conservation of energy underlines their commitment to the mission and the ethos of energy conservation itself.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

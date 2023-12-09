@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airborne Protectors: The Pangolin Vanguard",
+  "gameDescription": "Red and Blue teams, collectively known as 'Airborne Protectors,' control intelligent airships on a mission to safeguard pangolins - the world's most trafficked mammals. Transporting these susceptible creatures from danger zones in Africa to a safe enclosure in Vietnam, players confront diverse challenges. Each decision affects not only the success of the mission but the welfare of these precious creatures and the environment. Join this immersive near future gaming experience, combining strategic decision-making, environmental impact assessment, and our shared responsibility towards wildlife conservation.",
+  "setting": {
+    "location": "En Route from Africa to Vietnam",
+    "missionStart": "Africa's Poaching Hotspots",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Blue Bionics",
+      "description": "Pioneers in bio-inspired machinery and navigation through challenging terrains."
+    },
+    "redTeam": {
+      "name": "The Red Guardians",
+      "description": "Masters in animal welfare, protection, and efficient energy utilization."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "During the mission, both airships encounter a group of armed poachers terrorizing a pangolin habitat in Africa. They must decide their course of action.",
+      "options": {
+        "A": "Directly intervene to rescue the remaining pangolins and risk exposure to the poachers.",
+        "B": "Covertly alert the local authorities and continue the journey in the meantime."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams courageously venture into danger, rescuing the pangolins but drawing the attention of the poachers. The additional payload strains the energy resources, while the local authorities assemble.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Blue Bionics intervene and fill their airship with more pangolins, The Red Guardians secretly alert the local authorities. Balancing caution and courage, both teams contribute to the anti-poaching cause.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Red Guardians tackle the poachers and save more pangolins, The Blue Bionics covertly involve the local authorities. The holistic approach saves the day, reaffirming the synergy between both teams.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to alert the local authorities and move on with their mission, prioritizing safety and long-term effectiveness. Although fewer pangolins are rescued now, this strategy ensures future protection by enabling law enforcements.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, both airships receive an urgent distress signal from another conservation airship, attacked by poachers and in need of immediate assistance.",
+      "options": {
+        "A": "Change course to provide immediate assistance, potentially wasting fuel and time.",
+        "B": "Share the information through a secure network, calling in support from nearby enforcement airships."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rally heroically, facing the perilous situation together. They lend vital support but deplete fuel resources and time. Yet, their camaraderie shines in this joint mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With The Blue Bionics flying to the rescue while The Red Guardians network for local enforcement aid, they balance both immediate and longer-term strategies. This diverse approach boosts their vision for the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While The Red Guardians brave the journey to help, The Blue Bionics strategize to involve local enforcement, accentuating the solidarity among conservationists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams call for local enforcement support, ensuring the distressed airship gets adequate help without risking their respective missions. This approach underscores their overarching strategy - protecting pangolins and the delicate balance of resource allocation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Spotting a rare albino pangolin struggling to survive in the wild, teams must decide whether to deviate from the mission for the chance to potentially save this unique creature.",
+      "options": {
+        "A": "Divert resources to a rescue mission, endangering the mission's fuel efficiency.",
+        "B": "Leave the albino pangolin to its fate, focusing on the initial mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams, stirred by the sight of the rare pangolin, launch into action. The successful rescue consumes extra fuel but secures a valuable life. Their humane actions remind everyone of the mission's true pledge - to protect every life.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Blue Bionics divert to save the albino pangolin while The Red Guardians remain focused on transporting the pangolins already aboard. The differing strategies celebrate the spirit of wildlife conservation - every life matters, and every mission counts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While The Red Guardians launch a daring rescue, The Blue Bionics stay committed to the initial mission. Through individual decisions, the teams collectively underscore the diversity in the approach towards the common goal.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams retain their focus on the primary mission, forgoing the opportunity of rescuing the albino pangolin. Although a hard choice, it underlines the importance of sticking to the mission's objectives amidst unpredictable situations, ensuring long-term success.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

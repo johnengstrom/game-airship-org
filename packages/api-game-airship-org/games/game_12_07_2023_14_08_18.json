@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Bees Under Siege",
+  "gameDescription": "In Operation Pollination, two elite teams of airship navigators embark on a crucial mission to rescue threatened bee populations. Guiding high-tech airships, players must make strategic choices to successfully restore ecosystems across the globe, rebuilding bee habitats ravaged by calamities and human negligence.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Mission Control",
+    "missionEnd": "Various Global Destinations"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Masters of efficient air navigation and strategic planning for ecological restoration."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Expert pilots specializing in rapid intervention and innovative solutions for ecosystem recovery."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Turn 1 revolves around the aftermath of a destructive hurricane. The team must decide on the best strategy to preserve the remaining bee population.",
+      "options": {
+        "A": "Focus on planting native flowers in hurricane-affected areas to swiftly restore food sources and habitats for bees.",
+        "B": "Concentrate on establishing new bee colonies in safe zones, securing their continued survival in the post-cataclysmic world."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on cultivating native flowers, rapidly restoring bee habitats and food sources. It’s a wild success, but the newly formed habitats are at risk of future calamities.",
+          "bonusCard": "nativeFlowerSeedBags"
+        },
+        "AB": {
+          "narrative": "While one team plants flowers, the other relocates bee colonies, creating a synergic effect. Newly spawned habitats are flourishing, while relocated colonies thrive, showing promise for a bee-positive future.",
+          "bonusCard": "advancedApiary"
+        },
+        "BA": {
+          "narrative": "The teams opt for different strategies: One focuses on ensuring bee survival through relocation, while the other hustles to recreate habitats. Both see success, but a balanced strategy may have yielded more.",
+          "bonusCard": "beeLifeBooster"
+        },
+        "BB": {
+          "narrative": "With both teams establishing new safe-zone colonies, bee populations are better secured. However, immediate food sources are limited, and the teams find themselves needing to plant more flowers quickly.",
+          "bonusCard": "quickGrowSeedBoxes"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Turn 2 is set against the backdrop of recent wildfires. Teams must select the most effective recovery methods.",
+      "options": {
+        "A": "Sow seeds of bee-friendly vegetation in fire-damaged areas, aiding in faster ecological recovery.",
+        "B": "Set up artificial bee habitats in unaffected regions, providing a safe refuge for displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams valiantly seed fire-torn areas, reviving the devastated landscape with vibrant, pollinator-friendly vegetation. The bees are slow to return, but the foundation for recovery has been set.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As one team creates sanctuaries in safe areas, the other restores vegetation in ravaged regions. Their combined efforts usher in hope amidst the ashes, with bees starting to buzz in their new-found habitats.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the creation of artificial habitats mitigates immediate losses, the regrowth of natural flora lags behind. Bees are surviving, but long-term food prospects remain uncertain as restoration takes time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize creating new habitats, successfully saving many bees. However, lack of natural nutrients in these areas may undermine long-term bee health. Recovery of natural habitats is now crucial.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Turn 3 focuses on the sustainable expansion of bee populations and habitats, drawing in public and policy attention towards apiculture.",
+      "options": {
+        "A": "Invest in the development of technologically advanced bee sanctuaries, replicating optimal ecological conditions.",
+        "B": "Launch extensive educational campaigns to spur global public participation in promoting bee-friendly practices."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams hasten to establish state-of-the-art bee sanctuaries. These doom-like habitats demonstrate amazing results, nurturing robust bee populations but their high costs do pose constant challenges.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While cutting-edge sanctuaries spring up courtesy of one team, the other sparks an unprecedented global wave of bee-conservation awareness, drawing appreciation and support from all quarters of society.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The successful run of educational campaigns garners immense public support for bees, while the modern sanctuaries serve as a safe haven, ensuring the health and growth of bee populations around the globe.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "As a result of broad educational initiatives by both teams, bee-friendly practices are adopted worldwide, aiding natural recovery. The bees are reviving, and humanity learns the invaluable role they play in our survival.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

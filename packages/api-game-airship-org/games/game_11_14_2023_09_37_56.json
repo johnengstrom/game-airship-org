@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Sustainable Voyage",
+  "gameDescription": "In this gameplay scenario, players navigate the delicate Antarctic landscape considering the burgeoning tourist demand and the pressing need to conserve its unique ecosystem. As captains of futuristic AI-enabled airships, you transport tourists while facilitating scientific research and minimizing environmental impact. This takes place amidst the spellbinding wilderness of Antarctica and the burgeoning tourist demand.",
+  "setting": {
+    "location": "Above the Antarctic",
+    "missionStart": "Gateway Antarctica",
+    "missionEnd": "Scientific Research Stations"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Protectors",
+      "description": "Specializing in eco-friendly measures and sustainable tourism."
+    },
+    "redTeam": {
+      "name": "Ice Watchers",
+      "description": "Explores novel ways of scientific research and minimizing tourist interference."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams are about to choose their landing site for releasing the tourists",
+      "options": {
+        "A": "Choose a popular, already impacted area as the landing site",
+        "B": "Select a pristine, untouched location as the landing site"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted area, minimizing additional impact to pristine locations. However, over-concentration of tourists results in accelerated wear on the selected site.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Ice Watchers chose the impacted area while Polar Protectors pick a new location. The untouched location now faces possible contamination while other areas face accelerated degradation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polar Protectors opt for the impacted area while Ice Watchers choose untouched terrain. The pristine environment faces new challenges, while the already impacted area continues to degrade.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose pristine areas in an attempt to spread the impact. Despite good intentions, these untouched habitats now face the consequences of human intervention.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams face a decision on managing the size of tourist influx",
+      "options": {
+        "A": "Allow a higher number of tourists, opening up potential for higher impact but more revenue",
+        "B": "Limit the number of tourists to conserve ecosystem, which would translate into lower revenue"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to allow a larger number of tourists. The immediate impact on the local ecosystems is visible. However, the revenue generated increases substantially.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Protectors allow more tourists while Ice Watchers restrict entry. The imbalance leads to an unusual strain on Polar Protectors' zones while Ice Watchers territories remain fairly undisturbed",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Ice Watchers allows more tourists while Polar Protectors limit entry. Ice Watchers generate higher revenue but also face criticism due to visible ecosystem damage.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit traffic. The environmental impact is substantially reduced, but the expectation of substantial revenue is compromised.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams must choose a type of conservation activity",
+      "options": {
+        "A": "Engage tourists in conservation projects actively",
+        "B": "Stress on implementing strict regulations and closing certain areas off to visitors"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation efforts. The tourists turn into conservation ambassadors, spreading the message of sustainability in their own circles.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "Polar Protectors actively engage tourists while Ice Watchers implement strict regulations. This leads to education and active conservation on one side and stringent protection on the other.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Ice Watchers employ tourists in conservation while Polar Protectors enforce regulations. This unique approach sees both tourist engagement and conservation as complementary instead of conflicting.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Strict regulations and area closures are implemented by both teams, which ensures that environment is conserved with minimum human interference.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

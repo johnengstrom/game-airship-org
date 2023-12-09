@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Beekeeper's Voyage",
+  "gameDescription": "In Operation Pollination, players command advanced airships in a future that demands immediate action to save bees and, subsequently, our global ecosystem. Each strategic decision made by players profoundly impacts the fate of the bee populations, the success of their mission, and the sustainability of their approach to conserving the environment.",
+  "setting": {
+    "location": "Planet Earth",
+    "missionStart": "Affected habitats worldwide",
+    "missionEnd": "Restored and sustainable bee habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Apis Aviators",
+      "description": "Unparalleled in seeding operations and habitat building."
+    },
+    "redTeam": {
+      "name": "Bombus Navigators",
+      "description": "Experts in colony management and eco-mission coordination."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Hurricane Zerta has devastated bee habitats in the Caribbean. Both airships must devise strategies to restore the area.",
+      "options": {
+        "A": "Plant local flower species in devastated regions to stimulate rapid habitat restoration.",
+        "B": "Relocate bee colonies to designated emergency zones that have pre-built habitats and food sources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams flood the devastated areas with local flora, creating an instant impact on the habitat recovery. However, the relocated bee populations struggle to adapt to the over-supply of certain plants, leading to an unforeseen imbalance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team focuses on reintroducing local flora, the other secures the surviving bee populations in controlled habitats. The dual-action strategy leads to a balanced recovery, but demands substantial resources.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team successfully relocates the bees while the other sows the hurricane-ravaged land with local flora. The lack of coordination hinders the mission's success.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on relocating the bee populations. Controlled habitats flourish, whereas the devastated areas remain barren due to lack of pollinators.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: Wildfires have ravaged a large nature reserve, displacing the bee populations. The teams need to devise a plan to restore the ecosystem.",
+      "options": {
+        "A": "Scatter seeds of fire-resistant plants over the scorched earth to establish a resilient ecosystem.",
+        "B": "Design and manufacture artificial hives to provide immediate shelter for the affected bees."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams work on creating a fire-resistant green blanket over the charred land. While the resilience of the future ecosystem is increased, the lack of immediate shelter for bees jeopardizes bee populations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team focuses on long-term ecosystem resilience while the other provides immediate accommodation for the bees. However, the teams' limited resources lead to compromises on both fronts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team erects a cluster of artificial hives, the other scatters resilient plant seeds. The lack of coordination results in mismatched flora for the bees and an unstable integration of the bees in the freshly seeded areas.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams build and install artificial hives for immediate bee settlement. The move saves many bee colonies, but the absence of a recovery plan for the natural habitat leaves future sustainability in question.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: The steady recovery of the bee populations demands the initiation of sustainable bee conservation practices moving forward.",
+      "options": {
+        "A": "Invest in state-of-the-art bee sanctuaries to ensure optimal conditions for bee population growth.",
+        "B": "Implement a worldwide educational campaign to promote coexistence with bees and awareness of their importance for the ecosystem."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "By investing in advanced bee sanctuaries, both teams ensure a thriving future for the recovering bee populations. However, with human activities threatening bee habitats globally, the lack of public engagement may prove detrimental in the long run.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators focus on providing ideal conditions for the bees within sanctuaries, the Bombus Navigators influence public perception, leading to human activities becoming less threatening to the bees. The complementary strategies ultimately strengthen the mission's impact.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "The Bombus Navigators build sanctuaries for bees while the Apis Aviators work on raising public awareness. Lack of coordination leads to inefficient resource allocation, but the effectiveness of each strategy balances the overall output.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Launching a successful global educational campaign, both teams manage to cultivate worldwide respect for bees and their contribution to ecosystems. Though immediate bee conservation measures aren't taken, a foundation is built for a sustainable future.",
+          "bonusCard": "blueTeam"
+        }
+      }
+    }
+  ]
+}

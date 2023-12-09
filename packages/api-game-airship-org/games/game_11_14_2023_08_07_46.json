@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Skies: The Last Refuge",
+  "gameDescription": "Two airship crews, navigating advanced intelligent ships, are tasked with a mission of global importance: to transport endangered pangolins from poaching hotspots in Africa to a newly-built sanctuary in Vietnam. The success of the mission, governed by each crew's decisions, could provide a critical lifeline for the world's most trafficked mammal.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Pangolin Protectors",
+      "description": "Experts in covert operations and delicate cargo transport."
+    },
+    "redTeam": {
+      "name": "The Wildlife Warriors",
+      "description": "Masters of efficient long-distance travel and global biodistribution."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As both teams prepare to retrieve pangolins from an identified poaching hotspot, they face a dilemma: conduct a stealth night operation or launch a broad daylight rescue to ward off poachers.",
+      "options": {
+        "A": "Conduct a stealthy night operation for minimal disturbance.",
+        "B": "Launch a broad daylight rescue, drawing attention to the illegal poaching activity."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a night operation, successfully retrieving pangolins with minor disturbances. Their approach, however, fails to deter the poachers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team conducts a stealthy rescue, while the other launches a daylight operation. The daylight rescue draws international attention to the pangolins' plight but also attracts poachers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team launches a daylight rescue while the other carries out a night operation. The daylight team secures pangolins under the international eye, while the night team retrieves more in stealth.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams carry out daylight rescues, drawing global attention to the pangolins' plight. However, the increased visibility makes pangolins a more desirable target for poachers.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Crossing the Indian Ocean, the airships receive a distress signal from a cargo ship carrying animals rescued from illegal trade.",
+      "options": {
+        "A": "Divert the course to help, risking the welfare of the pangolins on board.",
+        "B": "Continue with the mission, alerting marine rescue services about the distressed vessel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to divert their course, taking on additional animals but straining their resources and compromising the pangolins’ welfare.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts to help, while the other continues the mission. The diversions result in additional rescues but strain the pangolins, whereas the focused mission ensures the pangolins' welfare.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team continues the mission, while the other deviates. The team continuing the mission ensures the pangolins' safety, but the diverting team saves other trafficked animals, making a significant impact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to continue the mission, focusing on the welfare of the pangolins. Marine rescue services assist the distressed vessel, transforming tragedy into a collective rescue operation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the team must decide between a swift but conspicuous delivery or a slower, stealthy entrance to avoid attention from potential traffickers.",
+      "options": {
+        "A": "Opt for a swift, conspicuous delivery to limit the pangolins' journey time.",
+        "B": "Choose a slow, stealthy entrance to prevent drawing attention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose a swift delivery. The pangolins reach their sanctuary quickly, but the activity draws attention, risking future operations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team quickly delivers its cargo, while the other uses stealth. The fast team's action draws attention, affecting the stealth team's operation. Next time, they would need to synchronize better.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team goes stealth, while the other delivers swiftly. The quick delivery distracts attention from the stealth operation, ensuring a smooth operation for all. They receive commendation for their strategic thinking.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for stealth, successfully delivering the pangolins without drawing attention. This unprecedented mission becomes a global symbol of hope for wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

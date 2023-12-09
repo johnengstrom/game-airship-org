@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Redemption: A Voyage to New Home",
+  "gameDescription": "Two futuristic airships, Aurora Rescuers and Zenith Carriers, embark on an eco-mission to rescue and transport endangered Pangolins from Africa to their new sanctuary in Vietnam. Each strategic decision made affects both the success of the mission and the wellbeing of these heavily trafficked mammals.",
+  "setting": {
+    "location": "From African plains to Vietnamese sanctuary",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Vietnam Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Rescuers",
+      "description": "Committed to wildlife rescue, known for their expert control over airship dynamics."
+    },
+    "redTeam": {
+      "name": "Zenith Carriers",
+      "description": "Experienced in precious cargo handling, their motto is safety first."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A thunderstorm rages over the African Savannah during the rescue operation. The pangolins are terrified, and both airships need to make a critical decision.",
+      "options": {
+        "A": "Secure the rescued pangolins quickly ignoring the storm and lift-off.",
+        "B": "Wait out the storm before securing the pangolins, prioritizing their calmness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships chose to secure the pangolins quickly. The amphibious creatures were startled, but safe. Speed is maintained, but the ordeal might affect the pangolins' health badly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aurora secures the pangolins amidst the storm, Zenith waits. Aurora's hasty actions may endanger the pangolins' health, while Zenith's caution ensures the pangolins' calm but risks delay.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Zenith rushes to secure pangolins, Aurora waits. Zenith's haste brings potential risk for the pangolins, while Aurora's patience ensures the pangolins are calm but might delay their schedule.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships wait for the storm to pass, ensuring the pangolins' tranquility but potentially delaying the mission. A gentle approach might lead to better health for the creatures.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-transit, the airships learn of new intelligence about a pangolin poaching network operating close to their flight path.",
+      "options": {
+        "A": "Modify their routes to capture and report the poachers.",
+        "B": "Maintain their routes to ensure safe and timely arrival at the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With a bold and courageous decision, both airships capture the poachers while safeguarding their precious cargo of pangolins. They've added danger and delay, but potentially save more pangolins in the future.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Aurora deviates to confront the poachers, Zenith stays on course. Aurora's small team manages to halt the poachers until local law enforcement arrives. Zenith ensures unperturbed delivery but misses a chance to thwart wildlife crime.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Zenith takes a bold detour to capture the poachers, while Aurora stays on mission. Zenith's brave efforts provide valuable leads to authorities, while Aurora may miss out on the chance to save more pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide not to engage, focusing on their primary mission. While this ensures the safety and timely arrival of the pangolins, the opportunity to put a dent in the poaching network is missed.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Arriving in Vietnam, the airships find the sanctuary surrounded by curious locals and media, potentially causing stress to the pangolins.",
+      "options": {
+        "A": "Do a flyover and initiate an immediate landing, causing a spectacle and potentially stressing the animals.",
+        "B": "Circumnavigate the crowd and find a secluded spot for offloading, which takes more time but ensures the pangolins' peace."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With an immediate landing, the pangolins are hurriedly offloaded amidst great human hustle, stressful but swift. The rescued pangolins are safe, yet the impact of the hullabaloo on them remains uncertain.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aurora resoundingly lands amidst the crowd, while Zenith stealthily finds a secluded spot. Aurora offers the crowd an unforgettable sight but at a potential cost to the pangolins' wellbeing. Zenith's subtle actions ensure the creatures remain calm.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Zenith lands in the open, Aurora seeks seclusion. Zenith's spectacle directly leads to increased public awareness, but may directly affect the pangolins. Aurora's actions ensure tranquility for the newly freed animals.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose a dispersed offloading, taking their time to ensure the least stress for the pangolins. Their careful decision demonstrates a true understanding of the mission's importance - not just to rescue, but to care.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

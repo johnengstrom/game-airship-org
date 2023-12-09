@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship: Rescued Pangolins' Voyage",
+  "gameDescription": "Blue team's 'Gentle Guardians' and Red team's 'Wildlife Wardens' control state-of-the-art airships, tasked to transport rescued pangolins from Africa to their new sanctuary in Vietnam. This daring voyage through unpredictable weather conditions, illegal wildlife trafficking hotspots, and logistical challenges is arranged by Greater Good Charities and Wildlife At Risk. Each strategic decision made by our players impacts the success of the mission and the safety and wellbeing of these endangered species.",
+  "setting": {
+    "location": "Route from Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Sanctuary Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Gentle Guardians",
+      "description": "Professionals in advanced life-support systems and animal care."
+    },
+    "redTeam": {
+      "name": "Wildlife Wardens",
+      "description": "Specialists in secure cargo transportation and counter-poaching operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships encounter drastic weather changes over the Indian Ocean, potentially affecting the vulnerable pangolins. The teams' strategic decisions will be crucial.",
+      "options": {
+        "A": "Activate onboard advanced climate control systems to mitigate heat changes while sticking to the original route.",
+        "B": "Reroute the course over less turbulent regions, adding travel time but reducing weather-induced stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams endure the weather using their climate control systems. They stick to the original route conserving time, but it strains the pangolin’s comfort levels.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As Guardians stick to the original path, Wardens reroute, ensuring a comfort trip for the pangolins despite the time increase. It's a battle of speed versus comfort.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Wardens endure the tough weather while the Guardians reroute. The pangolins in the Guardians’ ship enjoy a calmer voyage, although they lag slightly behind.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams reroute for a less turbulent voyage. While the journey time increases, the comfort and security of the pangolins remain a top priority.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Both teams receive news of a wildlife trafficking operation ahead, posing a potential threat to the mission. They must decide how to proceed.",
+      "options": {
+        "A": "Fly low and silent to evade detection, using energy reserves.",
+        "B": "Coordinate with local authorities to disrupt the trafficking operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to fly low, evading the operation smoothly, but this consumes extra energy, which might affect the remaining voyage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardians fly low to evade, while Wardens coordinate a sting operation. The split strategy both secures a safe passage and disrupts illegal activities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wardens fly low while Guardians involve authorities. The strategic variance ensures a secure flight path, while also leading to a successful arrest of traffickers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with authorities, successfully stalling the illegal operation. Their collaboration further secures the skies for wildlife transport operations.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams face strict air-traffic regulations. Timing their arrival with minimal disturbance to the recovering pangolins is key.",
+      "options": {
+        "A": "Reduce speed to time their arrival within the designated time slot.",
+        "B": "Maintain speed and risk having to circle the sanctuary until cleared for landing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships slow down, ensuring they land within their timeframe. The slower pace, although consuming more time, proves beneficial for the pangolins' adjustment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardians slow down while Wardens maintain speed. Navigating air traffic becomes an interesting puzzle, merging both teams' meticulous planning and quick responses.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wardens reduce speed, and Guardians keep theirs. The balance of careful maneuvering and prompt action results in a smooth transition for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain their speed. However, their experienced pilots manage to synchronously land in their time slot, causing minimal disturbance to their precious cargo.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Salvation",
+  "gameDescription": "In the near future, sophisticated airships soar the skies, completing crucial missions. In this game, you are part of a noble mission to save pangolins, the most trafficked wild mammals worldwide. The Red team and Blue team, onboard their hi-tech airships, are about to embark on a delicate rescue operation. Their task is to safely transport the endangered pangolins from poaching hotspots in Africa to a new enclosure in Vietnam, while making strategic and environmentally-friendly decisions throughout the journey.",
+  "setting": {
+    "location": "African Wilderness to Vietnamese Sanctuary",
+    "missionStart": "African Poaching Hotspots",
+    "missionEnd": "Vietnam Pangolin Enclosure"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aegis Vents",
+      "description": "Specializes in wildlife care, anti-poaching strategies and rescue missions."
+    },
+    "redTeam": {
+      "name": "Fenix Voyagers",
+      "description": "Acclaimed for their swift navigational skills, mission tactic, and energy conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon reaching Africa, both teams confront wildlife traffickers. They have to decide their course of action.",
+      "options": {
+        "A": "Directly engage in a confrontation with the traffickers to quickly rescue the pangolins.",
+        "B": "Covertly observe and report the traffickers' activities to local authorities for a coordinated intervention."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage the traffickers, rescuing several pangolins but causing a chaotic scene that could potentially harm the local ecosystem. They gained the advantage but at the cost of environmental equilibrium.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aegis Vents engages the traffickers, while Fenix Voyagers coordinates with local authorities. The successful chaotic rescue combined with coordinated ambush manages to save numerous pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fenix Voyagers runs headlong into confrontation while Aegis Vents quietly coordinates an ambush with local forces. This unexpected strategy accomplishes a sweeping victory over poachers, saving countless pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams carefully surveil and report the activities to local authorities. The strategic ambush by the authorities ensues, rescuing pangolins without causing harm to the local environment. Their cooperation achieves a peaceful resolution.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Escorting rescued pangolins to safety, the teams predict a massive sandstorm approaching in their path. They need to decide their next move.",
+      "options": {
+        "A": "Navigate through the sandstorm utilizing onboard weather management systems.",
+        "B": "Seek shelter and wait for the storm to pass, calibrating the delay with mission requirements."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to brave the sandstorm. Their advanced systems bear the brunt well, but the experience is harrowing for the rescued pangolins. They manage to stay on schedule, but their choice may have stress-induced implications on the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aegis Vents takes on the storm while Fenix Voyagers finds shelter. The waiting team ensures the pangolins' comfort at the expense of delayed arrival, while the other team maintains the timeline but with potential stress to pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fenix Voyagers venture into the storm while Aegis Vents seeks shelter. Respective decision-making yields parallel results - one ensures the comfort of the rescued animals, while the other maintains course at potential risk.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to wait out the storm, prioritizing the mental well-being of the rescued pangolins. Time is lost, but the animals are safe, and teams showcase unity in prioritizing life over schedule.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally nearing rendezvous point in Vietnam, the teams realize a wildlife hostile corporation is actively scouting the area. They need to decide their approach.",
+      "options": {
+        "A": "Take a quick but fuel-consuming detour to avoid the hostile presence.",
+        "B": "Blend with local air traffic and cautiously navigate to the destination."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to detour, adding unnecessary mileage but ensuring the safety of the pangolins. They reach the sanctuary safely but with substantial consumption of fuel, triggering multiple green alarms.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aegis Vents takes the long detour while Fenix Voyagers cleverly blends with local air traffic. The blending team uses less fuel and reaches the sanctuary unnoticed, while the detouring team faces fuel consumption issues.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fenix Voyagers take a detour while Aegis Vents camouflage amongst local air traffic. Fenix faces higher fuel consumption, while Aegis reaches sanctuary swiftly without raising any alarms.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams blend with local air traffic. It’s a careful end to the mission, but their adept negotiation leads them to the sanctuary unnoticed. The journey ends hinting at the stamina and wits required for conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

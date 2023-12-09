@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: The Plight of the Pangolin",
+  "gameDescription": "Two intelligent airships represent the wildlife conservation organizations, Greater Good Charities and Wildlife At Risk. Both are on an eco-mission to transfer vital supplies to the newly built pangolin sanctuary in Vietnam. Though united by the same conservation mission, the teams must make strategic decisions to ensure not only the success of their mission, but also the minimum environmental impact.",
+  "setting": {
+    "location": "Above Asian Rainforests",
+    "missionStart": "Conservation Base",
+    "missionEnd": "Vietnam Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Galleons",
+      "description": "Renowned for their rescue expeditions and sustainable practices"
+    },
+    "redTeam": {
+      "name": "Wildlife Risk Raptors",
+      "description": "Experts at handling and delivering sensitive cargo with minimal ecological impact"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter an uncontrolled forest fire below, causing poor visibility and destabilizing the wind patterns. How to navigate?",
+      "options": {
+        "A": "Fly higher to avoid the smoke and turbulence, which will burn extra hydrogen.",
+        "B": "Navigate through the smoke using advanced guidance systems, preserving fuel but risking the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams ascend to safer altitudes, consuming additional hydrogen but ensuring their cargoes and missions are secure. They share insights over the radio to map a safe passage above the fire.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Wildlife Risk Raptors daringly navigate through smoke while Greater Good Galleons ascend. The risky maneuver pays off for the Raptors, saving fuel and time, while Galleons safeguard their mission but deplete fuel reserves.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Greater Good Galleons bravely plunge through smoke while Wildlife Risk Raptors fly high. Galleons’ courage conserves fuel, giving an edge, while Raptors secure their mission but at a higher ecological cost.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams trust their advanced navigational systems to brave the smoke and turbulence. Their decision pays off as they safely navigate through the fire, conserving hydrogen for the rest of their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal from a local wildlife rescue team reaches the airships. The team has encountered a poaching operation and needs urgent supplies.",
+      "options": {
+        "A": "Alter the mission path to deliver supplies to the rescue team.",
+        "B": "Maintain the original path and arrange a ground-based aid delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships divert, expending extra hydrogen to deliver aid. They incur delay but save the team and crippled pangolins, embodying the spirit of conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Galleons divert to aid while Raptors arrange for ground aid. Galleons’ detour saves the day but at the cost of time and fuel. Raptors, having conserved resources, take the lead.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Raptors alter their course while Galleons stay on the original path, arranging ground aid. Raptors' direct intervention proves crucial, but Galleons save fuel and gain an advantage.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate ground-based aid delivery, preserving airship resources but face delays due to unpredictable ground logistics. Their smart strategy underlines commitment to a wider conservation goal.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Coming up on the final leg, the airships note increased activity around the sanctuary. Should they change their delivery strategy?",
+      "options": {
+        "A": "Insist on landing at the sanctuary, causing temporary disturbance but ensuring timely delivery.",
+        "B": "Opt for a remote drop point to protect the sanctuary's tranquility, adding delivery time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships deliver directly to the sanctuary. This timely delivery edges them ahead but causes temporary disturbances to the recovering pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Galleons land at the sanctuary, inducing short-term disturbance while Raptors choose a remote drop, preserving the sanctuary peace but facing a delivery delay. Galleons take a firm lead.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Raptors insist on direct delivery, causing minor disturbances, while Galleons opt for a remote drop, protecting the sanctuary's tranquility. Raptors move ahead with their delivery.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for remote drops, preserving both fuel and sanctuary tranquility. The pangolins' peaceful recovery remains undisturbed, showcasing the absolute commitment to the animals' welfare.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

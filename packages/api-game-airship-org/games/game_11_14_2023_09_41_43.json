@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balance on Ice",
+  "gameDescription": "As humanity yearns to explore the untouched icy realms of Antarctica, players leading advanced airships face a critical mission. Navigate through three turns of strategic decisions to facilitate scientific exploration on the frozen continent while minimizing environmental impact and protecting its unique ecosystem.",
+  "setting": {
+    "location": "Above the Antarctic",
+    "missionStart": "South African Airbase",
+    "missionEnd": "Designated Locations in Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Operation IceBridge",
+      "description": "Obsessed with sustainable travel and exploration with a strong scientific background."
+    },
+    "redTeam": {
+      "name": "Frozen Horizons",
+      "description": "Experts in eco-tourism, with a primary focus on minimizing environmental impact."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As Antarctic tourism surges, teams need to select an appropriate landing site for their airships carrying enthusiastic tourists.",
+      "options": {
+        "A": "The blue ice runway, a popular yet fragile site, frequented by many operators.",
+        "B": "A remote and pristine ice-field, away from popular tourism routes."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to land on a popular site, further damaging the vulnerable ecosystem. The teams must now work on damage control and site restoration.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The teams chose different sites. While one team's site received more damage, the other's site remains untouched. A lesson in weighing popularity against conservation is learnt.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Selecting different locations, one pristine site remains protected while the other experiences increased impact. The importance of choice when dealing with a delicate ecosystem is highlighted.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose the untouched location. While the pristine site is now exposed to anthropogenic impact, the popular site gets a much-needed breather. Actions and repercussions become clear.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams must decide on the capacity of tourists to be allowed for Antarctic exploration.",
+      "options": {
+        "A": "The more, the merrier. Maximize tourist numbers for enhanced revenue.",
+        "B": "Limit the number of tourists to protect the Antarctic ecosystem, despite less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allowed a high number of tourists, which lead to an increase in revenue but at the cost of substantial environmental impact. Profit versus conservation becomes a hot debate.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team brings a crowd, making profit but causing disturbance. The other takes a guarded approach with less impact, raising questions about the commercial aspect of conservation trips.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team maximizing tourists and the other limiting, the tension between commercial interests and conservation stands revealed. The balance is delicate and tricky.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to limit tourist numbers, trading revenues for conservation. Ingenuity on generating revenues while preserving the environment becomes the center of discussions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "A conservation initiative has to be implemented. The approaches are different, and teams must decide the path they want to pursue.",
+      "options": {
+        "A": "Introduce a program engaging tourists in conservation efforts.",
+        "B": "Implement strict regulations, limiting tourist activities and preserving local ecosystems."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation. While it's well received, the initiative's effectiveness in long-term conservation remains uncertain. Active public participation in conservation is however a positive step forward.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team launches participatory conservation programs while the other implements strict regulations. Balancing human interaction and regulation in conservation becomes the focal point.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team involving tourists and the other implementing restrictions, the complexity in dealing with human impact on vulnerable ecosystems is unveiled.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for regulations. There's less disturbance, but the rigid rules lead to some discontent among tourists. Conservation efforts' success in a commercial setting raises questions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Plight and Flight: Pangolin Rescue",
+  "gameDescription": "As airship pilots for the Greater Good Charities and Wildlife At Risk, players embark on crucial missions to safeguard the pangolins from ruthless poachers in Africa and transport them to a specially constructed enclosure sanctuary in Vietnam. Navigating severe weather, tricky terrains, and potential poacher confrontations, players must optimize their airships' capabilities and harness their strategic decision-making skills to ensure the pangolins' safety and their mission's success.",
+  "setting": {
+    "location": "From the depths of Africa to the heart of Vietnam",
+    "missionStart": "African Wilderness",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyguards",
+      "description": "Specializing in stealth flight and strategic evasion."
+    },
+    "redTeam": {
+      "name": "Cloudsaviors",
+      "description": "Masters of disaster management and precision flying."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon reaching the poaching hotspot in Africa, the teams face a critical decision. With increased poacher activities in the area, they must decide how to proceed.",
+      "options": {
+        "A": "Fly stealthily under the cloud cover at night, risking difficult navigation and increased fuel use.",
+        "B": "Launch decoy drones to divert poachers, conserving fuel but potentially alerting the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams stealthily penetrate the poaching hotspots avoiding confrontation. The midnight operation is risky, presents navigation challenges, and increases fuel usage, but successfully evades the poachers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyguards fly covertly under the cloud cover, while the Cloudsaviors deploy decoys. The combination works, confusing the poachers. Both teams successfully carry out their missions undetected.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With the Cloudsaviors flying stealthily, and the Skyguards using decoys, the teams accidentally alert some poachers. A quick evasion maneuver saves the day, but not without briefly straining their hydrogen reserves.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use decoys, causing mass confusion among the poachers. The decoy tactic proves successful at a large scale, allowing both teams to conserve fuel while safely accomplishing their extraction mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Successfully loading the pangolins aboard, the teams must navigate through an upcoming intense thunderstorm.",
+      "options": {
+        "A": "Fly directly through the storm using advanced weather proofing technology, risking turbulence and stress for the pangolins.",
+        "B": "Reroute the course around the storm, consuming more hydrogen but ensuring a smoother ride for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams fly through the storm, the adventure is nerve-racking, but the airships' advanced tech withstands it. Pangolins manage the stress, but it's a close call making the teams ponder if it was worth it.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyguards fly through the storm while the Cloudsaviors reroute. Both pangolin wards fare well. Perhaps there is wisdom in balance, a lesson well noted by the teams.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While the Cloudsaviors braved the storm, the Skyguards rerouted. Costing a little more in terms of fuel, but ensuring their charges were given a smoother journey, both teams reach a new understanding towards their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "With a mutual decision to reroute, both teams provide a smooth journey for the vulnerable pangolins. It costs additional hydrogen, but keeping their cargo safe is the teams' paramount concern.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams must traverse the busy Asian aerotraffic while minimizing disturbance for the recovering pangolins.",
+      "options": {
+        "A": "Use cloaking tech to stealthily pass through, taking longer but ensuring less disturbance for the pangolins.",
+        "B": "Request precedence from aerotraffic control, speeding up the transit but causing temporary stress for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose stealth over speed, using their cloaking technology to quietly navigate the busy airspace. They ensure minimal disturbances to the pangolins, a choice that strikes a chord with their sanctuary mindset.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyguards utilize cloaking tech, while the Cloudsaviors request precedence. Both methods work with their respective pros and cons, balancing each other while successfully transporting their precious charges to the new sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Cloudsaviors enable their cloaking tech, the Skyguards seek precedence and hustle through the aerotraffic. Both approaches pay off, each lending the other perspective on prioritizing needs versus wants.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, holding the welfare of their precious cargo paramount, request precedence from aerotraffic control. The swift transportation does agitate the pangolins a bit, but their arrival in the nurturing sanctuary compensates for this.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

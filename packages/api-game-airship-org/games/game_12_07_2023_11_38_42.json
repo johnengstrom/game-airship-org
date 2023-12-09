@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Mission: Skyward Sanctuary",
+  "gameDescription": "Two futuristic airships, commanded by the teams from Greater Good Charities and Wildlife At Risk, embark on a mission to safely transport rescued pangolins from Africa to the recently established sanctuary in Vietnam. Each decision affects the safe handling and transition of the pangolins, as well as the environmental footprint of the mission.",
+  "setting": {
+    "location": "Route from Africa to Vietnam",
+    "missionStart": "African Poaching Site",
+    "missionEnd": "Vietnam Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardians of Good",
+      "description": "Skilled in ecological sustainability and coordinating charity efforts."
+    },
+    "redTeam": {
+      "name": "Risk Heralds",
+      "description": "Experts in wildlife protection and dealing with at-risk animals."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships are being loaded with the rescued pangolins, a group of poachers is discovered nearby. How should the teams react?",
+      "options": {
+        "A": "Leave as soon as possible to avoid a dangerous confrontation and protect the pangolins.",
+        "B": "Coordinate with local authorities to apprehend the poachers, but be prepared for a delay in departure."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Collectively, the airships decide to launch hastily, prioritizing the safety of the pangolins. Although they escape a potential threat, they leave behind an unresolved issue.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team lifts off, the other stays to involve local authorities. The poachers are detained, but the delay results in a tighter itinerary for one of the airships.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Executing differing strategies, one airship escapes potential danger while the other calls in the police. The detained poachers contribute to an ongoing battle, but the team's delay may have repercussions later on.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stall their departure, pooling their resources to bring law enforcement to the scene. Their combined efforts ensure a safer future, but resultant delays put pressure on the travel schedule.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A risky weather pattern appears along the fastest route to the sanctuary. The choice now is about speed versus comfort for the pangolins.",
+      "options": {
+        "A": "Navigate through the weather for a quicker delivery at the risk of discomfort and stress for the pangolins.",
+        "B": "Take a lengthy detour, sparing the pangolins from possible distress but consuming more energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Prioritizing speed, both teams fly through the storm, causing the airships to jostle and possibly distress the pangolins. They arrive faster but must consider the welfare of their precious cargo.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the storm while the other chooses the detour. The latter secures the tranquility of the pangolins, while the fast route incurs unexpected costs due to damage from the turbulent weather.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Differing decisions lead to mixed results. The detouring airship ensures a comfortable journey for the pangolins but consumes more energy, while the other team’s airship faces some damage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose to detour, placing the well-being of the pangolins above the efficiency of fuel resources. The missions’ success isn’t just about speed, but about the care they exhibit in their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, a decision must be made: take turns landing, which consumes extra time, or make a simultaneous landing requiring precise coordination.",
+      "options": {
+        "A": "Make a simultaneous landing, which reduces time but increases risk if not properly executed.",
+        "B": "Take turns landing, maintaining control and safety but prolonging unloading time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Through skilled coordination, both airships land simultaneously, swiftly unloading the pangolins into their sanctuary. While efficient, it’s a decision that bears significant risk and demands aptitude.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As one airship lands while the other hovers, a seamless transition into the sanctuary occurs. However, the hovering airship consumes extra fuel, raising questions about overall efficiency.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team prioritizes a swift landing procedure, the other focuses on energy-conserving tactics, leading to a unique blend of strategies. Both have their merits and shortcomings.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to land one at a time, adopting a cautious and methodical approach. While the fuel consumption is higher, the care exhibited in transferring the pangolins is laudable.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

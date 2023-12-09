@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The White Voyage",
+  "gameDescription": "In this challenging eco-mission, airship teams will navigate the delicate landscape of Antarctica, balancing the surge in tourism with the urgency of protecting its unique ecosystem. The teams' decisions can either enhance or damage the pristine wilderness of Antarctica, affecting the balance between scientific research, sustainable exploration, and preservation of biodiversity.",
+  "setting": {
+    "location": "Above the Antarctic",
+    "missionStart": "Eco-Airship Base",
+    "missionEnd": "Selected Antarctic Site"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Penguin Navigators",
+      "description": "Specializing in eco-tourist management and sustainability."
+    },
+    "redTeam": {
+      "name": "IceGuard Titans",
+      "description": "Experts in crafting the balance between exploration and environmental conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The first challenge is choosing the landing site. Both teams must decide between a popular, already impacted area or an untouched location. Significant impacts are associated with both choices.",
+      "options": {
+        "A": "Choose an already impacted area to avoid generating new impact zones.",
+        "B": "Select a pristine location to disperse impact and possibly bring new discoveries."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams selected the already impacted area. The constant flow of tourists continues to degrade the site, but new impact zones are avoided. Lessons in sustainable tourism are swiftly needed.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the already impacted area, while the other selects a pristine location. The disperse impact causes less pressure on each site, but the untouched area faces new challenges.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team selects a pristine location, and the other chooses an already impacted area. The combination of actions results in a spread of impact, requiring extensive environmental management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select pristine areas. The untouched landscapes face new encounters, but the teams believe in the potential for new discoveries and improved tourist dispersal.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing the number of tourists is a crucial factor in preserving Antarctica's wilderness. Both teams have to decide on the tourist capacity allowed.",
+      "options": {
+        "A": "Allow a higher number of tourists, leading to higher impact but more revenue for conservation programs.",
+        "B": "Limit tourist numbers, reducing potential revenue but ensuring a lower impact on the environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a larger number of tourists. With the increase in revenue, conservation programs improve, but the impact on the environment escalates, imposing major challenges on sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team allows more tourists while the other restricts numbers. The balance between economic sustainability and environmental preservation becomes a central issue in their operations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team limits the number of tourists while the other opts for a larger number. The difference in strategies creates tension but also sparks comprehensive discussions on management strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers. They forego some potential revenue, but their commitment to minimizing human impact on the Antarctic environment becomes a beacon of sustainable tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams have to decide on the most effective conservation strategy. They have to choose between active tourist engagement or strict regulations.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, creating more responsible and informed visitors.",
+        "B": "Implement strict regulations and area closures, limiting human impact but potentially frustrating tourists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to engage tourists in conservation. The tourists become more aware of the environmental realities, enhancing their sense of stewardship. However, this also requires additional resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for tourist engagement while the other implements strict regulations. This leads to diverse experiences for the tourists, engendering discourse about the role and responsibility of tourists in vulnerable environments.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team imposes strict regulations and the other engages tourists. The result is balanced, with tourists gaining an understanding of both the complications of environmental protection and their role in conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams implement strict regulations. While this may frustrate some tourists, the level of conservation and preservation achieved reflects a model for sustainable tourism in vulnerable areas.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

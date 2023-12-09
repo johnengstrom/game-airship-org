@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Preservation: The Aerial Guardians",
+  "gameDescription": "Two futuristic airships, Vern and Vesper, navigate through challenging decisions to transport endangered pangolins and necessary equipment for their sanctuary in Vietnam. Each decision the airship crews make greatly impacts their mission success and the overall preservation of these heavily trafficked mammals.",
+  "setting": {
+    "location": "Over Asian continents",
+    "missionStart": "Remote case locations of poaching",
+    "missionEnd": "Vietnam Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Vern Voyagers",
+      "description": "Leading in wildlife safety measures, humane cargo handling, and poaching disruption."
+    },
+    "redTeam": {
+      "name": "Vesper Navigators",
+      "description": "Renowned for their precise navigation, efficient fuel use, and innovative strategies."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships prepare for pangolin extraction, they face a dilemma: poachers are still active nearby, threatening the mission and the innocent creatures.",
+      "options": {
+        "A": "Deploy diversions to distract Poachers without direct conflict.",
+        "B": "Collaborate with local enforcement and risk confrontation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose distraction over conflict, successfully rescuing pangolins without alerting poachers. However, the poachers are free to continue illicit activities.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team successfully diverts poachers attention, the other invites confrontation with local enforcement. The mission succeeds but the uneasy alliance causes minor delays.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In a combined effort, one team distracts poachers while the other syncs with law enforcement. The mission unfolds smoothly, rescuing pangolins and disrupting ongoing poaching.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams unite with local enforcement, risking open conflict. The poaching operation is halted, but unavoidable confrontations lead to significant delays.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While transporting the rescued pangolins, both airships come across an illegal markets dealing in pangolin scales.",
+      "options": {
+        "A": "Reroute around the market to avoid adding stress to the rescued pangolins.",
+        "B": "Report to environmental authorities using anonymous tips."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to keep away from the illegal market, protecting the pangolins from further trauma. However, the issue remains unresolved as the market continues its operation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team reroutes, the other reports the market. This combination reduces the pangolins' stress and curbs the illicit trade simultaneously. However, the reporting process causes a delay.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team reports the market, and the other reroutes. This strategy ensures the pangolins' safety and exposes the market simultaneously, striking a balance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships avoid direct confrontation and send anonymous tips about the market, ensuring that they remain on schedule and the authorities are alerted.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnamese airspace, the teams face strict air regulations due to increased aerial traffic.",
+      "options": {
+        "A": "Maintain speed and synchronise landing spots, leading to a potential delay.",
+        "B": "Speed up to secure landing spots, risking increased fuel consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to hold their speeds, their punctuality costs them a minor delay but the pangolins arrive safely to their new sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team pushes ahead, securing spot while other maintains speed. This results in additional fuel consumption but ensures spots for both teams.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A team speeds up, aiding in securing both landing spots. The approach costs more fuel but allows for a synchronized landing, minimizing the time pangolins spent in transit.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships increase speed to secure landing spots. The pangolins are quickly  transferred to their new safe haven, symbolizing a hopeful step toward their species recovery.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

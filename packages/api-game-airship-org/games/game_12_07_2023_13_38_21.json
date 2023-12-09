@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Peril",
+  "gameDescription": "Two advanced airships, the Fauna Shield and the Scales Rescue, are on a crusade to save Earth's endangered pangolins. Teams will navigate the challenges that arise, each decision impacting the success of the mission and changing the face of pangolin conservation worldwide.",
+  "setting": {
+    "location": "Airspace Above African and Asian Territories",
+    "missionStart": "Greater Good Charities Headquarters",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Fauna Shield",
+      "description": "Momentous in designing and implementing rescue strategies."
+    },
+    "redTeam": {
+      "name": "Scales Rescue",
+      "description": "Known for precision navigation and safe animal transportation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships traverse Africa, they pick up illegal poacher activity in a nearby wildlife reserve. They must decide how to respond.",
+      "options": {
+        "A": "Descend to deter poachers and rescue injured pangolins.",
+        "B": "Continue on course, reporting the activity to local authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships valiantly intervene, successfully deterring poachers and saving many pangolins. It causes a delay in their journey, but signifies their commitment to direct action.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Team swoops in courageously to rescue pangolins while Blue Team reports to authorities. The authentic collaboration cuts through the crisis and potentially deters future poaching.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Blue Team intervenes rescue while Red Team keeps course and alerts authorities. The splintered decision making is effective, but controversial as it balances direct action with broader systemic change.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships alert local enforcement, preserving their time and resources. Their decision sparks a debate on intervention strategies, prompting a rethinking of response strategies.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A rare meteor shower is forecasted to occur in their flight path, which can potentially damage the airships and stress the pangolins.",
+      "options": {
+        "A": "Activate shield systems, continue on course, and soothe the scared animals.",
+        "B": "Alter course to avoid the meteor shower entirely."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships brave the meteor shower with shields on. Their serenity amidst danger calms the pangolins and displays an exceptional commitment to the mission. However, energy consumption is high.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Red Team alters the course, Blue Team goes through meteor shower with shields up. The maneuvres are successful, but they raise the question of sustainability and animal welfare in such risky situations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While blue team reroutes, Red Team activates shields and advances. Though they succeed, the endeavor sparks a debate on risk assessment and animal stress factors during rescues.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships reroute to avoid the meteor shower, allocating their resources to the pangolins’ comfort and security, strengthening their commitment to empathy as a core conservation principle.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, they face a choice regarding the release methods of the rescued pangolins into the new facility.",
+      "options": {
+        "A": "Implement an immediate release for the pangolins to acclimate naturally.",
+        "B": "Gradually integrate the pangolins in a controlled manner to reduce stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose natural acclimation. The pangolins quickly adjust to their new surroundings, epitomizing the timely efforts of the teams, yet invigorating a discourse on the pros and cons of rapid habitat immersion.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As Red Team chooses gradual integration and Blue Team opts for immediate release, the decision results in thought-provoking differences in adaptation rates among the pangolins, leading to greater insight into rescue efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With Blue Team preferring immediate release and Red Team gradual integration, their actions foster a nuanced understanding of pangolin welfare, enriching conservation strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams slowly integrate the pangolins, prioritising their comfort, which galvanizes a sense of trust and contentment among the pangolins. Yet, it raises questions regarding the ideal pace of rewilding post rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

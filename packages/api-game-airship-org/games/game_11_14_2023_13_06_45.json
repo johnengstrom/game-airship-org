@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Express: Saving Earth's Scaly Treasures",
+  "gameDescription": "Players control advanced airships on a race against time to rescue pangolins facing the threat of extinction due to illegal wildlife trafficking in Africa and bring them to a new sanctuary in Vietnam. Each decision made during the mission impacts not just the fate of these creatures but also the environments through which the airships pass.",
+  "setting": {
+    "location": "Between Africa and Vietnam",
+    "missionStart": "Various African Wildlife Reserves",
+    "missionEnd": "Greater Good Charities' Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Ascendants",
+      "description": "Specializes in high-speed navigation and pangolin tracking technology"
+    },
+    "redTeam": {
+      "name": "Renaissance Voyagers",
+      "description": "Experts in eco-efficient fuel usage and pangolin comfort & safety during travel."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships have located a pangolin hideout but sturdy, thorny acacia trees, filled with potentially dangerous animals, surround it making access tricky.",
+      "options": {
+        "A": "Fly lower to attempt a direct capture of pangolins risking harm to the airship.",
+        "B": "Coordinate with local ground teams for a slower but safer rescue operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams took the bravely risky direct approach. The pangolin rescue is quick, but the airships incur some damage. Their courage is admirable, but they might deal with mechanical complexities during repair.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braved the acacia while the other worked with the ground team. The direct team rescued pangolins quicker but now struggles with airship repair, giving the other team an advantage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team coordinated with the ground crew, the other dove into the thorny mess. Despite damage to their airship, reviewing each other's strategies could be beneficial throughout the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to coordinate with the local ground teams, ensuring safety but losing time. The pangolins are rescued without harm to the airships, showcasing prudent decision-making.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During the flight, the teams receive a distress signal indicating an ongoing poaching raid. They must decide how to respond.",
+      "options": {
+        "A": "Alter current path to intervene in the poaching raid, potentially delaying the mission.",
+        "B": "Report the incident to local authorities and continue en route to the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert course and confront the poachers successfully. It's a courageous act but the divergence drains additional fuel. Their actions are noble but their fuel reserves need to be watched.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team risks delay to intervene, the other alerts local authorities. The intervention is successfully, but at the cost of diversion. Meanwhile, the other team gains ground in transit.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team diverts while the other proceeds, reporting the incident. Despite some delay, both actions lead to hindrances for the poachers as well as valuable lessons about priority-setting.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to report the incident and maintain their route. Their decision causes no delay in the mission, though inaction against the poachers may stir discussions about ethical dilemmas.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the teams approach Vietnam, changing weather and strict airspace regulations pose a challenge to landing.",
+      "options": {
+        "A": "Request an early landing before the weather changes further but risk a penalty for violating time regulations.",
+        "B": "Maintain current speed and navigate through the changing weather while abiding by the time regulations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for an early landing and face penalties but bypass the weather problems. They risk a quick depletion of resources as penalties soak up their resources but successfully ensure pangolin safety.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands early, incurring penalties while the other defies the weather and arrives just in time. The team that braved the weather faces issues adjusting their aircraft, placing emphasis on quick-thinking.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team landing early and the other navigating the changed weather, the creatures have a chaotic, albeit safe, arrival. These decisions test both teams' adaptability under pressure.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain speed, navigate through weather changes, and adhere to time regulations for successful and punctual arrival, demonstrating a balance between mission success and regulatory compliance.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

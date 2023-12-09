@@ -90,7 +90,7 @@
 			class="flex items-center justify-center w-6 h-6 rounded-full{color === 'red'
 				? ' bg-red-500'
 				: ' bg-blue-500'} text-white cursor-pointer"
-			on:click={() => updateBesthand(value, suit)}
+			onclick={() => updateBesthand(value, suit)}
 			style="margin-top: -6px; margin-right: -6px;"
 		>
 			<!-- The plus icon. If you're using a graphic, replace the content with an <img> or <svg> -->

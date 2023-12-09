@@ -129,15 +129,8 @@
 	}
 </script>
 
+{#snippet li(item)}
 <div
-	class="card-container {flipped ? 'flipped' : ''}"
-	on:dblclick={flipCard}
-	on:keydown={handleKeydown}
-	tabindex="0"
-	role="button"
->
-	{#if !flipped}
-		<div
 			class="cardfront relative card opacity-80 backdrop-blur-2xl backdrop-brightness-50 h-full p-1 select-none overflow-hidden"
 		>
 			<div
@@ -150,6 +143,17 @@
 				<div class="square2" style="background-color: var(--{color2});" />
 			</div>
 		</div>
+{/snippet}
+
+<div
+	class="card-container {flipped ? 'flipped' : ''}"
+	ondblclick={flipCard}
+	onkeydown={handleKeydown}
+	tabindex="0"
+	role="button"
+>
+	{#if !flipped}
+		{@render li()}
 	{/if}
 
 	{#if flipped}

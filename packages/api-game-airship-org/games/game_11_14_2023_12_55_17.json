@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Ascend: The Great Pangolin Rescue",
+  "gameDescription": "Two teams, the Aeolus Conservationists and Poseidon Guardians, control futuristic airships on a crucial mission to save pangolins from the cruel clutches of illegal wildlife trade in Africa. These intelligent airships are equipped with advanced tech for wildlife detection, rescue, and careful cargo management. Each decision these teams make will influence not just the success rate of pangolin rescue, but also the environmental impact of their operations.",
+  "setting": {
+    "location": "Over the African landscape",
+    "missionStart": "Headquarters of Greater Good Charities",
+    "missionEnd": "New pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Conservationists",
+      "description": "Field experts with a deep understanding of pangolin behaviour, who specialize in clandestine operations."
+    },
+    "redTeam": {
+      "name": "Poseidon Guardians",
+      "description": "Airship pacing experts known for their energy-efficient navigation strategies in tricky landscapes."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams detect a vast network of illegal hunting going on deep in the jungles of Africa. They must decide their approach.",
+      "options": {
+        "A": "Swiftly move in to apprehend the poachers, risking an open confrontation and subsequent damage.",
+        "B": "Sneak in under the cover of night, a safer but also a slower approach."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams race in with their airships intimidating the poachers. They manage to save a significant number of pangolins but the rapid operation consumes extra fuel. Their bold move has both environmental and strategic implications.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Conservationists charge in, creating a diversion, while the Poseidon Guardians quietly rescue pangolins. The divided attention helps but at the cost of additional fuel for Aeolus Conservationists.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Guardians swoop, diverting poachers’ attention, while Aeolus Conservationists conduct the rescue. The Guardians' tactical diversion effectively saves fuel for the Conservationists.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams strategically move in under the cloak of night. The silent operation allows for a successful rescue with minimized fuel consumption, exemplifying perfect teamwork and efficient planning.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Rescued pangolins need urgent medical attention. The teams must decide between flying them to a distant facility or managing with on-board medical services.",
+      "options": {
+        "A": "Fly quickly to the nearest animal hospital, using a significant amount of fuel.",
+        "B": "Use onboard medical facilities to stabilize the pangolins, saving fuel but delaying the shipment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rush to the nearest hospital. The pangolins are quickly treated but the rapid adventure consumes precious hydrogen. The question remains: was the intense fuel usage worth the speed?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team races to the hospital while the other treats on-board. The hospital-bound team uses additional fuel, but their swift action may save more pangolin lives. The on-board treatment team conserves fuel but risks the pangolins' health.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team racing to the hospital and the other providing on-board treatment, the pangolins get timely medical help. However, the differing strategies could impact overall mission efficiency and success.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams treat pangolins on-board, saving crucial hydrogen and exhibiting teamwork. Their shared experience and learning from the challenging situation could prove beneficial for future rescue missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The pangolins are now healthy and ready for relocation to Vietnam. To transport them, the teams must consider the weather and the airships' energy consumption.",
+      "options": {
+        "A": "Take the shorter route that is cloudy and might cause turbulence.",
+        "B": "Take the longer, calm route, consuming more energy but ensuring a smooth ride."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take the shorter route. Despite disturbances, their advanced airships handle the adversity well. However, the choice of turbulence over more fuel use remains a controversial decision.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus chooses the turbulent route, while Poseidon opts for the longer path. Poseidon arrives later but the smoother journey provides more comfort to the refreshed pangolins. Did Aeolus risk too much for speed?",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon braves the cloudy path while Aeolus takes the smoother route. Despite reaching first, Poseidon's choice could potentially stress the pangolins, making Aeolus's approach seem more considerate.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships choose the calm route. Even though it consumes more fuel, they reach Vietnam with gusty pangolins ready for their new home. An exciting end to the intricate mission revolving around rescue, recovery, and relocation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

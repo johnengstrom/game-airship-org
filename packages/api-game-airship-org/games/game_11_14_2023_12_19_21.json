@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Plight of the Pangolin: A Flight to Safeguard",
+  "gameDescription": "In a world grappling with illicit wildlife trade, two futuristic airships, sponsored by Greater Good Charities and Wildlife At Risk, embark on a mission of hope. The crews must transport vital resources from around the globe to aid in the construction of a new pangolin enclosure in Vietnam. Their journey won't be easy, as they have to strategize their routes while keeping their environmental impact and timelines in check.",
+  "setting": {
+    "location": "Across the Globe",
+    "missionStart": "Greater Good Charities Main Facility",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Compassionate Skies",
+      "description": "Experts in resource collection and careful navigation."
+    },
+    "redTeam": {
+      "name": "Hope Bringers",
+      "description": "Pioneers in eco-friendly transport and time-management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a region known for illegal pangolin trafficking. They have the opportunity to intervene but, it may delay their mission and consume extra energy.",
+      "options": {
+        "A": "Take action and intervene, helping authorities confiscate illegal cargo.",
+        "B": "Ignore the activity to conserve energy and maintain the mission schedule."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to intervene. While the detour impacts their fuel efficiency and delays their project, their act of bravery saves countless pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Compassionate Skies took the daring step to intervene successfully, as Hope Bringers focus on the mission. This act of bravery may have impacted their efficiency, but they earn the goodwill of the authorities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Hope Bringers leave their mission path to assist anti-poaching authorities, as Compassionate Skies opt for mission continuity. The daring move by Hope Bringers saves several pangolins, earning them accolades.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to stay on track to keep up with their timeline and conserve energy. Their dedication to the critical mission is understandable, although the missed chance to intervene in trafficking casts a shadow.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive conflicting weather reports about the upcoming path. Choosing the right one is critical for energy conservation.",
+      "options": {
+        "A": "Trust the tried-and-tested forecasting method but risk running into stormy conditions.",
+        "B": "Trust advanced forecasting technology which may not be fully accurate."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams trusted traditional methods and ran into stormy conditions. This decision tests their fuel economy and mission schedule.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Compassionate Skies trust their tried-and-true methods, encountering a storm, while Hope Bringers embraced technology and found clear skies, gaining a significant advantage.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Hope Bringers stuck with the traditional forecast and braved a storm, whereas Compassionate Skies chose the uncertainty of technology and were rewarded with clear skies, helping them conserve energy.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams trust the advanced forecasting and encounter surprisingly clear skies— a gamble that pays off, aiding their energy conservation and mission progress.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally, at the enclosure site in Vietnam, teams face a dilemma. They can either unload quickly, risking damage to the resources, or carefully unload, consuming more time and energy.",
+      "options": {
+        "A": "Choose to unload quickly, minimizing time on ground.",
+        "B": "Unload with utmost care, even if it costs extra time and energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Teams decide speed is of the essence. They unload quickly, causing minor damage to some resources. Despite the damages, they complete the mission in record time.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Compassionate Skies unload quickly with minor damages, while Hope Bringers take a careful approach, ensuring all resources are in perfect condition. Their joint efforts complete the mission successfully.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Hope Bringers quickly unload with few damages, whereas Compassionate Skies take their time ensuring the perfect condition of all resources. The mission's completion is celebrated despite the initial hiccups.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide that the resources' condition is paramount, and take their time to carefully unload. It's a slow but calculated end to their mission, stressing the importance of meticulous conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

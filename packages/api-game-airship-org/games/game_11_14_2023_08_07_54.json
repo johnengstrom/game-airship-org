@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Sky Sanctuary: The Pangolin Rescue",
+  "gameDescription": "Blue and Red teams are the captains of futuristic airships, HAVEN and GUARDIAN respectively. Tasked with a crucial mission by Greater Good Charities and Wildlife At Risk, they transport the materials and equipment necessary to conserve pangolins, the most heavily trafficked wild mammal worldwide. Their actions and decisions bear consequences not only for their mission's success but also the environment, while requiring an understanding of the mission's true purpose and importance.",
+  "setting": {
+    "location": "From major Pangolin habitats in Africa to a newly constructed sanctuary in Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "HAVEN",
+      "description": "Known for effective crisis management and sustainable operations"
+    },
+    "redTeam": {
+      "name": "GUARDIAN",
+      "description": "Praised for sensitive handling of delicate cargo and efficient fuel consumption."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must cross a massive African sandstorm, threatening to hinder their progress.",
+      "options": {
+        "A": "Brave the storm maintaining current speed, depending on precise navigation.",
+        "B": "Fly around the storm, consuming extra hydrogen, but ensuring safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to go headfirst into the sandstorm. Their precise navigation systems allowed them to maintain speed without additional hydrogen usage. Their timely arrival puts them at an advantage in the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Combining courage and caution, one team flew through the storm while the other chose to detour. The faster team reached first, while the detouring team preserved their hydrogen supply for the rest of the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Having chosen different paths, the GUARDIAN team flew around the storm while HAVEN plowed through it, providing a strategic advantage to HAVEN in terms of time, albeit at the cost of hydrogen.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By detouring around the sandstorm, both teams prioritized safety over speed, which saved their cargo but cost extra hydrogen. They communicate their experiences, learning from each other's decisions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An unexpected request for assistance comes from a cargo aircraft carrying pangolin medical supplies.",
+      "options": {
+        "A": "Alter course to assist, risking both time and fuel but aiding the wider mission.",
+        "B": "Delegate to closer airships, maintaining course and fuel, but hampering direct aid."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to assist the aircraft immediately. The rescue is successful but costs time and hydrogen. Their brave decision wins the hearts of many, introducing a new narrative of hope in the pangolin conservation effort.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Relying on efficiency and empathy, one team alters course to provide aid while the other delegates to closer airships. This results in diverse yet substantial contributions to the pangolin rescue mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "When the call for aid comes in, GUARDIAN takes the risk to go assist, while HAVEN coordinates with closer airships. Both strategies successfully assist the cause, but each explores a different aspect of the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose caution over immediacy, delegating the rescue task to closer airships. This decision, while safe, emphasizes the complex interplay of logistics and compassion in the collective efforts for pangolin conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing Vietnam, the teams face dense air traffic and strict landing regulations, imposing a delicate balancing act of timeliness and fuel economy.",
+      "options": {
+        "A": "Accelerate to an early landing, quick but fuel-intensive.",
+        "B": "Hold course and speed, negotiating traffic real-time, economical but potentially time-consuming."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up and manage to land early, thus dodging major airport traffic but consuming extra hydrogen. While efficient, this move raises pertinent questions around the sustainability of their mission strategies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "HAVEN speeds up while GUARDIAN holds course allowing real-time adaptation to the busy airways. HAVEN lands first, but draws a reprimand for early landing. Meanwhile, GUARDIAN's timely arrival after prudent management is lauded.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Showing their tactical approach, GUARDIAN accelerates for an early landing while HAVEN carefully navigates air traffic in real-time. Both deliver their cargo successfully, proving different strategies viable for the crucial mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams display patience and strategic planning, maintaining current speed and negotiating traffic real-time. Their successful execution underlines proficiency in maneuvering complicated landscapes - a vital skill in conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

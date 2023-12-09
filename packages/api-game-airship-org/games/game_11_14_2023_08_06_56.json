@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Pristine Voyage",
+  "gameDescription": "The immaculate landscape of Antarctica is under new threat: the rise in tourist numbers. In control of innovative airships, players must navigate this sensitive environment by managing the growing need for exploration while safeguarding the unique Antarctic ecosystem.",
+  "setting": {
+    "location": "Above the icy expanse of Antarctica",
+    "missionStart": "Tourist Base Station Antarctica",
+    "missionEnd": "Designated landing sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Navigators",
+      "description": "Specializes in micromanaging tourist activities and maintaining ecological balance."
+    },
+    "redTeam": {
+      "name": "Penguin Protectors",
+      "description": "Prides itself in facilitating scientific research with minimum environmental footprint."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Determine an appropriate landing site for the tourists. Rapid growth in visitor numbers has taken its toll on previously visited locations.",
+      "options": {
+        "A": "Choose a tourist-favored but environmentally stressed site to minimize footprint spread.",
+        "B": "Select a pristine, undisturbed location to balance the impact and offer a unique experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams select the popular site, intensifying the strain on the already impacted area but avoiding spread to new locations. However, the increased footfall leads to irreversible damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for the impacted site while the other ventures into pristine territories. The newly disturbed area creates controversy, with debates sparking over Antarctica's protection.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team chooses the popular site, the other explores a virgin area. This shift spreads the environmental impact, sparking fresh concerns about Antarctica's untouched locales.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams select pristine locations, increasing the environmental footprint. However, the experience they provide changes tourists' perspectives about the fragility of such ecosystems.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Decide on the carrying capacity of each landing site. Balancing revenue with environmental impact is crucial.",
+      "options": {
+        "A": "Accommodate more tourists, increasing impact, but boosting revenue for conservation.",
+        "B": "Limit tourist numbers, decreasing revenue but reducing environmental strain."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accommodate more visitors, generating substantial funding for conservation. However, they face backlash for potential environmental damage and wildlife disturbances.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team takes a risk with high tourist numbers, while the other opts for conservation and capacity control. The limiter faces a revenue crunch but earns the community's respect.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team prioritizes revenue while the other limits visitors, leading to contrasting approaches. The team that prioritizes revenue must navigate negative public sentiment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit visitors, fostering a sustainable approach. Even though they face initial economic challenges, their long-term strategy earns them global recognition.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Develop a conservation initiative that directly involves the tourists visiting Antarctica.",
+      "options": {
+        "A": "Create a participatory effort where tourists join clean-up drives post-visit.",
+        "B": "Establish strict regulations and temporary closures of sensitive areas to prevent damage."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation activities. This not only minimizes waste but also enhances the tourists' Antarctic experience by making them an integral part of the preservation efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team involves visitors in waste management, the other team imposes strict restrictions. The regulations lead to substantial conservation gains, but it also limits the experience for the tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship implements clean-up initiatives while the other enacts regulations. This balanced approach ensures the effective conservation of Antarctica's unique ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams impose regulations and area restrictions. This leads to significant reductions in environmental impact and helps retain the pure serenity of the Antarctic wilderness.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

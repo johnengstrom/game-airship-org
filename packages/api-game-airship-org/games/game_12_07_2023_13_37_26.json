@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Plight",
+  "gameDescription": "Control advanced airships tasked with delivering crucial aid to Greater Good Charities and Wildlife At Risk in Vietnam. Decisions taken throughout this mission will impact the recovery and growth of pangolins, and the environment itself. This game underlines the critical role of advanced air mobility in global wildlife conservation efforts.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "A New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Flight",
+      "description": "Experts in Critical Wildlife Deliveries focussing on Speed and Precision."
+    },
+    "redTeam": {
+      "name": "Havoc Haul",
+      "description": "Specialize in Careful Cargo Transport and Optimum Energy Conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Whilst loading pangolin aid packages and equipment in Africa, both airships are presented with a choice concerning cargo handling.",
+      "options": {
+        "A": "Rush the loading process to ensure a swift departure at the expense of additional fuel consumption.",
+        "B": "Proceed with a slow, careful approach, ensuring no damage to delicate equipment but potentially delaying their departure."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a rush procedure. Their speed is commendable, but the extra strain on their hydrogen reserves might prove costly later in the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Flight sets off quickly while Havoc Haul painstakingly ensures secure cargo. Phoenix Flight gains a time advantage, whereas Havoc Haul reduces the risk of equipment damage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Havoc Haul rushes the loading process while Phoenix Flight opts for careful preparation. The careful team falls behind but reduces any risk of equipment damage, while the swift team burns extra fuel.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships take the time to ensure the delicate cargo is handled properly. Their patience reduces equipment damage risk but it could cost them time during their cross-continental flight.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Crossing the Indian Ocean, both airships pick up a distress signal from a cargo ship in a tropical storm carrying urgent medical supplies.",
+      "options": {
+        "A": "Divert to assist the ship, consuming more hydrogen but saving lives.",
+        "B": "Maintain course relying on maritime rescue services to save the ship."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships divert to the aid of the distressed ship. Their bravery is admired, although the extra hydrogen used will affect their fuel efficiency for the remainder of the trip.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Flight diverts to assist while Havoc Haul remains on course. The detour consumes more fuel and time, but Phoenix Flight's efforts save multiple lives, drawing global attention to their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Havoc Haul aids the distressed ship while Phoenix Flight continues on its mission. Havoc Haul's decision to assist is a story of bravery shared worldwide, but may impede their mission due to extra fuel consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships continue on their course. Maritime rescue services arrive in time to aid the troubled ship. Their decision to conserve fuel may prove beneficial for the pangolin aid mission, but will the world view their choice as cold?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, both airships receive word of strict air traffic regulations. Their scheduled window is rapidly closing.",
+      "options": {
+        "A": "Burn more hydrogen to speed up and land within the designated time-slot.",
+        "B": "Maintain the current speed and negotiate a new landing time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships accelerate, consuming additional hydrogen but meeting the landing window. Their swift delivery may provide an advantage in setting up the new pangolin enclosure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Flight accelerates, while Havoc Haul negotiates for a new landing time. Phoenix Flight's goods are unloaded instantly, but at the cost of more hydrogen. Havoc Haul lands later but with better fuel conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Havoc Haul speeds up, while Phoenix Flight arranges a new landing slot. Havoc Haul's quick delivery aids early setup efforts, whereas Phoenix Flight saves vital hydrogen but faces a delay. ",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships negotiate for a new landing time slot. The slower pace conserves their hydrogen reserves, and yet the delayed arrival may affect the pangolins' immediate support.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

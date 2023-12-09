@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Save the Pangolins",
+  "gameDescription": "Intelligent airships from conservation teams embark on a mission to relocate poached pangolins from Africa to a newly built sanctuary in Vietnam. Every strategic decision made by these airship crews affects the success of this rescue mission and the future of these endangered creatures. Balancing between timely completion, pangolin safety, fuel efficiency, and anti-poaching efforts, the crews must demonstrate strategic excellence and compassion during this urgent assignment.",
+  "setting": {
+    "location": "Route between Africa and Vietnam",
+    "missionStart": "Pangolin Rescue Points in Africa",
+    "missionEnd": "Veterinary Sanctuary - Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardians of the Sky",
+      "description": "Specializes in swift navigation and wildlife safety."
+    },
+    "redTeam": {
+      "name": "Eco Avengers",
+      "description": "Experts in fuel efficiency and combating wildlife trafficking."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships detect illegal poaching activities, but have a partial load of rescued pangolins. They can either intervene or continue on to avoid endangering the rescued pangolins.",
+      "options": {
+        "A": "Intervene immediately, potentially risking the rescued pangolins but preventing further trapping.",
+        "B": "Continue to the sancturary, ensuring the safety of the already rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to intervene, they disrupted the poaching activities, potentially saving many pangolins but causing stress for the rescued ones in the airship.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardians of the Sky intervened, while Eco Avengers continued their journey. The direct intervention saved many pangolins, yet caused stress for the ones in the airship. Eco Avengers ensured the safe transportation of their pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Eco Avengers intervened while Guardians of the Sky pressed on. The direct action from Eco Avengers potentially saved many pangolins, but possibly distressed the ones onboard. Guardians of the Sky ensured the safety of their rescued pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to carry on with their mission, ensuring the well-being of their rescued pangolins but unable to prevent the ongoing poaching.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Each team receives a distress signal from a fellow conservation ship stranded due to bad weather.",
+      "options": {
+        "A": "Alter the route to help them, which may delay the journey and stress the rescued pangolins.",
+        "B": "Continue the mission and arrange for a nearby ship to assist."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams altered their routes to provide assistance, potentially delaying their mission but ensuring the stranded ship was saved.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardians of the Sky altered their route while Eco Avengers arranged for nearby help. Both teams ensured the distressed ship was saved, yet the rescue led to a delayed arrival for Guardians of the Sky.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Eco Avengers altered their route while Guardians of the Sky arranged for nearby help. Both teams ensured stranded crewmembers were saved, but the rescue resulted in a later arrival for Eco Avengers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinated with nearby ships for assistance, ensuring the stranded ship received help without straying from their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The airships approach Vietnam but face two options for the descent - a busy but short route or a longer but calm path.",
+      "options": {
+        "A": "Choose the busy route to quickly reach the sanctuary.",
+        "B": "Take the longer path for a stress-free descent for the rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the busy route, allowing them to quickly deliver the rescued pangolins but causing stress during the descent because of heavy air traffic.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Guardians of the Sky chose the busy route, while Eco Avengers took the calm path. Even though Guardians of the Sky transported the pangolins faster, Eco Avengers ensured a stress-free descent for their rescued pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Eco Avengers chose the busy route, while Guardians of the Sky took the calm path. Despite Eco Avengers' faster delivery, Guardians of the Sky provided a stress-free journey for their pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams took the longer but calm path. It might have increased their journey time, but it ensured a smooth and stress-free descent for the rescued pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

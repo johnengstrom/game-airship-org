@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Protection",
+  "gameDescription": "Two futuristic airships, backed by wildlife protection organizations, take up a unique mission - protecting the endangered pangolins from illegal poaching and transporting them safely to a newly built sanctuary in Vietnam. Each decision of the airship crews impacts the survival of these fragile creatures and the sensitivity towards global wildlife conservation.",
+  "setting": {
+    "location": "The African Plains and Vietnam",
+    "missionStart": "Pangolin Habitats across Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardians of Pangolin",
+      "description": "Focused on safety and protection of the precious cargo."
+    },
+    "redTeam": {
+      "name": "Wildlife Protectors",
+      "description": "Experienced in dealing with wildlife and ensuring their well-being during transport."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Responding to a tip-off, both airships arrive at a poaching site where frightened pangolins are being held in captivity.",
+      "options": {
+        "A": "Launch an immediate unmanned rescue mission to evacuate the animals.",
+        "B": "Coordinate with local authorities for a joint rescue and capture of the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With both teams undertaking an immediate rescue, the pangolins are quickly saved. But the poachers manage to escape, raising fear they might strike again. Crucial opportunity for their capture is lost.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The immediate evacuation by one team ensures safety for the pangolins while the other team's coordination with local authorities results in the capture of poachers. The split approach sparks a debate on prioritizing rescue over capture of poachers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team coordinates with local authorities leading to arrests, the other team's quick action saves the pangolins. This puts the other team under pressure, questioning the delay in the rescue.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With both teams choosing to coordinate with local authorities, they manage to capture the poachers. While this has undoubtedly protected future pangolins, not all captured pangolins survive the delay.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During the journey to Vietnam, several pangolins exhibit signs of stress and discomfort.",
+      "options": {
+        "A": "Administer pre-approved sedatives for temporary relief.",
+        "B": "Adjust the environment inside the transport hold to mimic natural conditions."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use sedatives providing immediate relief. However, concerns are raised regarding potential long term effects on the creatures' health.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team soothingly adjusts environmental conditions, the other resorts to sedatives. The outcome sparks a discussion on the ethics of administering drugs without concrete knowledge of their long-term effects.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Using sedatives by one team draws criticism while the other's use of environmental tweaks is lauded. This raises questions about animal welfare practices during rescue operations.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With both teams opting for environmental adjustments, they successfully soothe the pangolins without any side-effects. This thought-provoking approach drives discussions on constructive alternatives to medical intervention.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach the sanctuary, ground personnel detect a tropical storm brewing, making it risky for landing and animal release.",
+      "options": {
+        "A": "Wait out the storm, ensuring safety but causing further stress to the creatures.",
+        "B": "Land with calculated risk, releasing the pangolins swiftly into their new sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait out the storm, ensuring the safety of all but extending the pangolins' stress. The delicate balance between creature comfort and safety becomes a topic of intense discussion.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team waits for the storm to pass, causing extended stress to the pangolins, while the other lands swiftly, risking the harsh weather. Their contrasting decisions highlight the complex nature of wildlife rescue and rehabilitation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team choosing a cautious approach while the other opting for calculated risk, it sheds light on the realities and dilemma that wildlife conservation organizations face on a daily basis.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Ignoring the risks, both teams land swiftly, successfully releasing the anxious pangolins into their new home. Despite the success, a debate on risk versus reward in wildlife conservation ensues.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

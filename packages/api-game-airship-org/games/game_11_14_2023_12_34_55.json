@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As the captains of futuristic airships, players must navigate this delicate landscape, balancing the demand for exploration with the urgent need to protect Antarctica's unique ecosystem. The red team and blue team must successfully navigate three turns of strategic decision-making to minimize the environmental impact of tourism in Antarctica while facilitating scientific research and sustainable exploration.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "McMurdo Station",
+    "missionEnd": "Drake Passage"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Voyagers",
+      "description": "Focused on scientific research and explored the unknown territories."
+    },
+    "redTeam": {
+      "name": "Penguin Pioneers",
+      "description": "Specialized in responsible tourism and explored recognized sites."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Choosing a landing site for tourists is the first step towards sustainable exploration. Will you risk impacting the untouched wilderness for a unique experience, or settle for a recognized, already impacted site?",
+      "options": {
+        "A": "Choose a popular, already impacted site, limiting potential harm.",
+        "B": "Choose a pristine, untouched location, offering a unique experience but risking harm to the untouched environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to limit potential harm by avoiding pristine landscapes. Although the tourist experience may be less unique, you prioritize Antarctica's wilderness over profits.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the worn path while the other ventures into virgin territory. The pristine wilderness is impacted but generates excitement among the tourists, causing a surge in bookings.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team venturing into untouched territory draws criticisms for environmental impact while the other team receives praise for their responsible choice, although at the cost of lower enthusiasm from tourists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the pristine locations, increasing the environmental impact but also the tourist excitement and income. A sharp debate arises over the ethics and sustainability of such exploration.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Next, determining the number of tourists that will be allowed. Will you allow more tourists and maximize profit at the potential cost of environmental impact, or restrict numbers?",
+      "options": {
+        "A": "Allow a higher number of tourists, which increases the potential environmental impact but raises more revenue.",
+        "B": "Limit the number of tourists, reducing potential environmental impact but also the potential income."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams maximize income at the expense of environmental safeguards. The Antarctic wilderness suffers, leading to strict new regulations being enforced upon airship tourism.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to maximize earnings while the other imposes restrictions. The latter's decision is praised in conservation circles, while the former faces backlash and possible action from regulators.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The income-driven approach of one team is cast in stark relief to the conservationist approach of the other. Protests mount against unrestricted tourism, leading to greater scrutiny on all Antarctic voyages.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to limit tourist numbers, balancing income and environmental impact. This approach wins praise for responsible tourism, setting a new standard for Antarctic exploration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally, decide on a conservation initiative. Will you involve tourists in the effort to help them understand the importance of conserving, or prefer strict regulations?",
+      "options": {
+        "A": "Implement an initiative involving tourists actively in conservation efforts.",
+        "B": "Impose strict regulations and area closures to conserve, potentially disappointing some tourists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation efforts. While some tourists are disgruntled, many appreciate the hands-on experience and the chance to contribute to preserving the stark beauty of Antarctica.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for strict regulations while the other encourages active participation. Tourists are divided in their reviews; while some appreciate the engagement, others are eager to explore without restrictions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team decides on strict regulations while the other involves tourists in conservation. The dynamic approach of the second team catches the public's eye, leading to it being featured on international media.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for strict regulations. While they face some backlash, the strong commitment to preserving the fragile ecosystem earns them respect and praise in environmental and scientific circles.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

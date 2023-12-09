@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: The Pangolin Protection Mission",
+  "gameDescription": "Two futuristic airships, deployed by Greater Good Charities and Wildlife At Risk, embark on a critical rescue mission to transport and release trafficked pangolins into a novel enclosure in Vietnam. With each decision made by the airship crews not only affecting the success of the mission but also the lives of these endangered species, players must navigate strategic dilemmas and engage with difficult choices bearing environmental and ethical stakes.",
+  "setting": {
+    "location": "Varying from Africa to Asia",
+    "missionStart": "Trafficking hotspots in Africa",
+    "missionEnd": "Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Global Guardians",
+      "description": "Meticulous planners, adept at sensitive rescue missions and caring for wildlife during transport."
+    },
+    "redTeam": {
+      "name": "Eco Saviours",
+      "description": "Skilled in innovative problem solving, equipped to handle emergencies and ensure secure delivery."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon reaching Africa, teams discover multiple locations with trafficked pangolins. They must decide where to start their rescue operations.",
+      "options": {
+        "A": "Start rescuing from the location with the maximum number of pangolins.",
+        "B": "Start from the location with the most vulnerable pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to rescue the maximum number first. The pangolins are saved, but the teams must work hard to keep the vulnerable ones safe during the transit.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team prioritizes the vulnerable pangolins, while the other rescues the most. Both approaches prove effective, saving many lives but presenting unique challenges the teams need to overcome.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams choose different strategies but manage to save many pangolins. Each team's approach forces them to adapt and learn, ultimately preparing them better for future challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on the most vulnerable pangolins, thereby ensuring that those in immediate need are taken care of first. It's a careful but humane approach that results in substantial lives saved.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While crossing the Indian Ocean, the airships receive an alert about a poaching attempt nearby.",
+      "options": {
+        "A": "Go off course to intervene and stop the poaching attempt.",
+        "B": "Continue with the mission and report the activity to local authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to intervene, successfully saving more pangolins but compromising on their schedule and fuel conservation. They reflect on the complex realities of wildlife protection.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team confronts the poachers, the other stays focused on the mission. The divergent decisions result in more rescued pangolins and progressing mission deadlines.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team diverges to confront the poachers, while the other continues with their mission. The efforts result in a broader conservation impact and further progress in the core mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to stay focused on their mission at hand. They alert the authorities and coordinate remotely, managing to protect the pangolins in their care while not compromising on their mission timeline.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams face the challenge of releasing the rescued pangolins into their innovative home.",
+      "options": {
+        "A": "Release the pangolins en masse, returning them rapidly to a natural environment.",
+        "B": "Release the pangolins gradually, monitoring each pangolin adapting to their new environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams release the pangolins en masse. The pangolins are eager to explore their new habitat and while rapid, this approach accelerates their adjustment to freedom.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team releases pangolins en masse, the other does it systematically, allowing careful monitoring. The combination seems to aid the pangolins in adapting to their new environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team going for a gradual release and the other going for a faster approach, the combination seems to alleviate stress both in the teams and the pangolins, creating a successful blend of speed and care.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams release the pangolins gradually, allowing them to adjust slowly and steadily to their new habitat. It’s slow but vital work, paving the way for the pangolins successful reintegration into a natural lifestyle.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

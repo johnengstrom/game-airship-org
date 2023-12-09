@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Passage: A Safeguard Saga",
+  "gameDescription": "Your team commands high-tech airships with one ambitious task: to securely transport rescued pangolins to a newly built sanctuary in Vietnam without disturbing their environment. Each decision you make impacts not only the success of your mission, but potentially the future of the pangolins.",
+  "setting": {
+    "location": "Above the tropical rainforests and oceans",
+    "missionStart": "Various poaching hot spots in Africa",
+    "missionEnd": "New Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Conservation Cloudriders",
+      "description": "Proficient in careful navigation and delicate cargo handling."
+    },
+    "redTeam": {
+      "name": "Sanctuary Skyrunners",
+      "description": "Renowned for wild rescue missions and swift flight patterns."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Your airships have collected the rescued pangolins and are now preparing to leave Africa. You notice a poacher's den nearby which can offer valuable information to local law enforcement.",
+      "options": {
+        "A": "Stay and surveil the poacher's den risking delay in flight.",
+        "B": "Continue the flight to avoid any potential harm to the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to stay and gather intelligence. This data aids local authorities in later operations, although it causes a minor delay in the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team stays to surveil, while the other flies ahead with the pangolins. The surveilling team aids law enforcement, while the moving team gains time but misses the opportunity to assist the fight against poaching.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team proceeds, while the other stays behind to gather data. The team that stays behind contributes valuable information, although sacrifices flight time to do so.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams bypass the den to ensure the safety and timely transport of the pangolins. The priority for pangolin safety creates a smooth initial journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Flying over the ocean, an SOS signal from a sinking ship carrying necessary veterinary supplies catches your attention. You can either divert to help or continue towards the sanctuary.",
+      "options": {
+        "A": "Divert flight path to attempt to collect supplies.",
+        "B": "Maintain direct course to the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships divert to aid the sinking ship. They get medicinal supplies which become valuable for the pangolins' recoveries, but at the expense of the mission's timeline.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship breaks course to assist the sinking ship while the other presses ahead. The diversion successfully salvages important medicinal supplies but lengthens the journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With only one airship diverting, the mission remains somewhat on schedule. Despite spending valuable time rescuing supplies, the impact on pangolin health could be large.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships remain on the direct course, prioritizing the comfort and stability of the rescued pangolins. While this may contribute to a more tranquil journey, the lost medical supplies from the SOS signal went uncollected.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "You learn the pangolins have developed unexpected stress from the journey. You need to decide whether to continue the journey at high speed, creating more stress, or reduce speed for comfort, delaying the mission.",
+      "options": {
+        "A": "Increase speed to reach the sanctuary quicker.",
+        "B": "Reduce speed to alleviate pangolin stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Prioritizing speed, both teams push their airships. They reach the sanctuary ahead of schedule but at the expense of the pangolins' wellbeing during the journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The team prioritizing speed reaches the sanctuary first, but the pangolins have experienced stress en-route. Meanwhile, the slower team's pangolins arrive later but more stress-free.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team slows down to aid pangolin recovery while the other hastens to the sanctuary. Both pangolins and supplies make it, but the pangolins from the faster ship need further recovery time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to prioritize the comfort and well-being of the pangolins over the speed of the mission, proving their commitment for wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

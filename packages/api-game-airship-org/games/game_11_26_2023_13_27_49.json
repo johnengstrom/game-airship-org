@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Chronicles: Pangolin Resurgence",
+  "gameDescription": "In this game of strategy and empathy, two futuristic airships, the Air Healers and the Sky Rangers, undertake a crucial mission to transport rescued pangolins from African regions to their new sanctuary in Vietnam. How each airship handles the mission challenges will have a significant impact on the survival campaign for these vulnerable creatures.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Air Healers",
+      "description": "Specialists in animal transport and care, committed to reducing stress for the fragile cargo"
+    },
+    "redTeam": {
+      "name": "Sky Rangers",
+      "description": "Experts in navigating challenging environments, and minimizing energy use for sustainable operation"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships receive information about a pangolin poaching hot spot. With a potential to rescue more pangolins, they need to decide their approach.",
+      "options": {
+        "A": "Mount a risky nighttime rescue operation, ensuring the safety of more pangolins but potentially alarming poachers.",
+        "B": "Inform local authorities and provide surveillance assistance trying to apprehend the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams converge on the hot spot, successfully rescuing more pangolins and spoiling a poaching operation, but alerting other poachers in the region, making future rescues more dangerous.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Air Healers attempt a daring rescue, the Sky Rangers help local authorities corner the poachers. The balance of direct action and strategic partnership leads to a successful operation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As the Sky Rangers move in for a rescue, the Air Healers assist the authorities, resulting in a wider net against poaching, improving future rescue chances.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local authorities, leading to a successful anti-poaching operation and rescuing a feasible number of pangolins. Their strategies highlight the importance of collaboration in conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships encounter a massive sandstorm crossing the Sahara, threatening the pangolins already stressed due to the journey.",
+      "options": {
+        "A": "Navigate through the storm using advanced weather shielding, risking mechanical failure.",
+        "B": "Detour around the storm, increasing the journey time and stressing the pangolins further."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both the Air Healers and Sky Rangers decide to brave the storm using their advanced shielding. The successful traversal saves time, but the strain on the airships sets a precedent for future risky decisions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Air Healers maneuver through the storm while the Sky Rangers take a longer detour. The Healers' obtain minor system damages while the delayed arrival of Rangers heightens pangolins' stress levels.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Sky Rangers confront the storm, with the Air Healers opting for a safer course. This risky decision earns the Rangers valuable time but at the cost of the pangolins' tranquility.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Air Healers and Sky Rangers both choose to avoid the storm, adding to the transit time. Despite the stress increase for the pangolins, their safety remains the priority, emphasizing the teams' commitment to the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams face a crucial choice in releasing the new pangolins into their enclosure.",
+      "options": {
+        "A": "Use temporary decoys to distract the pangolins, easing their transition, but affecting their natural behavior.",
+        "B": "Follow a hands-off approach, causing initial disorientation but promoting natural adaptation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The teams both opt for decoys, causing initial excitement among the pangolins as they venture into their new digs and showcasing a dramatic unveiling of the new pangolin sanctuary to the watching world.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Air Healers lure the pangolins into the enclosure with decoys while Sky Rangers adopt a hands-off approach. The varied strategies provide a lesson in the complex nature of wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Sky Rangers use the decoys and Air Healers adopt a hands-off approach proving that different strategies toward the same end can coexist, highlighting the adaptive nature of conservation efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams adopt a hands-off approach, ensuring the pangolins face some initial difficulty but eventually adapt well. This respectful decision underscores the respect for their natural behaviors.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Aeronauts for Pangolins: Operation Rescue Sandscale",
+  "gameDescription": "In a world where humans encroach on wildlife, pangolins have fallen victim to rampant illegal trade, pushing them towards extinction. Two futuristic airship teams, born from a partnership between the global Greater Good Charities and the techno-pioneers of Wildlife At Risk, embark on an altruistic mission. Their goal is to rescue pangolins from poaching hotspots, transport them across territorial boundaries, and settle them in the newly established sanctuary in Vietnam. Every decision made by the hardy crews will impact not only the success of the mission, but also the crucial question of human-animal cohabitation on Earth. Featuring cutting-edge airship tech and gritty on-ground conservation challenges, players will need to navigate through tricky scenarios to ensure the safety and survival of the precious cargo.",
+  "setting": {
+    "location": "Over Africa and Asia",
+    "missionStart": "Illegal Poaching Hotspot in Africa",
+    "missionEnd": "Sanctuary Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Gale",
+      "description": "Specialists in quick and precise extraction scenarios, dealing with on-ground threats."
+    },
+    "redTeam": {
+      "name": "Sanctuary Cyclone",
+      "description": "Meticulous planners, focused on the wellbeing and comfort of their cargo during transit."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon reaching the poaching hotspot, the teams discover not only pangolins, but also illegally held ivory. They must decide on their next step.",
+      "options": {
+        "A": "Rescue pangolins as planned and notify authorities about the ivory.",
+        "B": "Attempt to confiscate the ivory along with rescuing the pangolins, endangering the success of the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams execute the pangolin extraction impeccably and alert the authorities regarding the ivory. This laudable decision allows law enforcement to act independently, minimizing risk to the pangolins and the airship crew.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team focuses on the pangolins, the other attempts to seize the ivory, getting embroiled with poachers. Their airship is damaged in the process, but the ivory seizure sends a powerful message.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team rescues the pangolins and alerts authorities about the ivory, while the other tangles with poachers for the ivory, damaging their airship but causing a significant dent in the illegal trade.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams try to handle the pangolins and the ivory, lengthening their stay at the risky site. Though the mission suffers minor setbacks, the ivory confiscation delivers a blow to the illegal wildlife trade.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "During the flight, the teams need to feed the pangolins, but there's a catch - traditional food for them might not be available.",
+      "options": {
+        "A": "Offer a substitute food which is easily available but less preferred by pangolins.",
+        "B": "Divert course to collect natural food, causing delay and consuming more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to offer substitute food to the pangolins. It's a risky decision but saved time and fuel. Thankfully, the pangolins accept the substitute, enabling the continuation of the mission on scheduled time.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team sticks to the readily available substitute, the other diverts to gather natural food. The delaying team wins the pangolins' trust, but at the expense of time and fuel.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team diverts for natural food while the other feeds the pangolins substitutes. The pangolins favor the team who brought their preferred food, boosting their morale for the journey ahead.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to divert for natural food. The pangolins are pleased, but the detour consumes more fuel and time, pressuring the teams to observe stricter energy management for the remainder of their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the teams approach Vietnam, they encounter unpredictable monsoon winds. The turbulence may potentially endanger the pangolins in their weakened state.",
+      "options": {
+        "A": "Brace through the storm using advanced stabilization systems, potentially causing stress to the pangolins.",
+        "B": "Detour around the storm, consuming more fuel but assuring the safety of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brace through the storm. The advanced systems handle it well, but the pangolins are stressed. Their timely arrival, however, ensures immediate medical attention for the traumatized fauna.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the storm while the other detours. The detouring team arrives later but with calmer pangolins, potentially affecting the rest of their recovery in the sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team flies through the storm, stressing their pangolins, while the other detours, consuming extra fuel but ensuring the health and comfort of their valuable passengers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the longer path, ensuring the well-being of the pangolins but reaching the sanctuary at the expense of additional fuel. This decision reflects their unwavering commitment to wildlife safety.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

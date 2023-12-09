@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Pristine Adventure",
+  "gameDescription": "As the captains of two futuristic airships, players are plunged into the delicate landscape of the Antarctic wilderness, one of earth’s last great wildernesses, to facilitate sustainable tourism and research while minimizing environmental damage. Explore, engage, and learn the necessary balance between demand and the urgent need for protection.",
+  "setting": {
+    "location": "Antarctic Wilderness",
+    "missionStart": "Tierra del Fuego, Argentina",
+    "missionEnd": "Antarctic Research Station"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Guardians",
+      "description": "Focused on conservation, they excel in managing tourist impact and facilitating research."
+    },
+    "redTeam": {
+      "name": "Ice Voyagers",
+      "description": "Adventure enthusiasts skilled in ensuring a memorable yet sustainable Antarctic experience."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships have to decide on a landing site for the tourists. The area chosen will greatly impact the local ecosystem and tourism prospects.",
+      "options": {
+        "A": "Choose a popular, already impacted area to minimize further disturbance.",
+        "B": "Land in a pristine, untouched location, attracting higher attention but risking possible harm."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the already impacted site, protecting untouched areas but facing overcrowding and higher degradation risk of the chosen site.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ice Voyagers chose the pristine site, attracting more tourists but stirring the untouched nature. Polar Guardians opted for the less harmful approach, gaining the favor of conservationists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polar Guardians decided to invite a touch of adventure, while Ice Voyagers chose the more sustainable option. Both decisions led to interesting discoveries and challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for the pristine site, captivating tourists but also alarming environmentalists who urged for additional safeguards and responsible exploration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An Antarctic ice shelf is about to collapse due to climate change. Decisions have to be made on tourist management.",
+      "options": {
+        "A": "Allow more tourists to witness this poignant symbol of climate change with potential higher impact.",
+        "B": "Limit the number of tourists for conservation, focusing on educational tours."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allowed more tourists, leading to higher environmental impact. Yet, the visitors leave with a deeply ingrained awareness of climate change.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ice Voyagers decided to limit visitors and focus on education, earning praise from environmentalists. Polar Guardians, however, thought it vital to allow more people to witness the effects of climate change firsthand.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polar Guardians limited the number of tourists, focusing on high-quality educational experiences. The Ice Voyagers allowed more tourists, arousing concerns about the impact on the ice shelf.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to limit tourists, focusing on education over numbers. The decision proved rewarding as it minimized damage and brought about significant awareness.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Faced with ongoing environmental issues, teams must implement a conservation initiative.",
+      "options": {
+        "A": "Engage tourists in hands-on conservation efforts, stressing the value of individual contributions.",
+        "B": "Implement strict regulations and area closures, prioritizing the ecosystem's health over visitor experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opted for hands-on conservation, fostering conscious tourism. The tourists were delighted to contribute, though the effort's long-term effectiveness remained uncertain.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Ice Voyagers decided to prioritize the ecosystem by implementing strict regulations, while Polar Guardians engaged tourists actively. The dynamic tension between both approaches sparked meaningful conversations about sustainable conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Polar Guardians put the ecosystem first while Ice Voyagers tried to involve tourists more actively. The diversity of approaches led to a rich learning experience for the tourists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams implemented strict regulations and area closures, eliciting some complaints. Overall, the decision protected Antarctica and painted a stark picture of the consequences of climate change.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

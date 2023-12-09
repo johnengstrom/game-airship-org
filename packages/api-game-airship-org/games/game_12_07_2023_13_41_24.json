@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Guardians: A Mission for Survival",
+  "gameDescription": "In a time when wildlife like the shy and reclusive pangolins face relentless threats from illegal wildlife trade, two futuristic airships, backed by the unwavering support of donors, are tasked with transporting vital equipment, donated resources and medical supplies to a newly built pangolin sanctuary in Vietnam. Flying over different terrains, the airship crews must make strategic decisions that will impact the success of their mission, the well-being of the endangered pangolins and the environmental implications of their choices. ",
+  "setting": {
+    "location": "Above various terrains, from cityscapes to dense forests",
+    "missionStart": "Greater Good Charities Headquarters",
+    "missionEnd": "The New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pangolin Protectors",
+      "description": "Skilled in wildlife aid and navigation."
+    },
+    "redTeam": {
+      "name": "Endangered Guardians",
+      "description": "Experts in supply delivery and energy conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are loaded with vital supplies for the pangolin sanctuary. They face a challenging decision while crossing a bustling city.",
+      "options": {
+        "A": "Fly at an altitude that would minimize noise disruption, but consume more hydrogen due to dense air.",
+        "B": "Fly at a lower altitude, conserving hydrogen but causing noise that could disrupt city life."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams flew high, causing minimal disruption. However, it led to increased hydrogen consumption, potentially impacting the mission's remaining phases.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chose the higher flight path while the other flew low. The low-flying team made substantial hydrogen savings, though its decision sparked a debate on urban noise pollution.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team flew low to save on hydrogen, while the other flew high. The high-flying team drew praise for their environmental mindfulness despite their higher fuel consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams flew at a lower altitude to conserve hydrogen, causing city noise. However, their decision to prioritize the mission's energy efficiency was applauded by many.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships encounter a dense storm cloud formation looming ahead on their route.",
+      "options": {
+        "A": "Brave through the storm using advanced navigation systems, expending more hydrogen for stability control.",
+        "B": "Change course to circumvent the storm, which would increase travel time but minimize risk."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to brave through the storm using their advanced systems. They managed to maintain their course, but the storm took a toll on their hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship made the choice to battle through the storm, while the other elected to take a detour. The detouring airship made significant time losses, though ensured the safety of the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team took the storm head-on, while the other rerouted to avoid risks. The storm-braving team showed courage but spent more hydrogen, putting their efficiency at stake.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to take a detour around the storm, ensuring the safety of their mission but prolonging their travel time. Their mutual decision to value safety was recognised globally.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the sanctuary, a complicated delivery scenario awaits. It requires careful unloading of resources and pangolins into their new habitats.",
+      "options": {
+        "A": "Use advanced but energy-intensive robotics for precise unloading.",
+        "B": "Employ sanctuary staff for manual unloading, consumes more time but saves energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to use robotic aids for unloading, consuming much of their left over hydrogen efficiently. Their decision was applauded for its concern towards the well-being of the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team decided to employ futuristic robotics for precise unloading while the other opted for manual unloading. While the manually unloading brigade was slow, their decision saved precious hydrogen.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team used robotics to unload supplies, while the other team opted for manpower. While the team using robotics was quicker, they exhausted almost all their remaining hydrogen.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams employed the sanctuary staff for manual unloading, ensuring the safety of the pangolins and efficient energy usage, marking a successful conclusion of their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

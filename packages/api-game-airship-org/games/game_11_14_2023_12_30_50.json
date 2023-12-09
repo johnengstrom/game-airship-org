@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Airship Adventure",
+  "gameDescription": "In this airship game, players are tasked with a critical mission to combat wildlife trafficking in Africa and Asia. The Aeolus Wings and Poseidon Carriers fly to recovery missions where they rescue pangolins, the world's most heavily trafficked wild mammal, facing the challenges of inclement weather, poachers, and logistics. Their interventions don't simply bring the ailing pangolins to safety, but also to a newly built sanctuary in Vietnam that acts as a hope beacon for their survival, growth, and eventual reintroduction into the wild.",
+  "setting": {
+    "location": "Between Africa and Asia",
+    "missionStart": "Illegal Wildlife Trading Hotspots",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Renowned for their agile navigation skills and rapid response."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Known for their cargo handling expertise and endurance in difficult conditions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The intel reveals illegal pangolin trafficking activity, but the locations are far apart. Should the teams split resources or focus on one location?",
+      "options": {
+        "A": "Split the teams to rescue pangolins from multiple locations.",
+        "B": "Concentrate forces to rescue all pangolins from one location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams spread their forces thin, rescuing pangolins from several areas. While they save numerous lives, the task is daunting, and some pangolins are left behind.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aeolus Wings split their force, while Poseidon Carriers focus on one area. The concentrated effort of Poseidon Carriers yields better results, and they rescue more pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers spread out, while Aeolus Wings concentrate their forces. The focused approach of Aeolus Wings leads to a successful mission, rescuing more pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams concentrate on one area, leading to a successful rescue of all pangolins in that vicinity. The concentrated effort proves successful, but leaves other areas unaddressed.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive two distress signals – one from a group of pangolins close by, while the other signal comes from a single pangolin who is closer to severe danger. Which one do they prioritize?",
+      "options": {
+        "A": "Rescue the group of pangolins close by.",
+        "B": "Attempt to save the single pangolin in immediate danger."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams elect to rescue the larger group. They manage to save several pangolins, but unfortunately, the lone pangolin in imminent danger doesn't make it.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aeolus Wings rush to the group, while Poseidon Carriers leap to the aid of the single pangolin. Both missions are successful, but resources are stretched.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers choose the group, while Aeolus Wings rush to rescue the lone pangolin. Both missions succeed, showcasing their effective strategizing.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to save the solitary pangolin in immediate danger, which they manage to do just in time. The larger group, though further away from danger, watches and waits anxiously.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they arrive in Vietnam, a typhoon is approaching, which can risk the delicate operation of relocating the pangolins to the new enclosure. Should they wait out the typhoon or proceed with caution?",
+      "options": {
+        "A": "Wait for the typhoon to pass before proceeding with the relocation.",
+        "B": "Start the relocation process immediately, since the pangolins are already stressed."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Though it's a tough decision, both teams choose to wait out the typhoon. Their caution pays off as they can relocate the pangolins without any risk involved.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Aeolus Wings wait, while Poseidon Carriers start immediately. The Carriers manage to move some pangolins, but adverse weather slows them down. Waiting proves to be the wisest decision.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers decide to wait, while Aeolus Wings start the process. Though Wings make some progress, the unpredictability of weather makes waiting a safer choice.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Despite the risks, both teams decide to start immediately. With their collective effort, they succeed in moving all pangolins before the typhoon hits, proving that swift action can be effective.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

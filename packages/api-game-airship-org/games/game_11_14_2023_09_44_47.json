@@ -1,0 +1,105 @@
+{
+  "gameTitle": "Antarctic Challenge: Dilemma on Ice",
+  "gameDescription": "As captains of advanced airships, players navigate the untouched landscape of Antarctica, balancing the rise in tourism and scientific exploration with the pressing need to conserve the unique Antarctic ecosystem. Each decision impacts the delicate biodiversity and influences the success of sustainable tourism.",
+  "setting": {
+    "location": "Above the Antarctic wilderness",
+    "missionStart": "Research base in Antarctica",
+    "missionEnd": "Tourist sites in Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacial Guardians",
+      "description": "Experts in eco-tourism and sustainable travel."
+    },
+    "redTeam": {
+      "name": "Ice Pioneers",
+      "description": "Specializing in safe navigation and minimizing environmental impact."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships need to decide on a suitable landing site for the tourists. They face the challenge of preserving Antarctica's pristine environment from further disturbance.",
+      "options": {
+        "A": "Select a frequently visited site already impacted by tourism, minimizing further damage.",
+        "B": "Choose an untouched location, with potentially higher impact but providing a unique experience for tourists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the impacted site, expanding the tourist footprint but leaving the untouched areas undisturbed. This decision limits touristic diversity but prioritizes conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team chooses the critical path of minimizing further environmental impact, the other braves the risk of disturbing a pristine area. Their contrasting strategies lead to diverse outcomes.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams' decisions differ, with one looking at conservation and the other risking new explorations. It’s a complex balance between preserving and experiencing untouched natural beauty.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Courageously, both teams choose untouched locations, opening new possibilities for tourists but risking Antarctic conservation. It's a high-stakes gamble on Antarctica's future.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing the flow of tourists is complicated. Each airship must decide how many tourists can visit without causing significant environmental impact.",
+      "options": {
+        "A": "Allow a larger number of tourists to generate higher revenue at the potential cost of environmental disturbance.",
+        "B": "Limit tourist numbers to minimize disturbance, risking lesser revenue and limited discovery for tourists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide for economic growth over minimal disturbance. The decision brings prosperity but risks damage to the Antarctic ecosystem, fuelling debates about sustainable tourism.",
+          "bonusCard": "redTeam"
+        },
+        "AB": {
+          "narrative": "One team prioritizes economic growth, while the other opts for conservation. The gamble leads to varying results, with one team facing scrutiny for potential damage, and the other facing the challenge of providing a worthwhile experience with limited tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams choose contrasting strategies, with one risking potential environmental damage, and the other choosing a conservative, sustainable approach. Their decisions result in different repercussions, both economically and environmentally.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to limit the flow of tourists, preserving the Antarctic beauty but facing a hit on their revenue. The decision is a testament to sustainability over economic gains.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams now face the decision on how to actively involve tourists in conservation efforts.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, combining exploration with education.",
+        "B": "Implement strict area closures and regulations, potentially reducing the tourist experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation, combining environmental protection with tourism. The decision underlines the importance of active conservation and individual responsibility.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team allows tourists to engage in conservation, while the other enforces strict area closures. The outcomes of their strategies contrast markedly, providing lessons to the other for future decisions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams adopt different strategies, one involving tourists in environmental protection, and the other enforcing strict regulations. The difference in strategies lead to contrasting reflections on tourist experience versus site preservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to enforce strict regulations and area closures, prioritizing environmental preservation. They are faced with concerns about the limiting tourist experience but remain firm on their mission of safeguarding the Antarctic.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}ress, showcasing the teams' adept handling of situations and their passion for animal welfare.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

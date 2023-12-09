@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Conservation and Exploration",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As the captains of futuristic airships, players must navigate this delicate landscape, balancing the demand for exploration with the urgent need to protect Antarctica's unique ecosystem. To be successful, players need to make strategic decisions that strike a balance between facilitating scientific research, sustainable exploration and minimizing the environmental impact of tourism in Antarctica.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "McMurdo Station",
+    "missionEnd": "Various Tourist Destinations"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Penguin Guardians",
+      "description": "Specialize in eco-friendly practices and maximizing tourist engagement."
+    },
+    "redTeam": {
+      "name": "Ice Navigators",
+      "description": "Experts in navigation, ensuring minimum disturbance to the fragile ecosystem."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "You must choose a landing site for your airship and the tourists that it carries. Do you choose a site that is already popular and impacted by previous visitors, or do you venture out to a pristine, untouched location offering a unique experience?",
+      "options": {
+        "A": "Land at a popular, already impacted area.",
+        "B": "Land at a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to stick to the already impacted areas, minimizing any further harm to untouched ecosystems. However, the tourists may feel their experience isn't unique.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for the safe choice of an impacted area, while the other risks hurting an untouched location. But the adventure-loving tourists seem more satisfied on the less-travelled route.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team opting for a novel but risky site and the other sticking to worn paths, world views on sustainable tourism conflict. The reputation for both the teams sees a shift.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose an untouched location. The tourists are thrilled, but the untouched ecosystem may not be. The teams will need to ensure their activities are sustainable here.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Next you need to decide on the tourist capacity. Do you cater to a higher number of tourists and generate more revenue at the risk of a greater environmental impact, or do you limit the tourist numbers for better conservation, at the risk of less revenue?",
+      "options": {
+        "A": "Accommodate a higher number of tourists.",
+        "B": "Limit the tourist numbers for better conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to accommodate more tourists. The revenue increases, but the Antarctic environment feels the strain despite best attempts at moderation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to bring more tourists while the other limits their count. The latter team receives praise for their commitment to conservation, though fewer tourists may be disappointed.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team that brings more tourists faces criticism despite the money it brings in. In contrast, the other team's decision to limit tourists gains international appreciation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to limit their tourist numbers. Revenue dips, but the Antarctic environment thanks them and their commitment to conservation isn't unnoticed back home.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "It's time to implement a conservation initiative. Would you involve the tourists in active conservation efforts, making them part of the solution, or would you prefer strict regulations and area closures, limiting their access for the sake of protection?",
+      "options": {
+        "A": "Engage tourists in active conservation efforts.",
+        "B": "Enforce strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve the tourists in conservation efforts. The tourists feel a greater personal connection to Antarctica, keeping them mindful of their actions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team implementing strict rules and the other engaging tourists in conservation, it's a mix of hard rules and soft measures. While rules might deter some tourists, others form a deep, lasting bond with the icy land.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team enforcing strict regulations gets a mixed bag of reactions. While some laud the firm actions, others feel overly restricted. The team engaging the tourist sees a surge in popularity as they've made the tourists part of the solution.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose strict measures and regulations. It's a tough pill for tourists to swallow, but the teams are steadfast in their mission to protect Antarctica.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airborne Guardians: The Pangolin Rescue",
+  "gameDescription": "Two intelligent airships, piloted by the fearless teams of Greater Good Charities and Wildlife At Risk, are on an urgent mission to rescue pangolins from African poachers and transport them to a newly constructed sanctuary in Vietnam. Their matchless stealth technology and strategic decision-making skills will be tested to the limit in this daring operation. With each decision profoundly affecting the pangolins' survival and environmental impact, the stakes couldn't be higher. Can they navigate through the challenges and turn the tide for our pangolin friends?",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Poaching Grounds",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Gossamer Wings",
+      "description": "Operated by Greater Good Charities, experts in stealth tactics and compassionate decision-making."
+    },
+    "redTeam": {
+      "name": "Phoenix Fleet",
+      "description": "Operated by Wildlife At Risk, specialists in strategic operations and quick on-the-spot responses in complex situations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are in Africa, ready to transport pangolins. They face a contentious situation with local poachers.",
+      "options": {
+        "A": "Engage in a direct confrontation with the poachers to rescue more pangolins.",
+        "B": "Use stealth technology to silently rescue pangolins without alerting the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely confront the poachers. They rescue more pangolins, though the operation alerts other poaching groups in the vicinity. It's a daring choice with repercussions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gossamer Wings confronts the poachers, drawing their attention, while Phoenix Fleet uses stealth to rescue pangolins. It's an effective strategy but leaves Gossamer Wings in a precarious position.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Fleet confronts the poachers, diverting their attention, while Gossamer Wings rescues pangolins without being noticed. It's a clever tactic but leaves some pangolins with the vulnerable Phoenix Fleet.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both airships use stealth technology, quietly rescuing many pangolins without alerting the poachers. However, this cautious approach doesn't help rescue pangolins in remote poaching camps.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "An urgent message comes in - there's a poacher camp on the planned route with heavy artillery. The teams need to make a quick decision.",
+      "options": {
+        "A": "Alter the route, which will take longer and use more hydrogen but ensure safety.",
+        "B": "Stick to the original route and use electronic decoys to distract the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "By altering their routes, both airships avoid the dangerous camp but use more hydrogen. The pangolins remain safe, although the mission's efficiency is compromised.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gossamer Wings sticks to the risky original route while Phoenix Fleet alters its path. The decoys attract the poacher's attention, leaving Gossamer Wings to pass by unnoticed. However, their success hangs by a thread.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Fleet takes the risky path while Gossamer Wings alters their trajectory. Phoenix Fleet's decoys are successful but pose a risk. Meanwhile, Gossamer Wings reaches safety with their pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to use the decoy strategy. It's a risky move that pays off as they swiftly avoid the threat, saving valuable time and hydrogen. The pangolins onboard get a chance at a peaceful future.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, both airships encounter heavy storm clouds which threaten to delay their arrival at the sanctuary.",
+      "options": {
+        "A": "Navigate through the storm using advanced guidance systems.",
+        "B": "Detour around the storm, which will consume more fuel but ensure the pangolins' comfort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to brave the storm. Their advanced guidance systems prove efficient enough to navigate through it, ensuring a timely arrival but at the expense of the pangolins' comfort.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gossamer Wings braves the storm while Phoenix Fleet detours for the pangolins' comfort. The storm-fearing team arrives behind schedule, but the pangolins experience less stress.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Fleet pushes through the storm, while Gossamer Wings detours to ensure the pangolins' comfort. Phoenix Fleet's pangolins may suffer from stress, while Gossamer Wings faces a delay but keeps their cargo calm.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to detour around the storm, placing the pangolins' comfort above time schedules. Even though they consume more fuel, their pangolins arrive at the sanctuary stress-free, marking a successful end to the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

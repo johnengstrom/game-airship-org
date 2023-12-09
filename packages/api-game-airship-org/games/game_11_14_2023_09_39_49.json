@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: Airship Game",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships in a near future where the survival of bees and the global ecosystem is at stake. This game combines strategic decision-making with environmental conservation, focusing on the crucial role bees play in our world. Involving players in missions from post-disaster recovery of bee habitats to increasing national awareness on bee conservation, Operation Pollination underscores the most pressing issues of our time.",
+  "setting": {
+    "location": "Post-Natural Disaster Areas Worldwide",
+    "missionStart": "Airship Headquarters",
+    "missionEnd": "Bee-Friendly Habitats Globally"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "With a knack for effective strategizing and spatial management, they operate with the conviction that every bee counts."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Concentrating on long-term conservation plans, they operate with a deep-seated belief in the power of collective impact."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: The team must make tactical decisions in wake of a devastating hurricane that has obliterated native bee habitats. Additionally, they must conduct a survey to identify and protect endangered bee species in the area.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to restore the natural habitats of the bees. The successful plantation of native flowers brings a point of joy in the post-disaster landscape, and the bees quickly thrive.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opted to restore the natural habitat while the other established safe zones. The bees flourish in the newly established colonies, but the lack of native flowers in the hurricane-impacted areas show its toll over time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team deploying safe zones helps bees find their footing post-disaster quickly. But they can't help but worry about the lasting impact of the devastated flora on the bees' future.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing safety above all, both teams' decision to establish safe zones allows for maximum immediate bee survival. However, restoring the bees' natural habitat is a pressing concern for the future.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: Bees are being displaced due to ravaging wildfires, and the teams have to make vigilant decisions. Collaborations may be needed with local communities for sustainable land management.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to support displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Investing their efforts in restoring what was lost, both teams managed to make the burned lands bloom again. This strategy took time and patience and led to a slow, but successful recovery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team worked to restore the fire-ravaged area, the other focused on creating artificial habitats. The synergy resulted in a gradual ecosystem recovery with better-prepared emergency shelters.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The balance between immediate action and long-term efforts was struck efficiently as the teams deployed different strategies, both providing necessary reliefs and attracting positive media attention.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to establish artificial habitats in safe zones, providing immediate relief to the displaced bee population. However, the urgency to restore natural settlements remains.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: Keeping future scalability in view, the teams explore measures for a larger impact on bee conservation. Laws may need to be introduced to protect bees and their habitats on a national level.",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to promote bee conservation and awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to invest in the technology-driven approach of creating optimal bee sanctuaries. Their partnered efforts widened the scale of their impact and influenced tech solutions in other conservation efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team created modern bee sanctuaries, the other launched an educational campaign. This effective approach enabled not only direct conservation efforts but also fostered wider public awareness.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The juxtaposition of technological and educational efforts had an unanticipated benefit- a boost in public-funded research into conservation technologies, creating a win-win situation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opted for wide-scale educational campaigns. As a result, public awareness about the importance of bees for our ecosystem skyrocketed, encouraging multiple sectors to join in protecting the bees.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

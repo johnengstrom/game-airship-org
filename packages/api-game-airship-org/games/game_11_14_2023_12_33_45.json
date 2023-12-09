@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Wilderness vs Tourism",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge: the surge in tourism. As the captains of futuristic airships, similar to those in Arthur C Clarke's novel 'The Songs of Distant Earth', players yield the responsibility of this delicately balanced environment. They must strategically navigate the intricacies of facilitating scientific research, sustainable exploration, and the growing demand for tourism, all the while aimed at preserving the unique, untouched ecosystem.",
+  "setting": {
+    "location": "Above the Antarctic wilderness",
+    "missionStart": "Global Climate Commission Headquarters",
+    "missionEnd": "Antarctic Base"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Penguin Protectors",
+      "description": "Committed to sustainable practices and wildlife conservation."
+    },
+    "redTeam": {
+      "name": "Ice Guardians",
+      "description": "Specialists in eco-tourism and climate science dissemination."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "You've been given the chance to select a landing site for your group of eager tourists. Option A is an area already impacted by tourism, offering popular attractions but adding to an existing problem. Option B is a pristine, untouched location where human presence could interrupt the ecological balance.",
+      "options": {
+        "A": "Select the already impacted site to continue the pattern of controlled disturbances.",
+        "B": "Select the untouched location to spread impact and introduce visitors to a fresh sight from Antarctica's heart."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams select the impacted site. The load on the area intensifies, contributing to an accumulating impact crisis, but the damage is localized. The consolidated effort of both teams can have a significant effect at fostering conservation advertence disseminated by the science community.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Ice Guardians choose the impacted site, while the Penguin Protectors opt for the untouched area. As the visitors diffuse into two sites, a larger but more dispersed impact occurs. The diverse strategies of the two teams lead to broader insights into maintaining a balance.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The Penguin Protectors stick to the impacted site while the Ice Guardians head for an untouched location. The region feels the impact in a broader sense, leading to a critical need for immediate conservation measures.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into pristine areas. This decision opens up new exploration but also invites looming risk. It's a groundbreaking start, but teams must navigate this path with extra caution for the wilderness.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The regulations of tourist reform let the teams decide on the capacity of guests. Option A opens doors for a higher number of tourists, with more potential revenue but higher impact. Option B limits tourist numbers, prioritizing conservation and offering a more personal experience but less revenue.",
+      "options": {
+        "A": "Allow a higher number of tourists to facilitate more exploration and education.",
+        "B": "Limit the tourist capacity to reduce environmental impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships overflow with curious tourists. While more people get to experience and learn about Antarctica, the pressure on the fragile ecosystem multiplies. A careful watch is required to manage the impact left by high influx.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Penguin Protectors house a larger crowd, while the Ice Guardians keep their numbers in check. The contrast between bustling and peaceful operations is clear, and the balance is kept.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Ice Guardians welcome more visitors, and the Penguin Protectors adhere to stricter limits. The effect on the environment swings heavily, but it also reiterates the need for careful and strategic exploration.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit the number of tourists, placing environment over profits. The intimate groups that they cater to get an enriching experience, and fewer footprints are left in the snow.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Recognizing the need for conservation, the teams get the opportunity to enforce a new initiative. Option A is a participatory model, engaging tourists in conservation. Option B imposes stricter rules and area closures for enhanced preservation.",
+      "options": {
+        "A": "Implement a participatory model, turning tourists into temporary stewards of the environment.",
+        "B": "Impose stricter rules and limitations on exploration in sensitive zones."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bring their guests into the core of conservation initiatives. People connect with the cause and leave as ambassadors of Antarctica. The wilderness faces a gentler impact, albeit with a need for significant education efforts.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "The Penguin Protectors solicit their guests' participation while Ice Guardians enact stricter regulations. The tourists come face-to-face with the complexity of balancing exploration and conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Ice Guardians choose to involve their tourists while the Penguin Protectors tighten rules. This mix of enforcement and engagement strategies sparks significant discussion on the various means to conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce stricter rules and shut off sensitive areas. As the teams prioritize Antarctica's health over tourist satisfaction, the question arises of how much we should sacrifice for conservation.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Ark: The Pangolin Rescue Mission",
+  "gameDescription": "Two high-tech airships, with the combined effort of the Greater Good Charities and Wildlife At Risk, strive to transport endangered pangolins from poaching-prone regions in Africa to a newly established enclosure in Vietnam. The teams face diverse challenges, each decision affecting pangolin survival, mission success, and environmental impact.",
+  "setting": {
+    "location": "Transcontinental voyage from Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Biodome Avengers",
+      "description": "Experts in airborne animal rescue and transport."
+    },
+    "redTeam": {
+      "name": "Skyward Saviors",
+      "description": "Distinguished for advanced ecological navigation and sustainable practices."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A group of pangolins is located much further away from the planned collection point. Both airships need to decide whether to stick to the current route or adjust.",
+      "options": {
+        "A": "Adjust course and go for the remote group, at the risk of increased fuel consumption and delays.",
+        "B": "Stick to the original route and hope to find a closer group of pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to make the longer trip. The pangolins are rescued, but the additional fuel consumption and potential delays might affect the rest of the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team extends their route while red team holds their course. Both find pangolins but blue team's extended route potentially affects future decisions due to increased fuel consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team ventures off while blue team sticks to their route. Both teams successfully locate pangolins, yet red team's fuel consumption could pose problems later.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams hold their course and manage to locate more accessible pangolin groups, saving fuel and time. However, those pangolins further away continue to face threats.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon arrival in Vietnam, the teams are met with the adverse weather which could potentially pose flight hazards. They have to make decisions on the approach.",
+      "options": {
+        "A": "Brave the unfavorable conditions with the hope of settling the pangolins quickly.",
+        "B": "Wait out the weather at a safe distance, prolonging the travel time but avoiding risks."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to push through the weather which proves successful but straining on the airships, potentially affecting their condition for future missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue team risks the adverse climate while red team opts to wait. Blue team's pangolins are settled sooner, but their airship's condition could suffer long-term effects.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team braves the weather while blue team holds back. Despite the successful quick relocation, red team's airship may need more maintenance after the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait out the hazardous weather, ensuring their airship's integrity and crew’s safety. However, this delays the pangolins' resettlement.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the enclosure, they face a choice of how to release the pangolins.",
+      "options": {
+        "A": "Instant release: Free the pangolins immediately into the sanctuary.",
+        "B": "Gradual release: The pangolins are slowly acclimatized to the new environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for instant release. The pangolins adapt quickly, although they show higher stress levels initially. This immediate offload saves energy but the long-term effects on the rescued pangolins remain to be seen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue team chooses instant release while red team opts for gradual acclimatization. Red team's approach is slower but shows lower stress levels in the pangolins, potentially favorable for their long-term survival.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Red team goes for instant release, while blue team acclimatizes their pangolins gradually. Blue team's strategy although slower, lowers stress levels among the pangolins, possibly increasing their survival rates.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose gradual acclimatization. This slower approach consumes more resources but ensures the pangolins are less stressed, enhancing their chances of survival in the new environment.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

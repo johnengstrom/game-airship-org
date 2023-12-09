@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Plight of the Pangolin",
+  "gameDescription": "The red and blue teams, piloting the advanced airships 'Sky Guardian' and 'Air Savior' respectively, are on a mission to transport critical materials and experts needed to construct a new pangolin enclosure in Vietnam. Along the journey, they face logistical and ethical challenges. Their decisions will not only affect the success of their mission but also have environmental implications.",
+  "setting": {
+    "location": "From South Africa to Vietnam",
+    "missionStart": "Pangolin Wildlife Reservation, South Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Guardian",
+      "description": "Specializing in swift and efficient transport operations."
+    },
+    "redTeam": {
+      "name": "Air Savior",
+      "description": "Renowned for strategic planning and precise coordination."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are loaded with precious cargo of conservation materials and experts. However, both airships encounter an unpredicted storm front which threatens their cargo's safety. They must decide how to approach the storm.",
+      "options": {
+        "A": "Push ahead with additional power usage, putting a strain on the limited hydrogen resources.",
+        "B": "Divert course significantly to avoid the storm, resulting in extended flight time and tricky coordination with ground teams."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to confront the storm, draining their hydrogen resources significantly. However, their unwavering determination to push through adverse conditions ensures the cargo's safety and on-time delivery.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Sky Guardian braves the storm, Air Savior diverts course leading to a safer but longer journey. Their choices demonstrate a balanced approach towards risk and caution in pangolin conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Air Savior challenges the storm while Sky Guardian chooses a safer detour. Both teams put their skills to the test with their different approaches, resulting in a successful yet resource-intensive operation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for course diversion to evade the storm. Although this results in a longer travel time, the operation prioritizes safety and successful delivery of the cargo over speed and efficiency.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, they receive an alert that poachers have been spotted near a pangolin habitat. This dilemma pushes the teams to choose between staying with their mission or reacting to this imminent threat.",
+      "options": {
+        "A": "Divert from the mission to intercept the poachers, delaying the construction of the enclosure.",
+        "B": "Stay on mission, but relay the information to local authorities and provide aerial surveillance support."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships drop their current mission to intercept the poachers. Their daring act ensures the safety of the pangolins on the ground, but the mission is delayed and additional hydrogen resources are spent.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Sky Guardian leads an in-air rescue, Air Savior stays focused on the primary mission. Their combined efforts ensure safety for the pangolins, although it puts a strain on both time and resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Air Savior chooses to confront the poachers while Sky Guardian remains steadily on their mission. The combined strategies result in pangolin protection and eventual mission success, albeit with some delay and resource utilization.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local authorities while keeping their mission in sight. Their choices afford them a valuable lesson in the power of collaboration for wildlife preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing their destination, they identify an option to showcase the work of the Greater Good Charities to a larger audience by installing an advanced camera system on their airships for a live broadcast. However, this installation would add extra weight and delay their arrival.",
+      "options": {
+        "A": "Install the cameras, thus using more resources but effectively promoting the cause.",
+        "B": "Maintain current loadout for an efficient delivery without additional broadcasting."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to install cameras. The additional broadcast significantly furthers the public's awareness and support for pangolin conservation, even though it taxes their already strained hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Guardian installs the camera system while Air Savior remains focused on swift delivery. The balance between outreach and mission efficiency proves a successful strategy for both teams.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As Air Savior installs cameras, Sky Guardian concentrates on the mission. The resulting live broadcast and timely mission completion highlight the critical role of strategic decision-making in conservation efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize mission execution over broadcast opportunity, which ensures a timely delivery of the cargo and skilled personnel necessary for the pangolin enclosure creation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

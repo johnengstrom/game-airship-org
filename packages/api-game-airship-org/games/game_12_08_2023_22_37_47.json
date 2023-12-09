@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Icebound Voyage",
+  "gameDescription": "Captivating, pristine, and coldly unforgiving, Antarctica becomes the next frontier for the surge in global tourism and our brave airship crews - Red Team and Blue Team - are at the forefront of this unique challenge. As captains of technologically advanced airships, players must navigate the icebound desolation, delivering tourists to the snowy wilderness while carrying the weighty responsibility of protecting its unique, delicate ecosystem from human impact.",
+  "setting": {
+    "location": "Above the Southern Ocean towards Antarctica",
+    "missionStart": "Hobart, Tasmania",
+    "missionEnd": "Various Locations in Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Arctic Voyagers",
+      "description": "Prolific in negotiations and strategic in exploration."
+    },
+    "redTeam": {
+      "name": "Polar Protectors",
+      "description": "Experts in conservation and handling large visitor numbers."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Airships must choose a landing site for their tourists amidst growing concerns over the impact of tourism on the fragile ecosystem.",
+      "options": {
+        "A": "Opt for a popular, more impacted area hoping to limit further expansion of human influence in Antarctica.",
+        "B": "Choose a pristine, untouched location aiming to spread the human impact more broadly and protect vulnerable, already-populated places."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus their efforts on already impacted areas, reducing the wider environmental footprint. But critically, this concentration increases pressure on local wildlife species and quickens the pace of erosion.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The results mixed as one team concentrated in impacted areas while the other opted for untouched territories, creating an inevitable imbalance and new challenges while spreading out the potential disturbance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one team made a decision for already impacted lands and the other for untouched landscapes, their choices led to a wider spread of human activity, thus amplifying the overall environmental impact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Hinging on shared mentality, both teams marked their landing in untouched locations. While their decision had initially minimized direct impact on already-stressed areas, the virgin lands suffered the brunt of the intrusion.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As tourism demand grows, both teams must make decisions regarding managing the number of tourists they accept on board.",
+      "options": {
+        "A": "Increase capacity to accommodate more tourists thus increasing overall revenues but also potentially amplifying the environmental impact.",
+        "B": "Set a limit on the number of tourists to maintain low ecological impact, though with a consequential hit to potential income."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships are packed to the brim with eager tourists, maximizing possible earnings but putting severe strain on the delicate Antarctic environment due to intense footfall.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one vessel carried an abundance of tourists, the other opted for conservation over profit which maintained balance to some degree. Nevertheless, the overall impact extended due to the larger number of guests.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Despite one airship teeming with tourists, the other vessel's conservative approach co-facilitated some balance. Alas, the increased rush of visitors in one journey left its mark on the environment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Exhibiting a keen focus on preservation, both teams capped their tourist numbers significantly to lessen any additional impact on the fragile ecosystem, sacrificing potential revenues for the environment.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams are tasked to implement a new conservation initiative in the view of enhancing sustainable tourism in the area.",
+      "options": {
+        "A": "Engage tourists actively in the ongoing conservation efforts to promote personal responsibility and connection to the environment.",
+        "B": "Enforce strict regulations and closures to protect certain areas, opting for complete conservation over tourist involvement."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships actively involved tourists in conservation efforts. Although some tourists unintentionally caused harm out of ignorance, most developed a deeper understanding and respect for the environment.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team championing active participation and the other emphasizing strict controls, tourists got a balanced exposure to both personal connection with the environment and the necessity of regulations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The differing strategies of active engagement and strict restrictions mixed for the tourists, displaying a magnificent ordeal of shared responsibility and the essentiality of regulations in conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams adopted stringent regulations and area closures. While it limited tourist freedom, the strict policy protected vulnerable areas and amplified the importance of preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

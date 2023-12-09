@@ -21,6 +21,8 @@
 		moving = false;
 		zIndex = 98; // Reset z-index to 98 on mouseup
 	}
+
+	$: console.log(moving);
 </script>
 
 <section

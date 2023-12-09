@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Salvation: Pangolin Rescue Mission",
+  "gameDescription": "In this gripping rescue mission, players control two intelligent airships, 'Guardian of the Skies' and 'Caregiver of the Clouds', dedicated to safeguarding wildlife. The objective is the careful transportation of endangered pangolins from poaching hotspots in Africa to their new haven - an enclosure in Vietnam, designed for their recovery and growth. The success of this eco-mission relies heavily on the teams' strategic decisions, navigating through unpredictable scenarios, and ensuring the safe and efficient conveyance of their precious cargo.",
+  "setting": {
+    "location": "Above the African Continent and the Indian Ocean",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian of the Skies",
+      "description": "Specialists in wildlife handling and sustainable transportation."
+    },
+    "redTeam": {
+      "name": "Caregiver of the Clouds",
+      "description": "Experts in navigating extreme weather conditions and emergency response."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships are met with two threats simultaneously - an intense dust storm near the Saharan region and potential poachers closing in on the pangolin rescue site.",
+      "options": {
+        "A": "Focus on rescuing all the pangolins at once, possibly alerting and attracting the attention of the poachers.",
+        "B": "Employ cloaking technology to become virtually invisible, slowing the rescue process but evading the poachers and the dust storm."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams go full throttle on the rescue mission. Their actions alert the poachers, leading to a high-octane chase in the midst of a dust storm. They manage to fend off the poachers and successfully rescue the pangolins but use a lot more fuel in the process.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team rescues vigorously while the other uses cloaking technology. The cloaked team helps detour the poachers, buying time for other team to rescue. They use more time but conserve fuel in the pursuit.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team voluntarily attracting the poachers, the cloaked team manages a smooth organized rescue. Despite the luring team using more fuel, they successfully divert the attention of poachers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both rescue teams opt for subtlety, using their cloaking technology. They successfully evade the poachers and weather the storm, but the mission takes more time than planned. Their strategy ensures they don’t attract any unwanted attention.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Reaching the coastline, they face a decision. Either follow a safe but busy commercial route which might lead to detection or follow a risky but low-profile path through cyclone-prone waters of the Indian Ocean.",
+      "options": {
+        "A": "Take the busy commercial air route, posing potential traffic and detection risks.",
+        "B": "Navigate through the risky cyclone-prone waters, which is quieter, but more dangerous."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the busier route, blending in with the crowd. They successfully hide their precious cargo amidst commercial air traffic, but face a stressful journey negotiating tight schedules and risk detection.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team joins commercial traffic, while the other braves the cyclone-prone route. The team amongst commercial traffic provides a diversion, taking attention away from the other risking the cyclones. However, navigating risky weather depletes fuel.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team risks the cyclones, while the other Team flies with the commercial traffic. The cyclone-faring team draws attention from departments monitoring severe weather, giving the other team a quiet passage.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships navigate through the cyclone-prone waters. They, masterfully manage the weather challenges, thanks to their advanced AI technology, but use considerable fuel. The teams, however, successfully fly under the radar, ensuring their mission remains secretive.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams face stringent air regulations. To make things complicated, there is a high-profile air show going on which they can potentially leverage for their covert operation.",
+      "options": {
+        "A": "Participate in the air show to blend in, taking advantage of the spectacle, but risking exposure.",
+        "B": "Avoid the air show, and carefully navigate through heavy air regulations to safely deliver the pangolins to the sanctuary."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams join the air show, blending in with the exhibition's spectacle. The pangolins are safely delivered amidst the celebrations, but the risky endeavor depletes significant energy levels.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team joins the air show, creating a diversion, while the other team capitalizes on this to avoid detection and deliver the pangolins safely. The diversion action does cost more fuel but ensures no attention is drawn to the delivery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team quietly navigates through the air regulations, while the other joins the air show attracting attention. The 'spectacle' distracts authorities from stringent checks, allowing the quiet team to deliver the pangolins successfully.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to carefully navigate through the thick of air regulations. Their joint effort achieves a seamless operation, delivering the pangolins to the sanctuary. Though an energy-intensive task, the teams’ expertise in efficient navigation rewards them.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

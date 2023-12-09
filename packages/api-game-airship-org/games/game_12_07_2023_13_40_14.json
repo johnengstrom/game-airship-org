@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Horizon: Operation Rainforest",
+  "gameDescription": "Project Pangolin: two futuristic airships, Skylark Envoys and Terra Guardians embark on a poignant mission to transport urgently needed pangolin rescue materials to a new enclosure in Vietnam. With each turn, their strategic decisions regarding cargo handling, weather, and rescue approach not only affects the mission's success but also could tilt the scales in the survival of the world's most trafficked mammal.",
+  "setting": {
+    "location": "Above the Pacific Ocean",
+    "missionStart": "Zinc Airship Hangar, San Francisco",
+    "missionEnd": "Pangolin Life Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skylark Envoys",
+      "description": "Specializes in fast and efficient navigation across unpredictable terrains."
+    },
+    "redTeam": {
+      "name": "Terra Guardians",
+      "description": "Experts in delicate cargo handling and energy conservation. They've vast experience in global wildlife preservation missions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams face a massive cyclone over the Pacific. They have to decide their navigation strategy.",
+      "options": {
+        "A": "Venture through the cyclone employing advanced guidance technology, which can potentially save fuel.",
+        "B": "Take a longer route around the cyclone, which offers safety but uses up precious hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to risk the cyclone, both airships plough through, saving fuel but endangering the precious rescue material. Their daring but risky decision make headlines worldwide.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skylark braves the cyclone while Terra chose to play safe. While Skylark's gamble saves fuel, Terra's cargo is safer. Their approaches highlights contrasting but effective mission theories.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra faces the cyclone while Skylark diverts. Although Skylark uses extra fuel, their cargo stays safe. Terra's daring courage highlights their commitment towards the cause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wisely avoid the cyclone, ensuring the rescue material's safety. Their shared decision showcases prudence, albeit at the cost of extra fuel.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-mission, an SOS signal is received from a sinking ocean liner carrying needed medical aid kits.",
+      "options": {
+        "A": "Attempt to provide immediate aid risking mission delay.",
+        "B": "Contact nearby marine rescue teams, ensuring continuous journey."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams in a humanity-filled decision attempt the daring rescue, saving the liner but delaying their mission. The world praises their selfless action.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skylark stops to render aid while Terra coordinates marine rescue. Skylark's commitment juxtaposes Terra's strategic thinking, casting a light on the intricate decision-making in rescue missions.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With Terra helping the liner and Skylark coordinating marine aid, rescue is efficient, ensuring mission continuation and saving lives. Their balanced actions receive worldwide applause.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships, in a wise decision, coordinate immediate marine aid, ensuring the liner's rescue and mission contuinity. This calculated decision showcases the teams' strategic prowess in crisis management.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams learn of stringent air travel restrictions.",
+      "options": {
+        "A": "Risk accelerating to bypass heavy air traffic, consuming more hydrogen.",
+        "B": "Maintain regulated speed, facing the air traffic in real-time."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Racing ahead, both teams dodge traffic but consume additional hydrogen. Despite reaching the sanctuary faster, they face health and safety fallout.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skylark dodges traffic while Terra faces it, leading to Skylark reaching faster, but Terra's slower arrival allows a more planned enclosure setup.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Terra races ahead as Skylark slows down. Terra's swift arrival expedites material delivery, but Skylark's compliance allots time to prepare a more efficient unloading plan.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain speed, confronting air traffic in real-time. Navigating this hive of activity showcases their abilities, and they deliver their cargo right on time, ensuring the sanctuary's readiness for the rescued pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

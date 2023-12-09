@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skyward Sanctuary: The Pangolin Mission",
+  "gameDescription": "Your team controls advanced airships responsible for the transportation of rescued pangolins to the newly built enclosure in Vietnam. The safety of the pangolins is paramount. But so too is the eco-efficiency of the airships, as each decision will contribute to determining who is the ultimate champion of animal conservation and environmental mindfulness.",
+  "setting": {
+    "location": "Above Southeast Asia",
+    "missionStart": "Various Wildlife Rescue Facilities",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Shepherds",
+      "description": "Experts in navigation and resource management."
+    },
+    "redTeam": {
+      "name": "Aerial Protectors",
+      "description": "Specializing in animal care and safety protocols."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face the task of loading delicate and terrified pangolins onto their vessels, a mission that requires tact and empathy. Will they prioritize safety or efficiency?",
+      "options": {
+        "A": "Use tranquilizers to calm the pangolins, load them, then oversee their recovery mid-air.",
+        "B": "Gradually acclimate pangolins to the airship over a few hours before leaving, risking delay but avoiding the use of tranquilizers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the expedient method, causing some stress to the pangolins, but their expert mid-air animal care ensures a swift recovery. The mission proceeds on schedule.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "A wise choice difference! The tranquilizing team moves forward, while the other consoles and slowly moves the pangolins onboard; a delay occurs, but the pangolins are calmer during the journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team advances quickly with tranquilizers, while the other painstakingly acclimates their charges. Time loses against tranquility, yet the pangolins display less stress during transit.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams take their time, acclimating the pangolins and avoiding tranquilizers. It's a slow start, but the animals' comfort takes precedence. A shared victory even as they watch the clock.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Flying over the Mekong Delta, a distress call signals poachers below. Quick actions are needed, but how will they respond?",
+      "options": {
+        "A": "Report to local authorities and continue with the mission, maintaining their primary objectives.",
+        "B": "Divert from the path and oversee the situation until authorities arrive, risking delay and fuel consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams alert the authorities swiftly and continue on their mission, not allowing distractions to interfere. Time and resources are saved, though poachers might evade capture before law enforcers arrive.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Poachers are halted, one team standing guard while the other continues the mission. The diverting team is delayed but earns praise for their actions; wildlife conservation extends beyond their airship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team on watch, authorities manage to catch the poachers, while the other team progresses with the mission. Delayed, yes, but the tangible impact of their intervention fills them with pride.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams halt their mission, watching over the situation until authorities arrive. Poachers are captured, and despite the delay, the mission of conservation extends beyond their initial mandate.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach the new enclosure, they have the choice: to minimize stress, would they land gently at the cost of fuel consumption, or execute a swifter, efficient landing, risk jostling the pangolins?",
+      "options": {
+        "A": "Perform a controlled, slow descent using additional hydrogen.",
+        "B": "Execute a swift, efficient landing, sparing fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams perform slow descents. Ensuring a much calmer landing for their precious cargo, the pangolins make it safely to the sanctuary. However, the extra hydrogen usage isn't ideal.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for a gentle landing, using extra fuel, while the other saves hydrogen with a quick landing. The latter is praised for their efficiency, though concerned eyes monitor the unsettled pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Making contrasting choices, one airship is swift and environ-conscious while the other takes their time at a fuel cost. Both reach their own victories, but balance remains the ultimate challenge.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both crews execute swift, efficient landings, jostling the pangolins a little, but saving hydrogen. Arrival time matters, but did they prioritize the right option? The answer lies in the hasty unloading.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Rescue to Recovery: The Pangolin Journey",
+  "gameDescription": "Two futuristic airships, donated by the generous philanthropists, have been specifically retrofitted to assist Greater Good Charities and Wildlife At Risk in their work of rescuing and rehabilitating pangolins, the world's most heavily trafficked mammal. They are about to embark on a mission of love and valor, transporting recovered pangolins from various points across Africa to the safety of the new enclosure in Vietnam. Each decision made by the airship crews affects the success of this life-saving mission and the revival of these endangered species.",
+  "setting": {
+    "location": "Above Africa and Southeast Asia",
+    "missionStart": "Various Rescue Centers in Africa",
+    "missionEnd": "New Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Wings",
+      "description": "Balancing good speed and efficient spatial planning for pangolin comfort."
+    },
+    "redTeam": {
+      "name": "Protector Nimbus",
+      "description": "Trained in handling sensitive species and managing biosecurity."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "With pangolins safely loaded, both teams face their first challenge. A vast desert stretches ahead under the blazing African sun. The heat could potentially stress the animals.",
+      "options": {
+        "A": "Fly low and utilize onboard climate control systems to keep temperatures stable.",
+        "B": "Ascend to higher altitudes for naturally cooler temperatures, but consume more hydrogen."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use their onboard climate controls, keeping the pangolins at a comfortable temperature. They manage this without consuming extra hydrogen, leaving more for potential hurdles.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team ascends to cooler climates, consuming more hydrogen while the other maintains a lower altitude with artificial cooling. Both teams manage the heat well, but at different costs.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team prefers natural cooling at higher altitudes while another uses controlled environments at lower altitudes. Both methods require resources, affecting their budget for the rest of the journey.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ascend, seeking natural ways to beat the heat. Pangolins are kept comfortable, but the additional hydrogen consumption is a concern for the remainder of the journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Having flown at night over the Indian Ocean, the teams are notified of a cyclone forming ahead. The option is to fly through it with advanced navigation systems or detour around it.",
+      "options": {
+        "A": "Brave the cyclone with enhanced navigation systems but add stress to the recovered pangolins.",
+        "B": "Maneuver around the storm, taking a longer route but ensuring smooth passage for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to brave the storm. While they make it through, the stress on the rescued pangolins raises concerns about their well-being.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team braves the storm, causing stress to the pangolins, while the other takes a detour for smoother passage. Both approaches have their merits and drawbacks.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams split decisions lead to different experiences. While one hits rough weather, the other enjoys a calm but elongated journey. It's a tough balance between timeliness and care.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to detour. They prioritize the well-being of their precious cargo over time and hydrogen conservation. This gentle choice attests to their dedication.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, they're notified of heavily congested air traffic over the new enclosure’s location.",
+      "options": {
+        "A": "Try to negotiate immediate landing privileges at the risk of delaying other flights.",
+        "B": "Wait patiently in the busy airs, potentially stressing the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams urge for immediate landing. While they succeed in delivering the pangolins quickly, the unexpected interruption results in a chain of delays in the air routes.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team manages an immediate landing while the other waits. The pangolins land safely, but at the expense of other flights and extra waiting time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams make different choices. One negotiates and lands quickly, while the other patiently hangs back, balancing their sense of urgency with wider operational harmony.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to wait. Despite the pangolins’ anxiety, they soon land without causing a disruption. The teams display their commitment to collective cooperation and patient stewardship.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

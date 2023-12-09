@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Relief Operation: Life in the skies",
+  "gameDescription": "In a world pulsating with urgency to rescue pangolins from relentless poaching, two advanced airships, outfitted with state-of-the-art equipment, embark on a lifeline mission to transport rescued pangolins from African hot spots to a safe enclosure in Vietnam. Each decision made by the airship crews not only affects the survival of these struggling creatures but also pulls at the delicate string of international poaching and wildlife trafficking networks.",
+  "setting": {
+    "location": "Above the African Continent to Vietnam",
+    "missionStart": "African Pangolin Poaching Hotspots",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Conservationists",
+      "description": "Specializing in wildlife conservation and humanitarian aid."
+    },
+    "redTeam": {
+      "name": "Phoenix Rescuers",
+      "description": "Focused on rescue operations and anti-poaching strategies."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships are ready to lift-off loaded with rescued pangolins, but received last-minute information about a poaching convoy close by.",
+      "options": {
+        "A": "Delay the takeoff to intercept the poacher's convoy.",
+        "B": "Stick to the plan and prioritize safe transit of the rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams delayed their takeoff and successfully intercepted the poachers, rescuing additional pangolins but their action leads to delay and additional stress for the already loaded pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Rescuers stayed on course, ensuring a stress-free journey for their pangolin passengers, while Skyward Conservationists intercepted the convoy, adding more pangolins to their cargo but also more weight and delay.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "After receiving the information, Skyward Conservationists took off on time, easing the stress on their pangolins, while Phoenix Rescuers delayed for the interception, adding to their passenger count but also the journey's complexity.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stuck to their plan, prioritizing swift rescue and rehabilitation for the pangolins on board, deliberately sidestepping the chance to intercept additional poachers. Their decision shows their focus - the pangolins' immediate welfare.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A call for emergency veterinary care comes through for a pangolin at a remote outpost.",
+      "options": {
+        "A": "Divert their route to get the veterinarian to the outpost, losing time but possibly saving the pangolin.",
+        "B": "Continue the journey to Vietnam, ensuring the safety of the onboard pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams diverted their route and successfully administered critical care, saving a life but consuming extra fuel and delaying their arrival in Vietnam.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Conservationists diverted for the rescue, depleting precious fuel and time, while Phoenix Rescuers stayed on their route, ensuring comfortable transit for their pangolin passengers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Rescuers diverted to the outpost, providing crucial aid but at a significant cost to their timing and fuel, while Skyward Conservationists stayed on course, placing the welfare of their onboard pangolins as a priority.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose welfare of their onboard pangolins over a diversion. The pangolins reach their destination without added transit stress, demonstrating the teams' commitment to the welfare of their charges.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, the teams get a distress call from an anti-poaching unit, caught in a firefight with poachers on the ground.",
+      "options": {
+        "A": "Assist the anti-poaching unit by providing air cover.",
+        "B": "Continue to the safe haven, ensuring the safe delivery of the rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to assist the anti-poaching unit. Their actions turn the tide, but more fuel is consumed, and the pangolins are delayed.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Conservationists provide much-needed air cover while Phoenix Rescuers deliver their rescued passengers, maintaining a balance between combating poaching and safeguarding wildlife.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Phoenix Rescuers rush to the aid of the ground unit, providing them much-required support. Meanwhile, Skyward Conservationists ensure the safe delivery of their pangolins, highlighting the balance between immediate rescue and long-term care.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus solely on their mission, ensuring that the pangolins make it to their new sanctuary. This act reiterates their deep commitment to preserving wildlife.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

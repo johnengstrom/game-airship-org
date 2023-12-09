@@ -10,6 +10,7 @@
 
 	onMount(() => {
 		game.subscribe((data) => {
+			console.log('game data ---->', data);
 			_game = data;
 		});
 	});
@@ -18,7 +19,7 @@
 <div class="fixed top-0 z-20 game flex flex-row h-screen">
 	<div class="grow">
 		<Board />
-		{#if _game?.gameDescription}
+		{#if true || _game?.gameDescription}
 			<Cards />
 		{/if}
 	</div>

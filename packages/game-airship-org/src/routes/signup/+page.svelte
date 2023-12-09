@@ -25,7 +25,7 @@
 		<form class="form-control" on:submit={createAccount}>
 			<!-- Full Name Field -->
 			<label for="full-name" class="label">
-				<span class="label-text">Full Name</span>
+				<span class="label-text">Handle*</span>
 			</label>
 			<input
 				type="text"
@@ -37,7 +37,7 @@
 
 			<!-- Email Field -->
 			<label for="email" class="label">
-				<span class="label-text">Email</span>
+				<span class="label-text">Email*</span>
 			</label>
 			<input
 				type="email"
@@ -49,7 +49,7 @@
 
 			<!-- Username Field -->
 			<label for="username" class="label">
-				<span class="label-text">Username</span>
+				<span class="label-text">Username*</span>
 			</label>
 			<input
 				type="text"
@@ -61,7 +61,7 @@
 
 			<!-- Password Field -->
 			<label for="password" class="label">
-				<span class="label-text">Password</span>
+				<span class="label-text">Password*</span>
 			</label>
 			<input
 				type="password"
@@ -73,7 +73,7 @@
 
 			<!-- Confirm Password Field -->
 			<label for="confirm-password" class="label">
-				<span class="label-text">Confirm Password</span>
+				<span class="label-text">Confirm Password*</span>
 			</label>
 			<input
 				type="password"
@@ -88,7 +88,7 @@
 				<span class="label-text"
 					>I agree to the <a href="/terms-and-conditions" target="_blank" class="link link-primary"
 						>Terms and Conditions</a
-					></span
+					>*</span
 				>
 				<input type="checkbox" name="termsAndConditions" class="checkbox checkbox-primary" />
 			</label>

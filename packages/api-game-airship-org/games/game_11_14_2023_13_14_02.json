@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: Pangolin Rescue Mission",
+  "gameDescription": "In the plight of the pangolins, the great airship crews of the Red and Blue teams undertake a daring mission to ferry precious cargo of rescued pangolins from their African forest habitat to a newly constructed enclosure in Vietnam. Along the way, they'll have to make tough decisions about speed, safety, and resource utilization while countering illegal wildlife trade.",
+  "setting": {
+    "location": "Cross Continental - Africa to Vietnam",
+    "missionStart": "African Forest",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardian Gliders",
+      "description": "Expert in covert operations, renowned for their stealth"
+    },
+    "redTeam": {
+      "name": "Conservation Carriers",
+      "description": "Equipped with state-of-the-art technology for animal safety and welfare"
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams approach a heavily monitored airspace known for illegal trafficking. Should they risk detection by flying straight or take an energy-demanding detour?",
+      "options": {
+        "A": "Fly directly, using stealth technology to evade detection.",
+        "B": "Detour around, which consumes more resources but ensures safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships use their stealth technology and manage to pass undetected without using extra resources. Their mission is still covert.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The team flying directly evades surveillance while the detouring team uses additional resources, impacting their resource balance for the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The stealthy team crosses quick unnoticed while the other takes the safe route at an energy cost, balancing risks with safety.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams take the cautious route, avoiding the risky airspace and exchange navigational hints for future endeavors.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A distress signal is received from a grounded animal rescue team. Should they land to aid, risking the pangolins and resources, or fly on ensuring pangolin safety?",
+      "options": {
+        "A": "Land to aid the grounded team, which could compromise mission objectives.",
+        "B": "Proceed with the mission, prioritize pangolin safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land to aid the rescue team, they manage to lend a hand but risk the pangolin's tranquility and use valuable mission resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team groundbreaking team helps while the other uses the opportunity to get ahead in the mission with the pangolins' safety paramount.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team pushes ahead on the mission, the other manages to assist the grounded team, a risk well managed and rewarding.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams push ahead with the mission, ensuring the pangolins' safety. Their collective decision shows unwavering commitment to their main task.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Closing on Vietnam, the airships must negotiate dense airspace traffic and time their arrival to minimize disturbance to the newly relocated pangolins.",
+      "options": {
+        "A": "Speed to arrive early, minimizing pakingolin disruption but risking extra resources.",
+        "B": "Maintain current speed and synchronize arrival with traffic control."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships arrive early, minimizing the disturbance to the pangolins but consuming extra resources - a careful balance between timing and resource management.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team picks up speed, arrives early and realizes an energy penalty, while the other glide in on time showing perfect judgement.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The early arriver finds a quiet enclosure for the pangolins, but pay the energy cost, while the other team conserves resources arriving just on time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships arrive together causing a mild flurry but managing to not waste any extra resources, convincingly concluding the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

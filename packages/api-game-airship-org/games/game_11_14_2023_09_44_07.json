@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Guardians: The Pangolin Rescue",
+  "gameDescription": "The Aeolus Wings and Poseidon Carriers are on a new mission over the vast African landscapes, racing against time not for hydrogen efficiency, but for the survival of a critically endangered species: The Pangolin. Their cargo this time: precious pangolins, rescued from illegal wildlife traders. Every choice the airship crews make can mean life or death for these shy creatures.",
+  "setting": {
+    "location": "Above African landscapes",
+    "missionStart": "Various Pangolin Poaching Hotspots",
+    "missionEnd": "New Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aeolus Wings",
+      "description": "Specializing in efficient navigation and wildlife rescue."
+    },
+    "redTeam": {
+      "name": "Poseidon Carriers",
+      "description": "Experts in cargo handling, specialized for wildlife transport."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A poaching hotspot has been identified, but an aggressive wildfire burns nearby. Both teams must decide how to approach the rescue.",
+      "options": {
+        "A": "Brave through the smoke and heat for immediate rescue.",
+        "B": "Coordinate with ground forces and wait for flames to subside."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams courageously navigate through the smoky haze. They successfully rescue the pangolins but use extra hydrogen due to the harsh conditions. The operation serves as a stark reminder of the immense challenges faced by wildlife rescuers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aeolus Wings brave the fire, while the Poseidon Carriers choose to wait and coordinate. The immediate rescue saves more pangolins, but at an increased fuel cost. The wildfire's environmental impact serves as a grim backdrop for this pressing mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Poseidon Carriers decide to fly through the fire, while the Aeolus Wings wait and coordinate with ground forces. More pangolins are rescued immediately, yet the intense conditions consume more hydrogen fuel.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with ground forces and begin the rescue once the flames subside. This coordinated response minimizes risk to the teams and prevents unnecessary hydrogen use, underlining the importance of precise planning in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With pangolins on board, both teams detect illegal wildlife traders trailing them. They need to make their next strategic move.",
+      "options": {
+        "A": "Outfly the pursuers at the cost of extra hydrogen.",
+        "B": "Signal for aerial support and maintain current speed."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams go full throttle to outrun the traders. The pangolins are safe, but the accelerated speed strains their hydrogen reserves. Despite the challenges faced, the teams' dedication towards their mission remains unwavering.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Aeolus Wings speeds away, Poseidon Carriers signal for aerial support. The traders are apprehended, but the coordination effort costs time, potentially affecting the rest of the journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers choose to outrun the traders while Aeolus Wings call for aerial support. Aerial forces apprehend the traders, making the skies safer for future missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams call for aerial support. The traders are caught, demonstrating the power of cooperation. Their joint effort showcases their shared commitment towards wildlife conservation. The mission's success illustrates the potential of collective effort in combating wildlife trafficking.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the teams face a choice between two air traffic routes to the sanctuary, one less crowded but longer, the other shorter but congested.",
+      "options": {
+        "A": "Choose the long, less crowded path, using up more hydrogen.",
+        "B": "Dive into the congested, shorter route to save fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the longer path. Their fuels run low, but they manage to drop off their precious cargoes safely. The journey's end marks a new beginning for the pangolins and a significant achievement in wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Aeolus Wings opt for the longer route, while the Poseidon Carriers tackle the congestion. Both teams arrive safely, their precious cargoes starting a new lease of life in the sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Poseidon Carriers choose the long path, and Aeolus Wings take on the congested airspace. Both teams deliver the pangolins safely to their new sanctuary home.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams plunge into the congested airspace, showcasing their adept navigation skills. They reach the pangolin sanctuary swiftly, marking a successful end to a mission fueled by compassion and determination.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

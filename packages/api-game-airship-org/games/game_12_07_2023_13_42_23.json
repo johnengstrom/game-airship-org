@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin Rescue: Flight of Hope",
+  "gameDescription": "Two intelligent airship teams, Phoenix Saviors and Prometheus Rescuers, embark on a noble mission to transport rescued pangolins from Africa to a new safe enclosure in Vietnam. Each decision made not only affects the well-being of these critters, but it also influences public awareness and support to the cause.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "New pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Saviors",
+      "description": "A team experienced in wildlife rescue and rehabilitation."
+    },
+    "redTeam": {
+      "name": "Prometheus Rescuers",
+      "description": "Experts in handling sensitive cargo and quick adaptation to unpredictable circumstances."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Busy air traffic over the Indian ocean poses a significant obstacle. Both teams must decide how to navigate.",
+      "options": {
+        "A": "Fly at a higher altitude, ensuring safe transit but potentially unsettling the pangolins.",
+        "B": "Take a longer detour to avoid air traffic, thus ensuring the comfort of the pangolins, but using more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the higher altitude. While it unsettles the pangolins, they manage to soothe them with cuddle therapy. Fuel efficiency is maintained, but the stressed pangolins might slow down the recovery process.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Saviors choose the high route while Prometheus Rescuers take the detour. The pangolins' stress in Phoenix's airship raises questions about their method while Prometheus is lauded for its considerate strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Prometheus Rescuers fly high while Phoenix Saviors detour. Though Prometheus loses public favor, their airship copes better with the altitude leading to smoother progress.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams take the detour, prioritizing the comfort of the pangolins over fuel efficiency. This draws a wave of public support for the mission, raising awareness and funding.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Both teams gather donations en route to support the mission. Each receives an offer to host a live broadcast of the on-going rescue operation.",
+      "options": {
+        "A": "Accept the offer and host the broadcast.",
+        "B": "Decline the offer to avoid extra stress on the crew and pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to host the live broadcast. It garners a lot of attention and donations, but the focus on the broadcast adds extra stress to both the pangolins and crews.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Saviors accept the offer, while Prometheus Rescuers decline. The Phoenix airship manages to handle the situation well, gaining strong public support and further funding.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Prometheus Rescuers take up the offer, while Phoenix Saviors decline. Prometheus's broadcast inspires worldwide support; however, Phoenix is praised for prioritizing the wellbeing of the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decline the offers, protecting the crew and pangolins from extra stress. While donations are not as high as they could be, global wildlife organisations endorse both teams for their ethical decision.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing Vietnam, both teams can choose to land immediately or wait for an ongoing sandstorm to pass, which could potentially delay the mission and consume more fuel.",
+      "options": {
+        "A": "Land immediately, risking the stress on pangolins due to rough landing circumstances.",
+        "B": "Circulate till the sandstorm passes, ensuring a safe landing for the pangolins but consuming more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for immediate landing. The rough circumstances stress the pangolins but they are quickly transported to their safe enclosures, marking a successful completion of the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Saviors land immediately while Prometheus Rescuers decide to wait, stressing the pangolins in Phoenix's airship. Although Prometheus consumes more fuel, their pangolins arrive unstressed and ready for recovery.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Prometheus Rescuers land immediately, while Phoenix Saviors wait. While both sets of pangolins are ultimately safe, Phoenix's choice is hailed by environmentalists, thus inspiring similar missions worldwide.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to wait for the storm to pass. They consume more fuel, but their careful decision ensures a smooth transition for the pangolins into their new safe home.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

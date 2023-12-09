@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin: The Airborne Guardians",
+  "gameDescription": "In a world characterized by exploitation and dwindling biodiversity, intelligent airships emerge as vital allies in wildlife conservation. The blue team, Sky Shepherds, and red team, Cloud Conservators, embark on a high-stakes journey to transport pangolin rescues to a safe sanctuary in Vietnam. Each choice they make along the route affects not only the safety and well-being of the pangolins onboard but also the overall success of the mission and the carbon imprint of the journey.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Poaching hot-zones in Africa",
+    "missionEnd": "Pangolin sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Shepherds",
+      "description": "Masters of weather control and resourceful routing."
+    },
+    "redTeam": {
+      "name": "Cloud Conservators",
+      "description": "Specialists in rescue operations and energy-efficient navigation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon rescue, the pangolins are severely stressed and require immediate medical attention. The airships are equipped with a medical center, but activating it consumes significant energy reserves.",
+      "options": {
+        "A": "Activate the onboard medical center and consume extra energy.",
+        "B": "Maintain status-quo and rely on the onboard carer for the pangolins' wellbeing."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams activate their medical centers, ensuring the pangolins receive immediate care while reducing the carbon footprint. However, they consume a significant portion of their energy reserves. Will the rest be enough for the journey ahead?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Shepherds activate their medical center while the Cloud Conservators rely on their carer, saving energy but potentially compromising the pangolins' health. The choice will reveal its worth as the mission unfolds.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Cloud Conservators initiate their health center while the Sky Shepherds persist with their carer. Navigating this delicate balance between energy preservation and pangolin health shapes the mission's trajectory.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose not to activate their medical centers, preserving their airships' energy. The onboard carers now hold the key to the pangolins' health in this tense journey of conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Airships receive news about an illegal poaching operation underway in Asia. There is an opportunity to initiate law enforcement.",
+      "options": {
+        "A": "Divert path to provide real-time surveillance footage to law enforcement agencies.",
+        "B": "Stay on original route and alert law enforcement using existing data."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert to assist law enforcement, playing an instrumental role in averting the poaching operation. Yet, the detour consumes extra energy and adds stress to the already fragile pangolins on board.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherds divert, actively assisting the law enforcement. Cloud Conservators stay on course, ensuring minimal stress to the pangolins. Both approaches contribute to the cause in their unique ways.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cloud Conservators take the diversion while Sky Shepherds persist on their route. The mission reminds us of the complex choices in wildlife conservation—immediate action versus long term stability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to stay their course, prioritizing the comfort and safety of their pangolin passengers. They provide coordination support to law enforcement, contributing to anti-poaching efforts while conserving energy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the journey nears its end, the airships face a critical decision. The country's strict air regulations require a specific, but energy-consuming landing procedure.",
+      "options": {
+        "A": "Push to arrive early, expending more energy but ensuring compliance with regulations.",
+        "B": "Opt for a leisurely approach, risking in-flight complications but conserving energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams accelerate, ensuring the pangolins arrive safely but at a considerable energy cost. The successful mission illustrates that sometimes, the quest for conservation requires sacrifices.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Shepherds push for an early arrival while Cloud Conservators conserve energy, creating a diverse impact on the mission's end. The journey's outcome serves as a testament to the complexity of conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cloud Conservators push ahead while Sky Shepherds choose conservation, leading to different arrival times. The teams' choices exemplify the challenge of balancing urgency with sustainability in conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to conserve energy, risking potential in-flight complications. Their slow but steady progress culminates in a suspenseful finale, reinforcing the hardship and unpredictability associated with pangolin conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

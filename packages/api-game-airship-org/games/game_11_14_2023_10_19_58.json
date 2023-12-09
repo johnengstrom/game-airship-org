@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Guardians",
+  "gameDescription": "In a world battling the merciless illegal wildlife trade, two futuristic airships named the Titan Gliders and Hydra Voyagers, emerge as saviors. Their mission – to rescue pangolins poached in Africa and safely transport them to a newly built sanctuary in Vietnam. Each decision made by the airship crews affects the survival of the pangolins and the environment. Will they rise to the challenge?",
+  "setting": {
+    "location": "Between Africa and Vietnam",
+    "missionStart": "African Savanna",
+    "missionEnd": "Vietnam Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Titan Gliders",
+      "description": "Equipped with state-of-the-art stealth technology and wildlife relocation know-how."
+    },
+    "redTeam": {
+      "name": "Hydra Voyagers",
+      "description": "Known for their speed, humanitarian efforts, and deep conservation knowledge."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While on their rescue mission, the airships spot poachers in action. Do they try to sabotage the poachers or continue their mission?",
+      "options": {
+        "A": "Attempt to disrupt the poachers using non-lethal methods, risking detection and combat.",
+        "B": "Continue on to the known locations of poached pangolins to maximize rescue efforts."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams attempt to disrupt the poachers. While successful, it results in heightened alert levels among the poaching groups. They manage to rescue many pangolins but will encounter more resistance in upcoming turns.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Titan Gliders engage with the poachers, Hydra Voyagers continue their rescue mission. This tactic yields a higher number of rescued pangolins, but alerts poachers to their presence.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As the Hydra Voyagers engage the poachers, the Titan Gliders seize this chance to rescue the pangolins undisturbed. The upcoming turns will be hard, but more pangolins are safe because of their strategy.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on rescuing the pangolins, avoiding unnecessary confrontation. This strategy results in the highest number of pangolins rescued and keeps the teams' presence unnoticed.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams receive intel about a high-risk area with a large number of trapped pangolins. As this venture would burn significant hydrogen, should they risk it or not?",
+      "options": {
+        "A": "Venture into the high-risk area, knowing that it would heavily drain their hydrogen reserves.",
+        "B": "Avoid the high-risk area and continue towards their planned destinations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams bravely enter the high-risk zone and successfully rescue a significant number of pangolins. Their altruism, though admirable, drains their hydrogen reserves and may affect future strategies.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Playing a calculated risk, the Titan Gliders venture into the danger zone while the Hydra Voyagers proceed on the safer track. Their strategies lead to a wider range of rescue efforts, but at the expense of resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Hydra Voyagers risk their energy reserves and rescue many pangolins, while the Gliders stick to their planned route. Their contrasting decisions discover new areas where pangolins are trapped.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to bypass the high-risk area to conserve hydrogen, securing a moderate number of rescues. Their foresight keeps their mission sustainable, an essential key for their shared goal.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams receive a distress call from a ship transporting pangolins to a sanctuary in Asia. It's sinking, but the manpower required would slow down their own mission. What do they decide?",
+      "options": {
+        "A": "Reroute their journey to lend help to the sinking ship.",
+        "B": "Stick to their original route, focusing on their own mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams lend help to the sinking ship, rescuing the pangolins and crew. It's a successful rescue but delays their mission and consumes more hydrogen. Their compassionate decision echoes their commitment to the cause.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Titan Gliders reroute to the sinking ship while Hydra Voyagers stick to their mission. Both teams successfully carry out rescues, but the diversion puts time pressure on Gliders.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Voyagers assist the sinking ship, Gliders continue their mission. They both end up successfully rescuing pangolins, showcasing the strength of diversified strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams uphold their original mission, focusing on the pangolins they are assigned to save. Their decision result in successfully rescuing a record number of pangolins and reaching the sanctuary in time.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

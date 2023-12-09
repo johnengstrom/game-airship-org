@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game: Antarctic Challenge",
+  "gameDescription": "In the near future, Antarctica faces a surge in tourism. Players, as captains of futuristic airships, navigate this delicate landscape, balancing the demand for exploration with the urgency of protecting Antarctica's unique ecosystem. Each decision made concerning site selection, tourist management, and conservation efforts critically impacts the environment and the success of sustainable exploration.",
+  "setting": {
+    "location": "Antarctic Wilderness",
+    "missionStart": "Science Forward Base",
+    "missionEnd": "Multiple designated sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacier Cruisers",
+      "description": "Specializing in responsible adventure tourism."
+    },
+    "redTeam": {
+      "name": "Polar Pioneers",
+      "description": "Renowned for facilitating Antarctic research and conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams must choose a landing site for tourists. Option A is a popular, already impacted area with higher tourist interest but potentially causing more harm, while Option B is a pristine, untouched site with a low environmental footprint that might be less appealing to tourists.",
+      "options": {
+        "A": "Landing site at a popular, already impacted area.",
+        "B": "Landing site at a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams landed in the popular regions. This decision pleased the tourists but impacted wildlife negatively. Though it boosted tourism, the environmental price was high.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Red Team landed in the popular region, the Blue Team chose the untouched site. Lower footfall limited the impact on unspoiled regions but lowered tourist pleasure.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team opted for the untouched site, and the Blue Team chose the popular region. Unbalanced traffic led to accelerated wear in the popular region while mitigating impact on untouched areas.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams landed at untouched sites. Although this decision limited environmental impact, the lower popularity of these sites made it challenging.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams now decide on the tourist capacity. Option A allows more tourists but potentially higher environmental impact, while Option B limits numbers for conservation, but earns less revenue.",
+      "options": {
+        "A": "Allow a higher number of tourists.",
+        "B": "Limit tourist numbers for conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allowed larger tourist groups. While this decision boosted revenue and tourist satisfaction, it led to increased waste and disrupted local wildlife.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Team allowed more tourists, while Blue Team limited numbers. Increased footfall strained resources, while limited groups witnessed a healthier ecosystem.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Red Team chose conservation and limited their numbers. Blue Team's high tourist numbers led to excessive waste, prompting criticism from environmentalists.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Each team managed smaller tourist groups. This resulted in less revenue but left a significantly smaller environmental footprint and drew praise from the scientific community.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams implement their conservation initiatives. Option A invites tourists to engage in conservation, enhancing learning but straining resources. Option B emphasizes strict rules, preserving the environment but possibly impacting the tourist experience.",
+      "options": {
+        "A": "Engage tourists in conservation efforts.",
+        "B": "Impose strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engaged tourists in conservation efforts. This increased awareness but also strained resources. Yet, tourists left with a greater appreciation of Antarctica’s ecological value.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Team engaged passengers in conservation efforts, while Blue Team imposed strict regulations. Both efforts complimented each other, providing tourists with an immersive experience while ensuring preservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Team enforced strict regulations, and Blue Team engaged tourists. Red Team’s conservation policies received international praise, while Blue Team's tourists communicated their learning worldwide.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams imposed strict regulations, enhancing conservation but limiting tourist freedom. Despite initial discontent, the tourists appreciated the necessity of these measures, setting a precedent for responsible tourism.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

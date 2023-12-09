@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Plight of the Pangolin: The Aerial Rescue",
+  "gameDescription": "In this mission of mercy, our intrepid aircrews aim to transport the world's most trafficked mammal, the pangolin, from poaching-prone regions to a state-of-the-art safe haven in Vietnam. Their pivotal role in pangolin conservation requires them to make strategic decisions to secure the welfare of these creatures without compromising their environmental conscientiousness.",
+  "setting": {
+    "location": "Transversing Africa to Asia",
+    "missionStart": "African Savannas",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "Masters of swift and precise navigation, minimizing travel time."
+    },
+    "redTeam": {
+      "name": "Aegis Ascenders",
+      "description": "Experts in maintaining optimal life support conditions for rare and endangered wildlife."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon embarking on the mission, an unforeseen wild bushfire extends across their path. The teams must decide how to navigate.",
+      "options": {
+        "A": "Directly traverse the smoke-infused route using advanced filtration systems.",
+        "B": "Re-route course to avoid the smoke, consuming more hydrogen but ensuring clean air for the vulnerable pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to trust their advanced filtration systems and travel through the smoke. They realize upon arrival that the systems handled it better than expected. They save both time and resources, starting the mission successfully.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors fly through the smoke, while Aegis Ascenders opt for a clean-air route. The Ascenders' choice leads to less stress on their pangolins, but delays their arrival and consumes more hydrogen.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Aegis Ascenders brave the smoke, while Skyward Saviors opt for the detour. The Ascenders' choice pays off as their unique systems adequately filter the smoke, giving them a significant lead.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to avoid the smoke at all costs, consuming more hydrogen but keeping the safety of their cargo top-priority. Their shared experiences over the radio enhance their wildlife handling skills, thus contributing to their mission in an indirect way.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, both teams receive a distress signal from another wildlife rescue station under attack by poachers.",
+      "options": {
+        "A": "Disembark immediately to help, risking their own mission's timeline and fuel resources.",
+        "B": "Stay the course, notifying local authorities to handle the situation while they focus on their own mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Showing immense courage, both teams decide to divert their missions to help the besieged station. They succeed in delaying the poachers until the authorities arrive, but not without straining their hydrogen reserves and delay.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Skyward Saviors choose to help, delaying their trip, while Aegis Ascenders notify the authorities and stay their course. The Ascenders' decision gives them the lead with fuel and time while improving their reputation with the authorities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Aegis Ascenders intervene while Skyward Saviors maintain their mission, managing local authorities. The Ascenders' decision, while noble, results in consuming more hydrogen and time. However, this daring move has won them the recommendations from various wildlife organizations, promising future partnerships.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stick to their missions, responsibly delegating the situation to the local authorities. Their focus helps them manage their resources efficiently. Despite this, their culpability is appreciated by the wildlife protection network.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Nearing the facility, they need to decide how to approach the engineered dome route with its strict air-traffic control to ensure minimal disturbance to the site.",
+      "options": {
+        "A": "Speed up and commit to a swift descent, potentially unsettling the cargo.",
+        "B": "Maintain current pacing, negotiate the air-traffic in real-time, and aim for a slow and gentle descent."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, opting for a swift yet turbulent descent. They manage to secure an early arrival, but risk minor upsets in the pangolins' conditions. Their expedience, while commendable, brings into question their delicate approach to wildlife transportation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors hasten their arrival, whilst Aegis Ascenders continue their steady path. The Ascenders' calm negotiative skills and gentle handling give them the recognition and praise of the facility staff and authorities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Aegis Ascenders decide for a quick descent while Skyward Saviors continue at their current pace. The Ascenders arrive earlier but are met with a critique over handling. The Saviors, with their planned, gentle descent, earn them a high reputation for excellent care in wildlife transportation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for real-time negotiation and slow descent, ensuring the safest possible entry for their precious cargo. Their unanimous decision not only showcases their concerted approach to protecting the endangered species but also secures a positive record with the air-traffic control.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

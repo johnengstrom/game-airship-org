@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Operation Airship",
+  "gameDescription": "In an urgent mission for survival, two advanced airships from the Ark Foundation are dispatched to transport rescued pangolins from a poaching site in Africa to a new sanctuary in Vietnam. Along the way, the airship crews are faced with strategic scenarios that define the success of their mission and the future of a species.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Poaching Site",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Cygnus Wardens",
+      "description": "Known for their exceptional resource management and crisis management."
+    },
+    "redTeam": {
+      "name": "Pegasus Protectors",
+      "description": "Specialists in handling fragile cargo and wildlife care."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams face a severe sandstorm approaching their course over the Sahara. The pangolins are safe within the cargo, but their time of relocation is a factor.",
+      "options": {
+        "A": "Adjust to a higher altitude to avoid the storm, increasing hydrogen consumption.",
+        "B": "Maintain current altitude and speed, risking delay in time-sensitive cargo delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams ascended to avoid the storm. Their decision consumed extra hydrogen but ensured no delay, preserving their time-sensitive mission objectives.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Cygnus Wardens ascended, while the Pegasus Protectors bravely fought the storm. The wardens' decision allowed them to keep their course while the protectors faced delayed due to the storm.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Pegasus Protectors ascended, leaving the Cygnus Wardens to battle the storm. Both teams faced risks, but the Protectors’ strategy paid off in maintaining the pace of the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams battled the storm, simultaneously risking delay in the mission timeline but saving their hydrogen resources. Their decision embodied the essence of courage and endurance.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Over the Indian Ocean, a distress signal comes from a boat carrying valuable fauna seeds threatened by sunken fishing nets.",
+      "options": {
+        "A": "Launch drones to rescue the seeds, causing delay and additional hydrogen usage.",
+        "B": "Relay information for international coast guard support, not interrupting the primary mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deployed drones to save the seeds. The delay and extra hydrogen usage are significant, but they saved an essential part of the ecosystem, contributing to raising biodiversity awareness.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Cygnus Wardens launched a drone to assist while the Pegasus Protectors coordinated with the coast guard. The drone operation causes delay for the wardens, however both actions save the vital seeds.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the Pegasus Protectors deployed a rescue drone, the Cygnus Wardens notified the coast guard. The delay for the Protectors strengthens the sense of competition, but both actions ensured a successful rescue operation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided on the safer option, coordinating with the coast guard for the rescue. The shared strategy paid off, ensuring the mission's continuance and proving that support can come from unexpected places.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Near the sanctuary, a local illegal animal trade is discovered on an uncharted island.",
+      "options": {
+        "A": "Alert local authorities and provide real-time surveillance from air, potentially diverting from the current trajectory.",
+        "B": "Continue the mission, focusing on the safe delivery of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams reveal the illegal trade to the authorities and provided surveillance. This action, while heroic, added extra operational time and diverted them momentarily from their course, testing their sense of duty and mission focus.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Cygnus Wardens diverged from their course to monitor the trade while the Pegasus Protectors focused on their mission. The wardens' actions draw attention to the global issue of illegal trade, but at the cost of added journey time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Pegasus Protectors shifted from their path to monitor the illegal trade, while the Cygnus Wardens continued their mission. The Protectors helped showcase the plight of illegal wildlife trade, but added extra mission time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritized the safe delivery of the pangolins, staying their course. The dedication to their primary mission resulted in a timely and efficient completion without unnecessary distractions.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

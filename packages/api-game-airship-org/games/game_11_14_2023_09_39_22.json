@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Hydrogen Skies: Antarctic Challenge",
+  "gameDescription": "In a near future, Antarctica's pristine wilderness faces an increase in tourism. Utilizing advanced and eco-conscious airships, players are challenged to navigate this fragile ecosystem. As airship captains, your mission is to balance facilitating scientific research, exploration, and tourism while minimizing environmental impact on Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Antarctic Airship Station",
+    "missionEnd": "McMurdo Station, McGonagall Island, Australia"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "ExplorAxiom",
+      "description": "Prioritizes research and scientific discovery."
+    },
+    "redTeam": {
+      "name": "ConservaAltitude",
+      "description": "Focuses on conservation and sustainable practices."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Powered by hydrogen engines, your airships hover over the white expanse of Antarctica. You need to choose your landing site for tourists, balancing their excitement for exploration and the potential environmental impact.",
+      "options": {
+        "A": "Choose a popular, already impacted site that can withstand more footfall.",
+        "B": "Choose a pristine, untouched location that would offer a unique experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams land at the more popular site. While the site’s resilience is tested, the concentrated footfall minimizes disturbance to untouched areas thus striking a hard balance with a minimal exploration experience.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team chooses the popular site, the other ventures into an untouched area impressing its passengers with an unparalleled experience but disrupting the unspoiled ecosystem.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Teams chose divergent paths – one focuses on minimizing further environmental impact while the other prioritizes an exceptional experience, irrespective of potential harm to the untouched terrain.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into untouched areas, leaving long-lasting footprints on the pristine ecosystem, but their passengers are delighted with the humbling experience of the untouched Antarctic wilderness.",
+          "bonusCard": "both"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The tourist management issue arises: How many tourists should your airship carry? An increase in numbers might lead to higher impact but also brings more revenue.",
+      "options": {
+        "A": "Allow a higher number of tourists, maximizing the exploration opportunity.",
+        "B": "Limit the number of tourists to maintain the for conservation and minimize impact."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships are filled to capacity. The revenue is impressive, but the sustainability of this practice is called into question as the eco-impact of the tourists is felt around the landing sites.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship carries an ambitiously large group of tourists, while the other takes a conservative approach. The contrasting strategies provoke a debate over tourism versus sustainability.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team opts for maximum occupancy, the other prefers a smaller group. Both strategies prove to have their merits; higher revenue for one, lower impact for the other.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams agree to limit the number of tourists. While revenue takes a hit, the commitment to sustainability minimizes impact on the environment, fostering a culture of responsible tourism.",
+          "bonusCard": "both"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the tourism phase ends, it is time to decide on conservation efforts. How proactive should your approach be?",
+      "options": {
+        "A": "Engage tourists in conservation activities, turning exploration into education.",
+        "B": "Emphasize on strict regulations and temporarily close off areas to let them recover."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships involve tourists in conservation efforts. The collaborative approach sparks a newfound appreciation for Antarctica and a sense of ownership towards its preservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team involves tourists hands-on, while the other decides on stricter regulations. This blend of active engagement and enforced conservation helps uphold Antarctica's delicate ecology.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Although one team engages tourists in conservation, the other chooses strict regulations. The coexistence of these strategies educates tourists on sustainable practices, while maintaining the ecological balance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams take an iron hand, placing strict regulations and closing off areas. This results in heightened tourist awareness and sufficient time for impacted areas to recover.",
+          "bonusCard": "both"
+        }
+      }
+    }
+  ]
+}

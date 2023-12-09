@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Last Wilderness",
+  "gameDescription": "The untouched wilderness of Antarctica faces a challenge: a surge in tourism. Players, as captains of state-of-the-art airships, navigate this fragile landscape, juggling the demands of exploration with the crucial task of protecting Antarctica's unique ecosystem. Every decision will influence the environment, the success of scientific research, and the sustainability of exploration.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "McMurdo Station",
+    "missionEnd": "Vinson Massif"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Guardians",
+      "description": "Specializing in sustainable tourism and scientific explorations."
+    },
+    "redTeam": {
+      "name": "Icebreakers",
+      "description": "Experts in ecological conservation and operations in harsh climates."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "To accommodate the growing tourist interest, a new landing site must be decided. The options present an environmental and operational dilemma.",
+      "options": {
+        "A": "Select a popular site that's seen prior impact but is accessible and attractive to tourists.",
+        "B": "Venture into an undisturbed location, increasing interest but threatening previously untouched terrain."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for the already impacted site. This limits further environmental damage, but the overcrowding affects the quality of the tourist experience and overall satisfaction.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "one team follows the path of least ecological impact, while the other introduces tourism to a pristine area. The tourists are enthralled by the untouched wilderness but at the cost of disturbing the pristine environment.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "The teams take different paths. The team avoiding the untouched area maintains the status quo while the other team enraptures tourists with new sightings, igniting a possible backlash for intrusion into unspoiled nature.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into uncharted terrain, increasing tourist satisfaction but leading to a noticeable impact on the untouched ecosystem. The effects of this decision will be assessed in subsequent turns.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "With the landing site decided, each team must now settle on the maximum number of tourists they will accommodate. It presents a tightrope walk between sustaining tourism revenue and maintaining the environmental balance.",
+      "options": {
+        "A": "Allow a larger number of tourists, increasing revenue but straining conservation efforts.",
+        "B": "Limit the number of tourists, reducing the potential environmental footprint but also revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow high tourist numbers. This leads to a significant increase in revenue but also quantifiable environmental impact. The balance between conservation and tourism becomes challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team limits tourist numbers, slowing revenue but easing strain on the environment. The other team fills up to capacity, maximizing income but drawing criticism for its environmental impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team caps tourist numbers while the other escalates. The latter's immense revenue draws unwanted attention to the effect of their operations on the Arctic ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to limit tourist numbers. The reduced strain on the environment is widely appreciated, but the sustainability of operations with lesser income is now a question.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Research indicates that proactive tourist participation in conservation can be as effective as imposing restrictions and regulations. But which method should the teams implement?",
+      "options": {
+        "A": "Involve tourists in activities that have conservation goals.",
+        "B": "Emphasize strict regulations and occasional closures for recovery periods."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams involve tourists in conservation work. This innovative measure increases tourist satisfaction and environmental awareness but falls short in addressing larger conservation targets.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team introduces tourist-led conservation while the other imposes regulations. The diverse approaches yield interesting results, with increased awareness on one side and improved conservation efficacy on the other.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one folding tourists into conservation and the other tightening rules, tourists get a mix of freedom and regulation. It's a workable model, pedaling awareness while ensuring environmental safety.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Strict regulations and occasional closures are implemented by both teams. Despite minor tourist disappointment, the environmental recovery is noticeable, proving that strong regulations can be effective.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

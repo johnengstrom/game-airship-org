@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: A Flight To Survival",
+  "gameDescription": "Two teams of futuristic airships, Seraphim Guardians (Blue Team) and Phoenix Warriors (Red Team), undertake a daring mission: transport a group of rescued pangolins from Africa to a new, innovative enclosure in Vietnam. Each decision made by the airship crews will affect the success of the mission, the safety of the pangolins, and the environmental impact of the journey. As they traverse the globe, they will face strategic challenges, requiring hard decisions. The teams must carefully plan their actions, as the situation could change drastically with just one maneuver.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Seraphim Guardians",
+      "description": "Experts in eco-responsible navigation and animal welfare."
+    },
+    "redTeam": {
+      "name": "Phoenix Warriors",
+      "description": "Specializing in swift transport and tactful handling of vital wildlife."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Upon liftoff, the airships detect a swarm of drones in the airspace. These could cause distress to the rescued pangolins.",
+      "options": {
+        "A": "Set off electronic signals to ward off drone swarm.",
+        "B": "Alter the route to avoid the drone swarm."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships opt to set off electronic signals. The drones scatter, and the pangolins remain undisturbed. This swift decision saves them traveling time and improves morale.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As one airship wards off the drones with signals, the other takes a detour. This results in a delay for the detouring ship while the prompt action of the former saves time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one airship taking a detour and the other warding off the drones, the animals remain calm. Despite a delay, their collective approach looms as a promising blueprint for future missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships alter their course to avoid drones. Though this adds time to their journey, it ensures the pangolins remain stress-free and reaffirms their commitment to animal welfare.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The airships receive emergency alerts about a wild bush fire. Seeking help could divert resources from local wildlife rescue efforts.",
+      "options": {
+        "A": "Assist with proprietary firefighting equipment without landing.",
+        "B": "Fly above the smoke and monitor the situation, coordinating local efforts."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy firefighting gear remotely, controlling the blaze. Their quick thinking dampens the bushfire, saving not just time but also local wildlife. The pangolins remain secure.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship tackles the fire while the other coordinates locally. Their combined efforts minimize the fire's impact on wildlife. However, the effort consumes more resources and energy.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team coordinates local efforts, the other combats the fire remotely. This tactic proves effective and preserves fuel and resources. Both airships and the pangolins remain unharmed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams make the choice to sway above the smoke while coordinating relief efforts. Despite using extra fuel to maintain altitude, their collaboration proves beneficial for the local wildlife.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach the Vietnamese coast, the airships notice a poacher's vessel. Taking them on might consume extra energy.",
+      "options": {
+        "A": "Engage stealth mode to avoid detection and silently report them.",
+        "B": "Confront the poachers using non-violent, advanced technology."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships opt for stealth, reporting the vessel without detection. They protect the pangolins and continue their peaceful voyage. Their silent vigilance leads to the capture of the poachers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team turns stealth to silently report the poachers, the other confronts them directly, leading to the poachers' swift arrest. This ensures a safer environment for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The confrontation by one airship and the stealth of the other leaves the poachers no escape. Arrested, they pose no further threat to wildlife. This joint effort saves resources and preserves tranquility.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Undaunted, both airships confront the poachers openly. Their bold stance, backed by advanced technology, secures the arrest. The triumph reinforces the core mission of wildlife protection.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

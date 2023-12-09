@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: The Pangolin Rescue Mission",
+  "gameDescription": "Two innovative airships, 'Capstone Guardians' and 'Fauna Fliers', are racing against time and piracy to deliver a critical cargo of rescued pangolins to a new sanctuary in Vietnam. With the lives of the world's most trafficked mammals at stake, the teams must make difficult choices that will determine the success of their mission and the survival of the pangolin species.",
+  "setting": {
+    "location": "Asia to Vietnam",
+    "missionStart": "Unnamed Wild Animal Trafficker Camps",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Capstone Guardians",
+      "description": "Specializing in sophisticated navigation and wildlife security."
+    },
+    "redTeam": {
+      "name": "Fauna Fliers",
+      "description": "Famed for animal rescue transport and operational efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Airships receive information of two separate locations holding captive pangolins. One is heavily guarded while the other is in a dense forest.",
+      "options": {
+        "A": "Fly towards the guarded location using stealth technology.",
+        "B": "Opt to venture into the forest, deploying the terrain agnostic landing gear."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams successfully retrieve pangolins from the guarded location, surprising poachers with their stealth capabilities. Despite the success, the pangolins are shaken, reflecting the cost of their risky choice.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Splitting up, the Capstone Guardians retrieve pangolins from the guarded area with their silent technology while Fauna Fliers rescue some from the tree-laden forest. Their diverse approach maximizes the rescue operation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Fauna Fliers use their stealth technology to rescue pangolins from the guarded location, while the Capstone Guardians extract some from the dense forest. Their teamwork increases the number of rescues.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the dense forest. Their airships' unique landing gear adapts to the unpredictable terrain, rescuing a surprising number of pangolins. Their cautious strategy pays off in spades.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the pangolins show signs of stress. Immediate actions need to be taken to ensure their well-being.",
+      "options": {
+        "A": "Reduce flight speed to give pangolins more comfort but risk delay.",
+        "B": "Deploy drones to create natural habitat sounds within the airships."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams slow down their airships, prioritizing the pangolins' wellbeing over delivery speed. While it adds hours to the journey, the calm pangolins seem to appreciate the humane decision.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Capstone Guardians slow down while Fauna Fliers deploy habitat drones. The harmony of speed reduction and wild sounds soothes the pangolins and optimizes the mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Fauna Fliers slow their speed while Capstone Guardians use drones. The combination of the teams' strategies significantly reduces the pangolins' stress, highlighting the strength of their diverse approach.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships deploy drones to simulate familiar sounds. It creates an unexpected environment of calm for the pangolins. The creative solution brings effective results.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships near Vietnam, severe weather appears on the horizon. The teams need to choose the next course of action.",
+      "options": {
+        "A": "Weather the storm using advanced shielding tech to protect the pangolins from distress.",
+        "B": "Take a detour despite the extended travel time but ensure pangolins’ comfort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the storm, waking the pangolins from their respective peace. Advanced shielding maintains airship integrity but the high-paced action stirs pangolins from their rest. They survive, but at what cost?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Capstone Guardians weather the storm while Fauna Fliers detour. The combination leads to the safe and efficient delivery of pangolins, showcasing a perfect blend of risk management and care for wildlife.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fauna Fliers face the storm while Capstone Guardians detour. A harmonious balance is achieved - a testament to their commitment and adaptability, ensuring most pangolins arrive calm.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to detour. They prioritize the well-being of the pangolins over time, turning a critical mission into a testament to the importance of compassion and care for the wildlife they vow to protect.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Paths on Ice",
+  "gameDescription": "The unspoiled wilderness of Antarctica is facing a new challenge: the rise of tourism. As captains of futuristic airships, players must tread lightly on this sensitive landscape. Balancing the demands of adventure seekers with the urgent call for environmental stewardship, which path will you choose?",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Base Camp Charlie",
+    "missionEnd": "Vying Points of Interest"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Emerald Explorers",
+      "description": "Experts in managing humane interaction with natural habitat."
+    },
+    "redTeam": {
+      "name": "Ruby Researchers",
+      "description": "Specialize in scientific missions involving ecological balance."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "For drawing the tourists, teams have to select a landing point. The choices reflect how much the teams are willing to expose the uncharted territories of Antarctica to human influence.",
+      "options": {
+        "A": "Choose a popular but already impacted area for the landing site.",
+        "B": "Choose a pristine, untouched location that has never been exposed to tourism before."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the popular area, reducing pressure on pristine sites. But the congestion and eroding site quality result in tourist dissatisfaction.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team safeguards the unblemished area, while the other exploits the popular area, leading to both resource preservation and public discontent.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The pristine area's enchantment is marred by one team, while the other grapples with managing overcrowding at the popular site.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into the pristine territory, their decisions leading to new wonders for the tourists, but at the cost of the untouched wilderness.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Tourist influx confronts the teams. Crowds bring prosperity, but they also come with a heavy ecological footprint. The teams must decide on the tourist capacity.",
+      "options": {
+        "A": "Allow a higher number of tourists, promising higher impact but larger profits.",
+        "B": "Limit tourist numbers for conservation, but with less commercial gain."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow a higher tourist influx, leading to greater economic benefit. However, the wilderness feels the impact of this mass visitation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team balances conservation and commerce efficiently, while the other team faces criticism for promoting unsustainable tourist numbers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team earns praise for its responsible tourist management, while the other is overwhelmed by profit-driven decisions and subsequent ecological issues.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourism and prioritize Antarctica's conservation. Tourists appreciate the responsible measures taken, but revenue is dramatically reduced.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The increasing footprint call for aggressive conservation initiatives. The airship captains are now left with two choices.",
+      "options": {
+        "A": "Engage tourists in active conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to engage tourists in conservation. It's a resounding success, with tourists embracing their role as stewards of the environment.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "One team enforces strict regulations while the other engages tourists in conservation. The resulting balance enables sustainable tourism while preserving the environment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team imposing restrictions and the other involving tourists in conservation, a perfect balance between enforcement and engagement is achieved.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams implement strict regulations and closures, leading to a safer environment, but also tourist dissatisfaction due to access limitations.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

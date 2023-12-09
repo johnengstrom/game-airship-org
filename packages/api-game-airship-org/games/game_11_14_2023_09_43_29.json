@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "Welcome to 'Operation Pollination'. Navigate your airship and take decisive actions to save the crisis-stricken global bee population. Players must balance nuanced decision-making against the ticking clock of environmental turbulence. Guided by sustainability, this mission taps into our collective responsibility to reverse the harmful impact of natural disasters and human intrusion on bee habitats.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Various locations affected by environmental disasters",
+    "missionEnd": "Global bee protection and restoration"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Apis Aviators",
+      "description": "Distinct for their strategic thinking and ecologically responsible approaches."
+    },
+    "redTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Known for their innovative ways and dedication towards environmental conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Instead of the gentle sounds of wingbeats and bees' gentle hum, a deafening silence blankets the hurricane-hit region. Do you restore the habitat with native flowers (Option A) or establish safe zones for new bee colonies (Option B)?",
+      "options": {
+        "A": "Sow the seeds of native flowers to restore natural habitats of bees.",
+        "B": "Establish safe zones for new bee colonies, ensuring their prosperity post disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Unified in their efforts, both teams embrace nature to combat desolation. The flowering meadows attract an array of bees, anchoring new life amidst the ruins. However, the lack of intervention for colony formation may pose future challenges.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Rapid urbanization and monoculture farming have made safe zones a necessity. The Navigators prioritize safeguarding precious bee-lines, whilst the Aviators sow seeds of hope. This careful symbiosis might just be what the bees need.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Aviators endeavour to reflower the land, Navigators focus on breeding resilient bee colonies. Their contrasting approaches bring harmony, address the crisis from multiple angles and allow for a more balanced ecosystem.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams dedicate their energy towards setting up safe zones for bees amid the heart-wrenching devastation. In this sanctuary, resilient colonies arise, invigorating the area with a buzz of hope, but could they have done more?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Post-Wildfire Restoration: Flames once devoured the area, leaving charred soil laden with lost possibilities. How can you heal this land for the bees (Option A) or can artificial habitats be the key (Option B)?",
+      "options": {
+        "A": "Rejuvinate the tormented area with bee-friendly plants to encourage beehive rebuilding.",
+        "B": "Design artificial habitats to host the homeless bees until nature takes it course."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams rally to sow the seeds of restoration, trusting in the healing power of nature. The sprouting vegetation offers bees a home, turning the scorched earth into a fertile cradle of rebirth.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Navigators seed life, the Aviators create bee safe-havens. These efforts coexist, providing immediate relief, while awaiting nature's recovery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Aviators sow new life into the wounded land while Navigators initiate a project to house displaced bees. Their combined efforts offer the bees a balanced blend of natural and man-made refuges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "In an unconventional approach, both teams construct artificial habitats to host displaced bees. Cool, fabricated hives start buzzing with life. However, without natural vegetation, sustainability may be inaccessible.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Sustainable Expansion: With the crisis under control, it's time to ensure sustainable growth. Do you employ advanced ecological tech (Option A) or launch an educational initiative to alter human perspective (Option B)?",
+      "options": {
+        "A": "Establish bee sanctuaries with advanced ecological technology for an ideal habitat.",
+        "B": "Roll out robust educational campaigns promoting bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams unite to integrate technology with nature. Their revolutionary sanctuaries soon resonate with happy bee songs under the drone-monitored sky. Yet, lack of widespread awareness may limit their project’s impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Navigators create an ecological marvel as Aviators prepare to educate minds. Tech meets knowledge, creating a perfect blend for bee protection and a testament to the power of interdisciplinary collaboration.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Aviators' eco-parks and Navigators' educational onslaught bring bees into the spotlight. This approach readies the world for a bee-friendly future, as they tackle the challenge from both ends.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on spreading knowledge about bees. The world is buzzing with newfound respect for these tiny heroes. However, will awareness alone suffice in creating a lasting impact for bee conservation?",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

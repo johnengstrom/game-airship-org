@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	let volume = 0.20; // Default volume level
+	let volume = 0.2; // Default volume level
 
 	let audio;
 
@@ -14,13 +14,13 @@
 			hls.loadSource(radioStreamUrl);
 			hls.attachMedia(audio);
 			hls.on(Hls.Events.MANIFEST_PARSED, function () {});
-			audio.volume = 0.20;
+			audio.volume = 0.2;
 		} else if (audio.canPlayType('application/vnd.apple.mpegurl')) {
 			console.log('application/vnd.apple.mpegurl');
 			// This will run on Safari, where HLS is natively supported
 			audio.src = radioStreamUrl;
 			audio.addEventListener('loadedmetadata', function () {});
-			audio.volume = 0.20;
+			audio.volume = 0.2;
 		} else {
 			console.error('HLS format is not supported in this browser.');
 		}
@@ -34,27 +34,9 @@
 	}
 </script>
 
-<!-- Audio player container -->
 <div class="flex items-center justify-center w-full pt-8">
-	<!-- Audio player element -->
-	<audio id="audioPlayer" class="w-full mt-8" controls></audio>
+	<audio id="audioPlayer" class="w-full mt-8 h-8" controls></audio>
 </div>
-
-<!-- <div class="flex items-center justify-center w-full pt-2">
-	<input
-		type="range"
-		min="0"
-		max="1"
-		step="0.01"
-		class="styled-slider mt-4 w-64"
-		bind:value={volume}
-		style="background: linear-gradient(to right, #4fd1c5, #38b2ac);"
-	/>
-</div> -->
-
-<p class="mt-4 text-center text-sm">
-	<small>Airship Radio</small>
-</p>
 
 <style>
 	/* Custom styles for the slider */

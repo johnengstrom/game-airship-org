@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: The Pangolin Promise",
+  "gameDescription": "Assume control of intelligent airships, the 'Skyward Sanctuary' of the Blue Team, and the 'Aeroboreal Habitat' of the Red Team. In a mission defined by compassion, your cargo consists of pangolins, the world's most heavily trafficked wild mammal. Your objective: to transport these vulnerable creatures safely from a poaching hotbed in Africa to a specifically designed sanctuary in Vietnam. Your choices en route will dictate not only the efficiency of your mission, but also its impact on the wildlife you are sworn to protect.",
+  "setting": {
+    "location": "Above three continents: Africa, the Middle East, and Asia",
+    "missionStart": "African Savannah",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Sanctuary",
+      "description": "Prides themselves on providing safe and stress-free transportation for animals."
+    },
+    "redTeam": {
+      "name": "Aeroboreal Habitat",
+      "description": "Experts in efficient cargo transport whilst minimizing environmental footprint."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Mission started, crews encountered African heatwaves that could potentially disturb pangolins' physiological balance. Decision must be taken immediately.",
+      "options": {
+        "A": "Use advanced cooling system, potentially utilizing more energy.",
+        "B": "Navigate to a higher, cooler altitude, extending the duration of flight."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decided to activate their cooling systems. The pangolins are relieved from the heat stress, but the extra energy consumption might leave an environmental footprint.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Sanctuary ascends to cooler altitude while Aeroboreal Habitat cools down panoglin-filled cargo. Is the additional energy usage enough for keeping every life safe?",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Aeroboreal Habitat opts to rise, acquiring extended flight duration, while Skyward Sanctuary expends fuel for heat management. Balancing energy usage and animal safety becomes key.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ascend, tolerating an extended flight schedule for the comfort of their precious cargo. Their shared dedication to safety shines bright!",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon crossing the Arabian Desert, an unexpected dust storm confronts the airships. Arrays of decisions cloud the journey.",
+      "options": {
+        "A": "Navigate through the storm relying on  advanced radar and autopilots.",
+        "B": "Detour around the storm which could add hours of flight and energy consumption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams press forward, trusting radars and autopilots. Their determination withstands the storm, but will their zealous decision have unseen consequences?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With Skyward Sanctuary enduring the sandstorm and Aeroboreal Habitat choosing safer detour, the journey unfolds differently for each team. Each choice bears its own cost.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Aeroboreal Habitat braves the sandstorm while Skyward Sanctuary reroutes to avoid the storm, balancing pangolin safety with fuel consumption and time efficiency.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Choosing pangolin safety over haste, both teams circumvent the storm. This camaraderie amidst adversity highlights their shared commitment to their precious cargo.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, teams receive update about a potentially stressing situation at the landing station due to simultaneous arrival of other airships. Decisive planning required.",
+      "options": {
+        "A": "Fly at higher speed to arrive before others, regardless of extra fuel consumption.",
+        "B": "Maintain normal speed and hence face a crowded landing station."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams increase speed, burning extra fuel but ensuring a smooth landing for pangolins. Their dedication assures safe arrival yet at the cost of energy use.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Sanctuary risks high speed while Aeroboreal Habitat sticks to normal speed, navigating a crowded station. Their differing approaches reveal the nuances of wildlife transport.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Aeroboreal Habitat accelerates, while Skyward Sanctuary endures the bustling station, managing to safely deliver their delicate cargo within the chaos.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to maintain normal speed. Their joint effort in ensuring the pangolins' safety despite the crowded situation is a testament to their commitment.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

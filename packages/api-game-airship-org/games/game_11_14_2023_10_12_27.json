@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Ecosphere Expedition",
+  "gameDescription": "In the distant future, Antarctic tourism booms and poses new challenges to the untouched wilderness. Players, as the captains of intelligent airships, must tactically navigate the pristine landscape. Balancing the demands for exploration with protecting Antarctica's unique eco-complexities, teams must facilitate scientific research and promote sustainable tourism.",
+  "setting": {
+    "location": "Skyways above Antarctica",
+    "missionStart": "Global Antarctic Expeditionary Base",
+    "missionEnd": "Pristine Antarctic Wilderness"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polaris Protectors",
+      "description": "Experts in eco-tourism and sustainable travel strategies."
+    },
+    "redTeam": {
+      "name": "Antarctic Advocates",
+      "description": "Specialists in scientific research and conservation tactics."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must choose a landing site for tourists. This critical decision pivots on striking a balance between offering an immersive experience and preserving the Antarctic's pristine wilderness.",
+      "options": {
+        "A": "Choose a popular but already impacted site to concentrate tourist footprint.",
+        "B": "Select a pristine but untouched location, risking untouched Antarctica."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose established but impacted sites. This balanced approach preserved more of Antarctica's untouched wilderness but concentrated human effects in specific areas.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team selected a popular location while the other ventured into untouched wilderness. The intrusion into the pristine site attracted criticism, but exploration of new areas sparked increased interest in Antarctic conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams diverged in their approaches, with an untouched location being explored and an impacted site receiving more visitors. The divergent strategies led to polarized opinions about Antarctic tourism management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ventured into untouched locations, widening the impact of tourism across Antarctica. Although this exposed more tourists to the stunning beauty of the continent, it sparked fierce debates about the boundaries of exploration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Managing the flow of tourists is crucial. The teams must decide on the capacity of visitors their airships can carry and the potential impact on the ecosystem.",
+      "options": {
+        "A": "Increase tourist capacity for higher revenue, risking greater environmental footprint.",
+        "B": "Limit tourist numbers for conservation purposes at the cost of reduced revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to take more tourists, resulting in higher earnings but more significant environmental impact. This sparked debates about the effects of over-tourism on Antarctica's fragile ecosystems.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team opting for maximum capacity and the other limiting numbers, the contrast led to a mixed response. The conservation-focused team was applauded for protective measures, while the profit-oriented team faced criticism.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The teams chose contrasting strategies. The team with more tourists faced scrutiny, but their higher revenue led to more substantial contributions to Antarctic conservation funds.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to limit tourist numbers, prioritizing conservation over revenue. They received high acclaim for their conservation measures, raising awareness about Antarctica's precious ecosystems.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams' conservation strategies are in the spotlight. A commitment to sustaining Antarctica's unique ecosystem and preserving its pristine wilderness will be critical to their mission success.",
+      "options": {
+        "A": "Engage tourists in conservation efforts at the risk of mismanagement.",
+        "B": "Assert stringent regulations and closures, possibly resulting in tourist dissatisfaction."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to involve tourists in conservation, leading to higher awareness but with some mismanagement due to lack of expertise. Their cooperative approach fostered a greater sense of responsibility among tourists.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team incorporating tourists in conservation and the other strictly regulating access, the teams received mixed reactions. The involving team received praise for their innovative approach, while the strict team faced some discontent but managed to keep impact minimal.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team focused on tourist engagement while the other imposed stringent rules. Both strategies received praise from different quarters, reflecting the complexities of wildlife protection and tourism satisfaction.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams assert firm rules and closures. While this led to some dissatisfaction among adventurous tourists, they earned respect for steadfast commitment to conservation from environmental agencies around the globe.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

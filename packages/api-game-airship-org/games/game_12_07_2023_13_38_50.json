@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Celestial Carriers: The Pangolin Project",
+  "gameDescription": "In a world grappling with rampant illegal wildlife trade, two futuristic airships operated by Greater Good Charities and Wildlife At Risk have embarked on a crucial mission. Tasked with the transportation of poached Pangolins from Africa to a new sanctuary enclosure in Vietnam, every decision made during this transit directly affects the survival of this frail species, the mission's success and our impact on the environment.",
+  "setting": {
+    "location": "Above Africa and Eurasia",
+    "missionStart": "Rescue Centers, Africa",
+    "missionEnd": "New Sanctuary Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Guardian Shuttles",
+      "description": "They are known for their swift navigation and advanced wildlife preservation systems."
+    },
+    "redTeam": {
+      "name": "The Lifeline Cruisers",
+      "description": "Experts in resource management and energy conservation, crucial for the Pangolins' survival."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Right after departing Africa, both airships receive intel about a possible poacher camp. A decision has to be made immediately.",
+      "options": {
+        "A": "Dispatch a drone to confirm the activities at the suspected camp and alert local authorities.",
+        "B": "Ignore the suspected camp to concentrate on safely transporting the already rescued pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to launch drones. The poacher camp is confirmed and dealt with promptly by local authorities. However, resources used on the drone launch might have been conserved for the journey.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team launches a drone while the other remains alert on the ongoing mission. This balanced decision ensures both immediate and long term success.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Balancing between the hassle of poacher camps and the security of rescued pangolins, teams manage to strike a balance. A testament to their profound commitment to wildlife protection.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to concentrate on the pangolins. While their commitment to the mission is commendable, a potential chance to dismantle a poacher camp is missed.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Flying over the vast Indian Ocean, a fuel emergency arises on a nearby commercial freight vessel.",
+      "options": {
+        "A": "Share fuel reserves with the distressed vessel to prevent a potential disaster.",
+        "B": "Continue the mission by ignoring the fuel emergency and preserving resources for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to help the vessel which goes a long way to highlight their compassionate stewardship. This, however, brings their fuel reserves under strain, adding a challenge for the mission ahead.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team decides to help the vessel, the other focuses on conserving resources for the rescued pangolins. This scenario draws attention to the constant struggle between immediate needs and long-term conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team prioritizes the pangolins, while the other assists the distressed vessel. It goes to show how complex decisions can coexist in the paradigm of mission & compassion.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships decide to ignore the vessel's distress call to focus on the pangolins. It's a risky move that outlines the severity of their mission while highlighting the need for effective sea transport management.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, both airships receive a last-minute change to deliver some pangolins to an on-route haven in Laos.",
+      "options": {
+        "A": "Change course to Laos before heading to Vietnam.",
+        "B": "Ignore the haven in Laos, heading directly to Vietnam."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams agree to the detour. Proceeding to Laos adds travel time and energy consumption, but the pangolins' safety is ensured. It’s an enlightening exercise in collective decision-making.",
+          "bonusCard": "shared"
+        },
+        "AB": {
+          "narrative": "With one team heading to Laos and the other to Vietnam, the pangolins are distributed evenly helping in their survival. This result is lauded as an optimal solution marking a successful end to their journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team proceeding to Laos, and the other to Vietnam, ensures smooth distribution of pangolins, preventing overload at one center. This exhibits clever strategizing that matters in such crucial missions.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Ignoring the haven in Laos, both airships decide to head directly to Vietnam. This bodes well for resource conservation and travel time but overcrowds the Vietnamese sanctuary.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Protectorate: Aerial Guardians",
+  "gameDescription": "Control leading-edge airships of two team - Red Whisker Flyers and the Blue Shell Guardians on a life-saving mission. Based in Africa and Vietnam, they transport vital resources and equipment to safeguard the pangolins, who are the most heavily trafficked wild mammals globally. Each strategic decision made by you impacts not only the success of the mission, but also the survival of these endangered creatures and the environment.",
+  "setting": {
+    "location": "Between Africa and Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Blue Shell Guardians",
+      "description": "Veterans in wildlife conservation logistics and operations."
+    },
+    "redTeam": {
+      "name": "Red Whisker Flyers",
+      "description": "Specialists in executing high-risk international missions."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships, carrying rescued pangolins, get news of poachers in the vicinity. They must decide on their next move.",
+      "options": {
+        "A": "Take a detour to avoid the poachers, which consumes extra fuel but ensures safety.",
+        "B": "Continue on the current route using advanced stealth technology."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to take the detour. They consumed more fuel but safely transported the pangolins, setting a precedent in wildlife rescue missions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Whisker Flyers took the detour, while Blue Shell Guardians activated their stealth system. The Guardians' daring move proved successful, leaving poachers bemused.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Shell Guardians took the detour, the Red Whisker Flyers managed to pass through undetected. Both teams reflected different sides of successful strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continued on their routes using their stealth tech, evading poachers with ease. This move showed that technology can aid in wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Arriving in Vietnam, both teams discover the new pangolin enclosure is not ready. They need to decide where to temporarily house the rescued pangolins.",
+      "options": {
+        "A": "Use the airships as temporary habitats, straining their resources.",
+        "B": "Coordinate with local agencies to find temporary homes."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams transform their airships into temporary habitats. It strains their resources, but ensures the pangolins' safety, reflecting the dire situations conservationists often face.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Whisker Flyers house the pangolins in their airship while Blue Shell Guardians coordinate with local agencies. Guardians' collaborative strategy reduces the strain on their resources.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Shell Guardians turn their airship into a habitat while Red Whisker Flyers seek local help. Flyers' strategy embodied the importance of community involvement in conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams connect with local agencies to find temporary homes, highlighting the significance of collaboration in wildlife conservation missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Airships are now equipped with LIVE Nest Cams to document the pangolins' journey. But they must decide how to deal with the generated attention.",
+      "options": {
+        "A": "Use the attention to raise awareness about pangolin conservation.",
+        "B": "Keep the mission low-profile to avoid any interference."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use the attention to raise awareness. The campaign goes viral, leading to a surge in donations for pangolin protection, proving the power of publicity in conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Blue Shell Guardians galvanize public support, Red Whisker Flyers opt for a discrete approach, proving an interesting contrast in strategies.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Whisker Flyers amplify awareness, while the Blue Shell Guardians remain low-profile. Gained global support helped realize new conservation facilities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both keep the mission low-profile avoiding unnecessary attention. This strategic move highlights the importance of focusing on the immediate mission in conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

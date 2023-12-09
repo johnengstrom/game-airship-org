@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airborne Guardians: The Pangolin Quest",
+  "gameDescription": "Set in the near future, two elite airship teams embark on a vital mission to transport endangered pangolins from poaching hotspots to a newly built sanctuary in Vietnam. The success of this mission has both global environmental and wildlife conservation implications. Each decision made affects the safety and survival of the pangolins as well as the overall environmental impact.",
+  "setting": {
+    "location": "African Continent to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Saviors",
+      "description": "Experts in wildlife transport, handling, and airship stealth."
+    },
+    "redTeam": {
+      "name": "Flight Guardians",
+      "description": "Masters of airship maneuverability, speed, and fuel efficiency."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships have set off from the African Wildlife Reserve and encounter bad weather along the way. They must choose their course of action.",
+      "options": {
+        "A": "Navigate through the storm using next-generation AI systems, risking turbulence that might distress the pangolins.",
+        "B": "Circumvent the storm, using more fuel but ensuring a smoother ride."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams brave the storm. Advanced systems perform well under pressure, but the pangolins get a little shaken. Astute decisions ensured fuel-saving but alarmed the delicate passengers.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Sky Saviors decided to navigate through the storm while the Flight Guardians found a way around it. The pangolins in the first airship, although a little distressed, are safe, but the longer route increased energy usage for Flight Guardians - a trade-off for a smoother ride.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Flight Guardians chose to cut through the storm while Sky Saviors navigated around it. Despite the longer route and more fuel consumption, the Sky Saviors ensured the pangolins' comfort.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decided to circumvent the storm. Although this route uses more fuel, both teams prioritized the well-being of their precious cargo, ensuring a smoother ride for the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Upon reaching the Pangolin Sanctuary, the teams encounter illegal wildlife traffickers. They must decide on their approach.",
+      "options": {
+        "A": "Rush to the sanctuary to deliver the pangolins quickly, risking a confrontation.",
+        "B": "Lie low and navigate subtly, avoiding attention but delaying the delivery."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "In a dash of bravery, both teams rush to the sanctuary. They manage to deliver the pangolins safely, but their haste alerts the traffickers. A tense standoff ensues, reminding them of the pangolins' vulnerability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Saviors rush to the sanctuary while Flight Guardians lie low, diverting attention. The traffickers, drawn to the Saviors, leaves a clear path for the Guardians - a risk taken, a footing gained.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Flight Guardians make a run for the sanctuary while Sky Saviors opt for stealth. The Guardians' distraction aids the Saviors, but their urgent delivery alerts traffickers - a choice of quick action met with peril.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for stealth and slow delivery. Though delayed, this careful manoeuvre leaves the traffickers unaware of the mission's existence - a testament to the teams' strategy, securing the pangolins' arrival.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As conservation and environmental impact stand at the forefront, the teams need to decide on their return plan.",
+      "options": {
+        "A": "Take a shortcut over human settlements, saving energy but risking noise pollution.",
+        "B": "Follow the less populated but longer route, ensuring minimum disturbance but consuming more fuel."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take the shortcut home, trading fuel efficiency for noise disturbance. Their arrival back at base is met with mixed feelings - their successful mission overshadowed by the environmental compromise.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Sky Saviors take the shortcut back, while Flight Guardians chose the quieter route. The mixed strategies lead to a juxtaposition, balancing out energy usage and environmental disturbance - a decision matrix with intricate implications.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Flight Guardians race back via the shortcut, while Sky Saviors took the longer, quieter route. The contrasting approach paints a picture of pragmatism against idealism, leaving far-reaching effects.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the longer, quieter route, prioritizing minimal environmental disturbance over fuel usage. Despite the extra energy expense, their journey ends on an ecologically considerate note - a silent testament to their commitment to balance their mission with the planet's needs.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

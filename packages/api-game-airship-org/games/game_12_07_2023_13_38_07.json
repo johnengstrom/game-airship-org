@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Plight of the Pangolins: Skyward Sanctuary",
+  "gameDescription": "Two technologically advanced airships, funded by Greater Good Charities and Wildlife At Risk, carry the urgent mission of transporting endangered pangolins from Africa to a new sanctuary in Vietnam. Along the way, they must expertly manage diverse challenges to ensure the safety of the pangolins and the effective use of the airships.",
+  "setting": {
+    "location": "Across the African Continent to Vietnam",
+    "missionStart": "Various Poaching Hotspots in Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Guardians of the Scales",
+      "description": "They're pros at wildlife handling and airship maneuverability."
+    },
+    "redTeam": {
+      "name": "Skyward Sanctuaries",
+      "description": "Expert navigators with a focus on wildlife behavior and needs."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships arrive at the first pangolin rescue site. They have to decide how to capture the pangolins safely.",
+      "options": {
+        "A": "Use specially trained drones to catch and deliver the pangolins to the airship.",
+        "B": "Send ground teams with tranquilizer guns to sedate the pangolins before loading them onto the airship."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy drones. The operation goes swiftly, but some pangolins are afraid of the drones, causing some to flee into nearby zones.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the drones from one airship frighten some pangolins, the other team's ground teams successfully sedate and load the animals without causing fear or harm.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The tranquilized pangolins from the one team are loaded easily, while wandering pangolins spooked by the drones from the other team cause additional catching.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams tranquilize the pangolins. Though it takes longer, they successfully reduce the animals' fear and stress.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Pangolins on the airships are anxious and jittery. The airship teams need to decide how to calm them during the flight.",
+      "options": {
+        "A": "Adjust the ship's internal environment to mimic the pangolins' natural habitat.",
+        "B": "Play white noise mimicking the sounds of the African bush to soothe the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships create habitat-like conditions. Although it uses up power, the pangolins become less stressed, ensuring their well-being.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The airship playing white noise has success soothing the pangolins, while the other with habitat-like conditions sees less stress but increased power consumption.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team playing white noise finds less anxious animals, while the other struggles with power use but manages to keep the pangolins calm.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships use white noise. Pangolins respond positively, reducing stress levels without extra power consumption.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Finally reaching Vietnamese airspace, they encounter turbulence. The teams need to decide how to ensure the comfort and safety of the pangolins.",
+      "options": {
+        "A": "Increase the speed to pass quickly through the turbulent zone.",
+        "B": "Gently navigate through turbulence using advanced weather forecasting."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams surge forward, successfully minimizing the duration of discomfort but at the cost of higher fuel consumption. The safety of the pangolins is ensured, though with a cost to efficiency.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The speeding airship reaches the shelter quickly, but the pangolins are briefly uncomfortable. The slow and careful navigation of the other airship leads to a more comfortable journey for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The pangolins on the faster airship are momentarily rattled, while the ones on the slowly navigating airship fare much better, showing the advantages of advanced weather navigation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for mindful, slow navigation through the turbulence, placing the comfort of the pangolins above speed. The pangolins have a safe, albeit slow final leg to the sanctuary.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: Pangolin Edition",
+  "gameDescription": "In a world where illegal wildlife trafficking witnesses the relentless victimization of shy, gentle creatures like Pangolins, two futuristic airships from Greater Good Charities and Wildlife At Risk take to the skies in a beacon of hope. Teams participate in a critical mission to transport rescued pangolins from the perils of the illicit market to a recently completed safe haven in Vietnam. Every decision made on this aviation exodus impacts the pangolins' well-being, the mission's success, and the overall struggle for wildlife preservation.",
+  "setting": {
+    "location": "Above dense forests and treacherous black markets",
+    "missionStart": "Perilous wildlife markets",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Hope Voyagers",
+      "description": "Skilled in navigation, rescue operations, and empathetic caregiving."
+    },
+    "redTeam": {
+      "name": "Compassion Cruisers",
+      "description": "Adept in wildlife handling, risk assessment, and problem-solving."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The relentless noise from the illegal wildlife market is causing distress to the rescued Pangolins. How do the teams respond?",
+      "options": {
+        "A": "Use soundproof airship compartments to shield pangolins from the noise.",
+        "B": "Quickly ascend to higher altitudes to avoid ground-level noise."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for soundproofing. Remarkably, the pangolins begin to calm, displaying signs of tranquility. However, installing these measures consumed additional energy.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team ascends while the other opts for soundproof compartments. Consequently, the ascending team, although efficient in departure, observes increased distress in their animal cargo.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "One team soundproofs, while the other ascends. The ascending team values swift response but tougher challenges lie ahead with distressed pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ascend quickly, prioritizing departure over immediate comfort. Panic spreads amongst the pangolins, indicating a need for crew reassessment.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, the pangolins display abnormal behavior hinting at possible sickness. What do you do?",
+      "options": {
+        "A": "Adjust airship settings to maintain optimal animal health conditions.",
+        "B": "Radio for aerial veterinary assistance despite the potential delay."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams adjust airship settings. The pangolins start to relax, but the teams consume extra energy to create the optimal environments.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team adjusts the environment while the other calls for assistance. The aerial veterinary team manages to stabilize the situation, though the waiting time adds to the journey duration.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team calls for help, while the other adjusts the airship environment. The team with immediate action manages to stabilize the situation faster, although there are concerns about energy consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams seek external help, delaying their journey. However, both relieved pangolins return to normal, showcasing a victory for patience and expert intervention.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams receive intel of a poacher squadron on their trail. Do they evade or face them?",
+      "options": {
+        "A": "Modify the route to stealthily avoid the poachers.",
+        "B": "Coordinate with local law enforcement and confront the poachers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams modify the route to avoid the poachers. Although successful, the detour costs extra energy and time. But ensuring the safety of the precious cargo was paramount.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team ducks away while the other confronts. The diverting team safely avoids poachers but at the cost of extra fuel. The other team, by confronting the poachers, slows its progress but aids in arresting the culprits.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team confronts the threat while the other slips away. Despite the commendable bravery of the confronters, the evading team gets an uneventful journey, keeping their pangolins stress-free.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams confront the poachers. The subsequent delay in their journey is redeemed as the arrest of the poacher squadron makes headlines while making the skies safer for all.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

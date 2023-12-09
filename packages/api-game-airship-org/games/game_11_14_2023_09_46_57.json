@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Plight of the Pangolin: Air Rescue Mission",
+  "gameDescription": "Two futuristic airships, Apollonian Pheasant and Artemis Carrier are tasked to transport a group of rescued pangolins from Africa to a newly built safe haven in Vietnam. The mission is long and full of challenges. Each decision taken by the airship crews will affect the safety of the pangolins and the environmental impact of this eco-friendly mission. The goal is to ensure the pangolins reach their sanctuary unscathed, without affecting Earth's fragile environment.",
+  "setting": {
+    "location": "Above the plains of Africa, crossing through the Arabian Sea, into Vietnam",
+    "missionStart": "Africa",
+    "missionEnd": "the new pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Apollonian Pheasant",
+      "description": "Known for delicate handling of life-sustaining missions and advanced bio-tech support."
+    },
+    "redTeam": {
+      "name": "Artemis Carrier",
+      "description": "Boasting top-of-the-line life-support systems, this team excels in the safe transport of endangered species."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "During take-off, a dirt twister forms nearby posing a potential risk to the pangolins due to its sandy gusts.",
+      "options": {
+        "A": "Rise above the dirt twister to avoid sand but use more energy.",
+        "B": "Wait for the twister to pass, delaying take-off but ensuring safety of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both crews rose above the twister, rapidly burning through precious fuel reserves. The pangolins, however, remain safe and the timely take-off keeps them on schedule.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Artemis rose above the twister while Apollonian opted to wait. Artemis burns through extra fuel and takes the lead while Apollonian ensures maximum safety for their precious cargo but lags behind.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Apollonian faced the twister while Artemis chose to wait. This decision provided an advantage to Artemis in fuel efficiency but put Apollonian ahead in terms of time.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships waited for the twister to pass, ensuring the pangolins' safety and conserving fuel but delaying the mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Halfway through, a call is received from a stowaway on a pirate ship carrying illegally trafficked pangolins.",
+      "options": {
+        "A": "Reroute to the stowaway's location to rescue the pangolins, risking being detected by pirate radar.",
+        "B": "Proceed with the initial plan while alerting local authorities about the pirate ship."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams diverted from course to rescue the pangolins from the pirate ship. Their swift and coordinated actions increased their mission's scope but put their entire mission at risk of being detected.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apollonian rerouted to the pirate ship while Artemis continued on course. Apollonian was successful in the rescue but got detected by pirate radar causing deployment of local authorities.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Artemis rerouted, while Apollonian stuck to course. Artemis's bold rescue operation got all pangolins on-board but also attracted pirates' attention.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams stuck to their initial plan and called local authorities about the pirates. Though unable to rescue the pangolins themselves, they ensured they were saved while keeping their own mission on schedule.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, they have to navigate through dense fog which may induce stress for the pangolins.",
+      "options": {
+        "A": "Increase altitude to get above fog, but this would mean a cooler temperature which could stress the pangolins.",
+        "B": "Stay at the current altitude and engage thermal sensors to navigate through fog."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams increase altitude, ensuring clear navigation but causing slight distress to the pangolins due to the colder temperature.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Apollonian increased altitude, resulting in some distress among the pangolins due to the cold. Artemis relied on its thermal sensors, reducing the speed due to low visibility.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Artemis increased altitude, inducing slight pangolin stress while Apollonian stayed low, risking slower speed but ensuring comfort for the cargo.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams kept their current altitude, engaging thermal sensors and moving slower but ensuring the well-being of the pangolins, manifesting the perfect balance of speed, safety, and mission success.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: Balance of Ice",
+  "gameDescription": "In this near-future Antarctic adventure, players control two intelligent airships, facing the interplay between scientific research, sustainable tourism, and the protection of a unique ecosystem. The surge in Antarctic tourism has brought a host of new challenges to the pristine wilderness. With each move, the choices you make will either safeguard the last great wilderness or push it closer to irreversible impact.",
+  "setting": {
+    "location": "Antarctic Skies",
+    "missionStart": "South Pole Air Station",
+    "missionEnd": "Research and Conservation Hub, Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Polar Guardians",
+      "description": "Experts in sustainable tourism promoting respectful exploration."
+    },
+    "redTeam": {
+      "name": "Frost Researchers",
+      "description": "Veteran scientists dedicated to generating beneficial knowledge with minimal environmental disruption."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Selecting a landing site for the influx of tourists is the first step. The balance between popular demand and potential environmental impact is delicate.",
+      "options": {
+        "A": "Choose the already impacted, but highly requested area, thus containing further disturbances.",
+        "B": "Opt for a pristine, untouched location, offering a unique experience but risking a new disruption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams direct their tourists to the already impacted site, intensifying the strain. However, they successfully avoid disturbing other untouched areas, preserving them from additional harm.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Polar Guardians choose the familiar path, while Frost Researchers venture into an untouched site. The mix of choices results in a widespread impact yet provides diverse experiences for the tourists.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Frost Researchers stick to impacted areas, while Polar Guardians venture into pristine territory. The dual approach may dilute the overall impact but raises concerns over the spread of disturbance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the untouched areas. The fresh locations receive rave reviews, however, significant care must be taken to ensure the environmental impact is minimal.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Determining the tourist capacity for each area is a critical decision. More tourists mean higher revenue but also a higher potential impact.",
+      "options": {
+        "A": "Allow a larger number of tourists, capitalizing on the demand.",
+        "B": "Limit the tourist numbers to ensure conservation and a more intimate experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to cater to the tourist surge, leading to bustling sights and tourist feedback loops, yet the environmental impact is pronounced and potentially damaging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Guardians accept larger tourist groups, while Frost Researchers limit their numbers. The contrast leaves some tourists disappointed but brings attention to the importance of conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Frost Researchers open the doors wide, while Polar Guardians keep groups intimate. It broadens the tourist experience spectrum but may confuse the message about responsible tourism.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers, offering more exclusive, respectful and impactful experiences while preserving the environment to a greater extent.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Implementing a conservation initiative can help protect Antarctica's endangered ecosystem.",
+      "options": {
+        "A": "Engage tourists directly in conservation efforts.",
+        "B": "Implement strict regulations and occasional area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage tourists in conservation, creating impactful experiences and nurturing global ambassadors for Antarctic preservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Polar Guardians engage tourists directly, while Frost Researchers implement rules and closures. This approach gives tourists a well-rounded view of conservation efforts, emphasising both experience and regulations.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Frost Researchers seek tourist involvement in conservation, while Polar Guardians focus on rules and closures. The blend leads to a more complete understanding of the need for active effort and regulation in preservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on rules and closures. The rigid approach keeps damage to a minimum, although it may jar with some tourists. However, the conservation message is clear and unambiguous.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

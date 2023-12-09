@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Predicament",
+  "gameDescription": "Two elite airship teams, the Sky Saviors and the Cloud Crusaders, embark on a mission of utmost importance: to rescue pangolins, the world's most heavily trafficked wild mammals, from poachers in Africa and transport them to a new sanctuary in Vietnam. This mission is heavily laced with unpredictability and danger. The cargo is precious and vulnerable, with each decision by the airship crews impacting not only the success of the mission but the future of the pangolins.",
+  "setting": {
+    "location": "Skies above Africa",
+    "missionStart": "Various Poaching Hotspots across Africa",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Sky Saviors",
+      "description": "Skilled in animal handling and stealth operations."
+    },
+    "redTeam": {
+      "name": "Cloud Crusaders",
+      "description": "Experts in long-distance transport and efficient energy use."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams reach Africa and need to decide the collection strategy as the poaching hotspots are heavily guarded.",
+      "options": {
+        "A": "Use advanced cloaking technology to move in undetected and secure the animals.",
+        "B": "Coordinate with local enforcement for a joint rescue operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams successfully use their cloaking technology. The pangolins are secured with minimal disturbance, but the tech drains precious energy reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team cloaks and moves in, the other aids local enforcement and distracts the poachers, allowing safe extraction of the pangolins. However, the operation is lengthy and energy-consuming.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team diverts attention of the poachers with the assistance of law enforcement, while the other successfully secures the pangolins using their stealth technology. The operation is swift but energy-intensive.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams along with local enforcement successfully corner the poachers and secure the animals, though the operation uses more resources and exposes the teams to potential danger. The pangolins are safe for now.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While crossing the Indian Ocean, the teams receive an SOS from a ship sinking in a storm.",
+      "options": {
+        "A": "Divert to help the ship, potentially disturbing the pangolins and using extra hydrogen.",
+        "B": "Ignore the SOS and continue with the transport, focusing on the welfare of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert and manage to save the people on the ship, but the detour uses significant energy and unsettles the pangolins. The stakes for their mission just got higher.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team diverts to save the ship, the other continues with the transport, maintaining a stable environment for the pangolins. However, the detouring team uses extra fuel and time.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team continues towards Vietnam while the other team undertakes the rescue. Despite a successful rescue, the risk of running low on hydrogen looms over the heroes.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to prioritize the pangolins, ignoring the SOS. Swift and undisturbed, they close in on Vietnam, knowing their difficult decision may have dire consequences elsewhere.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach Vietnam, a cyclone is observed. Changing course can ensure safety but would delay the mission.",
+      "options": {
+        "A": "Use advanced weather management systems to steer through the cyclone.",
+        "B": "Change course for a longer but safer path, consuming more hydrogen but sparing the pangolins from potential stress."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams fight through the cyclone, expertly using their weather tech. They manage to keep their schedule but are left with minimal fuel and stressed pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team successfully navigates the cyclone while the other takes a safer path. The detour uses more fuel but the pangolins are at ease, ready for their new sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team changes course, while the other passes through the storm. The detouring team provides a peaceful journey for the pangolins, while the other team faces challenges with their energy supply.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams change course. The detour consumes more resources but the pangolins' wellbeing is prioritized. Arriving at Vietnam later than expected, the teams deliver the rescued pangolins into their sanctuary, marking a victory for wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

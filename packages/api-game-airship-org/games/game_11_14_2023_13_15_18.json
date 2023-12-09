@@ -1,0 +1,99 @@
+{
+  "gameTitle": "The Pangolin Airlift: Operation Rescue",
+  "gameDescription": "In the backdrop of the relentless illegal trafficking of the world's most heavily poached animal - the pangolin, two futuristic airships join forces with Greater Good Charities and Wildlife At Risk. Their mission: transport valuable building materials and specialists for the construction of a new pangolin enclosure in Vietnam. Each strategic decision made during this daring airlift directly affects not only the successful completion of the enclosure but also the overall survival of this threatened species. A stealthy, unpredictable wildlife trafficking syndicate must also be navigated. Let the mission commence.",
+  "setting": {
+    "location": "Transpacific Route",
+    "missionStart": "California",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Ark",
+      "description": "Specialists in wildlife transport and anti-poaching measures."
+    },
+    "redTeam": {
+      "name": "Airborne Oasis",
+      "description": "Experts in enclosure construction and ecological sustainability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "An anonymous tip received on both airships reveals an imminent attack by the wildlife trafficking syndicate. The airships must now choose their course of action.",
+      "options": {
+        "A": "Fly a high-altitude path as a counter-measure, risking the hydrogen consumption.",
+        "B": "Coordinate with international authorities to set a trap for traffickers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to fly high, evading the traffickers. The increased hydrogen consumption affects their mission efficiency, but ensures cargo safety. The pangolins’ plight hangs in the balance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team evades via high altitude while the other arranges a trap. The trap slows down traffickers, providing a window for the airships. Paying the hydrogen price, one team ensures a safe journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As one airship ascends, the other coordinates the trap. Undeterred, the traffickers are momentarily delayed, ensuring safe passage for the high-flying team. Today, they fly for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams spring traps for the traffickers, leading to arrests that disrupt the syndicate. Through collective endeavor, they ensure safety without increasing hydrogen consumption. The hazy murky, syndicate waits.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams discover that their cargo contains more building materials than needed, which could potentially be sold to fund more rescue missions but would lose crucial time.",
+      "options": {
+        "A": "Divert path to a save-the-pangolin investor's site for a quick sale, risking delay.",
+        "B": "Proceed with the extra cargo, maintaining their mission timeline."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams elect to sell the extra payload. The airstop cost them time but the funds raised expedite rescue operations across the globe. It's a different route, for a greater good.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team sells while the other continues on their path. The diverged paths decide the outcome. One team faces time constraints while the other enjoys an uninterrupted journey towards the new sanctuary.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team moves ahead while the other halts for a sale. The race against time affects the selling team, but the funds collected heighten rescue operations. Each decision writes a new chapter for the pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide against selling, choosing instead to forge on with their journey. Their synchronized decisions ensure that they arrive in Vietnam on time, marking a newfound victory for the pangolin rescue mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they learn of a development: a pangolin baby born en route. The teams must decide how to best ensure its survival.",
+      "options": {
+        "A": "Divert to a nearby wildlife sanctuary for immediate expert care.",
+        "B": "Continue to the destination and provide in-flight care with their on-board specialists."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to ensure safety first, diverting to a wildlife sanctuary. The detour strains their hydrogen reserves, but they ensure the baby pangolin receives immediate expert care. It's a small price to pay for a life.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team diverts while the other remains on-course, nurturing the baby in-flight. The diversion carries a time penalty but ultimately safeguards the future of an endangered species, the sacrifice leaving an imprint on their mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team provides in-flight care, while the other rushes to the sanctuary. True to their mission, both teams show care in their own way, proving that the sky is more than a route, it's a path to survival.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams utilize their on-board experts, providing in-flight care. Their synergy across the skies marks a shining beacon of hope in what was a desperate situation, and a new chapter unfolds in the saga of pangolin rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

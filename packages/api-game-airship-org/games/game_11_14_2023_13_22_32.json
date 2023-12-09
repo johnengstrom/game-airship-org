@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination",
+  "gameDescription": "In Operation Pollination, players control advanced airships in a near-future mission to revitalize global bee populations, decimated by natural disasters and human activities. The airships, controlled by The Apis Aviators (Red Team) and The Bombus Navigators (Blue Team), transport strategic cargo to various locations, planting flowers, establishing colonies, and conducting essential conservation tasks. Balancing immediate needs against long-term sustainability and navigating an unpredictable environment are key to mission success.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "International Conservation Base",
+    "missionEnd": "Various Pollinator Habitats Worldwide"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Renowned for their nifty maneuvers and cargo handling."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Known for their strategic planning and mission adaptability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Your airships have been assigned to a region recently devastated by a hurricane. The local flora, crucial to the bee population, has been largely obliterated.",
+      "options": {
+        "A": "Deliver and plant seed-bombs of native flowers across hurricane-affected areas, providing much-needed pollination spots for bees.",
+        "B": "Establish new, artificially structured bee colonies in safe zones to ensure their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opted for a bio-centric approach, their airships raining down seeds of life upon the devastated areas. New blooms color the landscape, re-inviting the bees back to their home. The commitment to habitat restoration inspires others to take action.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "A holistic approach emerges as one team plants flowers, and the other sets up new colonies. The combination works wonderfully, with the colonies aligning perfectly with the reblooming zones. Your strategic decisions have created an oasis of life amidst the devastation.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "The teams diverge in their strategies, creating a multi-pronged approach to revival. While one team works on boosting the bee population, the other ensures they have a haven to come back to. The world takes notice of your innovative bee restoration plans.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams decide to prioritize the bees directly, erecting artificial colonies in secure locations. These safe havens begin to thrive as bees find shelter and sustenance, though the lack of widespread flower regeneration is a growing concern.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A swath of land, once teeming with life, lies charred and quiet after an intense wildfire. This region was once a major hub for various bee species.",
+      "options": {
+        "A": "Transport fire-resistant, bee-friendly plants to the region, aiming at long-term ecological recovery.",
+        "B": "Construct artificial bee habitats in unaffected regions for displaced bees, minimizing the impact on bee population."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "A new hope springs from the ashes as both teams deliver specially chosen plants, designed to resist future wildfires. Over time, these new growths stand as symbols of resiliency and adaptation amidst somber signs of the burning past.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While The Bombus Navigators move to create new habitats in safe zones for displaced bees, The Apis Aviators focus on rehabilitating the ravaged land. As bees buzz in their new homes, green shoots slowly reclaim the blackened earth, presenting a powerful illustration of resilience.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "In a combined effort, one team plants fire-resistant vegetation while the other builds new habitats. The results are heartening as bees start to populate the safe zones, and the heavy scent of blossoms replaces the acrid smoke smell.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Focusing on the immediate needs of the displaced bee population, both teams construct new habitats in unaffected areas. Although successful, the need for long-term strategies to reverse the ecosystem damage remains an important next step.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The public is mostly unaware of the crucial role bees play in our ecosystem. There's a need to inform them, leading to greater conservation efforts.",
+      "options": {
+        "A": "Using print and broadcast media, launch an educational campaign across cities to spread awareness about bee importance and conservation.",
+        "B": "Invest in advanced ecological technology to establish state-of-the-art bee sanctuaries that serve as education and research centers."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "A wave of attention is garnered as simultaneous awareness campaigns roll out in major cities. The plight of bees becomes the talk of the town, inspiring countless local conservations efforts, a testament to the power of awareness.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators initiate a citywide broadcast about bee conservation, while The Apis Aviators construct a technologically advanced sanctuary. Combining education with action, they spark an unprecedented interest in bee conservation.",
+          "bonusCard": "shared"
+        },
+        "BA": {
+          "narrative": "The two-pronged approach works. One team rouses the public, while the other lays groundwork for sustainable research. The public, inspired by the awareness efforts, visit the sanctuaries in droves, opening their eyes to the amazing world of bees.",
+          "bonusCard": "shared"
+        },
+        "BB": {
+          "narrative": "Both teams pour resources into creating optimal, advanced bee sanctuaries. The result is breathtaking, but the lack of public awareness means visitor numbers are lower than expected. There's room for improvement in educating the masses about these buzzing wonders.",
+          "bonusCard": "none"
+        }
+      }
+    }
+  ]
+}

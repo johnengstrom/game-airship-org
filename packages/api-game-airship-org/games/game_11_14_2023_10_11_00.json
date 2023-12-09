@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Aid: The Pangolin Mission",
+  "gameDescription": "Two advanced airships, the Orion's Wing and the Sirius Carrier, undertake a crucial mission to secure the future of Pangolins. Poaching claims the lives of about 2.7 million pangolins annually in Africa alone, making them the most heavily trafficked wild mammals worldwide. Greater Good Charities and Wildlife At Risk have built a safe haven in Vietnam, and our airships are charged with the task of transporting rescued pangolins from Africa to this sanctuary. Throughout the journey, strategic decisions must be made that affect not only the mission but also the impact on our precious environment.",
+  "setting": {
+    "location": "Transcontinental over Africa and Asia",
+    "missionStart": "Various Poaching Hotspots in Africa",
+    "missionEnd": "Vietnam Pangolin Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Orion's Wing",
+      "description": "Engineered for efficient navigation and advanced wildlife care."
+    },
+    "redTeam": {
+      "name": "Sirius Carrier",
+      "description": "Designed for heightened defensive measures and optimized energy preservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While collecting the pangolins, an illegal poaching operation is detected nearby. Do you intervene?",
+      "options": {
+        "A": "Directly confront the poachers, possibly putting the mission and pangolins at risk.",
+        "B": "Document their activities and location, and then report to local law enforcement."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for confrontation. The poachers are successfully driven off, but the mission has drawn attention and timing has been compromised. The courage was commendable but the risk immense.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Orion's Wing confronts the poachers, Sirius Carrier documents and reports them. The poaching operation is disrupted, but the teams' different approaches may affect future synchronization.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Sirius Carrier intervenes, allowing Orion's Wing to focus on documentation and reporting. Their combined strategies layout a comprehensive anti-poaching approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams document and report the poaching operation to local law enforcement. They keep the mission discreet, avoid direct confrontation, leading to a successful rescue mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, a significant weather disruption is detected. How do you navigate?",
+      "options": {
+        "A": "Change course now, adding distance and hydrogen usage but bypassing the disruption.",
+        "B": "Continue on the current path, trusting the airships' advanced systems to handle weather-related challenges."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to change course. The storm is avoided, but this elongates the rescue mission, adds to hydrogen usage, and potentially stresses the rescued pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Orion's Wing diverts, whereas Sirius Carrier forges through. The diversion uses more hydrogen, and delay possibly stresses the pangolins, while Sirius Carrier shoulders risk through the storm.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Sirius Carrier deviates skirting the storm whilst Orion's Wing goes on, facing harsh stormy conditions. This strategy introduces delays and risk, but shows adaptability and trust in their airship technology.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to trust their cutting-edge airships to handle the weather disruption. It's a daring move, adding risk but preserving their schedule and demonstrating faith in advanced tech.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing the Vietnamese sanctuary, you learn of another urgent pangolin rescue opportunity. What do you decide?",
+      "options": {
+        "A": "Go for the rescue, further straining resources but maximizing your mission impact.",
+        "B": "Complete the current mission first, ensuring the safe arrival of the existing pangolins in your care."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams go for the additional rescue, further using up hydrogen but saving valuable pangolin lives. It's a daring decision manifesting the dedication to the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Orion's Wing undertakes the additional rescue, while Sirius Carrier focuses on the secure delivery of the pangolins at hand. This split approach strains team synchronization but expands their impact.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Sirius Carrier goes for the new rescue mission, allowing Orion's Wing to concentrate on delivering the already rescued pangolins on time. This balance optimizes rescue and delivery efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to complete the current mission first, ensuring the safe arrival of the pangolins. They prioritize the care for the pangolins they have, securing the mission's success.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

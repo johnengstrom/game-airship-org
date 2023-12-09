@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Guardians of the Sky: Operation Pangolin Rescue",
+  "gameDescription": "In the world of tomorrow, two highly-intelligent airships, Valiant Wings and Guardian Soar, are on a daring mission - to rescue and transport pangolins from Africa to a newly built safe enclosure in Vietnam. Careful decisions and strategies can help these defenseless creatures escape the cruel hands of poachers and pave their way to a hopeful future. Your strategy will directly impact the survival and recovery of the most heavily trafficked mammal - the pangolin.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "New Pangolin Sanctuary in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Valiant Wings",
+      "description": "Specialists in stealth and extraction operations."
+    },
+    "redTeam": {
+      "name": "Guardian Soar",
+      "description": "Experts in animal care and high-speed transportation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Danger looms as both airships discover several poaching camps near the pick-up site. How will they proceed with the wildlife rescue?",
+      "options": {
+        "A": "Conduct a stealth operation at night when the poachers are less vigilant.",
+        "B": "Coordinate with local law enforcement for a joint day-time raid and rescue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams execute a flawless night-time rescue, extracting the scared pangolins quietly and minimizing risk. The stealth approach saves resources but poses challenges with animal stress management.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team conducts a stealth operation, while the other arranges for a day-time raid. The team coordinating with the authorities draws attention, risking the airships' locations, while the stealth team carries out a successful extraction.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team goes for the day-time raid while the other mobilizes at night. The team working with local enforcement manages to dismantle the poaching operation but uses additional resources in the process.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams join forces with local law enforcement for a day-time raid. The operation eliminates several poaching camps but draws attention to the airship’s operations, risking the overall mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "After the successful rescue of the pangolins, the teams face a daunting challenge: ensuring the safety and well-being of the traumatized creatures onboard during the long journey.",
+      "options": {
+        "A": "Devote full resources to manage their stress and health, potentially slowing the journey.",
+        "B": "Maintain normal speed while conducting periodic checks and providing necessary care for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt to provide uninterrupted care for the pangolins, leading to a slow but sure journey. The creatures experience less stress but the prolonged journey consumes substantial hydrogen.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team decides in favor of extended care for the pangolins, while the other maintains speed. While the guardianship team achieves a healthier set of pangolins, they fall behind, dealing with hydrogen shortage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team offers extended care, the other maintains speed, ensuring that despite the minimal care, they manage to stay on track with their hydrogen usage and save more pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams balance their speed with periodic care. The pangolins are more stressed, but the journey proceeds smoothly without any significant impact on the hydrogen reserves.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they must decide how to introduce the pangolins to the new sanctuary most effectively.",
+      "options": {
+        "A": "Gradually acclimatize the creatures to their new environment before final release.",
+        "B": "Release the pangolins quickly to allow them to explore and adapt independently in the new environment."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams carefully acclimatize the pangolins, providing them with a soft transition that minimizes stress but consumes more resources. This care indicates their dedication to long-term recovery over quick success.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team acclimatizes the creatures while the other quickly releases them. The released pangolins face initial struggle, but adapt more rapidly. However, they put greater strain on sanctuary resources in the process.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team provides a soft transition for the pangolins, and the other releases them quickly. The rapid release method is resource-efficient but places stress on the sanctuary due to the sudden increase in numbers.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams release the pangolins quickly into the sanctuary. The sudden abundance of new environment leads to initial chaos but resource efficiency gives the teams an extra edge in this crucial mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

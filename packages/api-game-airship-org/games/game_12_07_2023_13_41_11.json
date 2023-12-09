@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue Mission: Skies of Hope",
+  "gameDescription": "In a desperate bid to fight the pangolin trade in Africa leading to the loss of 2.7 million pangolins annually, two futuristic airship crews named Greater Good Carriers and Wildlife Wings have been given an urgent mission. The objective is to transport endangered pangolins from Africa to a newly built safe sanctuary in Vietnam. Specialists in wildlife transportation and conservation, their journey will impact the survival of pangolins and pave the way for innovative wildlife conservation methods.",
+  "setting": {
+    "location": "Above the Indian Ocean",
+    "missionStart": "Wildlife Conservation Park, Africa",
+    "missionEnd": "Pangolin Sanctuary, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Carriers",
+      "description": "Specializing in wildlife conservation and sustainable transportation."
+    },
+    "redTeam": {
+      "name": "Wildlife Wings",
+      "description": "Experts in careful handling of endangered species and climate control technology."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams receive intel of illegal pangolin hunting in a nearby forest. They are asked to intervene, yet they risk alerting animal traffickers, potentially putting the pangolins and staff in danger.",
+      "options": {
+        "A": "Intervene directly and attempt to rescue more pangolins, risking potential conflict with traffickers.",
+        "B": "Notify local authorities and provide support, thereby ensuring their mission remains covert."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams intervene directly, managing to rescue more pangolins but potentially endangering their mission. Their reckless courage is admirable but might have negative repercussions.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Carriers intervene, drawing attention and allowing Wildlife Wings to carry on unnoticed. The bold move may prove costly, but their sacrifice saves more pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Wings draw the traffickers’ attention while Greater Good Carriers continue unimpeded. The strategic move ensures the safety of the primary mission and gains necessary attention against the traffickers.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinate with local authorities. While no extra pangolins are rescued directly, the joint efforts disrupt trafficking operations without compromising their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "As the airships cross the Indian Ocean, a cyclone is forming beneath them. Their decision on how to proceed will affect their timeline and the well-being of the onboard pangolins.",
+      "options": {
+        "A": "Fly through the cyclone, relying on strong airship hulls and advanced stabilization features for the pangolins’ comfort.",
+        "B": "Fly around the cyclone. This delays the delivery but ensures a smooth journey for the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams fly through the cyclone. Their advanced technology endures, but anxiety amongst the pangolins spikes. Their dedication to the mission’s timeliness is clear, but not without stress on their precious cargo.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Carriers fly through while Wildlife Wings circumnavigate the cyclone. While the latter experiences delay, their pangolins experience less stress, becoming a picture of ideal wildlife transport.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Wings fly through the cyclone while Greater Good Carriers detour. The carriers' pangolins fare better through the journey, showcasing their focus on animal welfare.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the longer, safer route for their pangolins, marking a significant step in responsible wildlife transportation. Their prudent decision cultivates trust amongst their donors.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching the edge of Vietnam's airspace, they are informed of a military exercise which can scare the pangolins and further delay them. They now need to decide their approach.",
+      "options": {
+        "A": "Negotiate with the Vietnamese authorities for a brief suspension of the exercise.",
+        "B": "Adjust their course to avoid the exercise area, delaying their arrival but ensuring the pangolins' comfort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams negotiate successfully, suspending the exercises and ensuring a timely and comfortable arrival. Their joint efforts showcase the importance of diplomatic relations in wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Carriers negotiate while Wildlife Wings reroute. Carriers arrive on time, while Wings' pangolins experience a less stressful journey. Both strategies demonstrate effective, yet varied, wildlife transport methods.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife Wings negotiate while Greater Good Carriers reroute. Wings ensure a quicker delivery while Carriers' pangolins fare better. The varied tactics highlight the tough decisions faced in wildlife conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams adjust their course, prioritizing the pangolins' comfort over the delivery schedule. Their decision welcomes grateful applause from the sanctuary awaiting their precious guests.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

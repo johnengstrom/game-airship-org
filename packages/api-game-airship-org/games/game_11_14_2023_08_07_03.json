@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin's Hope: A Raid on Illegal Wildlife Trade",
+  "gameDescription": "Two AI-driven cargo airships undertake a covert rescue mission to liberate pangolins from the thralls of illegal wildlife trafficking in Africa, transporting them to a newly constructed sanctuary in Vietnam. Decision-making scenarios challenge players to strategize their mission involving the safe transport of these sensitive creatures, combating traffickers, and minimizing environmental impact.",
+  "setting": {
+    "location": "Between Africa and Vietnam",
+    "missionStart": "Poaching hot-spots in Africa",
+    "missionEnd": "New pangolin enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Vanguard",
+      "description": "Specializing in covert operations and dealing with animal stress levels."
+    },
+    "redTeam": {
+      "name": "Wildlife Risk Protectors",
+      "description": "Experts in anti-poaching tactics and ensuring safe transport of endangered species."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The airships arrive at a known trafficking hotspot. They need to correctly time the raid to minimize harm to the pangolins.",
+      "options": {
+        "A": "Execute an immediate lightning raid to take the traffickers by surprise.",
+        "B": "Wait for nightfall, then use cloaking technology and infrared sensors to execute a stealth operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for an immediate strike. The surprise raid causes confusion among the traffickers, allowing teams to swiftly secure pangolins with minimum stress to the animals.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team strikes immediately while the other waits for nightfall. Although the immediate strike saves some pangolins, it alerts the traffickers, making the night rescue more complicated but ultimately successful.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A synchronization error sees an immediate strike and a night operation. Despite the confusion, both teams manage to rescue a significant number of pangolins and retreat before reinforcements arrive.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wait for nightfall and execute a perfectly timed stealth operation, rescuing all pangolins caught in the trade, raising global attention to the plight of wildlife trafficking.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "While crossing the Indian Ocean, an international patrol requests an inspection due to suspected illegal trafficking.",
+      "options": {
+        "A": "Maintain coordinates and provide full cooperation with the patrol.",
+        "B": "Use a previously planned detour route to avoid the patrol."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to cooperate with the patrol. After an initial delay, the patrol unit helps broadcast their conservation mission globally, attracting more support for the cause.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team stays to cooperate, the other airship detours. The detouring team arrives earlier, preparing the sanctuary for incoming pangolins, but the delay to the cooperative team isn't significant.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One airship detours while the other awaits inspection. This decision splits the attention of potential poaching team retaliation, further securing the lives of rescued pangolins.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for the detour, avoiding the international patrol. Although this seems like a suspicious move, they manage to deliver the pangolins safely without any bureaucratic delay.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "On arrival, the facility is preparing for a LIVE Nest Cam launch, potentially causing stress to the pangolins during unloading and acclimatization.",
+      "options": {
+        "A": "Unload quickly before the event commences.",
+        "B": "Request a delay to the event, ensuring a calm unloading process."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for a swift unloading. The pangolins are slightly stressed but are quickly comforted in their new habitat, and the live event showcases this dramatic effort to the world.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to unload quickly, while the other requests a delay. This showcases the balance of urgency and care in wildlife conservation operations and the world applauds the teams' sincerity.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A swift unloading by one team and a delayed unloading by the other offers a smooth transition for the pangolins and generates educative footage for the LIVE event, showcasing real-world conservation challenges.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams request a delay, resulting in a peaceful unloading process under keen global eyes. The world hails this act of sensitivity for the rescued pangolins, setting a new standard for wildlife conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

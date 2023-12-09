@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Passage: The Aerial Aid",
+  "gameDescription": "Two futuristic airships, with their advanced cargo capacities and navigational systems, embark on a revolutionary eco-mission to aid pangolins, the most heavily trafficked wild mammals worldwide. Greater Good Charities and Wildlife At Risk have partnered to establish a new pangolin enclosure in Vietnam as a sanctuary for sustainable population recovery. The airship teams are tasked with transporting essential construction materials, pangolin-specific equipment, and eventually the pangolins themselves to this new haven. Players of each team must make strategic decisions high in the skies that affect both the success of the mission and the welfare of these endangered creatures.",
+  "setting": {
+    "location": "Global skies from Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Pangolin Enclosure Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyguard Saviours",
+      "description": "Expert in delicate cargo management and timely transportation."
+    },
+    "redTeam": {
+      "name": "Aether Armour",
+      "description": "Skilled in navigating harsh weather and challenging terrains."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While loading the pangolins, a sudden sandstorm kicks up. Teams must decide whether to wait out the storm or attempt loading amidst the windy conditions.",
+      "options": {
+        "A": "Wait for the storm to pass, ensuring safety but risking delay.",
+        "B": "Proceed with loading, taking precautions but risking potential distress to the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait. This decision ensures the pangolins' safety but significantly delays their departure. Although they've sacrificed time, they've prioritized animal welfare.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team waits while the other risks loading. The loading team faces challenges but manages to depart earlier. However, they have increased stress for the pangolins, potentially impacting their journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team decides to load amidst the storm, while the other opts for safety. While the risk-taking team gets a headstart, the pangolins' welfare is compromised, a factor which may later come to haunt.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams brave the storm, using their expertise to load safely while minimizing delay. Despite the early stress, the pangolins are well handled, promising a good start to their journey.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight, an unexpected illness strikes a few pangolins. The teams must decide their next course of action.",
+      "options": {
+        "A": "Refuel and land immediately at the closest veterinary clinic.",
+        "B": "Continue the flight, relying on the on-board biologists to manage the condition."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to land immediately. The quick decision undoubtedly saves pangolin lives but reduces their remaining hydrogen reserves. Will renewable resource management affect their mission success?",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Red Team continues the journey, relying on their on-board biologists, while Blue Team lands immediately. Each courses of action attract both praises for commitment and critiques for risk.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Blue Team continues enroute, trusting their biologists, but Red Team decides on immediate landing. This decision matrix leads to interesting diverse responses from the conservation community.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams proceed with the journey, carrying out in-flight treatments. Their decision is much-debated but ultimately deemed as they both ensure the pangolins' wellbeing and maintain flight efficiency.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon reaching Vietnam, the teams face a threefold challenge - imminent typhoon, strict air-traffic and conservationist protesters sceptical of the mission.",
+      "options": {
+        "A": "Land immediately before the storm, accept strict scrutiny checks and face the protesters.",
+        "B": "Hover until the storm passes, reducing confrontation time with the protesters but facing stricter air-traffic control."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to land immediately. In the resulting flurry of checks and interactions, they convince the protesters and ready to disembark the pangolins, now safe in their new haven.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Blue Team decides to hover, decreasing protest interact-time, while Red Team lands and navigates its way through. While Red Team faces more confrontation, they gain local support which boosts global sentiment.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red Team hovers, bypassing major protester interaction, while Blue Team takes the brunt of confrontation on-ground. However, their open interaction wins them favour in the eyes of the people.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to hover, minimizing confrontations but tightening air-traffic restrictions. Though they face minor issues, witnessing their collective care and effort wins over even the staunchest critics.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game Card: Antarctic Challenge",
+  "gameDescription": "The pristine wilderness of Antarctica faces a surge in tourism. As captains of futuristic airships, players navigate this delicate landscape, balancing exploration demand with the need to protect Antarctica's unique ecosystem. Players control airships transporting tourists and ecoresearch equipment while making decisions that affect both the mission success and environment.",
+  "setting": {
+    "location": "Above the Antarctic Tundra",
+    "missionStart": "Tourist Home Countries",
+    "missionEnd": "Antarctic Research Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Glacial Guardians",
+      "description": "Famous for their responsible tourism approach and conservation efforts."
+    },
+    "redTeam": {
+      "name": "Polar Pioneers",
+      "description": "Known for their focus on scientific research and discovery."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Teams must decide where to land the tourists: an already impacted area or a pristine location.",
+      "options": {
+        "A": "Land in a popular, already impacted area.",
+        "B": "Land in a pristine, untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the popular area, spreading the impact, making the area harder to recover. However, they avoid impacting new areas.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team opts for the impacted region while another ventures into untouched territory. This can potentially harm the untouched ecosystem.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In a mixed decision, one team chooses to venture into an untouched area while the other lands at the popular region. The pristine ecosystems may face new impact.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose pristine areas, causing impact to a broad area but inspiring awe in tourists and a renewed dedication to conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams must decide on the tourist capacity. High numbers can provie more revenue but can potentially impact the environment.",
+      "options": {
+        "A": "Allow a higher number of tourists with potential higher impact.",
+        "B": "Limit tourist numbers for conservation, but with less revenue."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow a high number of tourists. The income is high, but so is the environmental impact.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team limits tourists for conservation while another capitalizes on high audience. Howver, a delicate balance is upset.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In a split decision, one team prefers conservation while the other opts for more income. The effects on the ecosystem are uncertain.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourists, reducing income but prioritizing conservation, showing that sustainability is more than just a buzzword.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams must make decisions on implementing conservation initiatives.",
+      "options": {
+        "A": "Encourage active engagement of tourists in conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams encourage tourist engagement in conservation. This education inspires many to change behavior, but unexpected interactions lead to some ecosystem disturbances.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team encourages engagement while the other implements regulations. This combination potentially creates the best balance of protection and education.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In a mixed approach, one team opts for strict rules while the other encourages participation. The effects need time to be seen.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt for strict regulations. The environment is well protected, but tourists balk at the heavy-handed approach, leading to a decline in popularity.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

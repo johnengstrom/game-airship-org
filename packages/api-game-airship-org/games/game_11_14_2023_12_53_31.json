@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Bee's Rescue",
+  "gameDescription": "Airship Game - Operation Pollination unites players in a mission to save the Earth's bees. Players navigate advanced airships in a near future where the survival of bees and the global ecosystem is at stake. Undertake three strategic missions aimed at restoring bee populations and habitats affected by natural disasters and human activities.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Bee Conservation Headquarters",
+    "missionEnd": "Global Ecosystem"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Trace their lineage to the legendary bumble bees; they are adept at creating new habitats in challenging terrain."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Descendants of the resilient honey bees; they excel in rehabilitating damaged ecosystems."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post hurricane, disaster-stricken areas need urgent attention. The local flora that supports the native bee population is devastated.",
+      "options": {
+        "A": "Gather seeds of native flowering plants to sow in the disturbed areas and restore the habitat.",
+        "B": "Establish new bee colonies in unaffected zones to secure the bee population."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams took to replenishing the devastated areas. Resulting in a bloom of native flowers that intrigued local bees and welcomed them back. Their efforts ensured the ecosystem stability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators preferred to restore habitats while the Apis Aviators sought safety in migratory colonies. Working together in their divide, they secured the survival of pollen powerhouses.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators worked on habitat restoration, while the Bombus Navigators moved bee colonies. Their combined efforts cast a safety net for the bees, increasing their survival rate.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to ensure bee survival through relocation. However, they soon realized habitat restoration is equally important for long-term sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Raging wildfires have obliterated large swaths of land, displacing local bee populations.",
+      "options": {
+        "A": "Scatter seeds to replant the barren land with diverse, blooming flora.",
+        "B": "Create artificial hives in nearby regions untouched by the fires. "
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams hurled seed bombs across the devastated region. The once burned landscape transformed into an eden, which welcomed the bees home.",
+          "bonusCard": "Enhanced Pollinator Drone"
+        },
+        "AB": {
+          "narrative": "As the Bombus Navigators tediously worked to cover the scorched earth in green, the Apis Aviators laid the base for the displaced bee colonies. Together, they brought vibrancy back to the ecosystem.",
+          "bonusCard": "none"
+        },
+        "BA": {
+          "narrative": "The Apis Aviators replanted while the Bombus Navigators built new homes for the bees. Their efforts catalyzed the recovery from the wildfire's tragic aftermath.",
+          "bonusCard": "Eco-Rehabilitation Grant"
+        },
+        "BB": {
+          "narrative": "Both teams decided to relocate the local bee population. The strategy secured the bees' survival but left the torched landscape barren, pointing out the need for substantial habitat restoration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Expanding human activities continue to disrupt bee habitats. Decisive and sustainable action is required.",
+      "options": {
+        "A": "Collaborate with technology companies to construct bee sanctuaries equipped with advanced ecosystem simulations.",
+        "B": "Unleash a global promotion campaign for bee conservation, creating massive public awareness and protection for bees."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "With cybernetic sanctuaries springing up globally, both teams' tech-driven initiative provided novel homes for bees. These sanctuaries became symbols of humanity's commitment to ecological balance.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Bombus Navigators' cybernetic bee sanctuaries met the Apis Aviators' global campaign, creating a sweeping wave of bee conservation across the world.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Combining their technological brilliance with the power of mass media, both teams collectively jumpstarted a global bee-saving revolution.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams embarked on campaign trails, igniting global concern for bee survival. The bee cause became a worldwide movement - a testament to the power of collective responsibility.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

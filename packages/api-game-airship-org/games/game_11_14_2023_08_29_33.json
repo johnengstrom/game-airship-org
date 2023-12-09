@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation AirLift: Pangolin Sanctuary",
+  "gameDescription": "Two highly advanced airships, part of a joint wildlife rescue operation, have a mission of transporting rescued Pangolins to a new, sprawling sanctuary in Vietnam. Using state-of-the-art facilities and AI, the airships have been customized to provide a safe and nurturing environment for the rescued Pangolins during the flight. Key decisions about navigation, resource utilization, and animal welfare will affect the success of their mission and the well-being of these critically endangered creatures.",
+  "setting": {
+    "location": "Global Skies, traversing over various countries.",
+    "missionStart": "Rescue Point",
+    "missionEnd": "Vietnam Sanctuary"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Voyagers",
+      "description": "Pioneers in climate-controlled transportation and route optimization."
+    },
+    "redTeam": {
+      "name": "Panda Marauders",
+      "description": "Leaders in animal rescue, specialized in endurance missions with limited resources."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships encounter a massive heatwave that could potentially stress the animals. They must decide how to respond.",
+      "options": {
+        "A": "Adjust the internal cooling systems, consuming more energy but ensuring the pangolins stay relaxed.",
+        "B": "Alter the route to avoid the heatwave, adding more flight time, yet protecting the animals from discomfort."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships decide to adjust their cooling systems. This uses additional energy but ensures that the precious cargo remains stress-free. Their shared decision reiterates their commitment to prioritize animal welfare over resources.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Voyagers increase cooling while Panda Marauders change their course. As a result, Marauders have a delay but links them with new possible rescue points, while Voyagers get the opportunity to test their cooling systems.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "Panda Marauders adjust their cooling systems while Phoenix Voyagers reroute, both managing to keep the pangolins stress-free. Despite slightly different methods, both airships show remarkable adaptability.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to reroute to avoid the heatwave, adding a slight delay but ensuring the pangolins stay safe. Their decision shows their commitment to balancing mission objectives and the well-being of the pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "They receive information about a group of poaching hunters nearby. The teams must decide how to respond.",
+      "options": {
+        "A": "Divert to intervene, risking delay and potential confrontations.",
+        "B": "Inform local authorities and continue the mission uninterrupted."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to divert to intervene. Their daring move dissuades the poachers fleeing and protects a group of endangered tortoises, spotlighting them as wildlife heroes.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Voyagers decide to confront the poachers, while Panda Marauders alerted local authorities. Both actions lead to protecting wildlife and shining a spotlight on the plight of endangered species.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Panda Marauders choose to confront poachers, Phoenix Voyagers opt to inform authorities. Both methods result in successful thwarting of the poaching attempt, showcasing their teamwork and commitment to wildlife protection.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to inform local authorities, ensuring a quick response while they continue their mission. This decision highlights the importance of local community cooperation in wildlife protection.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they approach the sanctuary, airlift protocols must be decided to ensure a smooth transition for the Pangolins.",
+      "options": {
+        "A": "Choose an air-drop method with specially designed capsules to ensure zero contact with humans.",
+        "B": "Land at the facility and supervise a direct transfer of the pangolins to their new home."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams employ the air-drop method, minimizing human interaction and stress for the pangolins. Although challenging, the method signifies breakthroughs in using technology for wildlife conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Phoenix Voyagers opt for an air-drop while Panda Marauders choose a direct transfer. The combination of methods work efficiently ensuring a smooth relocation process for the precious pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Choosing different methods, Panda Marauders air-drop while Phoenix Voyagers perform a direct transfer. Both teams’ decisions ensure successful integration of the pangolins into their new sanctuary.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships land and supervise direct transfer. Their hands-on approach ensures that the pangolins comfortably adjust to their new homes, marking a victory for wildlife conservation efforts.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Skies over Sanctuary: Guardian of the Pangolin",
+  "gameDescription": "In a world where wildlife trafficking threatens the existence of countless species, two airship crews named 'Phoenix Envoys' and  'Gaia Guardians' set on a mission to transport rescued pangolins from Africa to their new safe haven in Vietnam. These smart airships are equipped with AI capable of recreating the natural habitat of pangolins onboard, ensuring the safety of their precious cargo. Every decision made by these airship crews affects the success of their mission and the lives of these endearing animals. Traverse challenges over the expansive landscapes of Africa, the padding currents of the Indian Ocean, and the bustling airways of Asia.",
+  "setting": {
+    "location": "Above Africa, Indian Ocean, and Asia.",
+    "missionStart": "A Wildlife Rescue Center in Africa",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Phoenix Envoys",
+      "description": "Specialists with great empathy, adept in animal care and airship navigation."
+    },
+    "redTeam": {
+      "name": "Gaia Guardians",
+      "description": "Masters in conservation logistics, having deep understanding of wildlife trafficking routes and imperatives of animal conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Spotting an active poaching network on the African ground while enroute to Vietnam. Both teams have to take quick action before escaping the continental border of Africa.",
+      "options": {
+        "A": "Try exposing their operations by capturing drone footage and sharing with local enforcement agencies.",
+        "B": "Maintain course and prioritize safe transportation of the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams capable of capturing clear evidence of illegal activities drastically hinder the poaching network, but this aerial confrontation consumes extra fuel and stresses the onboard pangolins slightly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Phoenix Envoys risk an aerial showdown, Gaia Guardians maintain their course. The confrontation takes a toll on phoenix Envoys' resources but also unnerves Gaia Guardians' pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Every decision carries consequences. Gaia Guardians' involvement attracts attention, which disrupts the calm voyage of Phoenix Envoys.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to maintain course, focusing on the safety of the pangolins, the main objective of the mission. They manage to escape Africa without any confrontations, but the refusal to take action weighs heavy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Mid-flight over the Indian Ocean, the airships receive a distress signal from a storm-struck cargo vessel carrying vital supplies for wildlife rehabilitation centers.",
+      "options": {
+        "A": "Alter course to assist the endangered vessel.",
+        "B": "Maintain course, prioritizing the endangered pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams daringly alter course, successfully rescuing the storm-struck vessel's crew and securing the supplies. The maneuver strains their energy reserves, but their bravery saves lives.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gaia Guardians presses on with the mission, while Phoenix Envoys assists the vessel. The act costs Phoenix Envoys in terms of fuel, but earns hefty goodwill.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While Phoenix Envoys stays the course, Gaia Guardians diverts to assist the vessel. The unexpected twist strains both teams. Gaia Guardians lose time while Phoenix Envoys have increased pressure.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide not to divert, prioritizing the safety of the pangolins. However, the knowledge that they might have been able to save lives had they risked the mission weighs heavy on their decisions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the bustling airways of Asia, the teams face strict regulations along with a looming storm. Precision in time and calculation is paramount.",
+      "options": {
+        "A": "Speed up to out-run the storm and ensure an early arrival",
+        "B": "Maintain current speed, risking meeting the storm and everyday air traffic"
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, outpacing the storm, ensuring their early arrival but using additional fuel. They sacrifice precious resources for the successful completion of the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Phoenix Envoys decide to speed up, facing stricter regulations for early arrival. The Gaia Guardians stick to the schedule, carefully navigating the regulations while also braving the storm.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Pressing onwards, Gaia Guardians speed up, securing an early arrival but inviting stricter regulations. Phoenix envoys maintain their speed, effectively navigating through the regulations and the storm.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams hold their course, confronting the storm and abiding by air-traffic regulations in real-time. This bold decision lowers fuel consumption and ensures sustainable operation throughout the mission, despite the added stress.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

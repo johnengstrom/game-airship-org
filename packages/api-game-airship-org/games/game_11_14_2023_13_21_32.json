@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Game - Operation Pollination",
+  "gameDescription": "In Operation Pollination, players command advanced teams of airships to help bee populations recover from natural disasters and human activities. Red Team, The Apis Aviators, and Blue Team, The Bombus Navigators, must successfuly complete three strategic missions to restore bee populations and habitats.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Airship Command Central",
+    "missionEnd": "Global Bee Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Specializing in creating robust bee habitats."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Experts in disaster recovery and ecological restoration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A hurricane has hit, severely affecting local bee populations. The teams must decide how best to respond.",
+      "options": {
+        "A": "Plant native flowers in the affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones to ensure survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose to replenish local flora, providing ample forage for the struggling bee population. Their synchronized effort amplifies the impact, but the question of sustainablilty looms.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the Apis Aviators restore local flora, the Bombus Navigators establish safe colonies for bees. The blend of immediate relief and forward-thinking strategies garners public support, although managing logistics becomes increasingly challenging.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Opposite strategies are employed by the teams with the Bombus Navigators sowing seeds of recovery through plant restoration and Apis Aviators focusing on establishing safe colonies. With divergent results, the teams realize the challenge of unpredicatability in disaster response.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "`Both teams prioritize the immediate establishment of safe bee colonies. Their coordinated effort manages to save a significant portion of the population, but they wonder if the restored habitats would cope with the displaced bee population.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfires destroy vast bee habitats. A swift response can minimize the devastating impact on the local ecosystem.",
+      "options": {
+        "A": "Plant bee-friendly vegetation in fire-ravaged areas to aid ecological recovery.",
+        "B": "Create artificial bee habitats in non-affected regions to provide refuge for displaced populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The teams' collective efforts to establish fire-resistant vegetation in the scorched lands provide much-needed respite for the displaced bees. However, the scale of devastation begs for larger collective action and sustained recovery efforts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "As the Apis Aviators sow seeds of recovery, the Bombus Navigators work tirelessly to establish temporary habitats. The combined efforts bring promising results, showcasing the benefits of diversified strategies in disaster response.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Divergent strategies see the Bombus Navigators focusing on restoring vegetation while the Apis Aviators create temporary safe havens. The resulting recovery showcases the need for both instant relief measures and long-term recovery strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams, concentrating on ensuring survival of bee population, manage to create extensive safe zones. Their concerted efforts offer immediate relief to the distressed bees, but can the artificial habitats replace the natural ones?",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "For the final mission, the teams need to plan for the long-term sustenance of the bee populations and wider conservation efforts for a sustainable future.",
+      "options": {
+        "A": "Develop bee sanctuaries using advanced technology for creating optimal habitats.",
+        "B": "Launch awareness campaigns to educate communities about the importance of bees and their conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in state-of-the-art bee sanctuaries. As the sanctuaries thrive, so do the local bee populations. The effort, though costly and resource-heavy, pays off in ensuring the survival of these essential pollinators for the near future.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Apis Aviators dedicate their resources to developing bee sanctuaries, while the Bombus Navigators launch a widespread awareness campaign. Their diverse strategies complement each other, protecting bees while ensuring community involvement for a more sustainable future.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In contrast to the Bombus Navigators' advanced sanctuary, the Apis Aviators mobilize communities through awareness campaigns. The combination of advanced habitats and widespread knowledge increase the chances of long-term sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both the Bombus Navigators and Apis Aviators, aware of the power of knowledge, launch massive awareness campaigns. They generate a ripple effect, mobilizing communities worldwide and marking the beginnings of global bee conservation movement.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

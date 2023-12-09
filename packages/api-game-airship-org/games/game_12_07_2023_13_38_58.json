@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination: The Airship Endeavour",
+  "gameDescription": "In Operation Pollination, players commandeer advanced airships to restore bee populations. Maneuvering through natural disasters and human activities, players face missions of strategic decision-making to maintain the survival of bees and the global ecosystem.",
+  "setting": {
+    "location": "Worldwide",
+    "missionStart": "United Nations HIVE Command",
+    "missionEnd": "Globally Restored Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Experts in geographical navigation and artificial habitat creation."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Specialists in native flora cultivation and bee colony rehabilitation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Post-Hurricane Recovery: Areas devastated by recent hurricanes have decimated local bee populations.",
+      "options": {
+        "A": "Cultivate and plant native flowers in hurricane-affected areas to reestablish bee habitats.",
+        "B": "Establish new bee colonies in safe zones, relocating imperiled bees post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams work hard to return natural floral resources, setting the stage for recovering bee populations. Despite considerable effort, however, non-native invasive species pose a lurking threat.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team focuses on returning vegetation, the other relocates vulnerable bee colonies, mitigating the risk of population loss. It's a successful collaboration with minimal environmental disruption.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team quickly relocates bees while the other battles against time by planting necessary flora. It's a race against time and nature for this high-stakes gamble.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus on relocating the bees. They manage to save several colonies, but the lack of natural vegetation hinders the bees' ability to flourish.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Wildfire Restoration: Wildfires have caused significant damage to bee habitats.",
+      "options": {
+        "A": "Use the airships’ advanced technology to airdrop bee-friendly seeds in the fire-ravaged areas, encouraging restoration.",
+        "B": "Create temporary artificial bee habitats in unaffected regions using 3D-printing drone technology."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams focus on replanting the damaged areas. The new vegetation attracts bees, but the lack of cellular diversity may affect the ecosystem's long-term resilience.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one team seeds the areas, the other sets up temporary habitats. The balanced approach allows for immediate bee settlement and the gradual restoration of native flora.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Creating new habitats while promoting growth in scorched areas proves to be an effective strategy. Adjustable habitats prove useful for transient bee populations, but some bees struggle to acclimatize.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "With both teams focusing on creating safe spaces for the bees, the loss of natural habitat becomes less critical. Unfortunately, the bees must adjust to artificial environments, which have unforeseen challenges.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Extending Reach: With initial recovery efforts successful, the focus turns to sustainable expansion and awareness.",
+      "options": {
+        "A": "Collaborate with engineers to develop self-regulating bee sanctuaries using advanced ecological technology.",
+        "B": "Education and advocacy: leverage the media and partnerships with global organizations to promote bee conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Investing in self-regulating bee sanctuaries fuses technology with ecology. Although the implementation is ambitious, it underscores the value that bees represent in global biodiversity.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The team cultivating support through media campaigns forms a crucial counterpart to the other team's tech development. They rally global support while the sanctuaries provide a tangible solution.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The dual approach to sanctuary development and global advocacy launches a successful, multifaceted campaign. However, securing sufficient funding and public interest remains a considerable challenge.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "By focusing on education and advocacy, both teams manage to bring about significant shifts in public opinion and increased support for bees. However, without immediate practical solutions, global bee populations continue to hover on the brink.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

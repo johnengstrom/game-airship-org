@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Sky Rescue: The Arc of Survival",
+  "gameDescription": "An exotic scenario spins around the reclusive Pangolins, incredibly endangered due to relentless illegal wildlife trade. Red and Blue teams control advanced airships of the respected organizations - Greater Good Charities and Wildlife At Risk. Their pivotal mission is to transport rescued pangolins from different parts of Africa to a new, ingeniously designed enclosure in Vietnam. Strategic decisions on this challenging journey influence the overall survival of these shy creatures and raise awareness about the worldwide trafficking of wildlife.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wildlife Rescue Centers",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Guardians",
+      "description": "Experts in wildlife handling and transportation safety."
+    },
+    "redTeam": {
+      "name": "Wildlife Rescue Rangers",
+      "description": "Specializing in quick response and crisis management."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships face a predicament of approaching heavy storms, which could cause psychological distress to the already traumatized pangolins. Strategic decisions need to be precise.",
+      "options": {
+        "A": "Navigate through the storm using advanced guidance systems but risk causing distress to the pangolins.",
+        "B": "Divert to a wildlife-friendly zone where temporary shelters have been set up, causing delays but ensuring the pangolins are secure."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams push through the storm, causing distress to the pangolins but maintaining the schedule. The choice reflects the urgency of the mission but underlines the need for more humane transport systems.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team puts the wellness of pangolins first, despite the delay. Red team fights through the rugged weather, raising questions about their handling of the fragile pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A trial for the red team throws a spotlight on animal wellbeing, while the blue team's decision stirs a debate about mission timeframes and animal safety balance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams prioritize the pangolin's wellbeing, causing delays but championing the cause. Their united stand sends a strong message throughout the conservation community.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams receive intel about local poachers potentially hindering their mission, ready to traffick the pangolins to black markets.",
+      "options": {
+        "A": "Notify local authorities and continue without taking detours, ensuring mission focus but risking an encounter.",
+        "B": "Take a longer, more concealed route to avoid the poachers, which consumes more energy and time but secures safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams stay focused on their original plan and keep local authorities informed. Even though they face no direct encounters, the looming fear impacts the overall management of the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team chooses a concealed route, putting safety first. Meanwhile, the red team maintains speed and direction, creating a dichotomy in the approach towards dealing with threats.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team switches to a concealed route, ensuring safety upon impending threats. The blue team continues onwards, stirring a conversation on approaches towards potential threats.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to take the concealed route, burning extra fuel and time but ensuring the pangolins' safety. Their shared decision signifies a powerful stance against wildlife trafficking.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the enclosure in Vietnam, teams spot an ideal drop-off point. However, it is located within a local community known to harbor traditional beliefs about pangolins.",
+      "options": {
+        "A": "Organize a community education drive about pangolins before safe drop-off, consuming time but raising awareness.",
+        "B": "Proceed to the enclosure directly for drop-off to ensure the quickest possible mission completion."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage with the locals, promoting conservation. The painstaking process is timely but their efforts spark a change in the locals' outlook towards wildlife, creating a ripple effect.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The blue team's education drive becomes a success, inspiring many locals. Red team's expedited drop-off contrasts heavily, opening a discussion about the necessity of awareness in wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Red team's education drive changes traditional views locally, while blue team's direct approach underlines the role efficiency plays in successful conservation, creating a subtle balance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams proceed for an expedited drop-off, emphasizing the efficiency of the mission. The pangolins quickly become accustomed to their new home, marking the end of their rescue journey.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

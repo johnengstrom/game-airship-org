@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin: Airship Rescue",
+  "gameDescription": "Two airship teams, blue and red, carry out a daring eco-mission to rescue pangolins poached in Africa and transport them safely to a new protective enclosure in Vietnam. Each decision made by the teams will make a direct impact on the number of pangolins rescued and the consumption of hydrogen fuel, posing a delicate balance between the success of their mission and environmental sustainability.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "New Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Anteater Advocates",
+      "description": "Specializes in wildlife rescue and ethical cargo handling."
+    },
+    "redTeam": {
+      "name": "The Green Guardians",
+      "description": "Experts in energy-efficient navigation and environmental diplomacy."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships have pinpointed a pangolin hideout for rescue but it is heavily guarded by poachers.",
+      "options": {
+        "A": "Launch a direct assault and rescue as many pangolins as possible.",
+        "B": "Coordinate with local law enforcement and execute a joint operation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose a direct assault and successfully rescue large numbers of pangolins but at the expense of using up a lot of hydrogen, straining their journey ahead.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team infiltrates, while the other coordinates with law enforcement. The coordination team went slower but maintained fuel efficiency, demonstrating the strength of tactical thinking.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The red team, along with local law enforcement, carried out a joint operation while the blue team launched a direct assault. Both methods have their merits, demonstrating the success of diverse strategies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams coordinating with local law enforcement ensured a thorough operation with minimum hydrogen usage and secured the safety of most pangolins.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "En route to Vietnam, the airships receive a distress signal from another poaching site.",
+      "options": {
+        "A": "Redirect course to the new site and undertake another rescue mission.",
+        "B": "Maintain course to Vietnam, to ensure the well-being of the pangolins already on board."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams make a detour for the second rescue mission. The additional pangolins saved are a victory, but the unnecessary hydrogen expenditure might strain the rest of their flight.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship redirects while the other maintains course. The first team rescues more pangolins but at the cost of higher hydrogen consumption, while the other successfully ensures the wellbeing of its current passengers.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While the red team stays on course ensuring the safety of already rescued pangolins, the blue team deviates to save more animals. This showcases their different but efficient approaches towards the mission.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain their course to Vietnam, ensuring the safety and welfare of the pangolins already on board. Sending the info to local authorities highlights the power of efficient communication.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Upon nearing Vietnam, the airships are contested by local authorities due to strict wildlife transport rules.",
+      "options": {
+        "A": "Negotiate directly with the authorities showing their international clearance.",
+        "B": "Rendezvous with representatives of Greater Good Charities on the outskirts and transfer the pangolins to them."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing to negotiate, both teams manage to convince the authorities using their clearances. They are successful but the stopover leads to additional hydrogen consumption.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While one airship successfully negotiates with the authorities, the other quickly transfers the pangolins to Greater Good representatives, avoiding unnecessary delays and saving fuel.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "In a split move, the red team transfers their animals as the blue team negotiates. They manage to balance time efficiency with fuel conservation effectively.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams rendezvous with the GGC representatives on the outskirts, swiftly transferring the pangolins and saving time and fuel. This showcases optimal coordination and planning in their mission.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

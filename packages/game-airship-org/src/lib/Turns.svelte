@@ -4,8 +4,19 @@
 	import { game } from '$lib/stores/game.store';
 	import GameTurn from './GameTurn.svelte';
 	import { loadingstore } from './stores/loading.store';
-	import { newGame } from '$lib/stores/newGame.store';
-	import { scenariostore, updateScenario } from './stores/scenario.store';
+
+	import { scenariostore, updateScenario } from '$lib/stores/scenario.store';
+	import { fade } from 'svelte/transition';
+
+	import { toggleMenu } from '$lib/runes/togglemenu.svelte.js';
+	import { createCounter } from '$lib/runes/counter.svelte.js';
+
+	const toggle = toggleMenu();
+
+	import { newGame } from '$lib/runes/newGame.svelte.js';
+	const newgame = newGame();
+	const counter = createCounter();
+
 	let _game;
 	let _scenario;
 	let turn = -1;
@@ -22,35 +33,47 @@
 		player2: { choice1: '', choice2: '', choice3: '' }
 	};
 
-	const newgame = newGame();
+	$effect(() => {
+		console.log('$effect count ---->', counter.count);
 
-	onMount(() => {
-		scenariostore.subscribe((scenario) => {
+		if (newgame.game?.game) {
+			_game = newgame.game.game;
+			console.log('$effect _game ---->', _game, newgame.game.loading);
+		}
+	});
+
+	onMount(async () => {
+		scenariostore.subscribe(async (scenario) => {
 			if (scenario.length) {
-				console.log('CREATING NEW GAME ---->');
+				console.log('CREATING NEW MISSION ---->');
 				_scenario = scenario;
 				game.set({});
 				loadingstore.set(true);
 
-				newgame.create({
-					game: scenario
-				});
-			}
-		});
+				try {
+					const response = await fetch('http://192.168.1.13:3001/game/new', {
+						method: 'POST',
+						headers: { 'Content-Type': 'application/json' },
+						body: JSON.stringify({
+							game: scenario
+						})
+					});
 
-		newgame.subscribe((data) => {
-			console.log('newgame --->', data?.data);
-			if (data?.data) {
-				game.set(data.data);
-			}
+					if (response.ok) {
+						const data = await response.json();
+						console.log('data ~~~~~>>>', data);
 
-			if (data?.error) {
-				game.set({ error: true });
+						newgame.update({ ...data });
+					} else {
+					}
+				} catch (error) {
+					newgame.update(error);
+					console.log(error);
+				}
 			}
 		});
 
 		game.subscribe((data) => {
-			console.log('game --->', data);
 			if (data?.gameTitle) {
 				_game = data;
 			}
@@ -100,9 +123,28 @@
 	}
 </script>
 
+{#if !toggle.showMission}
+	<div
+		transition:fade
+		class="fixed right-0 top-0 m-4 opacity-80 backdrop-blur-3xl backdrop-brightness-50 text-white overflow-y-auto pt-0 z-[99] rounded"
+	>
+		<div>
+			<button onclick={() => toggle.toggleMission()} class="btn text-xs">Show</button>
+		</div>
+	</div>
+{/if}
+
 <div
-	class="fixed right-0 top-0 card opacity-80 backdrop-blur-3xl backdrop-brightness-50 h-full w-96 text-white overflow-y-auto pt-0 z-[99]"
+	transition:fade
+	class="fixed right-0 top-0 card opacity-80 backdrop-blur-3xl backdrop-brightness-50 h-full w-96 text-white overflow-y-auto pt-0 z-[99] rounded"
 >
+	<!-- <div class="flex flex-row justify-between mb-4">
+		<div></div>
+		<div>
+			{newgame.state} <button onclick={toggle.toggleMission} class="btn text-xs">Hide</button>
+		</div>
+	</div> -->
+
 	{#if !_game?.gameDescription && !_game?.error}
 		<h1 class="font-bold text-xl leading-6 mb-4">ChatGPT generating new game ...</h1>
 		<p><em>Wait time under 5 minutes.</em></p>
@@ -120,7 +162,7 @@
 		<div class="my-4 flex flex-row place-content-between">
 			<button
 				class="btn w-full"
-				on:click={() => {
+				onclick={() => {
 					makeNewGame();
 				}}>New Game</button
 			>
@@ -129,7 +171,9 @@
 
 	{#if _game?.gameDescription}
 		{#if turn < 0 || showdescription}
-			<h1 class="font-bold text-xl leading-6 mb-4">{_game.gameTitle}</h1>
+			<h1 class="font-bold text-xl leading-6 mb-4">
+				{_game.gameTitle} / {newgame.game.game?.gameTitle}
+			</h1>
 
 			<div>
 				<h1 class="mb-2">Current Location: <strong>{_game.setting.location}</strong></h1>
@@ -155,7 +199,7 @@
 					<div class="my-4 flex flex-row place-content-between">
 						<button
 							class="btn w-full"
-							on:click={() => {
+							onclick={() => {
 								toggleDescription();
 							}}>Hide Description</button
 						>
@@ -164,7 +208,7 @@
 			</div>
 
 			<div class="my-4">
-				<button class="btn w-full" on:click={startGame}>Start Game</button>
+				<button class="btn w-full" onclick={startGame}>Start Game</button>
 			</div>
 		{/if}
 
@@ -175,7 +219,7 @@
 				<div class="my-4 flex flex-row place-content-between">
 					<button
 						class="btn bg-green-900 hover:bg-green-700 w-full"
-						on:click={() => {
+						onclick={() => {
 							clickTurn(1);
 						}}>Next Turn</button
 					>
@@ -186,7 +230,7 @@
 				<div class="my-4 flex flex-row place-content-between">
 					<button
 						class="btn w-full"
-						on:click={() => {
+						onclick={() => {
 							clickTurn(-1);
 						}}>Previous Turn</button
 					>
@@ -197,7 +241,7 @@
 				<div class="my-4 flex flex-row place-content-between">
 					<button
 						class="btn w-full"
-						on:click={() => {
+						onclick={() => {
 							makeNewGame();
 						}}>New Game</button
 					>
@@ -208,7 +252,7 @@
 				<div class="my-4 flex flex-row place-content-between">
 					<button
 						class="btn w-full"
-						on:click={() => {
+						onclick={() => {
 							toggleDescription();
 						}}>Show Description</button
 					>
@@ -216,8 +260,6 @@
 			{/if}
 		{/if}
 	{/if}
-
-	<Radio />
 </div>
 
 <style>

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Airborne Savers",
+  "gameDescription": "In a world where illegal wildlife trade relentlessly threatens the survival of the shy and reclusive pangolins, teams of advanced AI-controlled airships embark on a daring rescue mission. Each airship, loaded with necessary rescue equipment and manned by a skilled crew, must strategize their decisions to sustain flight and ensure the safe transportation of these precious creatures. The success of the mission heavily weighs on the strategic choices made during the journey, and more critically, the impact on the natural environment.",
+  "setting": {
+    "location": "Across Asia and Africa",
+    "missionStart": "Illegal Poaching Sites",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Greater Good Guardians",
+      "description": "Trained in wildlife rescue and sensitive transportation."
+    },
+    "redTeam": {
+      "name": "Wildlife At Risk Responders",
+      "description": "Specialists in emergency response and efficient energy usage."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships locate stranded pangolins in a heavily trapped forest. They have the option for the optimal yet risky close-quarter landing, or the safer, energy-consuming wide zone landing.",
+      "options": {
+        "A": "Perform a challenging close-qaurter landing to swiftly evacuate pangolins.",
+        "B": "Select the safer wide zone landing which requires more energy for transportation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to perform the difficult close-quarter landing. The swift evacuation saved many pangolins, but the challenging maneuver increased engine strain leading to high fuel consumption.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Guardians perform the high-risk landing while Wildlife At Risk Responders go for the safer wide zone. The delicate handling from both teams secures a perfect balance between time and energy management.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife At Risk Responders perform the close-quarter landing while Greater Good Guardians chose the wide zone. Their combined efforts secure a successful rescue, even though it took a toll on their fuel reserves.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The teams choose to land in the wide zone, ensuring safety but it requires more energy for transportation. The mutual decision establishes a strong foundation of teamwork moving ahead in this critical mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Responding to an urgent distress signal, the airships discover an illegal trafficking ring. They have the option of performing a wait-and-raid operation or alerting local authorities.",
+      "options": {
+        "A": "Perform a highly risky raid to dismantle the ring and rescue pangolins.",
+        "B": "Inform local authorities about the ring, delaying the mission but ensuring safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the proactive approach, staging a joint raid on the trafficking ring. The result is a resounding success, but the high-risk operation drains their energy resources significantly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team raids the ring while the other contacts the authorities. The daring team successfully rescues more pangolins, but also ends up exhausting significant energy. The team who informed authorities establishes trust and a mutually beneficial relationship.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Wildlife At Risk Responders tackle the ring head on, while Greater Good Guardians alert authorities. Their decisions result in a massive rescue operation that exhausts the raiding team but creates a positive alliance for the future.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams alert local authorities and wait. Despite a delay in mission, this coordinated effort dismantles the trafficking ring completely and leaves the teams fuel reserves untouched for future emergencies.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach the new enclosure in Vietnam, they face a severe tropical storm front. They must decide whether to brave the storm or detour to a calmer route.",
+      "options": {
+        "A": "Navigate through the storm using resilient shields.",
+        "B": "Detour around the storm, ensuring safety but consuming more energy."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "The teams brave the storm, saving energy but putting their airships to test. Their resilient shields stand firm, ensuring the safe arrival of all precious rescued pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Greater Good Guardians decide to brave the storm, while Wildlife At Risk Responders take the longer route. The resilient shields of the guardians and cautious approach of the responders ensure the successful end to an epic mission.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Wildlife At Risk Responders take on the storm while Greater Good Guardians go for the detour. Both teams' strategic choices ensure a safe conclusion to the mission, albeit with an increased energy consumption.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to detour. This uses more energy but ensures everyone's safety. The pangolins arrive at their new home, symbolizing a victory in the fight for the endangered pangolins",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

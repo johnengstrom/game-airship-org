@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Rescue: Airborne Aid",
+  "gameDescription": "Two airships, aptly named Scales & Tails by the blue team and Pangolin Protectors by the red team, are on a critical mission to transport rescued pangolins from poached sites in Africa to a recently established safe haven in Vietnam. Decisions made by these teams will impact not only the survival of the pangolins, but also the overall success of the mission and the continuous efforts of Greater Good Charities and Wildlife At Risk.",
+  "setting": {
+    "location": "From Africa to Vietnam",
+    "missionStart": "Poached Sites in Africa",
+    "missionEnd": "Pangolin Safe Haven, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Scales & Tails",
+      "description": "Fueled by a deep respect for wildlife, they specialize in strategic planning and risk management."
+    },
+    "redTeam": {
+      "name": "Pangolin Protectors",
+      "description": "Their fast thinking and adaptability are crucial in carrying out the rescue and transport operations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships received word that a new group of pangolins was detected in a remote location. They must plan their route considering potential weather disturbances along the way.",
+      "options": {
+        "A": "Take a direct route to the location, risking potential weather disturbances.",
+        "B": "Take an extended route to avoid the weather, spending more time and resources."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Choosing speed over caution, both teams encounter severe weather disruptions. Their swift response saves time but strains their resources and risks the safety of the pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The Protectors faced weather disturbances while Scales & Tails took the safe but extended route. Despite reaching the site later, Scales & Tails ensured a safer journey for the pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Scales & Tails raced into the storm, while the Protectors chose to circumnavigate it. The latter's decision ensured a smoother transport of the pangolins, gaining them praise from the charities.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both decided to take the long way round, prioritizing the safety of the pangolins over any gain in time. Their decisions underlined their commitment to the mission’s broader goal - to safeguard wildlife.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "On receiving the pangolins, both teams discover some trodden paths where more may be hiding. The teams have a short time window to make a tough potential rescue-vs-transport decision.",
+      "options": {
+        "A": "Immediate departure to ensure timely delivery and reduce stress on the already rescued pangolins.",
+        "B": "Take a short detour to check on the potential hiding spots, risking delay and extra stress on the onboard pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams prioritize the welfare of their current charges and depart right away. The decision saves time but they can’t shake off the guilt of potentially leaving some pangolins behind.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Scales & Tails departs immediately while the Protectors delay to check the paths. The Protectors do manage to rescue a few more pangolins but at the cost of delaying their overall journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Protectors take off while Scales & Tails inspect the trodden paths. The delay pays off as they manage to rescue more pangolins, although the risk to the onboard charges increases.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to delay. With the added risk and the pangolins’ stress levels increasing, they do manage to rescue a few more. It is a bittersweet result, marred by increased risks and delays.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they receive news of heavy landing traffic. They must decide whether to adapt to it or try and expedite their landing.",
+      "options": {
+        "A": "Circling above the landing site until cleared, thus ensuring a more controlled and less risky landing.",
+        "B": "Negotiate for an immediate landing considering the condition and urgency of their precious cargo."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams decide to wait their turn. While they ensure safety over urgency, the wait takes a toll on their resources and the stress levels of the already exhausted pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Scales & Tails chooses to circle, while the Protectors negotiate a swift landing. The results are mixed - the Protectors get the pangolins to safety quicker but not without increasing their overall risk.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The Protectors opted for patience while Scales & Tails went for a speedy landing. The pangolins on Scales & Tails benefit from the quick rescue, but the risks are higher.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams negotiated for priority landing. The urgency convinced the landing control to make exceptions. The pangolins were quickly brought into their new sanctuary, starting the next phase of their journey to recovery.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

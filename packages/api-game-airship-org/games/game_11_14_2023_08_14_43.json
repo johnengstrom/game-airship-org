@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Promise",
+  "gameDescription": "Two futuristic airships, the Gaia Guardian and Fauna Saviour, are tasked with an unprecedented eco-mission - to transport rescued Pangolins from Africa to a purpose-built facility in Vietnam. Each decision made by the crews affects not just the success of the mission but the survival of the world's most trafficked mammal.",
+  "setting": {
+    "location": "From the heart of Africa to Vietnam",
+    "missionStart": "Central Africa Pangolin Reserve",
+    "missionEnd": "New Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Gaia Guardian",
+      "description": "Specializing in navigation through challenging and rough weather conditions."
+    },
+    "redTeam": {
+      "name": "Fauna Saviour",
+      "description": "Experts in swift and safe animal transport, with a focus on conservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Conflict erupts near the pickup point. This could hinder the mission's timing and compromise safety. Each team must decide on their approach.",
+      "options": {
+        "A": "Wait out the conflict, ensuring safety but delaying the mission.",
+        "B": "Call in a peacekeeping force to quell the conflict and proceed with the mission."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose safety over haste. While conflicts cooled down, they maintained their location without risking the pangolins' stress levels. Patience rewarded, the mission continues.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gaia Guardian opts for the peaceful wait, while Fauna Saviour calls in the peacekeepers. The quick intervention saves time, but stresses the pangolins - a reminder of operational dilemmas.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Team roles reverse as Fauna Saviour waits out the conflict while Gaia Guardian brings in peacekeepers. Intervention brings a swift, if stressful, solution. The mission proceeds with mindful vigilance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Teams call in peacekeepers, resolving the conflict quickly. Despite stressing the pangolins, time is saved. A reminder of tough decisions in the harsh realities of conservation missions.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A message arrives about another group of illegally captured pangolins; they can be saved with a significant detour.",
+      "options": {
+        "A": "Stick to the original route, focusing on those already rescued.",
+        "B": "Take the detour to save the additional group of pangolins, pressing fuel efficiency."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Sticking to the original route, both teams commit to the pangolins onboard. An agonizing decision, but their mission continues on course.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Gaia Guardian holds course, while Fauna Saviour veers for the rescue. They save more pangolins but at a major fuel cost. Singular focus versus extemporaneous rescue - a governing conundrum in wildlife conservation.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fauna Saviour stays the course, Gaia Guardian rescues more pangolins. Choices like these paint a vivid image of the challenges in conservation missions - strict plans against unforeseen contingencies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Taking the detour, both teams rescue additional pangolins. They push fuel efficiency to the edge - a stark message about the lengths necessary in wildlife preservation.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the Vietnamese coast, air traffic congestion presents a challenge. Teams must decide how to handle this final hurdle.",
+      "options": {
+        "A": "Accelerate to a higher altitude course for a swift descent once past congestion.",
+        "B": "Maintain current altitude, navigating slower but with better control."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams loft higher, surmounting the congestion and making a swift descent, stretching fuel efficiency to their limits but ensuring the earliest possible arrival for the pangolins at their sanctuary.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While Gaia Guardian ascends, Fauna Saviour sticks to its altitude, plotting a methodical course. This results in a divergent path - a thrilling end to an epic journey.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Fauna Saviour climbs in altitude, while Gaia Guardian persists at its current path. The pangolins, despite the diverse routes, forge ahead towards their safe haven.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams maintain current altitude, meticulously picking a path through congestion whilst conserving fuel and offering the pangolins a smooth ride. They reach the facility, marking a triumphant end to their perilous journey.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

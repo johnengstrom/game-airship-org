@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pollination",
+  "gameDescription": "In 'Operation Pollination', players take control of advanced airships in a near future where the survival of bees and the global ecosystem hangs in the balance. The game fosters strategic decision-making and underlines the importance of environmental conservation, specifically focusing on the critical role bees play in our ecosystem. By uniting to restore bee populations and habitats, decimated by natural disasters and human activities, players will navigate through three turns of strategic challenges, make tough choices, and experience the far-reaching effects of their decisions.",
+  "setting": {
+    "location": "Global",
+    "missionStart": "Apis Airbase",
+    "missionEnd": "Various Habitats"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "The Bombus Navigators",
+      "description": "Expert navigators and strategists focused on habitat restoration and bee conservation."
+    },
+    "redTeam": {
+      "name": "The Apis Aviators",
+      "description": "Known for their advanced ecological technology and dedication to protecting bee populations."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Hurricane aftermath has led to the destruction of many bee habitats. The teams must decide how to aid in the recovery.",
+      "options": {
+        "A": "Plant native flowers in hurricane-affected areas to restore bee habitats.",
+        "B": "Establish new bee colonies in safe zones, ensuring their survival post-disaster."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "By replanting native flowers in storm-ravaged areas, both teams created thriving habitats for returning bee populations without disturbing already settled colonies. Their actions underpin the importance of local flora in sustaining diverse bee populations.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With the red team planting native flowers while the blue team established new colonies, their combined actions promoted speedy bee population recovery in existing and new habitats. However, the delicate balance of existing colonies may be at risk.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The combination of new colonies from the red team and replanting activities from the blue team covered all major bases but could potentially endanger local bee species with the influx of new colonies.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Prioritizing bee safety post-disaster, both teams opted to establish new colonies in safe zones. While beneficial, opportunities for restoring existing habitats might have been missed.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A recent wildfire has left large tracts of land devoid of vegetation, affecting multiple bee species. The teams need to decide how best to aid in the ecological recovery.",
+      "options": {
+        "A": "Seed fire-ravaged areas with bee-friendly vegetation to encourage ecological recovery.",
+        "B": "Create artificial bee habitats in unaffected regions to accommodate displaced bee populations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams work in sync to replant bee-friendly vegetation, transforming the devastated areas into vibrant habitats. These green spaces attract diverse bee species, bolstering the local ecology but stretching resources thin.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The red team sows seeds of recovery while the blue team focuses on creating artificial habitats. This dual approach ensures immediate bee safety and fosters long-term habitat recovery.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "As the red team builds new habitats, blue team's focus on planting bee-friendly vegetation ensures future sustainability, though immediate shelter needs may be challenged.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams create artificial habitats, providing immediate relief for displaced bees. However, without efforts for ecological recovery in the fire-ravaged areas, the long-term viability of these colonies is in question.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Awareness and conservation efforts must increase to ensure long-term bee survival. How do the teams proceed with their campaigns?",
+      "options": {
+        "A": "Develop bee sanctuaries with advanced ecological technology for optimal habitat conditions.",
+        "B": "Launch educational campaigns to foster bee conservation and raise public awareness."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams invest in advanced bee sanctuaries. These future-ready habitats become beacons of conservation, boasting sustainable ecosystems that protect diverse bee species. However, public awareness of these efforts remains limited.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "While the red team develops state-of-the-art sanctuaries, the blue team drives awareness through educational campaigns. This powerful combination of action and education amplifies their conservation efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With the red team spreading awareness and the blue team building sanctuaries, their combined efforts create both a safe home for bees and a knowledgeable public eager to help conservation efforts.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams focus their efforts on educational campaigns. Though awareness and advocacy rise dramatically, the lack of immediate on-ground action results in a continued struggle for the bee populations.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

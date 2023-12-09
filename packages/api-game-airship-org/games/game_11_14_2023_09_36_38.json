@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Project Pangolin: Aerial Odyssey",
+  "gameDescription": "In this futuristic battle against illegal wildlife trade and climate crisis, players using environment-friendly airships are tasked to safely transport rescued pangolins from the clutches of poachers in Africa to a new sanctuary in Vietnam. Clever navigation decisions affect not only the survival of these endangered creatures but also the protection of our environment.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "Poaching Grounds of Africa",
+    "missionEnd": "New Pangolin Enclosure in Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyward Saviors",
+      "description": "Known for successful pangolin rescues and strategies in combating wildlife trade."
+    },
+    "redTeam": {
+      "name": "Cloudriders of Compassion",
+      "description": "Experts in adapting to environmental challenges while ensuring extreme care for their animal passengers."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "While flying over Africa, both airships spot possible illegal hunting activities. The teams face a crucial choice.",
+      "options": {
+        "A": "Fly down and disrupt the activity directly, risking the safety of the airship and the pangolins aboard.",
+        "B": "Continue on course and send detailed coordinates to the local conservation authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams take action directly. While this prompts poachers to scatter, increasing the chances of pangolin rescue, it is not without danger as the airship shakes from local defence systems.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors choose to disrupt while Cloudriders relay information. While the Saviors manage to save more pangolins, the tactics of the Cloudriders attract praise from the authorities.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While Cloudriders go straight into action, Skyward Saviors call the authorities. Both actions result in disrupted poaching, but Saviors earn recognition for their safe yet effective approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams wisely decide to report the activities. This ensures the safety of the pangolins onboard and results in a large-scale arrest of poachers through cooperation with local authorities.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Aboard each airship, certain pangolins show symptoms of stress, due to the unfamiliar environment.",
+      "options": {
+        "A": "Slow down and adjust the interior environment to mimic their natural habitat.",
+        "B": "Maintain the set speed while providing individual care to the affected pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships adjust their environments. The pangolins calm down but the delay results in increased fuel usage, testing the efficiency of the airships.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors slow down while Cloudriders maintain speed and provide individual care. This results in less stress for all pangolins, but more fuel is used by the Saviors.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While Cloudriders slow down, Skyward Saviors maintain speed and provide individual care. Despite the extra fuel usage by the Cloudriders, all pangolins successfully arrive in a calmer state.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to maintain speed and care for the pangolins individually. This results in the minimal usage of hydrogen and effective care for the pangolins, showing great team efficiency and animal empathy.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams are in the homestretch to Vietnam but now face heavy air traffic. Clearing this will require another critical decision.",
+      "options": {
+        "A": "Fly higher to evade the traffic, at the cost of extra hydrogen due to the higher altitude.",
+        "B": "Stay at the current level, but negotiate with air control for safe passage which might incur delay."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams climb higher, swiftly bypassing the air traffic but consuming extra hydrogen. This choice highlights the need for balancing exigent missions with energy conservation.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyward Saviors ascend, while Cloudriders negotiate. While both teams avoid delay, the Saviors' extra fuel usage is criticised.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "While Cloudriders ascend, Skyward Saviors successfully negotiate with air traffic control. Although both teams reach Vietnam, the Cloudriders' energy consumption raises eyebrows.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams expertly negotiate with air traffic control. Although initially delayed, both arrive without any additional energy consumption, embodying efficient navigation and sustainable energy usage.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -100,10 +100,10 @@
 </script>
 
 <div
-	on:dblclick={() => {
+	ondblclick={() => {
 		flipCard(cardno);
 	}}
-	on:keydown={handleKeydown}
+	onkeydown={handleKeydown}
 	tabindex="0"
 	role="button"
 	class="relative cardfront card {isRedSuit
@@ -114,13 +114,13 @@
 		<!-- Add Bubble -->
 		<div class="absolute -top-2 -right-2">
 			<div
-				on:keydown={handleKeydown}
+				onkeydown={handleKeydown}
 				tabindex="0"
 				role="button"
 				class="flex items-center justify-center w-4 h-4 rounded {color === 'red'
 					? ' bg-red-500'
 					: ' bg-blue-500'} text-white cursor-pointer"
-				on:click={() => updateBesthand(value, suit, cardno, action)}
+				onclick={() => updateBesthand(value, suit, cardno, action)}
 				style="margin-top: -2px; margin-right: -2px;"
 			>
 				<!-- The plus icon. If you're using a graphic, replace the content with an <img> or <svg> -->

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a surge in tourism. As captains of futuristic airships, players navigate this delicate landscape, balancing the demand for exploration with the urgent need to protect Antarctica's unique ecosystem. Each decision affects the environment and the success of sustainable tourism management.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Airship Docking Station",
+    "missionEnd": "Antarctica"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Aurora Explorers",
+      "description": "Pioneers of responsible tourism and eco-friendly practices."
+    },
+    "redTeam": {
+      "name": "Frozen Pioneers",
+      "description": "Trailblazers in combining scientific research with sustainable exploration."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "The teams have to select a landing site for tourists to explore Antarctica. The options lie between popular tourist spots, already impacted by human interaction, or pristine and untouched locations which hold natural secrets inaccessible to most humans till now.",
+      "options": {
+        "A": "Choose a popular, already impacted area to land.",
+        "B": "Select a pristine, untouched location as the landing site."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for popular areas, minimizing additional environmental impact. This strategy is applauded by conservation experts, though tourists complain about overcrowding.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team choosing impacted area and the other untouched location, the tourists get varied experiences. However, footprints in the untouched location spark debates over pristine nature versus exploration.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Tourists from the impacted area view the untouched landscape in envy, causing undue pressure on the red team. The blue team faces criticism for introducing human influence in the untouched location.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams venture into undiscovered territory. While tourists rejoice in the novelty, environmentalists express concern about the potential damage to the unspoiled ecosystem.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Teams have to handle the tourist influx. They need to decide whether to allow more tourists for greater revenue with a potentially higher environmental impact, or to prioritize conservation by limiting tourist numbers, affecting the revenue.",
+      "options": {
+        "A": "Allow a larger number of tourists for higher revenue.",
+        "B": "Limit the number of tourists for enhanced conservation efforts."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams allow an influx of tourists, boosting the economy but straining Antarctica's resources. Litter becomes an issue, highlighting the need for strict regulations and management.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team allowing more tourists and the other limiting numbers, mixed messages cause confusion. The limited tourists enjoy a less crowded experience, while the larger group watches enviously.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The influx of tourists in one area creates imbalance, causing shifts in wildlife behavior. The area with limited tourists becomes a preferred site, leading to increased pressure on the other team.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams limit tourist numbers, supporting conservation efforts but drawing ire from profit-driven entities. However, they gain the respect of environmentalists worldwide.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Teams have to decide on a conservation initiative. They can either actively engage tourists in conservation efforts, making them part of the solution, or implement strict regulations and potentially close off areas for rehabilitation.",
+      "options": {
+        "A": "Involve tourists in active conservation efforts.",
+        "B": "Implement strict regulations and area closures for rehabilitation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Engaging tourists in conservation garners positive global press attention. However, some tourists feel it intrudes on their holiday experience, compromising the popularity of the tour.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "With one team involving tourists in conservation and the other implementing restrictions, tourists get a diversified experience. However, the strict restrictions are met with resentment by some, urging a balance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "A contrast arises as joyful engagement pairs with stern restrictions, creating a rift in tourist preferences but developing a mutual understanding about the importance of conservation.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "The stringent conservation measures imposed by both teams initially irk the tourists, but the visible positive impact on the environment makes their experience more valuable and educates them about sustainability.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Eco-Voyage",
+  "gameDescription": "In the near future, the pristine wilderness of Antarctica faces a new challenge; the surge in tourism. As the captains of futuristic airships, the Red and Blue teams must navigate this delicate landscape, balancing the demand for exploration with the urgent need to protect Antarctica's unique ecosystem.",
+  "setting": {
+    "location": "Antarctica",
+    "missionStart": "Airship Launch Pad",
+    "missionEnd": "Antarctic Research Base"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Arctic Aces",
+      "description": "Specializing in eco-friendly tourist operations and scientific research."
+    },
+    "redTeam": {
+      "name": "Polar Pathfinders",
+      "description": "Experts in managing large tourist groups and minimizing environmental impact."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships must choose a landing site. One is a popular, already impacted area and the other is a pristine, untouched location.",
+      "options": {
+        "A": "Land in the previously impacted area.",
+        "B": "Land in the untouched location."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose the impacted area, minimizing further environmental damage. However, the area's appeal for tourists is declining due to previous impacts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses the impacted area, the other the untouched. The untouched wilderness impresses tourists, but doubts are expressed concerning the decision to expose it to human activity.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With one team choosing the pristine area and the other the impacted area, reactions are mixed. Tourists from the impacted area are disappointed by its condition and those from the pristine area are impressed, yet anxious about possible damage.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the pristine area. The early reviews are breathtaking, but concern grows about the risk of environmental contamination in this untouched paradise.",
+          "bonusCard": "none"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The teams must decide on the tourist capacity. Option A permits a higher number of tourists with potential higher environmental impact; Option B restricts tourist numbers to minimize impact.",
+      "options": {
+        "A": "Accommodate more tourists.",
+        "B": "Limit the tourist numbers for conservation."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to accommodate more tourists. The economic gain is substantial but the environmental impact is becoming hard to manage. Public opinion begins to waver.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The team accommodating more tourists receives initial positive publicity and economic gain, while the other team receives praise for their conservation efforts.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team opting for more tourists and the other for conservation, the compromise allows for a moderate influx of tourists without excessive environmental stress.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams chose to limit tourists for conservation. The commendation for their eco-friendly approach comes alongside the pressure to balance sustainable tourism demands.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "The teams must choose a conservation initiative. Option A involves active engagement of tourists in conservation efforts; Option B emphasizes strict regulations and area closures.",
+      "options": {
+        "A": "Engage tourists actively in conservation efforts.",
+        "B": "Implement strict regulations and area closures."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams chose to engage tourists in conservation. The visitors are thrilled to contribute, although there are concerns about their lack of expertise and potential negative impacts.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The team encouraging tourist involvement reports enthusiastic response while the other team strictly regulating their sites ensures that biologically sensitive areas remain untouched.",
+          "bonusCard": "redTeam"
+        },
+        "BA": {
+          "narrative": "With one team involving tourists in conservation and the other implementing strict regulations, the tourists' experience is diverse. Some enjoy hands-on involvement, others appreciate the pristine conditions afforded by regulations.",
+          "bonusCard": "blueTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose strict regulations, resulting in well-preserved natural conditions. However, some tourists express disappointment with the restrictions despite the positive environmental impact.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Airship Rescue: The Pangolin Mission",
+  "gameDescription": "Two advanced airships, Cygnus Harmony and Orion Haven, embark on a rescue mission to transport pangolins from Africa to a new enclosure in Vietnam. Navigating harsh weather, hostile territories, and managing delicate pangolin passengers, each decision made contributes to the mission's success while protecting these endangered creatures.",
+  "setting": {
+    "location": "Africa to Vietnam",
+    "missionStart": "African Wildlife Reserve",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Cygnus Harmony",
+      "description": "Pioneers in precision navigation and effective wildlife management."
+    },
+    "redTeam": {
+      "name": "Orion Haven",
+      "description": "Renowned for rescue missions and delicate cargo handling."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "A poaching party is spotted near the pick-up location. Time is critical, but so is the safety of the pangolins.",
+      "options": {
+        "A": "Continue towards the location, using stealth tech to avoid poachers.",
+        "B": "Hover at a distance and send out drones to fetch the pangolins safely."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams employ stealth tech and successfully retrieve the pangolins. They conserve fuel but risk detection. Their tech mastery secures a strong lead in the mission.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses stealth while the other sends drones. The drones retrieve pangolins with no human presence, earning praise from conservationists; however, their fuel reserves are slightly drained.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team sends drones, while the other uses stealth. While both successfully retrieve the pangolins, the stealthy team retains more fuel, improving their resource management.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams deploy drones, rescuing pangolins efficiently. They consume more energy but avoid potential confrontation. The joint action sets a standard for synchronized wildlife rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "The pangolins are frightened and hungry. Feeding them in-flight is tricky and could disrupt the delicate in-ship environment.",
+      "options": {
+        "A": "Use automated feeding stations that emulate hunting scenarios.",
+        "B": "Feed pangolins manually while ensuring minimal disruption."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams use feeding stations, engaging pangolins naturally and quietly. They've shown ingenuity but must observe for potential stress in the animals.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team uses feeding stations while the other feeds manually. Balancing automation and care, both airships ensure pangolin health, reflecting a dynamic mission approach.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team using automatic feeding and the other manual, the pangolins are well-fed and calm. A harmonious blend of technology and personal attention is achieved.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose manual feeding. Their efforts require more time and care but emphasize their commitment to individualized attention for each pangolin, echoing the spirit of wildlife rescue.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching Vietnam, the local air control delays landing due to heavy traffic. A quicker descent could upset the pangolins but waiting may expose them to more stress.",
+      "options": {
+        "A": "Initiate a quick descent with advanced stabilization.",
+        "B": "Hold position and calmly reassure the pangolins."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams initiate a quick descent. The stabilization keeps pangolins calm, and they land without delay. Efficient but swift, they balance their mission perfectly.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team descends quickly, while the other holds position. The waiting team has a smoother landing, demonstrating patience, while the other showcases quick decision-making.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "The team that holds position provides a stress-free environment for the pangolins, while the fast descending team faces unsettling but manageable conditions. Both approaches depict their unique problem-solving skills.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams opt to hold position, avoiding distress for the pangolins. This sensitive and patient decision shows the priority given to the well-being of their precious cargo.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

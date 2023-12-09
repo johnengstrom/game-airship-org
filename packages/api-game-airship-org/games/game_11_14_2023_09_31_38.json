@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Airlift: The Mission of Hope",
+  "gameDescription": "Two cutting-edge airships, Pygmy Wings and Giant Scales, engage in a humanitarian mission to airlift pangolins from the clutches of poachers in Africa to their new safe haven in Vietnam. Landscapes and weather patterns shift as they traverse continents, challenging their navigation skills, fuel efficiency, and the health of the onboard pangolins.",
+  "setting": {
+    "location": "Sky Routes from Africa to Vietnam",
+    "missionStart": "African Poaching Grounds",
+    "missionEnd": "Pangolin Enclosure, Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Pygmy Wings",
+      "description": "Specialists in swift operations under risky situations."
+    },
+    "redTeam": {
+      "name": "Giant Scales",
+      "description": "Renowned for their gentle cargo handling and long-haul flights."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "During the rescue operation in Africa, the airships face threats from poachers. They have to decide how to proceed without compromising the mission or their safety.",
+      "options": {
+        "A": "Deploy an AI-controlled drone swarm as a distraction.",
+        "B": "Take a stealth approach, using advanced cloaking technology."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams deploy the drone swarm, successfully distracting the poachers. While they manage to airlift the pangolins, they draw attention to the mission, making future rescues more challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team deploys drones while the other activates cloaking. The cloaked team manages to rescue more pangolins undetected. The drone team, though successful, faces backlash from local authorities for causing a disturbance.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Using cloaking, one team slips away undetected, while the drone team faces difficulties. The cloaked team rescues more pangolins and completes the mission swiftly.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams use cloaking and conduct a seamless rescue mission. They rescue a large number of pangolins without being noticed, setting the stage for a promising journey ahead.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "In-flight, the airships hit turbulence that could distress their precious cargo. They must decide how to ensure the pangolins' health and comfort during the rough flight.",
+      "options": {
+        "A": "Activate internal gravity stabilizers to maintain a smooth environment inside.",
+        "B": "Ascend higher to avoid the turbulence, risking decreased fuel efficiency."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams activate stabilizers. They manage to keep the pangolins calm and comfy, but the power draw shortens their flight time. Their timely arrival back at base may now be jeopardized.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One airship ascends, while the other keeps steady with stabilizers. The higher ship finds clear skies but notices a drop in fuel efficiency. The other airship maintains fuel levels but with drastic power usage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one ship ascending and the other stabilizing, the pangolins remain undisturbed. While both teams face potential drawbacks, their primary consideration - the safety of the pangolins - is assured.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams ascend to avoid the turbulence. Although they face decreased fuel efficiency, the comfortable and stress-free environment they create for the pangolins is praised by wildlife activists worldwide.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As they near Vietnam, they receive an urgent request to re-route and rescue more pangolins from a local poaching ring. They must decide whether to answer this call.",
+      "options": {
+        "A": "Re-route and attempt the second rescue, which extends travel time and uses more fuel.",
+        "B": "Proceed as planned to the sanctuary and report the poaching location to authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams re-route, managing to save more pangolins but using up more fuel. Their dedication inspires the public into action, increasing donations to the cause.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "The re-routing team successfully rescues more pangolins, but with a considerable delay. The team that proceeds to the sanctuary delivers their safely and on time, setting up routines for the recovery of pangolins.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "While one team heads to the sanctuary, the other tries the risky second rescue. They manage to save a few more pangolins, gaining admiration for their bravery and commitment.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams decide to proceed to the sanctuary. They report the poaching ring's location, leading to a successful raid by local authorities. The saved pangolins are then transported to the sanctuary with additional resources.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

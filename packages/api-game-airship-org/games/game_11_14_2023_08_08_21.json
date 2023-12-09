@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Antarctic Challenge: The Icy Odyssey",
+  "gameDescription": "In the foreseen future, your team, onboard state-of-the-art airships, will be navigating the pristine wilderness of Antarctica. You will face a unique challenge: managing the surge of tourism while protecting the delicate ecosystem of this last bastion of untamed nature. Use strategic decision-making to conduct scientific research, facilitate sustainable exploration, and minimize the environmental impact.",
+  "setting": {
+    "location": "Antarctic Wilderness",
+    "missionStart": "Global Airship Station",
+    "missionEnd": "Designated Antarctic Landing Sites"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Frost Guardians",
+      "description": "Masters in scientific research and environmental conservation."
+    },
+    "redTeam": {
+      "name": "Ice Navigators",
+      "description": "Experts in efficient navigation and sustainable tourism."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Select a tourist landing site. Current protests over potentially extensive damage to ecosystems and wildlife pose a challenge.",
+      "options": {
+        "A": "Choose a popular but already impacted area to avoid damage to untouched regions.",
+        "B": "Opt for a pristine, untouched location introducing tourists to unknown territories, but risks disturbing new areas."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both airships land in the already impacted site. The existing infrastructure can handle tourist influx, but continuous pressure exacerbates the existing damage.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team lands on the popular site, the other in the untouched region. New areas are disturbed, yet a broader understanding of Antarctica is gained. Biodiversity studies are hampered.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Teams split the tourists between impacted and pristine sites, reducing pressure on both regions. Biodiversity on the untouched site begins to show signs of disturbance.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams explore untouched locations, offering tourists a diverse experience. Yet, disturbances to these pristine ecosystems commence, a double-edged sword of exploration.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "A rising demand for Antarctic tourism necessitates effective management. Balancing revenue and environmental preservation is key.",
+      "options": {
+        "A": "Increase tourist capacity to leverage rising demand, risking greater environmental impact.",
+        "B": "Limit tourist numbers, placing environment above revenue considerations."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams let in more tourists, reaping economic benefits but increasing environmental strain. The impact on native species becomes evident as resource management becomes challenging.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team increases tourists, the other limits inflow. The increased pressure on one area allows temporary respite for another, but overall impact escalates.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team prioritizing economy and the other environment, the pressure on Antarctic resources is moderately managed. However, the dichotomy in tourism models generates fresh debates.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose to limit tourist numbers. Antarctic preservation is prioritized over economic gain, setting a precedent for sustainable tourism, albeit at the cost of immediate revenues.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Promote conservation initiatives to counteract the rising impact of tourism. Better policies for the fragile Antarctic ecosystem are needed.",
+      "options": {
+        "A": "Engage tourists in conservation efforts, but this could cause inadvertent harm from untrained individuals.",
+        "B": "Implement strict regulations and area closures, risking negative reactions from tourists seeking a quintessential Antarctic experience."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams opt for engagement. Tourists become part of the solution, yet some unintended damage is done due to lack of expertise. The learning curve is steep, and some species suffer.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team involves tourists in conservation, the other enforces regulations. The contrast triggers debates on conservation ethics, while overall environmental impact continues.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team fostering involvement and the other relying on strict rules, an equilibrium is reached. Yet, tensions mount as tourists demand both experiences.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams enforce strict regulations. Managed human footprints minimize the impact on Antarctica's fragile ecosystem, demonstrating the power of regulations in preserving biodiversity.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

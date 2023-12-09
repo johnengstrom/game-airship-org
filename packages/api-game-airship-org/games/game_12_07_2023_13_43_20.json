@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Operation Pangolin Salvation: The Aerial Crusade",
+  "gameDescription": "Two advanced airships embark on a humanitarian mission to transport vital supplies, technology, and specialists to aid Greater Good Charities and Wildlife At Risk in Vietnam. The objective is to ensure the safe relocation of endangered pangolins to the new enclosure, while minimizing environmental impact.",
+  "setting": {
+    "location": "Above Southeast Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Ariel Protectors",
+      "description": "Known for precision navigation and strategic decision-making."
+    },
+    "redTeam": {
+      "name": "Sky Wardens",
+      "description": "Experts in cargo handling and wildlife preservation."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "As the airships fly over war-torn regions, they encounter the risk of being targeted. The ships must decide how to navigate.",
+      "options": {
+        "A": "Deploy ECM jammers to deflect any potential missile attacks.",
+        "B": "Fly at extremely low altitude blending with the landscape to avoid detection."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams activate their jammers. Their advanced technology keeps them safe, but it consumes more energy impacting their hydrogen reserves. The teams, while safe, are now on a tighter fuel budget.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team deploys ECM jammers while the other chooses to fly low. The low-flying airship handles harsh winds impacting cargo safety, while the other successfully manages to avoid conflict.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "One team flies low, while the other deploys jammers. The low-flying team is safe but the rough conditions disturb the pangolins while the other team has a peaceful passage yet depleted fuel reserves.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams fly low to avoid detection, risking the safety of the sensitive cargo, the pangolins. Expert navigation and skill manage to ensure safety without any extra fuel usage.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Both airships receive an urgent message from the African Pangolin Working Group about a group of poachers targeting a colony of pangolins.",
+      "options": {
+        "A": "Divert course to rescue the pangolins and confront the poachers.",
+        "B": "Continue on the current path and leave the situation to local authorities."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams divert their course. They manage to rescue the pangolins and scare off the poachers, but the detour uses up significant hydrogen reserves.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team chooses to confront the poachers while the other continues, leaving local authorities to their role. Rescuing more pangolins, the confronting team uses extra fuel but saves more lives.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team diverting and the other maintaining course, the mission's efficiency balances out. A few more lives saved are worth the price from a detour.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue on their original path. The local authorities step in and successfully control the poaching situation. This decision saves hydrogen and respects local authorities' role.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "As the airships approach Vietnam, they receive news of a tropical storm forming on the coast.",
+      "options": {
+        "A": "Speed up to outrun the storm but use extra hydrogen.",
+        "B": "Navigate through the storm with risk to cargo and crew safety."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams speed up, outrunning the storm, but at the cost of extra hydrogen. It was a risky calculation, but it ensured the safety of the crew and the precious pangolins.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "One team speeds up while the other ventures into the storm. The speeding team faces a reprimand for early arrival, while the other team's daring move earns them praise for their courage.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "With one team risking the storm while the other speeds ahead, the mission concludes with heightened emotions. Both teams choose different paths, but no pangolins are harmed.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams face the storm, using their advanced tech to guide their way. They're hailed as heroes who put the mission and the pangolins above their safety, giving the world a great example of conservation.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}

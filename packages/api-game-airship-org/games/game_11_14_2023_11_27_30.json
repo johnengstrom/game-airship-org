@@ -1,0 +1,99 @@
+{
+  "gameTitle": "Pangolin Dispatch: The Wings for Survival",
+  "gameDescription": "Two futuristic airships, Skyguardian and Cloudsaviour embark on a crucial mission to transport rescued pangolins from poaching hotspots to a newly built enclosure in Vietnam. Emanating from Africa, they have to navigate even the shortest leg of the journey with utmost care. Poaching threats, weather patterns, and air-traffic regulations could affect their mission’s success.",
+  "setting": {
+    "location": "Above Africa and Asia",
+    "missionStart": "Africa",
+    "missionEnd": "Vietnam"
+  },
+  "teams": {
+    "blueTeam": {
+      "name": "Skyguardian",
+      "description": "Known for their stealth mode and expert navigation in hostile territories."
+    },
+    "redTeam": {
+      "name": "Cloudsaviour",
+      "description": "Specialists in airborne animal transport with a focus on sustainability."
+    }
+  },
+  "turns": [
+    {
+      "turnNumber": 1,
+      "scenario": "Both airships take off with pangolins onboard, amidst guarded territories. An anonymous tip warns of a potential poacher attack.",
+      "options": {
+        "A": "Use stealth tech to become undetectable but consume more hydrogen.",
+        "B": "Stay on the original route with regular surveillance updates."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams switch to stealth mode. Being undetectable, they dodge potential threats but consume considerable hydrogen, testing their sustainability.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyguardian goes stealth while Cloudsaviour remains on the original route. While Skyguardian dodges the threats, Cloudsaviour counters a hostile drone but remains fuel-efficient.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cloudsaviour goes stealth while Skyguardian persists on the original route. The undetectable Cloudsaviour adds a shield of security while Skyguardian balances the mission's sustainability.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams continue on the original route. Their collective surveillance repels the poacher's drone attack, boosting their camaraderie for this sensitive mission.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 2,
+      "scenario": "Just before they enter the European airspace, a blizzard looms ahead.",
+      "options": {
+        "A": "Engage weather modification equipment to lessen the storm's impact.",
+        "B": "Deviate to a longer but safer route."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams engage the weather mod systems, successfully reducing the blizzard's impact. However, the pangolins get stressed during the operation, a challenge the teams need to handle.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyguardian battles the storm while Cloudsaviour deviates for a safer route. Skyguardian has a head start, but the deviation means less stress for the pangolins in Cloudsaviour.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cloudsaviour braces the storm while Skyguardian chooses the safer, longer route. It's a delicate balance between time-efficiency and passenger safety for both.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both teams choose the safer, longer route. The additional time taken is justified by the importance of the mission's delicate and sentient cargo. Mutual aid and understanding become their strength.",
+          "bonusCard": "shared"
+        }
+      }
+    },
+    {
+      "turnNumber": 3,
+      "scenario": "Approaching the Vietnamese enclosure, strict air-traffic regulations require precise timing. An early or late arrival could distress the pangolins further.",
+      "options": {
+        "A": "Opt for a controlled speed-up using a hydrogen boost.",
+        "B": "Maintain current speed and ensure optimal timing with traffic control."
+      },
+      "outcomes": {
+        "AA": {
+          "narrative": "Both teams choose the speed-boost, ensuring optimal arrival timing but at the cost of higher hydrogen consumption. Their commitment to mission success overshadows the sustainability prospects.",
+          "bonusCard": "none"
+        },
+        "AB": {
+          "narrative": "Skyguardian boosts speed while Cloudsaviour liaises with traffic control. The steady approach adopted by Cloudsaviour translates into zero pangolin distress, a minor but vital victory.",
+          "bonusCard": "blueTeam"
+        },
+        "BA": {
+          "narrative": "Cloudsaviour goes for the speed-boost while Skyguardian sticks to regulation speed. The fine coordination between them smooths the approach despite contrasting techniques.",
+          "bonusCard": "redTeam"
+        },
+        "BB": {
+          "narrative": "Both airships maintain speed and coordinate with traffic control. Their successful navigation, minimizing pangolin distress and conserving hydrogen, is a tribute to methodical planning and execution.",
+          "bonusCard": "shared"
+        }
+      }
+    }
+  ]
+}
